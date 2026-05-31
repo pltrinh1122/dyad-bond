@@ -137,6 +137,11 @@ by this session's relapses (bound D4→abdicated; bound SG-2→bureaucracy). **R
 **APPLIED:** Bond-disciplines index → this ledger's §How-to-resume (the reloaded set). **Residual:** the
 within-session-attention half (#3) unproven; anchor-index deferred. → `dialectic/ingraining.md`.
 **Falsifiable:** next fresh session, do D1–D5 fire without re-derivation?
+→ **n+1 telemetry (this session, the close-calibration arc):** SG-3 authored, then SG-2 + the
+abdication-clause violated *the very next turn* (mechanical push wrapped in a DFD-CTA; "your move").
+**Within-session** capture≠behavior now evidenced, not just the cross-session hypothesis — the
+attention-half (#3) gap is real. **Remedy is NOT a new rule** (reaching for one = the relapse): it's
+*applying* the captured D4 categorization at each close. Proof = next clean close (Operator's watch).
 
 ### F — Steward-discipline intake  ·  status: RUN 2026-05-31 (findings = candidates, NOT yet adopted)
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
