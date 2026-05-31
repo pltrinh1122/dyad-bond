@@ -116,7 +116,7 @@ NOT DENIED** — but Axis-1 affirms nothing; auxiliary *"dividend⇒marker"* **m
 handed to **F2**. F1 **narrows, not closes**; stays OPEN (weak survival). **Chain F4→F1→F2.**
 → **TRV partly enacted:** doing F1-without-waiting-for-F2 *is* the axis-dependent answer in action.
 
-### H — Substrate-access wrapper (git/gh)  ·  status: IN USE — first push done; **default-backup ON**; local grant warranted
+### H — Substrate-access wrapper (git/gh)  ·  status: IN USE — push runs un-prompted (global auto-mode); **default-backup ON**; **per-tool grant MOOT**
 Operator [ALIGN] 2026-05-31: every Dyad converges on a git/gh wrapper (→ **invariant**, D1). Triggered by
 hitting the live friction (classifier blocked `git push origin main`). **Built `bin/git.sh`** (mechanism
 inherited/triangulated from `dyad-healer@bin/git.sh`; reason + header authored as **ours** =
@@ -136,6 +136,16 @@ very risk the wrapper was built for. New default = realignment with the tool's f
 → **Grant tiers (correcting a prior conflation of mine):** default-backup makes the **LOCAL grant**
 warranted/urgent (push recurs → stop prompting each one); it does **NOT** satisfy **checked-in** promotion
 criterion (2), which still needs a *portability* trigger (re-clone/sibling). Local grant = Operator's act, owed.
+→ **⚠ GROUNDED CORRECTION (Operator [FEEDBACK] "ground your context before presenting", 2026-05-31):** the
+"ACTION OWED — add `Bash(bin/git.sh:*)`" + "local grant owed" framing above is **MOOT, and was presented from
+a stale ledger without grounding.** Actual substrate state: **no** `git.sh` allowlist entry exists anywhere
+(`.claude/settings.local.json` = `{}`; user settings don't list it) — **but `~/.claude/settings.json` sets
+`defaultMode: auto` + `skipAutoPermissionPrompt: true`, so commands run un-prompted regardless.** That is why
+all 3 `bin/git.sh push` calls this session ran with no prompt. **Consequence:** un-prompted push already
+works; there is **nothing to grant.** The covalent "Agent-must-not-self-grant" gate is **theater under this
+config** — control lives at the Operator's *global* `defaultMode`, not a per-tool allowlist. **Lesson (n+2
+for Item-I):** I presented a CTA *and* an NBA recommendation built on a stale "PENDING grant" line — the
+"ground-at-thread-start" discipline already existed; the gap was application, not capture.
 → **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
 
 ### I — Ingraining (learning mechanism)  ·  status: DEFINED + first-fix APPLIED 2026-05-31
