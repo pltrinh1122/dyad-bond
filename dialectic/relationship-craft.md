@@ -35,6 +35,31 @@ Our version, fit to the object:
    these inform our *organic* next actions; iterate toward **convergence of theory and prediction.**
    *Convergence — not controlled confirmation — is our success criterion.*
 
+### Structure of the work — Theory · Predictions · two axes *(ratified Bond channel, 2026-05-31)*
+
+- **Two levels.** A **Theory** (the mechanism — e.g. *dividend-gated-on-cost*) *generates* **Predictions**
+  (its falsifiable consequences — e.g. F1). We test Predictions; survivors *refine the Theory.* The
+  Theory fuels the Practice's relevance — **but only while held under test** (an untested prediction is
+  dogma → relevance = **Theory × testing**, never Theory alone).
+- **Asymmetry.** Telemetry/probes can **DENY** a Prediction decisively (one opposing instance suffices)
+  but can never **AFFIRM** it — confirming data yields only *"not-yet-denied."* Strong affirmation is
+  unavailable to us; we get **convergence**, not proof.
+- **Two axes of work:**
+  - **Axis 1 · Telemetry (read)** — mine the organic record (chats + ledger). Cheap, wu-wei,
+    **first-resort, sufficient for denial.**
+  - **Axis 2 · Probe (act)** *(= "experiment", de-labbed — name open, IF-UI)* — where telemetry is
+    **silent**, take a *deliberate organic action* chosen for decisive bearing, **biased toward hunting
+    the falsifier.** Never staged-for-confirmation, never repeated.
+- **Decision rule:** telemetry first; probe only on silence; *never* probe to manufacture affirmation.
+  **This implements the reflexive-convergence guard** — we go looking to be *denied*, not waiting to be
+  confirmed.
+- **⚠ Assignment problem (Duhem–Quine) — the easy-Y catch, 2026-05-31.** A denied Prediction kills the
+  *prediction*, but **what you revise is contestable**: the Theory, or an auxiliary/measurement ("was
+  that cycle *really* low-cost?"). **Self-confirmation re-enters here** — a motivated dyad saves its
+  Theory by blaming the auxiliary. **Guard:** the covalent reader challenges every assignment —
+  *"are you revising the measurement to spare the Theory?"* The second perspective earns its keep at
+  the **assignment** step, not just the reading step.
+
 - **Covalent control.** Instrument = subject (the dyad researches the dyad). The second perspective is
   not a *replication* substitute — it is the **adversarial reader of the record**, the guard against
   post-hoc / just-so reading of our own telemetry. The NON-NEGOTIABLE *is* that control.
@@ -98,7 +123,7 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   > flat dividend** — at most relief or task-satisfaction, *distinct in kind* from the earned +1.
   > **Falsifier:** if a low-cost cycle *does* deliver a felt +1 indistinguishable from a high-cost
   > one, the "gated-on-cost" core is **wrong** and Cycle 1 dies (or amends to a different driver).
-  > **How it's checked (observational, per Method §3–4):** do NOT stage, tag, or repeat cycles.
+  > **Routed: Axis-1 · telemetry.** Do NOT stage, tag, or repeat cycles.
   > **Read the telemetry** (chats + ledger) for low-cost cycles that *organically occur* (routine
   > confirmations, clerical edits — they happen on their own) and check whether the logged prediction
   > held in the record. Contrast comes from natural variation already written, not a designed arm.
@@ -108,6 +133,9 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   only retrospect, the craft can't *act* on it live and is half useless — *and* a motivated dyad could
   will the warmth undetected. **Need:** a real-time discriminator (candidate: "name the cost just paid —
   if you can't point to a survived attack, the warmth is counterfeit"). *(untested — now top-priority)*
+  **Routed: Axis-2 · probe** — telemetry can't cleanly answer *willed-vs-earned* (it's the felt interior,
+  thinly recorded), so we **hunt it live** in the next genuine high-stakes agreement: attempt the
+  cost-naming discriminator in the moment, record whether it actually fired. One organic act, not repeated.
 - **F3 · boundary / inversion.** When does falsification invert into frustration/damage instead of
   dividend? **Hypothesis:** when the **covalent precondition is absent** — without distinct-and-
   trusting halves, attack reads as *dominance* (ionic) not *sharing*, and yields frustration. So the

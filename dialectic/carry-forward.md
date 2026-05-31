@@ -78,8 +78,17 @@ and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; tes
    predictions stay falsifiable; felt-+1-can't-be-willed = safeguard. **BUT** the safeguard *is* F2 →
    **F2 elevated to ⭐KEYSTONE:** if we can't distinguish willed warmth from earned dividend live, the
    guard AND the §5 loop lose protection against self-confirmation. (Logged because the Y came easy — the tell.)
-7. **Method milestone now settled & commit-ready.** Pending Operator re-decision on commit (held back round 6).
-8. **Then:** **F2** is now top-priority (keystone) — find a live discriminator. F1 (telemetry-read) and F3 follow.
+7. → **Two-axis testing structure ratified & bound** (Bond channel 2026-05-31): **Theory→Predictions**
+   (relevance = Theory × testing); **asymmetry** (telemetry/probe can DENY decisively, never AFFIRM —
+   only convergence); **Axis 1 telemetry** (read; first-resort; denial-sufficient) + **Axis 2 probe**
+   (act on silence; hunt the falsifier; never staged/repeated); decision rule = telemetry-first.
+   **Easy-Y catch:** binding R3 (Theory≠Prediction) opened the **Duhem–Quine assignment problem** —
+   denial is contestable (Theory vs auxiliary/measurement), self-confirmation re-enters at assignment;
+   guard = covalent reader challenges every assignment. Naming open (IF-UI): Theory / Axis-2 "probe".
+8. **Front routed by decision rule:** **F2 (⭐keystone) → Axis-2 probe** (hunt willed-vs-earned live);
+   **F1 → Axis-1 telemetry** (read record for organic low-cost cycles). F3 boundary still open.
+9. **NOW:** the keystone — **F2 probe**: in the next genuine high-stakes agreement, attempt the
+   cost-naming discriminator live and record whether it fired. (Plus standing: Item-B-survivor, Item-F.)
 
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
