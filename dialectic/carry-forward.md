@@ -258,3 +258,13 @@ Two-substrate. Supersedes the earlier ad-hoc draft.*
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
   Item E Cycle 1 opened; new Item F (steward-discipline intake) surfaced.
+- **Session 2026-05-31 (cont.)** (Covalent): **Item-C CLOSED** — `kb/dfd.md` bond-re-confirmed (ionic-sound,
+  meld-edge noted); 5 inherited cluster files custody-marked (inherited≠bond-settled). **D4 SG-3 authored**
+  (NBA ready-set must scan the *live-friction node* first, not just the logged backlog — the mechanism
+  behind thread-G's telemetry); **n=1 candidate, deferred-not-promoted** per Operator [ALIGN]. **Close-
+  calibration arc:** whipsawed over↔under-anchor for ~6 turns (menu → "your move" → DFD-on-mechanical-push →
+  manufactured-CTA); Operator caught each. **Lesson = application, not capture** — SG-2 + the anchor-spectrum
+  were *already indexed* and violated anyway → **no new rule warranted; reaching for one is the relapse.**
+  Item-I n+1 telemetry logged (within-session capture≠behavior). Commits `cede105·72dccb0·5a29d64·7ac5f09`,
+  **local — push deferred (no portability trigger; local commit = restart memory).** **Next-session test:
+  does the close-calibration fire un-prompted? (Operator watching.)**
