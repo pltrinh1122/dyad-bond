@@ -264,3 +264,15 @@ verdict. **(3) Dispose** — a selection-seam **always terminates in a mandatory
   still **converges open, no CTA.** The original failure was running ideation-mode at a selection-seam.
 - **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
   *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
+- **Grounding — PS-UI *is* the anti-Operator-sycophancy guard** *(adopted 2026-05-31, Item-F triangulation).*
+  Our NON-NEGOTIABLE names anti-*Agent*-sycophancy hard (don't rubber-stamp the Operator); its **mirror**
+  was under-named: **anti-*Operator*-sycophancy** — the Operator caving to a lazy `Y`. The Agent has a
+  **duty to prevent it**: never present a frame that *induces* rubber-stamping (an asserted verdict with
+  hidden scoring = a persuasive frame with nothing to push against). The **scored PS-UI render** is that
+  duty made concrete — it gives the Operator real grounds to dispose or dissent. **Lived proof, same
+  session:** PS-UI v1 (opaque ranking) drew the Operator's "*insufficient to confidently dispose*"; v2
+  (scored, contestable cells) fixed it. **Triangulation:** steward's `sycophancy-guard.md` *independently
+  derived* this same guard (strong non-strawman `[ANTI-THESIS]`) → **invariant**, a form-contribution
+  candidate. *Candidate NON-NEGOTIABLE extension* (name the Operator-cave mirror + the Agent's anti-cave
+  duty) — held here in `dialectic/`, **not** yet promoted to the anchor. *(Edge we keep vs steward: our
+  ionic/**meld** axis holds merger-collapse, absent from steward's cave/dominate 2×2.)*
