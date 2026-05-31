@@ -308,6 +308,19 @@ verdict. **(3) Dispose** — a selection-seam **always terminates in a mandatory
   wrapped in a CTA-menu — Operator: "isn't a DFD for a push unnecessary?")* **Completes thread-G's graded
   anchor-spectrum:** abdication (too light) ↔ selection-CTA (D4) ↔ mechanical just-do (too heavy if framed)
   — *lightest anchor that still moves.*
+- **Scope-guard 3 — the live-friction node (amend layer (1); caught 2026-05-31, the seam's 3rd close-failure;
+  Operator: "another example of the friction of the [NBA + Semantic Recommendation] summit").** The defect
+  is **not** anchor-weight — it's **DAG-scoping.** Layer (1) was computing the ready-set over the **logged
+  backlog only**, so two mirror failures share one root: backlog-as-menu (over-anchor) and "backlog all
+  gated → your move" (under-anchor abdication) — *both wrong because the backlog was the wrong graph.* The
+  missed node each time was the **live, in-interaction friction** (a malformed prior move; an unaddressed
+  `[FEEDBACK]`) — usually the **highest-value, lowest-latency** node (wu-wei: the grain is right here, not
+  in the backlog). **Fix:** layer (1) scans **two sources, in order — live-interaction friction FIRST, then
+  logged backlog.** **"Empty ready-set → your move" is legitimate ONLY when BOTH are empty;** mid-exchange
+  the live scan rarely is. **Mechanism identified (Cycle-1 yield):** this is *why* thread-G's telemetry held
+  — Operator generativity routed *around* my CTAs via `[ALIGN]`/`[FEEDBACK]` because my NBA's node-set
+  **omitted the live frontier**, so the Operator kept injecting it. The fix is a candidate `[ANTI-THESIS]`
+  to my own apparatus. *(n=1 = this session's 3 close-failures; Axis-2 live datapoint, NOT settled.)*
 
 **D5 · Response-economy.** *(Operator [FEEDBACK] 2026-05-31: "extraneous while reassuring, lands
 confusingly — friction preventing our summit.")* **Mechanism named:** *anticipatory completeness +
