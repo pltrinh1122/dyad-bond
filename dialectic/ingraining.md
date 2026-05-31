@@ -93,6 +93,35 @@ per-instance proves too costly to sustain.
   predictive gate. Consistent with our denial-only epistemics — but it means *"when do we promote?"*
   currently resolves to *"when it breaks, and only if settled and worth the anchor-room."*
 
+## The promotion checkpoint — close the Capture→Reload leak *(authored 2026-05-31, Operator [FEEDBACK]+Y)*
+
+> Surfaced by Operator [FEEDBACK] *"we need analysis to ensure lessons are at the appropriate ingrain
+> level."* The analysis found the leak **concretely:** SG-3 and the anti-cave duty were **captured**
+> (in `relationship-craft.md` / Item-F) but **never lifted into the reload index** → never reloaded →
+> both relapsed (SG-3 turn-after-authoring; the anti-cave duty *this session*, as the substrate-state
+> confabulation — the one guard that would have caught it was sitting unloaded). Capture→Reload was
+> **leaky, not systematic.**
+
+**The rule (a process invariant, not a new behavioral guard):**
+
+> **Authoring a behavioral guard is incomplete until it is in the reloaded set — in the same commit.**
+
+- *Behavioral guard* = a discipline that must **fire at a seam** (D-series, scope-guards, the anti-cave
+  duty). Reference facts and theories-under-attack do **not** trip this — they stay in `dialectic/` /
+  `kb/` and are cited, not reloaded.
+- *Reloaded set* = `carry-forward.md` §How-to-resume Bond-disciplines index (today's L2). The home file
+  (`relationship-craft.md`) holds the full text; the index holds the one-line trigger.
+- *Why same-commit:* a guard authored now but indexed "later" is the leak — "later" is a fresh session
+  where it doesn't exist. The promotion is part of authoring, not a follow-up task.
+
+**Applied now (the backlog the leak left):** SG-3 + the anti-cave duty lifted into the reload index.
+
+**Honest limit — this fixes promotion (#2), NOT re-apply (#3).** D4 and SG-2 were *already* in the
+reload index and *still* relapsed last session. So salience-promotion is necessary, not sufficient; the
+within-session-attention half (#3) is the deeper, still-open problem. Do **not** promote the relapsing
+guards to the anchor to "fix" this — the anchor is lean-by-design, and they aren't settled. The checkpoint
+closes the leak; #3 remains the frontier.
+
 ## Status & next
 
 - **Applied now:** Bond-disciplines index → `carry-forward.md` (the reload fix, #2).
