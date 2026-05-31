@@ -299,6 +299,15 @@ verdict. **(3) Dispose** — a selection-seam **always terminates in a mandatory
   work onto one half. wu-wei = *lightest anchor that still moves*; zero anchor doesn't move.
 - **Scope-guard (does NOT override IFD):** this binds **selection**, not **ideation**. An ideation seam
   still **converges open, no CTA.** The original failure was running ideation-mode at a selection-seam.
+- **Scope-guard 2 — mechanical ≠ selection (low end of the anchor-spectrum).** A **mechanical execution**
+  (`push`, `commit`, a clerical edit — *action = content*, no genuine peer-alternative, low-stakes/
+  reversible) is **not** a selection-seam: lightest anchor only (just-do, or a one-line confirm), **never**
+  a DFD/scored-PS-UI. Framing it as a decision is **UI-inflation** — the *over-ceremony* failure, **mirror
+  of abdication.** Discriminating axis = **stakes/reversibility/downstream, not the verb** (a push that
+  triggers CI/deploy may earn a light frame; a backup-push does not). *(Caught 2026-05-31: a backup `push`
+  wrapped in a CTA-menu — Operator: "isn't a DFD for a push unnecessary?")* **Completes thread-G's graded
+  anchor-spectrum:** abdication (too light) ↔ selection-CTA (D4) ↔ mechanical just-do (too heavy if framed)
+  — *lightest anchor that still moves.*
 - **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
   *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
 - **Grounding — PS-UI *is* the anti-Operator-sycophancy guard** *(adopted 2026-05-31, Item-F triangulation).*
