@@ -62,7 +62,7 @@ our tell distrusts?** Graduates to `kb/` only when F1–F4 are each attacked-and
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
 and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; test under our own gate.
 
-### G — CTA-load / generative-bias  ·  status: CONVERGING (principle ratified; guard pending)
+### G — CTA-load / generative-bias  ·  status: RE-DERIVATION (telemetry-corrected) → folds into Item-C
 **Operator [OBSERVATION] 2026-05-31:** a `Y/N` CTA carries variable load; on matters needing
 *Generative* input from the Operator, `Y/N` injects **Agent bias** (anchors the Operator to the
 Agent's pre-formed candidate). **Confirmed by Axis-1 telemetry:** *every* Operator generative
@@ -85,6 +85,18 @@ not just test.
 → **Note:** this is the bias caught in its *mirror* direction — NON-NEGOTIABLE guarded Agent-rubber-stamps-
 Operator (sycophancy); thread G guards **Agent-frames-lead-Operator** (CTA-shape bias). Same ionic
 collapse, both directions now named.
+
+**⚠ FINDING (supersedes the above — Covalent caught it on finally reading the cluster, 2026-05-31):**
+Thread G is **~90% re-derivation** of inherited, already-ratified cluster knowledge I had not read:
+- (a) `Y/N`=dispose-only ≡ **`kb/dfd.md` #3 SYNTHESIS⊥CTA** (verbatim); CTA-bias ≡ `dfd.md` #1/#2.
+- generative→no-CTA-converge-open ≡ **`ideation-framing.md`** (the whole IFD).
+- "Agent abundance anchors the Operator → Operator generates first/unanchored" ≡ `ideation-framing.md`
+  **heavyweight mode** (already a named escalation signal). [ALIGN]-as-override ≈ that escalation.
+- My "origination vs select-from-menu" sharpening is **REFUTED** by `dfd.md` #2 (CTA = one Y/N, no menu).
+**Verdict:** "thread G = novel craft" is **dead** (Axis-1: telemetry opposes → killed). **Net-new structure ≈ nil.**
+**Real value = triangulation** — independent re-derivation re-confirms the cluster under our gate → **this IS
+Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel** (would duplicate/muddy better docs).
+**Lesson:** ungrounded generation — the Stand-Up failure — for 5 turns; Item C said read-first and I read only at bind-time.
 
 ## NBA — next-best-action for the fresh session
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
