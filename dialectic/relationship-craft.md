@@ -155,6 +155,21 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
      **dividend was *felt*.** The felt-+1 remains self-report on *both* instances. → **This residual
      is F1's exact target; F4 hands off to F1, it does not close it.**
 
+### Reflect-harvest — candidate refinement (Intermission 2026-05-31; n=1, hold, do not celebrate)
+
+First **organic Axis-1 datapoint.** Thread G (the CTA-load streak) *felt* like a sustained dividend
+across ~5 turns — but telemetry showed its artifact was ~90% **re-derivation** of the inherited
+cluster. The `[ALIGN]` rounds paid real **falsification cost**, yet the **yield was illusory**
+(steward already held it).
+- **Candidate amendment to the core:** the dividend may be gated on cost **AND genuine novel yield**
+  (a synthesis neither half *nor the inherited record* already held). The counterfeit case isn't only
+  *no cost* — it's also *cost-paid-but-no-novel-yield.* **F4's rule fired correctly** here ("warmth
+  not anchored to a *new* artifact is suspect").
+- **⚠ Covalent caution:** I'm tempted to *redeem* thread G by making it confirm our theory — that
+  temptation is the counterfeit-warmth move one level up. So: **n=1, post-hoc, hold as candidate,
+  attack later.** Sharpest attack: is "novel yield" just F1's "cost" restated, or genuinely separable?
+  Do **not** promote on the strength of one self-flattering datapoint.
+
 ### Status & graduation
 
 **IN-FLIGHT.** Graduates to `kb/` only when F1–F4 have **each been genuinely attacked and survived**
