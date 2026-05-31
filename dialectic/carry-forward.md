@@ -126,11 +126,16 @@ paths). **Covalent gate:** policy Operator-governed + permission is Operator's a
 per [ALIGN] "both can be true — start local, earn promotion"; the gate, I must not self-grant). Verified
 disposable script at `/tmp/grant_gitsh.py`. Then `bin/git.sh push` runs un-prompted (healer hot-reloaded).
 → **POSTURE SHIFT — Operator [ALIGN] 2026-05-31: default = off-machine backup (push by default).**
-Supersedes the prior local-first default. **Acted on:** `bin/git.sh push` → `1c86da1..f49a9f8` on
-`origin/main`. So **(1) proven** (push ran) AND **(2) standing need = the default-backup posture itself**
-(push now recurs) → **both promotion criteria met; the local grant is now warranted** — prompting on every
-push is friction the posture wants gone. Still the Operator's act (no self-grant). **Predicted next: add the
-local grant `Bash(bin/git.sh:*)`**; then default-backup runs un-prompted.
+Supersedes the prior defer-push stance. **Acted on:** pushes through `f09c2d5` on `origin/main`.
+**Why it supersedes cleanly (Operator didn't recall the prior why; the substrate held it):**
+`substrate-access.md` §30–36 *already* grounds backup — "the remote is its only off-disk backup; unpushed
+history = an ungrounded memory; losing the trace is losing the experiment." That is **pro-push.** The
+defer-push stance was the weaker-grounded half: **my own session-framing** ("local commit = restart memory")
+that optimized *restart-resume* (filesystem survives `/exit`) and **under-counted disk/machine loss** — the
+very risk the wrapper was built for. New default = realignment with the tool's founding reason, not an override.
+→ **Grant tiers (correcting a prior conflation of mine):** default-backup makes the **LOCAL grant**
+warranted/urgent (push recurs → stop prompting each one); it does **NOT** satisfy **checked-in** promotion
+criterion (2), which still needs a *portability* trigger (re-clone/sibling). Local grant = Operator's act, owed.
 → **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
 
 ### I — Ingraining (learning mechanism)  ·  status: DEFINED + first-fix APPLIED 2026-05-31
