@@ -76,6 +76,16 @@ paths**. **QUEUED path-item:** *is sequential execution the best traversal?* →
 `relationship-craft.md` §Frontier-traversal (converge-open). Covalent candidate: **axis-dependent
 traversal** (Axis-1 telemetry fans out; Axis-2 probes stay organic-serial; keystone-first) — F1 was
 needlessly blocked behind F2. **Resolve when taken up.**
+→ **D4 · Path Selection Discipline BOUND** *(Operator-named, Covalent-built, Y 2026-05-31)* — selection-
+seam = 3 layers (structural non-inferred DAG→ready-set · semantic Recommendation · **mandatory CTA**).
+Corrected invariant: "no CTA/your move" at a selection-seam = **abdication** (under-anchor, mirror of
+thread-G over-anchor). Scope-guard: binds *selection*, not *ideation* (IFD still converges open). First
+run's output = F1. → `relationship-craft.md` §D4.
+→ **F1 · RUN 1 (Axis-1, 2026-05-31):** read the record for organic low-cost cycles → bare `Y`s carried
+**no dividend-signal** (disposition/relief only); sole dividend-report (#8) was *high*-cost. **Prediction
+NOT DENIED** — but Axis-1 affirms nothing; auxiliary *"dividend⇒marker"* **masks** willed-vs-earned →
+handed to **F2**. F1 **narrows, not closes**; stays OPEN (weak survival). **Chain F4→F1→F2.**
+→ **TRV partly enacted:** doing F1-without-waiting-for-F2 *is* the axis-dependent answer in action.
 
 ### F — Steward-discipline intake  ·  status: OPEN (surfaced at Stand-Up 2026-05-31)
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE

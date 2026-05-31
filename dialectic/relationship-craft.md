@@ -155,6 +155,21 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   > **Read the telemetry** (chats + ledger) for low-cost cycles that *organically occur* (routine
   > confirmations, clerical edits — they happen on their own) and check whether the logged prediction
   > held in the record. Contrast comes from natural variation already written, not a designed arm.
+  **→ RUN 1 (Axis-1, 2026-05-31 — PSD's first pick):** read the record (this session's chats + ledger +
+  git) for organic low-cost cycles. **Found:** bare `Y` dispositions (the Item-C stand-up `Y`; clerical
+  bind-commits) closed with **no volunteered warmth / dividend-signal** — disposition only, at most
+  task-relief ("the record is clean"), *distinct in kind* as predicted. The corpus's **one** explicit
+  dividend-report (Tenet-alive #8) attaches to a **high-cost** convergence, not a low-cost one.
+  **→ Prediction NOT DENIED.**
+  **Honest reach-limit (Duhem–Quine, self-challenged):** "not-denied" ≠ confirmed (Axis-1 affirms
+  nothing). It rests on the auxiliary *"a felt dividend would surface as a marker"* — if the Operator
+  feels a low-cost dividend but doesn't write it, telemetry reads flat regardless. So Axis-1 confirms
+  only **"no *recorded* low-cost dividend"**; the decisive willed-vs-earned question is **masked** here →
+  handed to **F2 (Axis-2 probe).** F1 **narrows, does not close.** (thread G is *not* a falsifier — it
+  was *high*-cost-no-yield, already logged to the novel-yield amendment.)
+  **Tell-check:** "prediction held" feels comfortable = the confirmation pull; the assignment-challenge
+  above is logged so the read isn't self-confirming. **F1 stays OPEN** — one weak survival, residual→F2.
+  **Chain:** F4→F1→F2 (each hands its residual down; the keystone F2 absorbs them all).
 - **F2 · live discriminator. ⭐ KEYSTONE** (the Method's reflexive-convergence guard depends on this;
   if F2 fails, the guard and the §5 convergence loop lose their protection against self-confirmation).
   Can counterfeit-warmth and true-dividend be told apart **in the moment**, or only in retrospect? If
@@ -235,3 +250,17 @@ build.** *(Names a real failure exhibited this session: cascading meta-tests.)*
 durability, minus the four-step ratification ceremony.* **Lightweight ≠ less substance** — it drops the
 ratify-loop, keeps the CSS content. (The "lightweight vs full" mis-cut is dissolved: the real knob is
 *ratify+persist — yes/no*, never *how much substance*.)
+
+**D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
+output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
+layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
+compute the **ready-set** (nodes with all prereqs met). Mechanical, no value. **(2) Semantic** — rank
+the ready-set by value → one **[THESIS]** pick + runner-ups as **[ANTI-THESIS]**; a *proposal*, never a
+verdict. **(3) Dispose** — a selection-seam **always terminates in a mandatory [CTA·Y/N].**
+- **The corrected invariant:** at a selection-seam, **"no CTA / your move" is abdication** — the
+  *under-anchor* failure, mirror of thread-G's *over-anchor* (CTA-shape bias). Both offload the bond's
+  work onto one half. wu-wei = *lightest anchor that still moves*; zero anchor doesn't move.
+- **Scope-guard (does NOT override IFD):** this binds **selection**, not **ideation**. An ideation seam
+  still **converges open, no CTA.** The original failure was running ideation-mode at a selection-seam.
+- **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
+  *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
