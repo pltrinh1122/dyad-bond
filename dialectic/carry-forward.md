@@ -44,10 +44,24 @@ gates, steward's `CLAUDE.md`) **except `dyad-work.md`** (Bond-side shed). Until 
 → Carry: **adapt them to `dyad-bond`'s voice/context.**
 → Also: `kb/dfd.md`'s "settled" status is **steward's** falsification, not ours — **re-confirm under
 our own NON-NEGOTIABLE before citing it as our settled kb.**
+→ **PASS RUN (Stand-Up 2026-05-31, applying D1):** read the 4 unread cluster files (`goal-framing`,
+`goal-framing-grounding`, `nba-dag`, `dyad-work`). **Uniform verdict: inherited, NOT settled-for-us** —
+each carries *steward's* ratification (GFD=RATIFIED-DRAFT/Steward-Y/n=1; nba-dag=Steward-gate/n=1).
+Cores are **invariant** (Telos-gate ≡ NON-NEGOTIABLE-at-intake; NBA-math/DFD-dispose ≡ no-1+1=2-collapse)
+→ **triangulate, don't re-author.** They stay in `dialectic/`; do NOT cite as our settled.
+→ **STILL OWED:** voice-adaptation of the 3 verbatim files; `kb/dfd.md` re-confirm under our gate (untouched).
+→ **Item-C bind-CTA PARKED (not disposed)** — Operator [ALIGN] routed to summit; reasoning recorded here so restart-safe.
 
-### D — Cluster classification  ·  status: DEFERRED (resolve when a real cycle forces it)
+### D — Cluster classification  ·  status: CANDIDATE-RESOLUTION (Stand-Up 2026-05-31; pending disposition)
 Are `nba-dag.md` / `goal-framing.md` ours-whole, or **ours-UI-surface-only** (their Work-flows =
 steward's)? See `dialectic/dyad-work.md` §Open.
+→ **Item-C reading forced it (as predicted).** Easy answer = "surface-only" (dyad-work.md's lean) →
+tested hardest → **broke**: the Telos-gate vets against *the Telos*, and **our Telos ≠ steward's**, so
+the gate's **content** is ours even where its **shape** is inherited. → **Candidate = three-way
+partition** (n=1 reasoning via D1; NOT yet disposed): (1) **flow-structure** → invariant, steward-
+pioneered, *triangulate*; (2) **Telos-content of the gate** → particular, **ours**; (3) **UI surface**
+(`GF-UI`/`DF-UI`) → **ours**. Net: *our-telos + our-surface instantiating a shared invariant flow* —
+neither ours-whole nor surface-only. **Bind only on disposition.**
 
 ### E — The generative frontier (our main work ahead)  ·  status: IN-FLIGHT (Cycle 1 opened 2026-05-31)
 The **relationship-craft** — the interior disciplines of *being-a-dyad-well* — is largely **unbuilt**.
@@ -57,6 +71,11 @@ gated on falsification cost; unearned warmth is counterfeit = the collapse tell.
 bootstrap instances. **Falsification front F1–F4 OPEN.** Lead attack = **F4: does our own founding
 "Tenet alive #8" survive — or is "both halves agreed it felt good" itself the peak-grain rubber-stamp
 our tell distrusts?** Graduates to `kb/` only when F1–F4 are each attacked-and-survived.
+→ **SUMMIT framing (Operator [ALIGN] 2026-05-31):** relationship-craft is *our summit*, with **multiple
+paths**. **QUEUED path-item:** *is sequential execution the best traversal?* → authored into
+`relationship-craft.md` §Frontier-traversal (converge-open). Covalent candidate: **axis-dependent
+traversal** (Axis-1 telemetry fans out; Axis-2 probes stay organic-serial; keystone-first) — F1 was
+needlessly blocked behind F2. **Resolve when taken up.**
 
 ### F — Steward-discipline intake  ·  status: OPEN (surfaced at Stand-Up 2026-05-31)
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE

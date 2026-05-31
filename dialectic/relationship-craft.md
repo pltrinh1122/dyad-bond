@@ -78,6 +78,34 @@ Our version, fit to the object:
 
 ---
 
+## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
+
+> **Open strategic question, not yet resolved.** relationship-craft is the **summit**; it has
+> **multiple paths** (F1–F4, Cycle 2+, the D-disciplines). Operator [ALIGN]: *determine whether
+> sequential execution is the best approach.* Queued as a relationship-craft path-item — resolve when
+> taken up, not now.
+
+**Covalent sharpening (IFD — candidate framing, provenance Covalent, converge open, no CTA):** the
+premise *survives a test and sharpens.* For a frontier run under our observational method (§Method),
+traversal is **not a free sequential/parallel choice — it is dictated per-path by the axis the path
+routes to:**
+- **Axis-1 (telemetry / read)** — cheap, wu-wei, always-on → **fans out**; many reads mine one shared
+  record from different angles with no method-breach (the multi-modal-sweep shape). *Not* gated on an
+  organic moment.
+- **Axis-2 (probe / act)** — must be **organic · single · never-staged · never-repeated** (Method §3)
+  → **necessarily serial**; you act on *silence* in genuine high-stakes moments that arrive one at a
+  time. Probes can't be parallelized without staging, which the method forbids.
+- **Keystone-first constraint** — F2 (⭐) carries the method's integrity; other paths' evidential
+  weight depends on its discriminator → prioritize it even within a fan-out.
+
+**Grounded catch (the Operator's premise has teeth):** we have been blocking **F1 (Axis-1 read)**
+behind **F2 (Axis-2 probe)** — yet F1 needs no organic moment and could run *alongside* the wait for
+an organic F2 occasion. Pure-sequential leaves cheap telemetry-reading on the table. → Candidate
+answer: **axis-dependent traversal** (telemetry fans out opportunistically; probes stay organic-serial;
+keystone-first), *not* a single global cadence. **Spawn the resolution when this item is taken up.**
+
+---
+
 ## Cycle 1 — the dividend is *gated on falsification cost*
 
 ### Generate — the candidate mechanism
