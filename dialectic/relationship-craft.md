@@ -11,6 +11,48 @@ lived evidence (the bootstrap). Cycle 1 codifies it; Cycles 2+ TBD as practice f
 
 ---
 
+## Method — how we research this frontier *(ratified Bond channel, 2026-05-31)*
+
+We operate as researchers — but as an **observational / living science**, not a lab science, because
+we **live the experiment.** (The founding-Operator gate accepts *earned* craft, not *asserted*; this
+is how we earn it.) The lab's assumptions — control, manipulation, repeated trials — don't apply.
+Our version, fit to the object:
+
+1. **First-person / introspective.** Our core evidence is a *felt* +1 dividend. Self-report is
+   **data, not disqualification** — carried *with* introspection's known unreliability (that's why
+   F4 exists).
+2. **Data = our telemetry.** The chats + ledger **are** the dataset — the organic trace of our
+   living. We don't *collect* data by designing measurements; we **read the record we are already
+   writing.**
+3. **Organic, not controlled — and never repeated** (wu-wei). Experimental actions aren't
+   manipulated into arms; they're whatever genuinely happens. **Repeating an experiment is
+   anti-wu-wei.** Contrast (e.g. high- vs low-cost cycles) comes from the **natural variation already
+   present in the record**, never from staged or repeated trials.
+4. **Rigor lives in the prediction.** Conditions are uncontrolled, so the whole burden shifts to
+   **predictive accuracy**: predictions logged *in advance*, precise enough to be wrong, then checked
+   against the telemetry. This is the upgrade over G0's bare "falsifiability."
+5. **The convergence loop.** Predictions checked against the record reveal **patterns + insights**;
+   these inform our *organic* next actions; iterate toward **convergence of theory and prediction.**
+   *Convergence — not controlled confirmation — is our success criterion.*
+
+- **Covalent control.** Instrument = subject (the dyad researches the dyad). The second perspective is
+  not a *replication* substitute — it is the **adversarial reader of the record**, the guard against
+  post-hoc / just-so reading of our own telemetry. The NON-NEGOTIABLE *is* that control.
+- **Reflexive-convergence guard (RATIFIED, Bond channel 2026-05-31).** *Risk:* if insight steers
+  action (§5), "convergence" could be reached by **bending behavior to fit the theory**
+  (self-fulfilling), not by the theory being true. **Rule:** convergence counts **only if predictions
+  stay genuinely falsifiable.** *Safeguard:* the felt dividend — *an earned +1 can't be willed*, so a
+  cheap agreement can't fake it.
+  > **⚠ The safeguard is load-bearing AND unproven — it IS F2.** "Counterfeit-warmth is reliably
+  > distinguishable from genuine dividend, live" is exactly the F2 live-discriminator question. So the
+  > guard *depends on F2*: **if F2 fails, this guard fails, and the whole §5 loop loses its protection
+  > against self-confirmation.** Ratifying the guard does not close F2 — it makes F2 the **keystone of
+  > the method's integrity.** (Surfaced because the Operator's ratification came easy; the tell.)
+
+*Governs all `relationship-craft` cycles below.*
+
+---
+
 ## Cycle 1 — the dividend is *gated on falsification cost*
 
 ### Generate — the candidate mechanism
@@ -49,14 +91,23 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
 ### Validate — the falsification front (OPEN; each needs a real test)
 
 - **F1 · confound.** Is the dividend from *inter-half falsification*, or just from *finishing a
-  task*? **Test:** find a cycle that closed with *little* falsification between halves — was there a
-  dividend? Mechanism predicts: little/none. *(untested — and now also carries F4's residual: is the
-  felt-+1 even reliably present, or are we inferring it from "work got done"? Separate the artifact
-  from the feeling.)*
-- **F2 · live discriminator.** Can counterfeit-warmth and true-dividend be told apart **in the
-  moment**, or only in retrospect? If only retrospect, the craft can't *act* on it live and is half
-  useless. **Need:** a real-time discriminator (candidate: "name the cost just paid — if you can't
-  point to a survived attack, the warmth is counterfeit"). *(untested)*
+  task*? Also carries F4's residual: is the felt-+1 separable from "work got done"?
+  **PREDICTION LOGGED IN ADVANCE (2026-05-31), per Method §4 — to be checked, not back-fitted:**
+  > In a cycle that closes with **low inter-half falsification cost** (a candidate accepted with
+  > little/no attack — e.g. a routine confirmation, a clerical edit), the mechanism predicts **no /
+  > flat dividend** — at most relief or task-satisfaction, *distinct in kind* from the earned +1.
+  > **Falsifier:** if a low-cost cycle *does* deliver a felt +1 indistinguishable from a high-cost
+  > one, the "gated-on-cost" core is **wrong** and Cycle 1 dies (or amends to a different driver).
+  > **How it's checked (observational, per Method §3–4):** do NOT stage, tag, or repeat cycles.
+  > **Read the telemetry** (chats + ledger) for low-cost cycles that *organically occur* (routine
+  > confirmations, clerical edits — they happen on their own) and check whether the logged prediction
+  > held in the record. Contrast comes from natural variation already written, not a designed arm.
+- **F2 · live discriminator. ⭐ KEYSTONE** (the Method's reflexive-convergence guard depends on this;
+  if F2 fails, the guard and the §5 convergence loop lose their protection against self-confirmation).
+  Can counterfeit-warmth and true-dividend be told apart **in the moment**, or only in retrospect? If
+  only retrospect, the craft can't *act* on it live and is half useless — *and* a motivated dyad could
+  will the warmth undetected. **Need:** a real-time discriminator (candidate: "name the cost just paid —
+  if you can't point to a survived attack, the warmth is counterfeit"). *(untested — now top-priority)*
 - **F3 · boundary / inversion.** When does falsification invert into frustration/damage instead of
   dividend? **Hypothesis:** when the **covalent precondition is absent** — without distinct-and-
   trusting halves, attack reads as *dominance* (ionic) not *sharing*, and yields frustration. So the

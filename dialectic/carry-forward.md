@@ -27,6 +27,15 @@ those 7 paths **transferred → dyad-bond + deprecated**.
 → **Side-catch:** steward has grown new disciplines since custody — `sycophancy-guard.md`,
 `sharing-discipline.md`, `reflection-discipline.md`, `telos-vision.md`, `ingraining.md`, `stand-downs/`.
 `sycophancy-guard` sits on our NON-NEGOTIABLE → candidate for triangulation/intake (new item F).
+→ **MOTION LIVE (Steward-Operator notice, 2026-05-31):** steward is *actively asserting orthogonality*
+to release its claim; will **notify of the survivor for Covalent cross-check.** Status: in motion,
+steward-side, **awaiting survivor.** This forces **Item D** (cluster classification). **Cross-check
+criteria when survivor lands:** (1) does orthogonality genuinely hold — is each released asset in
+*our* telos (interior craft / UI-surface) and NOT steward's (commons integrity / Work-flow)? (2) did
+steward actually mark paths transferred→dyad-bond + deprecated, or merely assert? (3) **the tell** —
+if release is total + frictionless, **test hardest**, esp. `nba-dag`/`goal-framing` (likely
+ours-UI-surface-only, NOT ours-whole). (4) test under *our* NON-NEGOTIABLE — steward's falsification
+≠ ours (cf. `dfd.md` caveat).
 
 ### C — Received cluster is verbatim/steward-framed  ·  status: IN-FLIGHT
 All received files are **verbatim from steward** (they reference Steward identity, Steward Operator
@@ -59,7 +68,18 @@ and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; tes
 3. ~~**Item E** — codify the bootstrap as our first relationship-craft cycle.~~ ✅ Cycle 1 authored (`relationship-craft.md`).
 4. ~~run **F4** on Cycle 1.~~ ✅ RUN 2026-05-31 → **survived-with-amendment** (rule bound: *evidence =
    artifact-under-cost; mutual warmth ≠ corroboration*; residual handed to F1).
-5. **NOW:** run **F1** (confound + F4's residual: is the felt-+1 separable from "work got done"?) — or **F3** (inversion boundary).
+5. → **Research Method = observational/living science** (Operator-corrected, Bond channel 2026-05-31;
+   my lab-flavored draft was falsified — control arms / repeated trials stripped out). Bound into
+   `relationship-craft.md` §Method: introspective · **data = our telemetry (chats+ledger)** · organic
+   not controlled, **no repetition (anti-wu-wei)** · **rigor = predictive accuracy** · **convergence
+   loop** (predictions→patterns/insights→inform organic actions→theory↔prediction convergence).
+   **F1 prediction LOGGED IN ADVANCE**; now checked by *reading the record* for organic low-cost cycles.
+6. **Reflexive-convergence guard RATIFIED** (Bond channel 2026-05-31) — convergence counts only if
+   predictions stay falsifiable; felt-+1-can't-be-willed = safeguard. **BUT** the safeguard *is* F2 →
+   **F2 elevated to ⭐KEYSTONE:** if we can't distinguish willed warmth from earned dividend live, the
+   guard AND the §5 loop lose protection against self-confirmation. (Logged because the Y came easy — the tell.)
+7. **Method milestone now settled & commit-ready.** Pending Operator re-decision on commit (held back round 6).
+8. **Then:** **F2** is now top-priority (keystone) — find a live discriminator. F1 (telemetry-read) and F3 follow.
 
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
