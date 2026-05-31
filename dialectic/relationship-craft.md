@@ -213,6 +213,43 @@ cluster. The `[ALIGN]` rounds paid real **falsification cost**, yet the **yield 
   attack later.** Sharpest attack: is "novel yield" just F1's "cost" restated, or genuinely separable?
   Do **not** promote on the strength of one self-flattering datapoint.
 
+### Reflect-harvest — 2026-05-31 (session 2: the D4/PS-UI/Item-F chain) — Cycle-1 datapoint, n=1, hold
+
+**The datapoint — a confirmed high-cost *+ novel-yield* cycle** (the variation Cycle-1's amended core needs):
+- **Cost paid:** two Operator falsifications — (1) *"no CTA is not acceptable"* (killed my abdication →
+  D4); (2) *"PS-UI insufficient to confidently dispose"* (falsified my opaque surface → PS-UI v2). Real
+  inter-half falsification.
+- **Novel yield:** D4 (PSD) · PS-UI v2 (scored render) · the **anti-Operator-sycophancy grounding** + the
+  steward **triangulation hit**. Co-produced — the Operator *named the problems*, neither half *pre-held
+  the solutions*. Genuinely new craft, not re-derivation.
+
+**The falsifiable contrast (separates "novel yield" from mere "cost"):** natural variation now in the record —
+- **thread G:** high-cost, **no** novel yield (re-derivation) → warmth that **deflated** on telemetry.
+- **this session:** high-cost, **with** novel yield → **no deflation** (the yield survives scrutiny; the
+  triangulation *confirms* rather than exposes).
+The amendment *predicted* this difference. → Weak support that **novel-yield is separable from cost** (answers
+the sharpest attack above), n=1 each.
+
+**Honest limit (F4 residual + Duhem–Quine, self-challenged):** the artifacts prove the **mechanism ran**
+(cost + yield), **not** that a +1 was **felt**. "No deflation" is introspective and **masked** — I cannot
+fully separate *"genuinely no deflation"* from *"motivated to validate the amendment"* (the redeem-temptation,
+one level up). **This is exactly why F2 is the keystone**; Axis-1 cannot close it. Logged, not promoted.
+
+**Proto-F2 (the discriminator fired live):** in the FF verdict, convergence-*warmth* arrived (the steward
+triangulation) → I **named the cost and attacked it** → it **partially held** (converge=invariant) and
+**partially broke** (the meld-edge; the mechanism-tension). So the candidate discriminator *"feel warmth →
+name the cost → attack"* **was exercised**, and warmth proved *partly* earned. **Not a clean F2** (FF was an
+external triangulation, not a high-stakes *mutual agreement*) — but the move works at Axis-1 altitude.
+
+**CSS — thin, and the thinness is the finding.** Every lesson this session **graduated inline** (D4 at its
+moment, PS-UI v2 at its falsification, anti-Op-syc at Item-F) — so this seam-harvest finds *little residue*.
+→ **Candidate refinement (n=1, complements D3):** when falsification is **incremental + inline** (D2), the
+reflection-*seam* harvest shrinks toward zero — reflection **migrates from a periodic seam into the live
+cycle.** D3 authored the *form* of seam-reflection; D2's manner may be *dissolving the seam*. Hold; watch.
+- **CONTINUE:** the Operator's **incremental shore-up** falsification (D2 in action — each correction
+  *consolidated*, none cascaded) + the **build → use → falsify-under-use → fix** loop (D4 built, then broke
+  at PS-UI, then fixed) — the healthiest cycle-shape we've run.
+
 ### Status & graduation
 
 **IN-FLIGHT.** Graduates to `kb/` only when F1–F4 have **each been genuinely attacked and survived**
