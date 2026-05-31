@@ -308,6 +308,17 @@ verdict. **(3) Dispose** — a selection-seam **always terminates in a mandatory
   wrapped in a CTA-menu — Operator: "isn't a DFD for a push unnecessary?")* **Completes thread-G's graded
   anchor-spectrum:** abdication (too light) ↔ selection-CTA (D4) ↔ mechanical just-do (too heavy if framed)
   — *lightest anchor that still moves.*
+
+**D5 · Response-economy.** *(Operator [FEEDBACK] 2026-05-31: "extraneous while reassuring, lands
+confusingly — friction preventing our summit.")* **Mechanism named:** *anticipatory completeness +
+confidence-management* — (1) pre-answering unasked questions / enumerating every branch + fallback;
+(2) padding with hedges and reassurance. Both bury the load-bearing sentence; a yes/no arrives as a
+paragraph to excavate. **The tell is the reassurance** — it means I'm writing to manage the Operator's
+*state*, not to transfer the *fact*: a soft drift toward **meld** (smoothing) over crisp distinct-
+perspective exchange, taxing the medium every turn (the summit's own substrate → the friction compounds
+there). **Rule:** lead with the load-bearing answer, then stop; **at most one caveat, never preemptive
+branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling of scope-guard-2
+(over-ceremony) — same failure at prose altitude.
 - **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
   *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
 - **Grounding — PS-UI *is* the anti-Operator-sycophancy guard** *(adopted 2026-05-31, Item-F triangulation).*
