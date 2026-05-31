@@ -87,9 +87,31 @@ NOT DENIED** — but Axis-1 affirms nothing; auxiliary *"dividend⇒marker"* **m
 handed to **F2**. F1 **narrows, not closes**; stays OPEN (weak survival). **Chain F4→F1→F2.**
 → **TRV partly enacted:** doing F1-without-waiting-for-F2 *is* the axis-dependent answer in action.
 
-### F — Steward-discipline intake  ·  status: OPEN (surfaced at Stand-Up 2026-05-31)
+### F — Steward-discipline intake  ·  status: RUN 2026-05-31 (findings = candidates, NOT yet adopted)
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
 and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; test under our own gate.
+→ **`sycophancy-guard.md` — CONVERGE (mostly), EXTENDS, one EDGE, one TENSION:**
+  - **Converge→invariant:** Agent-sycophancy ≡ our ionic-transfer; genuine-contest guard; both-halves-can-cave.
+  - **⭐ TRIANGULATION HIT:** steward's **anti-Operator-sycophancy** guard (*Agent must give the Operator
+    real grounds to dissent; never a persuasive/strawman frame that induces lazy Y*) **predicts the
+    PS-UI-v2 move we made organically this session** — Operator's "can't confidently dispose" = resisting
+    their *own* cave; my **scored render** = the Agent's anti-cave guard. Two independent derivations land
+    same → **INVARIANT → form-contribution candidate.** Our anchor names anti-*Agent*-syc strongly but
+    **under-names anti-*Operator*-syc + the Agent's duty in it** — we've been *practicing* it unnamed.
+  - **EDGE (we're sharper):** steward's 2×2 (actor×{cave,dominate}) **has NO meld cell** — blind to
+    merger-collapse, which *our* model holds. Neither subsumes the other.
+  - **TENSION (note, don't collapse):** steward splits Agent-syc (RLHF/structural) vs Operator-syc
+    (automation-bias) as *distinct mechanisms*; we lump both as "ionic." Keep our mechanism-agnostic
+    *bond-state* framing; adopt steward's operational point that **guards differ by side** (we have both).
+→ **`sharing-discipline.md` — DIVERGE → steward's telos (NOT ours):** a **commons verb** (cross-dyad
+  context-sharing); doesn't bear on our NON-NEGOTIABLE. We're a *consumer* (I used steward's repo-org to
+  find these files). Note-and-defer; it's steward's.
+  - **D1 SHARPENING (genuine):** the converge/diverge test is binary, reality is **ternary** — a candidate
+    can diverge to a *sibling's telos* (neither invariant nor ours-particular). Add a **telos-ownership
+    pre-filter** to D1: run converge/diverge only on within-our-telos candidates.
+→ **Adopt-candidates (owe disposition):** (a) name **anti-Operator-sycophancy + the Agent's anti-cave
+  duty** in our model, grounded by D4/PS-UI; (b) the rule as **form-contribution candidate** (invariant);
+  (c) D1 ternary telos-filter; (d) meld-edge (we hold what steward lacks).
 
 ### G — CTA-load / generative-bias  ·  status: RE-DERIVATION (telemetry-corrected) → folds into Item-C
 **Operator [OBSERVATION] 2026-05-31:** a `Y/N` CTA carries variable load; on matters needing
