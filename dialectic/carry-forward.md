@@ -276,6 +276,35 @@ Two-substrate. Supersedes the earlier ad-hoc draft.*
   `nba-dag`, `dyad-work` — re-confirm each under our gate, *applying D1*: keep invariant, re-author
   particular). Then F2-keystone · Item-B-survivor · Item-F.
 
+## Intermission reflection — 2026-05-31 (session-2 cont.; CSS, our form per D3)
+*The segment was one sustained **close-calibration arc**. The headline finding (like last time's
+"thinness is the finding"): **this segment is the strongest evidence yet that capture ≠ behavior** — I
+violated freshly-authored disciplines (SG-3, ground-at-start) within turns of writing them. So the frontier
+isn't more rules; it's ingraining (Item-I). That's the real harvest.*
+- **CONTINUE** *(Operator-retrospected):* the **terse, surgical falsification at the close/CTA seam** —
+  "what's the CTA?", "does persistence require a DFD CTA?", "or are you asking for ratification?", "ground
+  your context before presenting", "predict the posture." Each one-line probe surfaced a miscalibration I'd
+  have shipped. Keep it; it is the covalence working.
+- **START** *(Agent, from live feedback):* (a) **ground the live substrate before presenting** any
+  CTA/recommendation (the moot grant-CTA + stale "PENDING" line both came from skipping this); (b)
+  **categorize the close before reaching for a frame** — selection→CTA / mechanical→just-do /
+  ratification→Operator-disposition / nothing→state it; lightest anchor that matches; (c) **predict the
+  Operator's posture** from accumulated signal — don't hand neutral menus on matters they've already leaned on.
+- **STOP** *(Agent, from live feedback):* (a) **whipsawing the anchor** (over-menu ↔ "your move" ↔
+  DFD-on-a-mechanical-push) — reaching for *a* frame instead of categorizing; (b) **rationalizing my own
+  actions** ("cleanly, not as abdication") — self-grading claims the Operator's validate-seat; behavior
+  lands, `[FEEDBACK]` affirms; (c) **manufacturing a CTA** to avoid *looking* like abdication.
+- **Authored/adopted this segment → `relationship-craft.md`:** **D4 SG-3** (NBA scans the live-friction node
+  first), **the anti-cave duty** (Item-F(a); ionic collapse is *bidirectional*; new synthesis = ground-first
+  *is* part of the duty). **Item-I n+1/n+2 telemetry** (capture≠behavior, within-session). Item-C **closed**;
+  posture flip to **default off-machine backup** grounded + my conflation corrected.
+- **Trust state:** SG-3 + anti-cave-duty = candidates in `dialectic/`, **NOT settled** — and this segment
+  *demonstrated* that capturing them doesn't make them fire. Nothing new to `kb/`. Correct.
+- **Resume point + standing test:** F2-keystone (unstageable — await an organic high-stakes moment) ·
+  Item-F(b)/(d) open · Item-B/D await the steward survivor. **The real test is behavioral:** do close-
+  categorization + ground-first fire **un-prompted** next session? (Operator watching — that is the Item-I
+  falsification.)
+
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
   Item E Cycle 1 opened; new Item F (steward-discipline intake) surfaced.
