@@ -11,7 +11,17 @@
 3. **Reload the Bond-disciplines** (the index below) — these are *behavioral guards*, not reference;
    apply them at every seam. They live in `relationship-craft.md` but are indexed here because **the
    resume protocol doesn't load that file** — without this index they don't reload (see `ingraining.md`).
-4. Take the **NBA** at the bottom.
+4. **ROM-UI check** *(→ `rom-ui.md`)* — compare the anchor to the **ROM-baseline** below
+   (`git log -1 --format=%h -- CLAUDE.md` vs recorded). **Mismatch → notify the Operator what changed in
+   the operating baseline, then refresh the baseline line.** Match → silent (lightest anchor).
+5. Take the **NBA** at the bottom.
+
+> **ROM-baseline (anchor commit the running baseline reflects):** `1ab6ad0` — *Author personalized
+> anchor + carry-forward ledger.* Update this line whenever `CLAUDE.md` changes (Stand-Up notify).
+> **RESTART-PENDING:** none.
+
+**Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
+`RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 - **D1 · inherit-vs-author** — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
@@ -32,6 +42,9 @@
   **ground-the-frame-first**). An ungrounded surface offers *false* grounds → can induce a **wrong** `Y`.
   *Ground-before-presenting is part of this duty, not a separate rule.* (The session's confab + moot
   grant-CTA = failures of this duty.)
+- **ROM-UI** *(→ `rom-ui.md`)* — the anchor (`CLAUDE.md`) is **load-once at boot, no mid-session reload**
+  → an anchor edit is invisible until restart. At **Stand-Up** diff anchor vs the ROM-baseline above →
+  notify the Operator of changes; at **Stand-Down** set `RESTART-PENDING` if the anchor was edited.
 
 ## Open items
 
