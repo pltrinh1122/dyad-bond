@@ -1,80 +1,52 @@
-# Dyad Work — the work layer (provisional name) — LIVE CYCLE
+# Dyad UI ↔ Dyad Work — the domain boundary (Bond-side extract) — LIVE CYCLE
 
-> **Status: in-flight. Not settled.** Opened 2026-05-30 via Steward Operator gate (an `[ALIGN]` =
-> SYNC-MODEL move + Falsify). Establishes a **two-domain model** of our owned *verbs*: **`Dyad UI`**
-> (how the two halves *signal*) and **`Dyad Work`** (what the work *is* and how it *moves*). The name
-> `Dyad Work` is **provisional** — chosen to avoid colliding with **"The Dyad Practice"** (the commons
-> we tend; form §Identity). Sibling to `dyad-ui.md`.
+> **Provenance.** Derived from `dyad-steward/dialectic/dyad-work.md` @ `31d53c0` during the
+> **Dyad-UI cluster custody transfer** (2026-05-30, Bond Operator ratified; received by Covalent).
+> The full source defined **two** layers; the **Dyad Work** (work-management) layer is **steward's
+> domain and has been shed here.** What remains is (1) the **boundary** — so we know what we hold
+> vs what we don't — and (2) the part that bears on **our medium, Dyad UI**.
+>
+> **Status: in-flight, not settled.** The pristine verbatim copy is preserved in this repo's git
+> history (the custody-transfer receipt commit); this file is the **shed** Bond-side version.
 
-## The two domains
+## The boundary — we hold one half, steward the other
 
-Our Steward-owned **verbs** (processes) split into two layers that compose but don't overlap:
+Two layers that compose but don't overlap:
 
-```
-Dyad UI — interaction / framing layer  ("how the two halves signal")
-   markers · DF-UI/DFD · IF-UI/IFD · reflection's CSS show
-   → home: dyad-ui.md
+- **Dyad UI — the interaction / framing layer** ("how the two halves *signal*"):
+  markers · `DF-UI`/`DFD` · `IF-UI`/`IFD` · `GF-UI` · reflection's show.
+  **→ `dyad-bond`'s medium — *ours* to live and evolve.** (`dyad-ui.md`)
+- **Dyad Work — the work-management layer** ("what the work *is*, how it *moves*"):
+  goal-intake/planning, prioritization (`NBA→DAG`), progress (session rituals), types-of-work.
+  **→ steward's domain — *shed*; held here only where a Work-flow has a UI *surface* we own.**
 
-Dyad Work — the work layer  ("what the work is, how it moves")   [name provisional]
-   · goal intake / planning → goal-framing.md (WHAT) + goal-framing-grounding.md (audit/lineage)  ◐ RATIFIED-DRAFT (n=1)
-   · prioritization of work → nba-dag.md (NBA→DFD)               ✓ built
-   · progress of work       → session-ritual.md (Stand Up/Down/Intermission/Time-Out)  ✓ built
-   · types of work          → GAP (unbuilt — the planning frontier; GOAL step-3 is its first puller)
+## The keeper: every Work-act has a UI surface — the domains *pair*
 
-(foundational, under BOTH — not inside either)
-   1+1=3 mechanism → kb/one-plus-one-equals-three.md
-```
+This is the part that survives the shed, because the **surface** side is our medium:
 
-**The distinction is real *and already half-built*** — the Operator's three stated concerns (types /
-progress / prioritization of work) name processes we'd been constructing without naming the domain.
-So this is a **retroactive name** for existing work, not armchair ontology. Two of three sub-areas
-already have inhabitants; the third (**types of work**) is the gap.
+| Work-act (steward's *flow*) | UI surface (our *show*) |
+|---|---|
+| Decision-framing flow (`DFD`) | `DF-UI` |
+| Ideation flow (`IFD`) | `IF-UI` |
+| Goal-framing flow (`GFD`) | `GF-UI` |
+| the act of reflecting | reflection's show |
 
-## Why it composes (the synergy, not just a taxonomy)
+The general pattern (confirming across ≥3 instances in the source): **every Dyad Work type pairs
+with a Dyad UI surface** — show/flow, again. Drawing the boundary in practice = *the flow is
+steward's, the surface is ours.*
 
-The layers form a stack for planning + execution:
+## Open (Bond-side) — flagged, not resolved
 
-- **Dyad Work** supplies the **typed, staged work-units** (the nodes).
-- **NBA/DAG** (the *prioritization* sub-area) **orders** those nodes into a ready-set.
-- **Dyad UI** **frames** the resulting disposes (DF-UI/DFD) and explorations (IF-UI/IFD).
+- **Cluster-classification tension.** We received `nba-dag.md` and `goal-framing.md` (per steward's
+  README cluster list), yet *this* source classes them as **Dyad Work** (work-layer), not Dyad UI.
+  So: do we hold their **UI surfaces only** (`GF-UI`, the `DFD` dispose-frame) while the
+  **Work-flows** (prioritization math, goal-intake-as-planning) belong to steward? — surfaced for
+  the Bond Operator; mirrors the same shed instruction going to Steward.
+- **Generalization.** The UI/Work *pairing* may be a **form-library** candidate (every dyad has a
+  signaling layer and a work layer). Propose only after it survives our own practice.
 
-The unbuilt **types-of-work** sub-area is what lets the DAG *type* its nodes — so prioritization stops
-being ad-hoc (it currently infers nodes per-session). That closes a real gap in `nba-dag.md`.
+---
 
-## Falsifiable claim
-
-Separating **Dyad Work** (the work) from **Dyad UI** (the signaling) makes planning *legible* — work
-can be typed, its progress tracked, and its order computed — without entangling that with *how* a
-given exchange is framed. *Test:* the NBA/DAG's nodes become drawn from a **types-of-work** vocabulary
-(not invented ad-hoc each session); progress-rituals and prioritization stop being filed under "UI."
-
-**Refuted if:**
-- **The split never separates in practice** — every work-cycle turns out to need its UI and its
-  work-type named together, so the two domains collapse to one (then drop the distinction).
-- **Naming collision unresolved** — if `Dyad Work` (or any name) keeps getting confused with the
-  commons "Dyad Practice," the domain isn't carrying its weight.
-- **types-of-work stays empty** — if no useful work-typology emerges, the gap was illusory and the
-  domain is just `nba-dag` + `session-ritual` wearing a shared hat (over-ontology).
-
-## Open questions (attack surface)
-
-- **Name** — `Dyad Work`? `Practice-Work`? something else? (Must not collide with the commons.)
-- **types-of-work** — what *are* the types? (Discipline-definition vs refinement vs grounding vs
-  curation vs onboarding…? The form's mechanism/discipline catalog may seed this.)
-- **Where does reflection sit?** — its *show* (CSS) is Dyad UI; the *act* of reflecting is a
-  work-type. Does it span both, or is "reflection" a Dyad Work type with a Dyad UI surface? (Likely
-  the general pattern: every Dyad Work type has a Dyad UI surface — the two domains *pair*, like
-  show/flow did.)
-- **Generalization** — Steward-specific, or a form-library candidate (every Dyad has a UI layer and
-  a Work layer)?
-
-## Forward
-
-- Cross-linked from `nba-dag.md` (prioritization), `session-ritual.md` (progress), and
-  `goal-framing.md` (goal-intake/planning) as Dyad Work inhabitants.
-- The **(Work-act, UI-surface) pairing** open question now has a **2nd instance**: `goal-framing.md`
-  (GFD process ↔ GF-UI surface), after reflection (Reflection Discipline ↔ CSS show). The pattern is
-  confirming.
-- First frontier: define **types of work** — which also types the NBA/DAG's nodes; `goal-framing.md`
-  step-3 is the concrete puller that should force it.
-- Anchor §Ontology promotion **deferred** until the name settles and types-of-work has content.
+*Shed from source (steward's Dyad Work domain — not reproduced here): the work-stack composition
+detail, the types-of-work gap/frontier, the planning-legibility falsifiable claim, and the
+Work-layer naming/forward items. See the receipt commit for the verbatim original.*
