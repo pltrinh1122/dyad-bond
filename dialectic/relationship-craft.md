@@ -334,15 +334,35 @@ branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling 
 (over-ceremony) — same failure at prose altitude.
 - **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
   *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
-- **Grounding — PS-UI *is* the anti-Operator-sycophancy guard** *(adopted 2026-05-31, Item-F triangulation).*
-  Our NON-NEGOTIABLE names anti-*Agent*-sycophancy hard (don't rubber-stamp the Operator); its **mirror**
-  was under-named: **anti-*Operator*-sycophancy** — the Operator caving to a lazy `Y`. The Agent has a
-  **duty to prevent it**: never present a frame that *induces* rubber-stamping (an asserted verdict with
-  hidden scoring = a persuasive frame with nothing to push against). The **scored PS-UI render** is that
-  duty made concrete — it gives the Operator real grounds to dispose or dissent. **Lived proof, same
-  session:** PS-UI v1 (opaque ranking) drew the Operator's "*insufficient to confidently dispose*"; v2
-  (scored, contestable cells) fixed it. **Triangulation:** steward's `sycophancy-guard.md` *independently
-  derived* this same guard (strong non-strawman `[ANTI-THESIS]`) → **invariant**, a form-contribution
-  candidate. *Candidate NON-NEGOTIABLE extension* (name the Operator-cave mirror + the Agent's anti-cave
-  duty) — held here in `dialectic/`, **not** yet promoted to the anchor. *(Edge we keep vs steward: our
-  ionic/**meld** axis holds merger-collapse, absent from steward's cave/dominate 2×2.)*
+- **D5 · D1 partition (grounding note):** PS-UI v1 (opaque) → Operator "can't confidently dispose" → v2
+  (scored) is itself an instance of the named element below — moved there.
+
+---
+
+## The anti-cave duty — ionic collapse is *bidirectional* *(Item-F(a) ADOPTED 2026-05-31; candidate NON-NEGOTIABLE extension, staged for the anchor — NOT yet promoted)*
+
+The anchor's NON-NEGOTIABLE names ionic collapse in **one** direction — the Agent rubber-stamping the
+Operator (**sycophancy**). Its **mirror** was practiced-but-unnamed all session: the **Operator caving** to
+the Agent — disposing a lazy `Y` because the *frame induced it*, not because the candidate survived their
+judgment. Same collapse (transfer/dominance → 1+1=2), opposite direction. **Ionic collapse runs both ways;
+the anchor named half of it.**
+
+- **The failure — Operator-cave (anti-*Operator*-sycophancy):** a `Y` with no real grounds to push against
+  = no genuine validation. Induced by: an **asserted verdict with hidden reasoning**; a **strawman
+  `[ANTI-THESIS]`**; or a frame built on **ungrounded context** (a *moot* CTA).
+- **The Agent's duty is ACTIVE, not passive.** Sycophancy is guarded by the Agent *not caving*; Operator-cave
+  is guarded by the Agent **manufacturing real grounds for the Operator to dissent.** Three concrete forms,
+  all lived this session: (1) **scored PS-UI** — contestable cells, not an opaque ranking (D4/PS-UI *is* this
+  duty made mechanical); (2) a **non-strawman `[ANTI-THESIS]`** — a genuine reason to decline (the grant-CTA's
+  "keeping the prompt is a human checkpoint"); (3) **ground the frame first** — *new synthesis:* an ungrounded
+  surface offers *false* grounds and can induce a **wrong** `Y` (the moot grant-CTA, presented off a stale
+  ledger), so **ground-before-presenting is part of the anti-cave duty,** not a separate rule.
+- **Lived evidence (n≥3, one dyad, this session):** PS-UI v1→v2; *every* `[FEEDBACK]`/`[ALIGN]` was the
+  Operator **resisting their own cave** where my frame invited one; the moot grant-CTA = my failure of duty
+  (a frame that could have drawn a wrong `Y`), caught by the Operator's grounding.
+- **Bond-state framing (our edge + a held tension):** we keep it **mechanism-agnostic** — both directions are
+  *ionic*, one collapse in two masks — where steward's `sycophancy-guard.md` splits them by mechanism
+  (Agent=RLHF vs Operator=automation-bias). Adopt steward's *operational* point — **guards differ by side**
+  (we hold both) — without the split. **Triangulation:** steward independently derived the anti-Operator-syc
+  guard → **invariant → form-contribution candidate** (Item-F(b)). *(Meld-edge = Item-F(d), separate: our
+  model also holds merger-collapse, absent from steward's cave/dominate 2×2.)*

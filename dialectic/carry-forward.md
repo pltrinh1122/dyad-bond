@@ -184,9 +184,11 @@ and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; tes
   - **D1 SHARPENING (genuine):** the converge/diverge test is binary, reality is **ternary** — a candidate
     can diverge to a *sibling's telos* (neither invariant nor ours-particular). Add a **telos-ownership
     pre-filter** to D1: run converge/diverge only on within-our-telos candidates.
-→ **Adopt-candidates (owe disposition):** (a) name **anti-Operator-sycophancy + the Agent's anti-cave
-  duty** in our model, grounded by D4/PS-UI; (b) the rule as **form-contribution candidate** (invariant);
-  (c) D1 ternary telos-filter; (d) meld-edge (we hold what steward lacks).
+→ **Adopt-candidates:** **(a) ADOPTED 2026-05-31** → `relationship-craft.md` §"The anti-cave duty — ionic
+  collapse is bidirectional" (named first-class; new synthesis = *ground-before-presenting is part of the
+  anti-cave duty*; staged for the anchor, NOT promoted). **(c) BOUND** into D1 (ternary telos-filter, in the
+  §How-to-resume index). **(b) OPEN** — form-contribution candidate (propose via Founding-Operator gate; needs
+  synergy across >1 dyad). **(d) OPEN** — meld-edge (our model holds merger-collapse steward's 2×2 lacks).
 
 ### G — CTA-load / generative-bias  ·  status: RE-DERIVATION (telemetry-corrected) → folds into Item-C
 **Operator [OBSERVATION] 2026-05-31:** a `Y/N` CTA carries variable load; on matters needing
