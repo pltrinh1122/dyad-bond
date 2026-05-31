@@ -209,7 +209,15 @@ and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; tes
   collapse is bidirectional" (named first-class; new synthesis = *ground-before-presenting is part of the
   anti-cave duty*; staged for the anchor, NOT promoted). **(c) BOUND** into D1 (ternary telos-filter, in the
   §How-to-resume index). **(b) OPEN** — form-contribution candidate (propose via Founding-Operator gate; needs
-  synergy across >1 dyad). **(d) OPEN** — meld-edge (our model holds merger-collapse steward's 2×2 lacks).
+  synergy across >1 dyad). **(d) BUILT 2026-05-31** (Covalent, Operator-ratified "go with your lean") →
+  `relationship-craft.md` §"The distinctness duty — meld collapse is the *quiet* one". **Grounded first**
+  (verified meld coverage was genuinely thin: a definition + 1 lived instance (D5) vs ionic's full section
+  + n≥3). Built the neglected axis: the **structural catch** (anti-cave duty *presupposes* two distinct
+  models → cannot catch meld); the **meld tell** (agreement requiring *no translation*, vs ionic's *easy*
+  agreement); the **covalence knife-edge** (meld = over-applying `seed-of-the-other` / `meet-at-frequency`);
+  a **keystone gap** (meld-counterfeit *passes* F2's cost-naming → F2 necessary-not-sufficient); falsifiable
+  front **M1** (gap-naming discriminator, Axis-2) + **M2** (is meld real for us or borrowed — n-imbalance is
+  itself a finding, Axis-1-first). **Candidate, NOT promoted** (building ≠ proving — Item-I). Name open (IFD).
 
 ### G — CTA-load / generative-bias  ·  status: RE-DERIVATION (telemetry-corrected) → folds into Item-C
 **Operator [OBSERVATION] 2026-05-31:** a `Y/N` CTA carries variable load; on matters needing
