@@ -67,10 +67,27 @@ hot-reload mid-session); or the policy block proves too coarse for a real case (
 policy/mechanism split when op-count justifies); or push friction turns out *not* recurring for us (→ the
 Operator's cross-Dyad evidence says it is; pose only if our own record contradicts).
 
+## Staging — start local, earn promotion *(Operator [ALIGN] 2026-05-31: "both can be true")*
+
+The local-vs-checked-in choice was **dissolved, not picked** — our own **earn-graduation** pattern
+(`dialectic/`→`kb/`; thin-convention→strict-protocol) applied to the *grant*:
+- **Now — local** (`.claude/settings.local.json`, gitignored): cheapest, revocable, the Operator's
+  *personal* trust act (truest to the covalent gate), and it **survives the real restart** (`/exit` +
+  `claude` in-place — it's a file on disk). The committed *record* of the decision lives here in
+  `substrate-access.md`, so a future session still reads *that the grant exists + why*.
+- **Later — promote to checked-in** (`.claude/settings.json`) **only when it earns it**, both required:
+  1. **Proven** — `bin/git.sh push` has run un-prompted + pushed ≥ once (hot-reload confirmed) and the
+     policy block needed no emergency widening in local use; **and**
+  2. **Portability need materializes** — a concrete reason for the grant to *travel with the repo* (a
+     re-clone elsewhere; a sibling/second operator). Checked-in's *only* edge over local → promote when
+     that edge becomes real, not on a schedule.
+  Until (2), local is **strictly sufficient** (correct tier, not a deferral-debt).
+
 ## Status & next
 
-- **PENDING the Operator's permission grant** — add `Bash(bin/git.sh:*)` to `.claude/settings.json`
-  (the covalent gate; the Agent must not self-grant). Until then, push stays a manual `! git push`.
+- **PENDING the Operator's permission grant — LOCAL first** — add `Bash(bin/git.sh:*)` to
+  `.claude/settings.local.json` (the covalent gate; the Agent must not self-grant). Disposable script
+  ready + verified at `/tmp/grant_gitsh.py`. Until granted, push stays a manual `! git push`.
 - Cross-link: `dyad-healer@bin/git.sh` + `ledger.md:311` (invariant source) · `dyad-steward`
   reflection 2026-05-29 (/tmp grounding) · `relationship-craft.md` §D4 scope-guard 2 (mechanical =
   lightest anchor — the wrapper makes push genuinely mechanical).

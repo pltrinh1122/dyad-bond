@@ -93,8 +93,11 @@ hitting the live friction (classifier blocked `git push origin main`). **Built `
 inherited/triangulated from `dyad-healer@bin/git.sh`; reason + header authored as **ours** =
 *memory-durability for the relationship-craft*, not healer's boundary-defense). Dry-run verified (4 policy
 paths). **Covalent gate:** policy Operator-governed + permission is Operator's act (no Agent self-grant).
-→ **ACTION OWED — Operator:** add `Bash(bin/git.sh:*)` to `.claude/settings.json` (the gate; I must not
-self-grant). Then `bin/git.sh push` runs un-prompted (healer saw it hot-reload mid-session).
+→ **ACTION OWED — Operator:** add `Bash(bin/git.sh:*)` to `.claude/settings.local.json` (**LOCAL first**,
+per [ALIGN] "both can be true — start local, earn promotion"; the gate, I must not self-grant). Verified
+disposable script at `/tmp/grant_gitsh.py`. Then `bin/git.sh push` runs un-prompted (healer hot-reloaded).
+→ **Promotion local→checked-in** earned only when BOTH: (1) proven (pushed un-prompted ≥1, no policy
+widening) AND (2) a portability need materializes (re-clone / sibling). Until then local is sufficient.
 → **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
 
 ### F — Steward-discipline intake  ·  status: RUN 2026-05-31 (findings = candidates, NOT yet adopted)
