@@ -62,6 +62,30 @@ our tell distrusts?** Graduates to `kb/` only when F1–F4 are each attacked-and
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
 and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; test under our own gate.
 
+### G — CTA-load / generative-bias  ·  status: CONVERGING (principle ratified; guard pending)
+**Operator [OBSERVATION] 2026-05-31:** a `Y/N` CTA carries variable load; on matters needing
+*Generative* input from the Operator, `Y/N` injects **Agent bias** (anchors the Operator to the
+Agent's pre-formed candidate). **Confirmed by Axis-1 telemetry:** *every* Operator generative
+contribution this session arrived via **[ALIGN]/[OBSERVATION]**, routing *around* the Agent's CTAs;
+the CTAs extracted only dispositions. **Covalent sharpening:** the bias vector is the **`Y/N` closure**
+(forcing dispose-mode onto a generate-matter), NOT the Agent's candidate per se — which is *why* IFD =
+candidates-yes / CTA-no. So this is the buried **rationale for the DFD/IFD split**, surfaced.
+**RATIFIED principle (a)** *(Operator [ALIGN] 2026-05-31):* **`[CTA·Y/N]` ≡ disposition only, per DFD.**
+Covalent sharpening: the true boundary is **origination** — `Y/N` handles *accept / reject /
+select-from-a-formed-menu*; **origination** (Operator generating a candidate on no menu) → IFD/Elicit, always.
+**PENDING guard (b)** *(Covalent-proposed, awaiting Operator disposition):* (a) is violable by Agent
+**mis-classification** (framing origination as disposition to push its candidate). Guard = Agent must
+justify any `Y/N` as origination-free; **[ALIGN] = Operator's standing override** on the Agent's
+classification. Also pending: graded anchor-spectrum `Y/N`→IFD→Elicitation (*lightest anchor that still
+moves* — wu-wei); label each CTA's load.
+→ **Binding plan (once (b) settles):** sharpen `dialectic/dyad-ui.md` (the framing-*selection* rule) +
+`dialectic/ideation-framing.md`; binding into `kb/dfd.md` **doubles as starting Item-C re-confirmation**
+of dfd.md under our own NON-NEGOTIABLE. Do NOT promote to `kb/` until the rule has survived *application*,
+not just test.
+→ **Note:** this is the bias caught in its *mirror* direction — NON-NEGOTIABLE guarded Agent-rubber-stamps-
+Operator (sycophancy); thread G guards **Agent-frames-lead-Operator** (CTA-shape bias). Same ionic
+collapse, both directions now named.
+
 ## NBA — next-best-action for the fresh session
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
 2. ~~**Item B** — verify steward marked the 7 assets deprecated.~~ ✅ checked → **still open**, chase later.
