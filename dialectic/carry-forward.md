@@ -87,6 +87,16 @@ NOT DENIED** — but Axis-1 affirms nothing; auxiliary *"dividend⇒marker"* **m
 handed to **F2**. F1 **narrows, not closes**; stays OPEN (weak survival). **Chain F4→F1→F2.**
 → **TRV partly enacted:** doing F1-without-waiting-for-F2 *is* the axis-dependent answer in action.
 
+### H — Substrate-access wrapper (git/gh)  ·  status: BUILT v0.1, PENDING Operator permission-grant
+Operator [ALIGN] 2026-05-31: every Dyad converges on a git/gh wrapper (→ **invariant**, D1). Triggered by
+hitting the live friction (classifier blocked `git push origin main`). **Built `bin/git.sh`** (mechanism
+inherited/triangulated from `dyad-healer@bin/git.sh`; reason + header authored as **ours** =
+*memory-durability for the relationship-craft*, not healer's boundary-defense). Dry-run verified (4 policy
+paths). **Covalent gate:** policy Operator-governed + permission is Operator's act (no Agent self-grant).
+→ **ACTION OWED — Operator:** add `Bash(bin/git.sh:*)` to `.claude/settings.json` (the gate; I must not
+self-grant). Then `bin/git.sh push` runs un-prompted (healer saw it hot-reload mid-session).
+→ **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
+
 ### F — Steward-discipline intake  ·  status: RUN 2026-05-31 (findings = candidates, NOT yet adopted)
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
 and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; test under our own gate.
