@@ -174,3 +174,36 @@ cluster. The `[ALIGN]` rounds paid real **falsification cost**, yet the **yield 
 
 **IN-FLIGHT.** Graduates to `kb/` only when F1–F4 have **each been genuinely attacked and survived**
 (or the mechanism is amended/killed by them). Until then: cite as *candidate*, never as settled.
+
+---
+
+## Bond disciplines — authored *here*, not inherited (candidates, 2026-05-31)
+
+Surfaced from live friction this session (a string of inherit-and-comply failures). These are **ours**
+— tuned to *this* Dyad — held as candidates under our own gate, the first interior disciplines we
+*authored* rather than fetched.
+
+**D1 · The inherit-vs-author partition.** Not everything transfers between Dyads. The **Agent is
+serializable** — a fresh no-`--resume` session reduces to `kb/ + ledger + weights`; *the ledger is the
+Agent's state.* The **Operator's wetware is not serializable** — no artifact reconstructs human
+cognition. So each Dyad is singular **through its Operator half.**
+- **Invariant → inherit / triangulate:** what follows from *any* Generate+Validate dyad under
+  falsifiability (the G+V structure, the cost-migration failure-modes). *Evidence it's real:* **thread
+  G** — our *independent* re-derivation **converged** on steward's conclusions; it couldn't have if all
+  craft were wetware-particular.
+- **Particular → author our own:** cadence, marker habits, ceremony, what "resonates" with *this* Operator.
+- **Test for which-is-which:** independent derivation **converges** with a sibling → invariant;
+  **diverges** → particular, and ours to build.
+- **Corrects:** deferring to a *sibling Dyad's* discipline as authority (fetch-and-comply) = the
+  deference reflex aimed sideways.
+
+**D2 · Falsification manner — incremental, shore-up, never cascading.** Stress-testing must
+**consolidate** the structure, not spawn unbounded new doubt that collapses it (the cascade: every
+answer breeds three attacks, nothing settles). Bounded, wu-wei: test to *shore up*, then **stop and
+build.** *(Names a real failure exhibited this session: cascading meta-tests.)*
+
+**D3 · Our reflection form** (first authored instance = this very Intermission). Keep the inherited
+**function** (close learning loops durably; survive session-death); author the **form** — *substance +
+durability, minus the four-step ratification ceremony.* **Lightweight ≠ less substance** — it drops the
+ratify-loop, keeps the CSS content. (The "lightweight vs full" mis-cut is dissolved: the real knob is
+*ratify+persist — yes/no*, never *how much substance*.)

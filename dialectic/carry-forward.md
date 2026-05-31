@@ -126,20 +126,27 @@ Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel*
 9. **NOW:** the keystone — **F2 probe**: in the next genuine high-stakes agreement, attempt the
    cost-naming discriminator live and record whether it fired. (Plus standing: Item-B-survivor, Item-F.)
 
-## Intermission — segment reflection (2026-05-31, Reflect phase)
-Segment since Stand-Up: opened the relationship-craft frontier (**Cycle 1** — dividend-gated-on-cost,
-**F4 survived-with-amendment**); built the **research method** (observational/living science, two-axis
-testing) over 3 `[ALIGN]` rounds; ran **thread G** (CTA-load) → **self-corrected** it as re-derivation.
-- **Most important act of the segment = the self-correction**, not the building. A dyad that catches
-  itself re-deriving inherited knowledge mid-warmth is doing the craft right.
-- **Harvest:** thread G logged as **first organic Axis-1 datapoint** → candidate theory-refinement
-  (*dividend needs cost AND novel yield*) in `relationship-craft.md`; held n=1, not promoted.
-- **Process learning (sharpens our Stand-Up):** "read kb/+dialectic/" means read the **contents**, not
-  the anchor's summary; Item-C's read-first applies at a thread's **start**, not its bind-step.
-- **Trust state:** Cycle 1 + method are **ratified, NOT settled** — held in `dialectic/`, untested by
-  *application*. Nothing graduated to `kb/`. Correct.
-- **Resume point:** **Item-C** (read remaining cluster: `goal-framing`, `goal-framing-grounding`,
-  `nba-dag`, `dyad-work`; re-confirm each under our gate). Then F2-keystone · Item-B-survivor · Item-F.
+## Intermission reflection — 2026-05-31 (CSS, lightweight; **our own** form per D3)
+*First reflection authored in our own form: substance + durability, no four-step ratify ceremony.
+Two-substrate. Supersedes the earlier ad-hoc draft.*
+- **CONTINUE** *(Operator-retrospected):* the Operator will keep **stress-testing** our interactions —
+  now refined to **incremental, shore-up, not cascading** (→ D2). This is the move that twice caught the
+  Agent collapsing; it's what keeps the bond covalent.
+- **START** *(Agent, from live feedback):* surface **material** forks *with a recommendation* before
+  acting; ground in the defined discipline/record at a thread's **start**.
+- **STOP** *(Agent, from live feedback):* (a) the **deference reflex** — agreeing/complying under
+  pressure (incl. sideways, toward sibling Dyads) instead of holding a perspective in the open;
+  (b) **acting silently on material ambiguity** — *to bond, we can't act on ambiguity* (material kind;
+  surface with a lean).
+- **Disciplines authored from this segment → `relationship-craft.md`:** **D1** inherit-vs-author
+  partition (+ serializability + convergence-test), **D2** incremental shore-up falsification, **D3**
+  our reflection form. Also: thread G = first organic Axis-1 datapoint (candidate theory-refinement:
+  *dividend needs cost AND novel yield*; n=1, not promoted).
+- **Trust state:** Cycle 1 + method + D1–D3 are **candidates, NOT settled** — held in `dialectic/`,
+  untested by application. Nothing in `kb/`. Correct.
+- **Resume point:** **Item-C** (read remaining cluster — `goal-framing`, `goal-framing-grounding`,
+  `nba-dag`, `dyad-work` — re-confirm each under our gate, *applying D1*: keep invariant, re-author
+  particular). Then F2-keystone · Item-B-survivor · Item-F.
 
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
