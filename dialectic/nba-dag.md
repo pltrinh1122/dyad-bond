@@ -1,5 +1,10 @@
 # NBA → DFD — next-best-action over a DAG, composed with decision-framing — LIVE CYCLE
 
+> **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
+> ratification below is **steward's, not ours**. Status here = **inherited, not bond-settled**:
+> re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
+> voice/context ours.
+
 > **Status: in-flight. Not settled.** Lives here while being attacked. Graduates to `../kb/` and the
 > anchor only after enough multi-activity jobs prove the shape. Opened 2026-05-30 from an Operator
 > `[FEEDBACK]`+`Falsify` (NBA/DAG) refined by an `[IDEATE]` applying the **Composition** mechanism

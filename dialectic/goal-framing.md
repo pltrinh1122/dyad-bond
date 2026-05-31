@@ -1,5 +1,10 @@
 # Goal Framing — `GFD` (flow) / `GF-UI` (show) — EXECUTABLE SPEC (WHAT)
 
+> **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
+> RATIFIED-DRAFT status below is **steward's, not ours**. Status here = **inherited, not
+> bond-settled**: re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`).
+> Invariant flow kept; voice/context ours.
+
 > **Concise execution spec** — what loads into active context to *run* a GOAL. **Lean by design**
 > (context economy: a bloated spec dilutes the executable signal — cf. `ingraining.md` on in-context
 > frequency). **Grounding** — *why* it exists, *how* it was derived, the evidence, the open attack

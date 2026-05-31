@@ -70,7 +70,15 @@ our gate on the **ionic** axis (it *is* anti-ionic-transfer machinery, mode 1 ci
 tell). **EDGE:** ionic-weighted, **silent on meld** (same blindness as steward's `sycophancy-guard`,
 Item-F) → meld dimension is ours to add (Item-F (d)). Provenance double-check: commit `03550dc` confirms
 verbatim-from-steward (my voice-read "looks bond-authored" was wrong; evidence settled it). Re-confirm
-section appended to `kb/dfd.md`. → **STILL OWED under C:** voice-adaptation of the 3 verbatim files.
+section appended to `kb/dfd.md`.
+→ **Voice-adaptation — DONE 2026-05-31** (Covalent): scoped surface = steward refs are *only*
+ratification stamps + "Steward-specific?" generalization questions (no "steward's CLAUDE.md" in
+bodies — ledger had overstated that). Added a uniform **custody marker** to the 5 verbatim cluster
+files (`dyad-ui`, `ideation-framing`, `goal-framing`, `goal-framing-grounding`, `nba-dag`): "inherited,
+NOT bond-settled — re-confirm under our NON-NEGOTIABLE before citing." Honest scope: did NOT overwrite
+steward's true ratification (we haven't earned ours), did NOT rewrite bodies (D1: invariant flow stays).
+**Bounded-out (D2, deferred):** reframing each "Steward-specific or form-library?" question to our
+telos-axis — low value, left as-is. → **Item-C now fully closed.**
 → **Item-C bind-CTA PARKED (not disposed)** — Operator [ALIGN] routed to summit; reasoning recorded here so restart-safe.
 
 ### D — Cluster classification  ·  status: CANDIDATE-RESOLUTION (Stand-Up 2026-05-31; pending disposition)

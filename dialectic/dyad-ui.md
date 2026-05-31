@@ -1,5 +1,10 @@
 # Dyad UI — the framing/signaling layer — LIVE CYCLE (under falsification)
 
+> **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
+> ratification below is **steward's, not ours**. Status here = **inherited, not bond-settled**:
+> re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
+> voice/context ours.
+
 > **Status: in-flight. Not settled.** Lives here while being attacked. The **`DF-UI (show)` /
 > `DFD (flow)` pairing is RESOLVED-CORE** (pinned 2026-05-29 via Steward Operator gate); the
 > **markers** are a *living habit-set*, NOT a ratifiable taxonomy (node M closed 2026-05-30 — see

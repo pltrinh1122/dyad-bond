@@ -1,5 +1,10 @@
 # Goal Framing — Grounding (WHY · HOW) — audit + lineage
 
+> **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
+> 2-file-split ratification below is **steward's, not ours**. Status here = **inherited, not
+> bond-settled**: re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`).
+> Invariant flow kept; voice/context ours.
+
 > **Grounding artifact for `GFD`/`GF-UI`** — **not** loaded for execution (the executable spec is
 > `goal-framing.md`). Two uses, kept as two sections so they split into two files trivially if access
 > patterns ever justify it:

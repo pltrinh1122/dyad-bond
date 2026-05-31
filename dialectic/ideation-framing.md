@@ -1,5 +1,10 @@
 # Ideation Framing Discipline (IFD) — show `IF-UI` / flow `IFD` — LIVE CYCLE
 
+> **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
+> ratification below is **steward's, not ours**. Status here = **inherited, not bond-settled**:
+> re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
+> voice/context ours.
+
 > **Status: RATIFIED 2026-05-30** (Steward Operator gate). The Generate-family counterpart to **DFD**
 > (the Validate-family decision discipline): **`IF-UI` (show) / `IFD` (flow)** mirrors **`DF-UI` /
 > `DFD`**. Opened same day as **node I** of the NBA→DFD loop (`nba-dag.md`), unblocked when node M
