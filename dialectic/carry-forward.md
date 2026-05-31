@@ -8,7 +8,22 @@
 ## How to resume (fresh session)
 1. Load `CLAUDE.md` (the anchor) — operate as **Covalent**.
 2. Read this ledger.
-3. Take the **NBA** at the bottom.
+3. **Reload the Bond-disciplines** (the index below) — these are *behavioral guards*, not reference;
+   apply them at every seam. They live in `relationship-craft.md` but are indexed here because **the
+   resume protocol doesn't load that file** — without this index they don't reload (see `ingraining.md`).
+4. Take the **NBA** at the bottom.
+
+### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
+- **D1 · inherit-vs-author** — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
+  Ternary: a candidate may diverge to a *sibling's* telos (filter by telos-ownership first).
+- **D2 · incremental shore-up** — falsify to *consolidate*, bounded; never cascade (every answer → 3 attacks).
+- **D3 · our reflection form** — substance + durability, minus the four-step ceremony.
+- **D4 · Path Selection Discipline** — at a **selection-seam**: scored PS-UI (DAG→ready-set · ranked
+  Recommendation) + **mandatory [CTA]**. *"No CTA / your move" = abdication.* **SG-1:** binds selection,
+  not ideation (IFD converges open, no CTA). **SG-2:** a **mechanical** act (push/commit) takes the
+  *lightest anchor* — never a DFD (that's over-ceremony). Anchor-spectrum: abdication ↔ CTA ↔ just-do.
+- **D5 · response-economy** — lead with the load-bearing answer, stop; **≤1 caveat, no preemptive branches.**
+  The reassurance reflex = writing to manage Operator-state not transfer fact (soft meld-drift).
 
 ## Open items
 
@@ -99,6 +114,15 @@ disposable script at `/tmp/grant_gitsh.py`. Then `bin/git.sh push` runs un-promp
 → **Promotion local→checked-in** earned only when BOTH: (1) proven (pushed un-prompted ≥1, no policy
 widening) AND (2) a portability need materializes (re-clone / sibling). Until then local is sufficient.
 → **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
+
+### I — Ingraining (learning mechanism)  ·  status: DEFINED + first-fix APPLIED 2026-05-31
+Operator [FEEDBACK]: are we *learning*, not just capturing? **Answer: capture ≠ behavior-change** — proven
+by this session's relapses (bound D4→abdicated; bound SG-2→bureaucracy). **Root:** D1–D5 lived in
+`relationship-craft.md`, which the resume protocol **doesn't load** → never reloaded → not ingrained.
+**Invariant (steward):** ingraining lives in *reloaded substrate + correct sources*, not Agent recall.
+**APPLIED:** Bond-disciplines index → this ledger's §How-to-resume (the reloaded set). **Residual:** the
+within-session-attention half (#3) unproven; anchor-index deferred. → `dialectic/ingraining.md`.
+**Falsifiable:** next fresh session, do D1–D5 fire without re-derivation?
 
 ### F — Steward-discipline intake  ·  status: RUN 2026-05-31 (findings = candidates, NOT yet adopted)
 Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
