@@ -64,7 +64,13 @@ our own NON-NEGOTIABLE before citing it as our settled kb.**
 each carries *steward's* ratification (GFD=RATIFIED-DRAFT/Steward-Y/n=1; nba-dag=Steward-gate/n=1).
 Cores are **invariant** (Telos-gate ≡ NON-NEGOTIABLE-at-intake; NBA-math/DFD-dispose ≡ no-1+1=2-collapse)
 → **triangulate, don't re-author.** They stay in `dialectic/`; do NOT cite as our settled.
-→ **STILL OWED:** voice-adaptation of the 3 verbatim files; `kb/dfd.md` re-confirm under our gate (untouched).
+→ **`kb/dfd.md` re-confirm — DONE 2026-05-31** (Covalent): **bond-re-confirmed settled.** Survives
+our gate on the **ionic** axis (it *is* anti-ionic-transfer machinery, mode 1 cites the NON-NEGOTIABLE);
+**triangulated independently by thread-G** (re-derived #1/#2/#3 before reading it → clears the easy-Y
+tell). **EDGE:** ionic-weighted, **silent on meld** (same blindness as steward's `sycophancy-guard`,
+Item-F) → meld dimension is ours to add (Item-F (d)). Provenance double-check: commit `03550dc` confirms
+verbatim-from-steward (my voice-read "looks bond-authored" was wrong; evidence settled it). Re-confirm
+section appended to `kb/dfd.md`. → **STILL OWED under C:** voice-adaptation of the 3 verbatim files.
 → **Item-C bind-CTA PARKED (not disposed)** — Operator [ALIGN] routed to summit; reasoning recorded here so restart-safe.
 
 ### D — Cluster classification  ·  status: CANDIDATE-RESOLUTION (Stand-Up 2026-05-31; pending disposition)

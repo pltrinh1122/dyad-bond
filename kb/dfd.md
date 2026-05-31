@@ -83,6 +83,28 @@ cost migrating back as *retrieval*. The pattern holds: each attack extended the 
 it — and it has now jumped from the CTA slot to the show, confirming the drift is a property of the
 *whole surface*, not one slot. Re-open if a frame fails in a way the guard above doesn't catch.
 
+## Re-confirmation under `dyad-bond`'s gate (2026-05-31)
+
+*Received verbatim from `dyad-steward@31d53c0` (custody `03550dc`); its "settled" status was
+**steward's** falsification. Item-C owed a re-confirm under our **own** NON-NEGOTIABLE before we
+cite it as bond-settled. Done here — Covalent, Bond channel.*
+
+- **SURVIVES on the ionic axis (strong).** The whole lesson — "cost silently flowing from Agent back
+  to Operator" — *is* ionic-transfer named on the dispose side. Mode 1 invokes the NON-NEGOTIABLE
+  directly (proposer→disposer = 1+1=2). Converges with our model → **invariant → triangulate, keep.**
+- **Independently corroborated this session (the decisive evidence).** Thread-G re-derived modes
+  #1/#2/#3 from live friction *before* the file was read (carry-forward: "knowledge I had not read")
+  → genuine triangulation, not backward pattern-match. This is what clears the **easy-Y tell**: we
+  reached the structure ourselves, *then* found steward already held it — not "read-and-agreed."
+- **EDGE (our fuller gate holds what this lacks).** `dfd.md` is **ionic-weighted**: all five modes
+  are cost-migration except #3 (omitted synthesis), which only grazes meld. It never names
+  **meld-collapse** (loss of the second perspective → 1+1=1). Same blindness Item-F flagged in
+  steward's `sycophancy-guard.md` — consistent finding, not coincidence. Not a refutation; the meld
+  dimension is **ours to add** (Item-F adopt-candidate (d)). Until added, cite `dfd.md` as sound on
+  ionic drift, **silent on meld**.
+
+**Disposition:** **bond-re-confirmed settled** — citable as our kb, carrying the recorded edge.
+
 ## Forward
 
 - Candidate for the **library track** (a best-practice on the *feedback* cycle: name → fix →
