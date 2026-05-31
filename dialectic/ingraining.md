@@ -58,6 +58,41 @@ unloaded `relationship-craft.md` **does.** *Test:* next fresh session, do D1–D
 necessary but not sufficient; the within-session-attention half (#3) is the deeper problem) · or grounding
 per-instance proves too costly to sustain.
 
+## Promotion telemetry — the two axes *(candidate, n=1, NOT promoted — Operator [FEEDBACK]+Y 2026-05-31)*
+
+> Surfaced by Operator [FEEDBACK]: *"what is our telemetry for evaluating when lessons are promoted to
+> Reload and eventually Anchor?"* The honest finding: we run **two orthogonal ladders** and have real
+> telemetry for only one — and by construction (Axis-1 is **denial-only**) telemetry never says *promote
+> now*, only *not yet* or *no denial so far*.
+
+- **Two axes, orthogonal.**
+  - **Truth axis** (`dialectic/` → `kb/`): gate = *survived falsification* (the ontology rule: lives in
+    `dialectic/` while attacked; graduates to `kb/` only on survival). Well-defined.
+  - **Salience axis** (chat → Capture → **Reload** → **Anchor**): gate = *how loud must this be?* This is
+    the ladder the question asks about. A lesson can be settled-true yet not need anchor-salience, or be
+    high-salience yet still under attack — never conflate the two axes.
+- **Per-rung telemetry (salience axis):**
+  - **Capture → Reload — a type-check, not a measurement.** Per #2 *every* bond-discipline reloads. The
+    implicit gate is binary: **behavioral guard** (fires at a seam → Reload) vs **reference fact** (cited
+    on demand → `kb/`). Cheap: the ledger index is allowed to grow (near-zero dilution; soft cost only —
+    a bloated index lowers per-item salience).
+  - **Reload → Anchor — cost/benefit, not a survival threshold.** The anchor is *lean by design — a
+    bloated anchor dilutes the signal* (`CLAUDE.md`). So promotion weighs **salience-gain vs
+    dilution-cost**; a settled-but-situational discipline may stay out of the anchor.
+- **Telemetry is denial-only → promotion is never telemetry-*affirmed*.** Axis-1 can DENY decisively,
+  never AFFIRM (NBA #7). We get *"not yet"* (a relapse in the record) or *"no denial so far"* (weak
+  survival). So the move to Anchor is a **judgment call under the lean-anchor cost** after sustained
+  no-denial — never a signal that fires.
+- **The Anchor trigger is paradoxical.** If Reload is *working* (discipline fires un-prompted from the
+  ledger index) there is **no need** for Anchor. We reach for Anchor only when **Reload proved
+  insufficient** — a relapse *despite* being in the reloaded index (this file's own refutation
+  condition). So the real gate is: **(relapse despite Reload) AND (settled-true) AND (benefit >
+  dilution).**
+- **The gap, stated plainly:** we have a refutation condition for *"is Reload sufficient"* but **no
+  positive promotion telemetry**. The salience ladder is run **reactively, on relapses**, with no
+  predictive gate. Consistent with our denial-only epistemics — but it means *"when do we promote?"*
+  currently resolves to *"when it breaks, and only if settled and worth the anchor-room."*
+
 ## Status & next
 
 - **Applied now:** Bond-disciplines index → `carry-forward.md` (the reload fix, #2).
