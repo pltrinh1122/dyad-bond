@@ -42,7 +42,10 @@
    incidental / out-of-scope changes flagged.* It makes the gate a **cheap diff-vs-direction spot-check**,
    not a full-diff vigilance test (an unread merge `Y` is the Operator-side ionic collapse the **anti-cave
    duty** names). **It is a navigation aid INTO the diff, never a trust-substitute FOR it** *(Φ-meta:
-   a self-asserted "delivered==directed" is the same assertion-from-model D6 forbids)*.
+   a self-asserted "delivered==directed" is the same assertion-from-model D6 forbids)*. **The manifested PR
+   *is* the disposition surface** — opening it hands the decision to the gate; a *parallel conversational*
+   `[CTA·Y/N]` for the merge is **redundant double-anchoring** (D4 SG-4). Lightest merge-close = *"PR #N is
+   up for your gate"* + dissent-points, then stop.
 3. **Duty split — Covalent owns the accident-guard; the gate is the backstop.** (a) *unintentional* =
    competence risk → first line of defense is **Covalent's pre-PR `SELF-AUDIT` by execution** (D6: re-read
    the *actual* diff, run checks, confirm no scope-creep), attached to the PR. (b) *un-directed* = authority
