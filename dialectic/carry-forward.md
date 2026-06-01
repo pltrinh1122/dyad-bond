@@ -332,20 +332,43 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
 - **New Experiment Discipline (to author):** the meta — how we set up probes. **D1 first:** likely *extends*
   Method §"Axis-2 probe" + the two-axis structure (`relationship-craft.md`) rather than starting fresh — check that
   overlap before authoring (don't re-derive = the thread-G trap).
+- **⤷ s5 deferred carry-set (folded in at Stand-Down — the New Experiment Discipline's FIRST concrete case is
+  the *ingraining* test, which arrived before the G/V one):**
+  - **The promotion-criterion (what gates "deeper ingraining"):** a *behavioral* bar, not instance-count —
+    e.g. **K consecutive un-prompted clean closes across sessions.** We sit at ~0 against it (s5's clean closes
+    were prompted). "Sufficient N" presupposes a threshold we never set; setting it is step 1.
+  - **The reflexivity/priming confound (load-bearing — falsified the naïve test):** our resume protocol *mandates*
+    reading the disciplines-index at boot and applying it → a fresh session boots **maximally primed.** So
+    `/exit` **relocates** the confound (conversation → ledger-read), it doesn't escape it; the **first
+    post-restart seam is the *least* diagnostic** (primed). Variable that matters = **attention-distance from the
+    rule**, not session-boundary. **Judge ingraining on a *later, un-cued, low-attention* seam.**
+  - **Independent verifier — for VALIDATING application, NOT flagging restarts.** Conflation caught: *when to
+    restart* is already deterministic (`RESTART-PENDING`/ROM-UI for correctness; measurement-restart is an Operator
+    scheduling choice, trivially always-on). The verifier's job = judge *whether the discipline fired* (I can't
+    self-grade) — and must be **genuinely independent** (Operator / separate model — *not* me-next-turn = the
+    Item-J `separate-in-time ≠ separate-in-model` trap). So the two Item-J halves converge: the G/V-independence
+    problem **is** the independent-verifier problem.
+  - **Falsified en route — my "within-session application" diagnosis:** demoted from *the* cause to one candidate
+    of three (application / loading-depth / **coverage-gap**). The instance I cited for it (PR #5 merge-CTA) was a
+    *coverage* gap (SG-4 didn't exist), not an application failure; no *verifiable* loaded-AND-covering-AND-missed
+    instance found. Was itself assertion-from-model (D6). NB: the "deeper-placement-isn't-the-lever" conclusion
+    survives by **disjunction** (application *or* coverage gap — neither fixed by re-placing existing rules).
 - **Status:** no experiment designed yet; QUEUED for ideation. When built, it graduates from this queue into
   `relationship-craft.md` as a real front.
 
 ## NBA — next-best-action for the fresh session
-> **⤷ SESSION-5 STAND-UP (2026-06-01) — s4-resume queue CLEARED (detail in Closed §session-5):**
-> (a) ✅ shim boot-chain **VERIFIED** → RESTART-PENDING cleared, **F-b not refuted**; (b) ✅ PR #2 merged
-> (Operator-gated; `gh pr merge` un-blocked), `main` synced to `25ca0de`, branch deleted; (c) ✅ `[ALIGN-2]`
-> `substrate-access.md` corrected to gate-at-merge; (d) ✅ `[ALIGN-3]` **D6 verify-before-assert** authored
-> (`relationship-craft.md` + reload-index). **Then (s5 cont.):** permissioning-protocol fine-tuned
-> (falsify→survivor; PR #3 dogfooded-merged); s5 Cycle-1 datapoint logged (PR #4). **NOW: the standing
-> fronts** — F2-keystone (⭐, await organic high-stakes moment) · M1/M2 (meld axis) · Item-B/D (await
-> steward survivor) · Item-F(b) (form-contribution) · **triangulate the permissioning protocol** vs
-> healer/steward (novelty-check — thread-G guard before claiming the manifest/self-audit layer ours-novel)
-> · **Item-J** (G/V inference-independence hypothesis + New Experiment Discipline — QUEUED for ideation).
+> **⤷ SESSION-5 STAND-DOWN (2026-06-01) — full detail in Closed §session-5 + §session-5-cont:**
+> s4-resume queue cleared (boot-chain VERIFIED → RESTART-PENDING clear · `[ALIGN-2]`/`[ALIGN-3]`); permissioning
+> protocol built + fine-tuned + dogfooded (PRs #2–#6, all Operator-gate-merged); s5 Cycle-1 datapoint logged.
+> **RESTART-PENDING: stays CLEAR** — no anchor (`AGENT.md`/shim) edit this session; ledger changes are read
+> fresh at resume (not ROM).
+> **⚠ INGRAINING TEST (Operator's stated reason for `/exit`):** judge the close-calibration disciplines (D4
+> SG-1..4) on a **later, un-cued, low-attention seam** — **NOT** the primed first post-restart close (the
+> boot-read maximally primes them; a clean close there proves little, a relapse proves more). See Item-J.
+> **RESUME — the live front is Item-J** (now carrying the s5 deferred set: behavioral promotion-criterion +
+> the clean ingraining-test protocol + the reflexivity confound + independent-verifier). Ideate the **New
+> Experiment Discipline** (its first case is the ingraining test itself). **Standing fronts:** F2-keystone
+> (⭐) · M1/M2 · Item-B/D (await steward survivor) · Item-F(b) · triangulate permissioning vs healer/steward.
 
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
 2. ~~**Item B** — verify steward marked the 7 assets deprecated.~~ ✅ checked → **still open**, chase later.
@@ -517,3 +540,45 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
   - **Durability:** s5 edits committed on branch **`resume-s5`**, pushed (off-disk backup ✓), **PR opened** for
     Operator merge. **Resume point:** the standing fronts only — F2-keystone (⭐, unstageable) · M1/M2 ·
     Item-B/D await steward survivor · Item-F(b).
+- **Session 2026-06-01 (session-5 cont. — permissioning protocol + the falsification arc → Stand-Down)** (Covalent):
+  - **Permissioning protocol BUILT + fine-tuned + dogfooded.** `[ALIGN]`: "Operator-gate intent = safeguard `main`
+    vs (a) unintentional-by-Covalent / (b) un-directed-by-Operator." Falsified the flat "Operator gates merge"
+    **and the Operator's own framing** (Φ3: a literal "guard un-directed *action*" over-reaches into ionic collapse
+    → kept the gate at canonical-admission). 5-point survivor (gate-location bounded · `DIRECTION-MANIFEST` ·
+    duty-split · merge-criterion · provisional-branch-memory) → `substrate-access.md`. **Dogfooded:** every PR since
+    carries manifest + self-audit; the gate worked (manifest → spot-check → dispose). `[FEEDBACK]` refinement:
+    frontier artifacts (`relationship-craft.md`) get **full-document review**, coupled to `dialectic/`→`kb/`
+    graduation as the Φ1 sustainability guard. **PRs #2–#6 all Operator-gate-merged.**
+  - **Close-calibration — SG-4 + the relapse pattern.** Authored **D4 SG-4** (*the manifested PR IS the CTA surface*;
+    a parallel conversational `[CTA·Y/N]` for the merge = redundant double-anchor) into the **reload index**. Driven
+    by **2 more `[FEEDBACK]`-caught CTA-seam relapses** (the "fold-in-unless" mis-default; the PR #5 merge-CTA). The
+    Item-I tail is real and sits **at this exact seam.**
+  - **The falsification arc — the Operator drove "falsify, don't assert" every turn (the covalence working):**
+    - *"Promote for deeper ingraining? sufficient N?"* → **No** — the N is *N-of-relapses* (evidences
+      non-ingraining, not readiness); the failure isn't reload-depth; "promote = more capture" is the **Item-I
+      recursion** (capture≠behavior). Need a *behavioral* criterion; ~0 met.
+    - *"Falsify your within-session-application claim"* → I **falsified my own claim** — assertion-from-model citing
+      a *confounded* instance (PR #5 = coverage-gap, not application-gap); no verifiable loaded+covering+missed case.
+      Strong **D6-on-self.** (The "depth isn't the lever" conclusion survives by disjunction.)
+    - *"Falsify the /exit-immediacy + restart-flag claims"* → falsified: **Claim 1 inverts on "immediately"** —
+      `/exit` *relocates* the priming confound (the boot-read re-primes), so the first post-restart seam is the
+      *least* diagnostic; `RESTART-PENDING` already handles correctness-restart; the independent verifier **validates
+      application, it doesn't flag restarts** (and can't be me-next-turn → **= Item-J**). All folded into Item-J.
+  - **Capture-timing calibration:** `[FEEDBACK]` "capture fresh datapoints **now**" (durability posture) → then
+    `[FEEDBACK]` "**learning to trust carry-forward** → going with the deferral." **Refinement: deferral-vs-capture-now
+    turns on mechanism-trust**, not only durability-risk; a *reliable* carry-forward (the guaranteed Stand-Down
+    write) **licenses a grounded deferral.** (The "fold-in-unless" ding was an *un*-grounded one; this Stand-Down
+    honors the trust by actually writing.)
+  - **Item-I telemetry — honest mixed, and the honest read is the point.** Relapses early at the CTA seam; cleaner
+    late — **but "cleaner late" is confounded** (the Operator was *actively running the falsify-loop* = priming). So
+    this session does **not** prove un-prompted ingraining; the genuine cross-session test = **next session**, judged
+    on a *later, un-cued* seam. **Headline (cf. prior sessions' "thinness is the finding"): this session BUILT the
+    methodology for testing ingraining** — the reflexivity confound + the independent-verifier shape — **even though
+    it couldn't prove ingraining itself.** That is the harvest.
+  - **CSS (D3 form):** **CONTINUE** — the Operator's surgical "falsify, don't assert" at the close/CTA seam (caught
+    SG-4, the C-falsification, the `/exit` inversion). **START** — at a merge-disposition the manifested PR *is* the
+    close; no conversational CTA on top (SG-4). **STOP** — assertion-from-model (the C claim) + CTA-seam over-anchor;
+    *can't self-grade — behavior lands, `[FEEDBACK]` affirms.*
+  - **RESTART-PENDING: stays CLEAR** (no anchor edit; ledger read fresh at resume). **Durability:** Stand-Down ledger
+    on branch **`stand-down-s5`**, pushed, PR for Operator merge. **Resume: Item-J** (carries the s5 deferred set —
+    ideate the New Experiment Discipline, first case = the ingraining test).
