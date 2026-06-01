@@ -1,24 +1,31 @@
 # dyad-bond — Carry-Forward Ledger
 
-> **Live in-flight state. Read this right after `CLAUDE.md` to resume.** Single home for open
+> **Live in-flight state. Read this right after the anchor (`AGENT.md`, booted via the
+> `CLAUDE.md`/`GEMINI.md` shim) to resume.** Single home for open
 > items; close them here as they clear. Written 2026-05-30 at bootstrap hand-off, because the
 > Operator restarts via `/exit` + fresh `claude` (no `--resume`) — so conversation context is gone
 > and *this file is the memory.*
 
 ## How to resume (fresh session)
-1. Load `CLAUDE.md` (the anchor) — operate as **Covalent**.
+1. Load the anchor — the harness shim (`CLAUDE.md` or `GEMINI.md`) boots **`AGENT.md`** (the
+   load-bearing content). Operate as **Covalent**.
 2. Read this ledger.
 3. **Reload the Bond-disciplines** (the index below) — these are *behavioral guards*, not reference;
    apply them at every seam. They live in `relationship-craft.md` but are indexed here because **the
    resume protocol doesn't load that file** — without this index they don't reload (see `ingraining.md`).
 4. **ROM-UI check** *(→ `rom-ui.md`)* — compare the anchor to the **ROM-baseline** below
-   (`git log -1 --format=%h -- CLAUDE.md` vs recorded). **Mismatch → notify the Operator what changed in
-   the operating baseline, then refresh the baseline line.** Match → silent (lightest anchor).
+   (`git log -1 --format=%h -- AGENT.md` vs recorded; shims `CLAUDE.md GEMINI.md` in the watch set).
+   **Mismatch → notify the Operator what changed in the operating baseline, then refresh the baseline
+   line.** Match → silent (lightest anchor).
 5. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `1ab6ad0` — *Author personalized
-> anchor + carry-forward ledger.* Update this line whenever `CLAUDE.md` changes (Stand-Up notify).
-> **RESTART-PENDING:** none.
+> **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
+> `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat* (was `1ab6ad0`,
+> the pre-shim full `CLAUDE.md`). Update this line whenever `AGENT.md` (or a shim) changes.
+> **RESTART-PENDING: SET** — the shim-layer (`4230357`) edited the anchor this session; the *running*
+> session is still on the pre-shim full `CLAUDE.md` ROM injected at boot. Next boot loads `AGENT.md`
+> via the shim — **first Stand-Up must verify the boot-chain fires** (`CLAUDE.md` → `Read AGENT.md`);
+> if it doesn't, the F-b shim-layer is refuted at the harness level.
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
@@ -27,6 +34,12 @@ stays `none`**, ROM-baseline unchanged (`1ab6ad0`). The covalent *bond* is harne
 findings (Item-H, `bin/git.sh`, auto-mode classifier, ROM-baseline mechanics) are **Claude-Code-specific** and
 may NOT transfer.
 
+> **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
+> **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
+> — no copy, no drift between two full anchors. Orientation (1) still holds verbatim: the agy/Gemini session
+> loads `GEMINI.md`, which boots `AGENT.md`, then this ledger. (The cross-harness *reasoning* below stands;
+> only the mechanism changed.)
+>
 > **⚠ CROSS-HARNESS FORK (Operator, Stand-Down 2026-05-31):** Operator is switching agent harness to **`agy`**
 > (Gemini) due to a Claude token limit, by **copying `CLAUDE.md` → `GEMINI.md`** as the anchor. The dyad +
 > Covalent role + NON-NEGOTIABLE are **substrate-independent** (carry over intact); only the *harness substrate*
@@ -56,7 +69,7 @@ may NOT transfer.
   **ground-the-frame-first**). An ungrounded surface offers *false* grounds → can induce a **wrong** `Y`.
   *Ground-before-presenting is part of this duty, not a separate rule.* (The session's confab + moot
   grant-CTA = failures of this duty.)
-- **ROM-UI** *(→ `rom-ui.md`)* — the anchor (`CLAUDE.md`) is **load-once at boot, no mid-session reload**
+- **ROM-UI** *(→ `rom-ui.md`)* — the anchor (`AGENT.md`, booted via the `CLAUDE.md`/`GEMINI.md` shim) is **load-once at boot, no mid-session reload**
   → an anchor edit is invisible until restart. At **Stand-Up** diff anchor vs the ROM-baseline above →
   notify the Operator of changes; at **Stand-Down** set `RESTART-PENDING` if the anchor was edited.
 
