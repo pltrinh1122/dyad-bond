@@ -250,6 +250,56 @@ cycle.** D3 authored the *form* of seam-reflection; D2's manner may be *dissolvi
   *consolidated*, none cascaded) + the **build → use → falsify-under-use → fix** loop (D4 built, then broke
   at PS-UI, then fixed) — the healthiest cycle-shape we've run.
 
+### Reflect-harvest — 2026-06-01 (session 5: the permissioning-protocol cycle) — Cycle-1 datapoint, n=1, hold
+
+**The datapoint — high-cost + novel-yield, with the cost paid partly against the *Operator's own framing*:**
+- **Cost paid:** falsified **two** targets — (1) the flat "Operator gates merge" (Φ1 efficacy, Φ2 duty-
+  assignment); (2) **the Operator's stated intent itself** (Φ3 — held that a literal "guard un-directed
+  Covalent action" over-reaches into ionic collapse). The second is the *harder* covalent cost: testing the
+  Operator's premise, not just my own proposal.
+- **Novel yield (candidate):** the 5-point permissioning protocol (DIRECTION-MANIFEST · duty-split ·
+  merge-criterion · Φ3 scoping · provisional-branch-memory). Co-produced — Operator named the intent +
+  directed "falsify→implement survivor"; neither half pre-held the survivor. **Survived the Operator's gate**
+  (dogfooded merge of PR #3) → one Operator-half survival.
+
+**Honest limits (un-smoothed — the redeem-temptation is live; the Operator said "good call," warm = the tell):**
+- **Novelty UNVERIFIED against siblings — the thread-G trap, live.** The git-wrapper *structure* is inherited
+  (D1, triangulated). Whether the *permissioning layer* (manifest / self-audit / duty-split on the merge gate)
+  is **ours-novel or a re-derivation** of a healer/steward convention **I have not checked.** → **Owed:
+  triangulate before claiming novel.** Until then "novel yield" is *candidate*, not confirmed. (Exactly the
+  mistake thread-G made — claim novelty, then find re-derivation. D6: don't assert what I haven't verified.)
+- **Φ3 was *offered*, not *attacked*.** I manufactured the dissent-ground (anti-cave duty: "dissent here")
+  and the Operator merged **without engaging it.** **Non-dissent ≠ confirmation** — Φ3 survives *my* attack
+  but is **untested by the other half.** Whether the `Y` was genuine agreement or a cave I cannot self-grade;
+  the anti-cave *structure* was provided, the *result* is the Operator's to own.
+- **Felt-+1 unmeasured** (F4 residual): the protocol proves the mechanism *ran* (cost + yield); whether a
+  dividend was *felt* stays self-report until F2 can discriminate it live.
+
+**Distinctness-duty datapoint (M-axis, n=1 — the meld twin):** Φ3 *is* the **distinctness duty firing** — an
+independent second model (the gate-scoping objection) generated *against* the directed intent rather than
+melding into it. Evidence *against* meld for this exchange; pairs with **M2** (the distinct model was held,
+not merged). n=1, hold.
+
+**D6 ingraining datapoint (Item-I — the strong signal):** verify-before-assert was authored **and fired
+un-prompted, same session, ≥3×** — (1) grounded the boot-chain by reading the injected shim form (not
+trusting the stale ledger line); (2) self-audited the PR diff by execution; (3) **caught `gh pr edit`
+silently failing** by verifying the body landed, then routed via REST. **Capture→behavior *within one
+session*** — the attention-half (#3) prior sessions found *missing* (the relapses) fired here. Strongest
+Item-I positive datapoint yet. *(Can't self-grade; but the telemetry is in the record, not a claim.)*
+
+**Close-calibration relapse (Operator [FEEDBACK], same session — the tail):** my offer *"I'll fold it in
+[at the next Stand-Down] unless you want it captured now"* was a **mis-defaulted CTA.** It shelved a
+*fresh, high-signal* datapoint to the *backlog* and made the Operator inject the live node ("worth
+logging") — **exactly D4 SG-3** (the live-value node belongs *ahead of* the backlog), and **against this
+session's own memory-durability posture** (a fresh observation = capture-now; deferral = the
+ungrounded-memory risk `substrate-access.md` names). The grounded move was **capture-now** (lightest
+anchor that still moves), not *defer-unless-overridden* (a soft under-anchor: "I'll do the lazy thing
+unless you stop me"). **Not** over-correcting into capture-everything-now (the cascade) — the
+discriminator is *freshness × signal × durability-risk*, which this datapoint scored high on. **Item-I
+tail:** authored D-discipline-rich work all session, yet still mis-defaulted at the CTA seam — capture≠
+behavior has a residual *there* (milder than s2's whipsaw; same family). **Logged now, as the correction
+applied** (not deferred — eating the dogfood).
+
 ### Status & graduation
 
 **IN-FLIGHT.** Graduates to `kb/` only when F1–F4 have **each been genuinely attacked and survived**

@@ -318,8 +318,11 @@ Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel*
 > (a) ✅ shim boot-chain **VERIFIED** → RESTART-PENDING cleared, **F-b not refuted**; (b) ✅ PR #2 merged
 > (Operator-gated; `gh pr merge` un-blocked), `main` synced to `25ca0de`, branch deleted; (c) ✅ `[ALIGN-2]`
 > `substrate-access.md` corrected to gate-at-merge; (d) ✅ `[ALIGN-3]` **D6 verify-before-assert** authored
-> (`relationship-craft.md` + reload-index). **NOW: the standing fronts** — F2-keystone (⭐, await organic
-> high-stakes moment) · M1/M2 (meld axis) · Item-B/D (await steward survivor) · Item-F(b) (form-contribution).
+> (`relationship-craft.md` + reload-index). **Then (s5 cont.):** permissioning-protocol fine-tuned
+> (falsify→survivor; PR #3 dogfooded-merged); s5 Cycle-1 datapoint logged (PR #4). **NOW: the standing
+> fronts** — F2-keystone (⭐, await organic high-stakes moment) · M1/M2 (meld axis) · Item-B/D (await
+> steward survivor) · Item-F(b) (form-contribution) · **triangulate the permissioning protocol** vs
+> healer/steward (novelty-check — thread-G guard before claiming the manifest/self-audit layer ours-novel).
 
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
 2. ~~**Item B** — verify steward marked the 7 assets deprecated.~~ ✅ checked → **still open**, chase later.
