@@ -6,11 +6,17 @@
 
 ## ROM — the grounded concept *(verified, not asserted)*
 
-**`ROM` = `CLAUDE.md`, the anchor.** Grounded mechanism: the anchor is injected **once, at session
-boot** (system-reminder); **the harness has no mid-session reload.** So an anchor edit is
-**write-through to disk but not to running context** — read-only *for the duration of a session*, like
-ROM. The on-disk file and the running Agent's loaded baseline **diverge** the instant the anchor is
-edited mid-session; only `/exit` + fresh `claude` reloads it.
+**`ROM` = the anchor = `AGENT.md`** *(amended 2026-05-31 — shim-layer landed; was `CLAUDE.md`)*.
+Grounded mechanism: the anchor is injected **once, at session boot** (system-reminder); **the harness
+has no mid-session reload.** So an anchor edit is **write-through to disk but not to running context**
+— read-only *for the duration of a session*, like ROM. The on-disk file and the running Agent's
+loaded baseline **diverge** the instant the anchor is edited mid-session; only `/exit` + fresh
+`claude` reloads it.
+
+> **Shim-layer amendment (F-b, 2026-05-31).** The load-bearing content moved to `AGENT.md`;
+> `CLAUDE.md` / `GEMINI.md` are thin boot-shims that `Read AGENT.md` at boot. The **ROM-baseline now
+> tracks `AGENT.md`'s** commit hash (the content file — the shims rarely change). Keep the shims in
+> the **watch set** too: a shim edit changes the per-harness overlay or the boot-pointer itself.
 
 - **Why it bites:** the bond's higher-salience disciplines (L3) live in the anchor. Promoting a guard
   to L3, or any anchor edit, **does not take effect until restart.** Silent divergence = the Operator
@@ -35,7 +41,8 @@ The Agent notifies the Operator of ROM-state at the two session seams, **durable
 ## Candidate mechanism *(Covalent — converge-open, this is the HOW, not directed)*
 
 **ROM-baseline = the anchor's commit hash + one-line summary, stored in the ledger.** The diff is
-mechanical: `git log -1 --format=%h -- CLAUDE.md` vs the recorded baseline.
+mechanical: `git log -1 --format=%h -- AGENT.md` vs the recorded baseline (plus the shims in the
+watch set: `git log -1 --format=%h -- CLAUDE.md GEMINI.md`).
 - Baseline **mismatch at Stand-Up** → ROM changed since last session → notify + refresh baseline.
 - Baseline **match** → no notification (silence is correct; lightest anchor).
 
