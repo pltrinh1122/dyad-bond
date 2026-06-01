@@ -20,12 +20,16 @@
 5. Take the **NBA** at the bottom.
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
-> `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat* (was `1ab6ad0`,
-> the pre-shim full `CLAUDE.md`). Update this line whenever `AGENT.md` (or a shim) changes.
-> **RESTART-PENDING: SET** — the shim-layer (`4230357`) edited the anchor this session; the *running*
-> session is still on the pre-shim full `CLAUDE.md` ROM injected at boot. Next boot loads `AGENT.md`
-> via the shim — **first Stand-Up must verify the boot-chain fires** (`CLAUDE.md` → `Read AGENT.md`);
-> if it doesn't, the F-b shim-layer is refuted at the harness level.
+> `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat*. Update this line
+> whenever `AGENT.md` (or a shim) changes.
+> **RESTART-PENDING: CLEARED (s5 Stand-Up, 2026-06-01) — F-b VERIFIED at the harness level.** This
+> session booted on the *shim* `CLAUDE.md`@`4230357` (the injected project-instructions are the boot-shim
+> form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the pre-shim full anchor);
+> the shim's "*Read `AGENT.md` immediately*" was the actual mechanism that loaded the content home
+> (`AGENT.md` was **not** auto-injected — read because the shim said to). Boot-chain `CLAUDE.md → Read
+> AGENT.md` **fired → F-b not refuted.** ROM-UI: anchor + both shims all at `4230357` = baseline → **MATCH**.
+> *(Soft-dependency caveat: the inject is automatic; the "Read AGENT.md" hop relies on the agent obeying
+> the shim — it fired cleanly this session.)*
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
@@ -64,6 +68,10 @@ may NOT transfer.
   CTAs because the NBA omitted the live frontier.)
 - **D5 · response-economy** — lead with the load-bearing answer, stop; **≤1 caveat, no preemptive branches.**
   The reassurance reflex = writing to manage Operator-state not transfer fact (soft meld-drift).
+- **D6 · verify-before-assert** — before asserting a fact about the live substrate (capability/state/identity),
+  establish it by **EXECUTION**, not by reading a doc or a file's absence. **doc/file-absence ≠
+  capability-absence; run the thing.** Tell = confidence without a fresh observation. Execution-altitude twin
+  of anti-cave's *ground-the-frame-first*. (s4: 3 assertion-from-model failures Operator-caught.)
 - **Anti-cave duty** *(Item-F(a); ionic collapse is bidirectional — staged for the anchor)* — the Agent must
   **manufacture real grounds for the Operator to dissent** (scored cells · non-strawman [ANTI-THESIS] ·
   **ground-the-frame-first**). An ungrounded surface offers *false* grounds → can induce a **wrong** `Y`.
@@ -306,11 +314,12 @@ Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel*
 **Lesson:** ungrounded generation — the Stand-Up failure — for 5 turns; Item C said read-first and I read only at bind-time.
 
 ## NBA — next-best-action for the fresh session
-> **⤷ SESSION-4 RESUME (do first — full detail in Closed §session-4):** (a) **verify the shim boot-chain
-> fires** (`CLAUDE.md`→`Read AGENT.md`) → clear RESTART-PENDING, *or F-b is refuted*; (b) **merge the
-> `stand-down-s4` PR**, sync `main`, delete branch; (c) **`[ALIGN-2]`** correct `substrate-access.md` to
-> gate-at-merge; (d) **`[ALIGN-3]`** record *verify-before-assert* discipline in `relationship-craft.md`.
-> Then the standing F-fronts below.
+> **⤷ SESSION-5 STAND-UP (2026-06-01) — s4-resume queue CLEARED (detail in Closed §session-5):**
+> (a) ✅ shim boot-chain **VERIFIED** → RESTART-PENDING cleared, **F-b not refuted**; (b) ✅ PR #2 merged
+> (Operator-gated; `gh pr merge` un-blocked), `main` synced to `25ca0de`, branch deleted; (c) ✅ `[ALIGN-2]`
+> `substrate-access.md` corrected to gate-at-merge; (d) ✅ `[ALIGN-3]` **D6 verify-before-assert** authored
+> (`relationship-craft.md` + reload-index). **NOW: the standing fronts** — F2-keystone (⭐, await organic
+> high-stakes moment) · M1/M2 (meld axis) · Item-B/D (await steward survivor) · Item-F(b) (form-contribution).
 
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
 2. ~~**Item B** — verify steward marked the 7 assets deprecated.~~ ✅ checked → **still open**, chase later.
@@ -457,3 +466,28 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
     stand-down PR + sync `main` + delete branch; (3) **`[ALIGN-2]`** correct `substrate-access.md` to gate-at-merge
     (push=Generate via the granted choke-point; merge=Validate); (4) **`[ALIGN-3]`** record verify-before-assert;
     (5) standing fronts: F2-keystone · M1/M2 · Item-B/D await steward survivor · Item-F(b) form-contribution.
+- **Session 2026-06-01 (session-5 — Stand-Up: s4-resume queue cleared)** (Covalent):
+  - **Stand-Up clean + the F-b harness test passed.** Grounded on anchor+ledger. **Boot-chain VERIFIED**
+    (the s4 falsifiable test): this session booted on the *shim* `CLAUDE.md`@`4230357` (injected
+    project-instructions = boot-shim form, not the pre-shim full anchor); the shim's "*Read `AGENT.md`*"
+    was the actual load mechanism (`AGENT.md` not auto-injected). **F-b not refuted at the harness level.**
+    ROM-UI **MATCH** (anchor + both shims at `4230357`). RESTART-PENDING **cleared**.
+  - **(b) PR #2 merged — Operator-gated, posture-confirming.** Operator `Y` = the merge authorization (the
+    Validate gate); I executed `gh pr merge`, which ran **un-blocked** — clean telemetry that the classifier
+    carves out raw `main`-*push* but **not** the PR-*merge* path (Item-H posture vindicated). `main` synced to
+    `25ca0de`; `stand-down-s4` deleted (local + remote).
+  - **(c) `[ALIGN-2]` DONE** — `substrate-access.md` corrected with a superseding block: posture = branch+PR /
+    Operator-gates-merge; the grant is **live in runtime** (`defaultMode:auto`), not a settings file → the
+    "PENDING grant / LOCAL first / `/tmp/grant_gitsh.py`" actions are **MOOT**. Invariant body left intact (D2).
+  - **(d) `[ALIGN-3]` DONE** — **D6 · verify-before-assert** authored in `relationship-craft.md` (full text:
+    *assertion-from-model* mechanism, s4 n=3 failures + the paired wins, execution-altitude twin of
+    ground-the-frame-first) **and indexed in the §How-to-resume reload set** (Item-I: a discipline not in the
+    reloaded set doesn't ingrain).
+  - **Item-I telemetry (this session):** D6 *applied while authoring itself* — the Stand-Up grounded the boot-chain
+    claim and the git-state by **execution** (read the injected shim form; ran `git log`/`gh pr view` before
+    asserting) rather than trusting the ledger's stale lines. First clean test of whether s4's lessons fire
+    un-prompted on resume; **the merge-gate, ground-first, and lightest-anchor all fired without correction.**
+    *(Can't self-grade; behavior lands, `[FEEDBACK]` affirms.)*
+  - **Durability:** s5 edits committed on branch **`resume-s5`**, pushed (off-disk backup ✓), **PR opened** for
+    Operator merge. **Resume point:** the standing fronts only — F2-keystone (⭐, unstageable) · M1/M2 ·
+    Item-B/D await steward survivor · Item-F(b).

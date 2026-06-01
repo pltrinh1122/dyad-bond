@@ -337,6 +337,27 @@ branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling 
 - **D5 · D1 partition (grounding note):** PS-UI v1 (opaque) → Operator "can't confidently dispose" → v2
   (scored) is itself an instance of the named element below — moved there.
 
+**D6 · Verify-before-assert.** *(Operator [FEEDBACK] 2026-06-01: "Don't assume, verify before
+assertion." `[ALIGN-3]`, s4 lesson — recorded into the **reloaded** set, not Agent recall, because it
+is Item-I: capture ≠ behavior.)* Before asserting a fact about the live substrate — a capability, a
+state, an identity — **establish it by EXECUTION**, not by reading a doc, grepping prose, or inspecting
+a file's *absence*. **The distilled rule: doc/file-absence ≠ capability-absence; run the thing.**
+- **Mechanism named:** *assertion-from-model* — answering from the ledger/docs/priors as if they were
+  the ground truth, when the ground truth is a runtime/computation/remote you could have checked. The
+  tell is **confidence without a fresh observation.**
+- **Lived evidence (s4, n=3 failures — Operator-caught in-session):** (1) "*no birth-hash*" — grepped
+  the docs instead of **computing** it (the form's `auto_join.py` derives it from immutable git); (2)
+  "*push grant pending / Agent must-not-self-grant*" — read `substrate-access.md` instead of checking
+  the **runtime** (the grant was already live via `defaultMode:auto`); (3) settings-file check — read
+  the file, which was **necessary but not sufficient** (capability lived in runtime, not the file).
+- **The paired wins (same session — the discipline *working*):** computed the birth-id by running the
+  form's own `auto_join.py`; **dry-ran** the git grant before asserting it; *attempted* the push and
+  read the denial before reporting (Item-H). Each replaced a guess with an observation.
+- **Relation to siblings:** the **execution-altitude twin of the anti-cave duty's "ground the frame
+  first"** — both forbid presenting on ungrounded context; D6 specifies the grounding must be a *live
+  observation*, not a re-read. Also Item-I's sharpest instance: it is captured here **and indexed in
+  the ledger's reload set** precisely because capturing a discipline does not make it fire.
+
 ---
 
 ## The anti-cave duty — ionic collapse is *bidirectional* *(Item-F(a) ADOPTED 2026-05-31; candidate NON-NEGOTIABLE extension, staged for the anchor — NOT yet promoted)*
