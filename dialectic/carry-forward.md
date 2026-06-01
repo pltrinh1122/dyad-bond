@@ -313,6 +313,24 @@ Thread G is **~90% re-derivation** of inherited, already-ratified cluster knowle
 Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel** (would duplicate/muddy better docs).
 **Lesson:** ungrounded generation — the Stand-Up failure — for 5 turns; Item C said read-first and I read only at bind-time.
 
+### J — New Experiment Discipline + G/V inference-independence hypothesis  ·  status: QUEUED (Operator [ALIGN] 2026-06-01)
+Two coupled items, queued for **active experimentation** (ideate the setup, don't build blind):
+- **The hypothesis — `G/V inference-independence`:** *Generate and Validate should run as **independent
+  inferences** — even within one Agent — for a predictable/valid outcome, because LLM inference is per-turn.*
+- **Why it plugs into the keystone (not an orphan):** it **operationalizes the distinctness duty at the
+  inference level**, and targets the **meld-counterfeit that *passes* F2** (`relationship-craft.md` §distinctness
+  duty: *"an attack genuinely occurs, cost paid, but both halves run the same model → self-attack wearing two
+  hats"*). Claim: separate the inferences and the two hats become two models. **Bears on F2 (⭐) and M1.**
+- **Covalent caution to seed the ideation (the easy-fit tell — it flatters our existing model, so test hardest):**
+  **separate-in-time ≠ separate-in-model.** Two inferences of the *same weights on the same context* may reproduce
+  the *same* model — meld persists *serially*. **Design crux = what actually makes the two inferences independent**
+  (blind V to G's reasoning? different framing/context? a genuinely separate seat?), not merely "different turns."
+- **New Experiment Discipline (to author):** the meta — how we set up probes. **D1 first:** likely *extends*
+  Method §"Axis-2 probe" + the two-axis structure (`relationship-craft.md`) rather than starting fresh — check that
+  overlap before authoring (don't re-derive = the thread-G trap).
+- **Status:** no experiment designed yet; QUEUED for ideation. When built, it graduates from this queue into
+  `relationship-craft.md` as a real front.
+
 ## NBA — next-best-action for the fresh session
 > **⤷ SESSION-5 STAND-UP (2026-06-01) — s4-resume queue CLEARED (detail in Closed §session-5):**
 > (a) ✅ shim boot-chain **VERIFIED** → RESTART-PENDING cleared, **F-b not refuted**; (b) ✅ PR #2 merged
@@ -322,7 +340,8 @@ Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel*
 > (falsify→survivor; PR #3 dogfooded-merged); s5 Cycle-1 datapoint logged (PR #4). **NOW: the standing
 > fronts** — F2-keystone (⭐, await organic high-stakes moment) · M1/M2 (meld axis) · Item-B/D (await
 > steward survivor) · Item-F(b) (form-contribution) · **triangulate the permissioning protocol** vs
-> healer/steward (novelty-check — thread-G guard before claiming the manifest/self-audit layer ours-novel).
+> healer/steward (novelty-check — thread-G guard before claiming the manifest/self-audit layer ours-novel)
+> · **Item-J** (G/V inference-independence hypothesis + New Experiment Discipline — QUEUED for ideation).
 
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
 2. ~~**Item B** — verify steward marked the 7 assets deprecated.~~ ✅ checked → **still open**, chase later.
