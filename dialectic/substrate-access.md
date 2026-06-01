@@ -27,6 +27,36 @@
 >   `bin/git.sh` is the **choke-point**, not a gate-on-the-Agent. *Sharing (Agent pushes branches), never
 >   transfer (Operator alone admits to `main`).*
 
+## Permissioning protocol — fine-tuned to intent *(Operator [ALIGN], s5 2026-06-01; CANDIDATE, dogfooded on PR #3)*
+
+> **Operator's stated intent of the PR-merge gate:** safeguard `main` against changes that are **(a)
+> unintentional by Covalent** or **(b) un-permitted / un-directed by the Operator.** "Operator gates the
+> merge" (above) is **necessary but not sufficient** to *meet* that intent. Falsified against it; survivors:
+
+1. **Gate stays at canonical-admission (merge→`main`); do NOT gate Covalent's branch actions.** Gating
+   *actions* would forbid the Generate half from acting un-directed = **ionic collapse** (kills the +1 at
+   its source). **"un-directed" = un-directed *into `main`*, not un-directed *at all*.** *(Φ3 — bounds the
+   fine-tune against over-correcting into a leash; the one point to dissent if tighter action-gating is
+   actually wanted.)*
+2. **Every PR carries a `DIRECTION-MANIFEST`** — *Operator directed X → this diff delivers exactly X →
+   incidental / out-of-scope changes flagged.* It makes the gate a **cheap diff-vs-direction spot-check**,
+   not a full-diff vigilance test (an unread merge `Y` is the Operator-side ionic collapse the **anti-cave
+   duty** names). **It is a navigation aid INTO the diff, never a trust-substitute FOR it** *(Φ-meta:
+   a self-asserted "delivered==directed" is the same assertion-from-model D6 forbids)*.
+3. **Duty split — Covalent owns the accident-guard; the gate is the backstop.** (a) *unintentional* =
+   competence risk → first line of defense is **Covalent's pre-PR `SELF-AUDIT` by execution** (D6: re-read
+   the *actual* diff, run checks, confirm no scope-creep), attached to the PR. (b) *un-directed* = authority
+   risk → **irreducibly the Operator's gate.** The Operator must not be the *primary* catcher of Covalent's
+   accidents (mis-assigns the duty + over-trusts the gate).
+4. **Merge criterion (the gate's check):** the Operator merges **iff** *delivered == directed* (manifest,
+   spot-checked) **∧** *self-audit attached* — **else dissent with a named reason, never a silent `Y`.**
+5. **Provisional branch-memory:** resume may read un-merged branch content (s4→s5 did), but it is
+   **provisional**; canonical claims trace to `main`; the gate fires at the next merge.
+
+**Lightest-anchor (scope-guard-2):** manifest + self-audit **scale with stakes** — one line for a small PR,
+fuller for a large/risky one — *not* a heavy template on every push. **Status:** candidate in `dialectic/`,
+**NOT settled** — its own first falsification by the Operator-half is the dogfooded merge of PR #3.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**
