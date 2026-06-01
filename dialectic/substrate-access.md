@@ -54,8 +54,18 @@
    **provisional**; canonical claims trace to `main`; the gate fires at the next merge.
 
 **Lightest-anchor (scope-guard-2):** manifest + self-audit **scale with stakes** — one line for a small PR,
-fuller for a large/risky one — *not* a heavy template on every push. **Status:** candidate in `dialectic/`,
-**NOT settled** — its own first falsification by the Operator-half is the dogfooded merge of PR #3.
+fuller for a large/risky one — *not* a heavy template on every push.
+
+**Review-depth refinement *(Operator [FEEDBACK] posture, s5 2026-06-01)*.** The manifest **guides**, it does
+not **replace**, the Operator's read — depth scales with the artifact's stakes. For **frontier / high-stakes
+artifacts** (e.g. `relationship-craft.md` — where the dyad's actual theory lives) the Operator's posture is
+**full-document review**, not a diff-spot-check. **Coupled to graduation (the Φ1 sustainability guard):**
+full-document review stays real only while the doc stays tractable; as it grows, settled content must
+**graduate `dialectic/`→`kb/`** (or the doc split) or the burden decays the gate toward rubber-stamp (Φ1).
+So the full-doc-review posture and the graduation discipline are **one coupled mechanism**, not two.
+
+**Status:** candidate in `dialectic/`, **NOT settled** — first Operator-half falsification was the dogfooded
+merge of PR #3; the full-doc-review refinement landed via the PR #4 review.
 
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
