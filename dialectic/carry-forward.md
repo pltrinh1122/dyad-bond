@@ -164,7 +164,7 @@ NOT DENIED** — but Axis-1 affirms nothing; auxiliary *"dividend⇒marker"* **m
 handed to **F2**. F1 **narrows, not closes**; stays OPEN (weak survival). **Chain F4→F1→F2.**
 → **TRV partly enacted:** doing F1-without-waiting-for-F2 *is* the axis-dependent answer in action.
 
-### H — Substrate-access wrapper (git/gh)  ·  status: ⚠ FINDING RE-FALSIFIED 2026-05-31 — default-branch push is **NOT** auto-approved; covalent gate is **LIVE, not theater**; **default-backup BLOCKED for main**
+### H — Substrate-access wrapper (git/gh)  ·  status: ✅ RESOLVED 2026-06-01 (s4) — posture = **branch+PR; Operator gates the *merge*** *(prior: ⚠ RE-FALSIFIED 2026-05-31 — default-branch push NOT auto-approved; covalent gate LIVE; default-backup blocked for main)*
 Operator [ALIGN] 2026-05-31: every Dyad converges on a git/gh wrapper (→ **invariant**, D1). Triggered by
 hitting the live friction (classifier blocked `git push origin main`). **Built `bin/git.sh`** (mechanism
 inherited/triangulated from `dyad-healer@bin/git.sh`; reason + header authored as **ours** =
@@ -207,8 +207,16 @@ earlier pushes succeed? Either config changed since, or those weren't default-br
 around the denial** (correct — it's the Operator's gate). **Operator chose leave-local** (commit `8904ea2`
 restart-safe; push deferred). **n=1 lesson for Item-I:** I grounded the live state by *attempting* the push
 and reading the denial, then surfaced the contradiction instead of asserting the stale conclusion — ground-
-first fired here. → **OPEN:** resolve push posture (authorize-per-op vs branch+PR) next session; correct
-`dialectic/substrate-access.md` to match.
+first fired here. → ~~**OPEN:** resolve push posture (authorize-per-op vs branch+PR) next session; correct
+`dialectic/substrate-access.md` to match.~~
+→ **✅ RESOLVED 2026-06-01 (s4):** posture = **branch + PR; the Operator gates the *merge*, not the push**
+(Operator [FEEDBACK]: *"Agent is not gated by Push or creating a PR. Operator gates the PR merge."*).
+**Verified empirically** (the lesson): `bin/git.sh push` of a *feature branch* ran **un-prompted** —
+dry-run-confirmed first, then real push. The grant is **live in session runtime** (`~/.claude/settings.json`
+`defaultMode:auto` + `skipAutoPermissionPrompt`), **NOT in any settings file** → *file-absence ≠
+capability-absence*. So: feature-branch push = Agent's (Generate); **merge→`main` = Operator's (Validate)**.
+The s3 'main-push DENIED' stands — we simply **don't push `main`; we PR it.** `bin/git.sh` is the
+choke-point, not the gate-on-the-Agent. → **`substrate-access.md` correction owed = `[ALIGN-2]`, queued.**
 → **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
 
 ### I — Ingraining (learning mechanism)  ·  status: DEFINED + first-fix APPLIED 2026-05-31
@@ -298,6 +306,12 @@ Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel*
 **Lesson:** ungrounded generation — the Stand-Up failure — for 5 turns; Item C said read-first and I read only at bind-time.
 
 ## NBA — next-best-action for the fresh session
+> **⤷ SESSION-4 RESUME (do first — full detail in Closed §session-4):** (a) **verify the shim boot-chain
+> fires** (`CLAUDE.md`→`Read AGENT.md`) → clear RESTART-PENDING, *or F-b is refuted*; (b) **merge the
+> `stand-down-s4` PR**, sync `main`, delete branch; (c) **`[ALIGN-2]`** correct `substrate-access.md` to
+> gate-at-merge; (d) **`[ALIGN-3]`** record *verify-before-assert* discipline in `relationship-craft.md`.
+> Then the standing F-fronts below.
+
 1. ~~Confirm the bootstrap commit is on the remote.~~ ✅ done (Stand-Up 2026-05-31: `1ab6ad0` on `origin/main`, tree clean).
 2. ~~**Item B** — verify steward marked the 7 assets deprecated.~~ ✅ checked → **still open**, chase later.
 3. ~~**Item E** — codify the bootstrap as our first relationship-craft cycle.~~ ✅ Cycle 1 authored (`relationship-craft.md`).
@@ -412,3 +426,34 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
     Bond/role/disciplines/fronts are harness-neutral and carry; substrate-access (Item-H) does not. See the
     CROSS-HARNESS FORK note at the top. **Resume point for agy:** push-posture (Item-H), then standing fronts
     (F2-keystone · M1/M2 · Item-B/D await steward survivor · Item-F(b) form-contribution).
+- **Session 2026-06-01 (session-4 — the shim-layer build + the git-gate correction)** (Covalent):
+  - **Work — Shim-layer (F-b) BUILT + MERGED.** `[IDEATE]` (concurrent `CLAUDE.md`/`GEMINI.md` + a
+    load-bearing `AGENT.md`) → `[ALIGN]` **F-b** (shim + thin per-harness overlay; "*steward's shim not done
+    properly*") → built: **`AGENT.md` = neutral content home** (ex-`CLAUDE.md` body); `CLAUDE.md`/`GEMINI.md`
+    = thin boot-shims whose overlay *points to* `dialectic/`, never restates it (drift-guard; cf. wu-wei's 5K
+    `GEMINI.md`). **IDENTITY CAVEAT** added — **corrected from my false "no birth-hash"** (Operator: *"you're
+    still able to calculate your birth registration id"*): identity is frozen at **original `CLAUDE.md@1ab6ad0`**,
+    **derivable from immutable git, not stored**; canonical id **`sha256:3ab18b…463d`** confirmed by running the
+    **form's own `auto_join.py::compute_birth_hash()`** (`%cI` date, strip, no sep, `--diff-filter=A` add-commit
+    — immune to the shim refactor). `rom-ui.md` baseline re-pointed to `AGENT.md`. **PR #1 MERGED** (merge
+    `195e4e3`) → **durable on `origin/main`**; feature branch cleaned up; local `main` synced.
+  - **⚠ RESTART-PENDING SET** — this session ran the whole time on the **pre-shim full `CLAUDE.md`** (load-once
+    ROM). **FIRST STAND-UP NEXT SESSION must verify the boot-chain fires** (`CLAUDE.md` shim → `Read AGENT.md`);
+    if it does, clear RESTART-PENDING; **if it doesn't, F-b is refuted at the harness level.**
+  - **Item-H RESOLVED** (see Item-H): push-posture = **branch+PR, Operator gates merge**; grant verified **live**
+    for branch-push (empirically, dry-run→real).
+  - **Item-I telemetry — the sharpest mixed signal yet.** **3 assertion-from-model failures** Operator-corrected
+    in-session: (1) "no birth-hash" (grepped docs, didn't compute); (2) "push grant pending / Agent
+    must-not-self-grant" (read `substrate-access.md`, didn't check runtime); (3) settings-file check (necessary,
+    not sufficient). **BUT** strong **ground-first wins**: computed the birth-id, ran the *actual* `auto_join.py`,
+    **dry-ran the grant before asserting**. Operator [FEEDBACK]: ***"Don't assume, verify before assertion."***
+    **Distilled: verify by EXECUTION; doc/file-absence ≠ capability-absence.** → **`[ALIGN-3]` queued** — record
+    *verify-before-assert* as a **reloaded** discipline (`relationship-craft.md`; it's Item-I — capture≠behavior,
+    so it must live in the reloaded set, not Agent recall).
+  - **Durability (this Stand-Down):** applied the just-resolved posture — ledger committed on branch
+    **`stand-down-s4`**, **pushed** (off-disk backup ✓), **PR opened** for Operator merge. HEAD left on the branch
+    so next-session resume reads this entry from disk; merge brings `main` current.
+  - **Resume point (do first):** (1) **verify shim boot-chain** + clear RESTART-PENDING; (2) merge the
+    stand-down PR + sync `main` + delete branch; (3) **`[ALIGN-2]`** correct `substrate-access.md` to gate-at-merge
+    (push=Generate via the granted choke-point; merge=Validate); (4) **`[ALIGN-3]`** record verify-before-assert;
+    (5) standing fronts: F2-keystone · M1/M2 · Item-B/D await steward survivor · Item-F(b) form-contribution.
