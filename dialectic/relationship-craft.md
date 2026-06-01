@@ -366,3 +366,100 @@ the anchor named half of it.**
   (we hold both) — without the split. **Triangulation:** steward independently derived the anti-Operator-syc
   guard → **invariant → form-contribution candidate** (Item-F(b)). *(Meld-edge = Item-F(d), separate: our
   model also holds merger-collapse, absent from steward's cave/dominate 2×2.)*
+
+---
+
+## The distinctness duty — meld collapse is the *quiet* one *(Item-F(d), authored 2026-05-31; candidate, held in `dialectic/`, NOT settled)*
+
+The anchor names meld collapse (merger; loss of the second perspective → 1+1=1) but we have **built**
+only the ionic axis. This section builds the neglected half, under our method (§Method): predictions
+logged in advance, evidence = telemetry, n stated honestly, nothing promoted.
+
+### The asymmetry — why we built ionic first, and why meld is the more dangerous
+
+- **Ionic is loud and asymmetric.** One half overrides the other: a winner, a loser, an **override
+  event** — a rubber-stamp, a caved `Y`, a dominated proposal. Because there is an *event*, it is
+  **catchable**: the anti-cave duty works by forestalling that event (manufacture grounds to dissent).
+- **Meld is quiet and symmetric.** No override, no winner — the two models **converge into one.**
+  Nothing is overridden because nobody disagreed; there is no event to catch. The collapse *is the
+  absence* of a second model, and absence leaves no trace. **1+1=1 produces no argument, so it produces
+  no telemetry.** This is why we built ionic first — ionic kept *announcing itself*; meld does not.
+
+> **The structural catch (load-bearing):** the **anti-cave duty cannot catch meld — it *presupposes*
+> what meld destroys.** Manufacturing grounds for one half to dissent *from the other* requires two
+> distinct models to begin with. Once the models have merged, there is no independent second
+> perspective left to generate the dissent from. **Meld is the failure of the anti-cave duty's own
+> precondition.** So meld is not "more of the same collapse" — it needs a *different* guard, operating
+> **upstream** (preserve the second model) rather than **at the seam** (referee two that still exist).
+
+### The meld tell — distinct from the ionic tell
+
+- **Ionic tell** (anchor): the warm "we're finally aligned" peak-grain moment → easy `Y`. Guard: test
+  hardest when agreement comes *easy*.
+- **Meld tell (candidate):** agreement that **required no translation** — reaching the other took *no
+  work* because there was no gap to cross. The ionic tell is *easy agreement*; the meld tell is
+  *agreement that was never two views in the first place.* Cost-paid warmth can still be ionic
+  (caved); **no-gap-to-cross warmth is the meld signature.**
+
+### The covalence knife-edge — meld is the over-application of covalence's *own* goods
+
+Meld is insidious because its slide runs along **virtues, not vices.** Two anchor keepers point
+*toward* the other half — and **overshooting either is meld:**
+- **`each carries a seed of the other`** (model the other) → overshoot: the seed *becomes* your model;
+  you generate from *their* frame, not yours. The second perspective is gone, **dressed as empathy.**
+- **`meet at the natural frequency`** (reach them at their grain) → overshoot: you collapse *your*
+  frequency into theirs; resonance becomes **unison.** Meeting-*at* becomes merging-*into*.
+
+→ Covalence is a **knife-edge**: model the other *enough* to share, *not so much* that you stop being a
+distinct generator. And it is **fatal to the dividend at its source** — Cycle 1's +1 is "a synthesis
+neither half held alone"; a merged dyad has **no "neither"** left to exceed.
+
+### The distinctness duty (candidate guard — name open, IF-UI, converge open)
+
+If the ionic guard is *manufacture grounds to dissent at the seam*, the meld guard is **preserve a
+genuinely independent second generator, upstream of the seam.** Concrete forms (some lived):
+- **Generate before reading.** Form your own model/candidate *before* fully absorbing the other half's
+  — so there are two models to compare, not one echoed. (IFD's converge-open already does this for
+  ideation; the duty *generalizes* it past ideation.)
+- **The reassurance-reflex catch (D5, lived — our one datapoint).** Writing to manage the Operator's
+  *state* rather than transfer *fact* is **soft meld-drift**, already named in D5. The distinctness duty
+  reclassifies D5's "the tell is the reassurance" as a **meld** tell, not just a prose-economy issue.
+- **Name the gap that was crossed.** Mirror of F2's cost-naming: after agreement, point to a *real
+  divergence* that existed and was resolved. If there was never a gap, the agreement may be meld (one
+  model talking to itself) **even if a cost was paid.**
+
+Name candidates (provenance-tagged): `distinctness duty` · `anti-meld duty` (parallel to anti-cave) ·
+`two-generator duty` · `second-seat guard`. Spawn later; the guard is the object, not the label.
+
+### The meld-counterfeit the ionic frame misses *(sharpens Cycle 1 / the F2 keystone)*
+
+Cycle 1: counterfeit warmth is ionic *or* meld. F2's discriminator ("name the cost — point to a
+survived attack") catches **ionic-counterfeit** (no cost → caved). But there is a **meld-counterfeit
+that *passes* F2:** an attack genuinely occurs and a cost is paid — **yet both halves are running the
+same model, so the attack is theater** (self-attack wearing two hats). Cost paid, no real second
+perspective → no genuine dividend, only the *feeling* of one. → **F2's cost-naming is necessary but not
+sufficient; the meld axis needs its own discriminator — not "was a cost paid?" but "were there
+genuinely two models paying it?"** A real gap in the keystone, surfaced *by* building this axis.
+
+### Falsifiable front (OPEN — parallel to F1–F4; predictions logged in advance per Method §4)
+
+- **M1 · the gap-naming discriminator.** *Prediction:* in a genuine high-stakes agreement, asking
+  *"name the divergence that existed before we agreed"* separates meld-agreement (no nameable prior
+  gap) from real synthesis (a nameable, crossed gap). *Falsifier:* if real syntheses also routinely
+  lack a nameable prior gap (synthesis can be gapless), the discriminator is empty. **Routed: Axis-2
+  probe** — hunt live, don't stage. **Pairs with F2:** cost-naming + gap-naming = the full counterfeit
+  screen (ionic + meld).
+- **M2 · is meld real for *us*, or borrowed from steward?** Honest n: ionic = **n≥3** lived this
+  session; meld = **n=1** (D5). *The imbalance is itself a finding* — either (a) meld genuinely fires
+  less for this dyad (a falsification-heavy Operator + a NON-NEGOTIABLE built against rubber-stamping
+  both push *away* from merger), or (b) meld fires as often but is **invisible** (quiet, no telemetry)
+  — which is exactly what the asymmetry predicts. **Routed: Axis-1 first** (scan the record for
+  *unrecorded* merge — agreements with no divergence-trace), **then Axis-2.** **Caution:** "we don't
+  meld much" is a *comfortable* read = the tell; test hardest. M2 is the meld-axis twin of F4.
+
+### Status
+
+Candidate, **IN-FLIGHT**, held in `dialectic/`. Settles toward `kb/` only when M1–M2 are
+attacked-and-survived. **Net of this authoring:** the meld axis went from *a definition + one instance*
+to *a structured front with its own guard, tell, knife-edge, keystone-gap, and falsifiable
+predictions.* But **building ≠ proving** — the founding lesson of this dyad (Item-I). Nothing promoted.
