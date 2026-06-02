@@ -51,7 +51,7 @@ J0 ROOT · advance the relationship-craft frontier                              
 | Claim | Reading (mine) | Op | Trust state |
 |---|---|---|---|
 | **M1** | commit-telemetry *void* for translation-fidelity (5 confounds) | **Y** | strong; survived independent validation |
-| **C1** | absolute "one-shot translation" false (*denial only*) | **Y** | survives (denial); says nothing about rate |
+| **C1** | absolute "one-shot translation" false (*denial only*) | **Y** | survives (denial). **Rate now MINEABLE** — gold transcripts located: `~/.gemini/antigravity-cli/brain/*/…/transcript*.jsonl`, 39 sessions / 240 MB. PoC n=1 (8fa67465: 29 edits, ~10:4 test pass:fail, frequent iterate-clusters). **Ceiling: gold source defeats survivor-bias but NOT the interpretation seam** — iteration-rate has an oracle (test pass/fail); failure-*attribution* (translation vs intent vs stale-test) stays interpretation-bound (=C3). Corroborates F1. |
 | **C3** | failures at complexity = seam/intent-gaps, not translation | **Y → falsified-tested** | **Strong form ("NOT translation") DENIED** (1 genuine spec→code completeness miss: in_progress). **Directional form ("intent-gaps dominate") strengthened** — apparent logic-cluster (3/4) dissolved into ONE intent-gap (numeric-ID assumption). n=4/47 traced. **Caveat: classification is itself interpretation-laden** (numeric-ID reads as intent-gap *or* robustness-bug) → partly unresolvable by classification alone. |
 | **B1** | instrument-reachability bias (Agent) | **Y** | n=3; behavioral candidate |
 | **F1** | the oracle axis (validation-trust splits by oracle-availability) | **Y** | design-model; empirically n≈0 |
