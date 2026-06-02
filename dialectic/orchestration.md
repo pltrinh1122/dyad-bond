@@ -52,7 +52,7 @@ J0 ROOT · advance the relationship-craft frontier                              
 |---|---|---|---|
 | **M1** | commit-telemetry *void* for translation-fidelity (5 confounds) | **Y** | strong; survived independent validation |
 | **C1** | absolute "one-shot translation" false (*denial only*) | **Y** | survives (denial); says nothing about rate |
-| **C3** | failures at complexity = seam/intent-gaps, not translation | **Y** | n=2 retros; strengthened candidate |
+| **C3** | failures at complexity = seam/intent-gaps, not translation | **Y → falsified-tested** | **Strong form ("NOT translation") DENIED** (1 genuine spec→code completeness miss: in_progress). **Directional form ("intent-gaps dominate") strengthened** — apparent logic-cluster (3/4) dissolved into ONE intent-gap (numeric-ID assumption). n=4/47 traced. **Caveat: classification is itself interpretation-laden** (numeric-ID reads as intent-gap *or* robustness-bug) → partly unresolvable by classification alone. |
 | **B1** | instrument-reachability bias (Agent) | **Y** | n=3; behavioral candidate |
 | **F1** | the oracle axis (validation-trust splits by oracle-availability) | **Y** | design-model; empirically n≈0 |
 | **F2** | edit-count blind → manufacture friction | **N · [DEBATE]** | **F2a kernel** (invisible meld-counterfeit tail) survives; **F2b** (manufacture friction) **retracted** — skips F1 oracle-ize-first + ignores #7. Revised: oracle-ize intent first; selective friction on the irreducible residue. *Pending Operator's N-ground.* |
