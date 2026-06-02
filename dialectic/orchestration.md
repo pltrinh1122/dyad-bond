@@ -50,7 +50,8 @@ J0 ROOT · advance the relationship-craft frontier                              
 ## Disposed / closed (s7)
 - Capture sweep: N1–N8 banked to `relationship-craft.md` (`§Method` + new `§G/V-independence front`).
 - N9 debate protocol **dropped** — the dyad's dialectic (NON-NEGOTIABLE + C-E-C ladder) subsumes it.
-- Stand-down: **declined (N)** — staying at root to keep working; git-durability deferred to actual stand-down.
+- Stand-down: **declined (N)** mid-session (kept working: FR protocol + experiment #1) → **EXECUTED at s7 close**
+  (2026-06-02): carry-forward s7 entry written · ROM clean (`4230357`, RESTART-PENDING none) · PR opened for merge.
 
 ## Claim ledger *(s7 — Operator-validated by independent interpretation, 2026-06-02)*
 | Claim | Reading (mine) | Op | Trust state |
