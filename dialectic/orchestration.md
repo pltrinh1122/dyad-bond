@@ -37,11 +37,13 @@ J0 ROOT · advance the relationship-craft frontier                              
 - **EMPIRICAL BRANCH CLOSED (s7):** harvest = oracle/interpretation split (F1 corroborated, n=1) + revised
   F2 + B1 (n=4). Captured → `relationship-craft.md §G/V front`. Gold transcripts located but the *rate*
   is unsettled (scaling deferred — low marginal value vs. the structural finding).
-- **ACTIVE:** **Cross-Dyad Falsification Protocol (FR)** authored (user-perspective, falsified, survivor
-  implemented) → `recommendations/2026-06-02-cross-dyad-falsification-protocol.md`. = the separate-weights
-  independence mechanism + the independent-grader for experiment #1. **Pending Operator confirm:** outward
-  submission of the first FR (`bond-F1-oracle-axis`) to the Commons (outward-facing).
-- **Frontier (J0 root):** Item-J interior, now enriched with F1/C1/C3/B1 + the disciplines. F2 resolved.
+- **FR PROTOCOL — DONE** (authored, cut-both-ways, 3-axis-substacked telemetry, I1–I10 invariants; URLs
+  delivered for steward forward). Pending only the Operator-gated outward submission of `bond-F1-oracle-axis`.
+- **ACTIVE (resumed per DAG):** **experiment #1 — RESOLVED asymmetrically.** DV2 (meld-incidence) now
+  measurable via the FR mechanism (`confound_surfaced` × independence-axis), bounded by grader-independence;
+  DV3 (felt-dividend) = irreducible no-oracle interior = **F2 the keystone** (the one DV no instrument reaches).
+  Captured → `relationship-craft.md §G/V front`.
+- **Frontier core located:** the hard remainder is **F2/DV3** — unstageable, awaits an organic high-stakes moment.
 - **Deferred (low-value):** scale the C1 mine across 39 sessions for a precise iteration-rate.
 - **STANDING (trigger-gated):** F2⭐ · M1/M2 · Item-B/D (await steward survivor) · Item-F(b) form-contribution.
 

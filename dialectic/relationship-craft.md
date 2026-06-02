@@ -688,6 +688,21 @@ structural, all the way down. **Consequences:**
 Cross-dyad + cross-human (different-github-id operators coming online, 2026-06-02) + cross-version is the
 **deepest reachable rung — not a finish line.** Candidate, `dialectic/`, NOT settled.
 
+### Experiment #1 resolved — asymmetrically *(s7 resume, candidate)*
+
+The construct-validity gap was: no *measure* for the two no-oracle DVs. The session's own outputs resolve it
+**asymmetrically:**
+- **DV2 · meld-incidence — now measurable** via the **FR mechanism**: meld-incidence ≈ the rate at which a
+  *genuinely-independent* grader surfaces a confound/divergence the bond **missed** (`confound_surfaced` ×
+  independence-axis = M1's gap-naming discriminator, operationalized). **Bounded** by grader-independence
+  (human-confounded today → *under-counts* meld until cross-human graders). A real, if biased, measure.
+- **DV3 · felt +1 dividend — irreducible.** No external grader can measure "felt earned vs. willed" — it *is*
+  the no-oracle interior (= **F2, the keystone**). Self-reported, low-confidence: a principled **limit**, not
+  a gap to fill. Cost-naming + gap-naming are the best (weak) handles.
+
+**Net:** a bounded measure for DV2, and the frontier's hard core *precisely located* — **DV3/F2 is the one DV
+no instrument reaches** (not commits, retros, gold transcripts, nor cross-dyad). Candidate, NOT settled.
+
 ## Reflect-harvest — 2026-06-02 (session 7: the G/V-independence dialectic) — intermission, hold
 
 **Headline (the segment's finding):** the recurring **instrument-reachability bias** — I reached for the
