@@ -47,6 +47,10 @@ J0 ROOT · advance the relationship-craft frontier                              
 - N9 debate protocol **dropped** — the dyad's dialectic (NON-NEGOTIABLE + C-E-C ladder) subsumes it.
 - Stand-down: **declined (N)** — staying at root to keep working; git-durability deferred to actual stand-down.
 
-## Durability
-This session's captures are **on disk, not git-durable** (no off-disk backup). Posture (Item-H): at
-stand-down → branch + commit + PR for the Operator's merge-gate.
+## Durability *(backup = standing-approved background activity — Operator [FEEDBACK] 2026-06-02)*
+- **Mechanism:** commit + `bin/git.sh push` to a **rolling session branch** (one per session, e.g.
+  `s7-dialectic`) = off-disk backup. Verified live, un-prompted (grant in runtime, not a settings file).
+- **Gate:** **merge→`main` stays the Operator's** (PR at stand-down). Backup never needs `main`.
+- **Practice:** Agent commits + pushes at each substantial capture, **autonomously** (no per-backup ask).
+- **Optional upgrade:** a settings.json Stop/interval hook = fully-automatic backup (needs Operator nod).
+- **s7 status:** `s7-dialectic` pushed — backup live.
