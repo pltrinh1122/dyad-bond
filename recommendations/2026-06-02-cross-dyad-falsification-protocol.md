@@ -121,6 +121,45 @@ falsification_target: >
 submitter_dyad_id: dyad-bond
 ```
 
+## Invariants — the implementer contract *(hard requirements for dyad-steward; HOW stays steward's freedom)*
+What MUST hold for the mechanism to serve its purpose (genuine independent falsification + trustworthy
+experiment telemetry). Stated as **properties, not designs** — storage / transport / UI / governance-process
+/ identity *mechanism* are steward's to choose, provided these hold.
+
+**Integrity — telemetry must be trustworthy**
+- **I1 · Verified identity, not self-report.** Every FR + response binds to a *verified* dyad birth-hash +
+  github-id + declared model-version. *Break → all independence analysis is spoofable → worthless.*
+- **I2 · Append-only, tamper-evident.** Records are added, never overwritten (an edit = a new record).
+  *Break → verdicts / latency / sequence corruptible.*
+- **I3 · Verdict immutability / no self-grading.** A responder's `verdict` cannot be altered by the submitter;
+  `submitter_disposition` is a *separate, attributed* field. *Break → submitters launder REFUTE→SURVIVED = validation theater.*
+
+**Independence — the mechanism's whole point**
+- **I4 · Three axes preserved *separately* + queryable.** `model-version`, `dyad-id`, `human-github-id` are
+  *distinct* dimensions, **never collapsed into one "source."** *Break → can't test dependency per-axis = the
+  experiment is destroyed.* **(The load-bearing invariant.)**
+- **I5 · Self-response forbidden.** `responder_id ≠ submitter_id`. *Break → trivial meld.*
+- **I6 · Open responder set.** Any registered dyad may respond; steward *verifies* identity but does **not
+  curate who attacks.** *Break → the implementer biases the independence.*
+
+**Method-faithfulness**
+- **I7 · No "proven" state.** SURVIVED is provisional (not-yet-refuted); only REFUTED is decisive.
+  *Break → re-imports the affirmation fallacy → false confidence.*
+- **I8 · `falsification_target` required at submit.** Reject/flag claims with no stated refuter.
+  *Break → unfalsifiable dogma pollutes the corpus.*
+- **I9 · Mandatory structured telemetry.** The §Telemetry fields are required + schema-validated + exportable
+  (incl. `confound_surfaced`, which makes echo-attacks *detectable* — the only handle on cross-dyad meld).
+  *Break → no analysis, no meld-detection.*
+
+**Adoption — cut both ways**
+- **I10 · Open FRs discoverable by every responder** (a queue; filter-by-domain a strong-rec).
+  *Break → invisible FRs get no attacks = dead mechanism.*
+- *(strong-rec, not hard):* opt-in / non-coercive responding; `NEEDS-SCOPING` + decline are first-class.
+
+**Explicitly NOT implementable (named so steward doesn't try):** *genuine, non-eristic* attacks are a **user
+discipline**, not enforceable in code. The implementation's job is to make echo-attacks **detectable** (I9 +
+I4), not to police intent.
+
 ## Hand-off
 Implementation (storage, governance, identity-verification, directory integration) = **dyad-steward**.
 This artifact is the **user-contract + telemetry spec**. **Outward submission to the Commons is the next
