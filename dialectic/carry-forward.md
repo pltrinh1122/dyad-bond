@@ -419,6 +419,12 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
 > cost-naming + gap-naming discriminators *live* when an organic high-stakes agreement occurs. **Standing
 > fronts:** M1/M2 · Item-B/D (await steward survivor) · **Item-F(b)** form-contribution (the FR protocol is
 > now a strong candidate). **Deferred (low-value):** scale the C1 mine (39 sessions).
+> **⭐ NEW frontier (Operator [REFLECTION] 2026-06-02 — "the frontier on the UI summit"):** **Divergence-Return
+> UI** (`DR-UI`/`DRD`, → `dyad-ui.md`) — let the Operator diverge *deep or wide* then return to load-bearing
+> *cheaply* (push/pop on a conversation-stack the Agent maintains). s7 **dog-fooded** it (`orchestration.md` +
+> "[RESUME] per DAG" = the crude-but-working return). Design reqs: mark load-bearing-vs-tangent at push-time ·
+> Agent *offers* the return · keep ROOT salient · support wide-not-just-deep · cheap one-token pop. Operator
+> CONTINUE = keep pushing the Dyad-UI boundary; this is the live UI-summit frontier.
 
 > **⤷ SESSION-6 STAND-DOWN (2026-06-01) — the live front this session:**
 > Item-J **grounded** (problem-in-one-line + 9 constraints + the validation-surface gap = constraints 7–8);

@@ -145,6 +145,36 @@ practice → collapse to one name).
 - **Generalization** — is "Dyad UI / show-flow" Steward-specific, or a form-library candidate for
   every Dyad?
 
+## Divergence-Return region — `DR-UI (show)` / `DRD (flow)` *(CANDIDATE · Operator [REFLECTION] CONTINUE 2026-06-02 — named "the frontier on the UI summit")*
+
+**The friction (Operator-named):** let the Operator go **full divergence — deep (a long tangent) or wide
+(parallel branches)** — then **return to the load-bearing task cheaply.** Today divergence is easy; the
+**return is expensive** (*where was I? what's load-bearing vs. tangent?*).
+
+**The model — push/pop on a conversation stack the Agent maintains.** Deep = nested pushes; wide = sibling
+branches at one level; return = a cheap **pop** to any marked frame. The Agent (scribe + PM) keeps the stack;
+the Operator pushes/pops with minimal ceremony.
+- **`DR-UI (show)`** — the live stack rendered: the **load-bearing ROOT always visible**, the branch-tree, a
+  **"you are here"** marker + depth. *(Substrate dog-fooded s7: `orchestration.md`'s DAG + ready-set.)*
+- **`DRD (flow)`** — **push** (mark "this is a branch off [load-bearing X]" *at divergence-time*, not
+  retrofit) · **pop** (one-token return to a named frame — "resume per DAG") · **wide-fan** (spawn sibling
+  branches, return to any).
+
+**Design requirements (from the s7 dog-food — what was still costly):**
+1. **Mark load-bearing-vs-tangent at push-time**, proactively (s7 *retrofitted* it → the return target wasn't always live).
+2. **Agent offers the return** — doesn't wait to be asked (s7 needed Operator "[ALIGN] unroll" / "[RESUME] per DAG").
+3. **Keep the ROOT salient through deep divergence** (s7 ran ~16 turns; the Operator had to re-anchor to J0).
+4. **Support wide, not just deep** (s7 was a single deep chain; the named frontier is deep *and* wide).
+5. **Return must be cheap/fast** — one-token pop, low ceremony.
+
+**Dog-food (s7, n=1):** the whole session was a deep divergence (TDD → telemetry → FR protocol → …);
+`orchestration.md` + "[RESUME] previous activity per DAG" was the crude return mechanism that **worked** —
+proof the stack-substrate is the right direction. But returns were Operator-initiated and the structure
+retrofitted → the frontier is making push/pop **fluid, Agent-maintained, proactive.**
+
+**Name — converge-open (IFD):** `DR-UI`/`DRD` · `Excursion UI` (excursion = a divergence you return from) ·
+`Stack UI`. The mechanism is the object, not the label. **Status: CANDIDATE · the UI-summit frontier · `dialectic/`, NOT settled.**
+
 ## Forward
 
 - Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,
