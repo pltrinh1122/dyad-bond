@@ -353,8 +353,32 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
     *coverage* gap (SG-4 didn't exist), not an application failure; no *verifiable* loaded-AND-covering-AND-missed
     instance found. Was itself assertion-from-model (D6). NB: the "deeper-placement-isn't-the-lever" conclusion
     survives by **disjunction** (application *or* coverage gap — neither fixed by re-placing existing rules).
-- **Status:** no experiment designed yet; QUEUED for ideation. When built, it graduates from this queue into
-  `relationship-craft.md` as a real front.
+- **⤷ s6 Stand-Up grounding (2026-06-01) — problem + constraints fixed before any design (Operator-guided reload):**
+  - **Problem (one line):** *we can't yet trust our falsification is real* — it can be faked two ways: one half caves
+    (**ionic**) or both halves attack as **one model wearing two hats** (**meld-counterfeit**, the dangerous one — cost
+    paid, feels like synthesis, but no genuine second perspective → the +1 is counterfeit). Hypothesis: run **G and V as
+    truly independent inferences** → two real models. Crux: `separate-in-time ≠ separate-in-model`.
+  - **Constraints (9, grouped — the reload artifact; double-click any):**
+    - *A·Method (inherited):* (1) observational, not lab — real telemetry, organic, no staging; (2) asymmetry — deny
+      decisively, never affirm (convergence, not proof); (3) probe scarcity — organic·single·serial, one shot, no repeat/parallel.
+    - *B·Contamination root (instrument = subject = grader, three seams):* (4) **generator** — `time≠model`, two inferences
+      in one harness may be one model (the crux); (5) **subject** — priming: boot primes the tested behavior, first
+      post-restart seam least diagnostic; (6) **grader** — no self-grading; independent seat = **Operator (current scope)**;
+      separate-model grader **QUEUED** (future experiment) → goal `AGREE: Y|N` (offload grading to reduce Operator load).
+    - *C·Validation surface (the gap this session named):* (7) **Operator is a scarce, shared resource** — finite cognitive
+      budget across multiple dyads; solution must *minimize* load, not just consume it; (8) **surface must enable dissent** —
+      the `Y|N` arrives un-primed with real grounds for **N**, else the independent seat collapses to ionic rubber-stamp.
+      **#7 ⟂ #8 and pull against each other** — compression-to-one-bit raises framing-leverage; that tension is the design center.
+    - *D·Process:* (9) extend §Method/Axis-2, don't re-derive (D1).
+  - **Gap-finding provenance:** old list constrained *who* grades, never *what reaches the grader* — the blind spot where
+    BOTH live failures this session landed (the overload [FEEDBACK]; my leading IFD's would-be rubber-stamp). Constraints 7–8 fill it.
+  - **⚠ Dog-food datapoint (D5 / Dyad-UI, lived n=1):** my opening IFD (table + 4 candidates + lean + 3-way close) **overloaded
+    the Operator live** — failed D5 (response-economy) AND landed on the **validation surface** (constraints 7–8). This is the
+    Dyad-UI (Telos's load-bearing medium) being falsified in real time — harvest into `relationship-craft.md` at stand-down, not yet.
+    **→ Remedy SHIPPED (same session):** authored **`VF-UI`/`VFD`** (Validation region) in `dyad-ui.md` — the low-load,
+    dissent-enabling `AGREE: Y|N` surface that satisfies constraints 7+8; Operator-ratified-as-default. Candidate, not bond-settled.
+- **Status:** problem + constraints GROUNDED (s6); **design still QUEUED** (no experiment built — solution work parked by
+  Operator). When built, graduates into `relationship-craft.md` as a real front.
 
 ## NBA — next-best-action for the fresh session
 > **⤷ SESSION-5 STAND-DOWN (2026-06-01) — full detail in Closed §session-5 + §session-5-cont:**

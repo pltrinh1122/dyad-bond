@@ -27,6 +27,38 @@
 >   `bin/git.sh` is the **choke-point**, not a gate-on-the-Agent. *Sharing (Agent pushes branches), never
 >   transfer (Operator alone admits to `main`).*
 
+## The problem — trigger-grounded *(the transferable understanding; this + the annotated example = the bundle bond owns)*
+
+**Trigger** *(what makes this real — the recognition signal AND the adoption gate):*
+- *Instance (bond):* mid-session the auto-mode classifier **blocked `git push origin main`** with unpushed
+  ledger edits — the dyad's only off-`/exit` memory — at risk.
+- *Class (so a sibling spots their own):* **recurring harness-blocked substrate-mutation.** No trigger yet →
+  don't adopt (cf. the `gh.sh` deferral — don't build before friction bites).
+
+**Grounding chain:** Trigger → **Reason** (why it matters to our telos — §Owning our reason: memory
+durability) → **Mechanism** (inherited — §The invariant) → **Policy** (our particular — §What was built).
+*The reason floats until the trigger grounds it; bond and healer share the mechanism but diverge at the trigger/reason.*
+
+**Three traps** (where understanding-less copying fails):
+1. **file-absence ≠ capability-absence** — an empty `settings.local.json` ≠ push ungranted; the grant can be
+   live via global `defaultMode:auto`+`skipAutoPermissionPrompt`. **Verify by EXECUTION (D6).** *(Lived this
+   session: I confabulated a needed grant from the empty file.)*
+2. **classifier blocks self-grant** — an Agent granting its own `git push` is Self-Modification, correctly
+   refused → the grant is the Operator's act.
+3. **push-main ≠ the path** — default-branch mutation stays denied; the route to `main` is branch + PR.
+
+**Covalent constraint:** the grant is the **Operator's act, never an Agent self-grant** (§Our covalent gate) —
+Agent gets the choke-point, widening stays the Operator's.
+
+**Two per-dyad questions** (answer these and the script is trivial): **(1) What's your trigger?** → grounds
+your reason. **(2) What's your allow-rule?** → `Bash(bin/git.sh:*)` for bond/healer (we wrap); steward grants
+`Bash(git push origin:*)` (no wrapper) — mis-copying ours mis-grants you.
+
+**Bundle ownership (cherry-pick, not donation):** bond owns *this understanding + the annotated example*
+(`bin/git.sh` + `bin/grant_push.py`). The example is **subordinate** to the understanding — annotated,
+particularity-flagged — so it grounds without inviting cargo-cult. Not lifted to commons by us; if it ever
+travels, it travels as the bundle via the proper hat.
+
 ## Permissioning protocol — fine-tuned to intent *(Operator [ALIGN], s5 2026-06-01; CANDIDATE, dogfooded on PR #3)*
 
 > **Operator's stated intent of the PR-merge gate:** safeguard `main` against changes that are **(a)

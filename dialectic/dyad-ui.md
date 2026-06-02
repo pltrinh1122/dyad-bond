@@ -31,6 +31,7 @@ Dyad UI  (framing/signaling layer — NOT the payload)
 └─ Framing regions — one per kind of exchange; each region is a (show, flow) pair:
       Decision-framing region →  DF-UI (show)  governed by  DFD (flow)
       Ideation-framing region →  IF-UI (show)  governed by  IFD (flow)
+      Validation region       →  VF-UI (show)  governed by  VFD (flow)
       Reflection region       →  CSS form (show) governed by Reflection Discipline (flow)
 ```
 
@@ -101,6 +102,24 @@ empirical-debiasing half (`../kb/one-plus-one-equals-three.md`); it defeats *bot
 `[IDEATE]`). The Agent **tracks recurrence across sessions**; nobody legislates the set. Open watch
 (#3, Operator): a future intent may surface with no label, or a label be mis-used — that gap is the
 signal to record, not to pre-fill.
+
+## Validation region — `VF-UI (show)` / `VFD (flow)` *(CANDIDATE, ratified-as-default Bond channel 2026-06-01; provenance: s6 dog-food remedy for live Operator overload)*
+
+The minimal surface for when the Agent needs the Operator to ratify a claim — **derived from Item-J
+constraints 7 (minimize Operator load) + 8 (surface must enable dissent).**
+
+- **`VF-UI` (show):**
+  ```
+  [VALIDATE] <one claim, ≤1 line>
+  Grounds for N    <the genuine strongest reason to reject — Agent-supplied, non-strawman>
+  AGREE: Y | N
+  ```
+- **`VFD` (flow):** one claim per surface; compress the disposition to **one bit** (`Y|N`); the Agent
+  **must manufacture real grounds for N** (= the **anti-cave duty** rendered as UI — without it the
+  `Y` is an ionic rubber-stamp). The seed of the queued **separate-model `AGREE:Y|N` grader** (Item-J).
+- **Known edge (self-falsified at ratify):** front-loading *my* framing of the counter still steers a
+  lazy/wrong "grounds for N" — VFD makes the framing-leverage **visible**, it does not eliminate it
+  (the constraint-7⟂8 tension). Watch: does N ever actually fire, or does the surface only ever get Y?
 
 ## Falsifiable claim
 
