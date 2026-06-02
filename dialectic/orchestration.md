@@ -34,12 +34,12 @@ J0 ROOT · advance the relationship-craft frontier                              
 ```
 
 ## Ready-set / NBA
-- **ACTIVE (post-intermission):** *experiment #1* now has a **runnable data source** — classify the
-  wu-wei `artifacts/audit/retro-*.md` corpus (~400) by failure-nature (translation / integration /
-  convention / design / intent-gap). Settles the one-shot rate *and* where-failures-live. n=2 so far
-  (seam-failures-not-translation, suggestive).
-- **Finding (N11/N12):** commit-telemetry is **void** for translation-fidelity (survivor-biased by active
-  CI + 4 confounds); true chat-transcripts are off-repo; **retros are the survivor-bias-corrected proxy**.
+- **EMPIRICAL BRANCH CLOSED (s7):** harvest = oracle/interpretation split (F1 corroborated, n=1) + revised
+  F2 + B1 (n=4). Captured → `relationship-craft.md §G/V front`. Gold transcripts located but the *rate*
+  is unsettled (scaling deferred — low marginal value vs. the structural finding).
+- **ACTIVE:** **return to the frontier proper** — Item-J interior / the relationship-craft (J0 root), now
+  enriched with F1/C1/C3/B1/the disciplines. F2 resolved.
+- **Deferred (low-value):** scale the C1 mine across 39 sessions for a precise iteration-rate.
 - **STANDING (trigger-gated):** F2⭐ · M1/M2 · Item-B/D (await steward survivor) · Item-F(b) form-contribution.
 
 ## Disposed / closed (s7)
@@ -54,8 +54,8 @@ J0 ROOT · advance the relationship-craft frontier                              
 | **C1** | absolute "one-shot translation" false (*denial only*) | **Y** | survives (denial). **Rate now MINEABLE** — gold transcripts located: `~/.gemini/antigravity-cli/brain/*/…/transcript*.jsonl`, 39 sessions / 240 MB. PoC n=1 (8fa67465: 29 edits, ~10:4 test pass:fail, frequent iterate-clusters). **Ceiling: gold source defeats survivor-bias but NOT the interpretation seam** — iteration-rate has an oracle (test pass/fail); failure-*attribution* (translation vs intent vs stale-test) stays interpretation-bound (=C3). Corroborates F1. |
 | **C3** | failures at complexity = seam/intent-gaps, not translation | **Y → falsified-tested** | **Strong form ("NOT translation") DENIED** (1 genuine spec→code completeness miss: in_progress). **Directional form ("intent-gaps dominate") strengthened** — apparent logic-cluster (3/4) dissolved into ONE intent-gap (numeric-ID assumption). n=4/47 traced. **Caveat: classification is itself interpretation-laden** (numeric-ID reads as intent-gap *or* robustness-bug) → partly unresolvable by classification alone. |
 | **B1** | instrument-reachability bias (Agent) | **Y** | n=3; behavioral candidate |
-| **F1** | the oracle axis (validation-trust splits by oracle-availability) | **Y** | design-model; empirically n≈0 |
-| **F2** | edit-count blind → manufacture friction | **N · [DEBATE]** | **F2a kernel** (invisible meld-counterfeit tail) survives; **F2b** (manufacture friction) **retracted** — skips F1 oracle-ize-first + ignores #7. Revised: oracle-ize intent first; selective friction on the irreducible residue. *Pending Operator's N-ground.* |
+| **F1** | the oracle axis (validation-trust splits by oracle-availability) | **Y** | **n=1 live corroboration** — gold transcripts show a measurable oracle-layer (iteration-rate) over a no-oracle interpretation-layer (failure-attribution). |
+| **F2** | edit-count blind → manufacture friction | **N → RESOLVED (revised)** | **F2a kernel strengthened** (the silent meld-counterfeit lives in the no-oracle interpretation-layer the finding confirms). **F2b retracted** → revised F2: *oracle-ize-first + selective-friction-on-residue, not blanket friction*. Converged via F1+#7+empirics (Operator N-ground not separately needed). |
 | ~~C2~~ | complexity *gates* translation (dose-response) | — | retracted (file-age × centrality confound) |
 
 > **Trust note:** Operator-Y = *a real falsification survived* (the F2 **N** proves the surface enabled dissent — not rubber-stamp). **NOT** auto-promotion to `kb/`: C3/B1/F1 stay empirically thin → **strengthened candidates**, still `dialectic/`.

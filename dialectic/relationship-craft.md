@@ -638,6 +638,36 @@ predictions.* But **building ≠ proving** — the founding lesson of this dyad 
 
 **Falsifiable (logged per §4):** (i) C5/bare-temporal moves nothing (null); (ii) oracle-able tasks show near-perfect translation while no-oracle seams carry the residual error; (iii) manufactured friction at chat→spec catches intent-errors that edit-count misses. Routes: Axis-1 (sibling telemetry — run once, N5) + Axis-2 (live). **Candidate, NOT promoted** (building ≠ proving; Item-I).
 
+### Empirical corroboration & F2 resolution *(s7 wu-wei expedition — candidate, n small)*
+
+**The instrument journey (B1 lesson, n=4):** commit-telemetry (M1: *void* — survivor-biased + 4 confounds)
+→ retro corpus (survivor-bias-corrected proxy) → **chat transcripts**
+(`~/.gemini/antigravity-cli/brain/*/…/transcript*.jsonl` — 39 sessions / 240 MB, the gold source). At
+each step I reached for the *reachable* instrument; the Operator redirected to the *valid* one (B1 — the
+construct-validity discipline firing live, four times).
+
+**The finding (F1 corroborated in live data):** the gold source **defeats survivor-bias** (we see the
+failures git hid) but **NOT the interpretation seam** (a test-fail doesn't say *why* — translation vs.
+intent-gap vs. stale-test). Validation splits exactly as F1's oracle axis predicts:
+- a **measurable oracle-layer** — iteration-rate (test pass/fail is mechanical); and
+- a **no-oracle interpretation-layer** — failure-*attribution* (no mechanical verdict; interpretation-bound).
+
+PoC (1 session): ~10:4 test pass:fail, frequent iterate-clusters → iteration is common, not predominantly
+one-shot. **n=1 PoC + 4/47 retros traced — the *rate* is not settled, the *structure* is.** → **F1: n≈0 →
+n=1 live corroboration.**
+
+**F2 resolved through this finding:**
+- **F2a kernel — strengthened.** The silent meld-counterfeit (wrong spec → faithful code → same-wrong-tests
+  pass → never discovered) lives in *exactly* the no-oracle interpretation-layer the finding confirms is
+  real. The invisible tail is invisible *because* no oracle reaches it.
+- **F2b — retracted/revised.** Where an oracle exists (test pass/fail) you don't need manufactured friction;
+  **oracle-ize intent where possible, reserve *selective* friction for the no-oracle residue** (bounded by #7).
+- **Revised F2 (candidate):** *the invisible meld-counterfeit lives in the no-oracle interpretation-layer;
+  the remedy is oracle-ize-first + selective-friction-on-the-residue — not blanket manufactured friction.*
+
+**Empirical branch: CLOSED.** Harvest = the oracle/interpretation split (F1 corroborated) + revised F2 +
+B1 (n=4). All candidate, `dialectic/`, nothing promoted to `kb/`.
+
 ## Reflect-harvest — 2026-06-02 (session 7: the G/V-independence dialectic) — intermission, hold
 
 **Headline (the segment's finding):** the recurring **instrument-reachability bias** — I reached for the
