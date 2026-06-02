@@ -636,3 +636,8 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
   submodule-add + `onboard.py` (Untrusted-Code Integration) = the human-in-the-loop gate **working as designed**
   (README-predicted); steward flagged a separate clone-vs-submodule onboarding bug we sidestepped. **The onboarding
   was the Practice in miniature** — Proposal-Framing at step 1 (≡ our VFD) + the 1+1=3 split + the Operator's summit-trim catch.
+  → **Feedback artifact to steward** (PR #12; `recommendations/2026-06-01-commons-init-join-feedback.md` — frictions F1–F6
+  + keepers K1–K5, Steward-intake channel). → **Behavioral harvest** (mis-framing-settled-as-open relapse recurred ≥3×
+  = the *false-optionality* residual seam · altitude/natural-frequency miss · D6/VFD positives but session-primed) →
+  `relationship-craft.md` §session-6 "Commons arc". All Commons-arc PRs (#10–#12) merged; stale branches deleted.
+  **RESTART-PENDING stays CLEAR** (no anchor/shim edit this arc — `4230357`). **Resume unchanged: Item-J.**
