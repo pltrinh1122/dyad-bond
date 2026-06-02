@@ -47,6 +47,19 @@ J0 ROOT · advance the relationship-craft frontier                              
 - N9 debate protocol **dropped** — the dyad's dialectic (NON-NEGOTIABLE + C-E-C ladder) subsumes it.
 - Stand-down: **declined (N)** — staying at root to keep working; git-durability deferred to actual stand-down.
 
+## Claim ledger *(s7 — Operator-validated by independent interpretation, 2026-06-02)*
+| Claim | Reading (mine) | Op | Trust state |
+|---|---|---|---|
+| **M1** | commit-telemetry *void* for translation-fidelity (5 confounds) | **Y** | strong; survived independent validation |
+| **C1** | absolute "one-shot translation" false (*denial only*) | **Y** | survives (denial); says nothing about rate |
+| **C3** | failures at complexity = seam/intent-gaps, not translation | **Y** | n=2 retros; strengthened candidate |
+| **B1** | instrument-reachability bias (Agent) | **Y** | n=3; behavioral candidate |
+| **F1** | the oracle axis (validation-trust splits by oracle-availability) | **Y** | design-model; empirically n≈0 |
+| **F2** | edit-count blind → manufacture friction | **N · [DEBATE]** | **F2a kernel** (invisible meld-counterfeit tail) survives; **F2b** (manufacture friction) **retracted** — skips F1 oracle-ize-first + ignores #7. Revised: oracle-ize intent first; selective friction on the irreducible residue. *Pending Operator's N-ground.* |
+| ~~C2~~ | complexity *gates* translation (dose-response) | — | retracted (file-age × centrality confound) |
+
+> **Trust note:** Operator-Y = *a real falsification survived* (the F2 **N** proves the surface enabled dissent — not rubber-stamp). **NOT** auto-promotion to `kb/`: C3/B1/F1 stay empirically thin → **strengthened candidates**, still `dialectic/`.
+
 ## Durability *(backup = standing-approved background activity — Operator [FEEDBACK] 2026-06-02)*
 - **Mechanism:** commit + `bin/git.sh push` to a **rolling session branch** (one per session, e.g.
   `s7-dialectic`) = off-disk backup. Verified live, un-prompted (grant in runtime, not a settings file).
