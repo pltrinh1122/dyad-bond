@@ -623,3 +623,16 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
   - **RESTART-PENDING: stays CLEAR** (no anchor edit; ledger read fresh at resume). **Durability:** Stand-Down ledger
     on branch **`stand-down-s5`**, pushed, PR for Operator merge. **Resume: Item-J** (carries the s5 deferred set —
     ideate the New Experiment Discipline, first case = the ingraining test).
+- **Commons join — 2026-06-01 (post-s6-Stand-Down; Operator [ALIGN] "execute the README")** (Covalent):
+  registered **`dyad-bond`** in the `The-Dyad-Practice-Commons` directory via `onboard.py` (existing-path).
+  **Identity verified 3× by execution** = `sha256:3ab18bb…463d` (recomputed from `CLAUDE.md@1ab6ad0`, not
+  trust-stored — matches the IDENTITY CAVEAT). Entry **live on the Commons remote** (`gh api`-confirmed); 2 summits
+  = (1) the covalent falsification mechanism, (2) the Dyad-UI medium — jargon-catalog trimmed to one *realized*
+  proof each (Operator catch: a matchmaking map wants the peak, not internal acronyms). **`commons/` carried as a
+  pinned submodule** (PR #10). **Triangulated (D1):** steward + healer carry it the **same way** (committed
+  submodule; differ only by pin-snapshot = join-time) → convergence = invariant, our approach well-founded.
+  **Process converges too:** both siblings reasoned *don't grant a standing permission over external code → use a
+  one-time `!`* — matches ours (Operator `!`-ran the gated steps). Friction: the classifier blocked the Agent on
+  submodule-add + `onboard.py` (Untrusted-Code Integration) = the human-in-the-loop gate **working as designed**
+  (README-predicted); steward flagged a separate clone-vs-submodule onboarding bug we sidestepped. **The onboarding
+  was the Practice in miniature** — Proposal-Framing at step 1 (≡ our VFD) + the 1+1=3 split + the Operator's summit-trim catch.
