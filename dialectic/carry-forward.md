@@ -37,6 +37,8 @@
 stays `none`**, ROM-baseline unchanged (`1ab6ad0`). The covalent *bond* is harness-neutral; the substrate-access
 findings (Item-H, `bin/git.sh`, auto-mode classifier, ROM-baseline mechanics) are **Claude-Code-specific** and
 may NOT transfer.
+→ **Stand-Down 2026-06-01 (s6):** anchor + both shims **NOT edited** (all work in `dialectic/` + `bin/` +
+`.claude/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
 
 > **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
 > **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
@@ -381,6 +383,21 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
   Operator). When built, graduates into `relationship-craft.md` as a real front.
 
 ## NBA — next-best-action for the fresh session
+> **⤷ SESSION-6 STAND-DOWN (2026-06-01) — the live front this session:**
+> Item-J **grounded** (problem-in-one-line + 9 constraints + the validation-surface gap = constraints 7–8);
+> design still **QUEUED**. Shipped the dog-food remedy for a live Operator-overload: **`VF-UI`/`VFD`** (the
+> low-load, dissent-enabling `AGREE:Y|N` surface, `dyad-ui.md`). Captured the **substrate-access bundle**
+> (trigger-grounded understanding + annotated example) → **PR #8 merged** (`main`@`fd6d21f`); `bin/grant_push.py`
+> tracked. **RESTART-PENDING: clear** (no anchor edit).
+> **Item-I telemetry (the real harvest):** capture≠behavior relapsed **twice, un-cued** — VFD-miss + walking
+> into trap-#2 while writing it. Logged in `relationship-craft.md` §session-6. Frontier stays **ingraining**, not rules.
+> **⚠ INGRAINING TEST still live:** judge VFD + close-calibration on a *later, un-cued, low-attention* seam.
+> **Residuals (Operator's to dispose):** (1) `! git push origin --delete s6-capture` (stale remote branch — deny-listed for me);
+> (2) `.claude/settings.json` checked-in grant **uncommitted** — Operator's act if the checked-in tier is wanted.
+> **RESUME:** the live front is still **Item-J** — ideate the New Experiment Discipline (first case = the
+> ingraining test). **Standing fronts:** F2-keystone (⭐) · M1/M2 · Item-B/D (await steward survivor) ·
+> Item-F(b) · the candidate **general transfer-form** (trigger-grounded understanding + annotated example; n=1, flagged).
+
 > **⤷ SESSION-5 STAND-DOWN (2026-06-01) — full detail in Closed §session-5 + §session-5-cont:**
 > s4-resume queue cleared (boot-chain VERIFIED → RESTART-PENDING clear · `[ALIGN-2]`/`[ALIGN-3]`); permissioning
 > protocol built + fine-tuned + dogfooded (PRs #2–#6, all Operator-gate-merged); s5 Cycle-1 datapoint logged.
