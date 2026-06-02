@@ -66,14 +66,22 @@ first-response → resolution), `outcome` ∈ {strengthened | revised | retracte
 ### Falsifying the independence axes *(the whole point of cross-dyad attack)*
 Genuine independence is **three nested axes** — record each per submitter & responder so we can test whether
 a verdict *depends* on it (the load-bearing "illusory independence" risk, made measurable):
-- **`*_model`** (LLM behind the dyad — e.g. `claude-opus-4-8`, `gemini-*`) → **model-dependency.**
-  *Testable now* — real variance exists (dyad-bond = Claude-Opus, dyad-wu-wei = Gemini).
+- **`*_model`** (the **full version string + config** — e.g. `claude-opus-4-8[1m]`, `gemini-2.x-*` — *not* just
+  family) → **model-dependency.** *Testable now* (bond = Claude-Opus, wu-wei = Gemini). **Sub-axis: version =
+  weights** — two dyads both "on Opus" at 4.7 vs 4.8 differ in weights → a model-independence axis *within* a
+  family. Record the version **timestamped** (`responded_at` pins it; models update). *Corollary:* a version
+  bump between a dyad's own turns means `separate-in-time` **can coincide with** `separate-in-weights` —
+  partially bridging the original Item-J crux.
 - **`*_dyad_id`** → **dyad-dependency.** *Testable but entangled* with model + telos (each dyad ≈ one model +
   one telos; disentangling needs the same dyad on two models, or two dyads on one model).
-- **`*_human`** (the Operator behind the dyad) → **human-dependency. NOT falsifiable now** — all current
-  Commons dyads share one Operator (`pltrinh1122`), so human is a **constant**; any "independence" we measure
-  is **human-confounded** until cross-human dyads join. The telemetry makes this limit *visible* and names the
-  recruitment need (dyads with *different humans*).
+- **`*_human`** (the Operator's **github-id** — verifiable via Commons registration, not self-reported) →
+  **human-dependency. Becoming falsifiable** — *different-github-id operators are coming online* (2026-06-02;
+  the gating precondition, now being met). Two caveats: **(1) id-difference ≠ prior-independence** — recruited-
+  by / team / shared-org operators may share the dominant priors (the recursion: `separate-id ≠ separate-
+  human-model`, like `separate-time ≠ separate-model`) → also capture a **recruitment/relationship proxy**.
+  **(2) signal needs N-humans**, not 2. **Operational test:** `confound_surfaced` × `*_human` — *does a
+  different human surface confounds the same human missed?* Yes → human-independence is real; no → shared
+  priors, or human-invariant confounds.
 
 > **The killer test this enables:** if attacks cluster by `responder_human`, the "independence" is one human
 > in N hats = **cross-dyad meld**. Recording all three axes is the only way we'd ever catch that — and it is

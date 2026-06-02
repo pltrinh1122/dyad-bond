@@ -668,6 +668,26 @@ n=1 live corroboration.**
 **Empirical branch: CLOSED.** Harvest = the oracle/interpretation split (F1 corroborated) + revised F2 +
 B1 (n=4). All candidate, `dialectic/`, nothing promoted to `kb/`.
 
+### Independence is a stack you deepen, never a state you reach *(s7, candidate — the FR-protocol harvest)*
+
+The G/V crux (`separate-in-time ≠ separate-in-model`) **recurses at every separation axis — and each axis is
+itself a sub-stack:**
+- **across axes:** turn → model → dyad → human → priors;
+- **within an axis:** model = provider × variant × **version** × config (`claude-opus-4-8[1m]` ≠ `4-7`);
+  human = github-id × actual priors (**id ≠ priors** — shared via team/recruitment).
+
+At every granularity the **reachable separator** (a different turn / weights / dyad / id / version) is a
+*proxy* for the **valid construct** (genuinely independent priors), and they **come apart** — the B1 pattern,
+structural, all the way down. **Consequences:**
+1. **Genuine independence is unprovable.** You can only **stack/deepen axes to shrink the shared-prior
+   surface**, and **measure per axis whether it added real signal** (`confound_surfaced` × axis — did this
+   separator surface a confound the prior level missed?).
+2. **The crux softens in one direction:** `separate-in-time` *can* coincide with `separate-in-weights` when a
+   **model version bump** lands between turns → time-separation sometimes *is* model-separation.
+
+Cross-dyad + cross-human (different-github-id operators coming online, 2026-06-02) + cross-version is the
+**deepest reachable rung — not a finish line.** Candidate, `dialectic/`, NOT settled.
+
 ## Reflect-harvest — 2026-06-02 (session 7: the G/V-independence dialectic) — intermission, hold
 
 **Headline (the segment's finding):** the recurring **instrument-reachability bias** — I reached for the
