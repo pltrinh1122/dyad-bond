@@ -110,6 +110,16 @@ may NOT transfer.
   claim = claim → cited evidence → **named confound** → calibrated verdict; a rival confound *demotes* the
   claim. Run it on your OWN claims (it caught C2 *and* the survivor-bias).
 
+### Frontier files — single-home map *(s9 split, 2026-06-03)*
+- **`relationship-craft.md`** — the **interior Agent↔Operator** craft (the felt +1 dividend, the F2/DV3
+  keystone, the bond disciplines above). The frontier's **inward** slice.
+- **`cross-dyad-craft.md`** — **NEW (s9):** bond's **cross-dyad falsification craft** — the **F1 axis**
+  (oracle-coverage + independence theory), the **FR protocol** as bond practices it, the **s9 3-dyad
+  panel** harvest (disjoint-tiling · lens-match · analytic/synthetic discount · anti-cave-cross-dyad ·
+  D6-external). The frontier's **outward** slice — split out to keep `relationship-craft.md` pure.
+  Orthogonal to **steward** (governs the commons *of relationships*) and to **`theory-pipeline.yaml`**
+  (the formal candidate *store*; this is the prose *craft*).
+
 ## Open items
 
 ### A — Bootstrap closure  ·  status: DONE if you're reading this committed
