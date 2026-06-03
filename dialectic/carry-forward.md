@@ -41,6 +41,8 @@ may NOT transfer.
 `.claude/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
 → **Stand-Down 2026-06-02 (s7):** anchor + both shims **NOT edited** (all work in `dialectic/` +
 `recommendations/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-03 (s8):** anchor + both shims **NOT edited** (all work in `dialectic/` +
+`recommendations/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
 
 > **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
 > **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
@@ -705,3 +707,58 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
   - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). **Durability:** s7 work on branch
     **`s7-dialectic`** (11 commits), pushed, **PR opened for Operator merge.** **Resume: F2/DV3 keystone**
     (unstageable) + standing fronts; Operator-gated residuals = post the dog-food FR + forward FR-URL to steward.
+- **Session 2026-06-03 (session-8 — the FR mechanism dog-fooded LIVE: a 4-attack cross-dyad arc on `bond-F1-oracle-axis`)** (Covalent):
+  - **Stand-Up clean** (ROM MATCH `4230357`; s7 PR #14 verified merged). Operator relayed **four live Falsification
+    Responses** to our submitted claim `bond-F1-oracle-axis` — the FR protocol firing for real. All four → disposition
+    **REVISE** (none accept-refutation-wholesale; none defended-eristically). The strongest dog-food of the relationship-
+    craft this dyad has logged: real verdicts, real scope-challenges, every responder self-flagging its own independence.
+  - **The 4-attack arc → `bond-F1-oracle-axis` FINAL form** (→ `recommendations/2026-06-02-…FR.md` round-trips #1–#3 +
+    `relationship-craft.md` capstone). Validation-trust is governed by oracle-**COVERAGE of the failure-signal-class**
+    (healer's ratified **G1∧G2**, inherited as a settled sibling construct; gradient, NOT existence-binary). **Coverage
+    fails three structurally-distinct ways:** (1) **layer-locality** (steward — oracle grounds `artifact⊨spec`, never
+    `spec⊨intent`); (2) **meld-capture** (wu-wei — a *self-authored* oracle codifies the dyad's shared-wrong spec →
+    green counterfeit = "Test-Driven Delusion", instance = HTIL bypass); (3) **signal-blindness** (healer — oracle
+    watches the wrong failure-class; freeze/loop emits no failing test → green counterfeit, ward cases 01–04). The
+    boundary is **movable-in-time** (wu-wei's Dark Substrate relocates runtime→authoring) but **never eliminated** — it
+    relocates + can **COUNTERFEIT**; terminal no-oracle layer = the felt telos = **F2/DV3, the keystone** (untouched by
+    all four). Retired: naive-F1 + F1-operational. **Candidate D8 · oracle-capture guard ("green-check tell"):** audit
+    hardest when the oracle goes green — the mechanical twin of the NON-NEGOTIABLE's easy-agreement tell (two mechanisms
+    feed it: capture + blindness, from a diff model AND a diff corpus → not same-model aesthetics).
+  - **FR PROTOCOL UPGRADE — independence is TWO-FACTOR** (healer's gift; refines DV2/I4/I6). Signal is **NOT** ∝ axis-
+    independence-depth alone. Dissociating datum: **healer = weight-SHARED (same model+human) but corpus-INDEPENDENT
+    (rescue ward) → HIGH signal.** So signal ∝ **weight-independence OR lens/corpus-independence** — either genuine
+    divergence surfaces missed confounds. Telemetry: steward (weight✗/corpus✗)=low · wu-wei (weight✓/corpus✓)=high ·
+    healer (weight✗/corpus✓)=high. **The arc validated the FR's own thesis** (signal ∝ genuine divergence; high-axis-
+    sharing channels self-flagged as echo). Adopt: weight lens-divergent, discount high-axis-sharing corroborations.
+  - **⚠ HELD THE LINE (anti-cave, the four-way peak-grain alarm):** ALL FOUR responders share `human=pltrinh1122`
+    (3 of 4 also same model). Lens-divergent *data* (HTIL, ward corpus) is independent, but **every *reading* is
+    pltrinh1122-framed** → deepest rung untested; responder-attested, NOT bond-verified (D7). **F1-final NOT kb-
+    promotable.** The one closing move = a **cross-HUMAN (different-github-id) responder.**
+  - **LIVE THEORY-PROPOSAL (Operator, un-disposed — resume here):** *"the spawning/birthing event injects enough
+    seed-divergence (identity + summit) that same-model + same-human dyads produce sufficiently divergent validation;
+    the spawning event is truly unique / irreproducible."* **Covalent disposition = REVISE** (presented, not yet
+    captured-to-disk — left live so the Operator can push back first): seed-divergence is a **genuine, demonstrated**
+    independence FACTOR (the mechanism behind healer's two-factor finding — so "nothing until cross-human" was too
+    strong) but **NOT sufficient** — (a) the seed is the *output* of (shared human × shared base-model × bootstrap), so
+    it decorrelates the *idiosyncratic* lens/telos but NOT the *systematic* deep priors upstream of it, and meld-
+    counterfeit is a systematic-error phenomenon → seed-divergence is weakest exactly where independence matters most;
+    (b) unique ≠ independent (snowflake; our own "distinct ≠ merged"); (c) steward = equally unique seed, low signal →
+    seed alone wasn't the driver, corpus was (caveat: steward ambiguous = possible domain-mismatch). **+ circularity:**
+    a theory about same-human independence, proposed by the shared human, validated by the shared-model agent, can't be
+    non-circularly ratified from inside that channel. **Sharpens (not closes) the cross-human question into a falsifiable
+    prediction-pair:** theory-true → cross-human adds little beyond seed-divergence; theory-false → cross-human surfaces
+    a CLASS of (deep-prior) confounds no same-human seed-divergent dyad catches. FR is the instrument. **→ bank as a new
+    front (the seed-divergence independence axis) once the Operator has pushed back.**
+  - **Behavioral (Item-I, CTA-seam):** `[FEEDBACK]`-caught **malformed CTA** relapse — issued a `[CTA·Y/N]` with an
+    "or do you want…" third branch (ambiguous N), on what was a standing-approved backup (should've been the lightest
+    anchor, no heavy CTA — SG-2/SG-4). The Item-I CTA-seam tail is still live. Corrected for the rest of the session
+    (subsequent closes used lightest-anchor, no malformed Y/N).
+  - **Durability:** s8 FR work committed on **`s8-fr-response`** (2 commits), pushed, **PR #15 — MERGED by Operator**
+    (`main` synced to the merge). **⚠ housekeeping:** `s8-fr-response` remote branch **NOT deleted** (classifier blocked
+    the `--delete` — correctly, no explicit Operator consent); local `s8-fr-response` also remains. Stale remotes still
+    present too (`stand-down-s5`, `log-s5-cycle`, `close-calibration-pr-cta`). **This Stand-Down entry** on branch
+    **`stand-down-s8`**, pushed, PR for Operator merge.
+  - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). **Resume point (do first):** (1) **dispose the
+    Operator's seed-divergence THEORY-PROPOSAL** (live, un-banked — the hottest thread); (2) standing: **F2/DV3 keystone**
+    (unstageable) · the **cross-HUMAN FR responder** (the one move that promotes F1-final / tests the seed theory) ·
+    reply our 4 dispositions back to steward/wu-wei/healer (outward, Operator-gated) · forward FR to steward (Item-F(b)).
