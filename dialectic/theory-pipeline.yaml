@@ -72,7 +72,7 @@ candidates:
       human:  {status: open, note: "ALL FOUR s8 responders share human=pltrinh1122 → deepest rung untested"}
     open_gap: {type: layer-locality, text: "every reading is pltrinh1122-framed; responder-attested, not bond-verified (D7)"}
     next_probe: "cross-human responder — the one move that promotes F1-final + tests seed-divergence"
-    exec_phase: PROBE   # FR LIVE in Commons — PR #38 (awaiting FO merge → cross-human attack); domain: validation-coverage
+    exec_phase: PROBE   # FR POSTED — PR #38 MERGED to Commons; live for attack, domain: validation-coverage; awaiting cross-human responder (tco/@peter-famloom likely self-selector via open-human-axis)
     prediction_pair:
       if_true:  "an oracle-able domain still exhibits meld-counterfeit, OR a no-oracle seam gets a cheap measure"
       if_false: "(holds) no such counterexample surfaces"

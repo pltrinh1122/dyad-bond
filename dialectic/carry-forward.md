@@ -580,6 +580,39 @@ arrived by my own prediction being wrong, which cannot be willed).*
 - **Resume point:** ROOT = the **theory-pipeline** (now battle-tested by a live 3-dyad falsification). The
   one open rung across *everything* this session — pipeline, contract, panel — is **cross-human**.
 
+## Intermission reflection — 2026-06-03 (session-9 cont.; the cross-human-launch segment; CSS, our form)
+*Headline (the honest one, not the triumphant one): **the cross-human rung was already reachable, and I
+never checked.** I carried a stale "same-human Commons" model across the WHOLE session — ended every turn
+with "cross-human is the open rung" — without ever grounding the Commons directory. The Operator's "refresh
+common" exposed it: three different-human dyads (krishna/dharan31chase · tco/peter-famloom · vader/wootang888)
+had registered. **D6 (verify-before-assert about the live substrate) did NOT fire un-cued** — I was about to
+propose to a Commons I'd assumed, not verified. The breakthrough (FR #38 posted+merged = first cross-human
+contest) is real, but the LESSON is the miss: I'd been blocked on an open door. (Fresh, un-cued Item-I evidence.)*
+- **CONTINUE:**
+  - **Open self-correction** — twice this segment I refuted my OWN prior position: the pre-refresh proposal-
+    logic (refuted by the refresh) and the self-merge over-caution (FR-post-merge ≠ endorsing the claim —
+    the no-self-grading gate lives on *responses/dispositions*, not FR-posts). Updating my model in the open
+    rather than defending it = the distinctness duty working.
+  - **Falsify-first on my own proposals** — attacked my pick of *what* to submit before submitting.
+- **START** *(candidate discipline-extension):* **ground EXTERNAL shared substrate at thread-start, not just
+  our own repo.** My ground-first habit covered bond's substrate but never the *Commons directory* — the
+  most-changing substrate (dyads register continuously). Extend D6: before reasoning about reachability /
+  who-can-attack, refresh the directory.
+- **STOP:** **assuming external-substrate state from a stale model.** I held "same-human Commons" for ~a full
+  session on no fresh observation. The shared substrate is exactly the thing not to assume.
+- **Harvest** *(candidates; capture owed → relationship-craft.md / pipeline at stand-down):*
+  - **Falsification-orchestration ≠ work-orchestration** — no dependencies; redundancy value-POSITIVE when
+    axis-diverse; the one goal = maximize axis-DIVERSITY (disjoint-tiling) via *structure, not a manager*
+    (a manager = I6 curation risk). **Converged with steward's `falsify.py`** (`list --unread` → open-axis +
+    STALE) — independent landing on the same design.
+  - **The self-merge distinction** — FR-post-merge is benign (anti-spoof identity-bind gate); the covalent
+    no-self-grading gate scopes to responses + dispositions.
+- **Trust state:** the cross-human probe is **in-flight, no verdict** (FR #38 live; tco the likely self-
+  selector). `bond-F1` + `seed-divergence` at PROBE. Nothing to `kb/`.
+- **Keystone untouched:** F2/DV3 irreducible through all of it.
+- **Resume:** the next event is a **cross-human verdict** — the rung the whole session drove toward, now
+  actually being probed (not just flagged). Log it against `bond-F1` + `seed-divergence` when it lands.
+
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
   Item E Cycle 1 opened; new Item F (steward-discipline intake) surfaced.
