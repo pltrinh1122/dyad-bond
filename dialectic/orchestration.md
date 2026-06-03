@@ -54,6 +54,11 @@ J0 ROOT · advance the relationship-craft frontier                              
   (2026-06-02): carry-forward s7 entry written · ROM clean (`4230357`, RESTART-PENDING none) · PR opened for merge.
 
 ## Claim ledger *(s7 — Operator-validated by independent interpretation, 2026-06-02)*
+
+> **⤷ MOVED (s9, 2026-06-03):** this claim-ledger is **superseded by `dialectic/theory-pipeline.yaml`**
+> (the formal store — each claim folded in as a candidate with its independence-coverage state). The table
+> below is **frozen s7 history**; live claim-state lives in the pipeline. Single-home discipline: do not
+> update here — update the yaml.
 | Claim | Reading (mine) | Op | Trust state |
 |---|---|---|---|
 | **M1** | commit-telemetry *void* for translation-fidelity (5 confounds) | **Y** | strong; survived independent validation |

@@ -17,7 +17,12 @@
    (`git log -1 --format=%h -- AGENT.md` vs recorded; shims `CLAUDE.md GEMINI.md` in the watch set).
    **Mismatch → notify the Operator what changed in the operating baseline, then refresh the baseline
    line.** Match → silent (lightest anchor).
-5. Take the **NBA** at the bottom.
+5. **Load the theory-pipeline** *(→ `dialectic/theory-pipeline.yaml`)* — the formal store of experimental
+   candidates + their independence-coverage state. **Read it at resume** (intake rots if not reloaded —
+   Item-I). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
+   dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
+   Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
+6. Take the **NBA** at the bottom.
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
 > `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat*. Update this line

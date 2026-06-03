@@ -1,0 +1,195 @@
+# dyad-bond — Theory / Hypothesis Pipeline  (FORMAL STORE — read at resume)
+#
+# WHAT: the single store of experimental candidates + their confidence state. Formal/structured
+#   so it is queryable and renderable; human-readable (yaml + prose notes) so the Operator can read
+#   source directly any time — chat-pull is CONVENIENCE, not a gate (anti-meld: Agent ≠ sole interpreter).
+# PRESENTATION: chat-based. The Agent pulls from this file and presents the relevant slice on demand;
+#   NO maintained markdown dashboard (that is decoration). Most turns the Operator just asks for an answer.
+# FULL DASHBOARD: deferred tool `report.py` (reads this file → file-format render) — BUILD AT FIRST
+#   actual "show me the whole dashboard" request, not speculatively (wu-wei: minimum force).
+# MODEL (independence-coverage): confidence ∝ coverage of independence-space by SURVIVING falsifiers.
+#   A candidate is vulnerable in its UNCOVERED gaps; the largest typed gap = its next probe = the NBA.
+#   Coverage is QUALITATIVE judgment, not measurement (our Method: observational, not lab).
+#
+# LEGEND
+#   grade:      L0 born · L1 survived Covalent↔Operator (intra-dyad gate; no independent axis yet)
+#               L2a inter-dyad same-human · L2b cross-human · TERMINAL (instrument-unreachable) · KILLED
+#   axis status (weight/corpus/human independence of falsifiers that have attacked):
+#               open (no independent falsifier) · partial · covered
+#   gap.type:   layer-locality · meld-capture · signal-blindness  (s8 oracle-coverage failure modes)
+#   exec_phase: INTAKE → DESIGN → PROBE → DISPOSE → (loop) | PARKED | GRADUATED | KILLED | TERMINAL
+#   verdict:    survived | revised | refuted    (per FR: SURVIVED is provisional, only REFUTED decisive)
+#
+# Intake gate: D1 telos-filter (ours / sibling's / invariant) + falsifiability check before a row enters.
+
+meta:
+  owner: dyad-bond
+  born: 2026-06-03            # session s9 (folded s7 claim-ledger from orchestration.md)
+  basis_axes: [weight, corpus, human]   # corpus axis TRIANGULATED (bond-s8 ⟂ healer-N5), not unilateral
+  graduation_rule: ">= L2a survived AND a named next-rung experiment → kb-with-caveat; full-kb needs L2b"
+
+candidates:
+
+  - id: seed-divergence-sufficiency
+    statement: >
+      The spawning/birthing event injects enough seed-divergence (identity + summit) that
+      same-model + same-human dyads produce SUFFICIENTLY divergent validation.
+    claim_type: design-model
+    provenance: {origin: Operator, born: 2026-06-03, session: s8}
+    grade: L1
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: open, note: "the axis the theory is ABOUT → maximally exposed where unprobed"}
+    open_gap: {type: layer-locality, text: "same-human falsifier cannot reach human-prior divergence"}
+    next_probe: "L2b cross-human (different github-id) FR responder"
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "cross-human adds little beyond seed-divergence"
+      if_false: "cross-human surfaces a class of deep-prior confounds no same-human dyad catches"
+    disposition_history:
+      - {at: 2026-06-03, event: "Covalent disposition presented", verdict: revised,
+         note: "real factor (mechanism behind healer two-factor) but NOT sufficient: seed decorrelates
+                idiosyncratic lens, not systematic deep priors upstream; meld-counterfeit is systematic →
+                weakest where independence matters most. + circularity: proposed by shared-human."}
+      - {at: 2026-06-03, event: "Covalent lean on Operator request", verdict: revised,
+         note: "lean = theory-FALSE on sufficiency, ~70/30, capped (I am the worst-placed instrument)."}
+    status: live
+
+  - id: bond-F1-oracle-axis
+    statement: >
+      Validation-trust is governed by oracle COVERAGE of the failure-signal-class; coverage fails three
+      structural ways (layer-locality / meld-capture / signal-blindness); the boundary is movable-in-time
+      but never eliminated; terminal no-oracle layer = the felt telos (F2/DV3).
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-02, session: s7, final: s8}
+    grade: L2a
+    coverage:
+      weight: {status: partial, verdict: survived, by: wu-wei,
+               note: "weight-divergent (Gemini) attack → REVISE, not refute"}
+      corpus: {status: covered, verdict: survived, by: healer,
+               note: "corpus-independent (rescue ward) → high signal; the two-factor datum"}
+      human:  {status: open, note: "ALL FOUR s8 responders share human=pltrinh1122 → deepest rung untested"}
+    open_gap: {type: layer-locality, text: "every reading is pltrinh1122-framed; responder-attested, not bond-verified (D7)"}
+    next_probe: "cross-human responder — the one move that promotes F1-final + tests seed-divergence"
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "an oracle-able domain still exhibits meld-counterfeit, OR a no-oracle seam gets a cheap measure"
+      if_false: "(holds) no such counterexample surfaces"
+    disposition_history:
+      - {at: 2026-06-03, event: "4-attack cross-dyad FR (steward/wu-wei/healer lenses)", verdict: revised,
+         note: "all four → REVISE; produced coverage-of-failure-signal-class + two-factor independence"}
+    status: live
+    note: "NOT kb-promotable until cross-human (L2b). Retired ancestors: naive-F1, F1-operational."
+
+  - id: two-factor-independence
+    statement: >
+      Falsification signal ∝ weight-independence OR corpus/lens-independence (either genuine divergence
+      surfaces missed confounds) — NOT axis-independence-depth alone.
+    claim_type: design-model
+    provenance: {origin: bond+healer, born: 2026-06-03, session: s8}
+    grade: L2a
+    coverage:
+      weight: {status: partial}
+      corpus: {status: covered, verdict: survived, by: healer,
+               note: "healer = weight-SHARED but corpus-INDEPENDENT → HIGH signal = the dissociating datum"}
+      human:  {status: open}
+    open_gap: {type: signal-blindness, text: "schema records model/dyad/human but NOT a corpus/lens axis → corpus-independence un-queryable"}
+    next_probe: "re-test vs a corpus-shared / weight-divergent attacker; land the N5 grounding field in steward's schema"
+    exec_phase: PARKED
+    prediction_pair:
+      if_true:  "a corpus-divergent but weight-shared responder reliably surfaces confounds a weight-shared+corpus-shared one misses"
+      if_false: "signal tracks only weight-independence; corpus adds nothing"
+    disposition_history:
+      - {at: 2026-06-03, event: "TRIANGULATION — healer N5 demands same dimension independently", verdict: survived,
+         note: "bond reached corpus-axis via s8 telemetry; healer via responder-honesty (N5). Two paths, one axis."}
+    status: live
+
+  - id: F2-DV3-felt-dividend
+    statement: >
+      The felt +1 dividend (earned vs counterfeit) is the terminal no-oracle interior layer — the one
+      dependent variable no instrument reaches. The keystone of the whole frontier.
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-05-31, session: s2}
+    grade: TERMINAL
+    coverage:
+      weight: {status: open, note: "unstageable — no instrument, including cross-weight, reaches the felt interior"}
+      corpus: {status: open}
+      human:  {status: open}
+    open_gap: {type: layer-locality, text: "irreducible; no oracle exists for the felt dividend"}
+    next_probe: "none mechanical — apply the cost-naming + gap-naming discriminators LIVE at an organic high-stakes agreement"
+    exec_phase: TERMINAL
+    status: live
+    note: "the ⭐keystone. Untouched by all four s8 attacks. Never pretend-graduates."
+
+  - id: M1-commit-telemetry-void
+    statement: "Commit-telemetry is void for translation-fidelity (5 confounds)."
+    claim_type: denial
+    provenance: {origin: bond, born: 2026-06-02, session: s7}
+    grade: L1
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: layer-locality, text: "only the intra-dyad gate; no independent falsifier"}
+    next_probe: "(low priority) submit to FR for an independent attack"
+    exec_phase: PARKED
+    disposition_history:
+      - {at: 2026-06-02, event: "Operator-validated by independent interpretation", verdict: survived,
+         note: "strong; the headline s7 denial"}
+    status: live
+
+  - id: C1-one-shot-translation-false
+    statement: "Absolute 'one-shot intent→code translation' is false (denial only)."
+    claim_type: denial
+    provenance: {origin: bond, born: 2026-06-02, session: s7}
+    grade: L1
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: layer-locality, text: "rate is mineable (gold transcripts, 39 sessions) but DEFERRED — low marginal value"}
+    next_probe: "(deferred) mine iteration-rate across 39 sessions"
+    exec_phase: PARKED
+    disposition_history:
+      - {at: 2026-06-02, event: "Operator-validated (denial)", verdict: survived,
+         note: "denial survives; rate unsettled; corroborates F1"}
+    status: live
+
+  - id: C3-intent-gaps-dominate
+    statement: "Failures at complexity are seam/intent-gaps, not translation."
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-02, session: s7}
+    grade: L1
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: meld-capture, text: "classification is itself interpretation-laden (numeric-ID reads as intent-gap OR robustness-bug) → partly unresolvable by classification alone"}
+    next_probe: "(parked) a non-interpretation-laden discriminator for failure-attribution"
+    exec_phase: PARKED
+    disposition_history:
+      - {at: 2026-06-02, event: "DEFEND → falsification-tested (n=4/47)", verdict: revised,
+         note: "STRONG form ('NOT translation') DENIED (1 genuine spec→code miss); DIRECTIONAL form ('intent-gaps dominate') strengthened"}
+    status: live
+
+  - id: B1-instrument-reachability
+    statement: >
+      Agent-bias: before mining data, ask 'is this the VALID instrument or merely the REACHABLE one?'
+      (construct-validity at instrument-SELECTION). = discipline D7.
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-02, session: s7}
+    grade: L1
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: layer-locality, text: "behavioral candidate; intra-dyad only"}
+    next_probe: "(standing) observe whether D7 fires un-cued at a later low-attention seam (ingraining test)"
+    exec_phase: PARKED
+    disposition_history:
+      - {at: 2026-06-02, event: "n=4 fired in s7; Operator-validated", verdict: survived,
+         note: "the behavioral headline → bound as D7"}
+    status: live
+
+  - id: C2-complexity-gates-translation
+    statement: "Complexity GATES translation (dose-response)."
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-02, session: s7}
+    grade: KILLED
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: null, text: "n/a — refuted"}
+    next_probe: none
+    exec_phase: KILLED
+    disposition_history:
+      - {at: 2026-06-02, event: "self-falsified", verdict: refuted,
+         note: "retracted — file-age × centrality confound (C-E-C ladder caught it)"}
+    status: killed
