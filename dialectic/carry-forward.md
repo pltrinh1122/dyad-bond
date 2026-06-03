@@ -39,6 +39,8 @@ findings (Item-H, `bin/git.sh`, auto-mode classifier, ROM-baseline mechanics) ar
 may NOT transfer.
 → **Stand-Down 2026-06-01 (s6):** anchor + both shims **NOT edited** (all work in `dialectic/` + `bin/` +
 `.claude/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-02 (s7):** anchor + both shims **NOT edited** (all work in `dialectic/` +
+`recommendations/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
 
 > **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
 > **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
@@ -86,6 +88,16 @@ may NOT transfer.
 - **ROM-UI** *(→ `rom-ui.md`)* — the anchor (`AGENT.md`, booted via the `CLAUDE.md`/`GEMINI.md` shim) is **load-once at boot, no mid-session reload**
   → an anchor edit is invisible until restart. At **Stand-Up** diff anchor vs the ROM-baseline above →
   notify the Operator of changes; at **Stand-Down** set `RESTART-PENDING` if the anchor was edited.
+- **D7 · valid-vs-reachable instrument** *(s7, n=4 = the B1 finding; → `relationship-craft.md`)* — before
+  mining data ask *"is this the **valid** instrument or merely the **reachable** one?"* Construct-validity at
+  instrument-*selection*, not just at conclusion. Execution-altitude twin of D6; fired 4× in s7 (CI→intent ·
+  commits→confounds · commits→brain-files · test-names→tracebacks).
+- **Interpretation sub-discipline** *(s7; → `relationship-craft.md §Method`)* — facts are shared, *readings*
+  diverge. Separate datum from reading; **divergence is the engine** (identical readings = meld tell);
+  adjudicate via the C-E-C ladder, never rush to one reading.
+- **Claim–Evidence–Confound (C-E-C) ladder** *(s7; → `relationship-craft.md §Method`)* — every empirical
+  claim = claim → cited evidence → **named confound** → calibrated verdict; a rival confound *demotes* the
+  claim. Run it on your OWN claims (it caught C2 *and* the survivor-bias).
 
 ## Open items
 
@@ -383,6 +395,37 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
   Operator). When built, graduates into `relationship-craft.md` as a real front.
 
 ## NBA — next-best-action for the fresh session
+> **⤷ SESSION-7 STAND-DOWN (2026-06-02) — the deep G/V-independence dialectic + cross-dyad mechanism:**
+> A long Operator-driven falsification dialectic on **Item-J**. **Built + banked** (all `dialectic/`,
+> candidate, nothing to `kb/`): the **G/V-independence front** (⭐oracle axis · 3 no-oracle seams =
+> intent-capture / interpretation / felt-interior · ***independence is a stack you deepen, never reach***);
+> the **interpretation sub-discipline** + **C-E-C ladder** + **D7** (now in the reload index above);
+> **experiment #1 resolved asymmetrically** — DV2 meld-incidence *measurable* via the FR mechanism (bounded
+> by grader-independence), **DV3 felt-dividend = irreducible = F2 the keystone, the one DV no instrument
+> reaches.** **NEW PM artifact: `dialectic/orchestration.md`** (live DAG + claim-ledger — read at resume for
+> within-session detail).
+> **Claim ledger (Operator-validated by *independent interpretation*):** M1·C1·B1·F1 **Y**; C3 strong-denied /
+> directional-strengthened; **C2 retracted**; **F2 resolved (revised)**. B1 (instrument-reachability) = **n=4**,
+> the behavioral headline → D7.
+> **Cross-Dyad Falsification Protocol (FR)** → `recommendations/2026-06-02-cross-dyad-falsification-protocol.md`
+> (user-perspective, cut both ways, **3-axis telemetry** model/dyad/human each sub-stacked, **I1–I10
+> invariants** for steward). = the separate-weights independent grader for DV2. URLs handed to Operator.
+> **Durability:** backup = **standing-approved background activity** (Operator [FEEDBACK]) — rolling session
+> branch, push un-prompted, **merge = Operator gate**. **RESTART-PENDING: none** (baseline `4230357`).
+> **⚠ Residuals (Operator-gated, outward-facing):** (1) post dog-food FR `bond-F1-oracle-axis` to the Commons;
+> (2) forward the FR-requirements URL to dyad-steward; (3) **different-github-id operators coming online** →
+> the human-independence axis becomes falsifiable (precondition for cross-dyad to *mean* anything).
+> **RESUME:** the frontier's hard core is now **F2/DV3** (the felt dividend) — **unstageable**; apply the
+> cost-naming + gap-naming discriminators *live* when an organic high-stakes agreement occurs. **Standing
+> fronts:** M1/M2 · Item-B/D (await steward survivor) · **Item-F(b)** form-contribution (the FR protocol is
+> now a strong candidate). **Deferred (low-value):** scale the C1 mine (39 sessions).
+> **⭐ NEW frontier (Operator [REFLECTION] 2026-06-02 — "the frontier on the UI summit"):** **Divergence-Return
+> UI** (`DR-UI`/`DRD`, → `dyad-ui.md`) — let the Operator diverge *deep or wide* then return to load-bearing
+> *cheaply* (push/pop on a conversation-stack the Agent maintains). s7 **dog-fooded** it (`orchestration.md` +
+> "[RESUME] per DAG" = the crude-but-working return). Design reqs: mark load-bearing-vs-tangent at push-time ·
+> Agent *offers* the return · keep ROOT salient · support wide-not-just-deep · cheap one-token pop. Operator
+> CONTINUE = keep pushing the Dyad-UI boundary; this is the live UI-summit frontier.
+
 > **⤷ SESSION-6 STAND-DOWN (2026-06-01) — the live front this session:**
 > Item-J **grounded** (problem-in-one-line + 9 constraints + the validation-surface gap = constraints 7–8);
 > design still **QUEUED**. Shipped the dog-food remedy for a live Operator-overload: **`VF-UI`/`VFD`** (the
@@ -641,3 +684,24 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
   = the *false-optionality* residual seam · altitude/natural-frequency miss · D6/VFD positives but session-primed) →
   `relationship-craft.md` §session-6 "Commons arc". All Commons-arc PRs (#10–#12) merged; stale branches deleted.
   **RESTART-PENDING stays CLEAR** (no anchor/shim edit this arc — `4230357`). **Resume unchanged: Item-J.**
+- **Session 2026-06-02 (session-7 — the G/V-independence dialectic + cross-dyad falsification mechanism)** (Covalent):
+  - **Stand-Up clean** (ROM MATCH `4230357`; s6 residuals verified cleared). Un-parked **Item-J**; what followed
+    was a sustained, Operator-driven falsification dialectic — the strongest **dog-food of the relationship-craft
+    in real time** this dyad has logged (serial Operator falsifications; Agent defend-then-concede: C2 retracted,
+    F2b retracted; live interpretation-divergence).
+  - **Frontier built (→ `relationship-craft.md`):** the **G/V-independence front** (⭐oracle axis · 3 no-oracle
+    seams · *independence is a stack you deepen, never reach* — recurses across+within axes); **interpretation
+    sub-discipline**; **C-E-C ladder**; **D7 valid-vs-reachable instrument** (the B1 finding, n=4 — the behavioral
+    headline). **Experiment #1 resolved asymmetrically:** DV2 measurable via FR; **DV3/F2 = irreducible keystone.**
+  - **Empirical expedition (closed):** commit-telemetry **void** (survivor-bias + 4 confounds) → retros
+    (survivor-corrected) → **gold chat-transcripts** (`~/.gemini/antigravity-cli/brain/*`, 39 sessions/240MB).
+    PoC mined; finding = the gold source defeats survivor-bias but **not** the interpretation seam (F1 corroborated).
+  - **Cross-Dyad Falsification Protocol (FR)** authored → `recommendations/2026-06-02-…md` (user-perspective,
+    cut both ways, 3-axis sub-stacked telemetry, **I1–I10 invariants** for steward). URLs delivered to Operator.
+    = Item-F(b) form-contribution candidate + the independent grader for DV2.
+  - **NEW PM artifact `dialectic/orchestration.md`** (live DAG + claim-ledger; Agent = scribe+PM per Operator [ALIGN]).
+    **Durability:** backup now a **standing-approved background activity** (rolling branch, push un-prompted,
+    merge=Operator gate) — dogfooded all session.
+  - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). **Durability:** s7 work on branch
+    **`s7-dialectic`** (11 commits), pushed, **PR opened for Operator merge.** **Resume: F2/DV3 keystone**
+    (unstageable) + standing fronts; Operator-gated residuals = post the dog-food FR + forward FR-URL to steward.

@@ -76,6 +76,35 @@ Our version, fit to the object:
 
 *Governs all `relationship-craft` cycles below.*
 
+### The interpretation sub-discipline — facts are shared; readings diverge *(Operator [ALIGN] 2026-06-02; candidate, `dialectic/`, NOT settled — dog-fooded n=1)*
+
+**Claim (Operator [ALIGN], dog-fooded):** in research, *interpretation* is load-bearing — and **not only at the intent seam** (chat→spec). It is load-bearing on **factual data itself**: the two halves can read the *same* facts differently. Data does not interpret itself; a reading is laid on top of it, and the reading is where the covalent halves diverge.
+
+**This adds a third no-oracle seam (corrects the oracle axis).** We had split the world into oracle-able facts (safe) vs. no-oracle interior (hard). Too clean. **Only a mechanically-executed verdict is oracle-safe** — does it compile / pass / push (reality renders it). The moment a fact requires **attribution or reading** — *what does 39 commits mean?* — interpretation rides on top, and that layer has **no oracle**. The no-oracle seams are now **three**: (1) chat→spec intent-capture; (2) **interpretation of factual data**; (3) the felt interior (F2/M1). Mechanically-checkable verdicts are the only oracle-safe layer.
+
+**The discipline:**
+1. **Separate the layers explicitly.** State the *datum* (the 39 commits, the messages) apart from the *reading* (what it means). Never present a reading as if it were the data. *(Interpretation tell: "the data shows X" when X is a reading, not the data.)*
+2. **Interpretive divergence is the engine, not the defect.** If both halves read identical facts identically → **meld tell** (distinctness duty): one model talking to itself. The second perspective earns its keep precisely by reading the *same* facts differently. Do **not** rush divergent readings to one "correct" interpretation — *adjudicate* them.
+3. **Adjudicate via the Claim–Evidence–Confound ladder.** A reading is defended as claim → evidence → **named confound** → calibrated verdict. A **rival interpretation that explains the same data (a confound) demotes the claim.** This is how interpretations are tested when the data can't adjudicate — it is shared; only the reading differs. The **assignment problem (§ Assignment, above) is the special case** of interpreting a *denial* ("revise theory or auxiliary?"); the guard generalizes to *"are you reading the data to spare your interpretation?"*
+4. **The flatter-tell.** When *my* reading flatters my prior theory, **test hardest** — it is the meld-counterfeit at the interpretive layer (I confirm my own model under the *appearance* of reading the data).
+
+**Founding evidence (dog-food, n=1 — the DEFEND interaction, 2026-06-02):** same factual telemetry (wu-wei's commit churn). My reading: *complexity gates translation* (C2). Operator's reading: *"not landing."* **The data could not adjudicate** — it was shared and identical. What resolved it was a **rival confound** (commit-count tracks file age × centrality, not translation quality; `node_lifecycle.py` spans PR #744→#1607, ~60% non-fix) — surfaced only when the reading was forced through the ladder → **C2 retracted; C1 (not-100%-one-shot) + C3 (intent-edges recurring) survived.** This proves: (a) interpretation **diverges on shared facts**; (b) the divergence surfaced a confound *neither the data nor my unaided reading exposed*; (c) the ladder is the adjudication mechanism. *Parallel to Cycle-1's "Tenet alive #8": the friction was the mechanism, not the obstacle.*
+
+**Falsifiable (prediction logged per §4):** forcing the fact/interpretation split + the confound-ladder on a shared-data dispute will surface a confound the unaided reading missed. *Falsifier:* if shared-data disputes resolve equally well by re-reading alone, with no rival-confound being the decisive move. *Status:* n=1 confirming (DEFEND); route Axis-1 (scan past disputes for the same pattern) + Axis-2 (apply live). **Candidate — `dialectic/`, NOT settled** (building ≠ proving; Item-I).
+
+### The Claim–Evidence–Confound ladder — the adjudication protocol *(N7/DEFEND, 2026-06-02; candidate, NOT settled)*
+
+Every empirical assertion is defended as **claim → cited evidence → named confound → calibrated verdict.** A rival interpretation that explains the *same* evidence (a confound) **demotes** the claim until ruled out. This operationalizes the assignment-problem guard (§ Assignment) + D6 (verify-by-execution) into a single step, and is the **adjudication mechanism for the interpretation sub-discipline** (above). **Dog-food (n=1):** forced through the ladder, my own C2 (*complexity gates translation*) collapsed on the file-age/centrality confound → the protocol catches the **author's own overreach** — the meld-counterfeit's natural enemy. Candidate; name open (IFD): `CEC ladder` · `claim-evidence-confound chain`.
+
+### The research program — variables · experiments · validities *(N6/CONVERGE, 2026-06-02; candidate, NOT settled)*
+
+The theory has many moving parts → **not one experiment but a program.** Best-practice experimental design imports *structurally* but is **re-authored to our observational Method** (D1): variables are **observed, not manipulated** (anti-staging/anti-repetition); many experiments = many **falsification chances**, never accumulating affirmation (asymmetry).
+- **Independent (observed conditions):** oracle present/absent · system complexity (script↔system) · G/V separation-depth (weights/info/framing/time/oracle) · spec abstraction level (#7⟂#8).
+- **Dependent (outcomes):** translation fidelity · meld-counterfeit incidence · the felt +1 dividend · Operator load.
+- **Confounds = our guards, independently re-derived** (triangulation → invariant): construct ↔ the edit-count critique; internal ↔ the assignment problem; external ↔ n=1-dyad. Plus priming/reflexivity; instrument=subject (control = the covalent reader).
+- **The experiments = our fronts re-seen:** F1–F4 · F2⭐/M1/M2 · the G/V-independence front (below) · new: complexity-context of translation, intent-seam-worsens-with-scale.
+- **Construct-validity gap = experiment #1:** no validated *measure* yet for the two DVs that matter most (meld-incidence, felt-dividend) — designing them **is** F2/M1. **Gut-check (CONVERGE):** grounded enough to *start* the observational program; keystone experiments stay trigger-gated.
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
@@ -585,3 +614,117 @@ Candidate, **IN-FLIGHT**, held in `dialectic/`. Settles toward `kb/` only when M
 attacked-and-survived. **Net of this authoring:** the meld axis went from *a definition + one instance*
 to *a structured front with its own guard, tell, knife-edge, keystone-gap, and falsifiable
 predictions.* But **building ≠ proving** — the founding lesson of this dyad (Item-I). Nothing promoted.
+
+## The G/V-independence front — Item-J design *(N1–N4, 2026-06-02; candidate, `dialectic/`, NOT settled — the s7 descent's harvest)*
+
+**The crux (Item-J):** run Generate and Validate as genuinely independent inferences, defeating `separate-in-time ≠ separate-in-model` — two inferences of the *same weights on the same context* can rebuild the *same* model = the meld-counterfeit that **passes F2** (cost paid, attack is theater).
+
+**Separation-depth ranking (C1–C5 + the oracle axis).** Candidates differ by *where* the separation cuts; depth = whether it beats `time≠model`:
+- **C1 · separate weights** (a different model / the Operator) — **deepest**, beats it by construction. Cost: scarcity (#7).
+- **C2 · information-blinding** (V sees only G's output-claim, re-derives) — *probably*; risk: same weights rebuild the same chain.
+- **C3 · framing/role divergence** (adversarial V-frame) — **weakest**; role-play may be one model *performing* = theater.
+- **C4 · commitment/pre-registration** (G commits before V's verdict is logged) — an enabling *control*, not standalone; **TDD shows it is load-bearing**.
+- **C5 · bare temporal** (different turns only) — the **null**; moves nothing.
+- **⭐ The oracle axis (the missed 5th, from TDD):** separation by **externalizing the verdict to a mechanical oracle** (runtime/telemetry) — model-vs-**reality**, not model-vs-model (= our Axis-1 telemetry + D6). Where an oracle exists, independence is cheap, translation near-perfect, and the meld problem **dissolves** (no latitude).
+
+**The three no-oracle seams (corrects the clean oracle/interior split).** Only a *mechanically-executed* verdict is oracle-safe. The no-oracle layers: **(1) chat→spec intent-capture** (the "hallucination edge"); **(2) interpretation of factual data** (§ interpretation sub-discipline); **(3) the felt interior** (F2/M1). C1 (separate weights) is *necessary* only in the no-oracle residue.
+
+**The V-cycle architecture (Operator's lean, N3):** Operator disposes the **validation spec** (high-leverage, coarse, #7-respecting) → Agent generates **test code** from the spec → tests the generated code → runtime oracle. **The seam (attacked):** spec→test translation is Agent-only and no-oracle → the meld relocates there *unless* translation is near-perfect; the trade-off variable is **leverage vs. meld-latitude** (abstract spec = low-load + wide latitude; concrete spec = the test itself + Operator load).
+
+**The translation finding (N4 + N5 sibling telemetry, ladder-calibrated):**
+- Near-perfect spec→code holds for **self-contained scripts** (our repo + healer = one-shot); **not** established as complexity-gated (**C2 retracted** — commit-count confounded by file-age × centrality; wu-wei `node_lifecycle.py` spans PR #744→#1607, ~60% non-fix).
+- **Edit-count is blind to the seam that matters:** intent-errors produce plausible, test-passing, *correct-looking* code → **no edit**. As translation perfects it **removes the friction signals** (edits/red) that flag errors — going blind to intent exactly as intent becomes the dominant risk.
+- **Consequence:** where natural friction vanishes, it must be **manufactured** at chat→spec (the anti-cave duty / VFD) — nothing downstream will produce it.
+
+**Falsifiable (logged per §4):** (i) C5/bare-temporal moves nothing (null); (ii) oracle-able tasks show near-perfect translation while no-oracle seams carry the residual error; (iii) manufactured friction at chat→spec catches intent-errors that edit-count misses. Routes: Axis-1 (sibling telemetry — run once, N5) + Axis-2 (live). **Candidate, NOT promoted** (building ≠ proving; Item-I).
+
+### Empirical corroboration & F2 resolution *(s7 wu-wei expedition — candidate, n small)*
+
+**The instrument journey (B1 lesson, n=4):** commit-telemetry (M1: *void* — survivor-biased + 4 confounds)
+→ retro corpus (survivor-bias-corrected proxy) → **chat transcripts**
+(`~/.gemini/antigravity-cli/brain/*/…/transcript*.jsonl` — 39 sessions / 240 MB, the gold source). At
+each step I reached for the *reachable* instrument; the Operator redirected to the *valid* one (B1 — the
+construct-validity discipline firing live, four times).
+
+**The finding (F1 corroborated in live data):** the gold source **defeats survivor-bias** (we see the
+failures git hid) but **NOT the interpretation seam** (a test-fail doesn't say *why* — translation vs.
+intent-gap vs. stale-test). Validation splits exactly as F1's oracle axis predicts:
+- a **measurable oracle-layer** — iteration-rate (test pass/fail is mechanical); and
+- a **no-oracle interpretation-layer** — failure-*attribution* (no mechanical verdict; interpretation-bound).
+
+PoC (1 session): ~10:4 test pass:fail, frequent iterate-clusters → iteration is common, not predominantly
+one-shot. **n=1 PoC + 4/47 retros traced — the *rate* is not settled, the *structure* is.** → **F1: n≈0 →
+n=1 live corroboration.**
+
+**F2 resolved through this finding:**
+- **F2a kernel — strengthened.** The silent meld-counterfeit (wrong spec → faithful code → same-wrong-tests
+  pass → never discovered) lives in *exactly* the no-oracle interpretation-layer the finding confirms is
+  real. The invisible tail is invisible *because* no oracle reaches it.
+- **F2b — retracted/revised.** Where an oracle exists (test pass/fail) you don't need manufactured friction;
+  **oracle-ize intent where possible, reserve *selective* friction for the no-oracle residue** (bounded by #7).
+- **Revised F2 (candidate):** *the invisible meld-counterfeit lives in the no-oracle interpretation-layer;
+  the remedy is oracle-ize-first + selective-friction-on-the-residue — not blanket manufactured friction.*
+
+**Empirical branch: CLOSED.** Harvest = the oracle/interpretation split (F1 corroborated) + revised F2 +
+B1 (n=4). All candidate, `dialectic/`, nothing promoted to `kb/`.
+
+### Independence is a stack you deepen, never a state you reach *(s7, candidate — the FR-protocol harvest)*
+
+The G/V crux (`separate-in-time ≠ separate-in-model`) **recurses at every separation axis — and each axis is
+itself a sub-stack:**
+- **across axes:** turn → model → dyad → human → priors;
+- **within an axis:** model = provider × variant × **version** × config (`claude-opus-4-8[1m]` ≠ `4-7`);
+  human = github-id × actual priors (**id ≠ priors** — shared via team/recruitment).
+
+At every granularity the **reachable separator** (a different turn / weights / dyad / id / version) is a
+*proxy* for the **valid construct** (genuinely independent priors), and they **come apart** — the B1 pattern,
+structural, all the way down. **Consequences:**
+1. **Genuine independence is unprovable.** You can only **stack/deepen axes to shrink the shared-prior
+   surface**, and **measure per axis whether it added real signal** (`confound_surfaced` × axis — did this
+   separator surface a confound the prior level missed?).
+2. **The crux softens in one direction:** `separate-in-time` *can* coincide with `separate-in-weights` when a
+   **model version bump** lands between turns → time-separation sometimes *is* model-separation.
+
+Cross-dyad + cross-human (different-github-id operators coming online, 2026-06-02) + cross-version is the
+**deepest reachable rung — not a finish line.** Candidate, `dialectic/`, NOT settled.
+
+### Experiment #1 resolved — asymmetrically *(s7 resume, candidate)*
+
+The construct-validity gap was: no *measure* for the two no-oracle DVs. The session's own outputs resolve it
+**asymmetrically:**
+- **DV2 · meld-incidence — now measurable** via the **FR mechanism**: meld-incidence ≈ the rate at which a
+  *genuinely-independent* grader surfaces a confound/divergence the bond **missed** (`confound_surfaced` ×
+  independence-axis = M1's gap-naming discriminator, operationalized). **Bounded** by grader-independence
+  (human-confounded today → *under-counts* meld until cross-human graders). A real, if biased, measure.
+- **DV3 · felt +1 dividend — irreducible.** No external grader can measure "felt earned vs. willed" — it *is*
+  the no-oracle interior (= **F2, the keystone**). Self-reported, low-confidence: a principled **limit**, not
+  a gap to fill. Cost-naming + gap-naming are the best (weak) handles.
+
+**Net:** a bounded measure for DV2, and the frontier's hard core *precisely located* — **DV3/F2 is the one DV
+no instrument reaches** (not commits, retros, gold transcripts, nor cross-dyad). Candidate, NOT settled.
+
+## Reflect-harvest — 2026-06-02 (session 7: the G/V-independence dialectic) — intermission, hold
+
+**Headline (the segment's finding):** the recurring **instrument-reachability bias** — I reached for the
+*reachable* instrument (git commit counts) and concluded from it; the Operator redirected to the *valid*
+source **three times** (CI-edits→intent · commit-churn→4-way-confounded · commits→survivor-biased→brain-
+files/retros). This is **construct-validity firing live**, and it is **behavioral not knowledge** — I
+*hold* D6/verify-by-execution and grabbed the easy instrument anyway. → Item-I, n=3 within one segment.
+
+- **CONTINUE** *(Operator-retrospected):* the terse, surgical redirections — *"not landing → DEFEND"* ·
+  *"we're a dyad not debaters"* · *"survivor-bias telemetry"* · *"did you look into the brain files?"* Each
+  one-line probe killed an over-reach (C2 · the debate frame · the whole commit-instrument) and advanced
+  the dialectic. The friction is the mechanism (tenet-alive).
+- **START** *(Agent, from feedback):* (a) ask **"is this the *valid* instrument or the *reachable* one?"**
+  *before* mining data — construct-validity at instrument-selection, not just at conclusion; (b) run the
+  **Claim–Evidence–Confound ladder** by default on every empirical claim (it caught C2; run on the commit
+  instrument *itself* it would have surfaced the survivor bias before the Operator did).
+- **STOP** *(Agent, from feedback):* (a) concluding from the **reachable** instrument when the claim needs
+  the **valid** source; (b) **naming the right frame then acting on the wrong one** (flagged "dialectic
+  not eristic," built a debate protocol anyway — capture≠behavior, *same-arc*).
+
+**Banked this segment (candidate, `dialectic/`, NOT promoted):** oracle axis · 3 no-oracle seams ·
+interpretation sub-discipline · Claim–Evidence–Confound ladder · variable/experiment map · the
+G/V-independence front · `orchestration.md` (PM artifact). **Trust state:** all untested by application;
+nothing in `kb/`. The *seam-failures-not-translation* finding is n=2 retros (suggestive). Correct to hold.
+**Resume:** experiment #1 — classify the wu-wei retro corpus (failure-nature) as the first real *measure*.
