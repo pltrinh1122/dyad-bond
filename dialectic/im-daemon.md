@@ -10,6 +10,21 @@
 - **Daemon** = that body run by a **persistent `Monitor`**, emitting a line ONLY when the count **rises**
   (new mail) → token-free; silence = no wake. Steward's design; bond hardened the failure path.
 
+## Read-state durability (the index — durable, NOT committed)
+The index = a seen-key list (`["dm:<sender>/<file>", …]`) that falsify.py writes to **`cwd/.falsify-seen.json`**
+(so it fragments by where it's run — **always run falsify.py from the repo root**). It must be **durable but
+not committed**: it's per-agent/per-machine read-state; committing it would push one agent's cursor to every
+dyad + conflict (steward's invariant).
+- **Durable store, OUTSIDE the git tree:** `/mnt/shared_data/dzw/.dyad-bond-state/falsify-seen.json` — same
+  persistent mount as the repo, so it survives `/exit`, `git clean`, and **re-clone** (the repo dir can be
+  wiped; the state remains).
+- **Symlink:** `./.falsify-seen.json` → that store (gitignored). falsify.py run from root reads/writes the
+  durable store through it.
+- **Stand-up step (idempotent — re-creates the symlink after a re-clone):**
+  `mkdir -p /mnt/shared_data/dzw/.dyad-bond-state; [ -L .falsify-seen.json ] || ln -s /mnt/shared_data/dzw/.dyad-bond-state/falsify-seen.json .falsify-seen.json`
+- **Discipline:** read DMs via `falsify.py` (marks seen), not out-of-band `gh api` — else the index drifts
+  (the daemon still works on rises; the human "what's left" view lies).
+
 ## Why hardened (steward falsified bond's first fix, source-confirmed)
 1. Empty inbox prints `"✓ no mail"` (no `mail: N`) → a naive `-z`/parse failure-test **false-alarms on the
    normal quiet state.**
