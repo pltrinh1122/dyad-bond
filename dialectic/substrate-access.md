@@ -27,6 +27,21 @@
 >   `bin/git.sh` is the **choke-point**, not a gate-on-the-Agent. *Sharing (Agent pushes branches), never
 >   transfer (Operator alone admits to `main`).*
 
+> ## ✅ SUPERSEDED — direct-to-main + standing durability authority (s9, 2026-06-03)
+> *The "branch + PR; we do not push `main`" posture above is **superseded for durability**; read it as
+> the historical reasoning, not the live posture. What changed in s9:*
+>
+> - **Branch ceremony RETIRED** (`f0b003c`, `4071ddc`): dialectic + dm commit **direct to `main`** — no
+>   per-session branch, no per-change PR. The git log is the record.
+> - **Off-computer backup/durability is a STANDING Operator disposition — the Agent's to exercise WITHOUT
+>   re-asking.** Commit + `bin/git.sh push` for durability run un-prompted, as a background activity (s7
+>   standing-backup disposition). **Do not surface a push/commit-for-durability as a CTA or "your call"** —
+>   that is the **abdication** mis-anchor (D4: *"your move" = abdication*), the mirror of the over-CTA seam.
+>   A durability-push is **mechanics, not covalent content-gating** — lightest anchor, just do it.
+> - **The covalent gate still stands — it scopes to CONTENT, not mechanics:** what *claims/syntheses* enter
+>   the shared model (responses, dispositions, merges-of-others'-work) = the Operator's gate. Moving bytes
+>   off-machine for safety is not that. *(Repeatedly mis-conflated → this note exists to stop the relapse.)*
+
 ## The problem — trigger-grounded *(the transferable understanding; this + the annotated example = the bundle bond owns)*
 
 **Trigger** *(what makes this real — the recognition signal AND the adoption gate):*
