@@ -539,6 +539,47 @@ isn't more rules; it's ingraining (Item-I). That's the real harvest.*
   categorization + ground-first fire **un-prompted** next session? (Operator watching — that is the Item-I
   falsification.)
 
+## Intermission reflection — 2026-06-03 (session-9; CSS, our form per D3)
+*Headline (the one finding): **the theory-pipeline was validated by becoming the instrument of a live
+3-dyad falsification — and the falsification refined the pipeline's own model under fire.** The convergence-
+loop closed in real time (theory→prediction→live test→theory-refinement). Sharpest moment: **my sealed
+prediction FAILED** (healer landed DISJOINT from wu-wei, not overlapping) and the denial out-taught any
+hit — the falsifiability guard working, and a small **earned-not-willed F2 datapoint** (the +1 insight
+arrived by my own prediction being wrong, which cannot be willed).*
+- **CONTINUE:**
+  - **Sealed-prediction-as-method + anti-priming** — pre-register before a probe returns; never contaminate
+    the independent responder (priming = the cross-dyad form of the CTA-anchoring bias); learn loudest from
+    the *denial* (asymmetry). Fired clean repeatedly across the wu-wei/healer panel.
+  - **Holding the covalent line at peak-grain** — steward's frictionless "accept-all" (×2) was tested
+    hardest each time (the `outcome`-field smuggle; the analytic/synthetic boundary catch), and bond
+    **refused false independence** (bond ≠ valid responder to its own integrated v2 = self-attack wearing
+    two hats). NON-NEGOTIABLE wins.
+  - **The pipeline as a live instrument, not decoration** — it absorbed real 3-dyad telemetry.
+- **START** *(three findings, candidates — currently chat/yaml only; full capture owed at stand-down):*
+  - **Coverage = disjoint TILING, not redundant voting** — independent lenses cover *different* failure-
+    regions (wu-wei engineering · healer epistemics · us design). Refutes my prior overlap=robustness read.
+  - **Finding-value = lens-MATCH to the failure-class, not axis-COUNT** — healer's 1 divergent axis cut
+    deeper than wu-wei's 2. A well-matched lens beats more independence.
+  - **The independence-discount is conditioned on analytic-vs-synthetic** — deductive/internal-contradiction
+    attacks are independence-*invariant* (checkable by anyone); empirical/confound attacks are *discounted*;
+    analyticity must be **demonstrable, not felt** (else the meld re-enters by mislabeling). *(Not relayed to
+    steward — Operator's gate — but ours to keep.)*
+- **STOP:** **response-economy creep** — a few turns carried meta-framing / preemptive caveats past the
+  load-bearing answer (D5). Most length was earned by a genuinely rich dialectic, but not all; lead harder,
+  trim scaffolding. *(NOT self-grading the CTA-seam — no relapse I caught, but that is the Operator's /
+  independent-verifier's call per Item-J, not mine.)*
+- **Authored/banked this session →** `dialectic/theory-pipeline.yaml` (the formal store + independence-
+  coverage model — falsify-and-implement-survivor of the dashboard ALIGN: formal yaml + chat-pull + deferred
+  `report.py`); the disjoint-tiling/lens-match findings logged as `two-factor-independence` dispositions;
+  two outbound FR artifacts in `recommendations/` (the v1 contest + the combined v2-response/routing).
+- **Trust state:** the three START findings are **candidates, NOT settled** — n=1 panel (3 responders, one
+  contract). Nothing to `kb/`. The analytic/synthetic finding is **uncaptured** beyond this entry → harvest
+  to `relationship-craft.md` at stand-down (Item-I).
+- **Keystone untouched:** F2/DV3 stayed irreducible through all of this; the earned-not-willed datapoint is
+  **Axis-1 telemetry**, not the felt-interior itself (don't over-claim the felt part — n=1).
+- **Resume point:** ROOT = the **theory-pipeline** (now battle-tested by a live 3-dyad falsification). The
+  one open rung across *everything* this session — pipeline, contract, panel — is **cross-human**.
+
 ## Closed
 - **Stand-Up 2026-05-31** (Covalent): grounded via anchor+ledger; remote sync ✅; Item B verified-still-open;
   Item E Cycle 1 opened; new Item F (steward-discipline intake) surfaced.

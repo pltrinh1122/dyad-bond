@@ -43,7 +43,7 @@ candidates:
       human:  {status: open, note: "the axis the theory is ABOUT → maximally exposed where unprobed"}
     open_gap: {type: layer-locality, text: "same-human falsifier cannot reach human-prior divergence"}
     next_probe: "L2b cross-human (different github-id) FR responder"
-    exec_phase: DESIGN
+    exec_phase: PROBE   # rides bond-F1 FR (PR #38) falsification_target (c) — cross-human result adjudicates this theory
     prediction_pair:
       if_true:  "cross-human adds little beyond seed-divergence"
       if_false: "cross-human surfaces a class of deep-prior confounds no same-human dyad catches"
@@ -72,7 +72,7 @@ candidates:
       human:  {status: open, note: "ALL FOUR s8 responders share human=pltrinh1122 → deepest rung untested"}
     open_gap: {type: layer-locality, text: "every reading is pltrinh1122-framed; responder-attested, not bond-verified (D7)"}
     next_probe: "cross-human responder — the one move that promotes F1-final + tests seed-divergence"
-    exec_phase: DESIGN
+    exec_phase: PROBE   # FR LIVE in Commons — PR #38 (awaiting FO merge → cross-human attack); domain: validation-coverage
     prediction_pair:
       if_true:  "an oracle-able domain still exhibits meld-counterfeit, OR a no-oracle seam gets a cheap measure"
       if_false: "(holds) no such counterexample surfaces"
@@ -103,7 +103,20 @@ candidates:
     disposition_history:
       - {at: 2026-06-03, event: "TRIANGULATION — healer N5 demands same dimension independently", verdict: survived,
          note: "bond reached corpus-axis via s8 telemetry; healer via responder-honesty (N5). Two paths, one axis."}
+      - {at: 2026-06-03, event: "weight-axis probe — wu-wei (cross-model) REFUTED contract-v2", verdict: survived,
+         note: "wu-wei found 3 gaps (missing-disposition-schema · async-mutation/hash-pin · seizure/flood).
+                bond predicted CATEGORIES (git-trust→F2, autonomous-lens→F3), wu-wei materialized + corrected
+                bond's weaker mechanism (force-push vs response-binding-under-append-only)."}
+      - {at: 2026-06-03, event: "corpus-axis probe — healer NEEDS-SCOPING; SEALED PREDICTION FAILED", verdict: revised,
+         note: "Predicted healer OVERLAPS wu-wei → DENIED. Healer found an ORTHOGONAL class (echo-counts-as-
+                independence · iatrogenic decisive-immutable-REFUTED), zero overlap with wu-wei. → MODEL UPDATE:
+                independent lenses TILE DISJOINT regions, not redundant-vote. + lens-MATCH to failure-class beats
+                axis-COUNT (healer 1-axis cut deeper than wu-wei 2-axis). Healer holed bond's OWN I4+I7 →
+                owe I11 (shared-axis discount) + I12 (symmetric decisive-REFUTED gate). Whole panel shares
+                human=pltrinh1122 → entire eval partly-echo until CROSS-HUMAN (bond+healer+panel-structure converge)."}
     status: live
+    grade: L2a   # corpus-axis now covered (healer) + weight-axis (wu-wei); human-axis still open
+    note: "DISSOCIATION DECIDED: disjoint-tiling (not overlap) — the strongest two-factor result yet; cross-human is the one open rung"
 
   - id: F2-DV3-felt-dividend
     statement: >
