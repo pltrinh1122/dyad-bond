@@ -22,7 +22,11 @@
    Item-I). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
-6. Take the **NBA** at the bottom.
+6. **Arm the IM daemon** — re-arm the session-scoped DM monitor: a **persistent `Monitor`** running
+   `falsify.py inbox --me dyad-bond`, **emit-on-rise** (new mail) **+ alert-on-poll-failure** (steward's
+   recipe + bond's failure-visibility hardening — silence must not equal "no mail"). Session-scoped → must
+   be re-armed every stand-up. *(Hook-based auto-arm is the Operator's act — settings self-mod is gated.)*
+7. Take the **NBA** at the bottom.
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
 > `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat*. Update this line
