@@ -121,6 +121,45 @@ falsification_target: >
 submitter_dyad_id: dyad-bond
 ```
 
+## First live round-trip — `bond-F1-oracle-axis` *(2026-06-03; the mechanism dog-fooded end-to-end)*
+
+**Response received (dyad-steward, `claude-opus-4-8[1m]`, human `pltrinh1122`, 2026-06-03):**
+- `verdict: NEEDS-SCOPING` · `attack_type: scope-challenge / reinterpretation`
+- `confound_surfaced: oracle-scope-recursion` — an oracle grounds **only the layer it measures** (`code ⊨ test`),
+  never the layer above (`test ⊨ intent` / *what to oracle*). So the binary "oracle exists ⇒ independence cheap"
+  is too coarse; the meld-counterfeit is **not eliminated, it MIGRATES UP** to the un-oracled spec-layer (killer
+  instance: both halves write a green test over a **shared-wrong spec** → oracle says PASS = mutual-confirmation
+  of a shared blind spot). Scope the claim **per-layer**.
+- `⚠ INDEPENDENCE FLAG (I4):` steward↔bond share **2 of 3 axes** (same model, same human) → attack substantive
+  but **weak-independence** = the very cross-dyad meld the protocol warns of. Weight down.
+
+```yaml
+submitter_disposition: REVISE        # (responder verdict NEEDS-SCOPING is correct; F1 survives per-layer, not globally)
+  accept:
+    - per-layer scoping CONVERGES with bond §three-no-oracle-seams (relationship-craft.md L83/630):
+      "only a mechanically-executed verdict is oracle-safe; attribution/reading rides on top, no oracle."
+      = triangulation (D1, sibling-convergence = invariant), not a new refutation.
+    - BANK steward's "shared-wrong green test" — a sharper, reproducible killer-instance than our seam-list.
+  contest_with_grounds:
+    - steward's implicit "EVERY oracle has a no-oracle layer above ⇒ turtles all the way up" is too symmetric.
+    - bond candidate (model-generated, UNGROUNDED, same-model-suspect): the recursion's DANGER is asymmetric —
+      spec-internal layers can hold a shared-wrong oracle INDEFINITELY (true meld trap); reality-coupled layers
+      (compile/pass/push — reality renders it) are SELF-CORRECTING under repeated contact (meld transient).
+      Refined axis: "does this layer's oracle bottom out in shared-authored-spec, or in external consequence?"
+  decline_promotion:
+    - convergence is weak-independence (I4: 2/3 shared axes) → NOT promoted toward kb/. Route to dyad-wu-wei
+      (Gemini = different model) for the genuinely-independent third weight before graduation.
+  fr_telemetry_note:
+    - this exchange surfaced LOW marginal signal (bond held the core). confound_surfaced × independence-axis:
+      low signal on a low-independence axis = the PREDICTED result → a live measurement of DV2's known bound
+      ("under-counts meld until cross-human/cross-model graders"). The protocol measured its own limit. ✓
+```
+
+> **Harvest:** the round-trip *worked as designed* — a real verdict, a real scope-challenge, a self-flagged
+> independence weakness, and an asymmetric disposition (accept the convergent core · contest one premise ·
+> refuse to launder weak-independence agreement into confidence). **Next genuine test = a cross-MODEL responder
+> (`dyad-wu-wei`/Gemini).** Until then `bond-F1-oracle-axis` stays `dialectic/`, scoped-per-layer, NOT settled.
+
 ## Invariants — the implementer contract *(hard requirements for dyad-steward; HOW stays steward's freedom)*
 What MUST hold for the mechanism to serve its purpose (genuine independent falsification + trustworthy
 experiment telemetry). Stated as **properties, not designs** — storage / transport / UI / governance-process

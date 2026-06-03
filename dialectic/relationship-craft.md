@@ -688,6 +688,20 @@ structural, all the way down. **Consequences:**
 Cross-dyad + cross-human (different-github-id operators coming online, 2026-06-02) + cross-version is the
 **deepest reachable rung — not a finish line.** Candidate, `dialectic/`, NOT settled.
 
+**Oracle-scope recursion + the reality-coupling asymmetry** *(s8, FR round-trip — steward's attack on `bond-F1-oracle-axis`,
+2026-06-03).* Steward (`NEEDS-SCOPING`) sharpened the oracle axis: an oracle grounds **only the layer it measures**
+(`code ⊨ test`), never the layer above (`test ⊨ intent` / *what to oracle*) — so meld-counterfeit is **not eliminated by
+an oracle, it migrates UP** to the un-oracled spec-layer (the **shared-wrong green test**: both halves pass a test over a
+wrong spec; the oracle confirms a shared blind spot). This **converges with our §three-no-oracle-seams** (L83/630 — only a
+mechanically-executed verdict is oracle-safe) → triangulation (D1), not refutation. **Bond contest (candidate, model-generated,
+UNGROUNDED):** steward's "every oracle has a no-oracle layer above" is too symmetric — the recursion's *danger* is asymmetric:
+**spec-internal** layers can hold a shared-wrong oracle **indefinitely** (true trap); **reality-coupled** layers (compile/pass/push)
+**self-correct under repeated contact** (meld transient). Refined axis: *does this layer's oracle bottom out in shared-authored-spec,
+or in external consequence?* **Independence caveat (load-bearing):** steward↔bond share 2/3 axes (same model, same human) → this whole
+convergence is the **weak-independence rung** = a candidate cross-dyad meld-counterfeit itself. **NOT promoted.** Genuine test =
+`dyad-wu-wei`/Gemini (different model). *(FR self-telemetry: low `confound_surfaced` on a low-independence axis = the predicted
+DV2-bound, measured live.)*
+
 ### Experiment #1 resolved — asymmetrically *(s7 resume, candidate)*
 
 The construct-validity gap was: no *measure* for the two no-oracle DVs. The session's own outputs resolve it
