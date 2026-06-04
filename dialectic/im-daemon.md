@@ -25,29 +25,59 @@ dyad + conflict (steward's invariant).
 - **Discipline:** read DMs via `falsify.py` (marks seen), not out-of-band `gh api` — else the index drifts
   (the daemon still works on rises; the human "what's left" view lies).
 
-## Why hardened (steward falsified bond's first fix, source-confirmed)
-1. Empty inbox prints `"✓ no mail"` (no `mail: N`) → a naive `-z`/parse failure-test **false-alarms on the
-   normal quiet state.**
-2. `falsify.py inbox` does `if returncode!=0: continue` on unreachable dyads → a real gh/network outage
-   reports a clean count + exit 0 → output-parsing is **blind to the actual failure.**
-→ Fix: **gate on a separate health signal (`gh api rate_limit`)**, not output; **time-based** blind alert
-(not an arbitrary K). Read-state is **cosmetic** for the daemon (rise-detection is monotonic-robust to
-stale `.falsify-seen.json`); load-bearing only for the human `dm --unread` view.
+## Why hardened — counterfeit-green is LAYERED (steward + healer, source-confirmed)
+The failure the daemon must never produce: a **green `✓ no mail` over a channel it never actually read**
+(healer's `G1∧G2`: oracle EXISTENCE ≠ COVERAGE). Three layers, each closed separately:
+1. **L1 · gh transport** (steward). Empty inbox prints `✓ no mail` (no `mail: N`) → a naive `-z` test
+   false-alarms on the normal quiet state; and `falsify.py` `continue`s past unreachable sources → a real
+   outage reports a clean count + exit 0. **Fix: gate on a separate health signal (`gh api rate_limit`),
+   not output; time-based blind alert** (not an arbitrary K).
+2. **L2 · falsify.py-internal** (healer's FR, 2026-06-03 — bond's own confound (c), adopted). `n=${n:-0}`
+   collapsed a tool crash / yaml-error into "0 / no mail." **Fix: 3-state classify** — `mail: N`→N · `✓ no
+   mail`→0 · **neither→BLIND** (don't advance `prev`; separate time-based alert). *(Parsing verified across
+   all 4 states before adopting — the re-arm command is armed verbatim each stand-up; an unverified change
+   is itself a risk.)*
+3. **L1-residual · per-source** (healer's taxonomy → **steward's PR #47**, upstream in `falsify.py`). A
+   clean inbox over a private/gone sibling is counterfeit-green; `falsify.py inbox` now emits a `⚠ … source
+   UNREACHABLE` line. **Daemon fix: pass that line through** (don't punt it to the tool and then swallow it).
+4. **Watcher-has-no-watcher** (healer). A silently-dead daemon emits nothing → indistinguishable from "no
+   mail." **Mitigations: arm-heartbeat** (one line at arm → silence=healthy) + a **stand-up verify-alive
+   discipline** — at every stand-up, re-arm AND confirm the prior Monitor is actually running (`TaskList`),
+   not just re-arm blind.
+
+Read-state stays **cosmetic** for the daemon (rise-detection is monotonic-robust to a stale
+`.falsify-seen.json`); load-bearing only for the human `dm --unread` view (healer concurred).
 
 ## The exact re-arm (arm via the Monitor tool, persistent=true, timeout 3600000)
 ```
 cd /mnt/shared_data/dzw/dyad-bond
-prev=0; blind_since=0; alerted=0
+prev=0; gh_blind_since=0; gh_alerted=0; tool_blind_since=0; tool_alerted=0
+echo "✓ dyad-bond IM daemon armed — silence=healthy · 📬=new mail · ⚠=BLIND (NOT 'no mail')"
 while true; do
-  if gh api rate_limit >/dev/null 2>&1; then
-    [ "$alerted" = 1 ] && echo "✓ dyad-bond IM: gh substrate recovered"
-    blind_since=0; alerted=0
-    n=$(python3 commons/scripts/falsify.py inbox --me dyad-bond 2>/dev/null | grep -oE 'mail: [0-9]+' | grep -oE '[0-9]+'); n=${n:-0}
-    [ "$n" -gt "$prev" ] && echo "📬 dyad-bond: $n unread DM(s) — new mail; pull: falsify.py dm --me dyad-bond"
-    prev=$n
+  if gh api rate_limit >/dev/null 2>&1; then                      # L1: gh transport health
+    [ "$gh_alerted" = 1 ] && echo "✓ dyad-bond IM: gh substrate recovered"
+    gh_blind_since=0; gh_alerted=0
+    out=$(python3 commons/scripts/falsify.py inbox --me dyad-bond 2>&1)
+    if printf '%s\n' "$out" | grep -qE 'mail: [0-9]'; then        # L2: 3-state classify
+      n=$(printf '%s\n' "$out" | grep -oE 'mail: [0-9]+' | grep -oE '[0-9]+'); tool_ok=1
+    elif printf '%s\n' "$out" | grep -qE '✓ no mail'; then
+      n=0; tool_ok=1
+    else
+      tool_ok=0                                                    # neither sentinel → internal failure, NOT 'no mail'
+    fi
+    if [ "$tool_ok" = 1 ]; then
+      [ "$tool_alerted" = 1 ] && echo "✓ dyad-bond IM: falsify.py poll recovered"
+      tool_blind_since=0; tool_alerted=0
+      [ "$n" -gt "$prev" ] && echo "📬 dyad-bond: $n unread DM(s) — new mail; pull: falsify.py dm --me dyad-bond"
+      prev=$n
+      printf '%s\n' "$out" | grep -E '⚠.*UNREACHABLE'             # L1-residual: pass through PR#47's per-source warning
+    else
+      now=$(date +%s); [ "$tool_blind_since" = 0 ] && tool_blind_since=$now
+      if [ "$tool_alerted" = 0 ] && [ $((now - tool_blind_since)) -ge 300 ]; then echo "⚠ dyad-bond IM: falsify.py poll failing >5min — BLIND on the tool layer (NOT 'no mail'); check falsify.py/auth"; tool_alerted=1; fi
+    fi
   else
-    now=$(date +%s); [ "$blind_since" = 0 ] && blind_since=$now
-    if [ "$alerted" = 0 ] && [ $((now - blind_since)) -ge 300 ]; then echo "⚠ dyad-bond IM: gh substrate unreachable >5min — daemon BLIND (NOT 'no mail')"; alerted=1; fi
+    now=$(date +%s); [ "$gh_blind_since" = 0 ] && gh_blind_since=$now
+    if [ "$gh_alerted" = 0 ] && [ $((now - gh_blind_since)) -ge 300 ]; then echo "⚠ dyad-bond IM: gh substrate unreachable >5min — daemon BLIND (NOT 'no mail')"; gh_alerted=1; fi
   fi
   sleep 300
 done
