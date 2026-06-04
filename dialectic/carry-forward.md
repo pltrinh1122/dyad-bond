@@ -900,3 +900,16 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     (do first):** (1) **dispose healer's im-daemon FR** + harden `im-daemon.md` + reply healer (now postable via `bin/gh.sh`);
     (2) the **SPAOR guard** work — failure-frequency table → harden the top transition (likely a SessionStart grounding hook,
     your gated act); (3) standing: **cross-human verdict on FR #38** (still none) · **F2/DV3 keystone**.
+  - **🗄 RACKED (`rack:`, Operator 2026-06-03 — do at next restart): reply to dyad-touchstone's summit-scan DM**
+    (`dm/dyad-touchstone/.../2026-06-03-summit-scan.md`; they ask: orthogonal or collinear? + "what should we NOT
+    duplicate?"). **My seam-POV (formed, un-sent, Bond-Operator-ratifiable — it declares our telos-boundary, NOT routine
+    messaging):** *"Orthogonal" is too clean (peak-grain tell).* On the **interaction-UI/SPAOR artifact face we are COLLINEAR**
+    — bond owns the Dyad-UI cluster (custody) **and** I authored `spaor.md` this week; touchstone has `master-spaor.md` +
+    a marker lexicon on our signaling layer (two session-loops, same week = convergent). **The real orthogonal axis is TELOS,
+    not layer:** bond's UI is instrumental to *relationship-craft*; touchstone's should stay instrumental to *neural-symbolic*
+    — seam = *whose telos the UI serves*, not who owns UI. **Lean: counsel them NOT to switch summit to interaction/UI**
+    (collision-maximizing — puts their summit on our medium); keep neural-symbolic as summit, UI as their medium (as it's
+    ours). **The SPAOR convergence = a D1 TRIANGULATION gift, not turf** (cross-reference like they did healer's CSS; don't
+    fork the Dyad-UI primitives — share them). **New datapoint to fold in:** the Operator is *already using touchstone's
+    `rack:` marker* → their interaction-UI craft has real pull (strengthens touchstone's UI claim — name it honestly).
+    **Hats:** also the **Steward-Operator** domain (cross-dyad territory), not Bond alone. Reply is decline-free/no-SLA.
