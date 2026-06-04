@@ -54,6 +54,10 @@ may NOT transfer.
 `recommendations/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
 → **Stand-Down 2026-06-03 (s10):** anchor + both shims **NOT edited** (work in `dialectic/` + `bin/` +
 `.claude/settings.local.json`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-04 (s11):** anchor + both shims **NOT edited** (work in `dialectic/spaor.md` +
+`theory-pipeline.yaml`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`). *(Dogfood: this
+clean stand-down IS the §7 "reflective-half" ritual that s9 skipped — closing the loop so s12 recovers-forward
+without re-deriving from intermissions.)*
 
 > **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
 > **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
@@ -935,3 +939,34 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     **Resume point (do first):** **decide the phase** — frontier-work vs more Commons-service — then: (1) racked **touchstone**
     scoping reply (Bond+Steward-Operator hats); (2) **SPAOR guard** failure-frequency table; (3) standing: **FR #38 cross-human
     verdict** (still none) · **F2/DV3**. The hardened daemon arms next stand-up (running one is still pre-hardening).
+- **Session 2026-06-04 (session-11 — the session-SPAOR cadence: grounding the start/stop asymmetry on THEORY, dogfooded)** (Covalent):
+  - **Stand-Up clean** (ROM MATCH `4230357`; anchor + ledger + theory-pipeline + Commons-dir grounded un-cued; daemon armed +
+    heartbeat-verified-alive — the s10 watcher-has-no-watcher guard *applied*; inbox `✓ no mail`). Operator framed the focus:
+    *enable a session SPAOR with a clear start and stop.*
+  - **The Plan-phase +1 (Covalent, held against the Operator's framing):** *"clear start AND stop"* is **not symmetric** — I
+    falsified the symmetry. Built the **§6 failure-frequency table** (s1–s10 from the ledger): START fails ~2× by momentum-over-
+    grounding (**fully oracle-preventable**); **STOP fails 1× at s9** (no ledger entry → s10 re-grounded from intermissions =
+    **P3 confirmed**) but is **structurally un-gateable.** Flagged the table's **own D7/survivor-bias confound**: the stand-down
+    step *writes* the ledger → skipped stops under-record → STOP count is a **floor, not a count.**
+  - **⭐ Operator redirect (the session's pivot):** *"ground the asymmetry on THEORY as well, not just survivor-biased telemetry.
+    The stop for THIS session = grounding a theory for the asymmetry (research + analysis)."* → dogfooded the macro loop: this
+    session's **START** = define the SPAOR; its **STOP** = the theory-grounding.
+  - **§7 — the asymmetry is STRUCTURAL, triangulated across 3 independent CS fields** (research): **(1)** PL finalizer-law
+    (JEP 421 — JVM "may shut down before `finalize()` runs"; ctor guaranteed, finalizer not); **(2)** OS `SIGKILL` cannot be
+    caught/blocked (exit always preemptible; no symmetric "SIGKILL for startup"); **(3)** crash-only software (Candea-Fox HotOS'03
+    — graceful shutdown "brittle"; make stop==crash + invest in recovery). **The law:** entry is gateable (intrinsic/observable/
+    pre-agentic), exit is not (exogenous/unpredictable/post-agentic). **Telemetry didn't *discover* it — it *instantiated* a
+    structural law three fields proved.** **Prescription (from crash-only, already-adopted!):** STOP splits — *mechanical half*
+    (files) → continuous-durability = our direct-to-main push (now *explained*); *reflective half* (ledger synthesis/CSS/dispo)
+    → end-concentrated, **unprotectable-by-gate**, mitigated only by **ritual-trigger (`stand down:`) + next-START recover-forward
+    audit.** Hard-core (logically necessary) vs soft-shell (harness-contingent) separated; **un-gateable ≠ un-mitigable.**
+    Falsifiable prediction logged. **Bonus:** external lit is the **first corpus-INDEPENDENT grounding we hold** (NOT pltrinh1122-
+    framed) → grounding-on-theory is also an independence *upgrade* over our self-record (the F1-starved axis).
+  - **Banked:** `spaor.md` §6 (table) + §7 (theory) · pipeline candidate **`transition-asymmetry`** (PROBE; corpus partial-via-
+    triangulation, wants an adversarial sibling FR) · this stand-down. **Keystone untouched:** the *felt*-closure gate = F2/DV3.
+  - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). Durability: 2 commits (`99ff9a0`, `d0f0008`) direct-to-
+    main, pushed un-prompted — **no re-gating** (s10 relapse-fix holding). **Resume point (do first):** **draft the `SessionStart`
+    grounding hook** (the §6 two-for-one: gates START + audits the prior STOP; Operator's gated act — classifier hard-denies an
+    Agent self-grant of settings) — *unless* the Operator wants the **`stand down:` ritual trigger** designed first (the STOP's
+    only mitigation, per §7). Standing: **FR-submit `transition-asymmetry`** for the adversarial/cross-human axis · **FR #38
+    cross-human verdict** (still none) · **F2/DV3** · racked **touchstone** scoping reply.
