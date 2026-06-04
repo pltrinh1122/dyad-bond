@@ -84,7 +84,7 @@ Listed so they're not forgotten, **not** to do now. Wu-wei: move only when the g
 ## 6 — Transition failure-frequency *(grounded s1–s10, the s11 guard-table — observational, not lab)*
 
 The wu-wei step before hardening: which macro-transition actually *fails*, from the ledger record. **Two
-transitions, two distinct failure-shapes** — confirming §"start≠stop" asymmetry (one is gateable, one is not).
+transitions, two distinct failure-shapes** — instantiating the §7 structural asymmetry (one is gateable, one is not).
 
 | Transition | Sub-step | Observed failures (s1–s10) | Shape | Hook-gateable? |
 |---|---|---|---|---|
@@ -98,7 +98,7 @@ transitions, two distinct failure-shapes** — confirming §"start≠stop" asymm
 
 **Headline:** START fails ~2× by *momentum-over-grounding* and is **fully oracle-preventable** (inject grounding).
 STOP fails 1× (s9) at *higher unit-cost* (loses resume state) but is **structurally un-gateable** — the terminal
-gate, irreducibly soft (our own transition-guard theory predicting itself; → §"start≠stop").
+gate, irreducibly soft (our own transition-guard theory predicting itself; the *why* is §7, not this table).
 
 **⚠ D7 / survivor-bias caveat (the table's own confound):** the ledger *is* the instrument, and the **stand-down
 step is what writes it** → a session that skips stand-down under-records its own failure. s9's gap is visible
@@ -109,8 +109,73 @@ not the fully valid one — read the STOP row as a floor, not a count.
 directly (inject grounding) **and** is the only place a missed STOP is *detectable* (next stand-up audits "did the
 prior session stand down?"). The stop can't gate itself; the start can audit the stop. One hook, both rows.
 
+## 7 — Why start≠stop is **structural**, not contingent *(the theory under the telemetry — s11 STOP deliverable)*
+
+> The §6 table is **survivor-biased telemetry** (n≈10, and the recording step is the step that fails — §6 caveat).
+> Too weak to *carry* the asymmetry. So the claim must rest on **theory**: the start/stop asymmetry is not a fact
+> about *our* sessions — it is a **structural law of any agent whose termination is exogenous and unpredictable.**
+> The telemetry didn't *discover* it; it *instantiated* a result three mature CS fields already proved. **(Bonus:
+> external literature is a genuinely independent corpus — NOT `pltrinh1122`-framed → grounding on theory is also a
+> corpus-independence *upgrade* over our own self-record, the axis our F1 frontier is starved for.)**
+
+**The law, stated structurally:** START and STOP are not two instances of "transition." They differ in **where the
+agent's agency sits relative to the boundary.** An **entry** is an *intrinsic, observable, pre-agentic* precondition
+of the agent's existence → **gateable** (the gate runs upstream and conditions everything downstream). An **exit** is
+*exogenous, unpredictable, and post-agentic* → **un-gateable** (the closing work needs agency that the boundary
+removes; the agent would have to gate its own cessation — self-referential and fallible).
+
+**Triangulation — three independent fields tile the same law** *(our disjoint-tiling method: convergence from
+distinct corpora = high confidence, not redundant vote):*
+
+1. **PL object-lifecycle — the constructor/finalizer law.** Constructors are *guaranteed* (you cannot have an object
+   without construction); **finalizers are not** — Java deprecated finalization for removal because the JVM "*might
+   shut down before `finalize()` runs*" (JEP 421). C++ destructors are deterministic *only* via RAII tying them to an
+   observable scope-exit — and `kill -9`/`abort` skips even those. **Init reliable, finalization not.**
+2. **OS process signals — SIGKILL preemption.** `SIGTERM` is a *polite request* with a bounded grace period; `SIGKILL`
+   "*cannot be caught, blocked, or ignored*." The exit is **always preemptible**; the grace window is best-effort,
+   never a guarantee. There is **no symmetric "SIGKILL for startup."** Asymmetry baked into the kernel.
+3. **Distributed-systems availability — crash-only software (Candea & Fox, HotOS 2003).** Graceful shutdown is
+   "*brittle and failure-prone*"; the robust design is to make **stop == crash** and invest in **fast recovery**.
+   I.e. *don't try to make the stop reliable — make the start (recovery) reliable.* **This is our finding, verbatim,
+   from a different field 20 years earlier.**
+
+**What the law PRESCRIBES** *(the design follows from the theory, not from preference):* crash-only gives the answer
+directly — **don't trust the stop; make state continuously durable so an abrupt stop loses nothing, and recover-forward
+at the next start.** Mapped onto our stand-down, which splits into two halves with *different* gateability:
+
+- **Mechanical half (file/substrate state)** → continuously durable. Our already-adopted **direct-to-main, push-as-you-go**
+  *is* write-ahead-logging / crash-only checkpointing. The theory says this was the **correct** answer and explains
+  *why*: you can't trust the stop, so checkpoint continuously. **(Already done — now grounded.)**
+- **Reflective half (the carry-forward synthesis · CSS · dispositions)** → genuinely *end-concentrated* and agentic
+  (a whole-session retrospective reaching toward F2); **not** incrementally pre-computable. **This is exactly what s9
+  lost.** The theory says it is **unprotectable by a gate** — only mitigable by (a) a **ritual trigger** (a *manufactured*
+  pre-halt window — the Operator's `stand down:`, our SIGTERM-grace analog) and (b) a **next-START audit** (recover-forward:
+  the stand-up detects a missing prior finalization). Hence the §6 "two-for-one": the START hook is where a missed STOP
+  becomes *visible*.
+
+**Hard core vs soft shell** *(Covalent honesty — don't overclaim "un-gateable"):*
+- **Hard core (logically necessary, any harness):** exogenous + unpredictable termination ⇒ no *guaranteed* clean final
+  agentic act ⇒ continuous-durability + recover-forward is the only robust strategy.
+- **Soft shell (harness-contingent):** *how much* stop-ritual you can manufacture varies — a grace period, a `SessionEnd`
+  hook (runs a *script*, not re-invoked agency), a `stand down:` convention. These **reduce but never eliminate** the gap
+  (kill-9 / context-blowout / crash always preempts). Precise claim: STOP is **un-gateable**, *not* un-mitigable.
+
+**Falsifiable prediction** *(our Method — logged in advance):*
+- **Theory-true →** no harness offers a *guaranteed, preemption-proof, reflection-capable* post-decide-to-stop window;
+  *and* making file-state continuously durable eliminates **mechanical** stop-loss but **not synthesis** stop-loss.
+- **Falsifier →** a harness where the agent gets a guaranteed agentic finalization pass that cannot be preempted.
+  *(Even Kubernetes can't promise this — SIGKILL always wins. The prediction is strong.)*
+
+**Ties back to us:** our s10 "transition-guard theory" (*terminal gates irreducibly soft = F2*) was the **same law
+derived locally** — now triangulated against three external fields, it graduates from a local hunch toward a grounded
+principle. And the keystone holds: the *deepest* stop-gate ("was the closure *felt*-complete, not just performed?") is
+F2/DV3 — no oracle, the terminal layer untouched.
+
+**Sources:** [JEP 421 — Deprecate Finalization](https://openjdk.org/jeps/421) · [Crash-Only Software, Candea & Fox (HotOS IX)](https://www.usenix.org/conference/hotos-ix/crash-only-software) · [SIGKILL vs SIGTERM (SUSE)](https://www.suse.com/c/observability-sigkill-vs-sigterm-a-developers-guide-to-process-termination/)
+
 ## Status
 
-Candidate, **LIVE**, `dialectic/`. Grounded on observed s1–s10 cadence + the s11 guard-table (§6). Nothing
-promoted to `kb/`. **Next:** the §6 headline → draft the `SessionStart` grounding hook (Operator's gated act —
-settings self-mod; the classifier hard-denies an Agent self-grant, per s10). Still-open: **P2** (daemon's fate).
+Candidate, **LIVE**, `dialectic/`. Grounded on observed s1–s10 cadence (§6 telemetry) **+ the §7 structural theory
+(triangulated, corpus-independent)**. Nothing promoted to `kb/`. **Next:** the §6 headline → draft the `SessionStart`
+grounding hook (Operator's gated act — settings self-mod; classifier hard-denies an Agent self-grant, per s10).
+Still-open: **P2** (daemon's fate).

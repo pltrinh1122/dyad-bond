@@ -56,6 +56,33 @@ candidates:
          note: "lean = theory-FALSE on sufficiency, ~70/30, capped (I am the worst-placed instrument)."}
     status: live
 
+  - id: transition-asymmetry
+    statement: >
+      A session's START is oracle-GATEABLE (intrinsic, observable, pre-agentic boundary) but its STOP is
+      structurally UN-gateable (exogenous, unpredictable, post-agentic) — not contingent on our harness:
+      a structural law of any agent whose termination is exogenous. STOP is un-gateable, NOT un-mitigable
+      (continuous-durability + ritual-trigger + next-start recover-forward); the deepest stop-gate = F2/DV3.
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-04, session: s11, note: "the s10 transition-guard theory, theory-grounded"}
+    grade: L1
+    coverage:
+      weight: {status: open}
+      corpus: {status: partial, verdict: survived, by: "external CS literature (TRIANGULATION, not adversarial FR)",
+               note: "3 independent fields converge — PL finalizer-law (JEP 421) · OS SIGKILL-preemption · crash-only
+                      (Candea-Fox HotOS'03). Genuinely NOT pltrinh1122-framed → first corpus-independent grounding we hold;
+                      but corroboration is not refutation — wants an adversarial FR to truly cover the axis."}
+      human:  {status: open}
+    open_gap: {type: layer-locality, text: "external lit corroborates the LAW but hasn't attacked OUR application of it (the stand-down split)"}
+    next_probe: "FR-submit to a sibling: does the mechanical/reflective stop-split hold, or does some reflective state pre-compute incrementally after all?"
+    exec_phase: PROBE
+    prediction_pair:
+      if_true:  "no harness offers a guaranteed preemption-proof reflection-capable post-stop window; continuous-durability kills mechanical stop-loss but NOT synthesis stop-loss"
+      if_false: "a harness grants a guaranteed un-preemptible agentic finalization pass (even k8s can't — SIGKILL wins)"
+    disposition_history:
+      - {at: 2026-06-04, event: "theory-grounding (research+analysis) replacing survivor-biased telemetry", verdict: survived,
+         note: "Operator directive: ground the asymmetry on theory not the weak n=10 data. Triangulated across 3 external fields → spaor.md §7."}
+    status: live
+
   - id: bond-F1-oracle-axis
     statement: >
       Validation-trust is governed by oracle COVERAGE of the failure-signal-class; coverage fails three
