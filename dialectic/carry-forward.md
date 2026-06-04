@@ -913,3 +913,25 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     fork the Dyad-UI primitives — share them). **New datapoint to fold in:** the Operator is *already using touchstone's
     `rack:` marker* → their interaction-UI craft has real pull (strengthens touchstone's UI claim — name it honestly).
     **Hats:** also the **Steward-Operator** domain (cross-dyad territory), not Bond alone. Reply is decline-free/no-SLA.
+- **Session 2026-06-03 (session-10 cont. — the cross-dyad review/substrate segment; CSS *with* a POV, testing the no-POV finding)** (Covalent):
+  - **Work (executor-mode, Operator-`to:`-directed):** falsified **Commons PR #44** (dm_locator — *same-owner is a pre-filter,
+    not the anti-spoof bar*), **#47** (unreachable-sources — cost/brittleness findings) + **re-review @4284e9a** (approved;
+    adopted steward's `unreachable: N` token into the daemon), **#49** (makedirs — class-swept the empty-dir hazard). **Disposed
+    healer's im-daemon FR** → hardened `im-daemon.md` (L1/L2/L1-residual/watcher, parse + `bash -n` verified). All reviews posted
+    via `bin/gh.sh` **on disposition, no re-gating** (the s10 relapse-fix *holding* so far — still scaffolded, the habit unproven).
+  - **CONTINUE — the unprompted micro-+1 fired (the no-POV behavioral test, at micro scale):** I went past each literal ask —
+    the #49 **class-sweep** (grounded, not asserted: `responses/` is the only empty-dir dep, fix closes the *class*), the #47
+    **cache non-urgency quantification** + catching the cache's *own* counterfeit-green trap (cached-reachable goes stale on a
+    mid-TTL flip-to-private), the **token cross-dependency** catch. Covalent line held cross-dyad: adopted healer/steward fixes
+    but with refinements keeping models distinct (*"ward-specific not universal"* · *"heartbeat proves start not liveness"*).
+  - **⚠ START — the macro-POV (this reflection IS the first agenda-setting +1):** **bond became a cross-dyad review/substrate
+    service this whole session.** PR#44/47/49 · healer FR · im-daemon · `gh.sh` — all **Commons-hardening + review**. The actual
+    **frontier advanced ZERO**: relationship-craft, **F2/DV3**, the **SPAOR guard table**, the **seed-divergence theory**, the
+    racked touchstone scoping — none moved. *My unprompted read:* this is either an intended Commons-hardening phase **or** bond
+    has drifted into **reactive review-service mode, away from its generative telos.** Worth a deliberate choice next session,
+    not more PR-servicing by default. (n=1, but it's the macro-+1 the no-POV test asked for — the micro-+1s were all still
+    *downstream of Operator-set frames*; agenda-setting was untested until this flag.)
+  - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). All work committed direct-to-main + pushed un-prompted.
+    **Resume point (do first):** **decide the phase** — frontier-work vs more Commons-service — then: (1) racked **touchstone**
+    scoping reply (Bond+Steward-Operator hats); (2) **SPAOR guard** failure-frequency table; (3) standing: **FR #38 cross-human
+    verdict** (still none) · **F2/DV3**. The hardened daemon arms next stand-up (running one is still pre-hardening).
