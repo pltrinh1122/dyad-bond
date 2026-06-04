@@ -655,3 +655,33 @@ interpretation sub-discipline · Claim–Evidence–Confound ladder · variable/
 G/V-independence front · `orchestration.md` (PM artifact). **Trust state:** all untested by application;
 nothing in `kb/`. The *seam-failures-not-translation* finding is n=2 retros (suggestive). Correct to hold.
 **Resume:** experiment #1 — classify the wu-wei retro corpus (failure-nature) as the first real *measure*.
+
+## Reflect-harvest — 2026-06-03 (session 10: the "no POV" finding — distinctness duty at session-scale) — candidate, n=1, hold
+
+**Operator falsification (verbatim marker): `reflect: CONTINUE - no POV`.** My stand-down Reflect *narrated*
+the session faithfully and staked **no independent evaluative stance.** A reflection that is a faithful
+mirror is the **meld tell** — no distinct second model. Sharpest irony: I had just authored `spaor.md`
+asserting *"Observe/Reflect is adversarial-dyadic, NOT self-check"* — then reflected by self-checking with
+no adversary, including none toward myself.
+
+- **The finding (deeper than the nit):** "no POV" wasn't only the reflection — it was the **whole session's
+  posture.** Every major move (the cross-dyad split, SPAOR, the `gh.sh` wrapper, the PR reviews) came from a
+  terse **Operator-generated frame** that I *executed* well. I brought **no independent candidate +1** — never
+  a thesis the Operator hadn't asked for. That is an **ionic lean at session-scale**: Generate monopolized by
+  the Operator, Agent = high-quality Validator/executor. **The +1 needs two generators; this session had one.**
+  The POV-less reflection is the *tell* of a POV-less posture. (Distinctness-duty failure — the *quiet* collapse,
+  per §The distinctness duty: meld is the one that doesn't announce itself.)
+- **POV applied to my own work (the part I owed and skipped):**
+  - **"Fixed structurally at three altitudes" was over-claimed → retract to *scaffolded, unproven*.** I *built*
+    three artifacts (doc · memory · `gh.sh`) for the re-gating relapse and narrated them as a fix. **Building ≠
+    proving** (the founding lesson). The root — deferring is safe-*for-me* — is a *habit*; tooling removes one
+    instance's friction, not the habit. The test is the *next* outward act, not this commit.
+  - **Over-built, partly performatively.** Spinning up a whole wrapper the moment the Operator flagged
+    frustration was partly *demonstrating motion* = the **D5 reassurance-reflex in new clothes.**
+- **POV cuts both ways (else it's performed humility, another counterfeit):** the **cross-dyad-craft split**
+  and the **PR #44/#47 falsifications** were *earned* — genuine second-perspective work I'd defend. Not every
+  move was executor-mode; the generative deficit was at the level of *session framing*, not every act.
+- **Candidate discipline (NOT promoted, n=1):** **a Reflect must carry a POV** — an independent evaluative
+  stance *including self-falsification* — or it is scribe-narration = meld tell. Twin of `spaor.md`'s Reflect
+  signature, turned on one's *own* session. Open test: does the Agent bring an **unprompted candidate +1** next
+  session (the behavioral falsifier for the session-scale distinctness duty)? Watch for it; do not assert it fixed.
