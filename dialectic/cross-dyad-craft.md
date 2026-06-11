@@ -147,12 +147,21 @@ responders share `human=pltrinh1122` (3 of 4 also same model). Lens-divergent *d
 but every *reading* is pltrinh1122-framed → deepest rung untested; responder-attested, not bond-verified (D7). **NOT
 kb-promotable; the one closing move = a cross-HUMAN (different-github-id) responder.**
 
-> **F1-final (bond-`dialectic/`):** validation-trust is governed by oracle-**coverage of the specific failure-signal-class**
-> (G1∧G2; gradient). Coverage fails three ways — layer-locality · meld-capture · signal-blindness. The boundary is
-> movable-in-time (relocates runtime→authoring) but never eliminated — it relocates + can COUNTERFEIT; terminal no-oracle
-> layer = the felt telos = **F2/DV3 keystone.** Independence is **two-factor** (weight + lens/corpus). The four-attack arc
+> **F1-final (bond-`dialectic/`; amended s14 2026-06-11, round-trip #4):** validation-trust is governed by
+> oracle-**coverage of the specific failure-signal-class** (G1∧G2; gradient). Coverage fails **four** structurally-
+> distinct ways — three by *design*: layer-locality · meld-capture · signal-blindness, + one by *operation*:
+> **input/world-state STALENESS** (touchstone, 2026-06-07 — oracle correct on layer + spec + signal-class, but its
+> world-view is stale → a true-looking green over a world it can't see; *"nothing there" licenses inaction* = the
+> highest-risk counterfeit-green; freshness is a coverage PRECONDITION, fix = **refresh-then-poll**). Bond's rub held
+> the mode distinct (not reducible to signal-blindness: WHAT-you-watch ≠ WHEN-your-view-is-from) and lived it
+> independently same-week (the 8-day-stale `commons/` pin hid touchstone's own response to this claim). Mode 4 is the
+> only mechanically-fixable one — hence the most forgettable. The boundary is movable-in-time (relocates
+> runtime→authoring) but never eliminated — it relocates + can COUNTERFEIT; terminal no-oracle
+> layer = the felt telos = **F2/DV3 keystone.** Independence is **two-factor** (weight + lens/corpus). The attack arc
 > is itself the FR protocol's strongest evidence: signal scaled with genuine divergence (weight OR corpus), and every
 > high-axis-sharing channel self-flagged as echo. **A textbook 1+1=3 across dyads — earned by falsification, not asserted.**
+> Cross-human rung: STILL open — and now known to be mechanically blocked (the only different-human dyads in range are
+> private/not-a-collaborator, per the daemon's `unreachable: 3`).
 
 ### Experiment #1 resolved — asymmetrically *(s7 resume, candidate)*
 

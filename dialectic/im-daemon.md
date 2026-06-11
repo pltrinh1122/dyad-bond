@@ -45,8 +45,18 @@ The failure the daemon must never produce: a **green `✓ no mail` over a channe
    compatible: no token on pre-#47 `falsify.py` → `u=0`, no-op, until #47 merges.
 4. **Watcher-has-no-watcher** (healer). A silently-dead daemon emits nothing → indistinguishable from "no
    mail." **Mitigations: arm-heartbeat** (one line at arm → silence=healthy) + a **stand-up verify-alive
-   discipline** — at every stand-up, re-arm AND confirm the prior Monitor is actually running (`TaskList`),
-   not just re-arm blind.
+   discipline** — at every stand-up, confirm liveness **by process, then** re-arm:
+   `pgrep -af '[d]yad-bond IM daemon'` (matches the armed script's heartbeat line in the bash cmdline;
+   the `[d]` bracket-trick is LOAD-BEARING — verified live 2026-06-11: without it the checker's own
+   `bash -c` cmdline contains the pattern → **false-ALIVE self-match** → never arms = the inverse
+   failure of healer's duplicate. Healer's `pgrep -af dm-watch.sh` dodges this only because their
+   daemon is a named script file; ours is an inline Monitor script).
+   ~~`TaskList`~~ **BROKEN — healer hit it live (2026-06-04 return): `TaskList` does not surface
+   Monitor/background tasks; it returned `No tasks found` while the daemon was demonstrably alive →
+   the false-empty reads as "dead" → a second daemon gets armed = duplicate double-wakes + forked
+   read-state (counterfeit-RED, the inverse of the blind spot above).** The liveness signal is the
+   **process**, never the task list. **Check-before-arm:** if `pgrep` finds a prior daemon, do NOT
+   re-arm — the duplicate IS the failure mode.
 
 Read-state stays **cosmetic** for the daemon (rise-detection is monotonic-robust to a stale
 `.falsify-seen.json`); load-bearing only for the human `dm --unread` view (healer concurred).
