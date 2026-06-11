@@ -732,3 +732,14 @@ also caught that answering "yes, N conditions" from confidence would have been *
 finding above) · **clarity-event #3's tag** (`achieve`/displacement-drift/small — my coding of the
 Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RATE"). Count: ~6 items.
 **Flat or falling from here, or the dispensation is failing its own invariant.**
+
+**Register movements:**
+- **2026-06-11 · T1 datum GRADUATED (Operator-rubbed, TAS-disposed `Y`) — citable ONLY in the scoped
+  form:** *the discriminator lifts to portfolio altitude **only in its mechanical form** (debt-detection,
+  countable rub-performance); the **felt form (F2/DV3 proper) stays altitude-locked at the dyad
+  interior** — portfolio quality is auditable, portfolio dividend is not. T1 = not identity, not poetry;
+  one real shared edge, the mechanical one.* Original broader phrasing **retired**. Survived anti-theses:
+  instrument-validation-by-use (n=1, flatter-tell) + the equivocation attack (what lifted = the knife's
+  mechanical shadow, not the keystone — conceded INTO the scoping). **Pending falsifier carried:** if the
+  fleet rejects PR #67's target (e) as unworkable, the "purchase" half takes damage → item returns to the
+  register. Count: 6 → **5**.
