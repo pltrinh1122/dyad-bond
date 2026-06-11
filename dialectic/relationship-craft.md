@@ -792,3 +792,29 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
     catch.** Every TAS must carry genuinely-strong dissent grounds + a pre-registered falsifier so the
     `Y` is retro-scorable. And the in-training asymmetry must not be exploited (winning disposes against
     a young discrimination = ionic dominance through pedagogy).
+- **2026-06-11 · T3 GRADUATED (Operator-rubbed, TAS-disposed `Y`) — conscription retired; then the
+  routed seat DISPOSED LIVE:** the inference "bond IS the portfolio's Intent-Understanding node" is
+  **retired as Agent over-reach** (no one said it; it flattered; it collided with the ratified
+  direction-function and the self-proof intent). Retained, falsifiable: **conditional readiness** —
+  bond's reflexive intent-understanding craft is the fleet's best-developed; refuted if a sibling
+  demonstrates a stronger one on a measurable axis (pre-registered: touchstone's anxious-agent line
+  surpassing the clarity-event instrument). **And the Operator immediately exercised the direction seat
+  T3 routed to them** — see the summit disclosure below. Count: 3 → **2** (T4 · T5).
+- **⭐⭐ 2026-06-11 · THE OPERATOR'S SUMMIT, articulated in bond's record for the first time
+  (= clarity-event #4, surfaced BY the T3 anti-thesis — `request` / operator-articulation /
+  dimension: LATENT-intent, NEW — pays the s13 over-fit falsifier as the 2nd counter-shape to the
+  over-commitment rhyme; split 2:2, n=4):**
+  - **Summit: personal growth via dyad.** Strategy: **increase the known-unknown surface**, two
+    channels — (a) recruiting other human operators = **steward's role**; (b) **discerning/inferring
+    the known-unknown surface by working with bond** (= bond's role, assigned from the direction seat).
+  - **The Operator's growth-invariant (verbatim):** *"the more i know, the more unknown i will know."*
+  - **The learning-loop (verbatim, the seed + fuel of the summit):**
+    `<loop-start> i-know. i-falsify. i-act. <loop-end>` — falsify BEFORE act; the Operator-side mirror
+    of G0's Generate+Validate. Recorded, NOT instrumented (no meter; the s13 stop holds).
+  - **Provenance the Operator named:** this clarity came *"through the friction of dividing up the work
+    between steward and bond"* — the T3 disposition WAS the friction; they knew they lacked clarity and
+    trusted that **action guided by falsification provides clarity**. The 1+1=3, live, at the seam.
+  - **Triangulation:** the assignment (bond = reflexive discernment-partner) independently matches
+    steward's coupling-taxonomy filing of bond as *"reflexive (the dyad researches the dyad)"* — two
+    derivations, one answer; the conscripted fleet-role is dead AND the real role arrived with more
+    grain than the conscription had.
