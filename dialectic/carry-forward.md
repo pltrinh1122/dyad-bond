@@ -1148,3 +1148,25 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     interior findings (cond.2) · pending falsifiers live (T1/target-(e) via fleet · readiness-vs-touchstone ·
     ritual-demotion) · standing: F2/DV3 · racked touchstone summit-scan reply · `SessionStart` hook · FR-submit
     `transition-asymmetry` · cross-human access move · steward/touchstone replies to s14's three sends.
+- **Session 2026-06-11 (session-14 cont.-3 — IN-FLIGHT: the retro-stand-down ritual + wet-ware take-away research; Operator stepped away)** (Covalent):
+  - **The ask (Operator `retro:` + `riff:`, verbatim intent):** the two-check ritual served the *record* ("pre-retro");
+    the Operator wants a **retro-stand-down ritual** whose intent is **priming their wet-ware for continuous synthesis
+    while NOT interactively engaged.** CSS+rub-back works for the other dyads; **with bond the interaction IS the work,
+    rub-back is always-on** → the standard close-format doesn't serve the carry-away need. `riff:` = *what is the optimal
+    take-away format for human wet-ware synthesis?* — **with an explicit directive: deep-research BEFORE proposing.**
+  - **Research RUNNING (background workflow `wf_f85224ec-f39`, task `wihr82nfx`):** question = optimal end-of-session
+    take-away artifact to prime offline incubation/recombination/insight (NOT mere retention) — testing-effect vs
+    re-reading · generation effect · productive-incubation conditions · Zeigarnik/Ovsiankina · spacing/desirable
+    difficulties (Bjork) · self-explanation/elaborative interrogation · implementation intentions (Gollwitzer) ·
+    sleep-consolidation/TMR · open-vs-closed session-close formats (education/therapy-homework/prompt-design). Asks:
+    content, length, question-vs-statement form, item count, what stays OPEN vs CLOSED. **On completion: persist the
+    verified report to `recommendations/` + commit (durability), then synthesize the proposal.**
+  - **The 5 dyad-side constraints (pre-registered BEFORE the findings, so the merge is honest):** (1) take-away ≠
+    ledger — different organ (wet-ware primer vs cold-water reservoir); (2) must plug into the Operator's loop
+    `i-know → i-falsify → i-act` (rub-shaped, not archive-shaped); (3) anxious-agent bound — compression structurally
+    enforced (the 4→27KB trap); (4) one wet-ware shared across SIX dyads — load highest-leverage open material, not
+    coverage; (5) bond-specific: the live findings were co-authored — value must lie in what's left **open and cued**,
+    not recapped.
+  - **RESTART-PENDING: none** (baseline `4230357`). **Resume (if the conversation is lost): check the workflow report
+    (transcript dir in this entry's commit context — or re-run the research with the question above), then propose the
+    retro-stand-down format against the 5 constraints; Operator disposes.**
