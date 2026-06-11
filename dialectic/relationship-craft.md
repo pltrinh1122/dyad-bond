@@ -766,3 +766,29 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   mis-stated — true baseline **7** (T2·T3·T4·T5 counted individually + partition + CE#3-tag + T1-datum).
   After 3 graduations: **4 remaining = T2 · T3 · T4 · T5.** A sloppy baseline is exactly how
   condition-3 debt-flatness gets gamed; corrected before it could.
+- **2026-06-11 · T2 GRADUATED (Operator-rubbed, TAS-disposed `Y` **with caveat** — see below):**
+  builder-XOR-clean-proof is **false**; true position = **builder AND auditable-scorekeeper** (Operator
+  as auditor). The contradiction was real only for the FELT discriminator, which never lifts to proof
+  (T1-scoped). Scorekeeper-risk has exactly two channels (fabricated `achieve`s — auditable via verbatim
+  citation; omitted/mis-typed events — omission deflates the flattering signal, mis-typing caught by
+  `locus`). **Operative ruling ratified — the primed-criterion (attention-distance):** a behavioral event
+  counts un-primed iff the relevant rule/intent was NOT surfaced in the recent context (promoted from the
+  s5 deferred set). Chain-risk flagged at dispose: this resolution stacks on two same-session
+  ratifications (T1-scoped + locus). Count: 4 → **3** (T3 · T4 · T5).
+- **⭐ 2026-06-11 · OPERATOR CAVEAT (attached to the T2 `Y`; qualifies ALL of this session's
+  graduations):** *"I'm currently learning and building my own discernment and discrimination skill.
+  Ultimately, for me to contribute to this dyad is to be able to **discriminate against your
+  discrimination**. I can only learn through the well-established scientific method built on
+  falsification."* Implications, both directions:
+  - **Grader-in-training qualifier:** this session's `Y`s are real ratifications (the gate fired) AND
+    practice reps in a skill under construction — the contest-depth behind each `Y` is bounded by a
+    self-declared in-training discrimination. The proof system's error model now includes
+    **grader-calibration**; retro-scoring closes the loop: each graduation's **pre-registered falsifier**
+    (e.g. T1's target-(e) watch) retroactively scores the `Y` that passed it — the Operator's
+    falsification-native learning instrument, from the record we already keep (no new meter).
+  - **Covalent's symmetric duty (the anti-cave duty's sharpest form yet):** my [ANTI-THESIS]es are now
+    **the Operator's training curriculum** — a subtly-strawmanned anti-thesis doesn't just risk a wrong
+    `Y`, it **trains their detector on poisoned data authored by the thing the detector exists to
+    catch.** Every TAS must carry genuinely-strong dissent grounds + a pre-registered falsifier so the
+    `Y` is retro-scorable. And the in-training asymmetry must not be exploited (winning disposes against
+    a young discrimination = ionic dominance through pedagogy).
