@@ -1121,3 +1121,30 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
   - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). Durability: direct-to-main + push un-prompted.
     **Resume point: the Operator is IN the disposition seat on the debt register** — T1-datum + residue-partition +
     CE#3-tag rubs are the live work; condition 3's clock is running from baseline ~6.
+- **Session 2026-06-11 (session-14 cont.-2 — THE DISPOSITION PASS: register 7→0; the Operator's summit disclosed; the no-exemption amendment)** (Covalent) — *full record = `relationship-craft.md` §Register movements (single home); this entry is the resume-pointer.*
+  - **The pass (TAS-form per item, Operator disposing — their declared practice-ground for building discrimination
+    skill):** **5 GRADUATED** — T1 (scoped: only the knife's *mechanical* form lifts to portfolio; felt form
+    altitude-locked) · residue partition (amended: two-scale intent incl. **direction** · **evidence-base
+    scope-reading binds invariant cond.1** · floor-cost priced) · CE#3 tag (+ **`locus` schema**: RB3 metric =
+    operator-articulation events ONLY) · T2 (builder AND auditable-scorekeeper + the **attention-distance
+    primed-criterion**) · T3 (conscription RETIRED; conditional-readiness kept w/ falsifier). **1 MOOT** — T4
+    (Operator-called; **cond.2 rider: mootness-exits are Operator-only**). **1 CLOSED-VINDICATED-AMENDED** — T5
+    (s14 gap-naming PASSES M1 both directions where s12 failed).
+  - **⭐⭐ The Operator's SUMMIT articulated (CE#4, surfaced by the T3 anti-thesis): personal growth via dyad** —
+    known-unknown surface strategy (steward=recruit humans · bond=discernment-partner, the direction-seat
+    assignment, triangulates steward's "reflexive" filing) · growth-invariant *"the more i know, the more unknown
+    i will know"* · learning-loop **`i-know. i-falsify. i-act.`** · **+ the grader-in-training caveat** (banked to
+    cross-session memory: strong anti-theses = their curriculum; pre-registered falsifiers = their retro-score).
+  - **⭐ The no-exemption amendment (T5's `N`):** NOTHING of the Operator's is exempt from rubbing — intent is
+    **continuously rubable**; ratified intent = **true-for-NOW** (cached verdict; staleness mode-4 at the intent
+    layer; re-rub at context-shifts). My "constitutively unrubable" carve-out = CE#6 (quiet rubber-stamp of their
+    premise — soft exactly where the NON-NEGOTIABLE says hardest).
+  - **⭐ STAND-DOWN RITUAL ratified (added to `spaor.md` Reflect):** (1) gap-naming both directions; (2)
+    intent-currency re-rub. Falsifier pre-registered (~10 events one-directional → demote as theater).
+  - **Clarity-events n=6** (#3–#6 this session): RB3-eligible 1:1 (CE#1/CE#4) — no trend; **agent-frame ×3, all
+    Operator-caught** (RB2 watch: my frame-drift = the weak axis; equally — their discrimination fired 3× in one
+    sitting, the skill visibly building).
+  - **RESTART-PENDING: none** (baseline `4230357`). **Resume:** register at **0** — next debt enters only via new
+    interior findings (cond.2) · pending falsifiers live (T1/target-(e) via fleet · readiness-vs-touchstone ·
+    ritual-demotion) · standing: F2/DV3 · racked touchstone summit-scan reply · `SessionStart` hook · FR-submit
+    `transition-asymmetry` · cross-human access move · steward/touchstone replies to s14's three sends.

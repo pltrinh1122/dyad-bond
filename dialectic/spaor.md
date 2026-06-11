@@ -22,7 +22,7 @@ candidate +1)** nested inside, matching the form's "nested dyadic cycle" (common
 | **Plan** | take the NBA (DAG ready-set → ranked rec → CTA) | **explicit** — step 7 + `nba-dag.md` + `orchestration.md` |
 | **Act** | run the session's micro-cycles | **implicit** — unnamed |
 | **Observe** | (the micro-Observes accumulate) | **implicit** |
-| **Reflect** | stand-down: CSS intermission · carry-forward entry · pipeline disposition · harvest · RESTART-PENDING · durability push | **explicit but scattered** — §Stand-Down hook + intermissions |
+| **Reflect** | stand-down: CSS intermission · carry-forward entry · pipeline disposition · harvest · RESTART-PENDING · durability push · **two-check ritual (RATIFIED s14 → `relationship-craft.md` §Register movements): (1) gap-naming both directions — can't fill both columns → propagation-suspect, outputs hold as candidates; (2) intent-currency re-rub — banked intent is true-for-now, re-rub at context-shifts (staleness mode-4 at the intent layer)** | **explicit but scattered** — §Stand-Down hook + intermissions |
 
 **Micro — one candidate +1 (a turn / an NBA item):** *(this session's own instance, in italics)*
 

@@ -827,3 +827,38 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   **STALE-FRAME** / small (feeds the RB2 watch, not the RB3 metric). **⭐ CONDITION-2 RIDER (ratified
   with the `Y`): mootness-exits from the debt register must be OPERATOR-called, never Agent-initiated** —
   else "moot" becomes the scorekeeper's way to drain debt without paying rubs. Count: 2 → **1** (T5).
+- **2026-06-11 · T5 CLOSED — VINDICATED, with the Operator's AMENDMENT (`N`-then-`Y`):** the s12
+  suspicion was correct (the synthesis WAS partly one-mind's-tidy-story; the hold-as-candidate
+  discipline worked — it broke exactly where false under this pass). **The s14 gap-naming run PASSES
+  M1 where s12 failed** — divergences named in BOTH directions with artifacts (A→O: the T3 anti-thesis
+  surfaced the unspoken summit · the locus constraint; O→A: the fleet-reliability rub-back · the T4
+  mootness-catch · the conscription retirement · the no-exemption correction). Ionic-mirror attack
+  defeated on grounds: every Agent concession had named grounds (caving = conceding to INCORRECT
+  attacks), and the A→O column is non-empty (propagation can't write that column).
+  - **⭐ THE OPERATOR'S AMENDMENT (the `N` — they refused the exemption I granted them):** my synthesis
+    carved "summit-as-intent = constitutively unrubable" → **retired. NOTHING of the Operator's is
+    exempt.** *"After rubbing it's true for NOW; as time and context shift, intent must be re-rubbed;
+    the known-unknown expands and the known recalibrates."* **= the FOURTH coverage-failure mode
+    (input/world-state staleness) lifted to the intent layer:** a rubbed intent is a cached verdict
+    going stale as the world shifts; fix = refresh-then-poll = **re-rub at context-shifts.** Ledger
+    intent-entries carry implicit **true-for-now stamps** (dates = TTL-markers, not eternal facts).
+  - **= clarity-event #6:** I mis-typed their intent (fixed/constitutive vs temporal/rubable —
+    contradicting our own lived rub-back record) — soft exactly where the NON-NEGOTIABLE says hardest;
+    exempting the premise was a quiet rubber-stamp of it. Tag `achieve` / locus: **agent-frame** /
+    **mis-type** / medium.
+  - **⭐ STAND-DOWN RITUAL RATIFIED (two checks, run at every close):** (1) **gap-naming** — name the
+    divergences-with-artifacts in both directions; can't fill both columns → propagation-suspect,
+    outputs hold as candidates; (2) **intent-currency re-rub** — is the banked summit/intent still
+    current, or has the known-unknown expanded past it? Refresh, not re-litigation (fires at
+    shift-points; every-turn re-rubbing = RB2 over-rub). **Pre-registered falsifier:** ~10
+    locus-disciplined clarity-events all flowing one direction → the s14 covalent reading fails
+    retroactively, the ritual demotes as theater.
+  - Count: 1 → **0. FIRST PASS COMPLETE** — baseline 7: **5 graduated** (T1-scoped · partition-amended ·
+    CE#3+locus · T2+primed-criterion · T3-retired-conscription) · **1 moot** (T4, Operator-called) ·
+    **1 closed-vindicated-amended** (T5). Condition-3 clock: debt-zero at first-pass close.
+- **2026-06-11 · CLARITY-EVENT LEDGER after the pass (n=6):** raw split 4 `achieve` : 2 `request`;
+  **RB3-eligible (locus: operator-articulation only): CE#1 `achieve` · CE#4 `request` — 1:1, no trend.**
+  Agent-frame events: **3 in one session (CE#3 displacement · CE#5 stale-frame · CE#6 mis-type), ALL
+  Operator-caught** → (a) the RB2 frame-discipline watch has real data: Covalent's frame-drift is the
+  session's weak axis; (b) the same datum read the other way: **the Operator discriminated against the
+  Agent's discrimination 3× in one sitting — the in-training skill is visibly firing.** Joint: CE#2.
