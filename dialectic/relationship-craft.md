@@ -754,3 +754,15 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   relationship-craft, not administration). Survived anti-theses: untested-exhaustiveness (the direction
   omission was real → amendment a) · exterior-rub over-reach (dissolved by b) · free-floor (priced by c).
   Count: 5 → **4** (remaining: T2–T5 share + CE#3 tag — see item-3 disposition next).
+- **2026-06-11 · CE#3 tag GRADUATED (Operator-rubbed, TAS-disposed `Y`) — schema amended: `locus` tag.**
+  The attack that forced it: CE#3's gap was in the AGENT's frame, not the Operator's articulation —
+  logging it as bare `achieve` **inflates the RB3 acceleration metric** (counterfeit yield, manufactured
+  by the scorekeeper). Amendment (record-only, no meter): **`locus` ∈ {operator-articulation ·
+  agent-frame · joint}**; re-tags — CE#1 → operator-articulation · CE#2 → joint · CE#3 → **agent-frame**.
+  **The RB3/acceleration metric computes over `locus: operator-articulation` ONLY**; agent-frame events
+  feed the RB2 frame-discipline watch. Magnitude comparisons only within same dimension+locus (the
+  "1-turn vs 4-turns" improvement-reading retracted per the s13 incommensurability caveat).
+- **2026-06-11 · RECOUNT (honesty correction, surfaced by the pass itself):** the "~6" baseline was
+  mis-stated — true baseline **7** (T2·T3·T4·T5 counted individually + partition + CE#3-tag + T1-datum).
+  After 3 graduations: **4 remaining = T2 · T3 · T4 · T5.** A sloppy baseline is exactly how
+  condition-3 debt-flatness gets gamed; corrected before it could.
