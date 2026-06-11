@@ -743,3 +743,14 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   mechanical shadow, not the keystone — conceded INTO the scoping). **Pending falsifier carried:** if the
   fleet rejects PR #67's target (e) as unworkable, the "purchase" half takes damage → item returns to the
   register. Count: 6 → **5**.
+- **2026-06-11 · residue partition GRADUATED (Operator-rubbed, TAS-disposed `Y`) — as AMENDED (3):**
+  (a) **function 2 widened to intent-at-two-scales** — utterance-scale (clarification) AND
+  session/phase-scale (**direction**; the s10 "decide the phase" act — pointing the dyad can't transfer
+  without Agent-set telos = drift); (b) **⭐ SCOPE-READING, binds invariant condition 1:** interior-class
+  membership is determined by the **EVIDENCE BASE, not the claim's address** — a telos-alignment question
+  about exterior work is interior-evidenced (the evidence is the Operator's intent) → IN scope. Recorded
+  here so condition 1 can't be lawyered later; (c) **the floor's cost named:** visibility = a small
+  recurring read-cost, booked AS interaction-model work (reading the ledger against drift is
+  relationship-craft, not administration). Survived anti-theses: untested-exhaustiveness (the direction
+  omission was real → amendment a) · exterior-rub over-reach (dissolved by b) · free-floor (priced by c).
+  Count: 5 → **4** (remaining: T2–T5 share + CE#3 tag — see item-3 disposition next).
