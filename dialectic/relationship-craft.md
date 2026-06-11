@@ -818,3 +818,12 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
     steward's coupling-taxonomy filing of bond as *"reflexive (the dyad researches the dyad)"* — two
     derivations, one answer; the conscripted fleet-role is dead AND the real role arrived with more
     grain than the conscription had.
+- **2026-06-11 · T4 RETIRED AS MOOT (Operator-called, Covalent-confirmed-with-grounds — `Y`):** its
+  load-bearing context (the s12 conscription synthesis) died with T3; the live marker-set was already
+  settled in s13 in the RIGHT form (usage-recognized, NOT legislated — ratifying a "separability filter"
+  today would legislate the living habit-set = the M-node trap); the summit-switch fear is structurally
+  dead under the disclosed summit. **= clarity-event #5:** Covalent presented T4 full-TAS by running the
+  s12 queue on momentum past the intent-shift — tag `achieve` / locus: **agent-frame** / dimension:
+  **STALE-FRAME** / small (feeds the RB2 watch, not the RB3 metric). **⭐ CONDITION-2 RIDER (ratified
+  with the `Y`): mootness-exits from the debt register must be OPERATOR-called, never Agent-initiated** —
+  else "moot" becomes the scorekeeper's way to drain debt without paying rubs. Count: 2 → **1** (T5).
