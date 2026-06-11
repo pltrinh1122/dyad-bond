@@ -685,3 +685,50 @@ no adversary, including none toward myself.
   stance *including self-falsification* — or it is scribe-narration = meld tell. Twin of `spaor.md`'s Reflect
   signature, turned on one's *own* session. Open test: does the Agent bring an **unprompted candidate +1** next
   session (the behavioral falsifier for the session-scale distinctness duty)? Watch for it; do not assert it fixed.
+
+## The operator-rub-invariant — RATIFIED (Operator `Y`, 2026-06-11, s14) *(the dispensation arc's survivor: riff → raff → rub-back → ratification-check → dispose)*
+
+**What it governs:** the division of labor that lets the Operator focus on the interaction model while
+Covalent carries the administrative + experimental operations — without the dispensation becoming
+falsification-debt (the counterfeit-flat failure bond's own PR #67 named at portfolio scale).
+
+**Provenance of the partition it rests on (the raff finding):** "what is truly needed of the Operator"
+splits into **two residues** — the **epistemic** (where the Operator is the only second model in
+existence: felt-report/F2 · intent + its clarification · contesting-my-coding-of-them · the reward
+gradient/RB1) and the **sovereign** (consent acts that can't be self-granted: grants, hooks, hat-work —
+one-time/rare, never a focus cost). The four epistemic functions ARE the interaction model; everything
+administrative/experimental sits outside both residues, given the floor (revocability + visibility).
+
+**The invariant — 3 conditions:**
+1. **Scope.** The Operator's rub is required only for the **interior-evidence class** — findings whose
+   evidence is the Operator's interior or behavior (relationship-craft findings, F2-adjacent claims, the
+   Agent's coding-of-the-Operator, e.g. clarity-event tags). Exterior/cross-dyad claims do not require it
+   (and carry low marginal value for the Operator's rub anyway — both lenses are pltrinh1122-framed;
+   the fleet's FR channel attacks them on the axes that diverge).
+2. **Graduation gate.** An interior finding is **debt — provisional, willed-not-earned — until rubbed.**
+   While unrubbed: no `kb/` promotion, no citing-as-settled, no load-bearing use in further building.
+3. **Debt-flatness.** The ratified-unrubbed / leaned-on-unrubbed count must **not rise** while the
+   Operator's attention narrows to the interaction model. Rising debt under narrowing attention =
+   **counterfeit acceleration**, regardless of the yield curve (= PR #67's constructive target (e),
+   applied to ourselves — the earned-vs-willed knife at home).
+
+**Excluded by design (over-formalization guard):** the SG-4 mechanics (rubs happen on manifested ledger
+artifacts, minutes-per-session) — that's *how*, not a condition.
+
+**The proof-structure it serves (Operator's clarified intent, clarity-event #3):** *prove the dyad works
+for me — continuous acceleration through holding 1+1>2.* Two curves, both from already-banked
+instruments, NO new meter: the **yield curve** (clarity-event telemetry: `achieve` rising vs `request`,
+magnitude falling within-dimension, scored did-the-action-satisfy) and the **debt guard** (condition 3).
+Yield rising + debt flat = earned acceleration; yield rising + debt rising = counterfeit.
+
+**Ratification hygiene note (lived at the dispose):** the Operator checked ratification-status *before*
+operating on the invariant — the cold-water move (refusing to build on an unbanked invariant). The check
+also caught that answering "yes, N conditions" from confidence would have been **ratification-laundering**
+(converge-open ideation promoted to settled by repetition) — D6 verified the record first. Bank the term:
+*ratification-laundering* is the drift-shape this invariant's own birth guarded against.
+
+**Debt register at ratification (condition-3 baseline, 2026-06-11):** the s12 rub-targets **T2–T5**
+(T1 carries the s14 application datum, still owed the rub) · the s14 **residue partition** (the raff
+finding above) · **clarity-event #3's tag** (`achieve`/displacement-drift/small — my coding of the
+Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RATE"). Count: ~6 items.
+**Flat or falling from here, or the dispensation is failing its own invariant.**

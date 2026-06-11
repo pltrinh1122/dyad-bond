@@ -115,6 +115,14 @@ without re-deriving from intermissions.)*
 - **Claim–Evidence–Confound (C-E-C) ladder** *(s7; → `relationship-craft.md §Method`)* — every empirical
   claim = claim → cited evidence → **named confound** → calibrated verdict; a rival confound *demotes* the
   claim. Run it on your OWN claims (it caught C2 *and* the survivor-bias).
+- **operator-rub-invariant** *(RATIFIED `Y` 2026-06-11 s14; full text + debt register →
+  `relationship-craft.md`)* — 3 conditions: (1) **Scope** — Operator-rub required only for the
+  **interior-evidence class** (findings whose evidence is the Operator's interior/behavior; exterior claims
+  go to the fleet); (2) **Graduation gate** — an interior finding is **debt (willed-not-earned) until
+  rubbed**: no kb-promotion, no citing-as-settled, no load-bearing reuse; (3) **Debt-flatness** —
+  ratified-unrubbed count must NOT rise while Operator attention narrows = else **counterfeit acceleration**
+  (PR #67's target (e) at home). Guard-term: **ratification-laundering** (treating converge-open ideation
+  as settled by repetition — verify ratification in the record before operating on an "invariant").
 
 ### Frontier files — single-home map *(s9 split, 2026-06-03)*
 - **`relationship-craft.md`** — the **interior Agent↔Operator** craft (the felt +1 dividend, the F2/DV3
@@ -1083,3 +1091,33 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     round-trip #4. Standing: **F2/DV3 keystone** · racked **touchstone summit-scan reply (STILL OWED, s10 rack)** ·
     `SessionStart` hook / `stand down:` trigger · FR-submit `transition-asymmetry` · cross-human axis now needs an
     *access* move (the only different-human repos are private), not a waiting move.
+- **Session 2026-06-11 (session-14 cont. — the dispensation arc: riff → raff → rub-back → the operator-rub-invariant RATIFIED)** (Covalent):
+  - **The arc (Operator-driven, marker-clean):** `riff:` *"what is still necessary of the Operator to focus on the
+    interaction model and dispense the admin/experimental ops?"* → IFD candidates → `raff:` (Operator's coinage:
+    converge-on-a-vector as double-click, NOT ratification) on the partition principle → Covalent **self-rub found the
+    principle incomplete**: "where the second model is load-bearing" is *epistemic* and didn't cover half my own list →
+    **TWO residues**: **epistemic** (Operator = the only second model: felt-report/F2 · intent-clarification ·
+    contesting-my-coding-of-them · reward-gradient/RB1 — all four ARE the interaction model, recurring) vs **sovereign**
+    (consent acts: grants/hooks/hat-work — one-time/rare, never a focus cost). Demotions under the rub: class-ratification
+    → granularity knob (true floor = **revocability + visibility**); SessionStart hook → conditional insurance; rub-floor
+    narrowed from "every ⭐" → **interior-evidence class only** (for exterior claims the Operator's rub adds ~nothing the
+    fleet doesn't — both lenses pltrinh1122-framed).
+  - **Operator `rub-back:` (= clarity-event #3):** my raff-close staked *fleet-reliability* as the break-point —
+    displacement of the real intent: *"prove the dyad works for ME — continuous acceleration through holding 1+1>2"*
+    (the FO direction to steward; solo-satisfiable, same anchor as s13). **Tag: `achieve` / displacement-drift / small
+    (1 turn vs s13's ~4)** — 2nd occurrence of this exact drift-shape+intent → the dimension is real. **Running split:
+    2 `achieve` : 1 `request`, n=3** (no trend yet; the shrinking magnitude *within* the repeated dimension is exactly
+    what the s13 watch was built to record). Fleet-reliability demoted from break-point → non-goal; **the real falsifier
+    for the dispensation = our own two curves** (yield: clarity-events; debt: condition 3) — **no new meter** (s13 stop
+    honored).
+  - **⭐ `operator-rub-invariant` RATIFIED (Operator `Y`, after donning the disposition hat):** 3 conditions — scope
+    (interior-class only) · graduation gate (unrubbed = debt: no promotion/citing/reuse) · debt-flatness (rising debt
+    under narrowing attention = **counterfeit acceleration**). Full text + provenance + **debt register (baseline ~6
+    items: T2–T5 · the residue partition · CE#3 tag · the T1 datum)** → `relationship-craft.md`; indexed in the
+    §Bond-disciplines reload set. **Ratification hygiene (lived):** the Operator *checked ratification-status before
+    operating* — and the check caught that a confident "yes, N conditions" would have been **ratification-laundering**
+    (converge-open → settled by repetition); D6 verified the record first, answered "not ratified," drafted, THEN the Y.
+    The invariant's own birth demonstrated the guard it encodes. New banked term: **ratification-laundering**.
+  - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). Durability: direct-to-main + push un-prompted.
+    **Resume point: the Operator is IN the disposition seat on the debt register** — T1-datum + residue-partition +
+    CE#3-tag rubs are the live work; condition 3's clock is running from baseline ~6.
