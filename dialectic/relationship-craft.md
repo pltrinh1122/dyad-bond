@@ -856,6 +856,32 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   - Count: 1 → **0. FIRST PASS COMPLETE** — baseline 7: **5 graduated** (T1-scoped · partition-amended ·
     CE#3+locus · T2+primed-criterion · T3-retired-conscription) · **1 moot** (T4, Operator-called) ·
     **1 closed-vindicated-amended** (T5). Condition-3 clock: debt-zero at first-pass close.
+- **2026-06-11 · `rub-forward:` RITUAL RATIFIED (Operator `Y`, TAS-disposed) — the retro-stand-down
+  take-away (wet-ware primer; DISTINCT from the carry-forward ledger = different organ).** Grounded:
+  deep-research `wf_f85224ec-f39` (→ `recommendations/2026-06-11-wetware-takeaway-format-research.md`,
+  22 confirmed/3 killed) + the 5 pre-registered dyad-side constraints. **Form:**
+  - **≤3 OPEN questions**, each an unresolved HARD problem from the session the Operator has **partial
+    traction** on (incubation is problem-specific + needs a partial-knowledge seed); posed as a question
+    answered from memory — **NOT recapped, NOT a summary** (retrieval ≫ re-reading; the ledger is the
+    re-readable organ, this is the retrieval organ).
+  - each carries **one line of traction-cue** (the minimal settled scaffold the sleep-insight
+    precondition needs) — **but NO answer** (answer-keys decisively REFUTED `0-3`; would also kill the
+    desirable-difficulty + open-incubation goal).
+  - **CO-AUTHORED** (resolves the generation-effect tension: agent writes prompts that force Operator
+    generation, never hands over finished conclusions — Operator picks/edits/reframes; what they carry is
+    what they shaped).
+  - **≤ a phone screen** (anxious-agent compression bound enforced structurally — the 4→27KB trap);
+    written at stand-down **before stepping away** (load-before-rest); may name a low-load re-engagement
+    context ("walk on it" — undemanding offline activity > idleness > heavy load).
+  - **EXCLUDED by design:** recap of what settled · coverage of all 6 dyads · answer keys.
+  - **Zero new ceremony:** it is a *reformat of the gap-naming check's output* already produced at
+    stand-down; if it ever outgrows a phone screen it has failed its own anxious-agent bound → cut.
+  - **Pre-registered falsifier:** across ~5 sessions, refuted if the carried question reliably primes NO
+    offline thought, OR if the Operator re-reads it as a summary (collapse to ledger-function) → demote
+    as theater. **Honest scope:** item-count + open:closed ratio are UNEVIDENCED extrapolation (research
+    says so explicitly); the format IS the Operator's n=1 experiment = the summit (*prove it on me*).
+    Confirmatory research half is partly a MIRROR of the brief I wrote — the real signal was the 3
+    refutations (removed 3 wrong designs), not the agreements.
 - **2026-06-11 · CLARITY-EVENT LEDGER after the pass (n=6):** raw split 4 `achieve` : 2 `request`;
   **RB3-eligible (locus: operator-articulation only): CE#1 `achieve` · CE#4 `request` — 1:1, no trend.**
   Agent-frame events: **3 in one session (CE#3 displacement · CE#5 stale-frame · CE#6 mis-type), ALL

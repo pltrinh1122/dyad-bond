@@ -1170,3 +1170,13 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
   - **RESTART-PENDING: none** (baseline `4230357`). **Resume (if the conversation is lost): check the workflow report
     (transcript dir in this entry's commit context — or re-run the research with the question above), then propose the
     retro-stand-down format against the 5 constraints; Operator disposes.**
+  - **➤ RESOLVED same session (research completed + ritual ratified):** deep-research finished (105 agents, 23 sources,
+    **22 confirmed / 3 killed**) → persisted durable to `recommendations/2026-06-11-wetware-takeaway-format-research.md`.
+    **`rub-forward:` ritual RATIFIED** (Operator `Y`, TAS) as the retro-stand-down take-away — full form +
+    pre-registered falsifier → `relationship-craft.md`; added as **stand-down Reflect check (3)** in `spaor.md`.
+    Headline: take-away = ≤3 CO-AUTHORED open questions on unresolved hard problems w/ partial traction, NO answers,
+    ≤phone-screen, wet-ware primer DISTINCT from the ledger. The 3 refutations (no answer-keys · recall≯recognition ·
+    no delay-amplification) were the real signal (the confirmatory half partly mirrors the brief I wrote). **Resume
+    note (workflow resume gotcha, banked):** `resumeFromRunId` does NOT carry `args` — must re-pass the question
+    verbatim or the script guard fails "no research question provided."
+  - **⤷ FIRST `rub-forward:` card (s14 demonstration — run live below in chat; carried, not re-read).**
