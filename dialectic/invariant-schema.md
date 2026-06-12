@@ -78,10 +78,16 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
-## Boundary invariants + the grounding-graph *(v0.6 — Operator riff: the synthesis — depth-boundary completing v0.5's time-boundary)*
+## Disposed roots + the grounding-graph *(v0.6, renamed v0.6.1 by dialectical-falsification raff — Operator riff: the synthesis — depth-boundary completing v0.5's time-boundary)*
 
-- **Boundary invariants (roots):** the set adjudicated + disposed by the OPERATOR — fiat-class within
-  the system; `boundary: true`, `adjudicated_by: Operator` + currency-stamp. **Exact analogy to the
+- **DISPOSED ROOTS** *(name survived the raff: "boundary roots" falsified — term triple-booked + mixed
+  geometry; "fiat roots" falsified — erases earned provenance (C1 is scar-FORGED) + over-claims uniformity;
+  "axioms/anchors/bedrock/keystones" dead on sacredness/collision/no-adjudication)*: the set adjudicated +
+  disposed by the OPERATOR — `root: true`, `adjudicated_by: Operator` + currency-stamp, **typed:
+  `root_kind ∈ {fiat · forged · inherited}`** (mirrors the typed edges; each kind names its re-rub
+  instrument: fiat → intent-currency rub-back · forged → breach-evidence · inherited → upstream
+  form-change). Falsifiers: demote the name if usage misreads "disposed"=discarded (U3); drop `root_kind`
+  if unconsumed (TS-1). **Exact analogy to the
   engine's Class-B input invariants:** the machine's guarantees rest on assumptions it cannot discharge;
   the invariant-system's validity rests on adjudications the Agent cannot make — *the Operator IS the
   system's trust boundary.* Dispensation, third formulation: **the Operator owns the roots of every
