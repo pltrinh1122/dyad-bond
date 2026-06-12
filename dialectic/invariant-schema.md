@@ -41,6 +41,33 @@ re-rub at context-shifts).
 **Deferred candidate-fields** (add only when a consumer demands): supersedes/lineage · ttl/re-rub
 triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/reconciled-by edges.
 
+## Decomposed sub-schema *(v0.2 — Operator rub: decompose until validation is computable, stop before deontic logic)*
+
+| Part | Sub-field | Vocab | Required |
+|---|---|---|---|
+| SCOPE | `actor` | agent · operator · both · any-dyad | ✓ |
+| SCOPE | `trigger` | seam-taxonomy (selection-seam · outward-publish · ratification · anchor-edit · …, grows on demand) | ✓ |
+| SCOPE | `condition` / `exclusions` | free (narrowing only) | — *(a RESCOPE-resolution = add an exclusion: mechanical field-edit)* |
+| PRESCRIPTION | `modality` | MUST · MUST-NOT · ONLY-BY · ONLY-AFTER | ✓ |
+| PRESCRIPTION | `action` (+`object`) | act-class | ✓ |
+| VIOLATION | `observable` | tool-log · diff · ledger-line · transcript-turn · … | ✓ |
+| VIOLATION | `detector` | **hard-oracle · soft-record · other-half-only · unobservable-from-inside** | ✓ |
+| VIOLATION | `breach-example` | lived scar ref | — |
+
+- **Computable semantics:** scope-overlap = actor-compatible ∧ trigger-intersection; opposition = same
+  `action` + clashing `modality`. Conflict-detection → typed near-computation.
+- **Semantic residue CONCENTRATES in trigger-equivalence** (one field, not three blobs) — place-and-bound,
+  never eliminate; the seam-taxonomy is the controlled-vocab squeeze on it.
+- **4th consumer discovered — the enforcement roadmap:** `detector` stratifies the set by enforceability;
+  `hard-oracle`-able rows = the mechanization/CSI-guard queue; the rest are discipline by structure.
+- **Smoke test (3 real invariants):** D6 → ONLY-AFTER source-query / tool-log / hard-able (matches
+  touchstone's racked scanner independently). Op-rub-inv cond-2 → MUST-NOT cite-unrubbed / ledger-line /
+  soft-record. **C1 NON-NEGOTIABLE → ONLY-BY surviving-genuine-falsification / detector:
+  other-half-only/unobservable-from-inside — the schema CORRECTLY refuses to claim the keystone is
+  mechanically validatable** (a decomposition that claimed otherwise would be lying; this one stratifies).
+- **Cost (TS-3):** 6 required sub-fields per invariant = commissioner practice-hours at every
+  ratification — accepted only because conflict-detection is a LIVE experiment, not speculative tooling.
+
 ## Conflict semantics *(what the schema buys the Q3 experiment)*
 
 - **conflict(I₁, I₂)** ≝ scope-overlap ≠ ∅ ∧ prescriptions oppose on the overlap.
