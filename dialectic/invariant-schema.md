@@ -78,6 +78,29 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
+## Form-ladder *(v0.8 — Operator raff: mathematical form as the terminal rung of mechanization)*
+
+- **`form ∈ {slogan · tuple · mathematical}`** — the precision gradient: slogan (`1+1>2`, semantic-only)
+  → tuple (v0.2 decomposition, census-comparable) → **mathematical** (`1·x + 1·y > 2`, arithmetic-
+  evaluable given measurements). Each descent moves validation toward the script row of the physics
+  register. *(The unit coefficients are themselves a covalence claim — `2·x + 0.5·y` would be an ionic
+  bond written in arithmetic; the math form encodes bond-structure, not just precision.)*
+- **Operationalization = the math-form's Class-B:** the mechanical validator validates the INEQUALITY,
+  never the invariant — it trusts its measurement functions as the engine trusts its tags (the
+  place-and-bound law, 4th appearance).
+- **Descent-guard:** form descends only when the operationalization survives its own rub — premature
+  mathematization = counterfeit precision (detector upgraded to hard-oracle by lying about what's
+  measured; the banked scar: tokens/time-to-resolution re-instantiates the anxious-agent trap with
+  mathematical authority).
+- **Goodhart guard:** mathematical invariants enter as **breach-detectors, never objective functions**
+  — measure to alarm, never to maximize (debt-flatness, clarity-counts, record-only/no-meter: already
+  conformant).
+- **Worked stratification (the tenet spans the ladder):** FLOOR descends fully — op-rub-inv condition-3
+  is already lived math (`d(debt)/dt ≤ 0` under narrowing attention, ledger-countable). TARGET resists
+  at the perspectivism hard-bound (s13: single observer; surplus's x,y bottom in the felt dividend) —
+  honest rung = tuple, satisfaction-proxy at best. **One invariant, three forms, each validated by the
+  physics it can actually bear.**
+
 ## Physics register *(v0.7 — Operator rub: the system runs judgments on FOUR logics without declaring so; resolution = DECLARE the physics, never BUILD it)*
 
 | Judgment class | Substrate | Physics | Known failures |
