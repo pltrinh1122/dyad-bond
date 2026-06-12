@@ -78,6 +78,27 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
+## Orthogonality rub *(v0.4 — Operator rub: 3 non-orthogonalities found + 1 walk-back; the triad restated)*
+
+- **Membership triad RESTATED: SCOPE | PRESCRIPTION | OBSERVABILITY** — `violation_condition` was
+  derivable (breach ≝ in-scope act contrary to modality → entailed by the first two); the genuinely
+  independent third axis is epistemic: `observable` + `detector` (how breach is KNOWABLE). The axes are
+  now different KINDS — situational · deontic · epistemic — the signature of true orthogonality.
+- **`trigger`⟂`action` normalization rule:** trigger = coarsest seam-taxonomy token, may NEVER contain
+  the regulated act; act-bound prohibitions derive trigger (≝ attempt-context). Else two taggers split
+  the same content across the two fields and the census misses collisions.
+- **`via` field added** (required iff modality ∈ {ONLY-BY, ONLY-AFTER}): the licensed path is neither
+  modality nor action — the smoke test had already forced it into existence undeclared (the
+  NON-NEGOTIABLE's "surviving genuine falsification"). Census use: ONLY-BY collisions = via-paths vs
+  other invariants' actions.
+- **`one_liner` declared denormalized-display:** the tuple is semantics, the one-liner is projection;
+  disagreement = tagging defect (heuristic lint only — accepted residue).
+- **⚠ Walk-back on the pincer-census ✓:** computable over DEONTIC prohibitions only; touchstone's H2
+  was partly VALENCE-scored (grains "scored bad," not MUST-NOT) — valence is out-of-schema → valence-
+  pincers stay G-side (no scored-registry model absent a consumer; TS-1).
+- Survived clean: `status`⟂`detector` (provenance vs epistemics); `actor`~`detector` correlated-by-design
+  (detector values are actor-relative, declared).
+
 ## Tension-pattern annex *(v0.3 — Operator rub: conflict ≠ tension; the strict semantics alone would have missed H1/H2/H5)*
 
 Strict conflict (same `action`, clashing `modality`, overlapping scope) = tuple-comparison →
