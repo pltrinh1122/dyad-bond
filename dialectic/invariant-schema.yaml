@@ -1,0 +1,85 @@
+# dyad-invariant schema — NORMATIVE FOR STRUCTURE (machine-readable rung of the form-ladder)
+# Rationale, provenance, rub-history, and PRACTICE guards live in invariant-schema.md (normative for
+# rationale). On structural conflict: THIS FILE WINS. On meaning: the MD wins.
+# Engine binding: build-time, not runtime (A-3 grammar_version pins; no yaml dependency in the engine).
+schema: dyad-invariant
+schema_version: "0.8"
+fleet_idiom: yaml          # converges with fr.yaml / dag.yaml / theory-pipeline.yaml (D1)
+
+vocabularies:              # controlled — closed unless marked registry
+  status:      [ratified, candidate, inherited, kb, retired]
+  form:        [slogan, tuple, mathematical]
+  settlement:  [candidate, ratified-watch, settled]
+  actor:       [agent, operator, both, any-dyad]
+  modality:    [MUST, MUST-NOT, ONLY-BY, ONLY-AFTER]
+  detector:    [hard-oracle, soft-record, other-half-only, unobservable-from-inside]
+  edge_type:   [derived, serves, inherited]
+  root_kind:   [fiat, forged, inherited]
+  re_rub_trigger: [context-shift, breach-evidence, census-conflict-flag, upstream-form-change]
+  trigger:     # REGISTRY (open, append-only; the seam-taxonomy — the declared semantic-residue field)
+    seed: [selection-seam, outward-publish, ratification, anchor-edit, stand-down, stand-up,
+           uncertainty, candidate-admission, interior-finding]
+
+record:                    # per-invariant constraints (engine VALIDATE stage — all mechanical)
+  required: [id, home, one_liner, status, form, settlement, scope, prescription, observability]
+  fields:
+    id:          {type: string, pattern: "^[a-z0-9-]+:[A-Za-z0-9-]+$", unique: corpus}
+    home:        {type: string}                       # single-home source ref (file or file#anchor)
+    one_liner:   {type: string, max_chars: 300,       # display PROJECTION — tuple wins on disagreement
+                  note: stored-at-ratification-never-regenerated}
+    status:      {enum: status}
+    form:        {enum: form}
+    settlement:  {enum: settlement}
+    re_rub_triggers: {type: list, items: {enum: re_rub_trigger}, required_iff: "settlement != candidate"}
+    root:        {type: bool, default: false}
+    root_kind:   {enum: root_kind, required_iff: "root == true", forbidden_iff: "root == false"}
+    adjudicated: {type: object, required_iff: "root == true",
+                  fields: {by: {const: Operator}, date: {type: date}, currency_note: {type: string}}}
+    grounded_in: {type: list, required_iff: "root == false", forbidden_iff: "root == true",
+                  items: {fields: {ref: {type: id-ref}, edge: {enum: edge_type},
+                                   scar: {type: string, optional: true}}}}  # scar pairs w/ serves-edges
+    scope:
+      fields:
+        actor:      {enum: actor, required: true}
+        trigger:    {enum: trigger, required: true,
+                     lint: must-not-contain-action-token}   # normalization rule (heuristic lint)
+        condition:  {type: string, optional: true}          # narrowing only
+        exclusions: {type: list, optional: true}            # a RESCOPE lands here as a field-edit
+    prescription:
+      fields:
+        action:   {type: string, required: true}            # act-class
+        object:   {type: string, optional: true}
+        modality: {enum: modality, required: true}
+        via:      {type: string, required_iff: "modality in [ONLY-BY, ONLY-AFTER]",
+                   forbidden_iff: "modality in [MUST, MUST-NOT]"}
+    observability:
+      fields:
+        observable:     {type: string, required: true}      # evidence-class
+        detector:       {enum: detector, required: true}
+        breach_example: {type: string, optional: true}      # the lived scar ref
+    math:                                                   # required iff form == mathematical
+      required_iff: "form == mathematical"
+      fields:
+        expression:       {type: string}                    # e.g. "1*x + 1*y > 2"
+        measurements:     {type: list,                      # the math-form's Class-B — DECLARED
+                           items: {fields: {var: {type: string}, operationalized_by: {type: string}}}}
+        use:              {const: breach-detector}          # Goodhart guard — never objective-function
+
+corpus:                    # corpus-level constraints (census/FSM — all mechanical)
+  - id-uniqueness: global
+  - grounding-graph: {acyclic: true, edges-resolve: true,
+                      every-chain-terminates-at: "root == true"}
+  - orphan: "root == false AND grounded_in unresolvable"    # -> flag: boundary-candidate OR ungrounded
+  - census:
+      strict_conflict: "scope-overlap AND same action AND clashing modality"
+      pincer_candidate: "trigger with >=2 prohibitions and 0 affirmative paths (deontic only)"
+      duty_detector_mismatch: "actor==agent AND detector in [other-half-only, unobservable-from-inside]
+                               AND modality==MUST"
+  - staleness: "view sha-pins != source shas -> armed"
+
+not_in_this_file:          # declared residue — PRACTICE invariants, MD-normative, NOT mechanical
+  - trigger-equivalence judgment (G + Operator; engine-stamped)
+  - edge-plausibility / semantic provenance (G rubs, Operator disposes)
+  - descent-guard (operationalization must survive its own rub before form descends)
+  - one_liner semantic fidelity (heuristic lint only)
+  - valence-pincers (no scored-registry model; G-side)

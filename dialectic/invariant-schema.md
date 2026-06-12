@@ -1,5 +1,13 @@
 # Invariant — formal definition + schema *(CANDIDATE, s15 2026-06-12; under falsification)*
 
+> **⚠ NORMATIVE SPLIT (v0.8.1, Operator riff — the schema now eats its own form-ladder):** the
+> machine-readable rung is **`invariant-schema.yaml`** — NORMATIVE FOR STRUCTURE (fields, vocabs,
+> conditional requirements, corpus/census rules; the artifact cairn builds the VALIDATE stage against).
+> THIS file is normative for **rationale** — the definition's meaning, the rub-history, and the
+> PRACTICE guards no YAML can hold (descent-guard, Goodhart, trigger-equivalence). On structural
+> conflict the YAML wins; on meaning, this file wins. *(Until this split, the schema was prose claiming
+> tuple-precision — slogan-form wearing a schema's name; the Operator caught it.)*
+
 > **Provenance:** Operator riff — the extraction stack (engine B-1, views, conflict-detection) operated
 > on an undefined term. Consumers sizing the schema: (1) the extraction engine, (2) the Operator's
 > evaluation view, (3) the super-invariant/rescoping experiment (Q3). **Guard: fields enter only on
