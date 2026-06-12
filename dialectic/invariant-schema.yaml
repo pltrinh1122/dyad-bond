@@ -3,8 +3,15 @@
 # rationale). On structural conflict: THIS FILE WINS. On meaning: the MD wins.
 # Engine binding: build-time, not runtime (A-3 grammar_version pins; no yaml dependency in the engine).
 schema: dyad-invariant
-schema_version: "0.8"
+schema_version: "0.8.2"
 fleet_idiom: yaml          # converges with fr.yaml / dag.yaml / theory-pipeline.yaml (D1)
+
+condition_grammar:         # G1 fix (evaluator-build surfaced: undeclared = consistency hazard at meta-level)
+  # required_iff / forbidden_iff strings MUST parse under EXACTLY this grammar (fail-closed otherwise):
+  #   <field> == <value>   |   <field> != <value>   |   <field> in [<v1>, <v2>, ...]
+  # <value> literals: true/false → bool; else bare string (no quotes, no nesting, no AND/OR — by design:
+  # a condition needing conjunction is a schema smell → restructure the fields instead).
+  reference_implementation: bin/invariant-eval.py#cond_eval
 
 vocabularies:              # controlled — closed unless marked registry
   status:      [ratified, candidate, inherited, kb, retired]

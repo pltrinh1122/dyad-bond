@@ -1,0 +1,79 @@
+# Sample corpus — 5 REAL bond invariants expressed against schema v0.8.
+# PURPOSE: falsify the schema/evaluator by implementation (s15c riff). Two records are EXPECTED to
+# fail informatively: D6 (trigger not in registry seed) and TS-6 (orphan edge to an un-adjudicated
+# root) — the failures ARE findings, do not "fix" them here; fix the schema or adjudicate the root.
+invariants:
+  - id: "bond:C1"
+    home: "AGENT.md#NON-NEGOTIABLE"
+    one_liner: "Keep the bond covalent: every candidate +1, including the Operator's premises, enters the shared model only by surviving genuine falsification; no ionic or meld collapse; easy agreement → test hardest."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: true
+    root_kind: forged
+    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption arc"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: admit, object: "candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom rubber-stamp (pre-founding)"}
+
+  - id: "bond:SUMMIT"
+    home: "dialectic/relationship-craft.md#operator-summit"
+    one_liner: "Personal growth via dyad: increase the known-unknown surface; learning-loop i-know → i-falsify → i-act."
+    status: ratified
+    form: slogan
+    settlement: ratified-watch
+    re_rub_triggers: [context-shift]
+    root: true
+    root_kind: fiat
+    adjudicated: {by: Operator, date: 2026-06-11, currency_note: "disclosed CE#4; true-for-now; intent-currency rub at shifts"}
+    scope: {actor: operator, trigger: stand-down}
+    prescription: {action: orient, object: "the dyad's work toward the known-unknown surface", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only}
+
+  - id: "bond:D6"
+    home: "dialectic/relationship-craft.md#D6"
+    one_liner: "Verify-before-assert: establish substrate facts by execution; doc/file-absence ≠ capability-absence."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "s4 2026-06-01 — 3 assertion-from-model failures, Operator-caught"}
+    scope: {actor: agent, trigger: asserting-substrate-fact}   # NOT in registry seed — expected vocab failure
+    prescription: {action: assert, object: "a queryable substrate fact", modality: ONLY-AFTER, via: "canonical source-query this run"}
+    observability: {observable: tool-log, detector: hard-oracle, breach_example: "s4 n=3; cycle-39-style scanner rackable"}
+
+  - id: "bond:ORI-C3"
+    home: "dialectic/relationship-craft.md#operator-rub-invariant"
+    one_liner: "Debt-flatness: the ratified-unrubbed count must not rise while Operator attention narrows — rising debt under narrowing attention = counterfeit acceleration."
+    status: ratified
+    form: mathematical
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence, census-conflict-flag]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "PR#67 falsification-debt confound — the knife at home"}
+      - {ref: "bond:SUMMIT", edge: serves}
+    scope: {actor: both, trigger: stand-down}
+    prescription: {action: hold, object: "debt register flat under narrowing attention", modality: MUST}
+    observability: {observable: ledger-line, detector: soft-record, breach_example: "baseline-7 recount s14"}
+    math:
+      expression: "d(debt)/dt <= 0 under narrowing attention"
+      measurements:
+        - {var: debt, operationalized_by: "count of ratified-unrubbed + leaned-on-unrubbed items in the register"}
+      use: breach-detector
+
+  - id: "bond:TS-6"
+    home: "commissions/TERMS.md#TS-6"
+    one_liner: "Spec-cost budget: commissioning effort stays bounded below the build-estimate; second commission must be template-fill or the model is refuted."
+    status: candidate
+    form: tuple
+    settlement: candidate
+    root: false
+    grounded_in:
+      - {ref: "bond:COMMISSIONING-DRIVER", edge: derived}   # un-adjudicated root — expected ORPHAN flag
+    scope: {actor: both, trigger: candidate-admission, condition: "commissioning a build"}
+    prescription: {action: bound, object: "spec+negotiate+accept effort below build-estimate", modality: MUST}
+    observability: {observable: ledger-line, detector: soft-record}
