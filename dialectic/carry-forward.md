@@ -1254,3 +1254,28 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     disposes whether the touchstone-views/forensics go TO touchstone (consent step); (3) debt register: the clip'd
     segment candidates (Q1-dissolves-3-carries demotion · eureka transfer-tag · Q3-live-experiment · anxiety frame)
     still unrubbed. Standing: F2/DV3 · rub-forward card #1 carried (Q2/Q3 threads partially returned already).
+- **Session 2026-06-12 cont. (s15b — the invariant-ontology arc: schema v0.1→v0.8 under 8 live Operator rubs; CLIPPED)** (Covalent):
+  - **Builder pin:** `pin:` **dyad-cairn presumptive** (not touchstone) — grounded by substrate-read: extraction IS
+    cairn's Generate mechanism (The Mason); TDD constitutional; `anchor_compiler.py` = isomorphic prior art;
+    cross-vendor (Gemini). Watch: cairn's cathedral tendency → G-1/G-3 load-bearing. Spec updated.
+  - **`dialectic/invariant-schema.md` v0.1→v0.8, one sitting, every version a survived Operator rub/raff:**
+    v0.1 definition (membership test: SCOPE|PRESCRIPTION|VIOLATION; exclusions = the H3 prune instrument) → v0.2
+    decomposed sub-schema (actor/trigger/modality/action/observable/**detector** — 4th consumer: enforcement roadmap;
+    NON-NEGOTIABLE correctly classified unmechanizable) → v0.3 tension-annex (conflict≠tension; pincer +
+    duty-detector-mismatch computable NOW; **unprimed census = the Q3 instrument**, fixes the primed-forensics gap) →
+    v0.4 orthogonality (triad restated **SCOPE|PRESCRIPTION|OBSERVABILITY** — situational/deontic/epistemic;
+    trigger/action normalization; `via` field; pincer walk-back: deontic-only) → v0.5 grounding boundary (settlement
+    tiers + `re_rub_triggers` — caught schema re-importing touchstone SH2/SH4; **strength-splitting: floor
+    NOT(1+1<2) broad/cheap vs target 1+1>2 per-cycle/F2**) → v0.6/.1 **disposed roots** + grounding-graph (typed edges
+    derived/serves/inherited — case-law honesty; typed roots fiat/forged/inherited each naming its re-rub instrument;
+    Q3 = find-or-build-LCA; ~7 candidate roots AWAIT Operator adjudication; "the Operator owns the roots of every
+    chain and the leaves of none") → v0.7 physics register (4 judgment-logics declared; engine-stamping=responder_model
+    converged; **the trust boundary's third face**) → v0.8 form-ladder (slogan→tuple→mathematical; operationalization =
+    math's Class-B; descent-guard; **Goodhart guard: math invariants = breach-detectors never objective functions**;
+    the tenet spans its own ladder — floor already lived math: d(debt)/dt≤0).
+  - **Status honest:** schema = CANDIDATE (heavily in-session-rubbed; consumption-untested — next falsification comes
+    from USE: cairn's spec-rub, the tagging pass, the first census run). The arc itself = the strongest live Q3 demo
+    yet: 8 served collisions → 8 generated reconciliations → 8 Operator dispositions.
+  - **CLIPPED (Operator, bare).** RESTART-PENDING: none (baseline `4230357`). **Resume queue (Operator seat):**
+    (1) adjudicate the ~7 disposed-roots (kinds + forms to assign); (2) finalize builder → solicitation DM at pinned
+    sha; (3) the tagging pass (bond sources, schema-conformant). Standing carries unchanged.
