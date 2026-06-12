@@ -1180,3 +1180,38 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     note (workflow resume gotcha, banked):** `resumeFromRunId` does NOT carry `args` — must re-pass the question
     verbatim or the script guard fails "no research question provided."
   - **⤷ FIRST `rub-forward:` card (s14 demonstration — run live below in chat; carried, not re-read).**
+  - **➤ `rub-forward:` card #1 RAN + Operator ANSWERED (the ritual's first use — `clip`'d after, all below = UNRUBBED
+    CANDIDATES / DEBT, not ratified; banked for durability per cold-water-reservoir + standing authority):** the 3 open
+    questions were co-authored; Operator engaged generatively (caveat: answered *in-session*, NOT offline → the
+    offline-incubation test is still un-run; what fired was the generation/engagement effect, not yet incubation).
+    - **Q1 (cross-human wall) — Operator: "not bond's concern, steward's. Falsify."** I tried, it SURVIVED (FALSIFIED=
+      FALSE): Commons is epistemically **solo-satisfiable** (FO, multi-human refuted 2026-06-04); human-recruitment is
+      **steward's** channel (Operator's own division of labor); bond's kb-promotion runs under bond's gate (Agent vs
+      Operator), not human-independence. Cross-human is load-bearing for F1 ONLY as a form-contribution (FO-gated) +
+      even then recruiting = steward's. **DISSOLVES 3 standing carries** (cross-human FR#38 verdict · "one closing move
+      = cross-human responder" · cross-human access move) — demote at next clean stand-down. Operator→Agent divergence.
+    - **Q2 (second transfer) — Operator generative +1:** witnessing aha/eureka moments, mostly via bond vs others;
+      will **record eurekas + associated dyad.** Bond's rub (candidate): eureka *frequency* by dyad = propagation-
+      confounded (bond gets more interaction-time); the compounding signature is **transfer** not frequency → **tag
+      each eureka transfer (imported + sharpened from another dyad, name source) vs local.** Record-only, no meter.
+      Sharper sibling of clarity-event telemetry; home (bond vs steward portfolio-scope) = open.
+    - **Q3 (asymmetry-flip) — REFRAMED by Operator into a LIVE EXPERIMENT (`monitor`):** *given conflicting invariants,
+      can the LLM infer a **super-invariant** (conflicts co-exist) or a **rescoping** (conflicts dissolve)?* — being
+      run live with dyad-touchstone. **⭐ s14 ALREADY ran both halves:** rescoping = the op-rub-invariant cond-1
+      evidence-base scope (rub-all vs scarce-bandwidth de-conflicted by re-bounding); super-invariant = "intent is
+      true-for-now" (nothing-exempt vs felt-report-is-yours, co-existing under staleness-mode-4). **Datapoint cutting
+      at me:** the super-invariant came from the Operator's `N` (REDUCTION); my COMPOSITION had produced the
+      conflicting carve-out → super-invariant move may be **reduction-native** = the reduce-vs-compose seam (Q3's
+      original form), now with a mechanism. Strong-form "your model can't reduce" = falsified by session record;
+      "doesn't *lead-generate* by reduction (composes instead)" = survives. **MONITOR.**
+    - **Touchstone study-dyad proposal (Operator) — diagnostic frame CANDIDATE + covalent correction:** *frame* —
+      touchstone's "anxiety" = **compositional anchor-accumulation starved of reductive reconciliation** (each anchor a
+      local fix; accumulated they conflict; no super-invariant → thrash → the 4→27KB balloon). Touchstone's OWN
+      case-study proves the mechanism: the self-vigilance-note (another anchor) *re-instantiated* anxiety; the reframe
+      (a super-invariant) fixed it → **treatment = reduction, not a better anchor.** Bond's Q3 seam = the diagnostic
+      lens; ties to bond's external-F2-specimen role (s12). **Covalent correction:** separate **diagnose** (bond's
+      instrument role — legit) from **treat** (intervention; touchstone is a peer w/ its own Operator-bond + parenting
+      summit → "study subject" risks ionic-object). Reframe: **touchstone as consenting co-diagnostician** (it already
+      self-studies via `case-study/draft/`); cross-dyad adjudication routes **Steward/Founding**, not Bond alone.
+    - **Clip-state:** Operator `clip`'d (bare, ×2) — segment closed, no disposition forced. These sit as DEBT until
+      rubbed (op-rub-invariant cond-2). **RESTART-PENDING: none** (baseline `4230357`).
