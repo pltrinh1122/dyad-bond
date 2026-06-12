@@ -78,6 +78,26 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
+## Physics register *(v0.7 — Operator rub: the system runs judgments on FOUR logics without declaring so; resolution = DECLARE the physics, never BUILD it)*
+
+| Judgment class | Substrate | Physics | Known failures |
+|---|---|---|---|
+| field-presence · ID-integrity · DAG-acyclic · sha-pins | script/FSM | classical two-valued, decidable | none in scope (the layer's point) |
+| scope-overlap · modality-opposition (census) | script | classical set/boolean over controlled vocab | false-negatives at vocab granularity (trigger-equivalence gap) |
+| trigger-equivalence · edge-plausibility · tension | G (LLM) | informal/defeasible, probabilistic, contradiction-tolerant, NON-deterministic, **engine-version-dependent** | run variance · confabulated entailment · recall limits |
+| root adjudication · felt-conflict · value-weighing | Operator | human practical reason (defeasible, value-laden, contextual) | bandwidth · drift · known-unknown |
+| the `modality` vocab itself | — | **NOT deontic logic** — a 4-operator paradox-avoiding fragment; contrary-to-duty shapes UNMODELED ("never push main; if pushed then…") | CTD structures flagged to G, never census'd |
+
+- **Verdict-labeling:** every verdict carries its physics row — the `detector` field applied
+  REFLEXIVELY to the toolchain itself.
+- **Engine-stamping:** G-judgments record the model that made them (= FR's `responder_model`
+  convention, converged not minted) — drift-attribution becomes corpus-change vs physics-change,
+  indistinguishable without it (the consistency requirement, one level down).
+- **The law's third face:** Class-B (assumptions the engine can't discharge) · disposed roots
+  (adjudications the Agent can't make) · physics (a logic only humans underwrite) — one trust
+  boundary, three appearances in three days. Human philosophy of logic is load-bearing all the way
+  down; the register declares WHERE, and formalizes nothing.
+
 ## Disposed roots + the grounding-graph *(v0.6, renamed v0.6.1 by dialectical-falsification raff — Operator riff: the synthesis — depth-boundary completing v0.5's time-boundary)*
 
 - **DISPOSED ROOTS** *(name survived the raff: "boundary roots" falsified — term triple-booked + mixed
