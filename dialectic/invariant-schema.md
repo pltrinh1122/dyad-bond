@@ -78,6 +78,31 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
+## Boundary invariants + the grounding-graph *(v0.6 — Operator riff: the synthesis — depth-boundary completing v0.5's time-boundary)*
+
+- **Boundary invariants (roots):** the set adjudicated + disposed by the OPERATOR — fiat-class within
+  the system; `boundary: true`, `adjudicated_by: Operator` + currency-stamp. **Exact analogy to the
+  engine's Class-B input invariants:** the machine's guarantees rest on assumptions it cannot discharge;
+  the invariant-system's validity rests on adjudications the Agent cannot make — *the Operator IS the
+  system's trust boundary.* Dispensation, third formulation: **the Operator owns the roots of every
+  chain and the leaves of none.** NOT sacred: derivation stops at roots; RE-RUBBING does not (true-for-
+  now stamps; intent-currency rub-back at context-shifts = the root-maintenance instrument; R2 intact).
+- **New field `grounded_in[]` — TYPED edges (the case-law rub: grounding ≠ derivation; no confabulated
+  lineage / no smoothed mortar):** `derived` (genuine entailment — rare) · `serves` (instantiates a
+  root's value, occasioned by a scar — the common case; pairs with `breach-example`) · `inherited`
+  (grounds in the FORM's roots — typed custody). The lattice is a **grounding-graph, not a proof tree.**
+- **Provenance validation, placed-and-bounded:** *syntactic (mechanical):* refs resolve · acyclic ·
+  every chain terminates at a boundary node · orphans flagged (orphan = new boundary-candidate → route
+  to Operator, OR ungrounded legislation → suspect). *Semantic (G + Operator):* edge-plausibility
+  G-rubbed, contested edges escalate; mechanical assist = child-scope ⊄ parents'-scope-union → flag.
+- **Bought:** redundancy-pruning as graph property (entailed-by-ancestors = dissolution-candidate —
+  cycle-39's move, checkable) · conflict-escalation topology (sibling conflicts route to least-common-
+  ancestor = where the super-invariant lives or gets built → Q3 = find-or-build-the-LCA).
+- **Candidate root-set for bond (~7, AWAITING Operator adjudication):** C1 NON-NEGOTIABLE · C2 Telos ·
+  C3 G0 (`inherited`) · summit-fiat (personal growth / known-unknown) · scarce-bandwidth (constraint-7) ·
+  commissioning driver (minimize maintenance-hours) · standing sovereign grants. First syntactic run
+  over a tagged corpus surfaces the orphans.
+
 ## Grounding boundary *(v0.5 — Operator rub: unbounded falsifiability ⇒ nothing settles ⇒ no productive work — the schema was re-importing touchstone's SH2/SH4 one week after diagnosing it)*
 
 - **Settlement tiers + declared re-rub triggers** (bounds no-exemption WITHOUT repealing it — re-rub
