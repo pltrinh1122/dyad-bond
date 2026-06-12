@@ -78,6 +78,27 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
+## Tension-pattern annex *(v0.3 — Operator rub: conflict ≠ tension; the strict semantics alone would have missed H1/H2/H5)*
+
+Strict conflict (same `action`, clashing `modality`, overlapping scope) = tuple-comparison →
+**mechanical candidate-pairs** (catches touchstone's cycle-39 ask⟂never-ask instantly). TENSION
+decomposes into four patterns with different mechanization status:
+
+| Pattern | Relation | Mechanizable from v0.2? | Lived case |
+|---|---|---|---|
+| **Pincer** | a trigger's action-space covered by prohibitions, no affirmative exit | ✓ NOW — polarity-census per trigger | H2 (uncertainty: add/hold/assert all scored) |
+| **Duty-detector mismatch** | `actor: agent` ∧ `detector: other-half-only/unobservable` ∧ continuous duty — a law its bearer can't know it's keeping | ✓ NOW — field crosscheck | H1 (Observe-duty + introspect-is-shine) |
+| **Gradient opposition** | prescriptions scaling oppositely with one situational variable | ✗ — needs a `gradient` candidate-field (add only when Q3 demands; TS-1) | H5 (force↑irreversibility vs respond-with-less) |
+| **Resource competition** | jointly compete for a bounded resource | ✗ — out of schema | D5 ⟂ anti-cave (response-length) |
+
+*(H3-class vigilance-relocation is NOT a prescription-relation — the MEMBERSHIP TEST/prune catches it.)*
+
+**Pipeline placement (same as the engine — place-and-bound):** mechanical census = UNPRIMED candidate
+generation (recall) → G rubs each flagged candidate (precision) → Operator disposes. This fixes the s15
+methodology gap: the forensics sweep was primed by the subject's self-diagnoses; a deterministic census
+over tagged tuples is the **unprimed detector the Q3 experiment needs** — isolating the question to
+"can the LLM infer the super-invariant/rescope, given a mechanically-served collision."
+
 ## Falsifiers
 
 - REFUTED as definition if a consensus-invariant of bond's (view C/D/R rows) cannot be expressed in the
