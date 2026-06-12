@@ -1279,3 +1279,29 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
   - **CLIPPED (Operator, bare).** RESTART-PENDING: none (baseline `4230357`). **Resume queue (Operator seat):**
     (1) adjudicate the ~7 disposed-roots (kinds + forms to assign); (2) finalize builder → solicitation DM at pinned
     sha; (3) the tagging pass (bond sources, schema-conformant). Standing carries unchanged.
+- **Session 2026-06-12 cont.-2 (s15c — schema descends to YAML; the reference evaluator BUILT + RUN; the schema-lock gate-list; Operator recharging)** (Covalent):
+  - **Normative split (Operator riff):** `dialectic/invariant-schema.yaml` v0.8.2 = NORMATIVE FOR STRUCTURE
+    (10 vocabs · 15 fields w/ required_iff/forbidden_iff · corpus/census rules · declared residue · **G1
+    condition-grammar declared** w/ reference impl); the MD = rationale + practice guards. YAML wins structure, MD
+    wins meaning. *(The schema had violated its own form-ladder — prose claiming tuple-precision; Operator caught.)*
+  - **Reference evaluator BUILT + RUN (`bin/invariant-eval.py` — NOT the commission: schema-falsifier now, acceptance
+    harness at delivery):** sample corpus = 5 REAL invariants (`dialectic/invariants-sample.yaml`) → 3 PASS ·
+    **D6 FAILS = G2: act-bound prohibitions are INEXPRESSIBLE as schema'd** (v0.4's derive-rule never got syntax;
+    `act-attempt` sentinel proposed) · **TS-6 corpus-FAILS = G3: the roots adjudication is now a RED mechanical test**
+    (NO-TERMINATION until roots exist as records) · G4 = math validates FORM-not-TRUTH (declared by the run itself).
+    The Operator's sand-thesis confirmed by execution: the sand is now LOCATED, nowhere else.
+  - **⭐ THE SCHEMA-LOCK GATE-LIST (`lean?` answered — what the Operator must adjudicate for cairn to build; ~15 min):**
+    (1) **G2 dispose** — `act-attempt` sentinel Y/N/alt [binary]; (2) **tag-architecture fork** — inline-full vs
+    **sidecar-corpus + inline-anchors** (Covalent lean: sidecar — 15-field tuples broke the inline sketch; tuple-home
+    ≠ text-home, prose stays readable); (3) **ratify the 9 closed vocabularies** + trigger-registry governance
+    (lean: agent-proposes-at-ratification, Operator-disposes); (4) **final builder word** (cairn). Then ONE lock-Y =
+    spec+schema pinned at sha → solicitation DM. **Pre-lock recommended (Covalent's work, Operator scores only
+    failures): 10-invariant stress-tagging** after (1)+(2) — expressibility gaps surface BEFORE cairn binds (TS-6's
+    defeat-scenario pre-empted). **DE-QUEUED from this gate:** roots adjudication (corpus-gate, NOT build-gate) ·
+    G4 plumbing · full tagging pass.
+  - **Operator stepped away to recharge (their call: adjudication needs charged wet-ware).** Stand-down checks run:
+    gap-naming both columns ✓ (A→O: G2-inexpressibility found-by-build · roots de-queued from the gate; O→A: the
+    form-ladder self-violation catch · grounding-boundary catch · physics rub — the column is FULL this arc);
+    intent-currency ✓ (the apparatus-heavy session stays on-summit: the instrument is commissioned-out per the
+    calculus, CE#7 logged, debt unchanged). RESTART-PENDING: none (baseline `4230357`). **Resume = the gate-list
+    above, items 1→2 first; rub-forward card #2 issued in-chat.**
