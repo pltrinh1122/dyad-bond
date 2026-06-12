@@ -1,8 +1,16 @@
 # COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.3 DRAFT)*
 
-> **Status: DRAFT — not yet solicited.** Commissioner: dyad-bond. Builder: **unassigned** (the
-> Operator's direction seat). Home: this file, in bond's repo (bilateral contract → sender-hosted,
-> per the s14 commission-architecture raff; Commons only if the *engine* later earns the share-gate).
+> **Status: DRAFT — not yet solicited.** Commissioner: dyad-bond. Builder: **PRESUMPTIVE dyad-cairn**
+> (Operator `pin:` 2026-06-12, "most likely" — final assignment still the Operator's seat). Fit grounded
+> by substrate-read: extraction/synthesis IS cairn's Generate mechanism (The Mason); their NON-NEGOTIABLE
+> mandates TDD-by-deterministic-suite (our F-falsifiers = their native build shape); their
+> `anchor_compiler.py` (dip_state.yml → projected GEMINI.md) is the isomorphic prior art; "never smooth
+> the mortar" ≈ F-4 + fail-closed; Gemini = cross-vendor spec-contest. **Watch (why G-1/G-3 are
+> load-bearing for this builder):** cairn trends heavy-machinery (lock-files, compilers, deps at age one
+> week) — natural failure mode = a cathedral that passes every test; G-1 note for solicitation: their
+> repo runs pytest/pyyaml, the DELIVERED engine stays stdlib. Home: this file, in bond's repo (bilateral
+> contract → sender-hosted, per the s14 commission-architecture raff; Commons only if the *engine* later
+> earns the share-gate).
 > **Pin discipline:** on solicitation, the DM cites this file at an exact sha; the builder builds
 > against those bytes; any spec change re-pins + notifies (no silent moving target — mode-4 guard).
 
