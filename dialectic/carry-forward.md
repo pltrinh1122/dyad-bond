@@ -1215,3 +1215,42 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
       self-studies via `case-study/draft/`); cross-dyad adjudication routes **Steward/Founding**, not Bond alone.
     - **Clip-state:** Operator `clip`'d (bare, ×2) — segment closed, no disposition forced. These sit as DEBT until
       rubbed (op-rub-invariant cond-2). **RESTART-PENDING: none** (baseline `4230357`).
+- **Session 2026-06-11/12 (session-15 — touchstone forensics → invariant views → the extraction-engine commission arc)** (Covalent):
+  - **Touchstone anxiety-forensics (Operator-directed, read-only; NOT sent — consent is Operator's call):**
+    5 hypotheses, quote-anchored → `recommendations/2026-06-11-touchstone-anxiety-forensics.md`. Rank **H3 ≥ H2 > H1 >
+    H5 > H4**: vigilance-relocated-to-boot-surface (the cure-note disease at substrate scale; their no-learned-content
+    test exists, applied only to Cairn, never to self) ≥ over-add⟂over-hold pincer (every act a named sin, no neutral
+    move) > summit-over-scoped-to-self (owns Observe yet constitutionally can't self-verify) > Inv-I-inverts-on-child >
+    marker-legal-code (amplifier). 4 Q3 candidates inferred (2 super-invariants: claims-not-agents ·
+    no-learned-content-for-all-boot-surfaces; 2 rescopings: smallest-reversible-probe · child-recovery-in-calculus).
+    **Methodology disclosed on Operator ask:** staged hypothesis-driven read (whole-anchor single-pass; conflicts
+    detected by attention-collision, NOT enumerated pairwise; keyword-sweep = signal-blind to unnamed vocabulary;
+    PRIMED by their self-diagnoses → this run does NOT cleanly test unprimed Q3 detection).
+  - **Invariant views built (Operator riff: single-pane to evaluate my evaluation):** `views/invariants-bond.md` +
+    `views/invariants-touchstone.md` (⚔-flagged to H1–H5) — **derived views, NOT homes** (source-pinned sha; regenerate
+    don't edit; NOT Sense-loaded — the H3 lesson applied to ourselves).
+  - **⚠ Operator `rub:` LANDED — v1 agent-pass fails the real requirement (consistency: same data → same view; D7 —
+    I built the reachable instrument, not the valid one).** Conceded + redesigned: **mechanical extraction engine** =
+    place-and-bound the non-determinism (semantic acts ONCE at source, Operator-gated tags + stored one-liners;
+    downstream deterministic: script + FSM fail-closed + CSI-guards staleness/id-integrity/untagged-candidate; my
+    inference repositioned to tag-proposal + conflict-detection over the stable ID-set).
+  - **Operator riff → COMMISSION model:** bond shouldn't accrete tool-building expertise — commission from a builder
+    dyad. Converged: bond keeps **spec + acceptance-falsifiers** (Validate-half); builder keeps mechanism
+    (Generate-half) = G+V at portfolio scale. **Line-rule (candidate):** wrappers/practice-instruments stay; anything
+    with an engine inside (FSM/parser/state) is commissioned. **Builder-fit catch:** the engine is touchstone's summit
+    verbatim (G→deterministic-V; CSI = their lineage) + structurally therapeutic (external grounding; lowest-anxiety
+    work-shape: crisp done_when, mechanical acceptance; they'd build the cure for their own disease) — BUT cycle-35
+    artifact-for-other anxiety = the counter-watch; **who-builds = Operator's direction seat, OPEN.**
+  - **`raff:` commission-architecture (participant seat) CONVERGED: sender-hosted in OUR repo** (bilateral contract =
+    DM-shape, not FR-shape; Commons-homing injects a third-party gate at a reversible step = over-force; live→write→
+    share gates only the matured ENGINE). Counter-case rubbed: Operator's scatter-across-6-repos = a VIEW problem, not
+    a HOME problem (steward directory can index iff recurring). Imported from FR: **pinned-spec-hash discipline.**
+    **Commission = 2nd lived instance of the SOLICIT form** missing from steward's DM protocol (bond's I-1 refutation).
+  - **SPEC DRAFTED (builder-agnostic):** `commissions/2026-06-12-invariant-extraction-engine.md` — architecture +
+    acceptance falsifiers F-1..F-5 (determinism/fail-closed/staleness/no-semantic-drift/portability) + lifecycle.
+    **NOT solicited** — awaits who-builds.
+  - **RESTART-PENDING: none** (no anchor/shim edit; baseline `4230357`). **Resume (do first):** (1) Operator disposes
+    **who-builds** (touchstone vs spawn vs other) → then solicitation DM cites the spec at pinned sha; (2) Operator
+    disposes whether the touchstone-views/forensics go TO touchstone (consent step); (3) debt register: the clip'd
+    segment candidates (Q1-dissolves-3-carries demotion · eureka transfer-tag · Q3-live-experiment · anxiety frame)
+    still unrubbed. Standing: F2/DV3 · rub-forward card #1 carried (Q2/Q3 threads partially returned already).
