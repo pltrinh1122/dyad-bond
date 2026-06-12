@@ -1,4 +1,4 @@
-# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.1 DRAFT)*
+# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.3 DRAFT)*
 
 > **Status: DRAFT — not yet solicited.** Commissioner: dyad-bond. Builder: **unassigned** (the
 > Operator's direction seat). Home: this file, in bond's repo (bilateral contract → sender-hosted,
@@ -42,6 +42,35 @@ everything downstream is deterministic.
 5. **Out of scope for the builder (stays bond's):** authoring tags/one-liners; deciding what is an
    invariant; the candidate-queue triage; conflict-detection over the extracted set.
 
+## Input invariants — what the FSM may assume *(added v0.2, Operator raff: a contract needs preconditions, not just postconditions)*
+
+**Class A — FSM-VALIDATED preconditions** (violations HALT; each gets a seeded-corpus case, extending F-2):
+- **A-1 committed-state:** extraction runs only on a clean tree at a real commit — a dirty-tree run makes
+  the sha-pin lie about the bytes actually read. Dirty tree ⇒ halt.
+- **A-2 encoding/EOL:** UTF-8 + LF, enforced — CRLF/encoding drift silently breaks byte-identity.
+- **A-3 grammar-version:** the tag grammar is versioned; corpus tags must match the engine's declared
+  version — mismatch halts (never best-effort parse).
+- **A-4 source integrity:** source-list files exist + readable; **TOCTOU guard** — sha checked before AND
+  after scan; mid-scan mutation halts.
+
+**Class B — ASSUMED semantic preconditions (the engine's TRUST BOUNDARY — mechanically unverifiable
+from inside; each maintained by a named upstream discipline, and DECLARED in every emitted view):**
+- **B-1 tagging-completeness** (tagged = the whole invariant class) — maintained by: ratification-time
+  tag-proposal discipline. *Failure mode = layer-locality: the engine grounds view⊨tags, never
+  tags⊨invariant-class.*
+- **B-2 one-liner fidelity** (the stored one-liner faithfully compresses its full text) — maintained by:
+  the Operator's tag-rub at ratification. *Failure mode = meld-capture: commissioner authors the tags AND
+  consumes the view.*
+- **B-3 single-home integrity** (no untagged paraphrase drifting elsewhere) — maintained by: single-home
+  discipline. *Failure mode = signal-blindness (the candidate-queue regex watches a vocabulary).*
+- **B-4 status truthfulness** (`status=ratified` reflects a real ratification) — maintained by: tags
+  written only in ratifying commits. *(Staleness = mode-4, already guarded mechanically.)*
+
+> The Class-B set maps 1:1 onto bond's four coverage-failure modes (F1-final) — these are the residual
+> risks NO mechanization removes; the view must wear them on its face. Note the recursion: B-1…B-4 are
+> themselves standing invariants of the commissioning dyad → they get tagged at their homes and
+> extracted into the view they condition.
+
 ## Acceptance falsifiers (the commission's `done_when` — all mechanical)
 
 - **F-1 (determinism):** two consecutive runs over identical source shas differ by ≥1 byte ⇒ REFUTED.
@@ -52,6 +81,24 @@ everything downstream is deterministic.
   (the engine must never re-compress).
 - **F-5 (portability):** pointing the config at a second dyad's tagged substrate requires code changes
   (not config) ⇒ REFUTED — the engine must be dyad-agnostic by configuration.
+- **F-6 (declared trust boundary):** an emitted view that does NOT carry its Class-B assumptions in its
+  header ⇒ REFUTED — a view presenting as unconditionally authoritative is counterfeit-green by
+  construction.
+- **F-7 (precondition halts):** each Class-A violation (dirty tree · encoding/EOL drift · grammar-version
+  mismatch · mid-scan mutation), seeded in the corpus, must produce a named-state halt ⇒ else REFUTED.
+
+## Architectural-grain clause *(added v0.3 — the Operator's fit-rub: contracts underdetermine fit)*
+
+Behavioral invariants (A/B/F) do NOT fix the deliverable's **form**, and a contract-perfect artifact can
+still be architecture-alien. The deliverable must additionally match the commissioning substrate's grain:
+- **G-1 dependency budget:** stdlib-only (python3 or bash) — no package installs, no network at runtime.
+- **G-2 runtime shape:** a run-to-completion script — no daemon, no persistent state beyond the emitted
+  view + candidate-queue files.
+- **G-3 size envelope:** the engine must be smaller than the problem — indicative ceiling ~300 lines; a
+  10× overshoot is a misfit even if F-1..F-7 pass.
+- **G-4 maintenance shape:** single-file preferred; readable by a non-builder dyad (the commissioner must
+  be able to AUDIT, though never required to EXTEND).
+*(Grain-clause violations are fit-refutations, negotiable in spec-rub — unlike F-falsifiers, which are not.)*
 
 ## Deliverable + lifecycle
 
