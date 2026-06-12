@@ -78,6 +78,22 @@ triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/recon
 - Lived instances, typed: op-rub-invariant cond-1 evidence-base reading = *rescope* · "intent is
   true-for-now" = *super-invariant* · cycle-39 ask-don't-assert = *dissolution*.
 
+## Grounding boundary *(v0.5 — Operator rub: unbounded falsifiability ⇒ nothing settles ⇒ no productive work — the schema was re-importing touchstone's SH2/SH4 one week after diagnosing it)*
+
+- **Settlement tiers + declared re-rub triggers** (bounds no-exemption WITHOUT repealing it — re-rub
+  fires on TRIGGERS, not cadence): `candidate` (hot, actively attacked — `dialectic/`) ·
+  `ratified-watch` (settled-for-now; re-rub only on: context-shift class · breach-evidence · census
+  conflict-flag — ledger/reload-set) · `settled` (safe to cite; re-opened on breach-evidence — `kb/`).
+  New field: `re_rub_triggers[]` (demanded by the consumer "productive work"; = D2
+  bounded-consolidation promoted to a schema property; falsification effort is a BUDGET — Operator =
+  the scarce Validate resource, the boundary is the allocation rule).
+- **Strength-splitting normalization rule:** a graded claim tags as TWO invariants with NESTED scopes —
+  the FLOOR (weak form, broad scope, cheap detector) and the TARGET (strong form, narrow scope,
+  expensive detector); the target's scope never swallows the floor's. Worked example (the Operator's):
+  floor `NOT(1+1<2)` = non-degradation, every move, record-observable · target `1+1>2` = surplus,
+  **per-cycle at Reflect** (G0's own "earned per cycle"), F2-class detector. Demanding the target's
+  proof at the floor's scope = over-verification = the anxiety-grain wearing rigor's clothes.
+
 ## Orthogonality rub *(v0.4 — Operator rub: 3 non-orthogonalities found + 1 walk-back; the triad restated)*
 
 - **Membership triad RESTATED: SCOPE | PRESCRIPTION | OBSERVABILITY** — `violation_condition` was
