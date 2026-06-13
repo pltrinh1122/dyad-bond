@@ -38,6 +38,34 @@ every-turn). The faithful architecture therefore **inverts the naive "automate t
   forgotten RESTART-PENDING regardless (it is *stateless* — it compares the live anchor hash to the
   ledger's baseline line, so it needs no cross-session state).
 
+## The stand-down TRIGGER — `clip` *(Operator fiat 2026-06-13; the piece K6 left to "/exit or hand-run")*
+
+K6 (above) automates stand-**up** (SessionStart hook) but proved the stand-**down** judgment-write **cannot**
+be hook-fired (SessionEnd = too late; Stop = every-turn) — so stand-down needs an **Operator trigger.** That
+trigger was `/exit` / hand-running `standdown.sh`: **substrate-fragile** — `/exit` is a desktop-terminal
+command the **mobile app can't reliably invoke.** *(Lived 2026-06-13: an external shutdown with no `/exit`;
+only the continuous per-turn commits saved the content — the terminal ritual is exactly what an abrupt or
+mobile close skips.)*
+
+**The fix (Operator fiat):** **`clip` IS the stand-down trigger** — a **typed marker**, so it fires on **any
+substrate** (mobile included), unlike `/exit`. On `clip` the Agent runs: **(1) the mechanical durability
+check** (uncommitted/unpushed = ungrounded memory → commit + push) and **(2) the judgment-write** (the lean
+resume-pointer). It **reuses the clip-protocol semantics verbatim** (close · no disposition forced · open
+items held as DEBT until rubbed) — so this *supplies the trigger the architecture already needed*, it does not
+overload the marker. The ROM-UI **SessionStart** check stays the stateless boot-side safety net.
+
+**Agent rider — incremental, not terminal (CANDIDATE, awaiting Operator rub):** because `clip` fires
+**multiple times per session**, stand-down becomes **incremental / idempotent**:
+- each `clip` emits the **lean** resume-pointer for the segment it closed (what closed · open watches ·
+  RESTART-PENDING) — not a full ceremony;
+- the **last `clip` before shutdown IS the session stand-down**, by construction → the **skipped-terminal-
+  ritual failure mode is dissolved** (no single ceremony left to forget);
+- operationalizes the same-day durability lesson (*durability is continuous, not deferred to a terminal
+  ritual* — `relationship-craft.md`, 2026-06-13);
+- **constraint-(b) intact:** `clip` = **Operator-trigger + Agent judgment-write**, NOT a hook auto-write
+  (`auto-trigger ≠ auto-judgment`). **Watch:** keep each per-`clip` write LEAN; if frequent clips bloat the
+  ledger, throttle to session-boundary clips.
+
 ## Artifacts
 
 - **`bin/standup.sh`** — mechanical resume checks; `--hook` emits the SessionStart `additionalContext`
