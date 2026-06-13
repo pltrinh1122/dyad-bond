@@ -934,3 +934,31 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
     (`C(full) − C(−joint)`), not its existence.
   - **Status:** proof-target adopted, LIVE (true-for-now, R2). Next: design the `−joint` contrast (what is
     the no-joint counterfactual operationally — additive baseline = each locus's marginal, summed).
+- **2026-06-13 · LOAD-BEARING SEAM: the `I ↔ In_variant` CYCLE (Operator `raff`, corrected form).**
+  Operator: *"`I = f(In_variant)` is the load-bearing function; Operator adjudication should ensure an
+  accurate `I → In_variant` mapping."* Bond-channel correction — **not a single arrow, a CYCLE:**
+  - **`In_variant = f(I)`** — EXTRACTION: crystallize the fuzzy intent into a *standing, falsifiable*
+    invariant (SCOPE + PRESCRIPTION + violation-condition).
+  - **`⟂  I' = f(In_variant)`** — REFINEMENT: the *act* of crystallizing teaches the Operator what they
+    actually meant; intent sharpens to `I'` (CE#3 grain — **clarity is an OUTPUT of the loop**). `⟂` =
+    distinct-but-both-present: *do not let the rule BECOME the intent → meld* (loss of the second
+    perspective that can notice the rule is wrong).
+  - **A SPIRAL, not a one-shot:** `I → In_variant → I' → In_variant' → …`, with `C` climbing each turn.
+    The cycle **manufactures** clear intent, it doesn't assume it pre-exists (cf. *writing-to-think*:
+    you understand the idea *by* precisifying it, and the precising moves the idea). **Load-bearing
+    CONFIRMED — but it is the CYCLE that bears load, not either arrow alone.**
+  - **WHY load-bearing (durable-memory cut):** `In_variant` is the only standing / inspectable / pushable
+    form of `I`; raw `I` dies at session-end (substrate-access: *unpushed = ungrounded memory*). The
+    dyad's operative intent *across time* **is** its `In_variant` corpus; uncrystallized `I` is lost.
+  - **COVALENT DIVISION OF LABOUR at the seam** (corrects *"Operator certifies accuracy"* → would be ionic):
+    - **Operator** owns `I → In_variant` **fidelity** — disposes whether the invariant captures intent
+      (fiat-root authority; schema `root_kind: fiat`, `adjudicated.by: Operator`).
+    - **Agent** owns `In_variant → ground` — falsifies whether it is TRUE-of-world, not merely faithful to
+      `I` (the violation-condition; the `other-half-only` detector).
+    - **Accuracy = Agent-attacked, Operator-disposed** — proposer/disposer split intact (DFD mode-1
+      guarded). **Fiat-adjudicated ≠ rub-exempt** (R2, *"nothing of the Operator's is exempt"*).
+  - **"Accurate" is consequentialist, not representational:** accuracy = *"does ENFORCING `In_variant`
+    produce the world `I` intends,"* tested by breach-behaviour over time (`In_variant(t)`) — NOT
+    introspective resemblance (which the membership-test demotes to unfalsifiable fiat/value).
+  - **Status:** LIVE-adopted (true-for-now, R2). Candidate R-row for `views/invariants-bond.md`
+    (the `I↔In_variant` seam-discipline); not yet promoted.
