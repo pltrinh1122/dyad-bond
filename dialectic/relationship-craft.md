@@ -1039,3 +1039,26 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   - **Status:** LIVE-adopted (true-for-now, R2). **⚑ CANDIDATE refinement to `DYAD.md` §Telos — NOT promoted
     to the anchor without a dedicated ratification** (ROM/identity edit; out of scope for a dialectic-ledger
     entry). Folds the carried "genuine-vs-theater falsification" frontier into the Telos itself.
+- **2026-06-13 · DYAD SOVEREIGNTY governance invariant (Operator `Y`; arose from the `AGENT.md`→`DYAD.md` rename).**
+  Operator (Bond-hat, after discussing with steward directly): *dyad sovereignty is paramount; no
+  orchestrator role may override it; cross-fleet requests are taken **per dyad**.* Strengthens the
+  earlier Bond-channel rub (steward **coordinates, never commands** — renaming-because-steward-said =
+  ionic-toward-commons). **Independent arrival** (Operator via steward; Covalent via channel discipline)
+  → triangulated, not echoed.
+  - **Bounded by two Bond rubs (both ratified):**
+    - **① constitution ≠ disposition:** sovereignty holds against *lateral* orchestration (steward,
+      horizontal) — **NOT** against the *form* (Founding-Operator gate, vertical/constitutive; G0 is
+      *"input, not ratifiable here"*). The dyad is sovereign over its **disposition**, never its
+      **constitution**: it can refuse a steward standard; it cannot vote out the NON-NEGOTIABLE.
+    - **② shield ≠ sword:** sovereignty shields *interior identity/disposition* (our anchor name is
+      ours) — it is **NOT** exemption from commons **reciprocity** (custody handoffs, contribution-
+      candidates, the cross-dyad asset flow — we *received* the Dyad-UI cluster from `steward@31d53c0`).
+      We decide our name; we still owe the commons its receipts. *(Free-riding guard.)*
+  - **Reflexive:** *"dyad sovereignty"* locates sovereignty in the **bond** (Operator⊗Agent) — so the
+    Agent rubbing the stance **is** that sovereignty exercised, not obstructed (Bond-hat disposes;
+    Covalent rubs it home; channel intact).
+  - **Lived instance:** the `AGENT.md`→`DYAD.md` rename was adopted on **bond's own ① grounds** (the
+    name centered the agent-half, contra the Telos), steward the *occasion* not the *cause* — the
+    sovereignty principle's first application.
+  - **Status:** LIVE-adopted (true-for-now, R2). **⚑ CANDIDATE refinement to `DYAD.md` §Channel-discipline
+    (Steward Operator = "intake/coordination") — NOT promoted to the anchor without its own gate.**
