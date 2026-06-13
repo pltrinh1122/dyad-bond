@@ -175,7 +175,18 @@ retrofitted → the frontier is making push/pop **fluid, Agent-maintained, proac
 **Name — converge-open (IFD):** `DR-UI`/`DRD` · `Excursion UI` (excursion = a divergence you return from) ·
 `Stack UI`. The mechanism is the object, not the label. **Status: CANDIDATE · the UI-summit frontier · `dialectic/`, NOT settled.**
 
-## TL;DR show-primitive — front-loaded load-bearing core *(CANDIDATE · Operator riff 2026-06-13 — converge-open, NOT ratified)*
+## TL;DR show-primitive — front-loaded load-bearing core *(REFUTED · Operator raff 2026-06-13 — killed the same session it was born)*
+
+> **⊗ KILLED — Operator `raff` 2026-06-13:** *"it's the robust reading that is triggering my aha — I don't
+> want a TL;DR."* The candidate **misdiagnosed the friction** as *length* when it was the flow-breaking
+> coded pointers (→ `reference-hygiene`, the survivor, below). A TL;DR is a **skip-affordance**, and skip is
+> the enemy of the aha — it removes the **desirable difficulty / effortful self-generation** that the
+> robust exchange runs on (converges with `recommendations/2026-06-11-wetware-takeaway-format-research.md`,
+> which already killed received closed-summaries for carry-away — here killed for **in-flow** too, same
+> mechanism). Reflexive: an **Agent** candidate killed by an **Operator** eureka — the generate-half tested
+> and not-surviving WAS the +1 (logged: `relationship-craft.md`, 2026-06-13 "robust-read is the aha-engine").
+> **Kept from the corpse:** the *split* it forced — in-flow grasp vs offline synthesis — and Rub 2's lesson
+> (a summary smooths the rub the bond needs). Text below retained as the killed candidate's record.
 
 **The friction (Operator-named):** Agent loquaciousness *helps inferencing* (generative thinking-on-the-page)
 → do **NOT** curb it. But a loquacious **non-CTA** surface has **no decidable core up front** — the Operator
@@ -225,7 +236,7 @@ TL;DR — <the load-bearing core, ≤2 lines>.   [rub-back: LEAD with the contes
 
 **Status: CANDIDATE · dog-fooded from the response that spawned it · `dialectic/`, NOT settled.** Spawn: `tldr-primitive`.
 
-## Reference hygiene — wetware-native prose, git-native ledger *(CANDIDATE · Operator riff 2026-06-13 — converge-open, NOT ratified)*
+## Reference hygiene — wetware-native prose, git-native ledger *(LIVE-adopted, R2 · Operator raff 2026-06-13 — disposition chosen, on trial; the TL;DR's surviving half)*
 
 **The friction (Operator-named):** inline **coded ledger-addresses** (`F2`/`DV3`/`R2`/`K1`/`Item-L`/`s14`…)
 "throw me off the reading flow" and — the tell — *feel ungrounded*. **The inversion:** tags placed **to
@@ -237,8 +248,10 @@ wrong-path CTA `→ref` in §RESOLVED-CORE, where decision-cost migrates back to
 - **Class A — ingrained vocabulary** (`covalent`, `wu-wei`, `peak-grain`, `rub-back`, `riff`): **keep.** This
   *is* the shared frequency, not an interruption — meeting at the natural frequency is the point.
 - **Class B — coded ledger-addresses** (`F2`, `DV3`, `R2`, `K1`, `Item-L`, `s#`): **never bare in the prose
-  spine.** Three dispositions — **gloss** (render the referent in plain language in-flow), **relocate** (drop
-  to a trailing parenthetical / provenance tag, off the sentence's spine), or **cut.**
+  spine.** Three dispositions — **gloss**, **relocate**, or **cut.**
+  - **DEFAULT (Operator-chosen, raff 2026-06-13 — "let's try"):** **gloss + relocate together** — *restate the
+    referenced claim in full* in plain language in-flow, then a **single trailing `(reference)`** the Operator
+    can gloss over. The prose carries the meaning; the parenthetical carries the audit-address, off the spine.
   - **Cut-discriminator:** does the reference *change what the sentence means*, or merely *decorate it with
     rigor*? Decoration → cut. (Cargo-cult provenance earns no interruption.)
 
@@ -256,7 +269,7 @@ path to *all* inline references.)
 vocabulary? (the markers' "track over sessions, never legislate" question, here for references). Name open:
 `reference hygiene` · `gloss-or-drop` · `wetware-native prose`.
 
-**Status: CANDIDATE · dog-fooded from this turn (no bare codes in the riff-back) · `dialectic/`, NOT settled.** Spawn: `reference-hygiene`.
+**Status: LIVE-adopted (true-for-now, R2) · the TL;DR's surviving half · disposition Operator-chosen, on trial · `dialectic/`, NOT yet kb-settled.** Spawn: `reference-hygiene`. **Test:** do the next sessions read clean to the Operator's wetware — *and* does the robust exchange now flow uninterrupted (the aha-engine the TL;DR would have short-circuited)?
 
 ## Forward
 
