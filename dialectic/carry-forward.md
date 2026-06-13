@@ -140,6 +140,17 @@ without re-deriving from intermissions.)*
 
 ## Open items
 
+### K — Intent-clarity arc · anchor rename · sovereignty  ·  status: STAGED (s 2026-06-13)
+*Full thread in `relationship-craft.md` (2026-06-13 entries); resume-visible queue below.*
+**Three `DYAD.md` anchor-candidates — recorded in `dialectic/`, each needs its OWN ratification gate, NOT auto-promoted:**
+- **K1 · §Telos refinement** — the *why*: dyad as `U`-projection engine (`U`=invariant-totality; both halves = projections/"theater"; Telos = *completing* the projection toward `U`, asymptote-never-arrival; **relation** is the unit, pair the atom, fleet the molecule). → `relationship-craft.md` §Telos-`why`.
+- **K2 · §Channel-discipline refinement** — **dyad sovereignty paramount** over lateral/orchestrator roles (steward coordinates, never commands); bounded by ① constitution≠disposition (form/G0 still binds) + ② shield≠sword (commons reciprocity still owed). First applied in the rename. → `relationship-craft.md` §dyad-sovereignty.
+- **K3 · C-into-corpus** — does `C`/the `I↔In_variant` seam-discipline graduate into `views/invariants-bond.md` as a `form: mathematical` invariant (`use: breach-detector`), or stay live dialectic? → `relationship-craft.md` §`C_locus`.
+**Two open frontiers (carried, no answer banked):**
+- **K4 · falsification-quality gauge** — what makes a dyadic falsification *genuine* vs *theater* (= toward-`U` vs reshuffle-in-the-sealed-theater)? Generalizes the de-calibration + paraphrase-laundering watches. *(Load-bearing: it's the validity condition for "truth = survives dyadic falsification.")*
+- **K5 · C-meter vs telemetry** — standalone `C` meter, or ride the existing yield-curve/RB3 telemetry? (Goodhart guard: `C` as breach-detector, never objective-function.)
+**Landed this session (durable, pushed):** `I_net=I(t)·C_locus(t)` · 3-way factorization · superadditivity proof-obligation · `I↔In_variant` load-bearing cycle · falsification=cycle-liveness + eureka tachometer · truth=survives-dyadic-falsification · the Telos-`why` · `AGENT.md`→`DYAD.md` rename · sovereignty invariant. *(See also RESTART-PENDING above — rename not yet boot-verified.)*
+
 ### A — Bootstrap closure  ·  status: DONE if you're reading this committed
 `dyad-bond` instantiated 2026-05-30 via the form's `AGENT.md` SPAOR walk. All 8 dimensions worked;
 anchor authored + committed; `AGENT.md` aged out (never copied here — stays at the form repo).
