@@ -65,6 +65,13 @@ may NOT transfer.
 `theory-pipeline.yaml`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`). *(Dogfood: this
 clean stand-down IS the §7 "reflective-half" ritual that s9 skipped — closing the loop so s12 recovers-forward
 without re-deriving from intermissions.)*
+→ **Stand-Down 2026-06-13 (s 2026-06-13):** anchor + both shims **NOT edited** this session (the rename is
+prior-commit `dbfd7df`; this session only **boot-VERIFIED** it → ROM-baseline refreshed `4230357`→`dbfd7df`,
+RESTART-PENDING cleared). Work: **K6 built + staged** (`dialectic/standdown-automation.md`, `bin/standup.sh`
++ `standdown.sh` + `install_hooks.py` — awaiting Operator install-gate) · **Item-L logged** (R-tag hygiene) ·
+**thread-W homed** (`relationship-craft.md` §thread-W — the substrate model; W₄ grounds *why* F2/DV3 is
+instrument-unreachable). → **RESTART-PENDING stays `none`**, baseline `dbfd7df`. *(Dogfood: this stand-down
+was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 
 > **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
 > **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
