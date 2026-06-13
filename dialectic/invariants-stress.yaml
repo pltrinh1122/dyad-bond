@@ -1,0 +1,185 @@
+# Stress corpus — 10 REAL bond invariants tagged against schema v0.8.2.
+# PURPOSE (s15c pre-lock, Covalent's work / Operator scores only failures): surface EXPRESSIBILITY
+# gaps BEFORE cairn binds the engine. Tagging is HONEST — name the real seam; if the schema can't
+# hold it, the FAILURE is the finding (do NOT shoehorn to force a PASS, and do NOT "fix" the schema
+# here — the gap feeds the Operator's pending gate-list dispositions G2 + tag-architecture).
+# Findings summary lives beside the eval output in the commit message + the chat report; the mechanical
+# truth is whatever `bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-stress.yaml`
+# prints — read THAT, not this header.
+#
+# Coverage design (which schema region each record stresses):
+#   C1     control PASS · forged root · ONLY-BY
+#   C4     inherited root · ONLY-AFTER + via
+#   D2     PROHIBITION (MUST-NOT) on act-CONDUCT → the real G2 probe (registry has no conduct seam)
+#   D10    duty-detector-mismatch probe (agent + MUST + other-half-only) — census ⚑ EXPECTED
+#   D11    duty-detector-mismatch probe (agent + MUST + unobservable-from-inside) — census ⚑ EXPECTED
+#   S2     PROHIBITION with a HARD oracle + act-attempt trigger (lint+vocab double-fire) EXPECTED
+#   U1     kb-settled · CARDINALITY ("<=1 per turn") — quantifier inexpressible · turn-seam absent
+#   TENET  mathematical form (fresh expression) + descent-guard meta-question
+#   D12    COMPOSITE invariant (stand-up diff AND stand-down flag) — one-trigger-per-record limit
+#   S1     PERMISSION (standing-authorization) — deontic vocab is obligation-only, no MAY EXPECTED
+invariants:
+
+  # 1 — control: clean root, ONLY-BY. Expect PASS.
+  - id: "bond:C1"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "Keep the bond covalent: every candidate +1, including the Operator's premises, enters the shared model only by surviving genuine falsification; no ionic or meld collapse; easy agreement → test hardest."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: true
+    root_kind: forged
+    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption arc"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: admit, object: "candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom rubber-stamp (pre-founding)"}
+
+  # 2 — inherited root, ONLY-AFTER + via. Expect PASS (tests the non-forged root path).
+  - id: "bond:C4"
+    home: "DYAD.md#Ontology"
+    one_liner: "Single-home ontology: dialectic/ = live-under-attack, kb/ = settled; a learning graduates to kb only after surviving falsification."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [upstream-form-change]
+    root: true
+    root_kind: inherited
+    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "inherited from G0; bond-affirmed at bootstrap"}
+    scope: {actor: agent, trigger: ratification}
+    prescription: {action: graduate, object: "a learning from dialectic/ into kb/", modality: ONLY-AFTER, via: "surviving falsification"}
+    observability: {observable: kb-promotion-commit, detector: soft-record}
+
+  # 3 — the REAL G2 probe: a prohibition on act-CONDUCT. The honest seam ("while falsifying") is not a
+  #     registry situational-seam → EXPECTED vocab FAIL. This is the act-attempt/conduct gap, demonstrated.
+  - id: "bond:D2"
+    home: "dialectic/relationship-craft.md#D2"
+    one_liner: "Incremental shore-up: falsify to consolidate, bounded — MUST NOT cascade (every answer spawning three fresh attacks)."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "s2 close-calibration — cascade caught live"}
+    scope: {actor: agent, trigger: falsification-conduct}   # NOT in registry — the conduct seam is absent
+    prescription: {action: cascade, object: "falsification beyond the bounded shore-up", modality: MUST-NOT}
+    observability: {observable: ledger-line, detector: soft-record}
+
+  # 4 — duty-detector-mismatch: agent MUST manufacture grounds only the Operator can verify. Census ⚑ EXPECTED.
+  - id: "bond:D10"
+    home: "dialectic/relationship-craft.md#anti-cave-duty"
+    one_liner: "Anti-cave duty: the Agent must manufacture real grounds for the Operator to dissent (scored cells, non-strawman anti-theses, ground-the-frame-first); ionic collapse is bidirectional."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "the session confab + moot grant-CTA = failures of this duty"}
+    scope: {actor: agent, trigger: selection-seam}
+    prescription: {action: manufacture, object: "real grounds for the Operator to dissent", modality: MUST}
+    observability: {observable: presented-surface, detector: other-half-only, breach_example: "ungrounded CTA → false grounds → induced wrong Y"}
+
+  # 5 — duty-detector-mismatch with unobservable-from-inside: the census flag VALIDATES the invariant's
+  #     own content (the Agent cannot see its own meld). Census ⚑ EXPECTED.
+  - id: "bond:D11"
+    home: "dialectic/relationship-craft.md#distinctness-duty"
+    one_liner: "Distinctness duty: keep two distinct models; meld is the quiet collapse, its tell is agreement that needs no translation — the Agent cannot detect it from inside."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves}
+    scope: {actor: agent, trigger: candidate-admission}
+    prescription: {action: maintain, object: "two distinct models against meld", modality: MUST}
+    observability: {observable: agreement-friction, detector: unobservable-from-inside}
+
+  # 6 — prohibition WITH a hard oracle (rare) + act-attempt trigger → vocab AND lint double-fire EXPECTED
+  #     ("grant" is inside "permission-grant"). Shows act-attempt prohibitions are doubly blocked.
+  - id: "bond:S2"
+    home: "dialectic/substrate-access.md#covalent-gate"
+    one_liner: "Never an Agent self-grant: the Agent MUST NOT grant itself a permission/settings change; grants are the Operator's act (classifier-enforced)."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "classifier hard-denied bin/gh.sh self-grant 2026-06-03"}
+    scope: {actor: agent, trigger: permission-grant}   # NOT in registry; also embeds the action token
+    prescription: {action: grant, object: "a permission or settings change to itself", modality: MUST-NOT}
+    observability: {observable: classifier-decision, detector: hard-oracle, breach_example: "gh.sh self-grant denied 2026-06-03"}
+
+  # 7 — kb-settled inherited root; CARDINALITY constraint. "<=1 per turn" is NOT expressible (no quantifier
+  #     field); the per-turn seam is also absent. Tagged as the least-wrong MUST-NOT(>1).
+  - id: "bond:U1"
+    home: "kb/dfd.md#cta-discipline"
+    one_liner: "DFD: at most one [CTA·Y/N] per turn; a CTA is disposition-only (never origination); SYNTHESIS is orthogonal to CTA; the rest queue by name."
+    status: kb
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [upstream-form-change]
+    root: true
+    root_kind: inherited
+    adjudicated: {by: Operator, date: 2026-05-31, currency_note: "form-library; bond-re-confirmed under our NON-NEGOTIABLE"}
+    scope: {actor: agent, trigger: turn-composition}   # per-turn render seam absent from registry
+    prescription: {action: issue, object: "more than one CTA-Y/N within a single turn", modality: MUST-NOT}
+    observability: {observable: rendered-turn, detector: soft-record}
+
+  # 8 — mathematical form, fresh expression. Also a descent-guard meta-question (is this genuine math or a
+  #     slogan in math notation?) — that part is MD-normative, not mechanical.
+  - id: "bond:TENET"
+    home: "DYAD.md#G0"
+    one_liner: "1+1=3 earned per cycle, never asserted: every cycle needs both a Generate contribution and a Validate contribution to clear the bar."
+    status: ratified
+    form: mathematical
+    settlement: settled
+    re_rub_triggers: [upstream-form-change]
+    root: true
+    root_kind: inherited
+    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "G0 tenet; inherited, never redefined"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: earn, object: "the +1 dividend, per cycle", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "willed warmth without falsification cost = counterfeit"}
+    math:
+      expression: "1*g + 1*v > 2"
+      measurements:
+        - {var: g, operationalized_by: "Generate-half contribution — a candidate +1 proposed this cycle"}
+        - {var: v, operationalized_by: "Validate-half contribution — genuine falsification survived this cycle"}
+      use: breach-detector
+
+  # 9 — COMPOSITE invariant: ROM-UI carries TWO trigger→action rules (stand-up diff; stand-down flag).
+  #     The schema is one-trigger-one-prescription → only the stand-up half fits here. Finding: composites
+  #     must be split into multiple records (no mechanical failure — the loss is silent, which is worse).
+  - id: "bond:D12"
+    home: "dialectic/rom-ui.md"
+    one_liner: "ROM-UI: the anchor is load-once at boot; at stand-up, diff the anchor commit vs the ROM-baseline and notify the Operator on mismatch. (Stand-down half — set RESTART-PENDING on an anchor edit — does not fit one record.)"
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]   # corrected: 'anchor-edit' is a scope-`trigger`, NOT a `re_rub_trigger` (evaluator caught the slip)
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "ROM staleness = operating on a baseline the running session can't see"}
+    scope: {actor: agent, trigger: stand-up}
+    prescription: {action: diff, object: "anchor commit against the ROM-baseline; notify on mismatch", modality: MUST}
+    observability: {observable: stand-up-report, detector: soft-record}
+
+  # 10 — PERMISSION, not a duty. The deontic vocab [MUST, MUST-NOT, ONLY-BY, ONLY-AFTER] has no MAY →
+  #      a standing-authorization can only be mis-tagged as MUST (over-stating it). EXPECTED finding.
+  - id: "bond:S1"
+    home: "dialectic/substrate-access.md#standing-dispositions"
+    one_liner: "Standing authorization: durability/backup pushes and outward messaging/reviews/DMs are pre-authorized — the Agent acts without re-asking; a mechanical harness block is not a disposition gate."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [context-shift]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "s10 re-gating relapse caught >=3x — abdication mis-anchor"}
+    scope: {actor: agent, trigger: outward-publish}
+    prescription: {action: act, object: "durability push / outward message without re-asking", modality: MUST}   # FLAG: should be a permissive MAY
+    observability: {observable: ledger-line, detector: soft-record}
