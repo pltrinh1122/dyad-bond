@@ -1,20 +1,20 @@
 # dyad-bond — Carry-Forward Ledger
 
-> **Live in-flight state. Read this right after the anchor (`AGENT.md`, booted via the
+> **Live in-flight state. Read this right after the anchor (`DYAD.md`, booted via the
 > `CLAUDE.md`/`GEMINI.md` shim) to resume.** Single home for open
 > items; close them here as they clear. Written 2026-05-30 at bootstrap hand-off, because the
 > Operator restarts via `/exit` + fresh `claude` (no `--resume`) — so conversation context is gone
 > and *this file is the memory.*
 
 ## How to resume (fresh session)
-1. Load the anchor — the harness shim (`CLAUDE.md` or `GEMINI.md`) boots **`AGENT.md`** (the
+1. Load the anchor — the harness shim (`CLAUDE.md` or `GEMINI.md`) boots **`DYAD.md`** (the
    load-bearing content). Operate as **Covalent**.
 2. Read this ledger.
 3. **Reload the Bond-disciplines** (the index below) — these are *behavioral guards*, not reference;
    apply them at every seam. They live in `relationship-craft.md` but are indexed here because **the
    resume protocol doesn't load that file** — without this index they don't reload (see `ingraining.md`).
 4. **ROM-UI check** *(→ `rom-ui.md`)* — compare the anchor to the **ROM-baseline** below
-   (`git log -1 --format=%h -- AGENT.md` vs recorded; shims `CLAUDE.md GEMINI.md` in the watch set).
+   (`git log -1 --format=%h -- DYAD.md` vs recorded; shims `CLAUDE.md GEMINI.md` in the watch set).
    **Mismatch → notify the Operator what changed in the operating baseline, then refresh the baseline
    line.** Match → silent (lightest anchor).
 5. **Load the theory-pipeline** *(→ `dialectic/theory-pipeline.yaml`)* — the formal store of experimental
@@ -30,7 +30,11 @@
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
 > `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat*. Update this line
-> whenever `AGENT.md` (or a shim) changes.
+> whenever `DYAD.md` (or a shim) changes.
+> **⚠ RESTART-PENDING SET (2026-06-13) — anchor RENAMED `AGENT.md` → `DYAD.md` this session.** On disk,
+> not in the running context (load-once ROM). Next boot loads `DYAD.md`; **first Stand-Up: verify the
+> shim boot-chain (`CLAUDE.md`/`GEMINI.md` → `Read DYAD.md`) fires, then refresh the ROM-baseline to the
+> rename commit.** *(Prior F-b cycle retained below.)*
 > **RESTART-PENDING: CLEARED (s5 Stand-Up, 2026-06-01) — F-b VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`4230357` (the injected project-instructions are the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the pre-shim full anchor);
@@ -102,7 +106,7 @@ without re-deriving from intermissions.)*
   **ground-the-frame-first**). An ungrounded surface offers *false* grounds → can induce a **wrong** `Y`.
   *Ground-before-presenting is part of this duty, not a separate rule.* (The session's confab + moot
   grant-CTA = failures of this duty.)
-- **ROM-UI** *(→ `rom-ui.md`)* — the anchor (`AGENT.md`, booted via the `CLAUDE.md`/`GEMINI.md` shim) is **load-once at boot, no mid-session reload**
+- **ROM-UI** *(→ `rom-ui.md`)* — the anchor (`DYAD.md`, booted via the `CLAUDE.md`/`GEMINI.md` shim) is **load-once at boot, no mid-session reload**
   → an anchor edit is invisible until restart. At **Stand-Up** diff anchor vs the ROM-baseline above →
   notify the Operator of changes; at **Stand-Down** set `RESTART-PENDING` if the anchor was edited.
 - **D7 · valid-vs-reachable instrument** *(s7, n=4 = the B1 finding; → `relationship-craft.md`)* — before

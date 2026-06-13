@@ -4,7 +4,7 @@
 # root) — the failures ARE findings, do not "fix" them here; fix the schema or adjudicate the root.
 invariants:
   - id: "bond:C1"
-    home: "AGENT.md#NON-NEGOTIABLE"
+    home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "Keep the bond covalent: every candidate +1, including the Operator's premises, enters the shared model only by surviving genuine falsification; no ionic or meld collapse; easy agreement → test hardest."
     status: ratified
     form: tuple

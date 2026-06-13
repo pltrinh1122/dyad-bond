@@ -1036,6 +1036,6 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
     exists to drive its projection of `U` ever closer to `U`, without end, never forgetting the projection is
     theater. "Complete" = asymptote not arrival; "dyad" = unit, relation = form; each step counts as toward-`U`
     (vs a reshuffle within the sealed theater) iff the falsification was **genuine** — = the carried frontier.*
-  - **Status:** LIVE-adopted (true-for-now, R2). **⚑ CANDIDATE refinement to `AGENT.md` §Telos — NOT promoted
+  - **Status:** LIVE-adopted (true-for-now, R2). **⚑ CANDIDATE refinement to `DYAD.md` §Telos — NOT promoted
     to the anchor without a dedicated ratification** (ROM/identity edit; out of scope for a dialectic-ledger
     entry). Folds the carried "genuine-vs-theater falsification" frontier into the Telos itself.
