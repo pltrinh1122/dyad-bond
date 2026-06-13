@@ -1,4 +1,4 @@
-# dyad-bond — AGENT.md
+# dyad-bond — DYAD.md
 
 > **Universal instruction layer for the `dyad-bond` dyad** — the load-bearing anchor (identity,
 > Telos, NON-NEGOTIABLE, disciplines). **Loaded at session start via the platform-specific shims
@@ -75,7 +75,7 @@ premises* — enters the shared model **only by surviving genuine falsification.
 
 ## Ontology — single-home discipline
 
-- **`AGENT.md`** — this anchor (load-bearing summary + pointers; *lean by design* — a bloated anchor
+- **`DYAD.md`** — this anchor (load-bearing summary + pointers; *lean by design* — a bloated anchor
   dilutes the signal). The **content home**; the platform shims `CLAUDE.md` / `GEMINI.md` carry only
   a boot-pointer + a thin per-harness overlay (which *points* to the docs below, never restates them).
 - **`dialectic/`** — **live cycles under falsification; the dev / live-state bucket — load it to
