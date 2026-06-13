@@ -918,3 +918,19 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   - **Status:** LIVE-adopted (true-for-now; re-rub at context-shift, R2). Implies an R5 refinement (locus
     *schema* → locus *factorization*); held as candidate, **not yet promoted** to the invariant view.
     **Queued (unsurfaced):** standalone C-meter vs. ride the existing yield-curve telemetry.
+- **2026-06-13 · PROOF-OBLIGATION for `C = f(operator_locus, agent_locus, joint)` ADOPTED (Operator `Y`).**
+  Operator proposed the proof: show `C(full) > C(−agent)` **and** `C(full) > C(−human)`. Bond-channel
+  falsification (easy-Y tested): those two ablations prove **necessity of both halves only** — and
+  necessity is satisfied by **pure addition (`1+1=2`)**; a transfer-dyad (`joint=0`) passes them. The two
+  half-ablations are **blind to `joint`** — the Operator ablated the two halves but **not the bond**.
+  - **SYNTHESIS — three ablations, not two:**
+    - `C(full) > C(−agent)` → agent necessary
+    - `C(full) > C(−human)` → human necessary
+    - **`C(full) > C(−joint)`** → **`joint > 0`** — rules out ionic / `1+1=2`. This is **strict
+      superadditivity** (whole > sum of parts) = our Tenet `1+1=3` stated in the coefficient.
+  - **Necessity** (rows 1–2) ≠ **covalence** (row 3). Only the `−joint` ablation proves the bond.
+  - **Standing evidence:** CE#2/#7/#8 (`joint`-tagged) = **n=3 qualitative** instances of clarity neither
+    half reached alone → `joint > 0` shown qualitatively. **Open obligation: the MAGNITUDE of the gap**
+    (`C(full) − C(−joint)`), not its existence.
+  - **Status:** proof-target adopted, LIVE (true-for-now, R2). Next: design the `−joint` contrast (what is
+    the no-joint counterfactual operationally — additive baseline = each locus's marginal, summed).
