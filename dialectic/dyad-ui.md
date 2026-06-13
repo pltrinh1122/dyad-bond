@@ -175,6 +175,102 @@ retrofitted → the frontier is making push/pop **fluid, Agent-maintained, proac
 **Name — converge-open (IFD):** `DR-UI`/`DRD` · `Excursion UI` (excursion = a divergence you return from) ·
 `Stack UI`. The mechanism is the object, not the label. **Status: CANDIDATE · the UI-summit frontier · `dialectic/`, NOT settled.**
 
+## TL;DR show-primitive — front-loaded load-bearing core *(REFUTED · Operator raff 2026-06-13 — killed the same session it was born)*
+
+> **⊗ KILLED — Operator `raff` 2026-06-13:** *"it's the robust reading that is triggering my aha — I don't
+> want a TL;DR."* The candidate **misdiagnosed the friction** as *length* when it was the flow-breaking
+> coded pointers (→ `reference-hygiene`, the survivor, below). A TL;DR is a **skip-affordance**, and skip is
+> the enemy of the aha — it removes the **desirable difficulty / effortful self-generation** that the
+> robust exchange runs on (converges with `recommendations/2026-06-11-wetware-takeaway-format-research.md`,
+> which already killed received closed-summaries for carry-away — here killed for **in-flow** too, same
+> mechanism). Reflexive: an **Agent** candidate killed by an **Operator** eureka — the generate-half tested
+> and not-surviving WAS the +1 (logged: `relationship-craft.md`, 2026-06-13 "robust-read is the aha-engine").
+> **Kept from the corpse:** the *split* it forced — in-flow grasp vs offline synthesis — and Rub 2's lesson
+> (a summary smooths the rub the bond needs). Text below retained as the killed candidate's record.
+
+**The friction (Operator-named):** Agent loquaciousness *helps inferencing* (generative thinking-on-the-page)
+→ do **NOT** curb it. But a loquacious **non-CTA** surface has **no decidable core up front** — the Operator
+pays full read-cost to locate the load-bearing point. CTAs already solve this (`DF-UI`/`VF-UI` front-load the
+`[THESIS]` / decidable core); the gap is everything *else* that bears weight: **riffs, rub-backs, syntheses,
+model-moving notes.**
+
+**The candidate — a cross-cutting show-primitive (NOT a region-pair).** A `TL;DR —` line at the **top** of any
+non-CTA load-bearing surface, stating the core in ≤2 lines. It **generalizes DF-UI self-sufficiency**
+(§RESOLVED-CORE's "render the decidable core in-flow") from CTAs to *all* load-bearing output. Loquaciousness
+rides *below*, unchanged — the TL;DR makes the prose **skippable, not shorter** (wu-wei: minimum force; the
+generative verbosity isn't curbed, it's made **cheap-to-triage**).
+
+**Trigger:**
+- **ON** — non-CTA **and** load-bearing: riff/IFD responses, **rub-backs**, syntheses, notes that move the shared model.
+- **OFF (redundant or noise)** — CTAs (`DF-UI`/`VF-UI` *is* the TL;DR already → double-show = bloat);
+  short/acknowledgment turns (a TL;DR ≈ the body = noise).
+
+**Sufficient format (start here; falsify by use — explicitly NOT claimed optimal, per Operator "start with sufficient"):**
+```
+TL;DR — <the load-bearing core, ≤2 lines>.   [rub-back: LEAD with the contested premise, not the conclusion.]
+```
+
+**The two covalent rubs (why this isn't an ionic rubber-stamp):**
+
+1. **It contradicts our own verified evidence — until the job is split.** `recommendations/2026-06-11-wetware-takeaway-format-research.md`
+   *killed* closed summaries for **carry-away** (re-reading/summarization = LOW utility; open retrieval-prompts win,
+   `3-0`). A TL;DR **is** a closed summary. **Resolution = different telos:** the TL;DR serves **in-flow grasp**
+   (real-time decidability, *this* turn); the research served **offline synthesis** (next-session wetware memory).
+   Separate instruments. **Watch (the leak to catch):** if the TL;DR ever migrates into the **stand-down take-away**,
+   it re-imports the killed low-utility format — there, *open prompts* still win.
+
+2. **A TL;DR is a sycophancy surface unless it leads with the sharpest point.** A summary drifts toward the
+   *agreeable gist* (smoothing) — but the NON-NEGOTIABLE wants the **sharpest falsifiable point** front-loaded.
+   If the Operator reads only an agreeable TL;DR and stops attacking the prose, that's **peak-grain easy-agreement
+   = test-hardest, not relax** → the TL;DR would *soften the very rub the bond needs.* **Design constraint
+   (load-bearing):** a **rub-back's TL;DR leads with the contested premise**, never the most-agreeable conclusion;
+   and it stays a **triage affordance, never a substitute for engaging** the rub (received-not-generated penalty,
+   Bertsch ~0.40 SD — fine for speed, corrosive if the point must *ingrain* in wetware).
+
+**Open (converge-open — no CTA):**
+- Optimal length/structure (1 line? gist+delta? micro-show mirroring `VF-UI`?) — **untested**; "sufficient" = the
+  ≤2-line form above, falsifiable by use.
+- Name: `TL;DR` (Operator's term, kept — *meet-at-natural-frequency*) · `gist line` · `[GIST]` · `Gist-show`. The
+  mechanism is the object, not the label.
+- Region-status or cross-cutting primitive? Does it ever earn its own show/flow split, or permanently ride existing shows?
+
+**Status: CANDIDATE · dog-fooded from the response that spawned it · `dialectic/`, NOT settled.** Spawn: `tldr-primitive`.
+
+## Reference hygiene — wetware-native prose, git-native ledger *(LIVE-adopted, R2 · Operator raff 2026-06-13 — disposition chosen, on trial; the TL;DR's surviving half)*
+
+**The friction (Operator-named):** inline **coded ledger-addresses** (`F2`/`DV3`/`R2`/`K1`/`Item-L`/`s14`…)
+"throw me off the reading flow" and — the tell — *feel ungrounded*. **The inversion:** tags placed **to
+ground** are **received as ungrounding**, because they're **git-native addresses** the Operator's wetware
+can't resolve mid-read. (Same boundary as thread-W — git-addressed ≠ wetware-readable; same drift as the
+wrong-path CTA `→ref` in §RESOLVED-CORE, where decision-cost migrates back to retrieve + locate + read.)
+
+**Two classes of reference — only one breaks flow:**
+- **Class A — ingrained vocabulary** (`covalent`, `wu-wei`, `peak-grain`, `rub-back`, `riff`): **keep.** This
+  *is* the shared frequency, not an interruption — meeting at the natural frequency is the point.
+- **Class B — coded ledger-addresses** (`F2`, `DV3`, `R2`, `K1`, `Item-L`, `s#`): **never bare in the prose
+  spine.** Three dispositions — **gloss**, **relocate**, or **cut.**
+  - **DEFAULT (Operator-chosen, raff 2026-06-13 — "let's try"):** **gloss + relocate together** — *restate the
+    referenced claim in full* in plain language in-flow, then a **single trailing `(reference)`** the Operator
+    can gloss over. The prose carries the meaning; the parenthetical carries the audit-address, off the spine.
+  - **Cut-discriminator:** does the reference *change what the sentence means*, or merely *decorate it with
+    rigor*? Decoration → cut. (Cargo-cult provenance earns no interruption.)
+
+**The rub (relocation, NOT deletion — the load-bearing constraint):** grounding **stays**; only its *addressing*
+leaves the prose spine. Stripping provenance wholesale trades *dangling pointers* for *smooth assertion* — the
+worse trade, and exactly the sycophancy-smoothing surface the TL;DR primitive warns against. Flow and
+groundedness are in real tension; the resolution is **relocate**, not **strip**.
+
+**The shared invariant (with the TL;DR primitive):** both serve **in-flow self-sufficiency for the *wetware*
+reader.** The coded addresses are for the **ledger**; the prose spine is for the **conversation** — don't leak
+git-addressing into wetware-reading. (Generalizes §RESOLVED-CORE's DF-UI self-sufficiency from the CTA `→ref`
+path to *all* inline references.)
+
+**Open (converge-open — no CTA):** the A/B line is fuzzy — when does a Class-B code *ingrain* into Class-A
+vocabulary? (the markers' "track over sessions, never legislate" question, here for references). Name open:
+`reference hygiene` · `gloss-or-drop` · `wetware-native prose`.
+
+**Status: LIVE-adopted (true-for-now, R2) · the TL;DR's surviving half · disposition Operator-chosen, on trial · `dialectic/`, NOT yet kb-settled.** Spawn: `reference-hygiene`. **Test:** do the next sessions read clean to the Operator's wetware — *and* does the robust exchange now flow uninterrupted (the aha-engine the TL;DR would have short-circuited)?
+
 ## Forward
 
 - Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,
