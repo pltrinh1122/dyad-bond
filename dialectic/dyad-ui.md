@@ -225,6 +225,39 @@ TL;DR — <the load-bearing core, ≤2 lines>.   [rub-back: LEAD with the contes
 
 **Status: CANDIDATE · dog-fooded from the response that spawned it · `dialectic/`, NOT settled.** Spawn: `tldr-primitive`.
 
+## Reference hygiene — wetware-native prose, git-native ledger *(CANDIDATE · Operator riff 2026-06-13 — converge-open, NOT ratified)*
+
+**The friction (Operator-named):** inline **coded ledger-addresses** (`F2`/`DV3`/`R2`/`K1`/`Item-L`/`s14`…)
+"throw me off the reading flow" and — the tell — *feel ungrounded*. **The inversion:** tags placed **to
+ground** are **received as ungrounding**, because they're **git-native addresses** the Operator's wetware
+can't resolve mid-read. (Same boundary as thread-W — git-addressed ≠ wetware-readable; same drift as the
+wrong-path CTA `→ref` in §RESOLVED-CORE, where decision-cost migrates back to retrieve + locate + read.)
+
+**Two classes of reference — only one breaks flow:**
+- **Class A — ingrained vocabulary** (`covalent`, `wu-wei`, `peak-grain`, `rub-back`, `riff`): **keep.** This
+  *is* the shared frequency, not an interruption — meeting at the natural frequency is the point.
+- **Class B — coded ledger-addresses** (`F2`, `DV3`, `R2`, `K1`, `Item-L`, `s#`): **never bare in the prose
+  spine.** Three dispositions — **gloss** (render the referent in plain language in-flow), **relocate** (drop
+  to a trailing parenthetical / provenance tag, off the sentence's spine), or **cut.**
+  - **Cut-discriminator:** does the reference *change what the sentence means*, or merely *decorate it with
+    rigor*? Decoration → cut. (Cargo-cult provenance earns no interruption.)
+
+**The rub (relocation, NOT deletion — the load-bearing constraint):** grounding **stays**; only its *addressing*
+leaves the prose spine. Stripping provenance wholesale trades *dangling pointers* for *smooth assertion* — the
+worse trade, and exactly the sycophancy-smoothing surface the TL;DR primitive warns against. Flow and
+groundedness are in real tension; the resolution is **relocate**, not **strip**.
+
+**The shared invariant (with the TL;DR primitive):** both serve **in-flow self-sufficiency for the *wetware*
+reader.** The coded addresses are for the **ledger**; the prose spine is for the **conversation** — don't leak
+git-addressing into wetware-reading. (Generalizes §RESOLVED-CORE's DF-UI self-sufficiency from the CTA `→ref`
+path to *all* inline references.)
+
+**Open (converge-open — no CTA):** the A/B line is fuzzy — when does a Class-B code *ingrain* into Class-A
+vocabulary? (the markers' "track over sessions, never legislate" question, here for references). Name open:
+`reference hygiene` · `gloss-or-drop` · `wetware-native prose`.
+
+**Status: CANDIDATE · dog-fooded from this turn (no bare codes in the riff-back) · `dialectic/`, NOT settled.** Spawn: `reference-hygiene`.
+
 ## Forward
 
 - Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,
