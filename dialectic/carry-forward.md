@@ -28,13 +28,16 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
-> `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat*. Update this line
-> whenever `DYAD.md` (or a shim) changes.
-> **⚠ RESTART-PENDING SET (2026-06-13) — anchor RENAMED `AGENT.md` → `DYAD.md` this session.** On disk,
-> not in the running context (load-once ROM). Next boot loads `DYAD.md`; **first Stand-Up: verify the
-> shim boot-chain (`CLAUDE.md`/`GEMINI.md` → `Read DYAD.md`) fires, then refresh the ROM-baseline to the
-> rename commit.** *(Prior F-b cycle retained below.)*
+> **ROM-baseline (anchor commit the running baseline reflects):** `dbfd7df` — *anchor RENAMED
+> `AGENT.md` → `DYAD.md` (ROM-gated migration, fleet-standard); both shims + birth-id caveat swept to
+> match*. Update this line whenever `DYAD.md` (or a shim) changes.
+> **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
+> session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
+> form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
+> "*Read `DYAD.md` immediately*" was the actual mechanism that loaded the content home (`DYAD.md` was
+> **not** auto-injected — read because the shim said to). Boot-chain `CLAUDE.md → Read DYAD.md` **fired →
+> rename not refuted.** ROM-UI: anchor + both shims all at `dbfd7df` = baseline → **MATCH.** *(Prior F-b
+> cycle retained below.)*
 > **RESTART-PENDING: CLEARED (s5 Stand-Up, 2026-06-01) — F-b VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`4230357` (the injected project-instructions are the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the pre-shim full anchor);
@@ -62,6 +65,13 @@ may NOT transfer.
 `theory-pipeline.yaml`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`). *(Dogfood: this
 clean stand-down IS the §7 "reflective-half" ritual that s9 skipped — closing the loop so s12 recovers-forward
 without re-deriving from intermissions.)*
+→ **Stand-Down 2026-06-13 (s 2026-06-13):** anchor + both shims **NOT edited** this session (the rename is
+prior-commit `dbfd7df`; this session only **boot-VERIFIED** it → ROM-baseline refreshed `4230357`→`dbfd7df`,
+RESTART-PENDING cleared). Work: **K6 built + staged** (`dialectic/standdown-automation.md`, `bin/standup.sh`
++ `standdown.sh` + `install_hooks.py` — awaiting Operator install-gate) · **Item-L logged** (R-tag hygiene) ·
+**thread-W homed** (`relationship-craft.md` §thread-W — the substrate model; W₄ grounds *why* F2/DV3 is
+instrument-unreachable). → **RESTART-PENDING stays `none`**, baseline `dbfd7df`. *(Dogfood: this stand-down
+was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 
 > **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
 > **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
@@ -150,7 +160,10 @@ without re-deriving from intermissions.)*
 - **K4 · falsification-quality gauge** — what makes a dyadic falsification *genuine* vs *theater* (= toward-`U` vs reshuffle-in-the-sealed-theater)? Generalizes the de-calibration + paraphrase-laundering watches. *(Load-bearing: it's the validity condition for "truth = survives dyadic falsification.")*
 - **K5 · C-meter vs telemetry** — standalone `C` meter, or ride the existing yield-curve/RB3 telemetry? (Goodhart guard: `C` as breach-detector, never objective-function.)
 **Landed this session (durable, pushed):** `I_net=I(t)·C_locus(t)` · 3-way factorization · superadditivity proof-obligation · `I↔In_variant` load-bearing cycle · falsification=cycle-liveness + eureka tachometer · truth=survives-dyadic-falsification · the Telos-`why` · `AGENT.md`→`DYAD.md` rename · sovereignty invariant. *(See also RESTART-PENDING above — rename not yet boot-verified.)*
-- **K6 · AUTOMATE the stand-down/carry-forward routine** (Operator `enqueue:` 2026-06-13) — make the ledger/queue write + the stand-down ritual (RESTART-PENDING set · ROM-baseline refresh · R3 3-check · resume-queue wiring) fire **as part of the stand-down/exit/restart routine without a per-session Operator trigger.** Mechanism = a Claude Code **SessionEnd/Stop hook** (`settings.json` → `update-config`/`session-start-hook` skills). **Two banked constraints:** (a) **installing** the hook is the **Operator's gated act** (S2 — never an Agent self-grant); so this converts a per-session trigger into a *one-time install-gate*, not zero Operator involvement. (b) **auto-trigger ≠ auto-judgment** — the write needs a *template/discipline* (what's queue-worthy; single-home; bloat-guard) or the hook re-bloats the ledger. Status: QUEUED, unbuilt.
+- **K6 · AUTOMATE the stand-down/carry-forward routine** (Operator `enqueue:` 2026-06-13) — **BUILT, staged, awaiting Operator install-gate (s 2026-06-13).** Single-home: `dialectic/standdown-automation.md`. **Finding (corrects the enqueue's guess):** the automatable half is **stand-UP via a SessionStart hook** (`bin/standup.sh --hook` injects the mechanical ROM-UI · durability · substrate checks as `additionalContext` → removes the per-session `read: carry-forward` trigger); the **SessionEnd hook is teardown-only (cannot inject context to the agent)** and Stop fires every turn — so the **stand-down JUDGMENT write cannot be hook-fired**, confirming constraint (b) as a *hard* boundary. Stand-down = the agent runs `bin/standdown.sh` (mechanical facts + the queue-worthy/bloat-guard template). Install (constraint a / S2 — Operator's act, not self-grant): `python3 bin/install_hooks.py`. **Not yet dog-fooded as a live hook** — verified by hand-run + temp-settings install only.
+
+### L — Rule-tag hygiene: stale inline R-tags collide with the ratified s14 index  ·  status: LOGGED (s 2026-06-13)
+The canonical invariant index is `views/invariants-bond.md` (ratified **s14**, 2026-06-11): **D1–D12 · R1–R6 · X1–X3 · U1–U3 · S1–S3** — R/RB are **not** un-indexed (a prior-session partial-grep claimed so; search artifact, refuted by reading `views/`). **Real defect:** older *inline* ledger tags reuse R-numbers with pre-s14 meanings that now collide with the ratified set — caught live: **`R3` reads "Theory≠Prediction" in the 2026-05-31 NBA (~line 530) but ratified `R3` = Stand-down 3-check ritual.** This collision produced a mis-grounding in the 2026-06-13 rub-back chain. **Fix (deferred, lean, D2-bounded):** when next editing those files, retire or footnote the pre-s14 inline tags as historical; do **NOT** renumber the ratified table (it is the single home). Low-urgency corpus-integrity. *(prov: rub-back `RB?` → `R1/R4` read, 2026-06-13.)*
 
 ### A — Bootstrap closure  ·  status: DONE if you're reading this committed
 `dyad-bond` instantiated 2026-05-30 via the form's `AGENT.md` SPAOR walk. All 8 dimensions worked;
