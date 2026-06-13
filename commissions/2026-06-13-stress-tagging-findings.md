@@ -101,3 +101,35 @@ is real but was first properly demonstrated here (D2/S2/U1), not by D6. Footnote
 3. **M1 permissive modality** — add `MAY`(+`SHOULD`?) or declare permissions/soft-duties out-of-scope. [pick]
 4. **M2 cardinality** — add a `rate` field or declare out-of-scope. [pick]
 5. **M3 TENET form** — keep `mathematical` or descend to `tuple`/`slogan`. [MD-normative call]
+
+---
+
+## Rub + implementation (2026-06-13 cont. — Operator `rub:` → claims, then `riff:` → one_liner-atomicity)
+
+**The rub demoted the headline.** A relocation test (`/tmp/relocate-test.yaml` → 3/3 PASS, exit 0) showed
+the 3 mechanical fails were my **over-precise tagging**, not inexpressibility — D2/U1a/S2 all pass when
+relocated to existing situational seams. Rubbed claim verdicts (full C-E-C in the session record):
+- **A (STRONG)** — the schema is expressibility-robust; almost everything relocates to a green pass.
+- **B (MEDIUM-HIGH, the real risk)** — the binding pre-lock risk is **schema-level counterfeit-green**:
+  the engine validates FORM-not-TRUTH, so a mis-located-but-well-formed tag (a self-grant tagged
+  `outward-publish`) goes green. → the load-bearing gate-list move is enforcing the **tagging-time review**
+  (already the schema's declared residue: trigger-equivalence = G + Operator), not the mechanical G2 token.
+- **C (MEDIUM, narrow)** — the only genuine act-seam gap is acts with no natural situation (self-grant):
+  faithful naming is lint-blocked, every situational home is semantically wrong. **Sharpening:** the MD
+  *already* declares "act-bound prohibitions derive trigger ≝ attempt-context" (v0.4) — the YAML registry
+  just lacks that generic token → it's an **MD/YAML mismatch**, fixable by adding one `act-attempt` seam.
+- **D (HIGH, the strongest survivor)** — cardinality/rate genuinely inexpressible (`U1a` "≤1 per turn");
+  live fork = add a field vs declare out-of-scope (Covalent lean: out-of-scope — it's a U-law).
+- **E (DEMOTED, MEDIUM-LOW)** — permissions dualize to `MUST-NOT(complement)`; inergonomic, not inexpressible.
+- **F (IMPLEMENTED below)** — composite silent-truncation → solved by atomic decomposition + the lint.
+- **G (STRONG positive)** — census `DUTY-DETECTOR-MISMATCH` validates D10/D11's own content.
+- **H (instrument-validity, HIGH)** — n=1 primed tagger; treat the claim-set as illustrative, not exhaustive.
+
+**Implemented — `one_liner-atomicity` survivor** (`invariant-schema.md` v0.8.3): a one_liner is one
+declarative assertion = **one breach-condition**; co-equal assertions split into records, qualifiers/tells
+move to fields. The corpus (`invariants-stress.yaml`) is now **decomposed 10 → 16 atomic records** (C1's
+two collapse-modes; the DFD's four clauses → `DFD` + `U1a/b/c`; D12's two phases → `D12a/D12b`), with a
+**richer grounding-graph** (C1 → C1-ionic → D10; C1 → C1-meld → D11; DFD → U1a/b/c). The evaluator gains a
+**non-failing `ONE-LINER-COMPOSITE` advisory** (`;` heuristic). Verified: decomposed corpus = 0 composite
+flags (atomic); the old compound sample flags 4 (C1/SUMMIT/D6/TS-6), ORI-C3 correctly clean. The 3 G2
+fails + 2 census flags are **left honest** — they surface the open gate-items, not bugs.

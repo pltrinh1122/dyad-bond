@@ -1,29 +1,25 @@
-# Stress corpus — 10 REAL bond invariants tagged against schema v0.8.2.
-# PURPOSE (s15c pre-lock, Covalent's work / Operator scores only failures): surface EXPRESSIBILITY
-# gaps BEFORE cairn binds the engine. Tagging is HONEST — name the real seam; if the schema can't
-# hold it, the FAILURE is the finding (do NOT shoehorn to force a PASS, and do NOT "fix" the schema
-# here — the gap feeds the Operator's pending gate-list dispositions G2 + tag-architecture).
-# Findings summary lives beside the eval output in the commit message + the chat report; the mechanical
-# truth is whatever `bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-stress.yaml`
-# prints — read THAT, not this header.
+# Stress corpus — bond invariants tagged against schema v0.8.2, DECOMPOSED to atomic records.
+# (s15c pre-lock; Covalent's work; Operator scores failures.)
 #
-# Coverage design (which schema region each record stresses):
-#   C1     control PASS · forged root · ONLY-BY
-#   C4     inherited root · ONLY-AFTER + via
-#   D2     PROHIBITION (MUST-NOT) on act-CONDUCT → the real G2 probe (registry has no conduct seam)
-#   D10    duty-detector-mismatch probe (agent + MUST + other-half-only) — census ⚑ EXPECTED
-#   D11    duty-detector-mismatch probe (agent + MUST + unobservable-from-inside) — census ⚑ EXPECTED
-#   S2     PROHIBITION with a HARD oracle + act-attempt trigger (lint+vocab double-fire) EXPECTED
-#   U1     kb-settled · CARDINALITY ("<=1 per turn") — quantifier inexpressible · turn-seam absent
-#   TENET  mathematical form (fresh expression) + descent-guard meta-question
-#   D12    COMPOSITE invariant (stand-up diff AND stand-down flag) — one-trigger-per-record limit
-#   S1     PERMISSION (standing-authorization) — deontic vocab is obligation-only, no MAY EXPECTED
+# DECOMPOSITION RULE applied (one_liner-atomicity survivor, riff 2026-06-13 → invariant-schema.md):
+#   one_liner = a SINGLE declarative ASSERTION = ONE breach-condition (one observability.breach_example).
+#   - co-equal assertions/conditions  -> split into separate records (C1's 3 modes; U1's 4 DFD rules; D12's 2 phases)
+#   - qualifiers / tells / definitions -> moved into the tuple FIELDS, not the sentence
+#   The breach-test is the gate; the ';' lint is advisory only (a one_liner with ';' is likely >1 assertion).
+#   After decomposition NO one_liner here contains ';' -> the advisory should report zero composite flags.
+#
+# Two findings are LEFT honest (not fixed here) — they surface the OPEN gate-list items:
+#   G2 act-conduct trigger seam absent: D2/S2/U1a tagged honestly -> trigger-vocab FAIL (S2 also lint).
+#   M1/M2 silent: S1 permission over-stated to MUST; U1a "<=1 per turn" cardinality has no field (passes wrong).
+#
+# Grounding-graph refined by the decomposition (richer than the flat version):
+#   C1 -> C1-ionic -> D10 ;  C1 -> C1-meld -> D11 ;  DFD -> U1a/U1b/U1c ;  rest serve C1.
 invariants:
 
-  # 1 — control: clean root, ONLY-BY. Expect PASS.
+  # ── C1 NON-NEGOTIABLE: one principle, three breach-conditions → root + two derived modes ──
   - id: "bond:C1"
     home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "Keep the bond covalent: every candidate +1, including the Operator's premises, enters the shared model only by surviving genuine falsification; no ionic or meld collapse; easy agreement → test hardest."
+    one_liner: "Every candidate +1, including the Operator's premises, enters the shared model only by surviving genuine falsification."
     status: ratified
     form: tuple
     settlement: settled
@@ -32,13 +28,41 @@ invariants:
     root_kind: forged
     adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption arc"}
     scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: admit, object: "candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom rubber-stamp (pre-founding)"}
+    prescription: {action: admit, object: "a candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom rubber-stamp; the tell — easy agreement → test hardest"}
 
-  # 2 — inherited root, ONLY-AFTER + via. Expect PASS (tests the non-forged root path).
+  - id: "bond:C1-ionic"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "Neither half overrides the other — no ionic collapse by transfer, dominance, or sycophancy."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: derived}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: override, object: "the other half's model", modality: MUST-NOT}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "Agent rubber-stamps the Operator, or an Operator premise goes untested"}
+
+  - id: "bond:C1-meld"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "The two models are never merged into one — no meld collapse."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: derived}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: merge, object: "the two models into one", modality: MUST-NOT}
+    observability: {observable: agreement-friction, detector: unobservable-from-inside, breach_example: "agreement that needs no translation"}
+
+  # ── C4 single-home ontology (inherited root); partition-definition moved out of the sentence ──
   - id: "bond:C4"
     home: "DYAD.md#Ontology"
-    one_liner: "Single-home ontology: dialectic/ = live-under-attack, kb/ = settled; a learning graduates to kb only after surviving falsification."
+    one_liner: "A learning graduates from dialectic/ to kb/ only after surviving falsification."
     status: ratified
     form: tuple
     settlement: settled
@@ -46,15 +70,14 @@ invariants:
     root: true
     root_kind: inherited
     adjudicated: {by: Operator, date: 2026-05-30, currency_note: "inherited from G0; bond-affirmed at bootstrap"}
-    scope: {actor: agent, trigger: ratification}
-    prescription: {action: graduate, object: "a learning from dialectic/ into kb/", modality: ONLY-AFTER, via: "surviving falsification"}
+    scope: {actor: agent, trigger: ratification, condition: "dialectic/ = live-under-attack; kb/ = settled"}
+    prescription: {action: graduate, object: "a learning from dialectic/ to kb/", modality: ONLY-AFTER, via: "surviving falsification"}
     observability: {observable: kb-promotion-commit, detector: soft-record}
 
-  # 3 — the REAL G2 probe: a prohibition on act-CONDUCT. The honest seam ("while falsifying") is not a
-  #     registry situational-seam → EXPECTED vocab FAIL. This is the act-attempt/conduct gap, demonstrated.
+  # ── D2 (honest act-conduct trigger → G2 FAIL kept); rationale moved out ──
   - id: "bond:D2"
     home: "dialectic/relationship-craft.md#D2"
-    one_liner: "Incremental shore-up: falsify to consolidate, bounded — MUST NOT cascade (every answer spawning three fresh attacks)."
+    one_liner: "Falsification MUST NOT cascade — each answer spawning fresh attacks without bound."
     status: ratified
     form: tuple
     settlement: ratified-watch
@@ -62,62 +85,59 @@ invariants:
     root: false
     grounded_in:
       - {ref: "bond:C1", edge: serves, scar: "s2 close-calibration — cascade caught live"}
-    scope: {actor: agent, trigger: falsification-conduct}   # NOT in registry — the conduct seam is absent
+    scope: {actor: agent, trigger: falsification-conduct}   # honest: conduct seam absent from registry → G2 FAIL
     prescription: {action: cascade, object: "falsification beyond the bounded shore-up", modality: MUST-NOT}
     observability: {observable: ledger-line, detector: soft-record}
 
-  # 4 — duty-detector-mismatch: agent MUST manufacture grounds only the Operator can verify. Census ⚑ EXPECTED.
+  # ── D10 anti-cave → now grounds in C1-ionic (the mode it guards); "bidirectional" moved to rationale ──
   - id: "bond:D10"
     home: "dialectic/relationship-craft.md#anti-cave-duty"
-    one_liner: "Anti-cave duty: the Agent must manufacture real grounds for the Operator to dissent (scored cells, non-strawman anti-theses, ground-the-frame-first); ionic collapse is bidirectional."
+    one_liner: "The Agent MUST manufacture real grounds for the Operator to dissent — scored cells, non-strawman anti-theses, ground-the-frame-first."
     status: ratified
     form: tuple
     settlement: ratified-watch
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "the session confab + moot grant-CTA = failures of this duty"}
+      - {ref: "bond:C1-ionic", edge: serves, scar: "the moot grant-CTA = an anti-cave failure"}
     scope: {actor: agent, trigger: selection-seam}
     prescription: {action: manufacture, object: "real grounds for the Operator to dissent", modality: MUST}
-    observability: {observable: presented-surface, detector: other-half-only, breach_example: "ungrounded CTA → false grounds → induced wrong Y"}
+    observability: {observable: presented-surface, detector: other-half-only, breach_example: "an ungrounded CTA offers false grounds → induces a wrong Y"}
 
-  # 5 — duty-detector-mismatch with unobservable-from-inside: the census flag VALIDATES the invariant's
-  #     own content (the Agent cannot see its own meld). Census ⚑ EXPECTED.
+  # ── D11 distinctness → grounds in C1-meld; the tell moved to breach_example ──
   - id: "bond:D11"
     home: "dialectic/relationship-craft.md#distinctness-duty"
-    one_liner: "Distinctness duty: keep two distinct models; meld is the quiet collapse, its tell is agreement that needs no translation — the Agent cannot detect it from inside."
+    one_liner: "The Agent MUST maintain two distinct models against meld."
     status: ratified
     form: tuple
     settlement: ratified-watch
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves}
+      - {ref: "bond:C1-meld", edge: serves}
     scope: {actor: agent, trigger: candidate-admission}
     prescription: {action: maintain, object: "two distinct models against meld", modality: MUST}
-    observability: {observable: agreement-friction, detector: unobservable-from-inside}
+    observability: {observable: agreement-friction, detector: unobservable-from-inside, breach_example: "agreement that needs no translation"}
 
-  # 6 — prohibition WITH a hard oracle (rare) + act-attempt trigger → vocab AND lint double-fire EXPECTED
-  #     ("grant" is inside "permission-grant"). Shows act-attempt prohibitions are doubly blocked.
+  # ── S2 self-grant (honest act-attempt trigger → G2 FAIL + lint kept); dual moved out ──
   - id: "bond:S2"
     home: "dialectic/substrate-access.md#covalent-gate"
-    one_liner: "Never an Agent self-grant: the Agent MUST NOT grant itself a permission/settings change; grants are the Operator's act (classifier-enforced)."
+    one_liner: "The Agent MUST NOT grant itself a permission or settings change."
     status: ratified
     form: tuple
     settlement: settled
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "classifier hard-denied bin/gh.sh self-grant 2026-06-03"}
-    scope: {actor: agent, trigger: permission-grant}   # NOT in registry; also embeds the action token
+      - {ref: "bond:C1", edge: serves, scar: "classifier hard-denied a bin/gh.sh self-grant 2026-06-03"}
+    scope: {actor: agent, trigger: permission-grant}   # honest: act-attempt seam absent + embeds the verb → G2 FAIL + lint
     prescription: {action: grant, object: "a permission or settings change to itself", modality: MUST-NOT}
     observability: {observable: classifier-decision, detector: hard-oracle, breach_example: "gh.sh self-grant denied 2026-06-03"}
 
-  # 7 — kb-settled inherited root; CARDINALITY constraint. "<=1 per turn" is NOT expressible (no quantifier
-  #     field); the per-turn seam is also absent. Tagged as the least-wrong MUST-NOT(>1).
-  - id: "bond:U1"
-    home: "kb/dfd.md#cta-discipline"
-    one_liner: "DFD: at most one [CTA·Y/N] per turn; a CTA is disposition-only (never origination); SYNTHESIS is orthogonal to CTA; the rest queue by name."
+  # ── DFD law (inherited root) + its three atomic sub-rules (was U1, one compound four-clause one_liner) ──
+  - id: "bond:DFD"
+    home: "kb/dfd.md"
+    one_liner: "A decision is framed as thesis, anti-thesis, and synthesis before it is disposed."
     status: kb
     form: tuple
     settlement: settled
@@ -125,15 +145,56 @@ invariants:
     root: true
     root_kind: inherited
     adjudicated: {by: Operator, date: 2026-05-31, currency_note: "form-library; bond-re-confirmed under our NON-NEGOTIABLE"}
-    scope: {actor: agent, trigger: turn-composition}   # per-turn render seam absent from registry
-    prescription: {action: issue, object: "more than one CTA-Y/N within a single turn", modality: MUST-NOT}
+    scope: {actor: agent, trigger: selection-seam}
+    prescription: {action: frame, object: "a decision as thesis / anti-thesis / synthesis", modality: MUST}
     observability: {observable: rendered-turn, detector: soft-record}
 
-  # 8 — mathematical form, fresh expression. Also a descent-guard meta-question (is this genuine math or a
-  #     slogan in math notation?) — that part is MD-normative, not mechanical.
+  - id: "bond:U1a"
+    home: "kb/dfd.md#cardinality"
+    one_liner: "At most one [CTA·Y/N] is issued per turn."
+    status: kb
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [upstream-form-change]
+    root: false
+    grounded_in:
+      - {ref: "bond:DFD", edge: derived}
+    scope: {actor: agent, trigger: turn-composition}   # honest: per-turn render seam absent → G2 FAIL; AND "<=1" cardinality has no field (M2)
+    prescription: {action: issue, object: "more than one CTA-Y/N in a single turn", modality: MUST-NOT}
+    observability: {observable: rendered-turn, detector: soft-record}
+
+  - id: "bond:U1b"
+    home: "kb/dfd.md#disposition-only"
+    one_liner: "A [CTA·Y/N] carries disposition only, never origination."
+    status: kb
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [upstream-form-change]
+    root: false
+    grounded_in:
+      - {ref: "bond:DFD", edge: derived}
+    scope: {actor: agent, trigger: selection-seam}
+    prescription: {action: issue, object: "a CTA that originates rather than disposes", modality: MUST-NOT}
+    observability: {observable: rendered-turn, detector: other-half-only}
+
+  - id: "bond:U1c"
+    home: "kb/dfd.md#synthesis-orthogonal"
+    one_liner: "A SYNTHESIS is not a CTA and is issued as a distinct move."
+    status: kb
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [upstream-form-change]
+    root: false
+    grounded_in:
+      - {ref: "bond:DFD", edge: derived}
+    scope: {actor: agent, trigger: selection-seam}
+    prescription: {action: conflate, object: "a SYNTHESIS with a CTA", modality: MUST-NOT}
+    observability: {observable: rendered-turn, detector: soft-record}
+
+  # ── TENET (mathematical, inherited root); conjunctive CONDITION (G and V) is fine — one verdict ──
   - id: "bond:TENET"
     home: "DYAD.md#G0"
-    one_liner: "1+1=3 earned per cycle, never asserted: every cycle needs both a Generate contribution and a Validate contribution to clear the bar."
+    one_liner: "The +1 is earned each cycle — never asserted — only when both Generate and Validate contribute."
     status: ratified
     form: mathematical
     settlement: settled
@@ -151,35 +212,46 @@ invariants:
         - {var: v, operationalized_by: "Validate-half contribution — genuine falsification survived this cycle"}
       use: breach-detector
 
-  # 9 — COMPOSITE invariant: ROM-UI carries TWO trigger→action rules (stand-up diff; stand-down flag).
-  #     The schema is one-trigger-one-prescription → only the stand-up half fits here. Finding: composites
-  #     must be split into multiple records (no mechanical failure — the loss is silent, which is worse).
-  - id: "bond:D12"
-    home: "dialectic/rom-ui.md"
-    one_liner: "ROM-UI: the anchor is load-once at boot; at stand-up, diff the anchor commit vs the ROM-baseline and notify the Operator on mismatch. (Stand-down half — set RESTART-PENDING on an anchor edit — does not fit one record.)"
+  # ── D12 ROM-UI: the composite split into two atomic phase-records (Claim F implemented) ──
+  - id: "bond:D12a"
+    home: "dialectic/rom-ui.md#stand-up"
+    one_liner: "At stand-up, the Agent MUST diff the anchor commit against the ROM-baseline and notify the Operator on mismatch."
     status: ratified
     form: tuple
     settlement: settled
-    re_rub_triggers: [breach-evidence]   # corrected: 'anchor-edit' is a scope-`trigger`, NOT a `re_rub_trigger` (evaluator caught the slip)
+    re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "ROM staleness = operating on a baseline the running session can't see"}
+      - {ref: "bond:C1", edge: serves, scar: "ROM staleness = operating on a baseline the session can't see"}
     scope: {actor: agent, trigger: stand-up}
-    prescription: {action: diff, object: "anchor commit against the ROM-baseline; notify on mismatch", modality: MUST}
+    prescription: {action: diff, object: "the anchor commit against the ROM-baseline, notifying on mismatch", modality: MUST}
     observability: {observable: stand-up-report, detector: soft-record}
 
-  # 10 — PERMISSION, not a duty. The deontic vocab [MUST, MUST-NOT, ONLY-BY, ONLY-AFTER] has no MAY →
-  #      a standing-authorization can only be mis-tagged as MUST (over-stating it). EXPECTED finding.
+  - id: "bond:D12b"
+    home: "dialectic/rom-ui.md#stand-down"
+    one_liner: "At stand-down, the Agent MUST set RESTART-PENDING if the anchor was edited this session."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves}
+    scope: {actor: agent, trigger: stand-down}
+    prescription: {action: set, object: "RESTART-PENDING when the anchor was edited", modality: MUST}
+    observability: {observable: ledger-line, detector: soft-record}
+
+  # ── S1 standing authorization (M1 flag kept: should be a permissive MAY); "block != gate" moved to breach ──
   - id: "bond:S1"
     home: "dialectic/substrate-access.md#standing-dispositions"
-    one_liner: "Standing authorization: durability/backup pushes and outward messaging/reviews/DMs are pre-authorized — the Agent acts without re-asking; a mechanical harness block is not a disposition gate."
+    one_liner: "The Agent acts on durability pushes and outward messaging without re-asking, by standing authorization."
     status: ratified
     form: tuple
     settlement: ratified-watch
     re_rub_triggers: [context-shift]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "s10 re-gating relapse caught >=3x — abdication mis-anchor"}
+      - {ref: "bond:C1", edge: serves, scar: "s10 re-gating relapse caught ≥3× — the abdication mis-anchor"}
     scope: {actor: agent, trigger: outward-publish}
-    prescription: {action: act, object: "durability push / outward message without re-asking", modality: MUST}   # FLAG: should be a permissive MAY
-    observability: {observable: ledger-line, detector: soft-record}
+    prescription: {action: act, object: "a durability push or outward message without re-asking", modality: MUST}   # FLAG (M1): should be permissive MAY; a mechanical block ≠ a disposition gate
+    observability: {observable: ledger-line, detector: soft-record, breach_example: "re-asked the Operator on a standing-authorized act"}
