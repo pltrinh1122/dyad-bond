@@ -175,6 +175,56 @@ retrofitted → the frontier is making push/pop **fluid, Agent-maintained, proac
 **Name — converge-open (IFD):** `DR-UI`/`DRD` · `Excursion UI` (excursion = a divergence you return from) ·
 `Stack UI`. The mechanism is the object, not the label. **Status: CANDIDATE · the UI-summit frontier · `dialectic/`, NOT settled.**
 
+## TL;DR show-primitive — front-loaded load-bearing core *(CANDIDATE · Operator riff 2026-06-13 — converge-open, NOT ratified)*
+
+**The friction (Operator-named):** Agent loquaciousness *helps inferencing* (generative thinking-on-the-page)
+→ do **NOT** curb it. But a loquacious **non-CTA** surface has **no decidable core up front** — the Operator
+pays full read-cost to locate the load-bearing point. CTAs already solve this (`DF-UI`/`VF-UI` front-load the
+`[THESIS]` / decidable core); the gap is everything *else* that bears weight: **riffs, rub-backs, syntheses,
+model-moving notes.**
+
+**The candidate — a cross-cutting show-primitive (NOT a region-pair).** A `TL;DR —` line at the **top** of any
+non-CTA load-bearing surface, stating the core in ≤2 lines. It **generalizes DF-UI self-sufficiency**
+(§RESOLVED-CORE's "render the decidable core in-flow") from CTAs to *all* load-bearing output. Loquaciousness
+rides *below*, unchanged — the TL;DR makes the prose **skippable, not shorter** (wu-wei: minimum force; the
+generative verbosity isn't curbed, it's made **cheap-to-triage**).
+
+**Trigger:**
+- **ON** — non-CTA **and** load-bearing: riff/IFD responses, **rub-backs**, syntheses, notes that move the shared model.
+- **OFF (redundant or noise)** — CTAs (`DF-UI`/`VF-UI` *is* the TL;DR already → double-show = bloat);
+  short/acknowledgment turns (a TL;DR ≈ the body = noise).
+
+**Sufficient format (start here; falsify by use — explicitly NOT claimed optimal, per Operator "start with sufficient"):**
+```
+TL;DR — <the load-bearing core, ≤2 lines>.   [rub-back: LEAD with the contested premise, not the conclusion.]
+```
+
+**The two covalent rubs (why this isn't an ionic rubber-stamp):**
+
+1. **It contradicts our own verified evidence — until the job is split.** `recommendations/2026-06-11-wetware-takeaway-format-research.md`
+   *killed* closed summaries for **carry-away** (re-reading/summarization = LOW utility; open retrieval-prompts win,
+   `3-0`). A TL;DR **is** a closed summary. **Resolution = different telos:** the TL;DR serves **in-flow grasp**
+   (real-time decidability, *this* turn); the research served **offline synthesis** (next-session wetware memory).
+   Separate instruments. **Watch (the leak to catch):** if the TL;DR ever migrates into the **stand-down take-away**,
+   it re-imports the killed low-utility format — there, *open prompts* still win.
+
+2. **A TL;DR is a sycophancy surface unless it leads with the sharpest point.** A summary drifts toward the
+   *agreeable gist* (smoothing) — but the NON-NEGOTIABLE wants the **sharpest falsifiable point** front-loaded.
+   If the Operator reads only an agreeable TL;DR and stops attacking the prose, that's **peak-grain easy-agreement
+   = test-hardest, not relax** → the TL;DR would *soften the very rub the bond needs.* **Design constraint
+   (load-bearing):** a **rub-back's TL;DR leads with the contested premise**, never the most-agreeable conclusion;
+   and it stays a **triage affordance, never a substitute for engaging** the rub (received-not-generated penalty,
+   Bertsch ~0.40 SD — fine for speed, corrosive if the point must *ingrain* in wetware).
+
+**Open (converge-open — no CTA):**
+- Optimal length/structure (1 line? gist+delta? micro-show mirroring `VF-UI`?) — **untested**; "sufficient" = the
+  ≤2-line form above, falsifiable by use.
+- Name: `TL;DR` (Operator's term, kept — *meet-at-natural-frequency*) · `gist line` · `[GIST]` · `Gist-show`. The
+  mechanism is the object, not the label.
+- Region-status or cross-cutting primitive? Does it ever earn its own show/flow split, or permanently ride existing shows?
+
+**Status: CANDIDATE · dog-fooded from the response that spawned it · `dialectic/`, NOT settled.** Spawn: `tldr-primitive`.
+
 ## Forward
 
 - Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,
