@@ -28,13 +28,16 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `4230357` — *Shim-layer (F-b):
-> `AGENT.md` load-bearing; `CLAUDE.md`/`GEMINI.md` boot-shims + birth-id caveat*. Update this line
-> whenever `DYAD.md` (or a shim) changes.
-> **⚠ RESTART-PENDING SET (2026-06-13) — anchor RENAMED `AGENT.md` → `DYAD.md` this session.** On disk,
-> not in the running context (load-once ROM). Next boot loads `DYAD.md`; **first Stand-Up: verify the
-> shim boot-chain (`CLAUDE.md`/`GEMINI.md` → `Read DYAD.md`) fires, then refresh the ROM-baseline to the
-> rename commit.** *(Prior F-b cycle retained below.)*
+> **ROM-baseline (anchor commit the running baseline reflects):** `dbfd7df` — *anchor RENAMED
+> `AGENT.md` → `DYAD.md` (ROM-gated migration, fleet-standard); both shims + birth-id caveat swept to
+> match*. Update this line whenever `DYAD.md` (or a shim) changes.
+> **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
+> session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
+> form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
+> "*Read `DYAD.md` immediately*" was the actual mechanism that loaded the content home (`DYAD.md` was
+> **not** auto-injected — read because the shim said to). Boot-chain `CLAUDE.md → Read DYAD.md` **fired →
+> rename not refuted.** ROM-UI: anchor + both shims all at `dbfd7df` = baseline → **MATCH.** *(Prior F-b
+> cycle retained below.)*
 > **RESTART-PENDING: CLEARED (s5 Stand-Up, 2026-06-01) — F-b VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`4230357` (the injected project-instructions are the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the pre-shim full anchor);
