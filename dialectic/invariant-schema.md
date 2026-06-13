@@ -218,6 +218,29 @@ methodology gap: the forensics sweep was primed by the subject's self-diagnoses;
 over tagged tuples is the **unprimed detector the Q3 experiment needs** — isolating the question to
 "can the LLM infer the super-invariant/rescope, given a mechanically-served collision."
 
+## one_liner atomicity *(v0.8.3 — Operator riff: a compound one_liner is not Operator-evaluable)*
+
+The v0.4 declaration (one_liner = denormalized projection of the tuple) made operational. **A one_liner
+is a SINGLE declarative assertion — exactly ONE breach-condition** (one `observability.breach_example`).
+The test is not "one sentence" (that loses meaning) but the **breach-test**: if naming what would
+falsify it needs two distinct observables, it is two invariants.
+
+- **The line is assertion vs condition.** A conjunctive *condition* is one assertion, one verdict
+  (TENET's "both Generate **and** Validate" — still one breach: a cycle clearing the bar without
+  falsification). Co-equal *assertions* are many (`rule X; also rule Y`) — split into atomic records.
+- **Where the rest goes (bounds the decomposition — D2, no 4→27KB blow-up):** split only co-equal
+  assertions/conditions into records; **qualifiers · tells · definitions move into the tuple FIELDS**, not
+  new records. The collapse-modes of C1 → derived records (`C1-ionic`/`C1-meld`); the "easy agreement →
+  test hardest" tell → `observability.breach_example`; the DFD's four clauses → `DFD` + `U1a/b/c`.
+- **Worked:** the sample already half-followed this (ORI-C3 was condition-3 split out of the 3-part
+  operator-rub-invariant) — independent evidence the rule is right, not invented.
+- **Lint is advisory only** (the accepted-residue posture, unchanged): a `;` in a one_liner flags a likely
+  composite (`bin/invariant-eval.py` → `ONE-LINER-COMPOSITE`, non-failing). "and" can NOT be linted
+  (legitimate in conjunctive conditions). The breach-test, run by G + the Operator, is the gate; the lint
+  only nudges toward decomposition.
+- **Not a new invariant** — `one_liner = atomic-tuple projection` was always the field's meaning; this
+  names the consequence and hands Claim-F's atomicity guard a cheap proxy. Bank as clarification.
+
 ## Falsifiers
 
 - REFUTED as definition if a consensus-invariant of bond's (view C/D/R rows) cannot be expressed in the

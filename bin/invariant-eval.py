@@ -132,6 +132,11 @@ def check_record(rec, spec, ids):
 def corpus_checks(records):
     errs, flags = [], []
     by_id = {r.get("id"): r for r in records}
+    # one_liner atomicity (HEURISTIC, non-failing): a ';' signals >1 co-equal assertion. The real gate is
+    # the breach-test (one observability.breach_example per record); this only nudges toward decomposition.
+    for r in records:
+        if ";" in (r.get("one_liner") or ""):
+            flags.append(f"ONE-LINER-COMPOSITE {r.get('id')}: one_liner contains ';' — likely >1 assertion (decompose or move to fields)")
     # grounding-graph: resolve, terminate, acyclic
     for r in records:
         for edge in r.get("grounded_in") or []:
