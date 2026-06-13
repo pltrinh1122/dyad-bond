@@ -1,0 +1,80 @@
+#!/usr/bin/env bash
+# bin/standdown.sh — dyad-bond stand-down ritual (K6: mechanical spine + judgment template)
+#
+# WHY (Item-K6, 2026-06-13): close the session so the next one recovers-forward without re-deriving.
+#   The stand-down has a MECHANICAL half (deterministic — automate it) and a JUDGMENT half (what is
+#   queue-worthy; single-home; bloat-guard — NOT automatable: that is the agent's covalent act).
+#
+# HOOK BOUNDARY (verified against the Claude Code hook contract, 2026-06-13): a **SessionEnd** hook is
+#   TEARDOWN-ONLY — it fires after the agent is gone and CANNOT inject context back, and **Stop** fires
+#   every turn-end (cannot mean "stand-down"). So the judgment write CANNOT be hook-fired into the agent.
+#   Therefore: the AGENT runs this at stand-down and reads the template below; a SessionEnd hook may run
+#   it `--log` only for the mechanical durability line (debug log). This is K6 constraint (b) made hard.
+#
+# COVALENT GATE (K6 constraint a / S2): wiring the SessionEnd hook is the Operator's act
+#   (`bin/install_hooks.py`) — never an Agent self-grant.
+#
+# Usage:  bin/standdown.sh          # mechanical checks + the stand-down template (agent runs at close)
+#         bin/standdown.sh --log    # mechanical line only (SessionEnd hook body; output is debug-log)
+
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+LEDGER="dialectic/carry-forward.md"
+ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md)
+
+# ── Mechanical: did the anchor move past the recorded baseline this session? (ROM-UI stand-down rule) ─
+recorded="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
+            | grep -oE '`[0-9a-f]{7,40}`' | head -1 | tr -d '`' || true)"
+rom_line="anchor: unknown (could not parse baseline)"
+if [[ -n "$recorded" ]]; then
+  moved=()
+  for f in "${ANCHOR_FILES[@]}"; do
+    cur="$(git log -1 --format=%H -- "$f" 2>/dev/null || true)"
+    [[ -n "$cur" && "$cur" == "$recorded"* ]] || moved+=("$f@${cur:0:7}")
+  done
+  if ((${#moved[@]})); then
+    rom_line="anchor MOVED past baseline \`$recorded\` (${moved[*]}) → SET RESTART-PENDING + refresh the ROM-baseline line AFTER commit."
+  else
+    rom_line="anchor at baseline \`$recorded\` → RESTART-PENDING stays none."
+  fi
+fi
+
+dirty="$(git status --porcelain 2>/dev/null || true)"
+branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
+unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
+dur_line="clean + in sync on \`$branch\`."
+[[ -n "$dirty" ]] && dur_line="⚠ DIRTY on \`$branch\` — commit + push so the memory is grounded."
+[[ -z "$dirty" && "$unpushed" != "0" ]] && dur_line="⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh)."
+
+mech="$(printf '%s\n' \
+  "dyad-bond stand-down — mechanical:" \
+  "  ROM: $rom_line" \
+  "  Durability: $dur_line")"
+
+if [[ "${1:-}" == "--log" ]]; then
+  printf '%s\n' "$mech"
+  exit 0
+fi
+
+cat <<TEMPLATE
+$mech
+
+dyad-bond stand-down — JUDGMENT (the agent fills; auto-trigger ≠ auto-judgment, K6-b):
+  Queue-worthy filter — record an item ONLY if it is (a) in-flight (a live front, not closed),
+    (b) not already single-homed elsewhere (no restating dialectic/ or kb/ — point to it), and
+    (c) load-bearing for resume (the next session needs it to recover-forward). Else DROP it.
+  Bloat-guard — the ledger is the memory, not the journal. Prefer one line + a pointer to prose.
+    If the resume-visible queue outgrows a screen it has failed its own bound (rub-forward, 2026-06-11).
+
+  Stand-down checklist:
+   1. ROM (above): if the anchor moved, set RESTART-PENDING in $LEDGER + refresh the ROM-baseline
+      line; else leave 'none'. Record a one-line Stand-Down note (date · what changed · baseline).
+   2. Open-items / Item-K queue: update statuses; drop what closed; add only queue-worthy in-flight.
+   3. Intermission reflection (D3 — substance + durability, no four-step ceremony): what was authored/
+      learned, what is now the live front, what carries. Single-home the prose in relationship-craft.md /
+      cross-dyad-craft.md; the ledger holds the pointer + the resume-visible delta.
+   4. Theory-pipeline: advance exec_phase / next_probe for any candidate touched this session.
+   5. Durability (above): commit + push before stepping away — unpushed history is ungrounded memory.
+TEMPLATE
