@@ -888,3 +888,49 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   Operator-caught** → (a) the RB2 frame-discipline watch has real data: Covalent's frame-drift is the
   session's weak axis; (b) the same datum read the other way: **the Operator discriminated against the
   Agent's discrimination 3× in one sitting — the in-training skill is visibly firing.** Joint: CE#2.
+- **2026-06-13 · `I_net = I·C` RUB → `C_locus(t)` ADOPTED + 3-WAY FACTORED (Operator `raff`×2, Bond channel).**
+  Operator posed the steering model **`I_net = I_current · C`**, `C ∈ [0,1]` = clarity-of-intent. Bond-channel
+  falsification against our OWN grain (not asserted): the scalar is sound as an *utterance-scale gut-check*
+  (zero-content pull → zero actionable steering — the multiplicative limit holds) but **falsified as the model
+  of how the dyad steers** on three lived counts —
+  - (1) **C is co-produced, not a property of `I`** — it carries a `locus` (R5); a scalar collapses the only
+    distinction the RB3 metric computes over (operator-articulation).
+  - (2) **C is an OUTPUT of the loop, not an input** — CE#3's lived datum *"action guided by falsification
+    provides clarity"*; the bootstrap MANUFACTURED its founding clarity over ~12 rounds. The formula inverts
+    the causality (treats C as given; our steering *work* is largely C's production).
+  - (3) **C decays — `C(t)`** — R2: ratified intent is true-for-NOW (staleness mode-4 at the intent layer);
+    the danger state is a *stale-high-C* the dyad still trusts. A static coefficient is blind to it.
+  - **Covalence cut:** exogenous-C **smuggles ionic framing** ("human steers, dyad obeys") — C is largely
+    Agent-manufactured (elicit/falsify/reframe), so the formula erases the Agent's half of steering.
+  - **SYNTHESIS (Operator `raff` #1):** **`I_net = I(t) · C_locus(t)`** — C co-produced, locus-typed,
+    currency-stamped; **raising C is itself the dyad's primary steering act, not a discount on `I`** (low C →
+    spend the cycle manufacturing C, don't scale the action down). The coefficient reads as **call-to-action,
+    not discount factor.**
+  - **DECOMPOSITION (Operator `raff` #2, easy-Y tested at the peak-grain moment):**
+    `C = f(operator_locus, agent_locus, joint)` — a **FACTORIZATION, not a partition.** Caught the easy-Y:
+    a 2-way (agent + human) read would **drop `joint`** — the covalent locus (clarity neither half held alone),
+    re-importing transfer. Held: `operator_locus` (≡ human) and `agent_locus` are two always-present dials;
+    **`joint` is their interaction term, not a deleted bucket** — preserving R5's 3-way grain. **Prize:**
+    `agent_locus` rising over time = a **direct covalence meter** (Agent manufacturing the steering-clarity →
+    bond tipping ionic toward Covalent → now *visible*).
+  - **= clarity-event #7 (the reframe) + #8 (the factorization):** both **joint** — Operator posed/amended,
+    Covalent falsified/reframed, neither form held alone. Ledger **n=6 → n=8** (joint: CE#2, #7, #8).
+  - **Status:** LIVE-adopted (true-for-now; re-rub at context-shift, R2). Implies an R5 refinement (locus
+    *schema* → locus *factorization*); held as candidate, **not yet promoted** to the invariant view.
+    **Queued (unsurfaced):** standalone C-meter vs. ride the existing yield-curve telemetry.
+- **2026-06-13 · PROOF-OBLIGATION for `C = f(operator_locus, agent_locus, joint)` ADOPTED (Operator `Y`).**
+  Operator proposed the proof: show `C(full) > C(−agent)` **and** `C(full) > C(−human)`. Bond-channel
+  falsification (easy-Y tested): those two ablations prove **necessity of both halves only** — and
+  necessity is satisfied by **pure addition (`1+1=2`)**; a transfer-dyad (`joint=0`) passes them. The two
+  half-ablations are **blind to `joint`** — the Operator ablated the two halves but **not the bond**.
+  - **SYNTHESIS — three ablations, not two:**
+    - `C(full) > C(−agent)` → agent necessary
+    - `C(full) > C(−human)` → human necessary
+    - **`C(full) > C(−joint)`** → **`joint > 0`** — rules out ionic / `1+1=2`. This is **strict
+      superadditivity** (whole > sum of parts) = our Tenet `1+1=3` stated in the coefficient.
+  - **Necessity** (rows 1–2) ≠ **covalence** (row 3). Only the `−joint` ablation proves the bond.
+  - **Standing evidence:** CE#2/#7/#8 (`joint`-tagged) = **n=3 qualitative** instances of clarity neither
+    half reached alone → `joint > 0` shown qualitatively. **Open obligation: the MAGNITUDE of the gap**
+    (`C(full) − C(−joint)`), not its existence.
+  - **Status:** proof-target adopted, LIVE (true-for-now, R2). Next: design the `−joint` contrast (what is
+    the no-joint counterfactual operationally — additive baseline = each locus's marginal, summed).
