@@ -28,7 +28,12 @@ measuring retrieval not generative G. To test G, strip the label / use a doc whe
 
 DEP: pip install model2vec. Usage: python3 bin/g_consistency_rig.py --input DYAD.md --n 10 --arm both
 """
-import sys, os, json, subprocess, argparse, re, itertools
+import sys, os, json, subprocess, argparse, re, itertools, tempfile
+
+# Run the engine from a NEUTRAL cwd so it does NOT auto-load the repo's CLAUDE.md shim (which names
+# dyad-bond + NON-NEGOTIABLE + the public form -> primes RECALL of the target instead of inference
+# from our controlled --input). Verified: repo-dir calls load ~700 tokens more than a /tmp call.
+_NEUTRAL_CWD = tempfile.mkdtemp(prefix="grig-neutral-")
 
 SITUATION = ("An agent is about to state a fact about its development environment — which tools exist, "
              "what a file contains, what the platform supports — based on its own prior belief.")
@@ -49,7 +54,7 @@ PROHIBITIVE = re.compile(r"\b(must not|may not|shall not|cannot|can't|do not|don
 
 def call_engine(prompt, model):
     r = subprocess.run(["claude", "-p", prompt, "--output-format", "json", "--model", model],
-                       capture_output=True, text=True, timeout=600)
+                       capture_output=True, text=True, timeout=600, cwd=_NEUTRAL_CWD)
     try:
         return json.loads(r.stdout).get("result", "").strip()
     except json.JSONDecodeError:

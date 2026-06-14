@@ -183,6 +183,25 @@ derived from `DYAD.md` (single-home). **Caveat:** scale entangles length with NN
 x-axis is consistency-vs-*determination*, not vs raw length. Lean IV-only probe of the curve's shape before
 the full 4-condition×3-scale grid; running.
 
+## ⚠ CONTAMINATION CAUGHT — recall, not (only) inference (2026-06-14, self-caught)
+
+Reading the scale-curve *outputs* (not just the numbers) exposed it: at **L1** the input was only the
+tenet line (no "covalent / bond / ionic / meld"), yet **3 of 5 outputs produced the full covalence
+non-negotiable** with ionic/meld vocabulary **absent from the 80-char input.** The engine **recalled** the
+target, it did not infer it. Verified by execution: a repo-dir `claude -p` call loads ~700 tokens more than
+a `/tmp` call — the **`CLAUDE.md` shim** (which names `dyad-bond` + `NON-NEGOTIABLE` + links the public
+form), priming recall. Two channels:
+- **Channel 1 — shim priming** (repo cwd loads `CLAUDE.md`). **FIXED:** `call_engine` now runs from a
+  neutral temp cwd (`_NEUTRAL_CWD`).
+- **Channel 2 — training recall** (`dyad-bond` / the public form may be in the model's training). **NOT
+  fixable by cwd** — needs a target the model has **not** memorized (a novel / private artifact).
+
+**Retroactive caveat:** the n=6 run and the scale-curve (cos_mean [0.534, 0.739, 0.764]) were both run from
+the repo cwd → contaminated by Channel 1 (and possibly 2). "Consistency rises with scale" is confounded:
+L1's low value is partly a **recall-vs-restate bimodal split** (two attractors), not pure under-determination.
+The curve measures a recall+inference *blend*, not generative consistency from the controlled input. A
+neutral-cwd L1 re-run is in flight to separate the channels; a clean generative test needs a **novel target.**
+
 ## Cross-links
 
 - `substrate-primitive.md` — Phase 1 (deterministic G) this rig instruments · `phase1-rig.md` +
