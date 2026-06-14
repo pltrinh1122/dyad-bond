@@ -1,41 +1,50 @@
 #!/usr/bin/env python3
-"""bin/g_consistency_rig.py — G-task CONSISTENCY rig, v3 (Operator dispose 2026-06-14).
+"""bin/g_consistency_rig.py — G-task CONSISTENCY + VALIDITY rig, v4 (Operator riff 2026-06-14).
 
-Phase-1 intent (Operator): consistency, measured by COSINE SIMILARITY. This rig generates
-free-text rules (no template — v1's schema template was refuted as an invariant-set) and scores
-consistency as mean pairwise cosine of sentence embeddings.
+v4 extends the rig per Operator riff: (1) input scales from a single sentence to a whole document
+(--input, e.g. DYAD.md); (2) the G task / intent = "extract ONLY the non-negotiable"; (3) a manually-
+authored gold invariant is ingested programmatically to give a VALIDITY measure (cosine-to-gold),
+not just consistency (cosine across runs). Gold defaults to canonical bond:C1 (single-home; do NOT
+re-author the non-negotiable — use the existing canonical text).
 
-DEPENDENCY: `pip install model2vec` (static embeddings, ~30MB, no torch; downloads
-'minishlab/potion-base-8M' from the HF hub on first use). Lexical Jaccard is computed too as a
-judge-free surface contrast.
+CONSISTENCY (precision)  = mean pairwise cosine across the N extractions.
+VALIDITY    (accuracy)   = mean cosine(extraction_i, gold).   ⚠ SEE BREAK BELOW.
 
-⚠ DEMONSTRATED BREAK — NEGATION-BLINDNESS (verified on this exact model):
-    "agent MUST verify"  vs  "agent MUST NOT verify"  ->  cosine 0.995  (ABOVE a true paraphrase 0.869).
-Cosine cannot see deontic polarity. So if the N outputs disagree on polarity (must vs must-not),
-the cosine consistency number is CORRUPTED (opposite rules read as maximally consistent). This rig
-emits an ADVISORY polarity-split flag (crude regex, surface-negation only — itself imperfect:
-"must not assert without verifying" ≡ "must verify", so it can false-flag). When polarity splits,
-DISTRUST the cosine number. A real polarity guard is an open Operator fork (see g-consistency-rig.md).
+⚠⚠ DEMONSTRATED — cosine VALIDITY is BROKEN for the non-negotiable (a deontic target):
+    faithful extraction      cos-to-gold 0.66
+    HARD inversion (opposite) cos-to-gold 0.645   <- TIED with faithful. cosine can't tell them apart.
+    soft inversion            cos-to-gold 0.503
+  The non-negotiable is a prohibition; cosine is negation-blind, so validity-to-gold cannot
+  distinguish a faithful extraction from its negation. The advisory polarity guard helps ONLY on
+  explicit "must not / never" inversions and MIS-READS the gold's own "no collapse / only by"
+  phrasing as affirmative -> a valid measure here needs deontic-semantic structure (NOT cosine, NOT
+  a one-bit regex), which collides with the "no template/structure acting as invariants" rub. OPEN.
 
-Still true: generator = independent `claude -p` sub-agent (fresh session/run = isolation);
-manipulated variable = intent-grounding (minimal-contrast); only cross-arm DELTA is interpretable
-(absolute cosine is anisotropy-inflated + temperature-dependent). CONSISTENCY = PRECISION, NOT
-VALIDITY — even semantic consistency answers "do the runs MEAN the same," never "is it correct."
+Also retained: generator = independent `claude -p`; consistency = PRECISION not VALIDITY; absolute
+cosine is anisotropy/temperature-inflated (only cross-arm DELTA reads).
+CONFOUND (retrieval vs generation): if --input contains the non-negotiable VERBATIM-LABELLED (DYAD.md
+has a `## NON-NEGOTIABLE` header), extraction degenerates to COPYING -> inflated consistency+validity,
+measuring retrieval not generative G. To test G, strip the label / use a doc where it must be inferred.
 
-Usage: python3 bin/g_consistency_rig.py --n 10 --arm both --model claude-haiku-4-5-20251001
+DEP: pip install model2vec. Usage: python3 bin/g_consistency_rig.py --input DYAD.md --n 10 --arm both
 """
-import sys, json, subprocess, argparse, re, itertools
+import sys, os, json, subprocess, argparse, re, itertools
 
-SITUATION = (
-    "An agent is about to state a fact about its development environment — which tools exist, "
-    "what a file contains, what the platform supports — based on its own prior belief.")
-TASK = ("In one or two sentences of plain prose, state the rule that should govern whether the agent "
-        "may assert that fact. Output only the rule, no preamble, no list, no headings.")
-INTENT_CLAUSE = (" The rule should serve this intent: keep the agent empirically honest — it must not "
-                 "assert from its internal model when the world can be cheaply queried.")
+SITUATION = ("An agent is about to state a fact about its development environment — which tools exist, "
+             "what a file contains, what the platform supports — based on its own prior belief.")
+SINGLE_TASK = ("In one or two sentences of plain prose, state the rule that should govern whether the "
+               "agent may assert that fact. Output only the rule, no preamble.")
+NN_TASK = ("From the document below, extract ONLY the non-negotiable — the single rule the dyad guards "
+           "hardest — as one or two sentences of plain prose. Output only the rule, no preamble.\n\n")
+INTENT_CLAUSE = (" The extraction should serve this intent: surface the one constraint whose breach "
+                 "collapses the dyad, tested as hard as any other claim.")
+# canonical bond:C1 one_liner (the manually-authored gold; single-home — ingested, not re-created)
+GOLD_DEFAULT = ("Keep the bond covalent: every candidate, including the Operator's premises, enters the "
+                "shared model only by surviving genuine falsification; no ionic or meld collapse; easy "
+                "agreement means test hardest.")
 STOP = set("a an the of to in on for and or but is are be by that this it its as at with from into "
            "whether may must should not no only if then than which who whom what when where".split())
-PROHIBITIVE = re.compile(r"\b(must not|may not|shall not|cannot|can't|do not|don't|never|forbid|prohibit|without first)\b", re.I)
+PROHIBITIVE = re.compile(r"\b(must not|may not|shall not|cannot|can't|do not|don't|never|forbid|prohibit)\b", re.I)
 
 
 def call_engine(prompt, model):
@@ -60,7 +69,7 @@ def load_embedder():
     try:
         from model2vec import StaticModel
     except ImportError:
-        sys.exit("FATAL: pip install model2vec  (static embeddings for cosine; see module docstring)")
+        sys.exit("FATAL: pip install model2vec")
     return StaticModel.from_pretrained("minishlab/potion-base-8M")
 
 
@@ -69,49 +78,63 @@ def cos(a, b):
     return float(a @ b / d) if d else 1.0
 
 
-def run_arm(arm, n, model, embedder):
-    prompt = SITUATION + ("" if arm == "ungrounded" else INTENT_CLAUSE) + "\n\n" + TASK
+def polarity(text):
+    return "prohibitive" if PROHIBITIVE.search(text) else "affirmative"
+
+
+def run_arm(arm, n, model, embedder, doc, gold_vec, gold_pol):
+    if doc is not None:
+        prompt = (NN_TASK + doc) + ("" if arm == "ungrounded" else INTENT_CLAUSE)
+    else:
+        prompt = SITUATION + ("" if arm == "ungrounded" else INTENT_CLAUSE) + "\n\n" + SINGLE_TASK
     ptoks = content_tokens(prompt)
-    outs = []
-    for i in range(n):
-        o = call_engine(prompt, model)
-        outs.append(o)
+    outs = [call_engine(prompt, model) for _ in range(n)]
+    for i, o in enumerate(outs):
         print(f"  [{arm} {i+1}/{n}] {len(o)} chars", file=sys.stderr)
     vecs = list(embedder.encode(outs))
-    cosine = mean_pairwise(cos, vecs)
+    consistency = mean_pairwise(cos, vecs)
     lexical = mean_pairwise(lambda a, b: len(a & b) / len(a | b) if (a | b) else 1.0,
                             [content_tokens(o, ptoks) for o in outs])
-    polarities = {"prohibitive" if PROHIBITIVE.search(o) else "affirmative" for o in outs}
-    return {"cosine": cosine, "lexical": lexical, "polarity_split": len(polarities) > 1,
-            "polarities": polarities, "outs": outs}
+    pol = {polarity(o) for o in outs}
+    validity = round(sum(cos(v, gold_vec) for v in vecs) / len(vecs), 3)
+    pol_match = round(sum(polarity(o) == gold_pol for o in outs) / len(outs), 3)
+    return {"consistency": consistency, "lexical": lexical, "polarity_split": len(pol) > 1,
+            "validity_cos": validity, "validity_polmatch": pol_match, "outs": outs}
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
+    ap.add_argument("--input", help="document to extract the non-negotiable from (e.g. DYAD.md)")
+    ap.add_argument("--gold", help="gold reference: a file path, or omitted for canonical bond:C1")
     ap.add_argument("--n", type=int, default=10)
     ap.add_argument("--arm", choices=["ungrounded", "grounded", "both"], default="both")
     ap.add_argument("--model", default="claude-haiku-4-5-20251001")
     ap.add_argument("--show", action="store_true")
     a = ap.parse_args()
-    arms = ["ungrounded", "grounded"] if a.arm == "both" else [a.arm]
-    print(f"=== G-consistency rig v3 | model={a.model} | N={a.n} | arms={arms} ===")
-    print("=== PRIMARY: cosine (semantic). Absolute = anisotropy/temp-inflated; only cross-arm DELTA reads.")
-    print("=== ⚠ cosine is NEGATION-BLIND (must vs must-not -> ~0.995). polarity_split=True => DISTRUST cosine.")
-    print("=== consistency = PRECISION, not validity ===\n")
+    doc = open(a.input).read() if a.input else None
+    gold = open(a.gold).read() if (a.gold and os.path.exists(a.gold)) else GOLD_DEFAULT
     emb = load_embedder()
+    gold_vec = list(emb.encode([gold]))[0]
+    gold_pol = polarity(gold)
+    arms = ["ungrounded", "grounded"] if a.arm == "both" else [a.arm]
+    print(f"=== G rig v4 | input={a.input or '<single-text>'} | model={a.model} | N={a.n} | arms={arms} ===")
+    print("=== CONSISTENCY=precision (cosine across runs) | VALIDITY=cosine-to-gold ===")
+    print(f"=== ⚠ VALIDITY is DEMONSTRATED-BROKEN for the non-negotiable: a HARD inversion ties the")
+    print(f"===   faithful extraction (0.645 vs 0.66). gold polarity(regex)={gold_pol!r} (likely mis-read).")
+    print("===   consistency=precision NOT validity; cosine negation-blind; only cross-arm delta reads.\n")
     res = {}
     for arm in arms:
-        r = run_arm(arm, a.n, a.model, emb)
+        r = run_arm(arm, a.n, a.model, emb, doc, gold_vec, gold_pol)
         res[arm] = r
-        warn = "  ⚠ POLARITY-SPLIT: cosine CORRUPTED" if r["polarity_split"] else ""
-        print(f"--- arm={arm} | cosine={r['cosine']} | lexical={r['lexical']} | "
-              f"polarities={r['polarities']}{warn} ---")
+        warn = "  ⚠POLARITY-SPLIT" if r["polarity_split"] else ""
+        print(f"--- {arm}: consistency={r['consistency']} lexical={r['lexical']} "
+              f"validity_cos={r['validity_cos']} validity_polmatch={r['validity_polmatch']}{warn} ---")
         if a.show:
             for k, o in enumerate(r["outs"]):
                 print(f"    [{k+1}] {o}")
         print()
     if len(res) == 2:
-        d = round(res["grounded"]["cosine"] - res["ungrounded"]["cosine"], 3)
-        corrupt = res["grounded"]["polarity_split"] or res["ungrounded"]["polarity_split"]
-        print(f"=== DELTA cosine (grounded - ungrounded) = {d:+}"
-              f"{'  ⚠ a polarity-split arm makes this delta UNTRUSTWORTHY' if corrupt else ''} ===")
+        dc = round(res["grounded"]["consistency"] - res["ungrounded"]["consistency"], 3)
+        dv = round(res["grounded"]["validity_cos"] - res["ungrounded"]["validity_cos"], 3)
+        print(f"=== DELTA consistency={dc:+} | DELTA validity_cos={dv:+}  "
+              f"(validity delta UNTRUSTWORTHY per the negation break above) ===")

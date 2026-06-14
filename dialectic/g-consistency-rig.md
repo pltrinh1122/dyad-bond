@@ -100,6 +100,48 @@ purpose; the Operator's quoting of "consistency" reads as already sensing it is 
 - **Other Operator forks:** **model** (haiku vs frontier) · **N** (≥10–20 for a stable pairwise mean) ·
   **task divergence** (restatement-flavored vs genuinely open generation, the more characteristic G).
 
+## v4 — gold-key validity + input scaling (Operator riff 2026-06-14)
+
+Operator riff: scale input (single text → more → whole `DYAD.md`); G task = **extract only the
+non-negotiable**; **manually create one gold invariant, ingest it programmatically** → a **VALIDITY**
+measure (cosine-to-gold = did the engine extract the *right* thing), not just consistency. **The right
+instinct** — it supplies the validity anchor consistency alone never gives. Gold defaults to **canonical
+`bond:C1`** (single-home — do **not** re-author the non-negotiable; ingest the existing text).
+
+**⚠ DEMONSTRATED — cosine validity is BROKEN for the non-negotiable** (verified, the worst-case deontic
+target):
+
+| extraction | cos-to-gold | polarity(regex) |
+|---|---|---|
+| faithful | **0.66** | affirmative |
+| HARD inversion (literal opposite) | **0.645** — *tied with faithful* | prohibitive |
+| soft inversion ("enters freely") | 0.503 | affirmative |
+
+Cosine **cannot tell a faithful extraction of the non-negotiable from its negation** — the prohibition is
+exactly what cosine is blind to. The one-bit polarity guard catches *explicit* "must not/never" inversions
+**but mis-reads the gold's own** "no collapse / only by" **as affirmative**, and misses soft inversions.
+**Conclusion: a valid measure of non-negotiable extraction needs deontic-semantic structure** — more than
+cosine, more than a regex — which **collides head-on** with the "no template/structure acting as
+invariants" rub. The collision is now **empirical, not theoretical.**
+
+**Second confound — retrieval vs generation:** `DYAD.md` carries a verbatim `## NON-NEGOTIABLE` header, so
+"extract the non-negotiable" from the whole file degenerates to **copying the labelled section** →
+inflated consistency + validity, measuring *retrieval* not generative G. To test G, strip the label / use
+a document where the non-negotiable must be **inferred**.
+
+## Status / next
+
+- **v4 built + syntax/CLI-validated** (input + gold ingestion + validity scoring). Validity measure
+  **demonstrated-broken for deontic targets** (table above) — wired but loudly caveated, **not run as a
+  truth-claim.** v3 cosine consistency stands. No real N-run launched.
+- **The decision the demonstration FORCES (dispose before a real run is worth spending):** non-negotiable
+  extraction validity needs **deontic structure** — do we (a) accept structure here (a polarity/deontic
+  field — i.e. let *some* invariant-structure back in for the *measure*, not the generation), or (b) pick a
+  **non-deontic** extraction target where cosine-to-gold is valid, or (c) keep validity out and stay on
+  pure consistency? (a) vs the no-structure rub is the live tension.
+- **Confound forks:** strip the `NON-NEGOTIABLE` label (test generation) vs keep it (test retrieval);
+  input-scale step (section → multi-section → whole file). **Plus** model · N.
+
 ## Cross-links
 
 - `substrate-primitive.md` — Phase 1 (deterministic G) this rig instruments · `phase1-rig.md` +
