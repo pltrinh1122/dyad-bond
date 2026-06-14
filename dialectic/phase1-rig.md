@@ -6,6 +6,20 @@
 > ionic-object; runs as a script + corpus on the branch). Files: `bin/phase1_rig.py` ·
 > `dialectic/phase1-corpus.yaml`.
 
+> **⚠ BIAS AUDIT — claim DOWNGRADED (Operator rub 2026-06-14, "looking for biases").** The headline
+> below ("IV ≡ IV_it as a detector") is **not an empirical reliability finding** — it is a **code-fact**:
+> in the current evaluator `grounded_in` is referenced only by the termination check, so deleting it
+> *cannot* move a detection line **by construction**. The rig therefore **cannot fail** the "grounding is
+> detection-inert" hypothesis → it re-derives a schema design decision = **counterfeit-green** (validates
+> FORM, narrated as TRUTH; the recurring "reachable not valid instrument" pattern). Three more biases:
+> (1) **question-substitution** — the Operator asked for reliable *outcome*; this measured *static
+> schema-verdict*; (2) **operationalization-by-construction** — IV built by *deletion*, a strawman arm;
+> (3) **confirmation corpus** — hand-authored to pass, n=1, the disconfirming case (an invariant whose
+> violation-condition reads its intent) excluded; single evaluator (no triangulation); author = runner =
+> interpreter = self-critic (no independent half). **What survives:** the code-fact that grounding is a
+> *traceability* field, not a *detection* field, in this schema. **The reliability question is UNTOUCHED**
+> — it needs the dynamic/outcome rig. Read everything below as schema-cartography, not science.
+
 ## The question, made falsifiable
 
 - **IV** — an invariant **without** intent-grounding (no `grounded_in` serves-edge to an intent root).

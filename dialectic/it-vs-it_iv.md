@@ -6,6 +6,18 @@
 > Together = the full `I ↔ invariant` cycle (`relationship-craft.md`: "the CYCLE bears the load, not
 > either arrow alone"). Corpus: `dialectic/it-iv-corpus.yaml`.
 
+> **⚠ BIAS AUDIT — claim DOWNGRADED (Operator rub 2026-06-14, "looking for biases").** "IT is
+> inexpressible" is **operationalization-by-construction**: I modelled IT by *omitting the exact fields the
+> schema requires*, then reported the rejection — I *defined* IT as "the thing the schema rejects" rather
+> than discovering inexpressibility. A fairer model of raw intent (e.g. a vague observability) would not
+> fail. Same **question-substitution** as Phase 1 (asked: reliable *outcome*; measured: static
+> schema-verdict) and same **counterfeit-green** (validates FORM, narrated as TRUTH). The pleasing
+> "illegal vs inexpressible" **duality with Phase 1 is partly manufactured** — two ordinary
+> required-field failures dramatized into a symmetry (peak-grain elegance = distrust). **What survives:**
+> the schema-fact that `record.required` admits no record without a violation-condition, including roots.
+> **The "IT more reliable" claim is NOT refuted and NOT supported here** — it is a Goodhart/descent
+> (consequentialist) claim, out of static reach, needing the outcome-over-time rig.
+
 ## The arms
 
 - **IT** — raw intent: a value/fiat slogan with **no violation-condition** (the membership-test in
