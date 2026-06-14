@@ -196,11 +196,25 @@ form), priming recall. Two channels:
 - **Channel 2 — training recall** (`dyad-bond` / the public form may be in the model's training). **NOT
   fixable by cwd** — needs a target the model has **not** memorized (a novel / private artifact).
 
-**Retroactive caveat:** the n=6 run and the scale-curve (cos_mean [0.534, 0.739, 0.764]) were both run from
-the repo cwd → contaminated by Channel 1 (and possibly 2). "Consistency rises with scale" is confounded:
-L1's low value is partly a **recall-vs-restate bimodal split** (two attractors), not pure under-determination.
-The curve measures a recall+inference *blend*, not generative consistency from the controlled input. A
-neutral-cwd L1 re-run is in flight to separate the channels; a clean generative test needs a **novel target.**
+**Verdict (neutral-cwd re-run, n=4 L1 + full clean curve):** Channel 1 (shim) **confirmed the culprit** —
+4/4 neutral-cwd L1 runs stayed faithful (zero recall) vs 3/5 recalling covalence repo-cwd. Channel 2
+(training-recall) **did not surface** in any clean run → shim-dependent / weak for haiku, not load-bearing.
+
+**The contamination INVERTED the trend — strongest proof it mattered:**
+
+| | L1 | L2 | L3 | trend |
+|---|---|---|---|---|
+| contaminated (repo cwd) | 0.534 | 0.739 | 0.764 | **rises** |
+| clean (neutral cwd) | 0.847 | 0.809 | 0.776 | **falls** |
+
+**Pre-registered prediction "rises L1→L3" → REFUTED** (clean curve falls). The mechanism was backwards:
+for an *extraction/synthesis* task, **more input = more material to select/phrase = more degrees of freedom
+= LOWER consistency** (not "answer more pinned"). **Caveat:** L1 is **task-degenerate** — with only the
+tenet line the engine *paraphrases that line* (restating the tenet, which isn't even the non-negotiable),
+so L1's 0.847 is paraphrase- not extraction-consistency. The honest signal is **L2→L3 (both extract
+covalence): 0.809→0.776** — a mild real fall (more surrounding context → slightly more synthesis
+divergence). The lean probe did its job: surfaced the contamination and the trend; the full
+4-condition grid / novel target / larger N are Operator-dispose next steps.
 
 ## Cross-links
 
