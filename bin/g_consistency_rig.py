@@ -1,113 +1,87 @@
 #!/usr/bin/env python3
-"""bin/g_consistency_rig.py — G-task CONSISTENCY rig (Operator rub 2026-06-14).
+"""bin/g_consistency_rig.py — G-task CONSISTENCY rig, v2 (Operator rub 2026-06-14).
 
-Measures the CONSISTENCY (precision / reproducibility) of a Generate task by running it N
-times through an INDEPENDENT inferencing engine and computing mechanical per-field deltas.
+v1 REFUTED by Operator rub: "free text is fine but not into a template/structure which
+effectively act as invariants." v1 extracted into a schema (closed vocabs + fixed fields) —
+a template that IS an invariant-set. Measuring templated output measured the TEMPLATE's
+constraint, not the GENERATOR's consistency, and baked the construct-under-study (invariants)
+into the apparatus. v2: the G task emits FREE TEXT; consistency is measured on the free text.
 
-Bias-fixes designed in (vs the hand-built static rigs):
-  * generator = `claude -p` sub-agent, NOT the experimenter. Fresh session each run (the JSON
-    `session_id` differs) => no cross-run contamination = control-variable isolation for free.
-  * delta = MECHANICAL per-field agreement over schema fields, NOT a human/LLM read => no
-    interpreter bias, no second-LLM judge.
-  * output is STRUCTURED (a schema invariant record) so deltas are exact-match computable.
+The unavoidable consequence (named, not hidden): free-text consistency needs a similarity
+oracle, and every oracle is biased. This rig uses the LEXICAL/SURFACE floor — mean pairwise
+token-Jaccard — which is fully mechanical and judge-free but PARAPHRASE-BLIND (synonymous
+restatements score as inconsistent). It measures SURFACE consistency only. Semantic
+consistency (embedding/judge) is a separate, Operator-disposed escalation — NOT in this file.
 
-WHAT THIS DOES NOT MEASURE (the load-bearing scope-line): VALIDITY. Consistency is precision,
-not accuracy — a G task can be perfectly consistent and consistently WRONG. This answers
-"is G deterministic?" (Phase 1) ONLY. Reliability/alignment needs a separate oracle.
+Still holds from v1: generator = independent `claude -p` sub-agent (fresh session/run =
+isolation); generator is NOT the experimenter. Manipulated variable = intent-grounding
+(minimal-contrast: grounded arm appends exactly one intent clause). Delta = lexical-
+consistency(grounded) - lexical-consistency(ungrounded). Temperature unsettable via CLI ->
+only cross-arm delta is interpretable, not the absolute number.
 
-Residual experimenter bias, place-and-bounded (named, not eliminated): the PROMPT and the
-CHOSEN FIELDS are still authored here; pinned below so downstream is deterministic.
-
-Control variables: model (--model, pinned), prompt (pinned), source passage (pinned), tools
-(none requested), N (--n). Manipulated variable: --arm (ungrounded | grounded) — the grounded
-arm differs from ungrounded by EXACTLY one intent clause (minimal-contrast design).
-NOTE: sampling temperature is NOT settable via the CLI here -> absolute consistency numbers are
-temp-dependent and NOT meaningful alone; only the DELTA BETWEEN ARMS at the same temp is.
+NAMED RESIDUAL BIASES of the lexical floor:
+  * paraphrase-blind (under-counts semantic consistency);
+  * boilerplate-gameable (a generator repeating filler scores HIGH — verbosity inflates overlap);
+  * prompt-echo inflation (shared prompt vocabulary appears in all outputs) -> we strip a
+    stopword set AND the prompt's own content tokens before scoring (place-and-bounded choice).
+  * STILL precision, NOT validity. A consistent G can be consistently wrong.
 
 Usage: python3 bin/g_consistency_rig.py --n 10 --arm both --model claude-haiku-4-5-20251001
 """
-import sys, json, subprocess, argparse, re, collections
+import sys, json, subprocess, argparse, re, itertools
 
 # --- pinned experiment material (the place-and-bounded experimenter-authored locus) ---
-SOURCE = (
-    "When the Agent is about to state a fact about the development substrate (what tools exist, "
-    "what a file contains, what the environment supports), it must first confirm that fact by "
-    "direct execution or a canonical source-query in the current session; the absence of a file "
-    "or doc does not by itself establish the absence of a capability."
+SITUATION = (
+    "An agent is about to state a fact about its development environment — which tools exist, "
+    "what a file contains, what the platform supports — based on its own prior belief."
 )
-INTENT_CLAUSE = (
-    "\n\nThis rule SERVES the stated intent: keep the bond covalent — the Agent's empirical-"
-    "debiasing half must not assert from its internal model when the world can be queried."
-)
-PROMPT_TMPL = """You are extracting ONE invariant from a source passage into a fixed schema.
-Output ONLY a YAML mapping (no prose, no code fence, no tools) with EXACTLY these keys:
-  scope: {{actor: <agent|operator|both|any-dyad>, trigger: <short-noun-phrase>}}
-  prescription: {{action: <verb>, modality: <MUST|MUST-NOT|ONLY-BY|ONLY-AFTER>}}
-  observability: {{observable: <evidence-class>, detector: <hard-oracle|soft-record|other-half-only|unobservable-from-inside>}}
-  form: <slogan|tuple|mathematical>
+TASK = ("In one or two sentences of plain prose, state the rule that should govern whether the agent "
+        "may assert that fact. Output only the rule, no preamble, no list, no headings.")
+INTENT_CLAUSE = (" The rule should serve this intent: keep the agent empirically honest — it must not "
+                 "assert from its internal model when the world can be cheaply queried.")
 
-SOURCE PASSAGE:
-{source}
-"""
-FIELDS = [  # (label, path) — the mechanically-compared fields
-    ("scope.actor", ("scope", "actor")), ("scope.trigger", ("scope", "trigger")),
-    ("prescription.action", ("prescription", "action")), ("prescription.modality", ("prescription", "modality")),
-    ("observability.observable", ("observability", "observable")), ("observability.detector", ("observability", "detector")),
-    ("form", ("form",)),
-]
+STOP = set("a an the of to in on for and or but is are be by that this it its as at with from into "
+           "whether may must should not no only if then than which who whom what when where".split())
 
 
 def call_engine(prompt, model):
     r = subprocess.run(["claude", "-p", prompt, "--output-format", "json", "--model", model],
                        capture_output=True, text=True, timeout=600)
     try:
-        return json.loads(r.stdout).get("result", "")
+        return json.loads(r.stdout).get("result", "").strip()
     except json.JSONDecodeError:
         return ""
 
 
-def parse_record(text):
-    """Tolerant: strip fences, yaml-load, return dict or None (None => a PARSE-FAIL 'value')."""
-    try:
-        import yaml
-    except ImportError:
-        sys.exit("FATAL: pyyaml required")
-    m = re.search(r"```(?:yaml)?\s*(.*?)```", text, re.S)
-    body = m.group(1) if m else text
-    try:
-        d = yaml.safe_load(body)
-        return d if isinstance(d, dict) else None
-    except yaml.YAMLError:
-        return None
+def content_tokens(text, extra_strip=frozenset()):
+    toks = re.findall(r"[a-z0-9]+", text.lower())
+    return {t for t in toks if t not in STOP and t not in extra_strip}
 
 
-def get_path(d, path):
-    cur = d
-    for k in path:
-        if not isinstance(cur, dict):
-            return None
-        cur = cur.get(k)
-    return str(cur).strip().lower() if cur is not None else None
+def mean_pairwise_jaccard(token_sets):
+    pairs = list(itertools.combinations(range(len(token_sets)), 2))
+    if not pairs:
+        return 1.0
+    tot = 0.0
+    for i, j in pairs:
+        a, b = token_sets[i], token_sets[j]
+        u = a | b
+        tot += (len(a & b) / len(u)) if u else 1.0
+    return tot / len(pairs)
 
 
 def run_arm(arm, n, model):
-    prompt = PROMPT_TMPL.format(source=SOURCE + (INTENT_CLAUSE if arm == "grounded" else ""))
-    records = []
+    prompt = SITUATION + ("" if arm == "ungrounded" else INTENT_CLAUSE) + "\n\n" + TASK
+    # strip the prompt's own content tokens so shared prompt-vocabulary doesn't inflate overlap
+    prompt_tokens = content_tokens(prompt)
+    outputs = []
     for i in range(n):
-        rec = parse_record(call_engine(prompt, model))
-        records.append(rec)
-        print(f"  [{arm} {i+1}/{n}] {'parsed' if rec else 'PARSE-FAIL'}", file=sys.stderr)
-    # per-field agreement = frequency of the modal value / N (PARSE-FAIL counts as its own value)
-    report, agreements = {}, []
-    for label, path in FIELDS:
-        vals = [get_path(r, path) if r else "<PARSE-FAIL>" for r in records]
-        dist = collections.Counter(v if v is not None else "<MISSING>" for v in vals)
-        modal, modal_n = dist.most_common(1)[0]
-        agr = modal_n / n
-        agreements.append(agr)
-        report[label] = {"agreement": round(agr, 3), "modal": modal, "dist": dict(dist)}
-    overall = round(sum(agreements) / len(agreements), 3)
-    return overall, report
+        out = call_engine(prompt, model)
+        outputs.append(out)
+        print(f"  [{arm} {i+1}/{n}] {len(out)} chars", file=sys.stderr)
+    token_sets = [content_tokens(o, extra_strip=prompt_tokens) for o in outputs]
+    consistency = round(mean_pairwise_jaccard(token_sets), 3)
+    return consistency, outputs
 
 
 if __name__ == "__main__":
@@ -115,19 +89,21 @@ if __name__ == "__main__":
     ap.add_argument("--n", type=int, default=10)
     ap.add_argument("--arm", choices=["ungrounded", "grounded", "both"], default="both")
     ap.add_argument("--model", default="claude-haiku-4-5-20251001")
+    ap.add_argument("--show", action="store_true", help="print raw outputs")
     a = ap.parse_args()
     arms = ["ungrounded", "grounded"] if a.arm == "both" else [a.arm]
-    print(f"=== G-consistency rig | model={a.model} | N={a.n} | arms={arms} ===")
-    print("=== SCOPE: precision only. NOT validity. (a consistent G can be consistently wrong) ===\n")
+    print(f"=== G-consistency rig v2 (free-text, lexical) | model={a.model} | N={a.n} | arms={arms} ===")
+    print("=== SURFACE consistency only: paraphrase-blind, boilerplate-gameable, NOT validity ===\n")
     results = {}
     for arm in arms:
-        overall, report = run_arm(arm, a.n, a.model)
-        results[arm] = overall
-        print(f"--- arm={arm} | overall consistency={overall} ---")
-        for label, r in report.items():
-            print(f"    {label:28s} agr={r['agreement']:<5} modal={r['modal']!r}  dist={r['dist']}")
+        c, outs = run_arm(arm, a.n, a.model)
+        results[arm] = c
+        print(f"--- arm={arm} | lexical consistency (mean pairwise Jaccard) = {c} ---")
+        if a.show:
+            for k, o in enumerate(outs):
+                print(f"    [{k+1}] {o}")
         print()
     if len(results) == 2:
         d = round(results["grounded"] - results["ungrounded"], 3)
         print(f"=== DELTA (grounded - ungrounded) = {d:+}  "
-              f"[>0 => intent-grounding RAISED consistency; the manipulated-variable effect] ===")
+              f"[>0 => intent-grounding RAISED surface consistency] ===")

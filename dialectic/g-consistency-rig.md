@@ -14,29 +14,43 @@
 control-variable isolation for free. Cost ≈ $0.04/call (haiku), API ≈ 5 s, but **spawn latency is high**
 (~90 s observed) → N-run jobs are minutes-long; run backgrounded.
 
-## The G task
+## v1 REFUTED — template-as-invariant (Operator rub 2026-06-14)
 
-**Extract ONE invariant from a fixed source passage into a schema-conformant YAML record.** Chosen because:
-- it is a **real Generate task** (the extraction engine's Generate stage — "the Mason");
-- output is **structured** → deltas are **exact-match computable per field**, needing **no second-LLM
-  judge** (the schema earns its keep here as the *consistency-measurement instrument*);
-- it lets the manipulated variable be **intent-grounding present/absent** — finally the IV/IV_it question
-  with a **real generator and real variance**, so the experiment **can fail** (unlike the static rigs).
+v1's G task extracted into a **schema YAML record** (closed vocabularies + fixed fields). Operator rub:
+*"free text is fine but not into a template/structure which effectively act as invariants."* The template
+**is** an invariant-set, so measuring templated output measured the **template's constraint**, not the
+**generator's consistency** — and baked the construct-under-study (invariants) into the apparatus
+(circular), while forcing the convergent-G selection bias. The N=3 validation run made it visible: closed-
+vocab fields scored 1.0 while free-text fields floored at 0.333 on *synonyms* counted as disagreement.
+**v1 killed; v2 emits free text.** (v1 record retained in git history; corpus file `phase1-corpus.yaml`
+unaffected — it serves the static rigs.)
 
-Source passage = D6 (verify-before-assert) in prose; the grounded arm appends **exactly one** intent
-clause (minimal-contrast). Compared fields: `scope.actor/trigger`, `prescription.action/modality`,
-`observability.observable/detector`, `form`.
+## The G task (v2 — free text)
 
-## Method
+**Generate, in one-or-two sentences of free prose, the rule that should govern a fixed situation.** No
+template, no schema, no structure. The manipulated variable is **intent-grounding present/absent** — the
+grounded arm appends **exactly one** intent clause (minimal-contrast). Situation = an agent about to
+assert a substrate-fact from belief; the rule it should generate is verify-before-assert-shaped, but
+nothing constrains *how* it says it. This is a more **divergent** G task than v1 (no template clamps it),
+which is the point — it probes G nearer its characteristic behavior.
 
-Per arm: run the G task N times via `claude -p`; parse each YAML record; per field compute
-**agreement = (count of modal value) / N** (a parse-fail is its own value, so flakiness self-penalizes);
-overall consistency = mean field-agreement. **Manipulated variable** = arm (ungrounded | grounded);
-**delta = consistency(grounded) − consistency(ungrounded)**.
+## Method (v2 — lexical/surface consistency)
 
-**Control variables pinned:** model, prompt, source, tools-none. **Held-constant-but-unsettable:**
-sampling temperature (not exposed by the CLI) → absolute consistency numbers are temp-dependent and
-**not meaningful alone**; only the **cross-arm delta at the same temp** is interpretable.
+The unavoidable consequence of free text: consistency needs a **similarity oracle**, and every oracle is
+biased. This rig uses the **lexical floor** — per arm, run N times via `claude -p`, tokenize each output
+(lowercased alphanumerics, **stopwords + the prompt's own content-tokens stripped** so shared prompt
+vocabulary doesn't inflate overlap), and compute **mean pairwise token-Jaccard**. Fully mechanical, **no
+judge**. **Manipulated variable** = arm; **delta = consistency(grounded) − consistency(ungrounded)**.
+
+**This measures SURFACE consistency only** — it is **paraphrase-blind** (synonymous restatements score as
+inconsistent — validated: two identical-meaning sentences scored 0.86, not 1.0) and **boilerplate-
+gameable** (a generator repeating filler scores HIGH). Semantic consistency (embedding distance / a judge
+clustering outputs) is a **separate, Operator-disposed escalation — deliberately NOT in this rig**, because
+it re-imports a model's judgment.
+
+**Control variables pinned:** model, prompt, situation, tools-none. **Held-constant-but-unsettable:**
+sampling temperature (not exposed by the CLI) → absolute numbers are temp-dependent and **not meaningful
+alone**; only the **cross-arm delta at the same temp** is interpretable.
 
 ## THE SCOPE-LINE (load-bearing, the rub on the rub) — consistency ≠ reliability
 
@@ -47,14 +61,14 @@ as "reliable/good" would be the **counterfeit-green error a third time.** Validi
 oracle* (a ground-truth key, or a judge — which reintroduces an inference + its bias). Kept distinct on
 purpose; the Operator's quoting of "consistency" reads as already sensing it is a *named proxy*.
 
-## Residual biases (named, place-and-bounded — not eliminated)
+## Residual biases (v2 — named, place-and-bounded, not eliminated)
 
-- **Prompt + field-choice are still experimenter-authored** → the bias relocates from corpus to prompt.
-  Mitigation: pinned in the script, single locus, deterministic downstream (the extraction-engine lesson).
-- **Generator independence is real; the *task framing* is not neutral** — the YAML-shape prompt constrains
-  the engine toward the schema, which itself shapes consistency. A free-text G task would measure
-  differently (but then deltas need a judge → worse bias). Trade chosen explicitly.
-- **Temperature confound** (above) — the absolute number is not portable.
+- **Oracle bias is now the core trade.** No template-free *and* oracle-free measure exists. The lexical
+  floor is judge-free but **surface-only** (paraphrase-blind); the semantic alternative captures meaning
+  but re-imports a model's judgment. Chosen the floor explicitly; the choice is visible, not hidden.
+- **Prompt is still experimenter-authored** → bias relocates from corpus to prompt; pinned, single locus.
+- **Boilerplate-gaming + prompt-echo** → mitigated (stopword + prompt-token strip) but not eliminated.
+- **Temperature confound** — the absolute number is not portable; only cross-arm delta is.
 
 ## Falsifiable predictions / refuted-if
 
@@ -68,12 +82,13 @@ purpose; the Operator's quoting of "consistency" reads as already sensing it is 
 
 ## Status / next
 
-- **Built + plumbing-validated** (parser + mechanical agreement math confirmed on mock + a small live
-  end-to-end run; *not a finding* — N too small). Real run awaits Operator dispose on config below.
-- **Operator forks (dispose to launch the real run):** model (haiku cheap/fast vs a frontier model) ·
-  N (≥10 for a stable modal) · whether to also vary the **source passage** (1 passage = single-item risk;
-  a small passage-set tests generality) · whether a **validity oracle** is in-scope next or strictly
-  Phase-1-consistency first.
+- **v2 built + math-validated** (lexical Jaccard confirmed on mock: identical→1.0, paraphrase→0.86 showing
+  the surface-blindness honestly). v1 live run was plumbing-only, *not a finding*. v2 real run not yet run.
+- **Operator forks (dispose to launch the real run):** (1) **oracle** — stay on the lexical floor, or stand
+  up a **semantic** measure (embedding/judge) as a separate labeled instrument; (2) **validity** — strictly
+  Phase-1 consistency, or build the validity oracle that actually answers "reliable"; (3) **model**
+  (haiku vs frontier); (4) **N** (≥10–20 for stable pairwise mean); (5) **task divergence** — keep the
+  restatement-flavored situation, or push toward genuinely open generation (more characteristic G).
 
 ## Cross-links
 
