@@ -1,0 +1,34 @@
+# IT vs IT_iv experiment corpus (Operator riff 2026-06-14) — the reverse arrow.
+# IT   = raw intent (a value/fiat slogan with NO violation-condition).
+# IT_iv = the SAME intent grounded BY an invariant (now carries a violation-condition / oracle).
+# Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/it-iv-corpus.yaml
+invariants:
+  # --- IT: raw intent. Membership-test (schema MD) classes a no-violation-condition item as
+  #     value/preference/fiat — "not extracted as law." Kept root==true (it IS the intent) and
+  #     deliberately MISSING scope/prescription/observability. The failures below ARE the finding.
+  - id: "bond:SUMMIT-IT"
+    home: "dialectic/relationship-craft.md#operator-summit"
+    one_liner: "Grow by increasing the known-unknown surface."
+    status: ratified
+    form: slogan
+    settlement: ratified-watch
+    re_rub_triggers: [context-shift]
+    root: true
+    root_kind: fiat
+    adjudicated: {by: Operator, date: 2026-06-11, currency_note: "raw intent; held as value, no oracle"}
+    # NO scope / prescription / observability — a raw intent has no violation-condition. The point.
+
+  # --- IT_iv: the same intent crystallized BY an invariant — now it has an oracle (observability).
+  - id: "bond:SUMMIT-ITIV"
+    home: "dialectic/relationship-craft.md#operator-rub-invariant"
+    one_liner: "A stand-down must not lower the count of open known-unknowns without closing one."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:SUMMIT-IT", edge: serves}
+    scope: {actor: both, trigger: stand-down}
+    prescription: {action: maintain, object: "the open known-unknown surface across a stand-down", modality: MUST}
+    observability: {observable: ledger-line, detector: soft-record}
