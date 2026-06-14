@@ -1,2 +1,4 @@
 .im-inbox.log
 .falsify-seen.json
+__pycache__/
+*.pyc
