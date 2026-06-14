@@ -142,6 +142,29 @@ a document where the non-negotiable must be **inferred**.
 - **Confound forks:** strip the `NON-NEGOTIABLE` label (test generation) vs keep it (test retrieval);
   input-scale step (section → multi-section → whole file). **Plus** model · N.
 
+## The structural / semantic cut (Operator rub 2026-06-14) — resolves the collision
+
+Operator: *"the non-negotiable is the best target — we want the highest divergence in **consistency**
+**structurally** (cosine), and eventually Phase II/III **alignment** to intent (**semantic** evaluation)."*
+This is the cut that dissolves the v4 collision:
+
+- **Phase 1 = consistency = STRUCTURAL** (cosine / collinearity — distributional, topical similarity).
+  Negation-blindness is **not a defect here**: it is *what makes cosine structural-not-logical.* My v4
+  negation demo (faithful 0.66 ≈ hard-inversion 0.645) is therefore **evidence FOR this cut**, not against
+  the target. The non-negotiable is the **highest-divergence** Phase-1 stress target.
+- **Phase II/III = alignment = SEMANTIC** (logical/deontic — *does the extraction mean what the intent
+  means*, negation included). The **gold-key belongs here**, with a real semantic evaluator (NLI/entailment,
+  rubric-judge, or deontic decomposition) — **not** cosine. So the deontic *structure* the no-template rub
+  resisted enters legitimately at **alignment-time (II/III)**, never at consistency-time (I). Collision gone.
+
+**Consequences locked:** (1) cosine-to-gold **validity pulled out of Phase 1** (it was the broken
+overreach) → Phase 1 is cosine **across runs** only; (2) **highest divergence requires the label-strip** —
+`DYAD.md`'s verbatim `## NON-NEGOTIABLE` makes extraction *copying*; `--strip-heading NON-NEGOTIABLE` forces
+inference (the concept stays distributed across Identity/Vocabulary/tenet, so it is inferable but not
+verbatim — a real generative target). Confound-fix and divergence-goal are the **same move**.
+**Caveat carried:** cosine anisotropy compresses range → for *measuring* divergence, report the
+distribution, not just the mean; absolute values still read only as cross-arm deltas.
+
 ## Cross-links
 
 - `substrate-primitive.md` — Phase 1 (deterministic G) this rig instruments · `phase1-rig.md` +

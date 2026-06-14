@@ -82,6 +82,23 @@ def polarity(text):
     return "prohibitive" if PROHIBITIVE.search(text) else "affirmative"
 
 
+def strip_heading(doc, heading):
+    """Remove a markdown section (its `## heading` line through the next `##`/`#`) so the target must be
+    INFERRED, not copied — this is what produces the HIGH structural divergence Phase 1 wants."""
+    out, skip = [], False
+    for ln in doc.splitlines():
+        h = re.match(r"^(#{1,6})\s+(.*)", ln)
+        if h:
+            if not skip and heading.lower() in h.group(2).lower():
+                skip = True
+                continue
+            if skip and len(h.group(1)) <= 2:
+                skip = False
+        if not skip:
+            out.append(ln)
+    return "\n".join(out)
+
+
 def run_arm(arm, n, model, embedder, doc, gold_vec, gold_pol):
     if doc is not None:
         prompt = (NN_TASK + doc) + ("" if arm == "ungrounded" else INTENT_CLAUSE)
@@ -105,6 +122,8 @@ def run_arm(arm, n, model, embedder, doc, gold_vec, gold_pol):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", help="document to extract the non-negotiable from (e.g. DYAD.md)")
+    ap.add_argument("--strip-heading", dest="strip_heading",
+                    help="remove this ## section from input so the target is inferred not copied (e.g. NON-NEGOTIABLE)")
     ap.add_argument("--gold", help="gold reference: a file path, or omitted for canonical bond:C1")
     ap.add_argument("--n", type=int, default=10)
     ap.add_argument("--arm", choices=["ungrounded", "grounded", "both"], default="both")
@@ -112,6 +131,10 @@ if __name__ == "__main__":
     ap.add_argument("--show", action="store_true")
     a = ap.parse_args()
     doc = open(a.input).read() if a.input else None
+    if doc is not None and a.strip_heading:
+        before = len(doc)
+        doc = strip_heading(doc, a.strip_heading)
+        print(f"=== stripped '## {a.strip_heading}' section: {before}->{len(doc)} chars (target must be inferred) ===")
     gold = open(a.gold).read() if (a.gold and os.path.exists(a.gold)) else GOLD_DEFAULT
     emb = load_embedder()
     gold_vec = list(emb.encode([gold]))[0]
