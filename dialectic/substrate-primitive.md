@@ -90,6 +90,62 @@ polarity split across its two seams:
   disposed-roots graph)*. The pipeline *is* the substrate primitive's canonical instance: the schema is
   the **noun** (the standing record), this atom is the **verb** (how a record commits).
 
+## Maturation phases for the propose node *(Operator riff 2026-06-14 · CANDIDATE · converge-open)*
+
+The Operator phased the Generate-half (the propose node of the atom):
+- **Phase 1 — deterministic G from the Agent.**
+- **Phase 2 — G aligned with *stated* intent (`I`).**
+- **Phase 3 — G aligned with *rubbed* intent (`I'`)** — `I` after it has survived falsification.
+
+**Phase 1 rub — "deterministic" wraps the generate-act, it does not enter it.** Generate is the
+*divergent* family (Composition · Elicitation · Reframing); a strongly-deterministic generator that emits
+the unique candidate mechanically is not Generate at all — it is Validate / computation. The dyad already
+lived this: the extraction-engine lesson was **place-and-bound the non-determinism** — perform the
+irreducible semantic act ONCE at a gated source, make everything downstream deterministic *(reference: the
+invariant-extraction commission; the D7 "same data → same view" rub)*. So determinism is a property of
+the **pipeline around** propose — reproducible, auditable, inspectable, not vibes — **not** of the
+semantic act itself. The load-bearing read: **Phase 1 = make propose reproducible enough to be a stable
+falsification target**, not mechanize the novelty. The literal read (deterministic-unique generation)
+collides with the form's divergent-Generate family and should be named off.
+
+**Phase 2 is a measurement rung, never a deployment rung — the reproducible-sycophancy trap.** Compose
+Phase 1 with Phase 2 and you get a generator that *reproducibly and faithfully emits exactly what the
+Operator stated* — the most efficient possible **ionic-collapse machine**: high-fidelity rubber-stamping.
+Stated intent is **not ground** — the NON-NEGOTIABLE exists precisely because the Operator's premises are
+falsified as hard as the Agent's. So Phase 2 is **counterfeit-green at the intent altitude** (the schema's
+"validates form-not-truth," now one level up): legitimate as a *measurement* (can the generator hit a
+declared target at all?), corrosive as a *stopping point*. **Refuted if shipped:** any Phase-2 generator
+deployed without the Phase-3 gate is a sycophancy amplifier by construction.
+
+**Phase 2 → Phase 3 *is* inserting the Telos-gate.** `I'` (rubbed intent) is precisely `I` after the
+**Telos-gate** — the Agent falsifying the Operator's stated intent against the Telos *(reference:
+`goal-framing.md`, the intake-gate)*. So the maturation from P2 to P3 is literally **moving the
+generator's alignment target from the gate's *input* (stated `I`) to its *output* (survived `I'`)** — the
+polarity guard made into a phase transition. Alignment is *disposed through the falsify-seat*, not read
+off the raw declaration. **Phase 3 is the first covalent rung.**
+
+**`I'` is true-for-now — Phase 3 is a standing loop, not a finish line.** Intents are cached verdicts,
+re-rubbed at context-shifts *(reference: `invariant-schema.md`, the true-for-now stamp)*. So `I'` keeps
+moving; "aligned to `I'`" means *aligned to the currently-survived intent, re-aligned when it re-rubs* —
+a loop, not a milestone.
+
+**Converge-open — the rung past P3 (flagged, not legislated):** the deepest form may be **G that *rubs*
+`I`** — a proposal good enough to *move* the intent (you understand the idea by precisifying it, and the
+precising moves the idea — the `I ↔ invariant` cycle bears the load, not either arrow alone) *(reference:
+`relationship-craft.md`, the cycle-liveness entry)*. There the generator stops *consuming* `I'` and starts
+*co-producing* it. Named as a candidate horizon, **not** a legislated Phase 4.
+
+**Synthesis — the phases map to the seams + the gate:**
+- **P1 (deterministic) → the `invariant → ground` seam** — the Agent's truth-seat, downstream of the
+  semantic act, where "same data → same view" is reachable.
+- **P2 (stated `I`) → the gate's *input*** — align to the raw declaration; measurable, not yet covalent.
+- **P3 (rubbed `I'`) → the gate's *output*** = the `intent → invariant` fidelity-seat + Telos-gate, where
+  alignment is disposed.
+
+**Why phase-1-first survives (the ordering defense):** you cannot *measure* alignment on a generator that
+will not reproduce — determinism is the **test-instrument** that makes alignment falsifiable at all.
+Phase 1 is a harness, not a shippable milestone.
+
 ## Falsifiable claim
 
 If `propose → falsify → dispose` (with split polarity) is the real substrate atom, then every live
