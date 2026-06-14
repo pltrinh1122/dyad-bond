@@ -5,6 +5,29 @@
 > membership test, **catalogue the residue.** The residue is the verdict. `DYAD.md` is **not edited** here
 > (ROM/identity-critical; evolving it is an Operator+ROM gate).
 
+## ⤳ VERDICT REVISED — Operator falsified the "irreducible-in-anchor" claim (2026-06-14)
+
+> Operator rub: *"identity and glossary can be a grounding invariant that references an ID.md and
+> GLOSSARY.md. falsify."* I attacked it (oracle-exists? regress? circularity?) and **it survives** — my
+> "irreducible FRAME **in** the anchor" below is **FALSIFIED.** The frame **externalizes**:
+
+- **`DYAD.md` CAN be a pure DAG.** Move identity→`ID.md`, vocabulary→`GLOSSARY.md`; keep **conformance-
+  invariants** in the anchor that reference + govern them. These have real violation-conditions:
+  **identity = the ROM-UI / birth-id sha check** (drift = breach; *already implemented*); **glossary =
+  term∉GLOSSARY.md** (mechanical, the schema's orphan check) + soft semantic-consistency (other-half-only,
+  allowed). So identity/vocabulary DO enter the DAG — **as conformance-nodes, not as raw frame.**
+- **What survives of the old verdict (refined, not rescued):** the frame **doesn't vanish, it relocates**
+  to a distinct **exempt file-class** — `ID.md`/`GLOSSARY.md` are **meaning-roots**: referenced by the
+  conformance-invariants AND *presupposed by the whole DAG* (every node is written in the glossary's
+  vocabulary → constitutively prior, not mere referents). So the thesis **"ALL anchor files are DAGs"**
+  still fails — it narrows to: **the prescriptive anchor is a DAG; the frame is externalized to referenced
+  meaning-root files, exempt from DAG-form.**
+
+**Net:** S1-strong **restored for `DYAD.md`** (it can be a pure DAG); the "irreducible frame" reclassified
+from *residue-in-the-anchor* to *exempt meaning-root file-class*. The +1 is the Operator's; the residual is
+only that frame is a file-class, not content. The class-(1/2/3) reduction below stands as the *input* to
+this — read §(2) now as "externalizes to meaning-root files," not "irreducible in the anchor."
+
 ## Verdict — S1 REFUTED in its strong form; thesis survives NARROWED
 
 `DYAD.md` does **not** fully reduce to a DAG of invariants. It splits three ways: a prescriptive core that

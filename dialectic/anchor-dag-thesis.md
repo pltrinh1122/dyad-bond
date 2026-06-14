@@ -44,13 +44,14 @@ scaled to the whole file.*
 
 ## Falsification surface — the sub-claims, each refutable
 
-- **S1 — Reduction (the crux).** *All load-bearing anchor content reduces to invariant-nodes + intent-edges,
-  with no irreducible residue.* **Refuted if** content that is load-bearing is **neither** an invariant
-  (fails the membership test — no violation-condition) **nor** an intent-edge. Candidate counterexamples
-  from our own anchor: **identity / frozen birth-id** (a *fact/value*, no violation-condition → not an
-  invariant); **vocabulary** (definitions, not prescriptions); **the felt tenet-evidence** (a *finding* →
-  Ledger). If these are load-bearing **and** irreducible → S1 falsified. If they prune cleanly to
-  `kb/`/Ledger → S1 survives **narrowed**: it is the anchor's *prescriptive core*, not the whole file.
+- **S1 — Reduction (the crux). RESOLVED 2026-06-14 (Operator rub → falsified my counter).** Identity +
+  vocabulary are **not** irreducible-in-the-anchor: they **externalize** to `ID.md` / `GLOSSARY.md`,
+  governed by **conformance-invariants** with real violation-conditions (identity = ROM-UI/birth-id sha,
+  *already implemented*; glossary = term∉GLOSSARY.md + soft semantic-consistency). So **`DYAD.md` CAN be a
+  pure DAG.** What survives: the frame is a **distinct exempt file-class (meaning-roots)** — referenced by
+  the conformance-invariants *and* constitutively prior (every node is written in the glossary's
+  vocabulary). **So the thesis narrows precisely:** the *prescriptive anchor* is a DAG; the *frame* is
+  externalized to referenced meaning-root files, exempt from DAG-form. (Full work: `dyad-dag-derivation.md`.)
 - **S2 — Acyclicity.** *The graph is a DAG.* **Tension:** `relationship-craft.md` found the `I↔invariant`
   **cycle** bears the load ("not either arrow alone"). If intent-edges run both ways (intent grounds
   invariant; invariant crystallizes intent) the graph has **cycles**. Survives only if the DAG is the
