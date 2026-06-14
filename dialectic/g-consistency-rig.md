@@ -165,6 +165,24 @@ verbatim — a real generative target). Confound-fix and divergence-goal are the
 **Caveat carried:** cosine anisotropy compresses range → for *measuring* divergence, report the
 distribution, not just the mean; absolute values still read only as cross-arm deltas.
 
+## First Phase-1 run + scale control (2026-06-14)
+
+**First correctly-scoped run (IV, n=6, complete stripped-DYAD.md):** all 6 extractions inferred the
+non-negotiable (covalence / no ionic-meld collapse) from the *label-stripped* doc — agreeing in **meaning**,
+diverging in **wording**. Triangulation on the structural/semantic axis: lexical ≈0.05 (high surface
+divergence) · cosine 0.75 (mean; pairwise min 0.58 / max 0.94 / std 0.10) · meaning ≈ near-identical.
+Grounding delta −0.025 (within noise; if anything grounding *added* interpretive freedom). `POLARITY-SPLIT`
+was a **false alarm** (regex tripped on "never merging" = semantically affirmative — the guard's crudeness,
+live). **Headline: the target is semantically over-determined at full scale.**
+
+**Scale control (Operator "Y. lean"):** consistency is a *curve*, not a point — a single-scale measurement
+is under-controlled. `bin/phase1_scale_curve.py` runs IV (ungrounded) across **L1** single-line (tenet,
+~80c, under-determined) → **L2** §Identity (~951c, carries the near-statement) → **L3** complete-stripped
+(~7150c). **Pre-registered prediction:** cos_mean **rises** L1→L3 (under- → over-determined). Excerpts
+derived from `DYAD.md` (single-home). **Caveat:** scale entangles length with NN-signal content → the
+x-axis is consistency-vs-*determination*, not vs raw length. Lean IV-only probe of the curve's shape before
+the full 4-condition×3-scale grid; running.
+
 ## Cross-links
 
 - `substrate-primitive.md` — Phase 1 (deterministic G) this rig instruments · `phase1-rig.md` +
