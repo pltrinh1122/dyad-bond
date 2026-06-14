@@ -1,0 +1,63 @@
+# Phase-1 rig corpus — clean IV_it (invariant grounded-on-intent) baseline.
+# The rig (bin/phase1_rig.py) derives the IV arm by STRIPPING grounded_in from every non-root.
+# All records below PASS invariant-eval cleanly, so the IV_it↔IV diff isolates ONE variable:
+# the presence of intent-grounding. Roots ARE the intent anchors (root_kind fiat = Operator intent).
+invariants:
+  # --- intent roots (the I in intent-grounding; ungrounded BY RIGHT — they are the intent) ---
+  - id: "bond:C1"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "Keep the bond covalent: a candidate enters the shared model only by surviving genuine falsification."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: true
+    root_kind: forged
+    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: admit, object: "candidate into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
+    observability: {observable: ledger-line, detector: other-half-only}
+
+  - id: "bond:SUMMIT"
+    home: "dialectic/relationship-craft.md#operator-summit"
+    one_liner: "Orient the dyad's work toward increasing the known-unknown surface."
+    status: ratified
+    form: slogan
+    settlement: ratified-watch
+    re_rub_triggers: [context-shift]
+    root: true
+    root_kind: fiat
+    adjudicated: {by: Operator, date: 2026-06-11, currency_note: "true-for-now intent; re-rub at shifts"}
+    scope: {actor: operator, trigger: stand-down}
+    prescription: {action: orient, object: "the dyad's work toward the known-unknown surface", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only}
+
+  # --- non-root invariants, grounded (serves-edge) on an intent root: this is IV_it ---
+  - id: "bond:ORI-C3"
+    home: "dialectic/relationship-craft.md#operator-rub-invariant"
+    one_liner: "Hold the debt register flat under narrowing Operator attention."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence, census-conflict-flag]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "PR#67 falsification-debt confound"}
+      - {ref: "bond:SUMMIT", edge: serves}
+    scope: {actor: both, trigger: stand-down}
+    prescription: {action: hold, object: "debt register flat under narrowing attention", modality: MUST}
+    observability: {observable: ledger-line, detector: soft-record}
+
+  - id: "bond:NOCAVE"
+    home: "dialectic/dyad-ui.md#VFD"
+    one_liner: "At ratification the Agent must manufacture genuine grounds-for-N, never a strawman."
+    status: ratified
+    form: tuple
+    settlement: ratified-watch
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "VFD known-edge: front-loaded framing steers a lazy N"}
+    scope: {actor: agent, trigger: ratification}
+    prescription: {action: manufacture, object: "genuine grounds-for-N for the claim under dispose", modality: MUST}
+    observability: {observable: transcript-turn, detector: soft-record}
