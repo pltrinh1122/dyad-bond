@@ -34,23 +34,30 @@ assert a substrate-fact from belief; the rule it should generate is verify-befor
 nothing constrains *how* it says it. This is a more **divergent** G task than v1 (no template clamps it),
 which is the point — it probes G nearer its characteristic behavior.
 
-## Method (v2 — lexical/surface consistency)
+## Method (v3 — cosine, per Operator dispose 2026-06-14: "phase 1 intent — consistency as measured by cosine similarity")
 
-The unavoidable consequence of free text: consistency needs a **similarity oracle**, and every oracle is
-biased. This rig uses the **lexical floor** — per arm, run N times via `claude -p`, tokenize each output
-(lowercased alphanumerics, **stopwords + the prompt's own content-tokens stripped** so shared prompt
-vocabulary doesn't inflate overlap), and compute **mean pairwise token-Jaccard**. Fully mechanical, **no
-judge**. **Manipulated variable** = arm; **delta = consistency(grounded) − consistency(ungrounded)**.
+Per arm, run the free-text G task N times via `claude -p`, **embed** each output (static embeddings,
+`model2vec` / `minishlab/potion-base-8M`, ~30 MB, no torch, HF-hub download on first use), and score
+**consistency = mean pairwise cosine similarity** (collinearity) of the embeddings. **Primary measure.**
+Lexical Jaccard is reported alongside as a judge-free **surface contrast** (lexical low + cosine high =
+paraphrasing; the gap is informative). **Delta = cosine(grounded) − cosine(ungrounded).**
 
-**This measures SURFACE consistency only** — it is **paraphrase-blind** (synonymous restatements score as
-inconsistent — validated: two identical-meaning sentences scored 0.86, not 1.0) and **boilerplate-
-gameable** (a generator repeating filler scores HIGH). Semantic consistency (embedding distance / a judge
-clustering outputs) is a **separate, Operator-disposed escalation — deliberately NOT in this rig**, because
-it re-imports a model's judgment.
+**Cosine relocates the bias, it does not remove it:** the semantics live in the embedding *model*, not the
+collinearity; cosine is the comparator. This is the place-and-bound discipline (semantic act once in a
+pinned embedding, downstream arithmetic deterministic) — better-behaved than an LLM judge, still a model's
+notion of "similar."
 
-**Control variables pinned:** model, prompt, situation, tools-none. **Held-constant-but-unsettable:**
-sampling temperature (not exposed by the CLI) → absolute numbers are temp-dependent and **not meaningful
-alone**; only the **cross-arm delta at the same temp** is interpretable.
+**⚠ DEMONSTRATED BREAK — negation-blindness (verified on the exact model).** `"agent MUST verify"` vs
+`"agent MUST NOT verify"` → cosine **0.995**, *above* a genuine paraphrase (**0.869**); unrelated text →
+0.004. Cosine cannot see **deontic polarity** — so if the N outputs disagree on must vs must-not, the
+cosine number is **corrupted** (opposite rules read as maximally consistent), which for a *rule*-
+consistency rig is fatal. The rig emits an **advisory `polarity_split` flag** (crude surface-negation
+regex) → when set, **distrust the cosine number.** The flag is itself imperfect (`"must not assert without
+verifying"` ≡ `"must verify"`, so it can false-flag) — a real polarity/validity guard is an **open fork**.
+
+**Caveats retained:** **anisotropy** → absolute cosine is inflated/uncalibrated, only **cross-arm delta**
+reads; **temperature** unsettable via CLI (same); **PRECISION not VALIDITY** — semantic *consistency*
+answers "do the runs MEAN the same," never "is the meaning correct/aligned."
 
 ## THE SCOPE-LINE (load-bearing, the rub on the rub) — consistency ≠ reliability
 
@@ -82,13 +89,16 @@ purpose; the Operator's quoting of "consistency" reads as already sensing it is 
 
 ## Status / next
 
-- **v2 built + math-validated** (lexical Jaccard confirmed on mock: identical→1.0, paraphrase→0.86 showing
-  the surface-blindness honestly). v1 live run was plumbing-only, *not a finding*. v2 real run not yet run.
-- **Operator forks (dispose to launch the real run):** (1) **oracle** — stay on the lexical floor, or stand
-  up a **semantic** measure (embedding/judge) as a separate labeled instrument; (2) **validity** — strictly
-  Phase-1 consistency, or build the validity oracle that actually answers "reliable"; (3) **model**
-  (haiku vs frontier); (4) **N** (≥10–20 for stable pairwise mean); (5) **task divergence** — keep the
-  restatement-flavored situation, or push toward genuinely open generation (more characteristic G).
+- **v3 built + math-validated** (cosine + lexical + polarity-split confirmed on mock: paraphrase pair
+  cosine 0.84 / no split; a negation set → split=True flagging the cosine as corrupted). Embedding stack
+  (`model2vec`) verified installable + runnable here; HF hub reachable. Real N-run not yet launched.
+- **The open fork the break forces (dispose first):** **polarity/validity guard** — cosine is negation-
+  blind, so plain cosine can score opposite rules as consistent. Options: (a) ship cosine + the advisory
+  split-flag, accept the hole on flagged runs; (b) a real **polarity-aware** measure (decompose deontic
+  direction, gate cosine on it) — but that re-introduces a one-bit *structure*, brushing the "no
+  template/structure acting as invariants" rub → **your call**; (c) defer cosine, stay lexical.
+- **Other Operator forks:** **model** (haiku vs frontier) · **N** (≥10–20 for a stable pairwise mean) ·
+  **task divergence** (restatement-flavored vs genuinely open generation, the more characteristic G).
 
 ## Cross-links
 
