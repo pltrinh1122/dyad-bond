@@ -28,9 +28,24 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `dbfd7df` — *anchor RENAMED
-> `AGENT.md` → `DYAD.md` (ROM-gated migration, fleet-standard); both shims + birth-id caveat swept to
-> match*. Update this line whenever `DYAD.md` (or a shim) changes.
+> ⚠️ **RESTART-PENDING: SET (Stand-Down s-web3, 2026-06-16) — the S1 TWO-LAYER CUT awaits boot-verification.**
+> This session cut `DYAD.md` to its two-layer form (anchor-dag-thesis S1): the **FRAME externalized** —
+> identity → **`ID.md`**, vocabulary → **`GLOSSARY.md`** (governed by `bond:identity-conformance` +
+> `bond:glossary-conformance`); the **prose prescriptive CORE kept** (NON-NEGOTIABLE etc.), now tagged to
+> its DAG nodes with the checkable shadow `dialectic/invariants-bond.yaml`; **residue relocated**
+> (Tenet-alive #8 → `kb/founding-evidence.md`; deferrals/contributions → `dialectic/deferrals.md`).
+> `CLAUDE.md` IDENTITY CAVEAT → `ID.md` pointer. **Anchor + shim BOTH edited → write-through to disk,
+> read-only this session.** **THE BOOT-TEST (do FIRST next stand-up = the s-web2 rub-forward card #2):**
+> does the cut `DYAD.md` + `ID.md` + `GLOSSARY.md` still **boot as `dyad-bond`** — identity intact
+> (recompute birth-id = `sha256:3ab18b…463d`, immune to the cut per `--diff-filter=A`), vocabulary
+> reachable, core ingrained? **Verified → clear RESTART-PENDING + set baseline to the cut commit.**
+> **Refuted (something only worked because it was one prose file) → S1-strong refuted at the harness
+> level; the branch is unmerged → revert.** Identity is cut-immune by construction; the open question is
+> *boot/ingrain*, not identity.
+>
+> **ROM-baseline (anchor commit the running baseline reflects):** `dbfd7df` *(PRE-cut; superseded-pending-
+> verify by the s-web3 cut commit — next stand-up records the verified hash)*. Update this line whenever
+> `DYAD.md` (or a shim) changes.
 > **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
