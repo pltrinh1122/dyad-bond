@@ -1,19 +1,19 @@
 # invariants-bond.yaml — the DYAD.md prescriptive CORE as a grounding-DAG corpus.
 #
 # PROVENANCE: the non-destructive prep-half of the two-layer anchor build (s-web2 resume point;
-# anchor-dag-thesis.md S1, RESOLVED 2026-06-14). DYAD.md is NOT edited by this file — this formalizes
-# the ~8 core nodes from dyad-dag-derivation.md §(1) + the 2 conformance-invariants the S1 resolution
-# requires (identity → ID.md via ROM/birth-id sha; vocabulary → GLOSSARY.md via term-membership).
-# Purpose: prove the core is EXPRESSIBLE (runs clean under bin/invariant-eval.py) BEFORE any ROM edit —
-# de-risking the Operator+ROM-gated restructure. The frame (identity+vocabulary) stays prose meaning-roots.
+# anchor-dag-thesis.md S1, RESOLVED 2026-06-14). DYAD.md is NOT edited by this file. The prescriptive
+# core from dyad-dag-derivation.md §(1), DECOMPOSED to atomic single-breach records (s-web one_liner-
+# atomicity rule; the round-trip diff flagged the buried clauses as PRESCRIPTIVE-UNCOVERED) + the 2
+# conformance-invariants the S1 resolution requires (identity → ID.md; vocabulary → GLOSSARY.md).
+# All one_liners are DECLARATIVE (a condition that holds; breach = its negation) — rub 2026-06-16.
 #
-# STATUS: the 8 core nodes are ratified/inherited (long-standing DYAD.md content, re-expressed not re-authored).
-# The 2 conformance-invariants are CANDIDATES (authored this session; pending the ROM-event boot-test + Operator gate).
+# 14 core records (atomic) + 2 conformance candidates = 16. Roots: Telos (fiat), C1 (forged).
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
+# Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit dialectic/invariants-bond.rendered.md
 
 invariants:
 
-  # ---- ROOTS (Operator owns the roots of every chain and the leaves of none) ----
+  # ---- ROOTS ----
 
   - id: "bond:Telos"
     home: "DYAD.md#Identity"
@@ -31,7 +31,7 @@ invariants:
 
   - id: "bond:C1"
     home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "The bond is covalent: a candidate +1, including the Operator's premises, is in the shared model only if it survived genuine falsification, and neither ionic nor meld collapse is present."
+    one_liner: "A candidate +1, including the Operator's premises, is in the shared model only if it survived genuine falsification."
     status: ratified
     form: tuple
     settlement: settled
@@ -40,24 +40,68 @@ invariants:
     root_kind: forged
     adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption arc"}
     scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: admit, object: "candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
+    prescription: {action: admit, object: "a candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom rubber-stamp (pre-founding)"}
 
-  # ---- PRESCRIPTIVE CORE (each grounds, ultimately, in a root) ----
+  # ---- C1 collapse-modes (decomposed: each a census-visible MUST-NOT) ----
+
+  - id: "bond:C1-no-ionic"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "No candidate enters the shared model by transfer or dominance — neither half overrides the other (sycophancy included)."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "ionic collapse — the Agent rubber-stamping the Operator, or either half overriding"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: admit, object: "a candidate by ionic transfer or dominance", modality: MUST-NOT}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "sycophancy / rubber-stamping the Operator"}
+
+  - id: "bond:C1-no-meld"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "No candidate enters the shared model by merger — two distinct models are maintained so a genuine second perspective survives."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "meld collapse is the quiet one — agreement that needs no translation"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: admit, object: "a candidate by meld merger (loss of the second perspective)", modality: MUST-NOT}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "meld — both halves run one model wearing two hats"}
+
+  # ---- prescriptive core (atomic) ----
 
   - id: "bond:falsifiability"
     home: "DYAD.md#G0"
-    one_liner: "The tenet is held falsifiably and earned cycle-by-cycle by surviving falsification; a ratified claim is true-for-now and stays re-rubbable, never dogma."
+    one_liner: "The tenet (1+1=3) is earned cycle-by-cycle and never asserted — it holds only as far as it survives falsification."
     status: inherited
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "earned per cycle, held falsifiably (G0)"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: earn, object: "the tenet, per cycle, by surviving falsification", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a +1 asserted as settled without genuine attack (willed-not-earned)"}
+
+  - id: "bond:no-dogma"
+    home: "DYAD.md#G0"
+    one_liner: "A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift."
+    status: ratified
     form: tuple
     settlement: settled
     re_rub_triggers: [breach-evidence, context-shift]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "s14 no-exemption amendment — ratified intent stays continuously rubable"}
+      - {ref: "bond:falsifiability", edge: serves, scar: "s14 no-exemption amendment"}
     scope: {actor: both, trigger: ratification}
-    prescription: {action: hold, object: "every settled claim as falsifiable (never dogma)", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "ratification-laundering: converge-open ideation treated as settled by repetition (s14 guard)"}
+    prescription: {action: hold, object: "a ratified claim as re-rubbable (true-for-now, not dogma)", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "ratification-laundering: converge-open ideation treated as settled by repetition (s14)"}
 
   - id: "bond:wu-wei"
     home: "DYAD.md#G0"
@@ -75,31 +119,59 @@ invariants:
 
   - id: "bond:single-home"
     home: "DYAD.md#Ontology"
-    one_liner: "Each fact lives in exactly one content-home and the anchor stays lean; a learning is in kb only after it survives falsification in dialectic."
+    one_liner: "Each fact lives in exactly one content-home and is restated in no other file."
     status: ratified
     form: tuple
     settlement: settled
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:Telos", edge: serves, scar: "context-economy — a bloated anchor dilutes the signal"}
+      - {ref: "bond:Telos", edge: serves, scar: "context-economy — a bloated anchor dilutes the signal; the lean anchor"}
     scope: {actor: both, trigger: anchor-edit}
-    prescription: {action: home, object: "each fact in one place; keep the anchor lean", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a fat shim restating dialectic/ content = a second content-home = drift (CLAUDE.md guard)"}
+    prescription: {action: home, object: "each fact in exactly one content-home", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a fat shim restating dialectic/ content = a second home = drift"}
+
+  - id: "bond:kb-graduation"
+    home: "DYAD.md#Ontology"
+    one_liner: "A learning is in kb only after it has survived falsification in dialectic."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:single-home", edge: serves, scar: "dialectic = live-under-falsification; kb = settled; the homes differ by survival"}
+    scope: {actor: both, trigger: ratification}
+    prescription: {action: promote, object: "a learning into kb", modality: ONLY-AFTER, via: "surviving falsification in dialectic"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "citing a dialectic candidate as settled kb"}
 
   - id: "bond:form-grounding"
     home: "DYAD.md#Form-grounding"
-    one_liner: "G0 is inherited unmodified; a local evolution is proven here before it is proposed back via the Founding-Operator gate."
+    one_liner: "The form's G0 is inherited unmodified (extend, never redefine)."
     status: ratified
     form: tuple
     settlement: settled
     re_rub_triggers: [breach-evidence, upstream-form-change]
     root: false
     grounded_in:
-      - {ref: "bond:Telos", edge: serves}
+      - {ref: "bond:Telos", edge: serves, scar: "inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary"}
     scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: ground, object: "G0 inherited faithfully; local evolution proven before FO-gated proposal", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "thread-G ~90% re-derivation of inherited cluster knowledge unread"}
+    prescription: {action: inherit, object: "the form's G0, unmodified", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "redefining an inherited G0 term locally"}
+
+  - id: "bond:prove-before-propose"
+    home: "DYAD.md#Form-grounding"
+    one_liner: "A local evolution is proposed back to the form only after it has been proven here."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:form-grounding", edge: serves, scar: "evolve locally → prove → propose; the thread-G re-derivation trap"}
+    scope: {actor: both, trigger: outward-publish}
+    prescription: {action: propose, object: "a local evolution back to the form via the Founding-Operator gate", modality: ONLY-AFTER, via: "proving it here first"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "proposing an unproven candidate to the form"}
 
   - id: "bond:channel-gates"
     home: "DYAD.md#Channel-discipline"
@@ -112,12 +184,12 @@ invariants:
     grounded_in:
       - {ref: "bond:C1", edge: serves, scar: "K2 dyad-sovereignty — steward coordinates, never commands"}
     scope: {actor: both, trigger: ratification}
-    prescription: {action: route, object: "disposition to the correct Operator hat", modality: MUST}
+    prescription: {action: route, object: "a disposition to the Operator hat that owns it", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only}
 
   - id: "bond:DFD"
     home: "kb/dfd.md"
-    one_liner: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis, and no candidate is ratified by its own proposer."
+    one_liner: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis."
     status: ratified
     form: tuple
     settlement: settled
@@ -126,12 +198,24 @@ invariants:
     grounded_in:
       - {ref: "bond:C1", edge: serves, scar: "the anti-cave duty — manufacture real grounds for the other half to dissent"}
     scope: {actor: both, trigger: selection-seam}
-    prescription: {action: frame, object: "a decision via thesis/anti-thesis/synthesis, no self-ratification", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom: the proposer self-ratified an Operator-authored name"}
+    prescription: {action: frame, object: "a decision via thesis / anti-thesis / synthesis", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a strawman anti-thesis that induces a lazy Y"}
 
-  # ---- CONFORMANCE-INVARIANTS (the S1 resolution: they externalize the frame to meaning-root files) ----
-  # CANDIDATES — pending the ROM-event boot-test + Operator gate. These are what let the prose frame leave
-  # DYAD.md without losing it: real violation-conditions over ID.md / GLOSSARY.md.
+  - id: "bond:no-self-ratify"
+    home: "DYAD.md#NON-NEGOTIABLE"
+    one_liner: "No candidate is ratified by its own proposer — the disposing half is never the proposing half."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "proposer ≠ disposer — the covalent gate"}
+    scope: {actor: both, trigger: ratification}
+    prescription: {action: ratify, object: "a candidate by its own proposer", modality: MUST-NOT}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom: the proposer ratified its own candidate"}
+
+  # ---- CONFORMANCE-INVARIANTS (S1: externalize the frame to meaning-root files) — CANDIDATES ----
 
   - id: "bond:identity-conformance"
     home: "DYAD.md#IDENTITY-CAVEAT"
@@ -148,7 +232,7 @@ invariants:
 
   - id: "bond:glossary-conformance"
     home: "DYAD.md#Vocabulary"
-    one_liner: "Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach; soft semantic fidelity stays ordinary covalent review, not this node)."
+    one_liner: "Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach)."
     status: candidate
     form: tuple
     settlement: candidate
