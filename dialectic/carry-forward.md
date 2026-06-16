@@ -41,7 +41,8 @@
 > until the Operator rubs it). **⚠ RESIDUE CAUGHT:** the cut updated the **`CLAUDE.md` shim → pointer** (0 sha
 > restatements) but **left `GEMINI.md` UNCUT** — it still full-restates the birth-id sha + entire IDENTITY
 > CAVEAT inline, contradicting its own "a fat shim = a second content-home = drift" warning. `bond:single-home`
-> residue → surfaced for the Operator+ROM gate (CTA in chat). **The now-resolved SET record is kept below.**
+> residue → surfaced for the Operator+ROM gate; **Operator disposed `Y` → `GEMINI.md` cut to a pointer this
+> session (resolved).** **The now-resolved SET record is kept below.**
 >
 > ⚠️ **RESTART-PENDING: SET (Stand-Down s-web3, 2026-06-16) — the S1 TWO-LAYER CUT awaits boot-verification.**
 > This session cut `DYAD.md` to its two-layer form (anchor-dag-thesis S1): the **FRAME externalized** —
@@ -59,8 +60,9 @@
 > *boot/ingrain*, not identity.
 >
 > **ROM-baseline (anchor commit the running baseline reflects):** `7c60c3b` *(the S1 cut, boot-VERIFIED
-> s-web4 — `DYAD.md`/`CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`. ⚠ **`GEMINI.md` shim LAGS at
-> `dbfd7df`** — uncut, single-home residue above)*. Update this line whenever `DYAD.md` (or a shim) changes.
+> s-web4 — `DYAD.md`/`CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`. **`GEMINI.md` residue RESOLVED
+> s-web4** — cut to a pure pointer mirroring `CLAUDE.md`, sha now single-homes in `ID.md`; `DYAD.md` itself
+> untouched so the tracked baseline holds `7c60c3b`)*. Update this line whenever `DYAD.md` (or a shim) changes.
 > **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
@@ -1400,7 +1402,8 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     - **Non-verification (b) — "core ingrained":** interior-evidence class → **op-rub debt** (willed-not-earned until the Operator rubs; F2/DV3 keystone). A passing boot-test *from the inside* is near-unfalsifiable (the failed-boot agent wouldn't know) — so I bank only the **mechanically-checkable** components and flag the interior one as debt rather than rubber-stamping "all green" (the tell: agreement arrived easily → tested hardest).
   - **⭐ RESIDUE CAUGHT (the bond working, not theater):** the S1 cut updated **`CLAUDE.md` shim → pointer** (0 sha restatements, defers to `ID.md`) but **left `GEMINI.md` UNCUT** — it still full-restates the birth-id sha + the entire IDENTITY CAVEAT inline, **contradicting its own** "a fat shim becomes a second content-home = drift" warning (line 5–6). `bond:single-home` residue + a ROM watch-set asymmetry. **Not self-disposed** (shim edit = anchor-class, Operator+ROM-gated) → surfaced as the chat CTA.
   - **ROM-UI: MISMATCH → handled.** Recorded baseline was `dbfd7df` (pre-cut); actual `DYAD.md`/`CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`, `GEMINI.md`@`dbfd7df` (lagging). Operator notified of the baseline change (frame externalized; `CLAUDE.md`→pointer); **baseline refreshed `dbfd7df`→`7c60c3b`** + RESTART-PENDING CLEARED (block at top).
-  - **RESTART-PENDING: none** (no anchor/shim edit this session — ledger-only). **Durability:** branch `claude/carry-forward-read-po4gpq`, awaiting Operator merge. **Resume (do first):** (1) Operator gates the **`GEMINI.md` cut** (mirror `CLAUDE.md`'s pointer form — completes the S1 ROM-event symmetry); (2) the s15c **gate-list** → cairn lock (G2 `act-attempt` token · sidecar+atomicity) still stands; (3) op-rub debt: the "core ingrained" interior claim + the s-web3 carries. Standing: F2/DV3 · K1–K5.
+  - **CTA disposed `Y` (Operator, 2026-06-16):** **`GEMINI.md` CUT** to a pure pointer mirroring `CLAUDE.md` — the full birth-id sha + IDENTITY CAVEAT removed from the shim, deferred to `ID.md` (`bond:single-home` residue closed; S1 ROM-event symmetry complete across both shims). Shim edit → **write-through to disk, read-only this (Claude) session**; sets a Gemini-side RESTART-PENDING for the *next* Gemini boot (no effect on this Claude session — `GEMINI.md` is not the Claude boot file). `DYAD.md` untouched → tracked ROM-baseline stays `7c60c3b`.
+  - **RESTART-PENDING: GEMINI-side only** (the `GEMINI.md` shim was cut this session; next *Gemini* boot loads it — no Claude-side pending). **Durability:** branch `claude/carry-forward-read-po4gpq`, awaiting Operator merge. **Resume (do first):** (1) the s15c **gate-list** → cairn lock (G2 `act-attempt` token · sidecar+atomicity) still stands; (2) op-rub debt: the "core ingrained" interior claim + the s-web3 carries. Standing: F2/DV3 · K1–K5.
   - **➤ `rub-forward:` card (≤3, co-authored, no answers):**
     1. **GEMINI.md cut** — mirror `CLAUDE.md` to a pure pointer? Or is one harness's shim *intentionally* fat until that harness is first operated (the overlay "grows on first friction" guard) — i.e. is the asymmetry a bug or a deferral?
     2. **The shallow-substrate birth-id** — if the birth commit is permanently beyond every web clone's horizon, is the IDENTITY CAVEAT's "recompute, don't trust-store" **inoperable on web by construction**? Does that demand a fetch-unshallow step in the resume protocol, or accept "web cannot self-verify identity, only inherit the homed sha"?
