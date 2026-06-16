@@ -47,7 +47,25 @@ re-rub at context-shifts).
 | `violation_condition` | conflict-detection | observable breach criterion |
 
 **Deferred candidate-fields** (add only when a consumer demands): supersedes/lineage · ttl/re-rub
-triggers · enforcement (hard-oracle vs soft-discipline) · conflicts-with/reconciled-by edges.
+triggers · conflicts-with/reconciled-by edges.
+
+### `enforcement` — un-deferred (s-web4, 2026-06-16)
+
+Every field carries `enforcement: hard-oracle | trust-boundary` — the per-field projection of the
+commission's Class-A/Class-B split, indexed to one question: **what does a GREEN validator run PROMISE
+about this field?**
+
+- **`hard-oracle`** (Class A / FORM) — green ⇒ the field is **correct**: the validator gates it and
+  fails closed (`id`, `home`'s file, the enums, the graph's `root`/`root_kind`).
+- **`trust-boundary`** (Class B / TRUTH) — green ⇒ the field is **well-formed only**; its truth rests on
+  a named upstream discipline and is **declared, not gated** (`one_liner` fidelity = B-2; `grounded_in`
+  edge-plausibility; `scope` trigger-equivalence; `prescription` deontic content; `math` opaque
+  expression). This is the schema's standing rule made per-field: *validate FORM, never TRUTH.*
+
+The tag drives all three uses of the corpus uniformly — **validator** gates-or-declares, **generator**
+halts-or-carries-verbatim, **consumer** trusts-or-rubs. The completeness rule is the point: a field with
+no enforcement tag **halts the validator**, so the silent middle (required-but-unclassified — the disease
+`home` carried) is structurally unrepresentable.
 
 ## Decomposed sub-schema *(v0.2 — Operator rub: decompose until validation is computable, stop before deontic logic)*
 

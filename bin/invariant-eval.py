@@ -222,7 +222,23 @@ if __name__ == "__main__":
     globals()["VOCABS"] = VOCABS
     records = corpus["invariants"]
     ids, all_gaps, n_fail = set(), [], 0
+    # enforcement completeness (v0.9): EVERY field must carry a valid A/B tag — the silent middle is
+    # unrepresentable. A field that is neither gated (hard-oracle) nor declared (trust-boundary) HALTS.
+    ENF = set(VOCABS.get("enforcement", []))
+    sfields = schema["record"]["fields"]
+    untagged = [f for f, spec in sfields.items()
+                if not isinstance(spec, dict) or spec.get("enforcement") not in ENF]
+    if untagged:
+        print(f"SCHEMA ERROR (silent-middle): fields with no valid enforcement tag: {untagged}", file=sys.stderr)
+        sys.exit(2)
+    enf = {}
+    for f, spec in sfields.items():
+        enf.setdefault(spec["enforcement"], []).append(f)
     print(f"=== invariant-eval | schema {schema['schema_version']} | {len(records)} records ===")
+    print("=== field enforcement (un-deferred) — what a GREEN run promises per field ===")
+    print(f"    hard-oracle  (green ⇒ CORRECT, gated): {', '.join(sorted(enf.get('hard-oracle', [])))}")
+    print(f"    trust-boundary (green ⇒ well-formed only; TRUTH on a named discipline): "
+          f"{', '.join(sorted(enf.get('trust-boundary', [])))}")
     for rec in records:
         rid, errs, gaps = check_record(rec, schema["record"], ids)
         all_gaps += gaps
