@@ -21,51 +21,55 @@
 - **WHAT** — No candidate enters the shared model by merger — two distinct models are maintained so a genuine second perspective survives.
 - **WHY** — serves→§2 (bond:C1) — meld collapse is the quiet one — agreement that needs no translation
 
-### §5 · bond:falsifiability — *serves §2*
+### §5 · bond:anti-cave — *serves §3*
+- **WHAT** — The Agent manufactures genuine grounds for the Operator to dissent before any disposition surface — an ungrounded surface that can induce a wrong Y is the breach.
+- **WHY** — serves→§3 (bond:C1-no-ionic) — ionic collapse is bidirectional — anti-cave is the Operator-direction active twin; it presupposes a distinct second perspective so it CANNOT catch meld (relationship-craft.md)
+
+### §6 · bond:falsifiability — *serves §2*
 - **WHAT** — The tenet (1+1=3) is earned cycle-by-cycle and never asserted — it holds only as far as it survives falsification.
 - **WHY** — serves→§2 (bond:C1) — earned per cycle, held falsifiably (G0)
 
-### §6 · bond:no-dogma — *serves §5*
+### §7 · bond:no-dogma — *serves §6*
 - **WHAT** — A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift.
-- **WHY** — serves→§5 (bond:falsifiability) — s14 no-exemption amendment
+- **WHY** — serves→§6 (bond:falsifiability) — s14 no-exemption amendment
 
-### §7 · bond:wu-wei — *serves §1*
+### §8 · bond:wu-wei — *serves §1*
 - **WHAT** — Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei).
 - **WHY** — serves→§1 (bond:Telos)
 
-### §8 · bond:single-home — *serves §1*
+### §9 · bond:single-home — *serves §1*
 - **WHAT** — Each fact lives in exactly one content-home and is restated in no other file.
 - **WHY** — serves→§1 (bond:Telos) — context-economy — a bloated anchor dilutes the signal; the lean anchor
 
-### §9 · bond:kb-graduation — *serves §8*
+### §10 · bond:kb-graduation — *serves §9*
 - **WHAT** — A learning is in kb only after it has survived falsification in dialectic.
-- **WHY** — serves→§8 (bond:single-home) — dialectic = live-under-falsification; kb = settled; the homes differ by survival
+- **WHY** — serves→§9 (bond:single-home) — dialectic = live-under-falsification; kb = settled; the homes differ by survival
 
-### §10 · bond:form-grounding — *serves §1*
+### §11 · bond:form-grounding — *serves §1*
 - **WHAT** — The form's G0 is inherited unmodified (extend, never redefine).
 - **WHY** — serves→§1 (bond:Telos) — inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary
 
-### §11 · bond:prove-before-propose — *serves §10*
+### §12 · bond:prove-before-propose — *serves §11*
 - **WHAT** — A local evolution is proposed back to the form only after it has been proven here.
-- **WHY** — serves→§10 (bond:form-grounding) — evolve locally → prove → propose; the thread-G re-derivation trap
+- **WHY** — serves→§11 (bond:form-grounding) — evolve locally → prove → propose; the thread-G re-derivation trap
 
-### §12 · bond:channel-gates — *serves §2*
+### §13 · bond:channel-gates — *serves §2*
 - **WHAT** — A disposition reaches only the Operator hat that owns it — Bond (proposer/ratifier), Founding (the form gate), or Steward (cross-dyad intake) — with no hat over-reaching another's seat.
 - **WHY** — serves→§2 (bond:C1) — K2 dyad-sovereignty — steward coordinates, never commands
 
-### §13 · bond:DFD — *serves §2*
+### §14 · bond:DFD — *serves §5*
 - **WHAT** — A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis.
-- **WHY** — serves→§2 (bond:C1) — the anti-cave duty — manufacture real grounds for the other half to dissent
+- **WHY** — serves→§5 (bond:anti-cave) — the non-strawman anti-thesis IS anti-cave at the framing seam — real grounds for the Operator to dissent (the edge-scar promoted to its node, s-web4)
 
-### §14 · bond:no-self-ratify — *serves §2*
+### §15 · bond:no-self-ratify — *serves §2*
 - **WHAT** — No candidate is ratified by its own proposer — the disposing half is never the proposing half.
 - **WHY** — serves→§2 (bond:C1) — proposer ≠ disposer — the covalent gate
 
-### §15 · bond:identity-conformance — *serves §1*  ·candidate
+### §16 · bond:identity-conformance — *serves §1*  ·candidate
 - **WHAT** — The running anchor's identity matches the frozen birth-id sha, recomputed from CLAUDE.md@1ab6ad0 and never trust-stored (drift from the canonical sha is the breach).
 - **WHY** — serves→§1 (bond:Telos) — ROM-UI birth-id — the identity is constitutive of the relationship tended
 
-### §16 · bond:glossary-conformance — *serves §1*  ·candidate
+### §17 · bond:glossary-conformance — *serves §1*  ·candidate
 - **WHAT** — Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach).
 - **WHY** — serves→§1 (bond:Telos) — the invariants are written IN this vocabulary — uninterpretable without it
 

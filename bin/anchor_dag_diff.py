@@ -16,8 +16,15 @@ HONEST BOUNDARY: this is a strong COMPLETENESS detector, a weak FIDELITY one —
 node renders back wrong and self-matches. Matches are SURFACED for the covalent read to dispose;
 the number is not the verdict.
 
-Usage: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md [--emit FILE]
-Exit: 0 report produced · 1 over-extraction found (a node with no anchor trace) · 2 load error.
+REGEN-VERDICT + STALENESS GATE (rub 2026-06-16 'DYAD.md reliably re-generates from .yml',
+FALSIFIED → survivor; dialectic/dyad-md-yaml-regen.md): the strong rub is false — the FRAME /
+pointers / narrative have no yaml pre-image. What survives is the CORE skeleton regenerating into
+the digest, RELIABLE only when the committed digest stays in lockstep with a fresh render. So a
+fresh render is diffed against the committed digest; DRIFT FAILS the run (reliably-regenerated
+with no gate = a contradiction). The verdict is printed, not asserted.
+
+Usage: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md [--emit FILE] [--rendered FILE]
+Exit: 0 clean · 1 over-extraction OR stale digest (regen not in lockstep) · 2 load error.
 """
 import sys, re
 
@@ -33,6 +40,7 @@ can may must shall will would could should do does did done being been have has 
 
 HI, LO = 0.60, 0.30          # containment thresholds (printed; tune by reading the report)
 TRACE_FLOOR = 0.30           # a node below this against its best anchor line = over-extraction
+RENDERED_DEFAULT = "dialectic/invariants-bond.rendered.md"   # committed digest the gate guards
 # deontic markers: a DYAD.md line carrying one is "prescriptive-looking" -> uncovered = a real flag
 DEONTIC = re.compile(r"\b(must|never|only|always|keep|enter|guard|require|forbid|shall|do not|don't)\b", re.I)
 
@@ -126,7 +134,7 @@ def anchor_lines(path):
 
 
 if __name__ == "__main__":
-    argv, emit, args = sys.argv[1:], None, []
+    argv, emit, rendered, args = sys.argv[1:], None, RENDERED_DEFAULT, []
     skip = False
     for i, a in enumerate(argv):
         if skip:
@@ -134,6 +142,9 @@ if __name__ == "__main__":
             continue
         if a == "--emit":
             emit = argv[i + 1] if i + 1 < len(argv) else None
+            skip = True
+        elif a == "--rendered":
+            rendered = argv[i + 1] if i + 1 < len(argv) else None
             skip = True
         elif not a.startswith("--"):
             args.append(a)
@@ -150,6 +161,16 @@ if __name__ == "__main__":
     if emit:
         open(emit, "w", encoding="utf-8").write(digest)
         print(f"rendered digest -> {emit}")
+
+    # Staleness gate — the GENERATED digest must stay in lockstep with its yaml source. A committed
+    # digest that drifts from a fresh render is "reliably regenerated" failing OPERATIONALLY: the regen
+    # step exists but was not re-run on a source edit (caught the anti-cave drift, s-web4 rub 2026-06-16).
+    stale = None
+    if rendered:
+        try:
+            stale = (open(rendered, encoding="utf-8").read() != digest)
+        except FileNotFoundError:
+            stale = None
 
     bags = {r["id"]: node_bag(r) for r in records}
     print(f"=== anchor-dag-diff | {len(records)} nodes | {len(a_lines)} anchor content-lines "
@@ -194,4 +215,21 @@ if __name__ == "__main__":
 
     print(f"\n=== summary: {covered} covered · {partial} partial · {residue} residue "
           f"· {overext} over-extraction ===")
-    sys.exit(1 if overext else 0)
+
+    # --- REGEN-VERDICT: the rub 'DYAD.md can be reliably re-generated from .yml' ---
+    # (FALSIFIED → survivor; full record: dialectic/dyad-md-yaml-regen.md). Printed, not asserted.
+    presc_uncov = sum(1 for _, tag, _ in resid_lines if tag.startswith("⚠"))
+    frame_resid = residue - presc_uncov
+    regenerable = covered + partial
+    stale_str = {True:  f"STALE ⚠ — committed {rendered} drifted from a fresh render (regenerate it)",
+                 False: f"IN-SYNC — {rendered} == fresh render",
+                 None:  f"absent — {rendered} not found (no committed digest to gate)"}[stale]
+    print("\n--- REGEN-VERDICT (rub: 'DYAD.md reliably re-generates from .yml') ---")
+    print(f"  STRONG rub : FALSIFIED — {frame_resid} prose lines (frame / pointer / narrative) have NO")
+    print( "               yaml pre-image; they cannot regenerate. The yaml is a CORE shadow, not a source.")
+    print(f"  digest     : {stale_str}")
+    print(f"  SURVIVOR   : the core SKELETON ({regenerable} lines) regenerates deterministically into the")
+    print( "               digest. RELIABLE only as: in-sync digest + 0 prescriptive-omissions "
+          f"({presc_uncov} flagged)")
+    print(f"               + 0 over-extraction ({overext}). Prose stays the source; the yaml is the instrument.")
+    sys.exit(1 if (overext or stale is True) else 0)
