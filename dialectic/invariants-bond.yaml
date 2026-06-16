@@ -7,7 +7,8 @@
 # conformance-invariants the S1 resolution requires (identity → ID.md; vocabulary → GLOSSARY.md).
 # All one_liners are DECLARATIVE (a condition that holds; breach = its negation) — rub 2026-06-16.
 #
-# 14 core records (atomic) + 2 conformance candidates = 16. Roots: Telos (fiat), C1 (forged).
+# 15 core records (atomic) + 2 conformance candidates = 17. Roots: Telos (fiat), C1 (forged).
+# (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
 # Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit dialectic/invariants-bond.rendered.md
 
@@ -72,6 +73,23 @@ invariants:
     scope: {actor: both, trigger: candidate-admission}
     prescription: {action: admit, object: "a candidate by meld merger (loss of the second perspective)", modality: MUST-NOT}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "meld — both halves run one model wearing two hats"}
+
+  # ---- C1 active duty (the bidirectional-ionic guard; serves no-ionic, cannot catch meld) ----
+
+  - id: "bond:anti-cave"
+    home: "dialectic/relationship-craft.md#the-anti-cave-duty"
+    one_liner: "The Agent manufactures genuine grounds for the Operator to dissent before any disposition surface — an ungrounded surface that can induce a wrong Y is the breach."
+    status: ratified
+    form: tuple
+    settlement: settled
+    re_rub_triggers: [breach-evidence]
+    root: false
+    adjudicated: {by: Operator, date: 2026-06-16, currency_note: "promoted edge-scar -> node (s-web4 rub); duty long-operative as Item-F(a), prose home relationship-craft.md"}
+    grounded_in:
+      - {ref: "bond:C1-no-ionic", edge: serves, scar: "ionic collapse is bidirectional — anti-cave is the Operator-direction active twin; it presupposes a distinct second perspective so it CANNOT catch meld (relationship-craft.md)"}
+    scope: {actor: agent, trigger: selection-seam}
+    prescription: {action: manufacture, object: "genuine grounds for the Operator to dissent (ground-the-frame-first)", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "the confab / moot grant-CTA — an ungrounded surface that induces a wrong Y (Item-F(a))"}
 
   # ---- prescriptive core (atomic) ----
 
@@ -196,7 +214,7 @@ invariants:
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "the anti-cave duty — manufacture real grounds for the other half to dissent"}
+      - {ref: "bond:anti-cave", edge: serves, scar: "the non-strawman anti-thesis IS anti-cave at the framing seam — real grounds for the Operator to dissent (the edge-scar promoted to its node, s-web4)"}
     scope: {actor: both, trigger: selection-seam}
     prescription: {action: frame, object: "a decision via thesis / anti-thesis / synthesis", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a strawman anti-thesis that induces a lazy Y"}
