@@ -17,7 +17,7 @@ invariants:
 
   - id: "bond:Telos"
     home: "DYAD.md#Identity"
-    one_liner: "Tend the lived interior craft of the dyadic relationship; the relationship is the craft-object, the Dyad-UI its load-bearing falsifiable medium."
+    one_liner: "The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object."
     status: ratified
     form: slogan
     settlement: settled
@@ -31,7 +31,7 @@ invariants:
 
   - id: "bond:C1"
     home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "Keep the bond covalent: every candidate +1, including the Operator's premises, enters the shared model only by surviving genuine falsification; no ionic or meld collapse; easy agreement → test hardest."
+    one_liner: "The bond is covalent: a candidate +1, including the Operator's premises, is in the shared model only if it survived genuine falsification, and neither ionic nor meld collapse is present."
     status: ratified
     form: tuple
     settlement: settled
@@ -47,7 +47,7 @@ invariants:
 
   - id: "bond:falsifiability"
     home: "DYAD.md#G0"
-    one_liner: "The tenet is earned cycle-by-cycle by surviving falsification, held falsifiably, never as dogma; a ratified claim is true-for-now, re-rubbable."
+    one_liner: "The tenet is held falsifiably and earned cycle-by-cycle by surviving falsification; a ratified claim is true-for-now and stays re-rubbable, never dogma."
     status: inherited
     form: tuple
     settlement: settled
@@ -61,7 +61,7 @@ invariants:
 
   - id: "bond:wu-wei"
     home: "DYAD.md#G0"
-    one_liner: "Manner is wu-wei: apply minimum force and work with the grain; the lightest anchor that still moves."
+    one_liner: "Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei)."
     status: inherited
     form: slogan
     settlement: settled
@@ -75,7 +75,7 @@ invariants:
 
   - id: "bond:single-home"
     home: "DYAD.md#Ontology"
-    one_liner: "Each fact lives in exactly one content-home; the anchor stays lean; a learning graduates dialectic → kb only on surviving falsification."
+    one_liner: "Each fact lives in exactly one content-home and the anchor stays lean; a learning is in kb only after it survives falsification in dialectic."
     status: ratified
     form: tuple
     settlement: settled
@@ -89,7 +89,7 @@ invariants:
 
   - id: "bond:form-grounding"
     home: "DYAD.md#Form-grounding"
-    one_liner: "Inherit the form's G0 faithfully; evolve only locally, prove it here, then propose back via the Founding-Operator gate."
+    one_liner: "G0 is inherited unmodified; a local evolution is proven here before it is proposed back via the Founding-Operator gate."
     status: ratified
     form: tuple
     settlement: settled
@@ -103,7 +103,7 @@ invariants:
 
   - id: "bond:channel-gates"
     home: "DYAD.md#Channel-discipline"
-    one_liner: "A disposition is routed to the correct Operator hat — Bond (our proposer/ratifier), Founding (the form gate), Steward (cross-dyad intake) — never one hat over-reaching another's seat."
+    one_liner: "A disposition reaches only the Operator hat that owns it — Bond (proposer/ratifier), Founding (the form gate), or Steward (cross-dyad intake) — with no hat over-reaching another's seat."
     status: ratified
     form: tuple
     settlement: settled
@@ -117,7 +117,7 @@ invariants:
 
   - id: "bond:DFD"
     home: "kb/dfd.md"
-    one_liner: "Decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis; the proposer never self-ratifies its own candidate."
+    one_liner: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis, and no candidate is ratified by its own proposer."
     status: ratified
     form: tuple
     settlement: settled
@@ -135,7 +135,7 @@ invariants:
 
   - id: "bond:identity-conformance"
     home: "DYAD.md#IDENTITY-CAVEAT"
-    one_liner: "The running anchor's identity must conform to the frozen birth-id sha (recomputed from CLAUDE.md@1ab6ad0, never trust-stored) — drift from the canonical sha is the breach."
+    one_liner: "The running anchor's identity matches the frozen birth-id sha, recomputed from CLAUDE.md@1ab6ad0 and never trust-stored (drift from the canonical sha is the breach)."
     status: candidate
     form: tuple
     settlement: candidate
@@ -148,7 +148,7 @@ invariants:
 
   - id: "bond:glossary-conformance"
     home: "DYAD.md#Vocabulary"
-    one_liner: "Every term used in an invariant node must be defined in GLOSSARY.md — an undefined (orphan) term is the mechanical breach (soft semantic fidelity stays ordinary covalent review, not this node)."
+    one_liner: "Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach; soft semantic fidelity stays ordinary covalent review, not this node)."
     status: candidate
     form: tuple
     settlement: candidate
