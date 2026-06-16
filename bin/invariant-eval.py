@@ -9,7 +9,7 @@ Validates FORM, never TRUTH (a math-form's expression is opaque here — structu
 Usage: python3 bin/invariant-eval.py <schema.yaml> <corpus.yaml>
 Exit: 0 all-pass · 1 violations · 2 schema/load error (fail-closed).
 """
-import sys, re
+import sys, re, os
 try:
     import yaml
 except ImportError:
@@ -182,6 +182,37 @@ def corpus_checks(records):
     return errs, flags
 
 
+def _md_slugs(path):
+    """ATX-header slugs of a markdown file: the name before ' — ' / '(', spaces→hyphens, lower."""
+    slugs = set()
+    try:
+        for line in open(path, encoding="utf-8"):
+            m = re.match(r"^#{1,6}\s+(.*)", line)
+            if m:
+                title = re.split(r"\s+[—-]\s+|\(", m.group(1))[0].strip()
+                slugs.add(re.sub(r"\s+", "-", title).lower())
+    except OSError:
+        return None
+    return slugs
+
+
+def home_resolve(home):
+    """Class A: the home FILE must resolve (hard-fail). Class B: the #anchor is DECLARED, not gated
+    — the durable locator grammar is the engine's versioned inline tag (commission A-3), NOT a
+    markdown slug, so a fragment mismatch today is a soft label-truth flag deferred to that grammar.
+    Returns one of: ('A-OK',…) ('A-MISS-FILE',…) ('B-OK',…) ('B-STALE-ANCHOR',…)."""
+    path, _, frag = (home or "").partition("#")
+    if not path or not os.path.exists(path):
+        return ("A-MISS-FILE", path, frag)
+    if not frag:
+        return ("A-OK", path, "")
+    slugs = _md_slugs(path)
+    fs = frag.lower()
+    if slugs is None or any(s == fs or s.startswith(fs) for s in slugs):
+        return ("B-OK", path, frag)
+    return ("B-STALE-ANCHOR", path, frag)
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         sys.exit(__doc__)
@@ -206,7 +237,17 @@ if __name__ == "__main__":
         print(f"    ✗ {e}")
     for f in cflags:
         print(f"    ⚑ {f}")
+    # home resolution — Class A (file) GATED · Class B (#anchor) DECLARED (deferred to the engine tag-grammar)
+    print("=== home resolution (Class A: file gated · Class B: #anchor declared) ===")
+    home_fail = 0
+    for r in records:
+        kind, path, frag = home_resolve(r.get("home"))
+        if kind == "A-MISS-FILE":
+            home_fail += 1
+            print(f"    ✗ {r.get('id')}: home file unresolvable → {path!r} (Class A, HALT)")
+        elif kind == "B-STALE-ANCHOR":
+            print(f"    ◌ {r.get('id')}: #{frag} not in {path} headers (Class B — declared, deferred to tag-grammar)")
     print("=== declared-unevaluable (gaps surfaced by THIS run) ===")
     for g in sorted(set(all_gaps)):
         print(f"    ◌ {g}")
-    sys.exit(1 if (n_fail or cerrs) else 0)
+    sys.exit(1 if (n_fail or cerrs or home_fail) else 0)

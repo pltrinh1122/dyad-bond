@@ -17,7 +17,7 @@ invariants:
   # ---- ROOTS ----
 
   - id: "bond:Telos"
-    home: "DYAD.md#Identity"
+    home: "DYAD.md#Telos"
     one_liner: "The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object."
     status: ratified
     form: slogan
@@ -94,7 +94,7 @@ invariants:
   # ---- prescriptive core (atomic) ----
 
   - id: "bond:falsifiability"
-    home: "DYAD.md#G0"
+    home: "DYAD.md#Falsifiability"
     one_liner: "The tenet (1+1=3) is earned cycle-by-cycle and never asserted — it holds only as far as it survives falsification."
     status: inherited
     form: tuple
@@ -108,7 +108,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a +1 asserted as settled without genuine attack (willed-not-earned)"}
 
   - id: "bond:no-dogma"
-    home: "DYAD.md#G0"
+    home: "DYAD.md#Falsifiability"
     one_liner: "A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift."
     status: ratified
     form: tuple
@@ -122,7 +122,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "ratification-laundering: converge-open ideation treated as settled by repetition (s14)"}
 
   - id: "bond:wu-wei"
-    home: "DYAD.md#G0"
+    home: "DYAD.md#Falsifiability"
     one_liner: "Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei)."
     status: inherited
     form: slogan
@@ -136,7 +136,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "anti-wu-wei over-rubbing past the natural frequency (RB2 watch)"}
 
   - id: "bond:single-home"
-    home: "DYAD.md#Ontology"
+    home: "DYAD.md#Single-home"
     one_liner: "Each fact lives in exactly one content-home and is restated in no other file."
     status: ratified
     form: tuple
@@ -150,7 +150,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a fat shim restating dialectic/ content = a second home = drift"}
 
   - id: "bond:kb-graduation"
-    home: "DYAD.md#Ontology"
+    home: "DYAD.md#Single-home"
     one_liner: "A learning is in kb only after it has survived falsification in dialectic."
     status: ratified
     form: tuple
@@ -236,7 +236,7 @@ invariants:
   # ---- CONFORMANCE-INVARIANTS (S1: externalize the frame to meaning-root files) — CANDIDATES ----
 
   - id: "bond:identity-conformance"
-    home: "DYAD.md#IDENTITY-CAVEAT"
+    home: "DYAD.md#Frame"
     one_liner: "The running anchor's identity matches the frozen birth-id sha, recomputed from CLAUDE.md@1ab6ad0 and never trust-stored (drift from the canonical sha is the breach)."
     status: candidate
     form: tuple
@@ -249,7 +249,7 @@ invariants:
     observability: {observable: sha-comparison, detector: hard-oracle}
 
   - id: "bond:glossary-conformance"
-    home: "DYAD.md#Vocabulary"
+    home: "DYAD.md#Frame"
     one_liner: "Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach)."
     status: candidate
     form: tuple
