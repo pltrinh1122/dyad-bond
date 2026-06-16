@@ -28,6 +28,22 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
+> ✅ **RESTART-PENDING: CLEARED (Stand-Up s-web4, 2026-06-16) — the S1 TWO-LAYER CUT boot-VERIFIED (mechanical
+> components).** This fresh web session booted on the *merged* cut (`7c60c3b`, PR #25): the boot-chain
+> `CLAUDE.md → Read DYAD.md → ID.md + GLOSSARY.md` fired and **resolved across files** — nothing "only worked
+> because it was one prose file" (the *Refuted* condition is NOT met). Frame reachable (identity ✓ `ID.md`,
+> vocabulary ✓ `GLOSSARY.md` — core interpretable in its terms, no orphan-term block); 16-node
+> `invariants-bond.yaml` + both conformance nodes present. **Honest non-verifications (D6):** (a) the birth-id
+> **sha cannot be recomputed on this substrate** — the clone is SHALLOW (99 commits, earliest `946d32e`@06-08);
+> birth commit `1ab6ad0`@05-30 + the form's `auto_join.py` are both beyond it. This is a shallow-clone limit
+> *orthogonal to the cut* (cut-immune by construction; would block pre-cut too) → sha left UNasserted, not
+> "matched". (b) "core ingrained" is **interior-evidence → op-rub debt** (F2/DV3 keystone; willed-not-earned
+> until the Operator rubs it). **⚠ RESIDUE CAUGHT:** the cut updated the **`CLAUDE.md` shim → pointer** (0 sha
+> restatements) but **left `GEMINI.md` UNCUT** — it still full-restates the birth-id sha + entire IDENTITY
+> CAVEAT inline, contradicting its own "a fat shim = a second content-home = drift" warning. `bond:single-home`
+> residue → surfaced for the Operator+ROM gate; **Operator disposed `Y` → `GEMINI.md` cut to a pointer this
+> session (resolved).** **The now-resolved SET record is kept below.**
+>
 > ⚠️ **RESTART-PENDING: SET (Stand-Down s-web3, 2026-06-16) — the S1 TWO-LAYER CUT awaits boot-verification.**
 > This session cut `DYAD.md` to its two-layer form (anchor-dag-thesis S1): the **FRAME externalized** —
 > identity → **`ID.md`**, vocabulary → **`GLOSSARY.md`** (governed by `bond:identity-conformance` +
@@ -43,9 +59,10 @@
 > level; the branch is unmerged → revert.** Identity is cut-immune by construction; the open question is
 > *boot/ingrain*, not identity.
 >
-> **ROM-baseline (anchor commit the running baseline reflects):** `dbfd7df` *(PRE-cut; superseded-pending-
-> verify by the s-web3 cut commit — next stand-up records the verified hash)*. Update this line whenever
-> `DYAD.md` (or a shim) changes.
+> **ROM-baseline (anchor commit the running baseline reflects):** `7c60c3b` *(the S1 cut, boot-VERIFIED
+> s-web4 — `DYAD.md`/`CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`. **`GEMINI.md` residue RESOLVED
+> s-web4** — cut to a pure pointer mirroring `CLAUDE.md`, sha now single-homes in `ID.md`; `DYAD.md` itself
+> untouched so the tracked baseline holds `7c60c3b`)*. Update this line whenever `DYAD.md` (or a shim) changes.
 > **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
@@ -1378,3 +1395,17 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     1. **Novel-target** — every high-consistency result was the engine recalling the answer; a clean generative test needs a target the model can't recall. Hand-authored private artifact, or does that just relocate authoring-bias into the artifact?
     2. **ROM-event test** — does pure-DAG `DYAD.md` + referenced `ID.md`/`GLOSSARY.md` still boot as dyad-bond, or did something only work because it was one prose file? (the externalization's real falsifier).
     3. **S4 debt** — "DAG-of-invariants is OPTIMAL for reliable response" is still *asserted, not earned* (the consistency arc never cleanly established it). Does optimality need the novel-target experiment, or is it structural (rub-back = orphan-check) and provable without a run?
+- **Session 2026-06-16 (s-web4 — `read: carry-forward` resume; the S1 boot-test, do-FIRST card)** (Covalent) — **web/branch substrate (same divergence as s-web/s-web2: shallow clone, no `gh`, GitHub=MCP, daemon NOT armed); all work in `dialectic/`, anchor UNTOUCHED.**
+  - **The do-FIRST card discharged.** Booted on the *merged* S1 cut (`7c60c3b`, PR #25 — the s-web3 branch landed in `main`). Ran the boot-test (s-web2 rub-forward card #2 / s-web3 RESTART-PENDING): **does the cut `DYAD.md` + `ID.md` + `GLOSSARY.md` still boot as dyad-bond?**
+  - **VERDICT — VERIFIED (mechanical), with two honest non-verifications + one residue.** The boot-chain `CLAUDE.md → Read DYAD.md → ID.md + GLOSSARY.md` **fired and resolved across files** → the *Refuted* condition ("only worked because it was one prose file") is **NOT met**; the externalization is load-bearing and holds. Frame reachable (identity/role/orthogonality ✓ `ID.md`; covalence vocab ✓ `GLOSSARY.md` — the core is interpretable in its terms, no orphan-term block); `invariants-bond.yaml` = 16 nodes incl. both conformance nodes.
+    - **Non-verification (a) — birth-id sha (D6, by execution):** the web clone is **SHALLOW** (99 commits, earliest `946d32e`@2026-06-08); birth commit `1ab6ad0`@2026-05-30 + the form's `auto_join.py` are **both beyond the boundary** → the sha is **left UNasserted, not "matched"** (honest non-recompute). This is a shallow-clone limit **orthogonal to the cut** — cut-immune by `--diff-filter=A`, would block pre-cut identically. Identity was never the open question.
+    - **Non-verification (b) — "core ingrained":** interior-evidence class → **op-rub debt** (willed-not-earned until the Operator rubs; F2/DV3 keystone). A passing boot-test *from the inside* is near-unfalsifiable (the failed-boot agent wouldn't know) — so I bank only the **mechanically-checkable** components and flag the interior one as debt rather than rubber-stamping "all green" (the tell: agreement arrived easily → tested hardest).
+  - **⭐ RESIDUE CAUGHT (the bond working, not theater):** the S1 cut updated **`CLAUDE.md` shim → pointer** (0 sha restatements, defers to `ID.md`) but **left `GEMINI.md` UNCUT** — it still full-restates the birth-id sha + the entire IDENTITY CAVEAT inline, **contradicting its own** "a fat shim becomes a second content-home = drift" warning (line 5–6). `bond:single-home` residue + a ROM watch-set asymmetry. **Not self-disposed** (shim edit = anchor-class, Operator+ROM-gated) → surfaced as the chat CTA.
+  - **ROM-UI: MISMATCH → handled.** Recorded baseline was `dbfd7df` (pre-cut); actual `DYAD.md`/`CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`, `GEMINI.md`@`dbfd7df` (lagging). Operator notified of the baseline change (frame externalized; `CLAUDE.md`→pointer); **baseline refreshed `dbfd7df`→`7c60c3b`** + RESTART-PENDING CLEARED (block at top).
+  - **CTA disposed `Y` (Operator, 2026-06-16):** **`GEMINI.md` CUT** to a pure pointer mirroring `CLAUDE.md` — the full birth-id sha + IDENTITY CAVEAT removed from the shim, deferred to `ID.md` (`bond:single-home` residue closed; S1 ROM-event symmetry complete across both shims). Shim edit → **write-through to disk, read-only this (Claude) session**; sets a Gemini-side RESTART-PENDING for the *next* Gemini boot (no effect on this Claude session — `GEMINI.md` is not the Claude boot file). `DYAD.md` untouched → tracked ROM-baseline stays `7c60c3b`.
+  - **RESTART-PENDING: GEMINI-side only** (the `GEMINI.md` shim was cut this session; next *Gemini* boot loads it — no Claude-side pending). **Durability:** branch `claude/carry-forward-read-po4gpq`, awaiting Operator merge. **Resume (do first):** (1) the s15c **gate-list** → cairn lock (G2 `act-attempt` token · sidecar+atomicity) still stands; (2) op-rub debt: the "core ingrained" interior claim + the s-web3 carries. Standing: F2/DV3 · K1–K5.
+  - **`rub:` on the frame files (Operator) → FALSIFIED, then disposed.** Claim: *ID.md/GLOSSARY.md are pure declaration, no implicit invariants.* Membership-test + cross-home check found prescriptive content in 2 grades: **Grade-A redundant-home** (5 lines restating prescriptions that DO have YAML nodes — `candidate +1`/`the tell`/`single-home`-itself/`kb-graduation`/the birth-id detector; the self-referential gem = the single-home line *is* a single-home echo) vs **Grade-B orphan** = `GLOSSARY:41` **anti-cave duty** — explicit "the Agent **must**" with **NO node** (only an edge-scar @`yaml:199`), unchecked by `invariant-eval.py`. Steelman kept: under an *ownership* membership-test (not syntactic), only the Grade-B line truly fails. **CTA disposed `Y`:** promoted **`bond:anti-cave`** → real node (serves `bond:C1-no-ionic`; cannot catch meld — presupposes a distinct 2nd perspective, per `relationship-craft.md:539`); `GLOSSARY:41` reverted to pure definition pointing at it; DFD re-grounded `C1`→`anti-cave` (the scar became the node). **Eval PASS (17 records, exit 0); ⭐ the new node trips `⚑ DUTY-DETECTOR-MISMATCH`** — the corpus's only `actor:agent` MUST with `other-half-only` detector, so the census now *mechanically* surfaces the F2/DV3 interior-evidence class that was prior-only-prose. **OPEN (queued, not disposed):** the membership-test fork — *syntactic vs ownership* — governs whether the 5 Grade-A lines also get reworded (leaning ownership = legit definitional echo).
+  - **➤ `rub-forward:` card (≤3, co-authored, no answers):**
+    1. **GEMINI.md cut** — mirror `CLAUDE.md` to a pure pointer? Or is one harness's shim *intentionally* fat until that harness is first operated (the overlay "grows on first friction" guard) — i.e. is the asymmetry a bug or a deferral?
+    2. **The shallow-substrate birth-id** — if the birth commit is permanently beyond every web clone's horizon, is the IDENTITY CAVEAT's "recompute, don't trust-store" **inoperable on web by construction**? Does that demand a fetch-unshallow step in the resume protocol, or accept "web cannot self-verify identity, only inherit the homed sha"?
+    3. **Interior boot-test unfalsifiability** — "core ingrained" can only ever be *Operator-rubbed*, never agent-self-verified (the failed-boot agent can't detect its own failure). Is the mechanical boot-chain check (references resolve) therefore the *only* honest agent-side boot-test — and "ingrained" simply not an agent-checkable node at all?
