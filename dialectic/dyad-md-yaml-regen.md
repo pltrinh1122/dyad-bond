@@ -100,7 +100,7 @@ DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
   (ii) the extraction engine (`commissions/2026-06-12-invariant-extraction-engine.md`, DRAFT/unbuilt).
   Until both ship, the yaml stays a gated bend behind the `anchor_dag_diff` drift-gate — *not yet cured.*
 
-### OPEN FORK — where the yaml's graph STRUCTURE is authored (Operator disposes)
+### Leaned (b) — Bond 2026-06-17 (candidate; was: OPEN FORK on where the yaml's graph STRUCTURE is authored)
 
 The yaml carries structure (`grounded_in` edges, `root_kind`, scope/prescription/observability tuples)
 with **no pre-image in the prose**. For the yaml to be purely `md`-derived, that structure must be authored
@@ -133,13 +133,17 @@ yaml = `merge( extract(md tags) , invariants-bond.structure.yaml )` — the *con
 single-homes in md; the *graph skeleton* (edges/types/tuples — the part a script genuinely cannot infer)
 single-homes in the sidecar. No content duplication; the boot surface stays lean.
 
-- **Agent lean: (b)** (wu-wei). It dissolves the real breach (the prescriptive *content* living twice) and
-  keeps only the irreducible structural skeleton authored — and that skeleton is exactly the SEMANTIC act
-  the commission already says stays Operator-gated at source. (a) buys single-home purity at a boot-surface
-  cost the H3 lesson warns against.
-- **Falsifier for (b):** if the sidecar's structure drifts from the tagged content (an edge cites an id no
-  tag emits), the merge must halt — i.e. (b) needs its own id-integrity gate, or it re-introduces a two-home
-  drift in miniature. Gate it or (b) collapses toward the same disease.
+- **LEANED (b)** (Bond 2026-06-17, wu-wei). It keeps the boot surface lean — only the `one_liner` rides
+  inline at the md source; the structural skeleton (the SEMANTIC act the commission already keeps
+  Operator-gated) single-homes in the sidecar.
+- **NOT a single-home win over (a) — name the trade true.** Both (a) and (b) are single-home-clean (no fact
+  duplicated). (a) is the *more consolidated* (one authoring file, DYAD.md); (b) *splits* authoring across
+  two files (md tags + sidecar). The lean trades **authoring-consolidation for a lean boot surface** — the
+  right call on the H3 lesson, but that is the trade, not a tidiness gain.
+- **BINDING RIDER (the price of the split, not optional):** the merge `extract(md tags) ⊕ sidecar` must be
+  **id-integrity-gated** — a sidecar edge/id with no emitting tag (or vice-versa) HALTS the merge. Absent
+  the gate, (b) re-grows the two-home drift at the id-reference layer. Choosing (b) = choosing (b) + this
+  gate; they are one decision.
 
 ## Status
 
