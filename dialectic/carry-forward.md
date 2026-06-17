@@ -182,6 +182,30 @@ was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 
 ## Open items
 
+### 2026-06-17 — Anchor source-of-truth · md→yaml lifecycle · views/ as read-surface · tag-grammar  ·  status: LEANED (NOT ratified); 2 doc commits LOCAL + UNSIGNED + UNPUSHED
+*Single-home for the work = `dialectic/dyad-md-yaml-regen.md` §"Source-of-truth disposition + the lifecycle". Bond riff/rub thread extending the 2026-06-16 regen survivor. All CANDIDATE (`bond:no-self-ratify` — Agent-proposed, Operator-leaned, not kb-graduated).*
+
+**Decisions / leans (Operator-disposed):**
+1. **Source-of-truth = `.md`; `.yaml` = DERIVED intermediate (tool-facing); `.rendered.md` = eval surface (→ `views/`).** Direction is **FORCED** by `bond:identity-conformance` + ROM-baseline (both track `DYAD.md`'s bytes → md cannot be demoted to a yaml build-output). Extends the survivor "prose is source, yaml is instrument."
+2. **Reality gap (NOT yet cured):** the yaml is **hand-authored today** — there is no `f(DYAD.md)→yaml`. "Derived" is the TARGET, gated on the unbuilt extraction engine (`commissions/2026-06-12-invariant-extraction-engine.md`, DRAFT). Until it ships, the yaml is a gated bend behind the `anchor_dag_diff` drift-gate.
+3. **`views/` = Operator read-surface (by-CONSUMER axis, NOT by-generated); Operator reads ONLY views/.** → (a) the rendered DAG should `--emit` into `views/` (it's the superior C-block projection, currently stranded in `dialectic/` where the Operator won't look = counterfeit-green); (b) `views/invariants-bond.md`'s agent-pass **C-block retires** into it (partial-retirement — C-block ONLY; D/R/X/U/S rows have no replacement yet); (c) sources wanted in eyeshot enter views/ as **symlinks** (lobby pattern), never **copies** (copy = `bond:single-home` drift breach). `DYAD.md` stays the root home.
+4. **Tag-grammar LEANED (b)** = lean tag (`id` + `one_liner` inline in md) + structure **sidecar** (edges/`root_kind`/tuples). NOT a single-home win over (a): both clean; (a) is more *consolidated*; (b) trades authoring-consolidation for a **lean boot surface** (H3). **BINDING RIDER:** the `extract(md tags) ⊕ sidecar` merge MUST be **id-integrity-gated** or (b) re-grows two-home drift at the id-reference layer.
+
+**Riff finding (intent-alignment; grounded in `it-vs-it_iv.md`):** structural tags reduce raw-intent (`IT`) misalignment by **tethering `IT_iv` to the raw intent** (anti-Goodhart — enables the intent-currency re-rub) + **orphan-edge detection** (anchor-dag-thesis S5 rub-back) — a job `IT_iv`'s oracle CANNOT do → having `IT_iv` makes the structure **more** load-bearing, not redundant. BUT that load is borne by the **corpus graph** (sidecar fine), not by `.md`-inline tags → reinforces (b). Raw intent stays irreducibly in `.md` prose (inexpressible in the formal substrate).
+
+**OPEN probes (next):**
+- **P1** — materialize the merged `invariants-bond.yaml` vs compute in-memory. *Agent lean: DON'T materialize until conflict-detection is a 2nd reader (wu-wei).* UNRESOLVED.
+- **P2** — alternate seam: could the engine go tags → `rendered` **directly**, dropping the yaml intermediate? UNRESOLVED.
+- **P3** — resolve (a)/(b) to ratification + **design the id-integrity gate** for (b).
+- **P4** — execute the views/ partial-retirement (emit rendered → views/; strip + pointer the agent-pass C-block). Also confirm scope of "only views/" = local-to-invariant-eval (Agent-read) vs global.
+- **P5** — the **outcome-over-time / Goodhart-drift rig** (does crystallization PAY? = the same rig S4-reliability needs). Logged debt — chase buildability or leave logged?
+
+**⚠ GIT STATE — HANDLE FROM THE LOCAL INSTANCE (has signing keys):**
+- Branch `claude/invariant-md-files-5zfpp0`, commits past `ba8c1ae`: the disposition commit + the lean-(b) commit (both editing `dialectic/dyad-md-yaml-regen.md`) + this carry-forward commit.
+- The doc commits are **UNSIGNED** — the remote container LACKS the private signing key (`/home/claude/.ssh/commit_signing_key` absent; only the `.pub` is present), so `commit.gpgsign` is a silent no-op (`%G?`=N). Committer/author ARE correct (`Claude <noreply@anthropic.com>`).
+- **Local action:** with keys present → `git rebase --exec "git commit --amend --no-edit -S" ba8c1ae`, verify `git log --pretty=%G? ba8c1ae..HEAD` shows no `N`, then push (feature-branch push is the Agent's per Item-H; merge→main is the Operator's gate).
+- `DYAD.md` NOT edited → **RESTART-PENDING: none**, ROM-baseline unchanged (`7c60c3b`).
+
 ### K — Intent-clarity arc · anchor rename · sovereignty  ·  status: STAGED (s 2026-06-13)
 *Full thread in `relationship-craft.md` (2026-06-13 entries); resume-visible queue below.*
 **Three `DYAD.md` anchor-candidates — recorded in `dialectic/`, each needs its OWN ratification gate, NOT auto-promoted:**
@@ -491,6 +515,15 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
   Operator). When built, graduates into `relationship-craft.md` as a real front.
 
 ## NBA — next-best-action for the fresh session
+> **⤷ 2026-06-17 STAND-DOWN (web session → LOCAL handoff) — anchor source-of-truth arc:** Riff/rub thread on
+> **md vs yaml source-of-truth · views/ as the Operator read-surface · tag-grammar (a)/(b)**. All work is
+> CANDIDATE in `dialectic/dyad-md-yaml-regen.md` (Operator-leaned, not ratified). **RESUME = the new
+> `### 2026-06-17` Open item above** (decisions 1–4, the intent-alignment riff finding, probes P1–P5).
+> **⚠ HANDOFF REASON:** the remote container lacks the private signing key → the 2 doc commits on
+> `claude/invariant-md-files-5zfpp0` are **UNSIGNED**; the Operator is switching to a **LOCAL instance (has
+> keys)** to **re-sign + push** (`git rebase --exec "git commit --amend --no-edit -S" ba8c1ae`). `DYAD.md`
+> NOT edited → **RESTART-PENDING: none**, baseline `7c60c3b`.
+
 > **⤷ SESSION-7 STAND-DOWN (2026-06-02) — the deep G/V-independence dialectic + cross-dyad mechanism:**
 > A long Operator-driven falsification dialectic on **Item-J**. **Built + banked** (all `dialectic/`,
 > candidate, nothing to `kb/`): the **G/V-independence front** (⭐oracle axis · 3 no-oracle seams =
