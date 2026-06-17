@@ -182,7 +182,7 @@ was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 
 ## Open items
 
-### 2026-06-17 — Anchor source-of-truth · md→yaml lifecycle · views/ as read-surface · tag-grammar  ·  status: LEANED (NOT ratified); 2 doc commits LOCAL + UNSIGNED + UNPUSHED
+### 2026-06-17 — Anchor source-of-truth · md→yaml lifecycle · views/ as read-surface · tag-grammar  ·  status: P4 DONE (PR #29 merged) · P3 RESOLVED (b ratified + gate spec'd) · unsigned-handoff CLOSED-moot
 *Single-home for the work = `dialectic/dyad-md-yaml-regen.md` §"Source-of-truth disposition + the lifecycle". Bond riff/rub thread extending the 2026-06-16 regen survivor. All CANDIDATE (`bond:no-self-ratify` — Agent-proposed, Operator-leaned, not kb-graduated).*
 
 **Decisions / leans (Operator-disposed):**
@@ -196,15 +196,20 @@ was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 **OPEN probes (next):**
 - **P1** — materialize the merged `invariants-bond.yaml` vs compute in-memory. *Agent lean: DON'T materialize until conflict-detection is a 2nd reader (wu-wei).* UNRESOLVED.
 - **P2** — alternate seam: could the engine go tags → `rendered` **directly**, dropping the yaml intermediate? UNRESOLVED.
-- **P3** — resolve (a)/(b) to ratification + **design the id-integrity gate** for (b).
-- **P4** — execute the views/ partial-retirement (emit rendered → views/; strip + pointer the agent-pass C-block). Also confirm scope of "only views/" = local-to-invariant-eval (Agent-read) vs global.
+- **P3 — RESOLVED (Operator `Y` 2026-06-17).** (b) ratified (re-rubbed, not laundered — (a)-steelman attacked: (a) needs no merge so it *eliminates* the gate, but loses the lean boot surface; decisive ground = structural tuples are instrument-facing, not ingrain-facing). The id-integrity gate is **designed as spec** → `commission §F-8` (bijection · edge-resolvability · cross-home no-dupe · atomic-fail; merge-layer only, D7), **NOT built** (ships with cairn's engine — Telos-currency). Single-home `dyad-md-yaml-regen.md §RATIFIED (b)`.
+- **P4 — DONE (PR #29 merged into `main`).** Rendered DAG emits into `views/` (drift-gate repointed, IN-SYNC); C-block retired → pointer; D/R/X/U/S kept agent-rendered; regen procedure two-track. The "only views/" scope = the Operator read-surface (Agent reads yaml + eval output, not the rendered view).
 - **P5** — the **outcome-over-time / Goodhart-drift rig** (does crystallization PAY? = the same rig S4-reliability needs). Logged debt — chase buildability or leave logged?
 
-**⚠ GIT STATE — HANDLE FROM THE LOCAL INSTANCE (has signing keys):**
-- Branch `claude/invariant-md-files-5zfpp0`, commits past `ba8c1ae`: the disposition commit + the lean-(b) commit (both editing `dialectic/dyad-md-yaml-regen.md`) + this carry-forward commit.
-- The doc commits are **UNSIGNED** — the remote container LACKS the private signing key (`/home/claude/.ssh/commit_signing_key` absent; only the `.pub` is present), so `commit.gpgsign` is a silent no-op (`%G?`=N). Committer/author ARE correct (`Claude <noreply@anthropic.com>`).
-- **Local action:** with keys present → `git rebase --exec "git commit --amend --no-edit -S" ba8c1ae`, verify `git log --pretty=%G? ba8c1ae..HEAD` shows no `N`, then push (feature-branch push is the Agent's per Item-H; merge→main is the Operator's gate).
-- `DYAD.md` NOT edited → **RESTART-PENDING: none**, ROM-baseline unchanged (`7c60c3b`).
+**✅ GIT STATE — unsigned-commit handoff CLOSED-as-moot (2026-06-16/17, grounded by execution):** the doc
+commits merged into `main` via PR #28 already; re-signing was overtaken on **3 independent grounds, any one
+sufficient** — (1) **overtaken by merge** (commits are public on `origin/main`; re-sign = forbidden main
+rewrite, `bin/git.sh` `PROTECTED_BRANCHES=main`); (2) **premise false** — the LOCAL instance lacks the
+signing key TOO (`~/.ssh/commit_signing_key` absent; no GPG secret; `commit.gpgsign` unset) → same posture
+as web; (3) **unsigned is the repo-wide norm** — 20/20 Claude commits are `%G?`=N, never a ratified
+requirement. No backward rewrite performed. IF commit-provenance becomes wanted (steelman: anchors the
+covalent `no-self-ratify` boundary — *this `Y` provably the Operator's*), it ratifies as a **forward**
+requirement + a real key (identity-class → Operator's gate), never a retro-sign. `DYAD.md` untouched →
+**RESTART-PENDING: none**, ROM-baseline `7c60c3b`.
 
 ### K — Intent-clarity arc · anchor rename · sovereignty  ·  status: STAGED (s 2026-06-13)
 *Full thread in `relationship-craft.md` (2026-06-13 entries); resume-visible queue below.*

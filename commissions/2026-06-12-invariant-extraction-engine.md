@@ -1,4 +1,4 @@
-# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.3 DRAFT)*
+# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.4 DRAFT)*
 
 > **Status: DRAFT — not yet solicited.** Commissioner: dyad-bond. Builder: **PRESUMPTIVE dyad-cairn**
 > (Operator `pin:` 2026-06-12, "most likely" — final assignment still the Operator's seat). Fit grounded
@@ -50,6 +50,22 @@ everything downstream is deterministic.
 5. **Out of scope for the builder (stays bond's):** authoring tags/one-liners; deciding what is an
    invariant; the candidate-queue triage; conflict-detection over the extracted set.
 
+### Tag-grammar — RATIFIED (b): lean tag inline + structure sidecar *(2026-06-17, Operator Y; resolves the v0.2 open fork)*
+
+The previously-open fork (full-tuple-inline vs sidecar) is disposed **(b)**: the md inline tag carries
+**only** the `one_liner` (content single-homes at the prose source → lean boot surface, the H3 lesson);
+the graph **skeleton** (`grounded_in` edges · `root_kind` · scope/prescription/observability tuples — the
+structure a script cannot infer) single-homes in a **structure sidecar** (`invariants-bond.structure.yaml`).
+The engine's emit is therefore a **merge keyed by id**:
+
+    yaml = extract(md tags) ⊕ sidecar          # joined on `bond:<ID>`
+
+This splits authoring across two homes *by design* — so the merge MUST be **id-integrity-gated** (F-8),
+fail-closed and atomic, or (b) re-grows two-home drift at the id-reference layer (the binding rider:
+choosing (b) = choosing (b) + this gate, one decision). The gate is **merge-layer only** — DAG-validity /
+root-reachability stays the separate `anchor_dag_diff` + orphan-lineage instrument (do not conflate — D7
+valid-vs-reachable). *Rationale single-homes in `dialectic/dyad-md-yaml-regen.md` §Leaned/Ratified (b).*
+
 ## Input invariants — what the FSM may assume *(added v0.2, Operator raff: a contract needs preconditions, not just postconditions)*
 
 **Class A — FSM-VALIDATED preconditions** (violations HALT; each gets a seeded-corpus case, extending F-2):
@@ -94,6 +110,13 @@ from inside; each maintained by a named upstream discipline, and DECLARED in eve
   construction.
 - **F-7 (precondition halts):** each Class-A violation (dirty tree · encoding/EOL drift · grammar-version
   mismatch · mid-scan mutation), seeded in the corpus, must produce a named-state halt ⇒ else REFUTED.
+- **F-8 (merge id-integrity — (b)-specific, the binding rider):** the md-tag id-set and the sidecar id-set
+  must be in **exact bijection** and **every edge must resolve**; a seeded corpus must HALT (named state,
+  **no partial yaml written**) on each of — **(i) orphan tag** (md id with no sidecar entry) · **(ii) orphan
+  sidecar** (sidecar id with no emitting md tag) · **(iii) dangling edge** (`grounded_in` references an id
+  absent from the merged set) · **(iv) cross-home dup** (same id in >1 md tag, or >1× in the sidecar). Any
+  non-halt, or any partial emit, ⇒ REFUTED. *(Sharpens the §Architecture `id-integrity` CSI-guard from the
+  intra-tag-set case to the two-home (b) merge.)*
 
 ## Architectural-grain clause *(added v0.3 — the Operator's fit-rub: contracts underdetermine fit)*
 

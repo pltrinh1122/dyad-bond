@@ -100,7 +100,7 @@ DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
   (ii) the extraction engine (`commissions/2026-06-12-invariant-extraction-engine.md`, DRAFT/unbuilt).
   Until both ship, the yaml stays a gated bend behind the `anchor_dag_diff` drift-gate — *not yet cured.*
 
-### Leaned (b) — Bond 2026-06-17 (candidate; was: OPEN FORK on where the yaml's graph STRUCTURE is authored)
+### RATIFIED (b) — Bond 2026-06-17 (Operator Y; was: OPEN FORK on where the yaml's graph STRUCTURE is authored)
 
 The yaml carries structure (`grounded_in` edges, `root_kind`, scope/prescription/observability tuples)
 with **no pre-image in the prose**. For the yaml to be purely `md`-derived, that structure must be authored
@@ -133,22 +133,30 @@ yaml = `merge( extract(md tags) , invariants-bond.structure.yaml )` — the *con
 single-homes in md; the *graph skeleton* (edges/types/tuples — the part a script genuinely cannot infer)
 single-homes in the sidecar. No content duplication; the boot surface stays lean.
 
-- **LEANED (b)** (Bond 2026-06-17, wu-wei). It keeps the boot surface lean — only the `one_liner` rides
-  inline at the md source; the structural skeleton (the SEMANTIC act the commission already keeps
-  Operator-gated) single-homes in the sidecar.
+- **RATIFIED (b)** (Operator `Y` 2026-06-17, P3; re-rubbed not laundered — the (a) steelman was attacked
+  hardest before disposal: (a) needs no merge so it *eliminates* the gate, but loses the lean boot surface).
+  Decisive ground: the structural tuples are **instrument-facing machinery** (what cairn's engine consumes),
+  not content the booting LLM ingrains — so they belong in the sidecar, not the ingrain surface. Only the
+  `one_liner` rides inline at the md source; the structural skeleton (the SEMANTIC act the commission already
+  keeps Operator-gated) single-homes in the sidecar.
 - **NOT a single-home win over (a) — name the trade true.** Both (a) and (b) are single-home-clean (no fact
   duplicated). (a) is the *more consolidated* (one authoring file, DYAD.md); (b) *splits* authoring across
   two files (md tags + sidecar). The lean trades **authoring-consolidation for a lean boot surface** — the
   right call on the H3 lesson, but that is the trade, not a tidiness gain.
-- **BINDING RIDER (the price of the split, not optional):** the merge `extract(md tags) ⊕ sidecar` must be
-  **id-integrity-gated** — a sidecar edge/id with no emitting tag (or vice-versa) HALTS the merge. Absent
-  the gate, (b) re-grows the two-home drift at the id-reference layer. Choosing (b) = choosing (b) + this
-  gate; they are one decision.
+- **BINDING RIDER (the price of the split, not optional) — DESIGNED + SPEC'D (P3):** the merge
+  `extract(md tags) ⊕ sidecar` must be **id-integrity-gated** — fail-closed and atomic — or (b) re-grows the
+  two-home drift at the id-reference layer. Choosing (b) = choosing (b) + this gate; one decision. The gate
+  is now landed as **`commissions/2026-06-12-invariant-extraction-engine.md` §F-8** (bijection · edge-
+  resolvability · cross-home no-dupe · atomic-fail), **merge-layer only** (DAG-validity stays the separate
+  `anchor_dag_diff` instrument — D7). **DESIGNED as spec/acceptance-falsifier, NOT built here** — the
+  implementation ships with cairn's engine (building it now = bond accreting engine-work; Telos-currency).
 
 ## Status
 
-CANDIDATE in `dialectic/` — under falsification, not graduated. **Bond Operator disposes** (`bond:no-self-
-ratify`: the Agent proposed this; it is not self-ratified). Survives → `kb/` on the Operator's rub.
+**(b) RATIFIED** (Operator `Y` 2026-06-17, P3) + its id-integrity gate **designed** (commission §F-8).
+What stays CANDIDATE: the **pipeline itself is unbuilt** — inline tags don't exist yet and the extraction
+engine is cairn's DRAFT commission. So (b) is the ratified *spec*; the lived `md → yaml` derivation graduates
+to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
 
 ## Cross-links
 `anchor-dag-thesis.md` (S1: state-to-falsify) · `dyad-dag-derivation.md` (the two-layer cut this rub
