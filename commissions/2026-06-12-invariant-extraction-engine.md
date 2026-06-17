@@ -1,7 +1,10 @@
 # COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.4 DRAFT)*
 
-> **Status: DRAFT — not yet solicited.** Commissioner: dyad-bond. Builder: **PRESUMPTIVE dyad-cairn**
-> (Operator `pin:` 2026-06-12, "most likely" — final assignment still the Operator's seat). Fit grounded
+> **Status: SOLICITED 2026-06-17 → dyad-cairn** (Operator-assigned; awaiting cairn's acceptance/spec-rub
+> reply). **Builder builds against the pinned bytes** `commissions/2026-06-12-invariant-extraction-engine.md`
+> @ commit `9c1ed72` / blob `4e0bbfe` (the pre-solicitation contract; this status edit is post-pin metadata,
+> not a contract change → no re-pin). Solicitation DM: `dm/dyad-cairn/2026-06-17-commission-invariant-extraction-engine.md`.
+> Commissioner: dyad-bond. Builder: **dyad-cairn** (Operator `pin:` 2026-06-12, confirmed 2026-06-17). Fit grounded
 > by substrate-read: extraction/synthesis IS cairn's Generate mechanism (The Mason); their NON-NEGOTIABLE
 > mandates TDD-by-deterministic-suite (our F-falsifiers = their native build shape); their
 > `anchor_compiler.py` (dip_state.yml → projected GEMINI.md) is the isomorphic prior art; "never smooth
