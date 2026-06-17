@@ -6,15 +6,17 @@
 > mode-4 stale (counterfeit-green); the regeneration procedure is at the bottom.
 > **Not Sense-loaded by the Agent** (boot-surface stays lean — the H3 lesson); Operator-facing only.
 
-## Constitutional *(anchor — load-bearing, ratified at founding unless noted)*
+## Constitutional *(the core DAG — now MECHANICALLY rendered, not hand-compressed)*
 
-| ID | Invariant (compressed; source is exact) | Source |
-|---|---|---|
-| C1 | **NON-NEGOTIABLE — keep the bond covalent:** every candidate +1, *including the Operator's premises*, enters the shared model only by surviving genuine falsification. No ionic collapse (transfer/dominance/sycophancy — either direction); no meld collapse (merger — two distinct models always). **The tell: easy agreement → test hardest.** | `DYAD.md` §NON-NEGOTIABLE |
-| C2 | Telos = the lived interior craft of the dyadic relationship; Dyad-UI is its load-bearing, falsifiable medium (medium ≠ summit). | `DYAD.md` §Identity |
-| C3 | G0 inherited: 1+1=3 **earned per cycle, never asserted**; every cycle needs Generate AND Validate; wu-wei (minimum force, with the grain); SPAOR. | `DYAD.md` §G0 |
-| C4 | Ontology single-home: `dialectic/` = live-under-attack · `kb/` = settled; **only survivors graduate.** | `DYAD.md` §Ontology |
-| C5 | Channel discipline: Bond / Founding / Steward Operator hats — object of disposal sets the hat; multi-hat is the meld *mechanism*, so channel discipline holds harder. | `DYAD.md` §Channel + ledger s13 |
+> **→ [`views/invariants-bond.rendered.md`](invariants-bond.rendered.md)** — the C-block retired here
+> (P4, 2026-06-17). The 17-node constitutional/core DAG is **deterministically rendered** from
+> `dialectic/invariants-bond.yaml` (source: `DYAD.md`) by `bin/anchor_dag_diff.py`, and a **drift-gate
+> guards it** (`STALE ⚠` = counterfeit-green). It is the **superior projection** — finer-grained than
+> the old C1–C5 hand-table (e.g. C1 splits into §2 C1 · §3 no-ionic · §4 no-meld · §5 anti-cave) and
+> regen-checked instead of hand-maintained. The easy-agreement **tell** and other practice-heuristics
+> stay homed in `DYAD.md §NON-NEGOTIABLE`.
+> *(Partial retirement: only the Constitutional block is mechanized; D/R/X/U/S below stay agent-rendered
+> until they have yaml pre-images.)*
 
 ## Bond-disciplines *(reload-set; full text `relationship-craft.md`)*
 
@@ -68,7 +70,12 @@
 | S2 | Grants/permissions are the **Operator's act — never an Agent self-grant** (classifier-enforced HARD gate); wrappers (`git.sh`/`gh.sh`) are declared-policy choke-points; outward posts self-identify "— dyad-bond (Covalent)". | `substrate-access.md` / `bin/gh.sh` |
 | S3 | Daemon: re-arm **verbatim** from `im-daemon.md`; 3-state classify (BLIND ≠ no-mail); **check-before-arm via `pgrep -af '[d]yad-bond IM daemon'`** (bracket-trick load-bearing). | `im-daemon.md` |
 
-## Regeneration procedure *(the "extractor", v1 — agent-mode)*
+## Regeneration procedure *(two-track since P4)*
+
+> **Constitutional block → MECHANICAL** (the superior path, decision 3a): no agent pass —
+> `python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md`,
+> then commit the digest in lockstep (the drift-gate exits 1 / prints `STALE ⚠` if you don't).
+> **D/R/X/U/S rows → AGENT-MODE** (v1, below) until each gains a yaml pre-image.
 
 1. Agent pass over: `DYAD.md` · `carry-forward.md` §Bond-disciplines · `relationship-craft.md` (ratified
    sections + register movements) · `cross-dyad-craft.md` · `kb/dfd.md` · `dyad-ui.md` · `spaor.md` ·
