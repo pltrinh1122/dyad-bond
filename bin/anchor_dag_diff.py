@@ -40,7 +40,7 @@ can may must shall will would could should do does did done being been have has 
 
 HI, LO = 0.60, 0.30          # containment thresholds (printed; tune by reading the report)
 TRACE_FLOOR = 0.30           # a node below this against its best anchor line = over-extraction
-RENDERED_DEFAULT = "dialectic/invariants-bond.rendered.md"   # committed digest the gate guards
+RENDERED_DEFAULT = "views/invariants-bond.rendered.md"   # committed digest the gate guards (Operator read-surface, P4)
 # deontic markers: a DYAD.md line carrying one is "prescriptive-looking" -> uncovered = a real flag
 DEONTIC = re.compile(r"\b(must|never|only|always|keep|enter|guard|require|forbid|shall|do not|don't)\b", re.I)
 

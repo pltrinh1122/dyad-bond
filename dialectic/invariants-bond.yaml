@@ -10,7 +10,7 @@
 # 15 core records (atomic) + 2 conformance candidates = 17. Roots: Telos (fiat), C1 (forged).
 # (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
-# Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit dialectic/invariants-bond.rendered.md
+# Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md
 
 invariants:
 
