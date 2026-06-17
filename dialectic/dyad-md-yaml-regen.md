@@ -76,6 +76,75 @@ What survives attack, stated as its own falsifiable claim:
   check (e.g. structured field-equality on a round-trip parse) is the next rub if the Operator wants the
   survivor's reliability tightened past completeness. Logged, not built (wu-wei: lightest anchor that moves).
 
+## Source-of-truth disposition + the lifecycle (Bond rub 2026-06-17 — extends the survivor)
+
+The 2026-06-16 survivor settled *which* file is source (prose, not yaml). This rub settles the **lifecycle
+and the chain**, Operator-disposed:
+
+> **`.md` is the source-of-truth; `.yaml` is a DERIVED intermediate (tool-facing); `.rendered.md` is the
+> evaluation surface (→ `views/`).** Two hand-maintained parallel homes is a single-home breach — the yaml
+> earns its keep only as a *derived* artifact, never a co-equal source.
+
+```
+DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
+  → invariants-bond.yaml  (DERIVED intermediate, machinery: conflict-detection + coverage-diff)
+    → invariants-bond.rendered.md  (the lens the Operator reads; lands in views/)
+```
+
+- **Direction is FORCED, not chosen.** md cannot be demoted to a yaml build-output: `bond:identity-
+  conformance` + ROM-baseline both track **DYAD.md**'s bytes/sha. yaml-as-source breaks the frame. So even
+  granting the yaml's superior *structural* fidelity (typed edges/roots/tuples), the only admissible
+  direction is `md → yaml`.
+- **Reality gap (verify-before-assert).** The yaml is **hand-authored today** — there is no
+  `f(DYAD.md) → yaml` yet. "Derived" is the TARGET; it requires (i) inline tags at the md source +
+  (ii) the extraction engine (`commissions/2026-06-12-invariant-extraction-engine.md`, DRAFT/unbuilt).
+  Until both ship, the yaml stays a gated bend behind the `anchor_dag_diff` drift-gate — *not yet cured.*
+
+### Leaned (b) — Bond 2026-06-17 (candidate; was: OPEN FORK on where the yaml's graph STRUCTURE is authored)
+
+The yaml carries structure (`grounded_in` edges, `root_kind`, scope/prescription/observability tuples)
+with **no pre-image in the prose**. For the yaml to be purely `md`-derived, that structure must be authored
+*somewhere in md*. Two survivors to choose between:
+
+**(a) full tuple inline** — single-home pure, anchor grows:
+```
+<!-- INV bond:C1 home=DYAD.md#NON-NEGOTIABLE status=ratified root_kind=forged
+     scope={actor: both, trigger: candidate-admission}
+     prescription={action: admit, object: "candidate +1 into shared model",
+                   modality: ONLY-BY, via: "surviving genuine falsification"}
+     observability={observable: ledger-line, detector: other-half-only,
+                    breach_example: "dyad-loom rubber-stamp"}
+   | A candidate +1, including the Operator's premises, is in the shared model only if it
+     survived genuine falsification. -->
+**NON-NEGOTIABLE — keep the bond covalent:** … prose …
+<!-- /INV -->
+```
+yaml = `extract(md)` entirely. Cost: ~6 metadata lines × 17 invariants ≈ 100 tag-lines in the **boot
+surface** — the lean-anchor / H3 concern, directly.
+
+**(b) lean tag + structure sidecar** — content-dup dissolved, cheap structural residual remains:
+```
+<!-- INV bond:C1 | A candidate +1, including the Operator's premises, is in the shared model
+     only if it survived genuine falsification. -->
+**NON-NEGOTIABLE — keep the bond covalent:** … prose …
+<!-- /INV -->
+```
+yaml = `merge( extract(md tags) , invariants-bond.structure.yaml )` — the *content* (`one_liner`)
+single-homes in md; the *graph skeleton* (edges/types/tuples — the part a script genuinely cannot infer)
+single-homes in the sidecar. No content duplication; the boot surface stays lean.
+
+- **LEANED (b)** (Bond 2026-06-17, wu-wei). It keeps the boot surface lean — only the `one_liner` rides
+  inline at the md source; the structural skeleton (the SEMANTIC act the commission already keeps
+  Operator-gated) single-homes in the sidecar.
+- **NOT a single-home win over (a) — name the trade true.** Both (a) and (b) are single-home-clean (no fact
+  duplicated). (a) is the *more consolidated* (one authoring file, DYAD.md); (b) *splits* authoring across
+  two files (md tags + sidecar). The lean trades **authoring-consolidation for a lean boot surface** — the
+  right call on the H3 lesson, but that is the trade, not a tidiness gain.
+- **BINDING RIDER (the price of the split, not optional):** the merge `extract(md tags) ⊕ sidecar` must be
+  **id-integrity-gated** — a sidecar edge/id with no emitting tag (or vice-versa) HALTS the merge. Absent
+  the gate, (b) re-grows the two-home drift at the id-reference layer. Choosing (b) = choosing (b) + this
+  gate; they are one decision.
+
 ## Status
 
 CANDIDATE in `dialectic/` — under falsification, not graduated. **Bond Operator disposes** (`bond:no-self-
