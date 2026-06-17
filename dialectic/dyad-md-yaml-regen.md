@@ -76,6 +76,71 @@ What survives attack, stated as its own falsifiable claim:
   check (e.g. structured field-equality on a round-trip parse) is the next rub if the Operator wants the
   survivor's reliability tightened past completeness. Logged, not built (wu-wei: lightest anchor that moves).
 
+## Source-of-truth disposition + the lifecycle (Bond rub 2026-06-17 — extends the survivor)
+
+The 2026-06-16 survivor settled *which* file is source (prose, not yaml). This rub settles the **lifecycle
+and the chain**, Operator-disposed:
+
+> **`.md` is the source-of-truth; `.yaml` is a DERIVED intermediate (tool-facing); `.rendered.md` is the
+> evaluation surface (→ `views/`).** Two hand-maintained parallel homes is a single-home breach — the yaml
+> earns its keep only as a *derived* artifact, never a co-equal source.
+
+```
+DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
+  → invariants-bond.yaml  (DERIVED intermediate, machinery: conflict-detection + coverage-diff)
+    → invariants-bond.rendered.md  (the lens the Operator reads; lands in views/)
+```
+
+- **Direction is FORCED, not chosen.** md cannot be demoted to a yaml build-output: `bond:identity-
+  conformance` + ROM-baseline both track **DYAD.md**'s bytes/sha. yaml-as-source breaks the frame. So even
+  granting the yaml's superior *structural* fidelity (typed edges/roots/tuples), the only admissible
+  direction is `md → yaml`.
+- **Reality gap (verify-before-assert).** The yaml is **hand-authored today** — there is no
+  `f(DYAD.md) → yaml` yet. "Derived" is the TARGET; it requires (i) inline tags at the md source +
+  (ii) the extraction engine (`commissions/2026-06-12-invariant-extraction-engine.md`, DRAFT/unbuilt).
+  Until both ship, the yaml stays a gated bend behind the `anchor_dag_diff` drift-gate — *not yet cured.*
+
+### OPEN FORK — where the yaml's graph STRUCTURE is authored (Operator disposes)
+
+The yaml carries structure (`grounded_in` edges, `root_kind`, scope/prescription/observability tuples)
+with **no pre-image in the prose**. For the yaml to be purely `md`-derived, that structure must be authored
+*somewhere in md*. Two survivors to choose between:
+
+**(a) full tuple inline** — single-home pure, anchor grows:
+```
+<!-- INV bond:C1 home=DYAD.md#NON-NEGOTIABLE status=ratified root_kind=forged
+     scope={actor: both, trigger: candidate-admission}
+     prescription={action: admit, object: "candidate +1 into shared model",
+                   modality: ONLY-BY, via: "surviving genuine falsification"}
+     observability={observable: ledger-line, detector: other-half-only,
+                    breach_example: "dyad-loom rubber-stamp"}
+   | A candidate +1, including the Operator's premises, is in the shared model only if it
+     survived genuine falsification. -->
+**NON-NEGOTIABLE — keep the bond covalent:** … prose …
+<!-- /INV -->
+```
+yaml = `extract(md)` entirely. Cost: ~6 metadata lines × 17 invariants ≈ 100 tag-lines in the **boot
+surface** — the lean-anchor / H3 concern, directly.
+
+**(b) lean tag + structure sidecar** — content-dup dissolved, cheap structural residual remains:
+```
+<!-- INV bond:C1 | A candidate +1, including the Operator's premises, is in the shared model
+     only if it survived genuine falsification. -->
+**NON-NEGOTIABLE — keep the bond covalent:** … prose …
+<!-- /INV -->
+```
+yaml = `merge( extract(md tags) , invariants-bond.structure.yaml )` — the *content* (`one_liner`)
+single-homes in md; the *graph skeleton* (edges/types/tuples — the part a script genuinely cannot infer)
+single-homes in the sidecar. No content duplication; the boot surface stays lean.
+
+- **Agent lean: (b)** (wu-wei). It dissolves the real breach (the prescriptive *content* living twice) and
+  keeps only the irreducible structural skeleton authored — and that skeleton is exactly the SEMANTIC act
+  the commission already says stays Operator-gated at source. (a) buys single-home purity at a boot-surface
+  cost the H3 lesson warns against.
+- **Falsifier for (b):** if the sidecar's structure drifts from the tagged content (an edge cites an id no
+  tag emits), the merge must halt — i.e. (b) needs its own id-integrity gate, or it re-introduces a two-home
+  drift in miniature. Gate it or (b) collapses toward the same disease.
+
 ## Status
 
 CANDIDATE in `dialectic/` — under falsification, not graduated. **Bond Operator disposes** (`bond:no-self-
