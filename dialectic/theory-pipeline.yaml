@@ -218,6 +218,13 @@ candidates:
     disposition_history:
       - {at: 2026-06-02, event: "n=4 fired in s7; Operator-validated", verdict: survived,
          note: "the behavioral headline → bound as D7"}
+      - {at: 2026-06-18, event: "standing ingraining probe returned NEGATIVE — the lifecycle-state thread (PR#33)", verdict: revised,
+         note: "D7 did NOT self-fire un-cued: the Agent generated 6 candidate solutions + a synthesis BEFORE
+                running the cheap 0/10 premise-audit that refuted them — design-before-measure, the exact
+                reachable-vs-valid inversion D7 names. It fired only on Operator raff (external cue). REVISES the
+                implicit 'bound as D7 → operative' reading: D7 is valid but NOT yet ingrained/self-firing. n=1,
+                intra-dyad (same human → un-promotable past L1). B-2 caveat: the Agent authored this read of its
+                own miss; Operator cued + disposed the logging (meld-capture risk noted, not neutralized)."}
     status: live
 
   - id: C2-complexity-gates-translation
