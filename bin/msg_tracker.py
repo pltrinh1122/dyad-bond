@@ -27,6 +27,7 @@ import sys, os, json, base64, difflib, re
 from datetime import datetime, timezone
 
 # --- build ON falsify.py (dm_items, _gh_json, find_ledger, read) ---
+sys.dont_write_bytecode = True  # don't litter steward's commons/ submodule with __pycache__ on import
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "commons", "scripts"))
 import falsify  # noqa: E402
 
