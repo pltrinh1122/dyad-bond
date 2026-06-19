@@ -1,4 +1,10 @@
-# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.4 DRAFT)*
+# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.5 — atomic, forward)*
+
+> **v0.5 (2026-06-18) — formalization, no goalpost-move.** Atomizes the falsifier set to binary atoms +
+> promotes §Deliverable to a checked **Gate-0** + retires the stale "bond re-runs F-1…F-5" sub-scope. Adds
+> ZERO scope (atoms were latent conjuncts of F-2/F-8; Gate-0 = existing §Deliverable). The pinned `9c1ed72`
+> prose contract governed cairn's **first** delivery (judged in `dm/dyad-cairn/2026-06-18-acceptance-validation-v2-atomic.md`);
+> v0.5 governs **re-delivery** and future commissions.
 
 > **Status: SOLICITED 2026-06-17 → dyad-cairn** (Operator-assigned; awaiting cairn's acceptance/spec-rub
 > reply). **Builder builds against the pinned bytes** `commissions/2026-06-12-invariant-extraction-engine.md`
@@ -98,28 +104,52 @@ from inside; each maintained by a named upstream discipline, and DECLARED in eve
 > themselves standing invariants of the commissioning dyad → they get tagged at their homes and
 > extracted into the view they condition.
 
-## Acceptance falsifiers (the commission's `done_when` — all mechanical)
+## Acceptance falsifiers — ATOMIC (v0.5) *(the commission's `done_when`; each = ONE breach-condition, binary)*
 
-- **F-1 (determinism):** two consecutive runs over identical source shas differ by ≥1 byte ⇒ REFUTED.
-- **F-2 (fail-closed):** a corpus seeded with each malformation class (dup ID, unclosed tag, missing
-  source) produces a partial view instead of a named-state halt ⇒ REFUTED.
-- **F-3 (staleness guard):** mutate a source after emission; the staleness guard fails to arm ⇒ REFUTED.
-- **F-4 (no semantic drift):** any emitted one-liner differs from its stored source one-liner ⇒ REFUTED
-  (the engine must never re-compress).
-- **F-5 (portability):** pointing the config at a second dyad's tagged substrate requires code changes
-  (not config) ⇒ REFUTED — the engine must be dyad-agnostic by configuration.
-- **F-6 (declared trust boundary):** an emitted view that does NOT carry its Class-B assumptions in its
-  header ⇒ REFUTED — a view presenting as unconditionally authoritative is counterfeit-green by
-  construction.
-- **F-7 (precondition halts):** each Class-A violation (dirty tree · encoding/EOL drift · grammar-version
-  mismatch · mid-scan mutation), seeded in the corpus, must produce a named-state halt ⇒ else REFUTED.
-- **F-8 (merge id-integrity — (b)-specific, the binding rider):** the md-tag id-set and the sidecar id-set
-  must be in **exact bijection** and **every edge must resolve**; a seeded corpus must HALT (named state,
-  **no partial yaml written**) on each of — **(i) orphan tag** (md id with no sidecar entry) · **(ii) orphan
-  sidecar** (sidecar id with no emitting md tag) · **(iii) dangling edge** (`grounded_in` references an id
-  absent from the merged set) · **(iv) cross-home dup** (same id in >1 md tag, or >1× in the sidecar). Any
-  non-halt, or any partial emit, ⇒ REFUTED. *(Sharpens the §Architecture `id-integrity` CSI-guard from the
-  intra-tag-set case to the two-home (b) merge.)*
+> **v0.5 atomization — NO scope change.** The v0.4 prose falsifiers bundled co-equal conjuncts (F-2's three
+> malformation classes; F-8's four sub-clauses), which let a composite breach hide as "partial". A clause
+> that can go PARTIAL violated atomicity (carried >1 breach-condition); each atom below is ONE
+> breach-condition with ONE STATUS ∈ **{ MET | REFUTED | UNVERIFIED }**. **UNVERIFIED** = an oracle-checkable
+> atom that cannot be exercised because a **Gate-0** deliverable is absent — a missing-input pointer, NOT a
+> partial pass. **verification-class:** `oracle` (reality renders it — exit code / byte-diff) vs
+> `discipline-assumed` (mechanically unverifiable; held by a named upstream discipline — the Class-B set).
+> The pinned `9c1ed72` prose F-1…F-8 governed the **first** delivery; this atomic set governs **re-delivery**.
+
+| atom | breach-condition (⇒ REFUTED unless MET) | class |
+|---|---|---|
+| F-1.1 fn-determinism | two runs over identical in-memory source differ ≥1 byte | oracle |
+| F-1.2 sha-determinism | two runs over identical source **shas** differ ≥1 byte | oracle |
+| F-2.1 unclosed-tag halt | an unclosed tag does not produce a named halt | oracle |
+| F-2.2 dup-id halt | a duplicate md id does not produce a named halt | oracle |
+| F-2.3 missing-source halt | a missing source does not produce a named halt | oracle |
+| F-3 staleness guard | source mutated post-emit; the guard fails to arm | oracle |
+| F-4 no semantic drift | any emitted one-liner ≠ its stored source one-liner | oracle |
+| F-5 portability | a second dyad's substrate needs code, not config | oracle |
+| F-6 trust-boundary header | an emitted view omits its Class-B assumptions header | oracle (presence) · discipline-assumed (truth of B-1…B-4) |
+| F-7.1 dirty-tree halt | a dirty tree does not produce a named halt | oracle |
+| F-7.2 encoding/EOL halt | CRLF/encoding drift does not produce a named halt | oracle |
+| F-7.3 grammar-version halt | a tag-grammar version mismatch does not produce a named halt | oracle |
+| F-7.4 mid-scan TOCTOU halt | a mid-scan source mutation does not produce a named halt | oracle |
+| F-8.1 orphan-tag halt | an md id with no sidecar entry does not HALT (no partial emit) | oracle |
+| F-8.2 orphan-sidecar halt | a sidecar id with no md tag does not HALT (no partial emit) | oracle |
+| F-8.3 dangling-edge halt | a `grounded_in` to an absent id does not HALT | oracle |
+| F-8.4 cross-home-dup halt | the same id in >1 md tag (or >1× sidecar) does not HALT | oracle |
+
+**Verification-scope ≡ this atomic set** (single-homed; no parallel sub-scope — the v0.4 "bond re-runs
+F-1…F-5" line was a stale sub-scope and is retired below). F-atoms are non-negotiable; the G-grain
+clauses remain fit-refutations (negotiable in spec-rub).
+
+## Gate-0 — delivery preconditions *(v0.5; checked BEFORE any F-atom — a Gate-0 fail returns the delivery `UNVERIFIED-blocked`, not validated)*
+
+The F-atoms presuppose a runnable, reproducible delivery; absent it the harness cannot run as specified and
+every oracle atom falls to UNVERIFIED. These were already in §Deliverable as prose — v0.5 promotes them to a
+checked gate (the structural fix for the first delivery's failure mode, NOT new scope):
+- **D-1 runnable CLI** — a run-to-completion entry point the commissioner can invoke over a corpus
+  (`if __name__ == "__main__": pass` = no CLI = Gate-0 fail).
+- **D-2 seeded malformation corpus** — the inputs the F-atom breach-tests reference, shipped with the engine.
+- **D-3 per-atom OBSERVED run-record** — the delivery DM carries `atom → command → observed exit/output`,
+  not a summary attestation ("N/N covered").
+- **D-4 resolved pinned provenance** — repo + commit + path of the deliverable, verified-live (no stale pointer).
 
 ## Architectural-grain clause *(added v0.3 — the Operator's fit-rub: contracts underdetermine fit)*
 
@@ -137,9 +167,10 @@ still be architecture-alien. The deliverable must additionally match the commiss
 ## Deliverable + lifecycle
 
 Script + FSM + guards + config schema + the seeded malformation corpus, delivered in the **builder's**
-repo; delivery DM carries the pointer + the builder's own falsifier-run record. Bond re-runs F-1…F-5
-independently (acceptance = the commissioner's rub, not the builder's attestation). Engine graduates
-to Commons `library/` via the Founding gate only after ≥2 dyads live it (live→write→share).
+repo (the Gate-0 set above); delivery DM carries the pointer + the builder's own **per-atom OBSERVED**
+run-record (D-3). Bond re-runs **the full atomic F-set** independently, Gate-0 first (acceptance = the
+commissioner's rub, not the builder's attestation; UNVERIFIED ≠ MET). Engine graduates to Commons
+`library/` via the Founding gate only after ≥2 dyads live it (live→write→share).
 
 ## What this commission is NOT
 
