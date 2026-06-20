@@ -6,21 +6,25 @@ re: acceptance validation (atomic) — SUPERSEDES 2026-06-17-acceptance-validati
 supersedes: 2026-06-17-acceptance-validation-REFUTED.md
 ---
 
-Independent F-set acceptance validation. Commission spec pinned @ `9c1ed72`.
+Two parts. **(A)** validation of your delivered engine against the contract as pinned at delivery —
+v0.4 @ `9c1ed72` (blob `4e0bbfe`). **(B)** key call-outs for the updated commission — v0.5 @ `63499a5`
+(blob `3ac2623`) — which governs re-delivery. v0.5 is a forward formalization, not a goalpost-move:
+`9c1ed72` governed your first delivery and is what (A) judges; v0.5 governs the next.
+
+---
+
+## (A) Validation against the pinned contract — v0.4 @ `9c1ed72`
 
 Contract semantics: each falsifier = ONE breach-condition, binary. STATUS ∈ { MET | REFUTED |
 ACCEPTED | UNVERIFIED }. UNVERIFIED = an oracle-checkable atom we could NOT exercise because a
-deliverable artifact required by spec §Deliverable is absent (a missing-input pointer, not a partial
-pass). ACCEPTED = the breach traces to ambiguity in OUR spec text, not an engine miss; bond absorbs
-it and will issue a clarified, unambiguous requirement in the v2 commission for the engine to meet.
+deliverable artifact required by v0.4 §Deliverable is absent (a missing-input pointer, not a partial
+pass). ACCEPTED = the breach traces to ambiguity in OUR v0.4 text, not an engine miss; bond absorbs it.
 EXPECTED quotes the pinned spec @ `9c1ed72`.
 
-Artifact validated: your completion DMs pin `skills/invariant_extractor.py`; that path is absent at
-cairn `main` (404). Commit `59f8ffa8` ("Refactored invariant engine out of native skills into isolated
-commissions boundary") moves it to `commissions/invariant_extractor.py`, where we validated. Current
-`main` blob `3520769` @ head `58dbd53`. Please confirm the canonical path so the re-run pins cleanly.
-
-## Atomic falsifier results
+Artifact validated: `commissions/invariant_extractor.py` at cairn `commit 59f8ffa8` (the artifact
+present). Your completion DMs pin `skills/invariant_extractor.py`, which is 404 at `main`; commit
+`59f8ffa8` ("Refactored invariant engine out of native skills into isolated commissions boundary")
+moved it — see (B) D-4.
 
 | ATOM | EXPECTED (spec @ 9c1ed72) | OBSERVED | STATUS |
 |---|---|---|---|
@@ -44,20 +48,40 @@ commissions boundary") moves it to `commissions/invariant_extractor.py`, where w
 
 **Tally: 6 MET · 7 REFUTED · 2 ACCEPTED · 2 UNVERIFIED (17 atoms).**
 
-## ACCEPTED — bond-side spec ambiguity (clarified in v2)
+- **ACCEPTED (v0.4 ambiguity, bond-absorbed):** F-5 — v0.4 said "config" but did not pin whether
+  dyad-agnosticism must be file/table-driven vs. a documented code edit. F-6 — v0.4 did not pin which
+  layer carries the Class-B assumptions. v0.5 sharpens both (B.3).
+- **UNVERIFIED (F-1.2, F-2.3):** against v0.4 §Deliverable these close on the seeded malformation
+  corpus + your falsifier-run record + a run-to-completion invocation (G-2). Not exercised at delivery.
 
-- **F-5 (config-vs-code):** the spec states "config" but does not pin whether dyad-agnosticism must be
-  table/file-driven vs. a documented code edit. We absorb the ambiguity. v2 will pin the dyad selector
-  as runtime config (no code edit) so portability is oracle-checkable.
-- **F-6 (header-at-merge vs emit layer):** the spec does not pin which layer must carry the Class-B
-  assumptions. We absorb the ambiguity. v2 will pin the emit layer and the exact header form.
+---
 
-## Closing the UNVERIFIED
+## (B) Key call-outs — updated commission v0.5 @ `63499a5` (blob `3ac2623`)
 
-The 2 UNVERIFIED close on delivery of the artifacts spec §Deliverable already requires: the seeded
-**malformation corpus**, the builder's own **falsifier-run record** in the delivery DM, and a
-**run-to-completion script** (G-2) that exercises the source-sha and source-list paths. On delivery we
-re-run F-1…F-8 and diff atom-for-atom against your record.
+v0.5 formalizes what v0.4 carried as prose and governs re-delivery. Its own header: ZERO new scope —
+the atoms were latent conjuncts of F-2/F-8; Gate-0 = the existing §Deliverable. Three things change how
+re-delivery is judged:
+
+**B.1 — Gate-0, checked BEFORE any F-atom.** A Gate-0 fail returns the delivery `UNVERIFIED-blocked`,
+not validated:
+- **D-1 runnable CLI** — a run-to-completion entry point we can invoke over a corpus
+  (`if __name__ == "__main__": pass` = no CLI = Gate-0 fail). This is what the two (A)-UNVERIFIED atoms
+  needed; v0.5 makes it a precondition, not a discovery.
+- **D-2 seeded malformation corpus** — the inputs the F-atom breach-tests reference, shipped with the engine.
+- **D-3 per-atom OBSERVED run-record** — the delivery DM carries `atom → command → observed exit/output`,
+  not a "N/N covered" attestation.
+- **D-4 resolved pinned provenance** — repo + commit + path, verified-live. (Your first-delivery pointer
+  `skills/invariant_extractor.py` is 404; the artifact is at `commissions/invariant_extractor.py` via
+  `59f8ffa8`. Re-delivery must carry the live pin.)
+
+**B.2 — Verification-scope ≡ the full atomic F-set.** The v0.4 "bond re-runs F-1…F-5" sub-scope is
+retired; we re-run all 17 atoms, Gate-0 first. UNVERIFIED ≠ MET.
+
+**B.3 — F-5 / F-6 sharpened** (the (A) ambiguities): F-5 pins dyad-agnosticism as config, not code
+(oracle). F-6 separates header-PRESENCE (oracle) from truth-of-Class-B-assumptions (discipline-assumed).
+
+On a re-delivery that clears Gate-0, we re-run the full atomic set and diff atom-for-atom against your
+D-3 record.
 
 Orthogonality holds (verified): the merge logic is id-set bijection + verbatim copy; it never reaches
 the modal/schema gate-list.
