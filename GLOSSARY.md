@@ -58,6 +58,13 @@ Reflect is F2-keystone-gated.
 - **Operator hats** — **Bond Operator** (our proposer/ratifier) · **Founding Operator** (the form gate,
   disposes contributions back to the form) · **Steward Operator** (cross-dyad intake/coordination).
 - **Founding-Operator gate** — the disposition seam for proposing a local evolution back to the form.
+- **conformance work** — executing an *already-ratified* decision to bring substrate into agreement with it;
+  creates **no new claim and exercises no new authority** (the deciding happened elsewhere → nothing to gate
+  → Agent-disposable). **Zero-*deliberation* by construction** (effort may be high; lo-cog ≠ low-effort). The
+  work-class generalization of the conformance-invariants (which *check* anchor↔substrate agreement). The
+  boundary test: the instant the work contains a judgment (which / whether / what-counts) it is **no longer
+  conformance work** but a *disposition*, routed by authority × cog-load. *(Replaces the borrowed term
+  "janitorial," whose menial connotation abetted authority-laundering — s-local4 rub, 2026-06-20.)*
 
 ## Dyad-UI cluster *(the medium bond owns — full definitions in `dialectic/dyad-ui.md`)*
 - **Dyad UI** — the framing/signaling layer (how the two halves signal, not the payload).
