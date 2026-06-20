@@ -220,6 +220,42 @@ candidates:
          note: "the behavioral headline → bound as D7"}
     status: live
 
+  - id: AITL-distracted-efficacy
+    statement: >
+      AITL (Agent-In-The-Loop gate) — the Agent halts and forces re-engagement when it detects the
+      OBSERVABLE easy-agreement tell (Operator agrees/disposes without touching the specific grounds),
+      NOT on the Agent's read of interior attention (the F2/DV3 wall: interior state is unreadable; gating
+      on a guess about it would be a new failure). The load-bearing claim: AITL re-engages a DISTRACTED
+      Operator, not merely a diligent one. Symmetric twin of HITL (Operator gates Agent) and the
+      Operator-direction twin of anti-cave.
+    claim_type: design-model
+    provenance: {origin: Operator, born: 2026-06-20, session: "s-web (substrate-data-types branch)",
+                 note: "Operator proposed AITL as a fail-safe; the observable-tell bound + the test design were Covalent."}
+    grade: L0
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: open, note: "single human (pltrinh1122); single session"}
+    open_gap: {type: layer-locality, text: "the CONFOUND — AITL has only ever fired while the Operator was already
+               diligent (mobile, not multitasking). It has NEVER fired in the distracted state, the only state it is a
+               fail-safe FOR. Proven where it was not needed = unproven. n=2, one session, proposer-judged."}
+    next_probe: "run AITL LIVE when the Operator is multitasking on workstation (Operator-scheduled, 2026-06-20) → the real N=2"
+    exec_phase: PROBE
+    prediction_pair:
+      if_true:  "BOTH fire under distraction — (a) the Agent correctly detects the skim-tell, AND (b) the gate re-engages
+                 the Operator (they stop and grapple, not nod-and-continue)"
+      if_false: "REFUTED — when distracted the Operator skims the AITL gate ITSELF as easily as they'd have skimmed the
+                 original, i.e. the gate inherits the attention-callous and is just bounced off"
+    disposition_history:
+      - {at: 2026-06-20, event: "Operator moved to ratify on the ground 'it's working'", verdict: revised,
+         note: "FALSIFIED by Covalent before commit: (1) self-ratification — Operator was both proposing and disposing
+                its own device (no-self-ratify; the dyad-loom failure pattern Covalent exists to catch); (2) 'it's working'
+                is the aha-reward the Operator had just named as the thing that pulls them off-Telos; (3) the evidence is
+                confounded — the session also improved because the Operator went mobile + stopped multitasking, so the
+                diligence may have done all the work. Ratification DEFERRED to the distracted-state N=2; refutation +
+                survival conditions pre-registered NOW (above) to bar post-hoc rationalization."}
+    status: live
+
   - id: C2-complexity-gates-translation
     statement: "Complexity GATES translation (dose-response)."
     claim_type: design-model
