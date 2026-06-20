@@ -182,6 +182,18 @@ was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 
 ## Open items
 
+### Operating model — disposition routing (authority × cog-load)  ·  status: CANDIDATE, CARRIED (s-local4, 2026-06-20) — too-much-discernment-for-lo-cog; awaiting settled-window ratification
+*Emerged from the s-local4 AITL/concurrency thread (3-dyad + Clash distraction). Operator engaged + rubbed each step but **did NOT ratify** — carried because the 2×2 "requires too much discernment at the moment." Ratify/operationalize in a hi-cog window. NOT a ratified operating model yet.*
+
+- **The 2×2 — route work by AUTHORITY × COG-LOAD, not by load alone:**
+  - **Agent-disposable** (any load) → Agent does it. **conformance ⟺ agent-disposable** (identity, by construction): conformance = *execute an already-ratified decision, zero-new-claim ∧ zero-new-authority* → nothing to gate. Directed+reversible merges (§6) ⊆ conformance. *Generate-labor* (drafting/proposing) is agent-DONE but **not** agent-DISPOSED — its output is a candidate +1 that needs the gate.
+  - **Operator-irreducible × lo-cog** → the Operator CAN do these *distracted* (ratify a term · grade a gate · telos gut-check · authorize prep · de-risked substrate-install). **This cell earns a dyad's concurrent slot.** Falsifies "lo-cog ⟹ Agent-disposable" — proven live: the Operator graded the AITL firing + ratified "conformance work" while distracted.
+  - **Operator-irreducible × hi-cog** → waits for full engagement (anchor edits, the criteria system, the GLOSSARY ROM-cut, K6-verify).
+- **Concurrency-value ∝ fresh-attack-surface rate** (a dyad earns a concurrent slot by how often it throws up lo-cog × Operator-irreducible items), NOT total open work.
+- **The guard (proposed, not ratified):** NOT "minimize HITL gates" — that's the wrong metric (suppresses *legitimate* gates; the −10≫−1 asymmetry correctly implies *uncertain → GATE*, i.e. MORE gates) and induces the worse error (laundering = disposing a decision as conformance). Right guard = **decision-rule** (uncertain → gate) + **log-and-flag** (log every conformance disposition, flag every borderline) + **sampled audit** with the −10 (laundering) / −1 (over-gate) weights as **audit-priority, NOT a reward I maximize** (reward-to-game = Goodhart, violates K5 `C as breach-detector never objective-function` + the no-exploit-the-asymmetry rule). Two laundering paths to guard: (1) mis-classify a decision as conformance; (2) treat Generate-output as agent-disposed.
+- **Already DURABLE (ratified/recorded this session, not part of the carry):** AITL first-firing + co-adjudicated grade `if_true (intra-dyad)` (`theory-pipeline.yaml`) · §6 directed-merge (`substrate-access.md`) · `conformance work` term (`GLOSSARY.md`).
+- **OPEN (settled-window):** (a) ratify the 2×2 as a real operating model (sibling to §6)? (b) encode the log-and-flag + sampled-audit guard as a discipline? (c) does any of this graduate beyond bond → a **fleet** operating model (it's framed fleet-general)?
+
 ### 2026-06-17 — Anchor source-of-truth · md→yaml lifecycle · views/ as read-surface · tag-grammar  ·  status: P4 DONE (PR #29 merged) · P3 RESOLVED (b ratified + gate spec'd) · unsigned-handoff CLOSED-moot
 *Single-home for the work = `dialectic/dyad-md-yaml-regen.md` §"Source-of-truth disposition + the lifecycle". Bond riff/rub thread extending the 2026-06-16 regen survivor. All CANDIDATE (`bond:no-self-ratify` — Agent-proposed, Operator-leaned, not kb-graduated).*
 
