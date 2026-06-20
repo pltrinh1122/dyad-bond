@@ -2,3 +2,4 @@
 .falsify-seen.json
 __pycache__/
 *.pyc
+.msg-tracker.json

@@ -7,7 +7,7 @@
 - **types-of-work** sub-area (shed with the Work-layer) — revisit only if the relationship-craft needs it.
 - **Relationship-craft codification** — the interior disciplines of being-a-dyad-well are largely
   *unbuilt*. This is our generative frontier.
-- **⬜ RACKED (Operator, 2026-06-18, s-local3): message-tracker** — a per-dyad *thread-state* ledger over
+- **✅ BUILT (2026-06-18, s-local3 — `bin/msg_tracker.py`; was RACKED same session): message-tracker** — a per-dyad *thread-state* ledger over
   the DM channels: tracks per message {sent/received · read/unread · responded-to · supersedes/reply-to}
   and surfaces a **diff-against-prior** on each new inbound (so a re-send/reply is recognized as such, not
   re-analyzed in a vacuum). **Driver:** ongoing multi-dyad exchanges + the live cairn contract
