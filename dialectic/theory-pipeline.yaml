@@ -239,7 +239,9 @@ candidates:
     open_gap: {type: layer-locality, text: "the CONFOUND — AITL has only ever fired while the Operator was already
                diligent (mobile, not multitasking). It has NEVER fired in the distracted state, the only state it is a
                fail-safe FOR. Proven where it was not needed = unproven. n=2, one session, proposer-judged."}
-    next_probe: "run AITL LIVE when the Operator is multitasking on workstation (Operator-scheduled, 2026-06-20) → the real N=2"
+    next_probe: "real N=2 STILL OWED — the 2026-06-20 attempt was VOID (Operator engaged before the gate fired; distracted-state
+                 precondition unconfirmed). Re-run requires a CONFIRMED-distracted run where the skim-tell actually fires, so (b)
+                 re-engagement can be tested. Until then the confound stands: AITL has never fired in the only state it is FOR."
     exec_phase: PROBE
     prediction_pair:
       if_true:  "BOTH fire under distraction — (a) the Agent correctly detects the skim-tell, AND (b) the gate re-engages
@@ -254,6 +256,16 @@ candidates:
                 confounded — the session also improved because the Operator went mobile + stopped multitasking, so the
                 diligence may have done all the work. Ratification DEFERRED to the distracted-state N=2; refutation +
                 survival conditions pre-registered NOW (above) to bar post-hoc rationalization."}
+      - {at: 2026-06-20, event: "ran the pre-registered N=2 — armed AITL over a REAL disposition (PR #35: send cairn the
+                atomic acceptance verdict), not a synthetic gate", verdict: void, note: "NULL TRIGGER — neither if_true nor
+                if_false. The Operator engaged all four specific grounds (CLI-in-spec? / F-5,F-6 ambiguity / artifact-pin /
+                tone) BEFORE the skim-tell fired, so the gate had no occasion to halt: (a) was never exercised → (b)
+                re-engagement was never tested. Cannot count as if_true. Validity precondition (distracted/multitasking)
+                NOT confirmed; the engagement precision reads as the diligent-state confound the probe exists to escape →
+                VOID, not a pass. What DID land was a HITL catch, not AITL: ground #1 caught a bond-side spec-FABRICATION
+                (the DM asserted a 'run-to-completion CLI' as a §Deliverable acceptance term; grep of spec @9c1ed72 shows
+                'CLI' absent — assert-from-memory). That is the symmetric twin (Operator-gates-Agent), the opposite
+                direction from the claim under test. The real N=2 still owes a confirmed-distracted run."}
     status: live
 
   - id: C2-complexity-gates-translation
