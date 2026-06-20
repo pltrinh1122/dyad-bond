@@ -239,9 +239,11 @@ candidates:
     open_gap: {type: layer-locality, text: "the CONFOUND — AITL has only ever fired while the Operator was already
                diligent (mobile, not multitasking). It has NEVER fired in the distracted state, the only state it is a
                fail-safe FOR. Proven where it was not needed = unproven. n=2, one session, proposer-judged."}
-    next_probe: "real N=2 STILL OWED — the 2026-06-20 attempt was VOID (Operator engaged before the gate fired; distracted-state
-                 precondition unconfirmed). Re-run requires a CONFIRMED-distracted run where the skim-tell actually fires, so (b)
-                 re-engagement can be tested. Until then the confound stands: AITL has never fired in the only state it is FOR."
+    next_probe: "real N=2 STILL OWED — the 2026-06-20 attempt was VOID. Operator rub-back pinned the CAUSE: 2 concurrent dyads
+                 is INSUFFICIENT distraction load to even exercise the gate (the skim-tell never fires when the Operator can still
+                 attend both). THRESHOLD CONDITION for the genuine test: >=3 concurrent dyads. Operator commits to 3 next arc →
+                 that is the AITL-leverage arc. Re-run there: does the gate re-engage a genuinely-distracted Operator, or get
+                 skimmed like the original? The condition is OPERATOR-INITIABLE ONLY — the Agent cannot manufacture the load."
     exec_phase: PROBE
     prediction_pair:
       if_true:  "BOTH fire under distraction — (a) the Agent correctly detects the skim-tell, AND (b) the gate re-engages
@@ -266,6 +268,13 @@ candidates:
                 (the DM asserted a 'run-to-completion CLI' as a §Deliverable acceptance term; grep of spec @9c1ed72 shows
                 'CLI' absent — assert-from-memory). That is the symmetric twin (Operator-gates-Agent), the opposite
                 direction from the claim under test. The real N=2 still owes a confirmed-distracted run."}
+      - {at: 2026-06-20, event: "Operator rub-back at arc-close — diagnosed WHY attempt-1 was VOID", verdict: revised,
+         note: "Not merely 'engaged-precisely' — STRUCTURAL: at 2 concurrent dyads the Operator can still attend both, so the
+                distraction load AITL is a fail-safe FOR was never present; the gate could not be exercised. Refines the
+                confound: the bar is not 'multitasking on workstation' (too vague) but >=3 CONCURRENT DYADS. Operator commits to
+                3 for the next arc = the AITL-leverage arc, where the real N=2 runs. Corollary (rub-forward): AITL's genuine
+                test is OPERATOR-INITIABLE ONLY (the Agent cannot manufacture the load), structurally like the F2/DV3 interior
+                claims — possibly the wrong instrument-class for Agent-led probing."}
     status: live
 
   - id: C2-complexity-gates-translation
