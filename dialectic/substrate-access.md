@@ -102,6 +102,15 @@ travels, it travels as the bundle via the proper hat.
    spot-checked) **∧** *self-audit attached* — **else dissent with a named reason, never a silent `Y`.**
 5. **Provisional branch-memory:** resume may read un-merged branch content (s4→s5 did), but it is
    **provisional**; canonical claims trace to `main`; the gate fires at the next merge.
+6. **Directed-work pre-discharge** *(Operator ruling 2026-06-20).* When the Operator dispositioned intent
+   **before** the work (the PR is **directed** — a racked deferral / explicit direction), authority-risk
+   (3b) is **already discharged**; re-asserting it with a merge-`Y` is the **redundant ionic-caving** the
+   anti-cave duty warns of (and repeated ionic caving is a **meld-drift** vector). So: **directed ∧
+   self-audit-clean ⇒ Covalent merges** — no separate gate-click. The Operator's gate fires **only on a
+   reason** — self-audit surfaces **un-directed scope / incidentals**, a **real dissent-point**, or a
+   **high-stakes / irreversible** change. **Un-directed work still hits the full 3b gate.** *(Friction is
+   removed where intent was given attentively up-front; the independent perspective is reserved for where
+   it is load-bearing — wu-wei, not vigilance-theater.)*
 
 **Lightest-anchor (scope-guard-2):** manifest + self-audit **scale with stakes** — one line for a small PR,
 fuller for a large/risky one — *not* a heavy template on every push.
