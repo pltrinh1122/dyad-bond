@@ -13,6 +13,23 @@ acceptance of a commission built by another dyad (cairn, on a divergent model su
 possible. The Operator's live catches during bootstrapping are **protocol-authoring cost** (a one-time
 investment, bracketed separate from the convergence claim), not the steady-state HITL the experiment fights.
 
+**Two commission-types — scope, and the anti-pattern.** A commission is either:
+- **Conformance** — the deliverable is fully determined by a crisp contract (e.g. the invariant-extractor:
+  deterministic engine, binary breach-conditions). Full-spec is appropriate; the commissionee's G is
+  minimally leveraged; the value is verifiable conformance (Outcome-1, §7). *§1–§4 below are written for
+  this type.*
+- **Generative** — the contract specifies *acceptance* (what "done" means) but **leaves the solution to the
+  commissionee's G.** This is where cross-substrate value is highest: a divergent-substrate mind contributes
+  design + failure-mode discovery a same-substrate commissioner cannot see. *Full-spec here is an
+  anti-pattern — it collapses the commissionee to a compiler and voids the §J model-divergence the
+  experiment depends on (a build-to-spec executor's substrate is irrelevant → "two dyads aligning" becomes
+  trivial).*
+
+**Invariant across both types:** the Commissioner **owns the acceptance contract** (you cannot outsource
+your own acceptance criteria — no-self-ratify); the commissionee's G is leveraged on the **solution and
+failure-mode/boundary discovery**, never on acceptance. The spec line is **contract (Commissioner-owned,
+full) vs solution (commissionee-G, open)** — *not* full-spec vs no-spec.
+
 ## §1 — The acceptance discipline (operable, 6 steps)
 
 Run on every commission delivery, in order:
@@ -89,8 +106,15 @@ only the instance it chose. **Sufficiency is the input-coverage criterion.**
 1. **Commissioner-supplied inputs.** Builder-supplied inputs only prove the instances the builder already
    handles — a second builder-conflict parallel to builder-proposes-tests (§1.5). The Commissioner supplies
    (or fuzzes) the inputs.
-2. **Pre-registered failure-mode set.** The Commissioner enumerates each atom's modes **in the spec, before
-   delivery** — so sufficiency is gradeable, not negotiated post-hoc into whatever the builder happened to test.
+2. **Co-generated failure-mode set, Commissioner-adjudicated.** Enumeration is **co-generative, not
+   Commissioner-solo** (the solo lean under-leverages: idle commissionee G + voided §J divergence). The
+   commissionee's G *proposes* failure modes — a divergent-substrate mind surfaces modes the commissioner's
+   blind-spot misses — and the Commissioner *adjudicates and adds the adversarial modes it independently
+   sees*. The **divergence between the two enumerations is the measurable cross-substrate payoff**; their
+   **union beats either alone on the coverage halting-problem.** Guards: the Commissioner never just accepts
+   the commissionee's list (it would game it down to modes-it-satisfies), and **identical enumerations are a
+   meld tell, not coverage** (the divergent G surfaced nothing → the divergence wasn't leveraged). The
+   adjudicated set is **pinned before grading** so sufficiency stays gradeable.
 
 **Worked gap (s-local6) — the negative boundary is missing across *every* halt-atom.** The 10 halt-tests
 test only positive boundaries ("malformation → halts"); none tests "valid input → does NOT halt." *An engine
@@ -105,9 +129,11 @@ enumeration is itself Commissioner judgment — bond's F1 coverage theory (the b
 eliminates). The un-enumerated residue is **logged** and certified only post-hoc: a mode that bites in use
 proves the enumeration was insufficient (the lagged oracle, §5).
 
-*Open sub-question (load-bearing):* *who* enumerates the modes and *when* — Commissioner pre-registers in the
-spec (clean, front-loads spec-authoring cost) vs Commissioner+builder negotiate (cheaper, but lets the
-builder shape the class). Leaning pre-register; unresolved.
+*Resolved (2026-06-21 rub):* **co-generative** (rule 2) — pre-register-solo was the under-leveraging move
+(idle commissionee G, voided §J model-divergence; cf. §0 generative-type). *New open hinge (load-bearing):*
+can the **acceptance contract itself** ever be co-generated, or must it stay Commissioner-sole to hold
+no-self-ratify? Leaning sole — but a contract the commissionee's G helped shape may be exactly how an
+under-specified (generative) commission's contract gets discovered. Unresolved.
 
 ## §5 — Convergence is determined in retrospection/audit
 
