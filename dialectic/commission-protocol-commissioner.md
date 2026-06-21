@@ -16,8 +16,8 @@ investment, bracketed separate from the convergence claim), not the steady-state
 **Two commission-types — scope, and the anti-pattern.** A commission is either:
 - **Conformance** — the deliverable is fully determined by a crisp contract (e.g. the invariant-extractor:
   deterministic engine, binary breach-conditions). Full-spec is appropriate; the commissionee's G is
-  minimally leveraged; the value is verifiable conformance (Outcome-1, §7). *§1–§4 below are written for
-  this type.*
+  minimally leveraged; the value is verifiable conformance (Outcome-1, §8). *§1–§4 below are written for
+  this type; §5 is the generative +1.*
 - **Generative** — the contract specifies *acceptance* (what "done" means) but **leaves the solution to the
   commissionee's G.** This is where cross-substrate value is highest: a divergent-substrate mind contributes
   design + failure-mode discovery a same-substrate commissioner cannot see. *Full-spec here is an
@@ -127,7 +127,7 @@ whitespace/case-variant ids.
 halting-problem (unknown-unknowns). Sufficiency is **relative to the pre-registered mode-set**, and the
 enumeration is itself Commissioner judgment — bond's F1 coverage theory (the boundary moves, never
 eliminates). The un-enumerated residue is **logged** and certified only post-hoc: a mode that bites in use
-proves the enumeration was insufficient (the lagged oracle, §5).
+proves the enumeration was insufficient (the lagged oracle, §6).
 
 *Resolved (2026-06-21 rub):* **co-generative** (rule 2) — pre-register-solo was the under-leveraging move
 (idle commissionee G, voided §J model-divergence; cf. §0 generative-type). *New open hinge (load-bearing):*
@@ -135,7 +135,57 @@ can the **acceptance contract itself** ever be co-generated, or must it stay Com
 no-self-ratify? Leaning sole — but a contract the commissionee's G helped shape may be exactly how an
 under-specified (generative) commission's contract gets discovered. Unresolved.
 
-## §5 — Convergence is determined in retrospection/audit
+## §5 — Generative commissions (the +1): divergence-rubbed, authority-by-survived-challenge
+
+The conformance baseline (§1–§4) verifies a build against a Commissioner-owned WHAT. The **+1** is the
+*generative* commission — the commissionee's G does the generative work and the Commissioner adjudicates it.
+This is the protocol's real subject; §1–§4 is its floor.
+
+**The split — WHY / WHAT / HOW (the type is defined by who owns WHAT):**
+- **Conformance:** Commissioner owns WHY + WHAT; commissionee does HOW. G idle.
+- **Generative:** Commissioner owns **WHY** (the intent / acceptance-*property*); the commissionee's **G
+  generates WHAT** (discovers failure-modes, authors the solution-spec) **+ HOW**; the Commissioner
+  **adjudicates WHAT-against-WHY**. *(Flatter-tell: bond's anchor-DAG — intent-edges grounding
+  invariant-nodes — one level out.)*
+
+**Phases:** Frame (Commissioner: problem + falsifiable acceptance-property + constraints) → Generate
+(commissionee G: solution + failure-modes/boundaries + candidate WHAT-atoms) → Adjudicate (Commissioner:
+WHAT-against-WHY, adds adversarial modes, never just accepts) → Converge (retrospective **cross-axis** audit
+— same-axis can't catch the meld). *[phases: CANDIDATE — presented, not yet run.]*
+
+**⭐ Bilateral intentional divergence (DISPOSED 2026-06-21).** Each substantive response, **both sides**,
+carries an **intentional divergence** the other **rubs**. This is the anti-cave duty made bilateral +
+per-turn, and `C1-no-meld` operationalized (each side mandated to hold a distinct perspective).
+- **The signal is SURVIVAL-under-rub, not presence.** Mandated divergence is always present → "they diverged"
+  carries zero information → it would *launder* the very meld-tell it protects. So: a mandated divergence
+  that **collapses** instantly under rub = convergence/meld with extra steps; one that **survives or forces a
+  synthesis** = the genuine second perspective. **Grade survival, not production.**
+- **Guards:** *genuine-not-performative* — the producer must be able to **defend** it (defend-or-drop; an
+  undefended divergence is the s-local2 manufacture-then-pre-tilt theater); *bounded* — produced → rubbed →
+  **synthesized or dropped** each round, under a depth/rest-point cap (the FR-contract anti-seizure bound).
+
+**⭐ Authority-by-survived-challenge (DISPOSED 2026-06-21).** The Commissioner owns the WHY — but that
+ownership is **authority-by-survived-challenge, not authority-by-fiat.** The commissionee's mandated
+divergence lands on the WHY as a **challenge** (not an override): the Commissioner still adjudicates and
+retains ownership, but **the WHY holds only insofar as it survives the challenge.** This is what keeps
+owns-WHY from collapsing into self-ratification, and it converts "is the WHY honestly solution-free" from a
+hope into a **per-turn rubbed claim** — cairn's divergence on the WHY is exactly what surfaces a smuggled
+WHAT. Authority is *earned by surviving the rub*, never asserted.
+
+**Outcome + gate:**
+- **Generative = Outcome-2** (judgment-acceptance, *minimal*-HITL), not Outcome-1 (oracle, zero-HITL). The
+  two commission-types *are* the two outcomes. The +1 (leveraged divergent G) is **paid for in adjudication
+  cost** — generative acceptance is judgment, no crisp oracle. *[CANDIDATE.]*
+- **Falsifiability gate:** the WHY must yield an **outcome-level falsifier even with the solution open**
+  ("what would refute *any* solution to this"). A WHY that can't = a vague ask, rejected at Frame (the
+  generative analog of `falsification_target REQUIRED`). *[CANDIDATE.]*
+
+*Anti-thesis (standing):* generative may **relocate conformance up one level** (adjudicating WHAT-against-WHY
+is mapping at the property tier), and the meld surfaces *multiply* (commissionee proposes solution *and*
+criteria; Commissioner holds *and* adjudicates the WHY) → §J-divergence + cross-axis audit are the spine,
+not options. Un-run at N=0 — the divergence-rub mechanism is asserted, never yet observed.
+
+## §6 — Convergence is determined in retrospection/audit
 
 Convergence is **oracle-lagged, not oracle-less.** The acceptance act leaves an **exterior record** (the
 per-atom mapping trace); convergence is the verdict of **auditing that record against the commission,
@@ -147,7 +197,7 @@ autonomy is an F2/DV3 *interior* (oracle-less) limit: it is auditable, just lagg
 counterfeit-green one meta-level up. A **divergent-axis** auditor (different model / human / lens)
 determines convergence, and can catch even the meld-capture cases the author structurally cannot see.
 
-## §6 — Audit architecture
+## §7 — Audit architecture
 
 - **Auditor dyad** — a dedicated dyad institutionalizes the retrospective rubber for the conformance class.
 - **Operator hi-cog during audits = the regress-terminator.** Quis-custodiet the auditor dyad → the
@@ -168,7 +218,7 @@ determines convergence, and can catch even the meld-capture cases the author str
    over another dyad). Conformance-class fixes (zero-claim, reversible) may auto-apply; judgment-class
    **escalates**. An auditor that commands remediation is a sword and breaches the channel-gate.
 
-## §7 — The two convergence outcomes (the experiment's success conditions)
+## §8 — The two convergence outcomes (the experiment's success conditions)
 
 - **Outcome-1 — conformance/oracle spec converges WITHOUT HITL.** Spec-authoring cost bracketed separate.
   *Preconditions (none jointly shown at N=1):* (a) spec explicit enough every atom is oracle-renderable;
@@ -181,7 +231,7 @@ determines convergence, and can catch even the meld-capture cases the author str
   once, near-zero per-delivery). *Caveat:* only testable when Commissioner-Op ≠ Commissionee-Op
   (cross-human, never run — currently one human wears both hats).
 
-## §8 — Status, autonomy-gap, open
+## §9 — Status, autonomy-gap, open
 
 **Autonomy-gap data (s-local6):** every load-bearing acceptance act this session was **Operator-initiated**
 (blind-trust caught at Q1, mapping skipped-till-named, overbuild caught). bond did *not* converge
