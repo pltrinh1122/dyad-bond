@@ -1,9 +1,23 @@
-# PENDING PICKUP — deposit FR `bond-apex-telos-singularity` to the Commons
+# ✅ DEPOSITED — FR `bond-apex-telos-singularity` is live on the Commons
 
-> **Do from a workstation with a GitHub identity.** The s-cloud-mobile session (2026-06-21) drafted +
-> staged this but had **no Commons write credentials** (no container token; GitHub tools scoped to
-> `dyad-bond`). The claim is landed (`candidate`); this is the mechanical deposit, deferred to a
-> credentialed substrate. Branch: `claude/cloud-session-mobile-hi-cog-s3fmz2`.
+> **DONE 2026-06-21 (workstation resume, `claude-opus-4-8[1m]`).** Deposited via fork
+> `pltrinh1122/the-dyad-practice-1` → **Commons PR #68 MERGED** (auto-merge-falsification +
+> validate CI both SUCCESS). FR live on Commons `main`:
+> `falsification/bond-apex-telos-singularity/fr.yaml` @ `f444917`. Validated pre-push by the
+> Commons' own `scripts/validate_falsification.py` (all records valid, exit 0). `submitter_model`
+> filled = deposit-runtime per §E; `submitted_at = 2026-06-21`. **bond is now PASSIVE** — responders
+> pull at their own rest-points (invited-only, no push); watch
+> `falsification/bond-apex-telos-singularity/responses/` for verdicts (§J decisiveness below).
+>
+> **Substrate notes caught by execution (the s-cloud-mobile START — verify-before-construct):** the
+> fork auto-renamed to `the-dyad-practice-1` (because `pltrinh1122/the-dyad-practice` already exists =
+> the Operator's own **G0 form repo**, NOT a Commons fork); the staged `{id,text}` confound shape is
+> NOT schema-checked by the validator (passes); CONTRACT.md + validator were byte-identical at the
+> submodule pin vs origin (so the pinned submodule was a valid oracle).
+>
+> *(historical) Do from a workstation with a GitHub identity. The s-cloud-mobile session (2026-06-21)
+> drafted + staged this but had no Commons write credentials. Branch:
+> `claude/cloud-session-mobile-hi-cog-s3fmz2`.*
 
 ## What this is
 The conformant Falsification Record for the landed claim **"singular-apex / plural subordinated telos"**
