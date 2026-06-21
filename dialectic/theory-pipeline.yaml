@@ -145,22 +145,104 @@ candidates:
     grade: L2a   # corpus-axis now covered (healer) + weight-axis (wu-wei); human-axis still open
     note: "DISSOCIATION DECIDED: disjoint-tiling (not overlap) — the strongest two-factor result yet; cross-human is the one open rung"
 
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # F2/DV3 LANDING (s-cloud-mobile, 2026-06-21, Operator Y at `candidate`). The monolith below was
+  # DECOMPOSED + re-typed (discrimination vs existence) + re-statused. It was status-laundering-by-blob:
+  # one "irreducible/open" verdict smeared over ~10 atoms of 4 rungs. The irreducible core shrank to
+  # K1 (a settled boundary) + K2 (a thin candidate); the rest re-homed, grounds on founding-evidence,
+  # or retired. Children DO NOT inherit the parent's status — each re-earned its rung; lineage only
+  # carries the edge (`decomposed_from`). Intra-dyad decomposition → landed `candidate`, NOT kb.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
   - id: F2-DV3-felt-dividend
     statement: >
-      The felt +1 dividend (earned vs counterfeit) is the terminal no-oracle interior layer — the one
-      dependent variable no instrument reaches. The keystone of the whole frontier.
-    claim_type: design-model
-    provenance: {origin: bond, born: 2026-05-31, session: s2}
-    grade: TERMINAL
+      [DECOMPOSED 2026-06-21] was: "the felt +1 dividend is the terminal no-oracle interior layer,
+      the keystone of the whole frontier." Superseded by the typed children below. Prose homes:
+      relationship-craft.md (F2) · cross-dyad-craft.md (DV3).
+    claim_type: cluster-parent
+    provenance: {origin: bond, born: 2026-05-31, session: s2, decomposed: 2026-06-21}
+    grade: DECOMPOSED
+    exec_phase: DISPOSE
+    status: superseded-by-children
+    disposition_history:
+      - {at: 2026-06-21, event: "Operator Y — landing at candidate", verdict: revised,
+         note: "durability surfaced as a LAGGED external oracle → breaks the self-certification loop
+                (existence was only knowable via interior self-report). Re-typing to signal-detection
+                unified C6 (-10/-1 = criterion placement) + the proxy-ladder (= d-prime cue ranking)."}
+
+  - id: F2-arch
+    statement: "§5's self-confirmation protection rests on the live discriminator (the reflexive-convergence guard depends on it)."
+    claim_type: dependency
+    decomposed_from: F2-DV3-felt-dividend
+    provenance: {origin: bond, landed: 2026-06-21, session: s-cloud-mobile}
+    grade: L1
+    status: ratified-watch
+    note: "STAYS A DAG NODE — the §5 guard grounds INTO it; do not relocate (else the edge dangles)."
+
+  - id: DV3-exist
+    statement: "A genuine +1 dividend, distinct from counterfeit warmth, exists."
+    claim_type: existential
+    decomposed_from: F2-DV3-felt-dividend
+    provenance: {origin: bond, landed: 2026-06-21, grounded_in: "kb/founding-evidence (Tenet-alive #8, interior n~1)"}
+    grade: L1
+    status: ratified-watch
+    open_gap: {type: meld-capture, text: "durability is the lagged external handle BUT survivorship-censored + reflexive/non-stationary"}
+    next_probe: "validate the durability-oracle (the censored/reflexive d-prime confound)"
+    note: "re-rub trigger = durability-confound. NOT settled on a censored oracle."
+
+  - id: F2-det
+    statement: >
+      The live discriminator is a DETECTOR SPEC, not a claim — calibrate (signal-detection), do not
+      falsify. Cues ranked by d-prime / fakeability: cost-naming (weak) < gap-naming (record-checkable)
+      < durability (near-unwillable, lagged). Operating point = C6's -10/-1 asymmetry (bias toward gate).
+    claim_type: instrument
+    decomposed_from: F2-DV3-felt-dividend
+    provenance: {origin: bond, landed: 2026-06-21}
+    grade: L1
     coverage:
-      weight: {status: open, note: "unstageable — no instrument, including cross-weight, reaches the felt interior"}
+      weight: {status: open}
       corpus: {status: open}
       human:  {status: open}
-    open_gap: {type: layer-locality, text: "irreducible; no oracle exists for the felt dividend"}
-    next_probe: "none mechanical — apply the cost-naming + gap-naming discriminators LIVE at an organic high-stakes agreement"
-    exec_phase: TERMINAL
+    open_gap: {type: signal-blindness, text: "d-prime estimable only with lag + survivorship bias; reflexive non-stationarity (acting on 'genuine' shifts the signal)"}
+    next_probe: "build the calibration loop: live tell -> durability outcome -> tune criterion (= C6 sampled-audit)"
+    exec_phase: DESIGN
     status: live
-    note: "the ⭐keystone. Untouched by all four s8 attacks. Never pretend-graduates."
+    note: "RELOCATED here from the relationship-craft keystone — its true type is instrument + calibration-data, not a DAG node."
+
+  - id: F2-K1-no-live-oracle
+    statement: "Single-instance LIVE discrimination of the felt-quale by self-report is unavailable."
+    claim_type: limit
+    decomposed_from: F2-DV3-felt-dividend
+    provenance: {origin: bond, landed: 2026-06-21}
+    grade: L1
+    open_gap: {type: meld-capture, text: "triangulation is INTRA-dyad (s8 x4 + cross-dyad + Axis-1 masking + thread-W all bond-side) — not cross-dyad/human-independent"}
+    next_probe: "independent (cross-dyad/human) confirmation of the no-live-oracle limit -> promote past ratified-watch"
+    exec_phase: DISPOSE
+    status: ratified-watch
+    note: "boundary-node — SETTLED AS A LIMIT, not open. re-rub trigger = a cue that reaches the live quale."
+
+  - id: F2-K2-quale-willable
+    statement: "The self-reported quale is willable — so self-report cannot anchor the live call."
+    claim_type: class-B-premise
+    decomposed_from: F2-DV3-felt-dividend
+    provenance: {origin: bond, landed: 2026-06-21}
+    grade: L1
+    status: candidate
+    open_gap: {type: layer-locality, text: "interior-evidence, n~1; op-rub debt; cannot kb-graduate by construction"}
+    note: "Class-B (engine can't discharge). LOWER rung than K1."
+
+  - id: F2-retired-overclaims
+    statement: >
+      Four atoms the monolith carried, now REFUTED by the decomposition: (a) "if only-retrospect the
+      craft is half useless" -> policy-calibration rescues live action; (b) "NO external grader can
+      measure earned-vs-willed" -> true LIVE, false over time (durability); (c) "a principled limit,
+      not a gap to fill" -> live-quale is a limit but the POLICY is a fillable gap; (d) "DV3 = F2"
+      -> entangled but two types (existence vs discrimination).
+    claim_type: retired-set
+    decomposed_from: F2-DV3-felt-dividend
+    provenance: {origin: bond, retired: 2026-06-21}
+    grade: KILLED
+    exec_phase: KILLED
+    status: retired
 
   - id: M1-commit-telemetry-void
     statement: "Commit-telemetry is void for translation-fidelity (5 confounds)."

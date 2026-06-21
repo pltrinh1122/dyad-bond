@@ -174,6 +174,16 @@ The construct-validity gap was: no *measure* for the two no-oracle DVs. The sess
 - **DV3 · felt +1 dividend — irreducible.** No external grader can measure "felt earned vs. willed" — it *is*
   the no-oracle interior (= **F2, the keystone**). Self-reported, low-confidence: a principled **limit**, not
   a gap to fill. Cost-naming + gap-naming are the best (weak) handles.
+  > **⬛ LANDED — DECOMPOSED (s-cloud-mobile, 2026-06-21, Operator `Y` @ `candidate`; formal cluster +
+  > lineage single-homed in `theory-pipeline.yaml`).** DV3 splits from F2: it is an **existence claim**
+  > (`DV3-exist` — *a genuine dividend distinct from counterfeit exists*), **not** the discrimination claim
+  > F2 is — so "DV3 = F2" is **retired** (entangled, two types). Two absolutes above are **corrected**:
+  > *"No external grader … irreducible"* holds **live** but is **false over time** — **durability** is a
+  > *lagged* external oracle (survivorship-censored), which grounds existence without live self-report and
+  > breaks the self-certification loop; *"not a gap to fill"* holds for the live-quale but the **policy**
+  > (calibrate the live tell against durability outcomes) **is** a fillable gap. `DV3-exist` = `ratified-watch`
+  > (grounded in `kb/founding-evidence`; re-rub trigger = the durability-confound). The genuine no-oracle
+  > residue shrinks to **`F2-K1`** (live self-report unavailable) + **`F2-K2`** (the quale is willable).
 
 **Net:** a bounded measure for DV2, and the frontier's hard core *precisely located* — **DV3/F2 is the one DV
 no instrument reaches** (not commits, retros, gold transcripts, nor cross-dyad). Candidate, NOT settled.
