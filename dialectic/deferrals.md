@@ -2,6 +2,11 @@
 
 ## Deferrals — intentional future work, not gaps
 
+- **⏳ PENDING PICKUP (workstation) — deposit FR `bond-apex-telos-singularity` to the Commons.** Staged +
+  conformant (`dialectic/fr-apex-telos-singularity.staged.yaml`); executable handoff in
+  `dialectic/fr-deposit-pickup.md`. The s-cloud-mobile session lacked Commons write creds; deposit is the
+  self-authorizing `auto-merge-falsification` lane (no human gate). **Downstream PARKED:** `AGENT.md` dim-1
+  amendment → Founding, *only if* the claim survives §J-decisive. (2026-06-21, s-cloud-mobile.)
 - **Cluster classification:** are `nba-dag`/`goal-framing` ours-whole, or ours-UI-surface-only (their
   Work-flows = steward's)? → flagged in `dialectic/dyad-work.md`.
 - **types-of-work** sub-area (shed with the Work-layer) — revisit only if the relationship-craft needs it.
