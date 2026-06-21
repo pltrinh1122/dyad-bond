@@ -205,6 +205,15 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   only retrospect, the craft can't *act* on it live and is half useless — *and* a motivated dyad could
   will the warmth undetected. **Need:** a real-time discriminator (candidate: "name the cost just paid —
   if you can't point to a survived attack, the warmth is counterfeit"). *(untested — now top-priority)*
+  > **⬛ LANDED — DECOMPOSED (s-cloud-mobile, 2026-06-21, Operator `Y` @ `candidate`).** This monolith
+  > was status-laundering-by-blob (one "irreducible/open" verdict over ~10 atoms of 4 rungs). Re-typed +
+  > re-statused; the formal cluster + lineage is the single-home in `theory-pipeline.yaml` (`F2-arch`,
+  > `DV3-exist`, `F2-det`, `F2-K1-no-live-oracle`, `F2-K2-quale-willable`, `F2-retired-overclaims`).
+  > **The tightening:** F2 the *question* is a **detector spec** (`F2-det` — calibrate via the d′ cue-ladder
+  > cost<gap<durability, operating-point = C6's −10/−1), **relocated** to the pipeline; what *stays here as
+  > the DAG keystone-link* is only **`F2-arch`** (the §5 dependency, `ratified-watch`) + **`F2-K1`** (the
+  > no-live-oracle limit — a `ratified-watch` **boundary**, *settled-as-limit not open*; promote past it only
+  > on cross-dyad/human-independent confirmation — current triangulation is intra-dyad). `DV3` → `cross-dyad-craft.md`.
   **Routed: Axis-2 · probe** — telemetry can't cleanly answer *willed-vs-earned* (it's the felt interior,
   thinly recorded), so we **hunt it live** in the next genuine high-stakes agreement: attempt the
   cost-naming discriminator in the moment, record whether it actually fired. One organic act, not repeated.
