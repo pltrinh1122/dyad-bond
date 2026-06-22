@@ -107,13 +107,15 @@ The theory has many moving parts → **not one experiment but a program.** Best-
 
 ### The materialization gate — what may enter the model *(s-local7 raff, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — `no-self-ratify`)*
 
-> **Provenance + name-collision note:** these are the s-cloud-mobile CLIP-2 method-invariants ("M1/M2"),
-> sharpened in the 2026-06-22 falsifiable-vs-testable riff and landed here. **Renamed off `M1/M2`** —
-> those labels are already taken (M1 = the gap-naming discriminator / commit-telemetry-void; M2 = the
-> is-meld-real-for-us experiment) and reusing them compounds the Item-L tag-collision. Use the
-> content-names below.
+> **Provenance + name note:** these are the s-cloud-mobile CLIP-2 method-invariants ("M1/M2"),
+> sharpened in the 2026-06-22 falsifiable-vs-testable riff and landed here. **Named `IFF1`/`IFF2`**
+> (Operator, s-local7) — `M1/M2` are already taken (M1 = the gap-naming discriminator /
+> commit-telemetry-void; M2 = the is-meld-real-for-us experiment; reusing them compounds the Item-L
+> collision), and `IFF` names what they *are*: both are **biconditionals** (the iff-pairing —
+> `IFF1` materialize ⟺ falsifiable ∧ testable; `IFF2` fiat-anchored ⟺ external-audit). `IFF2` is not a
+> co-equal third rule — it is `IFF1`'s testability-clause for the fiat/interior class.
 
-**`mi:materialize` — the materialization gate (the "both-gate").** A *proposed, on-Telos* candidate
+**`IFF1` — the materialization gate (the "both-gate").** A *proposed, on-Telos* candidate
 materializes into the model **iff it is falsifiable ∧ testable.** The two are distinct (the riff's spine):
 - **Falsifiable** = *in principle* the claim **forbids** some observation. A **binary gate** (forbids-something:
   y/n) carrying one real gradient — **boldness/content** (how much it forbids; Popper's "degree of
@@ -126,14 +128,14 @@ materializes into the model **iff it is falsifiable ∧ testable.** The two are 
 - **Why both:** falsifiable-but-untestable is operationally identical to **dogma** — the refuter exists but
   never arrives, so the claim never dies (the whole F2/DV3 hazard).
 
-**`mi:fiat-audit` — the fiat-anchor clause** *(= `mi:materialize`'s testability-half for the unreachable
+**`IFF2` — the fiat-anchor clause** *(= `IFF1`'s testability-half for the unreachable
 class, NOT a separate rule).* Candidates with no internal/immediate test — **fiat anchors, the felt
 interior** — get their testability from a **mandatory external 2nd-model audit** (value-independent / foreign-
 telos). A fiat has no derivation to re-check → only consequential falsification → it self-conceals → "not
 non-falsifiable" is *nominal* until an external separator can register it. So M2's audit **is** the named
 instrument that lets a fiat clear the gate.
 
-**The iff is scoped — admit vs. rank.** `mi:materialize` is biconditional **only over already-proposed,
+**The iff is scoped — admit vs. rank.** `IFF1` is biconditional **only over already-proposed,
 on-Telos candidates**; over *all* claims it is only-if (a falsifiable+testable triviality about the cafeteria
 coffee is not a candidate). Two filters sit *outside* the gate:
 - **Relevance / on-Telos** = a **pre-filter** (what makes something a proposed candidate at all).
@@ -148,7 +150,7 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 **Standing rubs (carried, unresolved — the gate is sharper than falsifiability-alone but inherits these):**
 1. **The bar is a judgment, not a switch.** Falsifiability has a crisp binary; testability is gradient-all-
    the-way, so "testable: yes" needs a *threshold* (lagged-6mo = passes? no-known-instrument = fails?) — a
-   judgment, not a mechanical check. The both-gate is **softer at the threshold** than `mi:materialize` looks.
+   judgment, not a mechanical check. The both-gate is **softer at the threshold** than `IFF1` looks.
 2. **"Named instrument" is gameable.** Satisfiable by hand-waving ("durability will tell us eventually"). The
    bite is in **specificity**: not "durability sorts it out" but "*this* durable consequence, observed *this*
    way, by *then*, counts as the refutation" — else the testability-clause launders the dogma it was meant to
@@ -156,7 +158,7 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 3. **It would gate out the interior frontier** (F2/DV3 = bond's generative reason to exist) **unless lagged +
    external routes count** — which is exactly why testability admits them, and exactly what re-opens #1/#2.
 
-**Caveat (self-applying):** this pair is itself a fiat-class method-invariant → by `mi:fiat-audit` it stays
+**Caveat (self-applying):** this pair is itself a fiat-class method-invariant → by `IFF2` it stays
 `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot be it). Landing
 ≠ ratifying.
 
