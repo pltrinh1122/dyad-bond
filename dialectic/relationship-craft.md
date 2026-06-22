@@ -105,6 +105,41 @@ The theory has many moving parts → **not one experiment but a program.** Best-
 - **The experiments = our fronts re-seen:** F1–F4 · F2⭐/M1/M2 · the G/V-independence front (below) · new: complexity-context of translation, intent-seam-worsens-with-scale.
 - **Construct-validity gap = experiment #1:** no validated *measure* yet for the two DVs that matter most (meld-incidence, felt-dividend) — designing them **is** F2/M1. **Gut-check (CONVERGE):** grounded enough to *start* the observational program; keystone experiments stay trigger-gated.
 
+### The operational floor — intent + invariant *(s-local7, Operator `Y` 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed)*
+
+The grounding regress doesn't bottom out in nothing — it bottoms out in the **physical universe** (which
+*enables awareness → locally-manifested intents*; so even "WHY/justification" is **grounded-in-occurrence**,
+and grounded-in-*justification* too if naturalism holds — itself undecidable-from-inside, cf. CLIP-1 (a)).
+That correct ontological ground is **operationally useless**: we never reason from physics up to C1. So we
+**raise the floor**:
+
+- **Operational floor = intent + invariant** — the two anchor primitives (DYAD.md *is* "a DAG of
+  invariant-nodes (WHAT) grounded by intent-edges (WHY)"). These are **presupposed, not materialized**; we
+  build from them and decline to reason beneath them.
+- **Ontological floor = the physical universe** (± logic/math) — the real ground, now **bracketed below** the
+  operational floor. Bracketing is what makes the undecidables inert: "what grounds intent — universe or
+  logic?" is a *below-floor* question → it doesn't bear on our method, so we don't litigate it (the right
+  fate for an undecidable).
+- **Grounded ≠ oracle-bearing.** The ontological ground exists but is **not reachable as an in-the-moment
+  oracle** — which is the whole point: below intent there is **no reachable oracle** (the universe doesn't
+  tell us which intent is *right* — is/ought, now stated at the foundation).
+
+**The unifying principle:** *set the operational floor exactly where reachable oracles bottom out.* Intent +
+invariant is that level. This is the same rule the materialization gate (below) runs per-claim — **floor the
+system at the oracle-bottom; gate each claim by oracle-reachability** (IFF1; IFF2 supplies an external oracle
+where there's none). One rule, two scales.
+
+**The cost (named, accepted):** flooring at intent means **no critique of the intent-layer from below** — the
+genealogical debunk ("you only value X by evolutionary drift, so it's no *reason*") needs a foothold beneath
+intent, and we've declared there is none. **Why the cost is illusory:** we never *had* an oracle below intent
+(is/ought) → we forfeit a move we could never run; and a pathological intent is still caught **from the side**
+(IFF2's external audit + durability catch consequential self-defeat), just not **from below**.
+
+**Critical scope guard:** the floor is the two **primitive TYPES** (intent, invariant). It does **NOT** promote
+*particular* intents/invariants — C1, the apex value, IFF1 itself — into the floor; those stay **model-content,
+still gated**. Only the capacity-for-intent and the form-of-invariant are presupposed; every actual intent and
+invariant earns its rung.
+
 ### The materialization gate — what may enter the model *(s-local7 raff, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — `no-self-ratify`)*
 
 > **Provenance + name note:** these are the s-cloud-mobile CLIP-2 method-invariants ("M1/M2"),
@@ -112,8 +147,10 @@ The theory has many moving parts → **not one experiment but a program.** Best-
 > (Operator, s-local7) — `M1/M2` are already taken (M1 = the gap-naming discriminator /
 > commit-telemetry-void; M2 = the is-meld-real-for-us experiment; reusing them compounds the Item-L
 > collision), and `IFF` names what they *are*: both are **biconditionals** (the iff-pairing —
-> `IFF1` materialize ⟺ falsifiable ∧ testable; `IFF2` fiat-anchored ⟺ external-audit). `IFF2` is not a
-> co-equal third rule — it is `IFF1`'s testability-clause for the fiat/interior class.
+> `IFF1` materialize ⟺ falsifiable ∧ testable; `IFF2` no-oracle-claim testable ⟺ named external/lagged
+> separator). `IFF2` is not a co-equal third rule — it is `IFF1`'s testability-clause for the **no-oracle
+> class** (renamed from "fiat-class" — s-local7 rub: nothing in the model is brute-fiat, everything is
+> grounded; the class is defined by *oracle-absence*, not grounding-absence; see §The operational floor).
 
 **`IFF1` — the materialization gate (the "both-gate").** A *proposed, on-Telos* candidate
 materializes into the model **iff it is falsifiable ∧ testable.** The two are distinct (the riff's spine):
@@ -128,12 +165,14 @@ materializes into the model **iff it is falsifiable ∧ testable.** The two are 
 - **Why both:** falsifiable-but-untestable is operationally identical to **dogma** — the refuter exists but
   never arrives, so the claim never dies (the whole F2/DV3 hazard).
 
-**`IFF2` — the fiat-anchor clause** *(= `IFF1`'s testability-half for the unreachable
-class, NOT a separate rule).* Candidates with no internal/immediate test — **fiat anchors, the felt
-interior** — get their testability from a **mandatory external 2nd-model audit** (value-independent / foreign-
-telos). A fiat has no derivation to re-check → only consequential falsification → it self-conceals → "not
-non-falsifiable" is *nominal* until an external separator can register it. So M2's audit **is** the named
-instrument that lets a fiat clear the gate.
+**`IFF2` — the no-oracle clause** *(= `IFF1`'s testability-half for the no-oracle class, NOT a separate
+rule).* The **no-oracle class** = model-claims with no reachable *independent* oracle in the moment — two
+sub-kinds: **(a) decisional-terminus** (value-roots: grounded in a posit + the Telos-web, but is/ought blocks
+any oracle — *decided, not derived*) and **(b) empirically-real-but-unreachable** (the felt interior, F2/DV3:
+a fact of the matter exists, no reachable external instrument). Both get their testability from a **named
+external/lagged separator** — a **mandatory value-independent 2nd-model audit** and/or **durability**. The
+class self-conceals (no internal check) → "not non-falsifiable" is *nominal* until the external separator can
+register it → IFF2's separator **is** the named instrument that lets a no-oracle claim clear IFF1.
 
 **The iff is scoped — admit vs. rank.** `IFF1` is biconditional **only over already-proposed,
 on-Telos candidates**; over *all* claims it is only-if (a falsifiable+testable triviality about the cafeteria
@@ -158,9 +197,9 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 3. **It would gate out the interior frontier** (F2/DV3 = bond's generative reason to exist) **unless lagged +
    external routes count** — which is exactly why testability admits them, and exactly what re-opens #1/#2.
 
-**Caveat (self-applying):** this pair is itself a fiat-class method-invariant → by `IFF2` it stays
-`@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot be it). Landing
-≠ ratifying.
+**Caveat (self-applying):** this pair is itself a **no-oracle** method-invariant (decisional-terminus) → by
+`IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
+be it). Landing ≠ ratifying.
 
 ---
 
