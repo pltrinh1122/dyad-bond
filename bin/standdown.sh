@@ -48,10 +48,21 @@ dur_line="clean + in sync on \`$branch\`."
 [[ -n "$dirty" ]] && dur_line="⚠ DIRTY on \`$branch\` — commit + push so the memory is grounded."
 [[ -z "$dirty" && "$unpushed" != "0" ]] && dur_line="⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh)."
 
+# Scratch tank — the cheapest triage moment is NOW (context still live), not next-session resume.
+scratch_line="✓ tank clean."
+if [[ -s /mnt/shared_data/dzw/.dyad-bond-state/scratch.jsonl ]]; then
+  if sc="$(bin/scratch.sh --count 2>/dev/null)" && [[ "$sc" =~ ^[0-9]+$ ]]; then
+    [[ "$sc" != "0" ]] && scratch_line="⚠ $sc unreviewed save(s) — land the settled / --done the rest before the boundary (cheap now, dear next session)."
+  else
+    scratch_line="⚠ could not read the tank — check by hand."
+  fi
+fi
+
 mech="$(printf '%s\n' \
   "dyad-bond stand-down — mechanical:" \
   "  ROM: $rom_line" \
-  "  Durability: $dur_line")"
+  "  Durability: $dur_line" \
+  "  Scratch: $scratch_line")"
 
 if [[ "${1:-}" == "--log" ]]; then
   printf '%s\n' "$mech"
@@ -76,5 +87,8 @@ dyad-bond stand-down — JUDGMENT (the agent fills; auto-trigger ≠ auto-judgme
       learned, what is now the live front, what carries. Single-home the prose in relationship-craft.md /
       cross-dyad-craft.md; the ledger holds the pointer + the resume-visible delta.
    4. Theory-pipeline: advance exec_phase / next_probe for any candidate touched this session.
-   5. Durability (above): commit + push before stepping away — unpushed history is ungrounded memory.
+   5. Scratch (above): triage the tank while context is live — land the settled into dialectic/, then
+      bin/scratch.sh --done <id>; --done or discard the rest. An un-triaged tank rots (Item-I) and the
+      reload-cost lands on next-session-you. (save ≠ land; the tank is a transient buffer, not a home.)
+   6. Durability (above): commit + push before stepping away — unpushed history is ungrounded memory.
 TEMPLATE
