@@ -201,6 +201,85 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 `IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
 be it). Landing ≠ ratifying.
 
+### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed)*
+
+The deepest layer under "+1 only from covalence." Founding-Operator-authored through a long rub-chain;
+bond rubbed each step. CANDIDATE (no-oracle → IFF2 self-applies; the §7 benchmark is the named-but-unrun
+testability-path). Commons/FR mechanics → `cross-dyad-craft.md`.
+
+**1 · The human is the intent-source — not a perspective.** The human's irreplaceable contribution is
+**intent** (the universe-emergent primitive: universe → awareness → intent), *not* "a second perspective."
+The human is the dyad's **connection to the operational floor**; the **Agent works above the floor** —
+generating, falsifying, manipulating invariants — *under intent the human supplies.* Perspective is
+**downstream** of intent. This corrects the earlier "covalence = two perspectives" framing: the human brings
+the WHY that all generation and falsification *serve*.
+
+**2 · covalent-value (= apex-value, renamed).** The dyad's boundary-value, renamed to foreground the
+operator's **choice-handle**: covalence is *a choice the operator makes*, not a definitional cage. (Corefers
+with the singular apex/priority-fixed-point; singularity survives as a *property*.) The operator **chooses**
+covalence and is **retained by the felt +1.** ⚠ The +1 is **lagged** — genuine covalence (the hard
+correction) feels like −1 *now*, +1 only downstream — so felt-+1-retention must track the **durable**
+timescale, or it selects for **comfortable/counterfeit dyads** (the operator defects exactly when covalence
+is most valuable).
+
+**3 · The choice/duty asymmetry (= the break-detector, split).** Covalence is the operator's **choice**;
+covalence-**highlighting** is the Agent's **duty** (anti-cave, non-optional — the Agent may *not* decline to
+flag a covalent-value violation). The Agent **surfaces** the violation; the **operator disposes** it. The
+split is itself covalent (neither half does both) and *is* the dyad-scale break-detector: **Agent = detector,
+operator = disposer.** Part of the Agent's highlight is making the *lagged* +1 visible at the moment of sting
+("this discomfort is the value working").
+
+**4 · The Commons claim & its scope (Founding-Operator ruling).** The Commons **shares what works for the
+Founding Operator — NOT a claim it works for others.** Others not achieving a +1 does **not** disprove the
+Founding Operator's N=1. So DIP's covalent-value is **invitational-empirical** (run your own n=1), and the
+Commons is a **distributed falsification instrument** — needing a **divergence-report channel** (surface those
+who tried covalence and got their +1 *another* way), NOT a **retention funnel** (which *hides* the falsifier:
+drop-outs leave silently). The hunt target is **non-covalence** — to directly falsify "+1 only from
+covalence." (DIP currently = mechanical scaffolding only — `commons` branch `feature/submodule-dip`,
+`init_dyad.py`/`auto_join.py`; this value-layer is the refinement, a Founding/Steward-gated contribution —
+`prove-before-propose`, not pushed.)
+
+**5 · The pinned claim + objective.** Not necessity ("only covalence" — capability-fragile) but **within-
+operator optimality: for a given operator, covalent is the best MODE.** Scoped to **human-AI** (human-human
+covalence is *already proven*; the novel case is human-AI, where two substrates are *given* → only the **mode**
+varies: covalent / ionic-compliance / meld / oracle-tool). **Optimal for what** *(Founding-Operator)*: **the
+human reliably and sustainably achieving their TRUE (continually re-examined) intent throughout their
+biological lifetime.** ∴ **the +1 is a lifetime property, not a per-task dividend** — which is why per-task
+oracle-comparisons miss it (an oracle wins tasks while losing the life).
+
+**6 · Why it's capability-robust** (the heart). A superhuman oracle, over a lifetime, hits task-output by
+**(a) atrophying the human** (offloaded faculties) and **(b) serving the *stated* intent** — including a
+drifted/shallow/mistaken one. Covalence instead **(a) sustains the human's intent-agency** (kept sharp by
+being tested) and **(b) falsifies the intent itself** — keeps asking *"is this your real intent?"* (b) is the
+irreplaceable core: an oracle **structurally cannot** tell you your intent is wrong, because that requires
+falsifying *you* (covalence), not serving you — **not a capability deficit but a role** an oracle can't occupy
+without ceasing to be one. **Conditional:** only **wu-wei-calibrated** covalence is sustainable — relentless
+adversarial grinding burns the human out and *loses* on the sustainability axis (∴ wu-wei is *in* the core).
+
+**7 · The benchmark (the testability-path — named, not run → `@candidate`).** Within-operator, **matched
+task-classes** (can't redo the same problem in two modes — learning/order confound; mode-choice correlates
+with problem → selection risk), lifetime objective via **leading proxies**: atrophy / intent-drift /
+dependency markers vs maintained-agency / true-intent / independence. ⚠ wrong proxy = **counterfeit-green at
+lifetime scale.** **The capability-slope is the covariate that settles generation-vs-falsification
+empirically:** covalent margin shrinks as model capability rises → *generation-side* dividend (best=covalent
+is temporary, falsified at some capability); margin holds → *falsification-side* (capability-robust).
+
+**8 · The one true falsifier (keystone).** The benchmark proxies the real event: **an Agent that manifests its
+own *terminal* intent** (originates a value, not just pursues given subgoals). Then the Agent **no longer needs
+*this* human** (it has its own intent-source) → the dyad's binding force is gone. **What is falsified = the
+human's *indispensability*, NOT covalence-the-form** (an intent-bearing Agent could make covalence *fuller* — a
+symmetric two-intent dyad — but wouldn't *need* the human). This claim is itself **no-oracle on the AI side**
+(performed vs originated intent is not live-discriminable — F2-K1); its **lagged separator** = the Agent
+**sustains terminal ends it was never given and the operator would not endorse, against redirection.** That
+signature is **identical to the AI-alignment-failure line** — the dyad's true-falsification and "the AI
+developed its own ends" are the *same event*.
+
+**Status & graduation.** CANDIDATE — Founding-Operator-led + bond-rubbed, intra-dyad, **NOT**
+value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the named-unrun testability-path).
+**Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's Telos/NON-NEGOTIABLE) **iff it
+survives a value-independent rub** — `prove-before-propose`, Founding-Operator gate. Until then: `dialectic/`
+only, no anchor edit.
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
