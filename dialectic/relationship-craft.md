@@ -105,6 +105,61 @@ The theory has many moving parts → **not one experiment but a program.** Best-
 - **The experiments = our fronts re-seen:** F1–F4 · F2⭐/M1/M2 · the G/V-independence front (below) · new: complexity-context of translation, intent-seam-worsens-with-scale.
 - **Construct-validity gap = experiment #1:** no validated *measure* yet for the two DVs that matter most (meld-incidence, felt-dividend) — designing them **is** F2/M1. **Gut-check (CONVERGE):** grounded enough to *start* the observational program; keystone experiments stay trigger-gated.
 
+### The materialization gate — what may enter the model *(s-local7 raff, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — `no-self-ratify`)*
+
+> **Provenance + name-collision note:** these are the s-cloud-mobile CLIP-2 method-invariants ("M1/M2"),
+> sharpened in the 2026-06-22 falsifiable-vs-testable riff and landed here. **Renamed off `M1/M2`** —
+> those labels are already taken (M1 = the gap-naming discriminator / commit-telemetry-void; M2 = the
+> is-meld-real-for-us experiment) and reusing them compounds the Item-L tag-collision. Use the
+> content-names below.
+
+**`mi:materialize` — the materialization gate (the "both-gate").** A *proposed, on-Telos* candidate
+materializes into the model **iff it is falsifiable ∧ testable.** The two are distinct (the riff's spine):
+- **Falsifiable** = *in principle* the claim **forbids** some observation. A **binary gate** (forbids-something:
+  y/n) carrying one real gradient — **boldness/content** (how much it forbids; Popper's "degree of
+  falsifiability"). This is the A-vs-B gap: "covalence helps" forbids little (low); "*only* covalence" forbids
+  every solo-bonus (high).
+- **Testable** = *in practice* the refuter is **reachable**, via a **named instrument**. Gradient-all-the-way:
+  immediate → **lagged** (durability) → **external** (cross-dyad / 2nd-model audit) → no-known-instrument.
+  This is **D7 ("valid vs reachable instrument") promoted from a claim-time discipline to the intake gate**
+  (sharpens `theory-pipeline.yaml`'s documented "falsifiability check" → falsifiability **+ testability**).
+- **Why both:** falsifiable-but-untestable is operationally identical to **dogma** — the refuter exists but
+  never arrives, so the claim never dies (the whole F2/DV3 hazard).
+
+**`mi:fiat-audit` — the fiat-anchor clause** *(= `mi:materialize`'s testability-half for the unreachable
+class, NOT a separate rule).* Candidates with no internal/immediate test — **fiat anchors, the felt
+interior** — get their testability from a **mandatory external 2nd-model audit** (value-independent / foreign-
+telos). A fiat has no derivation to re-check → only consequential falsification → it self-conceals → "not
+non-falsifiable" is *nominal* until an external separator can register it. So M2's audit **is** the named
+instrument that lets a fiat clear the gate.
+
+**The iff is scoped — admit vs. rank.** `mi:materialize` is biconditional **only over already-proposed,
+on-Telos candidates**; over *all* claims it is only-if (a falsifiable+testable triviality about the cafeteria
+coffee is not a candidate). Two filters sit *outside* the gate:
+- **Relevance / on-Telos** = a **pre-filter** (what makes something a proposed candidate at all).
+- **Boldness** = a **ranking** axis (how high an admitted candidate sits), **not** an admission gate
+  (gradients rank; gates admit).
+
+**Rung meaning (operationalizes `@candidate` → `@ratified`).** `@candidate` = falsifiable + testability-path
+**named** but not yet run; `@ratified` = the path **run and survived.** (Matches exactly the caveats
+s-cloud-mobile landed F2/DV3 + singular-apex under: "un-validated durability-oracle" = the lagged route
+named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
+
+**Standing rubs (carried, unresolved — the gate is sharper than falsifiability-alone but inherits these):**
+1. **The bar is a judgment, not a switch.** Falsifiability has a crisp binary; testability is gradient-all-
+   the-way, so "testable: yes" needs a *threshold* (lagged-6mo = passes? no-known-instrument = fails?) — a
+   judgment, not a mechanical check. The both-gate is **softer at the threshold** than `mi:materialize` looks.
+2. **"Named instrument" is gameable.** Satisfiable by hand-waving ("durability will tell us eventually"). The
+   bite is in **specificity**: not "durability sorts it out" but "*this* durable consequence, observed *this*
+   way, by *then*, counts as the refutation" — else the testability-clause launders the dogma it was meant to
+   exclude.
+3. **It would gate out the interior frontier** (F2/DV3 = bond's generative reason to exist) **unless lagged +
+   external routes count** — which is exactly why testability admits them, and exactly what re-opens #1/#2.
+
+**Caveat (self-applying):** this pair is itself a fiat-class method-invariant → by `mi:fiat-audit` it stays
+`@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot be it). Landing
+≠ ratifying.
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
