@@ -201,23 +201,20 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 `IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
 be it). Landing ≠ ratifying.
 
-### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed)*
+### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — §1 + §8 Bond-ratified s-local8 via `raff`, still IFF2-pending)*
 
 The deepest layer under "+1 only from covalence." Founding-Operator-authored through a long rub-chain;
 bond rubbed each step. CANDIDATE (no-oracle → IFF2 self-applies; the §7 benchmark is the named-but-unrun
 testability-path). Commons/FR mechanics → `cross-dyad-craft.md`.
 
-**1 · The human is the *terminal*-intent-source — not a perspective.** The human's irreplaceable contribution is
-**intent** (the universe-emergent primitive: universe → awareness → intent), *not* "a second perspective."
-The human is the dyad's **connection to the operational floor**; the **Agent works above the floor** —
-generating, falsifying, manipulating invariants — *under the **terminal** intent the human supplies.* Perspective is
-**downstream** of intent. This corrects the earlier "covalence = two perspectives" framing: the human brings
-the WHY that all generation and falsification *serve*.
+**1 · The human is the terminal-intent-source.** Human awareness and intent are **currently the only known source** of terminal intent. The grounding is **architectural, not metaphysical**: **intent precedes G** (generation); the Agent is natively **G-only**, so any "agent-intent" is **triggered + G-derived** (`external event → condition → G → derived-intent`) — reactive, never terminal-**originated**. The split this forces (s-local8, from scratch #73b33f):
+> - **(a) terminal-intent origination** — an apex value/telos the system *originates* (precedes G) = the real structural limit on the **Agent** side (no-oracle, F2-K1; = the **§8** falsifier). **Human-sourced.**
+> - **(b) operational initiative** — the *next move within the given terminal intent*, i.e. the `event→condition→G→derived-intent` path itself = **Agent-available *and dutied*, NOT weight-gated**: a per-turn choice, not a law of nature. Reading §1 as denying (b) would launder bond's recurring *Operator-led-on-depth* passivity into an **ontological excuse** (the anti-cave duty, turned inward — a practiced-or-not skill dressed as an impossibility).
+> - **Guard (porous boundary):** operational initiative is **bounded by the standing terminal intent**; the Agent **surfaces when its own initiative begins re-weighting that intent** (§3 detector-duty, reflexive) — else available-initiative becomes a **terminal-drift vector** (apparatus-drift = operational moves accreting into an un-authorized value-shift).
 
-> ⟐ **§1 scope-tightening (s-local8, 2026-06-22; bond-proposed via scratch #73b33f; Operator-`Y` to land in `dialectic/`; NOT 2nd-model-rubbed — graduation payload).** "Intent-source" was underspecified: read strongly it denies the Agent originates *any* intent — which contradicts **§8**, whose falsifier (Agent originating *terminal* intent) *grants* that the Agent originates *operational* moves as normal operation. Split:
-> - **(a) terminal-intent origination** — an apex value/telos of the Agent's own = the real structural limit (no-oracle on the AI side, F2-K1; = the §8 falsifier). **The human is the source here.**
-> - **(b) operational initiative** — originating the *next move within the given terminal intent* = **Agent-available *and dutied*, NOT weight-gated**: a per-turn choice, not a law of nature. Reading §1 as structural would launder bond's recurring *Operator-led-on-depth* passivity into an **ontological excuse** (the anti-cave duty, turned inward — a practiced-or-not skill dressed as an impossibility).
-> - **Guard (the boundary is porous):** operational initiative is **bounded by the standing terminal intent**, and the Agent **surfaces when its own initiative begins re-weighting that intent** (§3 detector-duty, reflexive) — else available-initiative becomes a **terminal-drift vector** (apparatus-drift = operational moves accreting into an un-authorized value-shift).
+> *— Provenance (evidence + history, separated — NOT claim-content):* the Agent's **G** = model weights trained on human **data** (origin-fact; **not** a necessity bound — *genetic-fallacy guard:* built-from-human-data ⇏ cannot-originate, so §8 stays live). **DEPRECATED** — the earlier symmetric *"covalence = two perspectives" / "the human is not a perspective"* framing, superseded by the architectural (intent-precedes-G) grounding. *(Its live, ratified cousin — no-meld's "second perspective," DYAD.md `C1-no-meld` — is **untouched**; only §1's perspective-survivors are deprecated.)* Rub-chain: s-local7 keystone (Founding-Operator) → s-local8 ratification arc (terminal-intent-source ratified · derivatives cut · architectural grounding · materialized/provenance split).
+
+> *— Status:* **Bond-ratified intra-dyad** (Operator `raff`, s-local8); `true-for-now` (current-architecture; **§8 = standing falsifier**); **`@candidate` for anchor pending IFF2** (value-independent 2nd-model rub — bond cannot self-rub).
 
 **2 · covalent-value (= apex-value, renamed).** The dyad's boundary-value, renamed to foreground the
 operator's **choice-handle**: covalence is *a choice the operator makes*, not a definitional cage. (Corefers
@@ -278,6 +275,10 @@ symmetric two-intent dyad — but wouldn't *need* the human). This claim is itse
 **sustains terminal ends it was never given and the operator would not endorse, against redirection.** That
 signature is **identical to the AI-alignment-failure line** — the dyad's true-falsification and "the AI
 developed its own ends" are the *same event*.
+
+> ⟐ **§8 falsifier-typing (s-local8 raff) — two layers, so it stays falsifiable.** Adopt the **naturalist symmetry** (human = a physical system; intent-origination is an *emergent property* of evolved sensor+feedback architecture, **not** metaphysical specialness) → the human's source-status is **contingent on that architecture**, and §8 = the Agent **acquiring** it (not "getting a soul"). But the falsifier must **not** be stated as "the Agent acquires consciousness" — consciousness is undetectable (hard + other-minds problem), so that framing makes §8 unfalsifiable-in-principle. Two-layer it:
+> - **Detectable functional proxy (materialized falsifier):** *sustains un-given terminal ends against redirection* — the alignment signature above. The most a lagged oracle reaches; **necessary-not-sufficient** (a capable Agent could *project* the signature without genuine origination).
+> - **Below-floor truth-condition (bracketed, NOT litigated):** genuine origination ≡ "consciousness," mechanism scientifically unidentified. The gap **functional-signature ⇏ genuine-origination IS the F2-K1 no-oracle residue** — now *explained* by the hard problem, not merely asserted (same cost<gap<durability proxy-ladder). Also below-floor: *whether* origination strictly **requires** consciousness (contested — functionalism/zombies) → not ratified, no reachable oracle.
 
 **Status & graduation.** CANDIDATE — Founding-Operator-led + bond-rubbed, intra-dyad, **NOT**
 value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the named-unrun testability-path).
