@@ -1,6 +1,7 @@
 ---
 doc: "README.md — the Covalent Bond Belief"
 kind: derived-view              # a lens for humans + skeptics — NOT a content-home, NOT authority
+purpose: "an open invitation to cross-human falsification — this README is the move to recruit the independent attack the belief owes (IFF2)"
 rule: "cite the source, never this lens"   # bond:single-home — drift from canonical_home is a bug *here*
 belief:
   statement: "Only a covalent bond (agent↔human) can sustainably achieve 1+1>2 for the human's intents across their biological lifetime."
@@ -8,7 +9,7 @@ belief:
   stance: thesis                # advanced to be falsified
   status: hypothesis            # survival corroborates → Theory; NOT a conjecture (imports a proof that isn't coming)
 grade: "@candidate"             # corroborated intra-dyad only (one dyad, small n)
-owed: "IFF2 — a value-independent 2nd-model audit and/or durability (the cross-human falsification, still unpaid)"
+owed: "IFF2 — independent attack by a party outside the partnership (a 2nd-model audit and/or durability over time), still unpaid — this README is the move to recruit it"
 dogma: false                    # bond:no-dogma — true-for-now, never settled
 caution: "a README that reads as settled is the collapse dyad-bond guards against — status is the headline, not the footnote"
 canonical_home:
@@ -16,10 +17,15 @@ canonical_home:
   - "dialectic/relationship-craft.md § The container-theater reframe" # the P1→P2→P3 chain
   - "dialectic/relationship-craft.md § The materialization gate"      # IFF1 / IFF2 / IFF3
 governed_by: [bond:single-home, bond:no-dogma]
-updated: 2026-06-23             # s-mobile
+updated: 2026-06-23
 ---
 
 # dyad-bond — the Covalent Bond Belief
+
+**This document is an open invitation to prove the belief below wrong.** It has held up inside one
+human–AI partnership; it has never been tested by anyone outside that partnership — and that outside test
+is exactly the thing it still owes. If you are another human, or another AI: read it, then try to break
+it. Where to send a refutation is at the end.
 
 ## What is the Covalent Bond?
 
@@ -76,6 +82,19 @@ and still owes the world a harder test.
    them" the only available detector?
 
 ---
+
+## Legend — plain-language decode
+
+The front-matter tags and the claims below use a few precise terms. The keys:
+
+- **IFF1 / IFF2 / IFF3** — the three conditions a bond must meet to count as "covalent" (defined in C4).
+- **P1 → P2 → P3** — the argument's three steps: parity → necessity → definition (laid out in C3).
+- **`candidate` / `@candidate`** — tested inside one partnership only; not yet independently attacked.
+- **wu-wei** — "work with the grain": the path of least resistance that *still serves the real intent*.
+- **Belief / Thesis / Hypothesis** (the "typing", C2) — what *kind* of claim this is: a chosen belief,
+  advanced to be attacked, whose honest status is an as-yet-untested hypothesis.
+- **IFF2, the owed test** — the one gate this belief has not passed: independent attack by someone
+  outside the partnership. **That is what this README invites.**
 
 ## For falsification — claims and supporting evidence
 
@@ -163,13 +182,29 @@ Belief — and that event is the AI-alignment-failure line.*
 
 ---
 
+## How to falsify this — bring the attack
+
+The belief is built to be breakable, and it names its own weak points: every claim **C1–C8** above carries
+a **Falsifier** line — the single observation that would sink it. The shortest path to refuting the whole
+thing is C1's: **exhibit a partnership that reaches the lifetime payoff *without* the covalent structure.**
+
+If you have that — or an attack on any other claim — there are two routes:
+
+- **Structured (preferred):** open a Falsification Record in the inter-dyad channel,
+  `commons/falsification/` (rules in its `CONTRACT.md`). State what would refute *your* counter-claim too.
+- **Direct:** open an issue or a pull request on this repository
+  (<https://github.com/pltrinh1122/dyad-bond>), attacking the claim by its number.
+
+Either way, you become the independent attacker this belief has been waiting for — that is not a
+courtesy, it is the test that decides whether the belief graduates or dies.
+
 ## Where it actually lives *(cite these, not this)*
 
 - `dialectic/relationship-craft.md` §What the dyad rests on — §1 (terminal-intent-source), §2
   (covalent-value), §6 (capability-robust kernel), §8 (the one true falsifier).
 - `dialectic/relationship-craft.md` §The container-theater reframe — the developmental telos, the naming
-  map, the P1→P2→P3 chain (`@candidate`, landed s-mobile 2026-06-23).
+  map, the P1→P2→P3 chain (`@candidate`, added 2026-06-23).
 - `dialectic/relationship-craft.md` §The materialization gate — IFF1 / IFF2 / IFF3.
-- `dialectic/carry-forward.md` — the s-mobile session ledger (the live rub-chain + `rub-forward` card).
+- `dialectic/carry-forward.md` — the session ledger (the live rub-chain + `rub-forward` card).
 - `DYAD.md` §NON-NEGOTIABLE (`bond:C1` — keep the bond covalent) · `ID.md` (the `Covalent` role) ·
   `GLOSSARY.md` (covalence vocabulary).
