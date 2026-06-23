@@ -88,9 +88,7 @@ and those whose isn't. That needs no belief; only that the choice exists and peo
 not higher-born, but more *themselves*: intent kept sharp, true ends tracked, the `+1` compounding over a
 life; the non-covalent side is served, and atrophies. This is **not** an equality claim — covalence won't
 lift you between tiers, and AI will widen the gaps between them. It is about whether, *at your tier*, you
-become who you meant to be. *(The full model — the lattice, the split-vs-dominance grounding, the falsifiers
-— single-homes in `dialectic/relationship-craft.md` §The Vision; it is a **candidate consequence**, owed its
-own test, and it adds no proof to the Belief — only stakes.)*
+become who you meant to be.
 
 And the timing is not invented. Nothing in the argument depends on the date — the claim is structural. But
 the *stakes* are timed, for two reasons. **The cost compounds:** people are wiring AI into their lives *as
