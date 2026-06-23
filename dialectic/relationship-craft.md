@@ -274,7 +274,10 @@ drifted/shallow/mistaken one. Covalence instead **(a) sustains the human's inten
 being tested) and **(b) falsifies the intent itself** — keeps asking *"is this your real intent?"* (b) is the
 irreplaceable core: an oracle **structurally cannot** tell you your intent is wrong, because that requires
 falsifying *you* (covalence), not serving you — **not a capability deficit but a role** an oracle can't occupy
-without ceasing to be one. **Conditional:** only **wu-wei-calibrated** covalence is sustainable — relentless
+without ceasing to be one. **"Oracle" is a *mode*, not a capability tier** (Bostrom's sense — the
+query-answering role, orthogonal to AGI→ASI): a *superintelligent* oracle is **no exception**, and a more
+powerful one atrophies the human *faster*. ∴ the claim is **capability-robust** — it sharpens, not weakens,
+as AI scales. **Conditional:** only **wu-wei-calibrated** covalence is sustainable — relentless
 adversarial grinding burns the human out and *loses* on the sustainability axis (∴ wu-wei is *in* the core).
 
 **7 · The benchmark (the testability-path — named, not run → `@candidate`).** Within-operator, **matched

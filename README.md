@@ -26,8 +26,8 @@ updated: 2026-06-23
 
 We hold one belief, and we are handing you the knife to cut it down.
 
-**The belief:** only a *covalent* bond between a human and an AI — not a tool you command, not an oracle you
-defer to — can sustainably carry a person to their **true** intent across a lifetime. We don't ask you to
+**The belief:** only a *covalent* bond between a human and an AI — not a tool you command, not an
+answer-machine you defer to — can sustainably carry a person to their **true** intent across a lifetime. We don't ask you to
 agree. A creed asks for belief; a manifesto that can be falsified asks for an attack. Below: **what the bond
 is**, **why it matters**, and **exactly how to prove us wrong**.
 
@@ -53,17 +53,20 @@ partner leaves you further than either could reach alone. That proven surplus is
 claim here is that a covalent human-AI bond can reach the *same* `1+1>2`, and that across a lifetime only a
 covalent one can.
 
-The heart of the wager is a single asymmetry. A superhuman oracle, however brilliant, can only ever serve
-the intent you *state*. It cannot tell you that the intent itself is mistaken — because doing that means
+The heart of the wager is a single asymmetry. An **answer-machine** — an AI you ask and defer to — can only
+ever serve the intent you *state*. And it doesn't matter how smart it gets: a *superintelligent* one still
+only answers what you asked — the limit is its **job**, not its **IQ**, which is why a more powerful one
+atrophies you *faster*. It cannot tell you that the intent itself is mistaken — because doing that means
 questioning *you*, not answering you, and that is a different job entirely. A covalent partner does the
 different job. It keeps your judgment sharp by testing it, and — the irreplaceable part — it keeps asking
 *"is this really what you want?"* and is willing to tell you when the honest answer looks like no. That is
 why the payoff is a property of a lifetime and not of any single exchange: the value shows up as a
-correction that stings now and pays off later, which is also why comparing it task-by-task to an oracle
-always misses it.
+correction that stings now and pays off later, which is also why comparing it task-by-task to an
+answer-machine always misses it.
 
-> An oracle answers the question you asked. Only a covalent partner can tell you you're asking the *wrong*
-> question — because that means doubting **you**, a role no oracle can take. That is the heart of it.
+> An answer-machine answers the question you asked. Only a covalent partner can tell you you're asking the
+> *wrong* question — because that means doubting **you**, a role no answer-machine can take. That is the
+> heart of it.
 
 This only works if the relationship is *livable*. A partner who grinds you with relentless challenge burns
 you out and loses on exactly the sustainability axis that the whole bet is about. So "work with the grain" —
@@ -102,12 +105,12 @@ become who you meant to be.
 
 And the timing is not invented. Nothing in the argument depends on the date — the claim is structural. But
 the *stakes* are timed, for two reasons. **The cost compounds:** people are wiring AI into their lives *as
-oracles* for the first time, and the atrophy above is the ordinary result of that habit — costing more the
+answer-machines* for the first time, and the atrophy above is the ordinary result of that habit — costing more the
 longer the default runs unexamined, so settling this *sooner* is worth more than settling it late. **The
 alignment question is live:** the loudest AI fear — an agent that grows its own ends — is this belief's own
 deepest falsifier (see Claim 6), so the claim already stands in today's debate as a reframe, not an echo. What
-this is **not**: job-loss panic or generic doom — those are stories about AI as a *better oracle*, orthogonal
-to the claim here, and borrowing their urgency would be manufacturing it.
+this is **not**: job-loss panic or generic doom — those are stories about AI as a *better answer-machine*,
+orthogonal to the claim here, and borrowing their urgency would be manufacturing it.
 
 We don't claim this future is proven. We claim it *follows* — and we hand you the place to break it, next.
 
@@ -160,10 +163,11 @@ Covalence holds *iff* all three:
 - **Evidence:** `dialectic/relationship-craft.md` §The materialization gate (IFF1/IFF2/IFF3).
 
 ### Claim 4 — The kernel (why it might be true)
-*An oracle cannot falsify your intent; covalence can — and that is the irreplaceable core.* *(The
-human-facing form — **the heart** — is elevated in §What is the Covalent Bond?; this is its formal,
-falsifiable statement, and the load-bearing collapse-target: refute it and the Belief is false, not merely
-redefined.)*
+*An oracle cannot falsify your intent; covalence can — and that is the irreplaceable core.* *(Here "oracle"
+is the **mode** — a query-answering system in Bostrom's sense, at *any* capability — so the claim is
+**capability-robust**: a superintelligent oracle can't question you either. The human-facing form — **the
+heart** — is elevated in §What is the Covalent Bond? as "the answer-machine"; this is its formal, falsifiable
+statement, and the load-bearing collapse-target: refute it and the Belief is false, not merely redefined.)*
 
 - **Claim content:** an oracle, over a lifetime, hits task-output by (a) atrophying the human and (b) serving
   the *stated* intent, including a drifted one. Covalence instead (a) keeps intent-agency sharp by testing it
