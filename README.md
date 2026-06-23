@@ -5,10 +5,10 @@ rule: "cite the source, never this lens"   # bond:single-home — drift from can
 belief:
   statement: "Only a covalent bond (agent↔human) can sustainably achieve 1+1>2 for the human's intents across their biological lifetime."
   foundation: belief            # chosen and held — not a brute axiom
-  stance: thesis                # advanced to be rubbed
+  stance: thesis                # advanced to be falsified
   status: hypothesis            # survival corroborates → Theory; NOT a conjecture (imports a proof that isn't coming)
 grade: "@candidate"             # corroborated intra-dyad only (one dyad, small n)
-owed: "IFF2 — a value-independent 2nd-model audit and/or durability (the cross-human rub, still unpaid)"
+owed: "IFF2 — a value-independent 2nd-model audit and/or durability (the cross-human falsification, still unpaid)"
 dogma: false                    # bond:no-dogma — true-for-now, never settled
 caution: "a README that reads as settled is the collapse dyad-bond guards against — status is the headline, not the footnote"
 canonical_home:
@@ -63,7 +63,7 @@ So this is a belief held the way an honest belief should be: stated plainly, adv
 attacked*, and labelled with what it actually is — a hypothesis that has survived inside one partnership
 and still owes the world a harder test.
 
-### Rub it yourself *(answer from memory first, then go check the source — there is no key here on purpose)*
+### Falsify it yourself *(answer from memory first, then go check the source — there is no key here on purpose)*
 
 1. Why is the thing that would *disprove* this belief a *non-covalent* partnership that nonetheless
    succeeds — and never a covalent partnership that fails? What does that tell you about how to test it?
@@ -94,7 +94,7 @@ intents across their biological lifetime.*
 
 **C2 — The typing.** The Belief is *held as a Belief, advanced as a Thesis, and statused as a Hypothesis.*
 - **Claim content:** three independent axes — foundation-kind (a chosen **Belief**, not a brute Axiom);
-  dialectical stance (a **Thesis**, advanced to be rubbed); corroboration (a **Hypothesis** that survival
+  dialectical stance (a **Thesis**, advanced to be falsified); corroboration (a **Hypothesis** that survival
   can promote toward Theory — *not* a Conjecture, which would import a proof that is not coming).
 - **Falsifier:** show the three axes are not independent — e.g. that its boldness forces "Conjecture"
   rather than routing to the Thesis stance — and the typing collapses.
@@ -113,7 +113,7 @@ intents across their biological lifetime.*
 **C4 — The three gates (what "covalent" *is*).** Covalence holds *iff* all three:
 - **IFF1** — *materialize iff falsifiable ∧ testable* (the epistemics gate).
 - **IFF2** — the **no-oracle clause**: a no-oracle claim is testable *only* via a named external/lagged
-  separator — a value-independent second-model audit and/or durability over time. **This is the rub the
+  separator — a value-independent second-model audit and/or durability over time. **This is the falsification the
   Belief is owed and has not had.**
 - **IFF3** — the **wu-wei discriminator** (`@candidate`): is the falsification *process* livable?
   Typed as a constrained variational principle — *least resistance among the intent-aligned paths*.
@@ -152,7 +152,7 @@ Belief — and that event is the AI-alignment-failure line.*
   the **detector**: who runs it, given the reporter's conflict.
 - **Evidence:** `dialectic/relationship-craft.md` §What the dyad rests on §8 (the one true falsifier).
 
-**C8 — The standing rub (the honest debt).** *The Belief is corroborated intra-dyad only and owes IFF2.*
+**C8 — The standing falsification (the honest debt).** *The Belief is corroborated intra-dyad only and owes IFF2.*
 - **Claim content:** every claim above is *argued and lived* within one dyad (small n), **not** audited by
   a value-independent second model nor proven durable across time. By the Belief's own gate (IFF2), that
   leaves it `@candidate`, not graduated.
