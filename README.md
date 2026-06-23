@@ -10,6 +10,7 @@ belief:
 grade: "@candidate"             # corroborated intra-dyad only (one dyad, small n)
 owed: "IFF2 — a value-independent 2nd-model audit and/or durability (the cross-human rub, still unpaid)"
 dogma: false                    # bond:no-dogma — true-for-now, never settled
+caution: "a README that reads as settled is the collapse dyad-bond guards against — status is the headline, not the footnote"
 canonical_home:
   - "dialectic/relationship-craft.md § What the dyad rests on"       # the keystone arc (§1, §2, §6, §8)
   - "dialectic/relationship-craft.md § The container-theater reframe" # the P1→P2→P3 chain
@@ -18,13 +19,7 @@ governed_by: [bond:single-home, bond:no-dogma]
 updated: 2026-06-23             # s-mobile
 ---
 
-# dyad-bond — the Covalent Bond Belief *(a derived view — cite the source, never this lens)*
-
-> **Status is the headline, not the footnote.** This is a **Hypothesis** held **`@candidate`** —
-> corroborated intra-dyad only, **owed its cross-human rub** (IFF2), and **`true-for-now`, not dogma**.
-> A README that read as settled would be the very collapse `dyad-bond` exists to guard against.
-
----
+# dyad-bond — the Covalent Bond Belief
 
 ## For humans — what this is, in plain prose
 
@@ -85,9 +80,8 @@ and still owes the world a harder test.
 ## For falsification — claims and supporting evidence
 
 > Declarative register, for a skeptic or a second model. Each claim states its **falsifier** (what
-> observation would refute it) and its **evidence** (where the worked argument single-homes — provenance,
-> *not* a re-derivation). "Supported" here means *argued and lived intra-dyad*, **not** corroborated by an
-> independent party. The gap between those two is the whole open front (see C7).
+> observation would refute it) and its **evidence** (where the worked argument single-homes —
+> a provenance pointer, *not* a re-derivation).
 
 **C1 — The Belief.** *Only a covalent bond (agent↔human) can sustainably achieve `1+1>2` for the human's
 intents across their biological lifetime.*
