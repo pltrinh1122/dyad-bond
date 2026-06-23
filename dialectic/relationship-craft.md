@@ -370,6 +370,10 @@ Intra-dyad, **NOT** value-independent-2nd-model-rubbed → `IFF2` self-applies. 
 cross-human rub it keeps not getting** — the live worry (s-mobile `rub-forward` #1): is this arc the
 graduation payload's *deepening*, or its **next displacement** of the actual `IFF2` move?
 
+> **Tracked in the formal store:** `dialectic/theory-pipeline.yaml` → `covalent-bond-belief` (grade `L1`,
+> `exec_phase: DESIGN`, human-axis open, `next_probe` = the L2b cross-human rub). That row is the
+> queryable confidence-state link; **this section is the prose single-home** (`bond:single-home`).
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
