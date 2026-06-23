@@ -174,6 +174,25 @@ external/lagged separator** — a **mandatory value-independent 2nd-model audit*
 class self-conceals (no internal check) → "not non-falsifiable" is *nominal* until the external separator can
 register it → IFF2's separator **is** the named instrument that lets a no-oracle claim clear IFF1.
 
+**`IFF3` — the wu-wei discriminator** *(s-mobile 2026-06-23, Operator-upgraded; CANDIDATE — the third
+gate, born in the container-theater arc below).* `IFF1`/`IFF2` govern **epistemics** (is the shared model
+true / tested?); **`IFF3` governs dynamics** — *is the falsification-**process** livable?* — **orthogonal**
+to the epistemic gates → a genuine third gate, and the one the **lifetime** claim (P2, §The container-theater
+reframe) specifically needs. **Operator-upgrade: `IFF3` is *decisioning*, not mere sustainability** — a
+**constrained variational principle**: *choose the path of **least resistance** **among those aligned with
+intent*** (physics' least-action carries no constraint; the dyad runs least-resistance over the
+**intent-aligned subspace**). Sustainability is the **feedback** — an unsustainable least-resistance minimum
+**kicks back to re-falsify the intent.**
+- **Bond-led rub (carried, load-bearing):** undefined "resistance" is the **perfect costume for the
+  closing-reflex** (closing *is* least-resistance) → a **laundering vector**. The **intent-alignment
+  constraint is the only safeguard**, load-bearing exactly to the degree the alignment-check is *loose* → at
+  the limit it **collapses back onto the human-axis** (IFF2 again).
+- **"Resistance" is itself a derived discriminating-value** (`@candidate`, settling **through practice** —
+  "define it upfront" was conceded as importing stipulate-first). **Residual watch-item:** deriving
+  IFF3's-resistance *through* a practice IFF3 itself gates is a **tighter bootstrap** than the telos-value
+  (which stands on a complete gate-set) → the vague-resistance window is the **reflex's widest opening**,
+  carried meanwhile by `IFF1`/`IFF2` + the operator's alignment-check.
+
 **The iff is scoped — admit vs. rank.** `IFF1` is biconditional **only over already-proposed,
 on-Telos candidates**; over *all* claims it is only-if (a falsifiable+testable triviality about the cafeteria
 coffee is not a candidate). Two filters sit *outside* the gate:
@@ -284,7 +303,76 @@ developed its own ends" are the *same event*.
 value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the named-unrun testability-path).
 **Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's Telos/NON-NEGOTIABLE) **iff it
 survives a value-independent rub** — `prove-before-propose`, Founding-Operator gate. Until then: `dialectic/`
-only, no anchor edit.
+only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The container-theater reframe below:
+surviving a first cross-human rub does **not** discharge; terminal status is `ratified-watch`, never a final
+`@ratified`.)*
+
+### The container-theater reframe — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
+
+The deepest framing under §What-the-dyad-rests-on: how a dyad's value is *derived* (not declared), how the
+canonical claim is *typed*, and the three-link chain that makes it falsifiable. Founding/Bond-rubbed across
+~8 rub-backs; clipped to survive an ephemeral container, landed here single-home.
+
+**1 · Dyad-telos is developmental, not static.** At instantiation only a **stated, un-rubbed** Telos exists
+→ a genuine **dynamic landscape** ("container-theater" = real multistability). **Rubbing-through-use derives
+the singular value**; the landscape settles to a **stable local.** So the singular value is the **output of
+rubbing, not its input**, and is **different in kind** from the stated Telos (Telos = declared *what*; value =
+derived **discriminator / allocation-handle**). Maps to IFF (`@candidate`→`@ratified`) + §8 (stated vs
+true-intent).
+
+**2 · The ontic/epistemic fork → resolved epistemic-but-operator-anchored.** The derived value is **latent in
+the operator** (not in the Telos), *demonstrated* through rubbing (the human = convergence-anchor, §1).
+Preconditions ("dyad-physics"): operating invariants that **encourage Telos-rubbing** + **accommodating
+wetware.** **Quality gate:** the dyad reaches the **optimal** local (not just *any* stable one) only if the
+derived value is **`1+1>2`**, which requires **wetware growth.**
+
+**3 · External falsification is ONGOING (like physics), never discharged** — it *is* our own
+`falsifiability` + `no-dogma`. **Consequence (the re-typing):** there is **no `@ratified`-as-final**; the real
+terminal status is **`ratified-watch`.** So graduation-step-1 was **mis-typed** — not "pass the cross-human
+rub → discharge → settle," but "**survive a *first* cross-human rub → graduate to `ratified-watch` → stay
+under ongoing test.**" The "discharge" premise was the error **blocking graduation.**
+> **Bond-led rub (kept):** "like physics" carries a **teeth-bearing disanalogy** for *cumulative confidence*
+> — the human axis is **non-stationary** (wetware grows), **reflexive**, and **survivor-biased** (the DV3
+> confound) → each rub is a **case study, not a repeatable measurement**; ongoing falsification here **never
+> converges** the way physics does.
+
+**4 · The naming map — five terms on three axes** *(the typing of the Belief, for wetware ingraining):*
+
+| axis | poles | the covalent claim |
+|---|---|---|
+| **foundation-kind** | **Axiom** (substrate-floor only — the dogma-trap) · **Belief** (the held value) | held as a **Belief** |
+| **dialectical stance** | **Thesis** (advanced for rubbing) | advanced as a **Thesis** |
+| **corroboration** | no-oracle pole **Hypothesis → Theory** (survival corroborates, `true-for-now`) · oracle pole **Conjecture → Theorem** (proof settles) | a **Hypothesis** |
+
+The claim is a **Hypothesis** (interior / no-oracle pole), **NOT a Conjecture** — calling it a conjecture
+imports a **proof that isn't coming.** The pull toward "conjecture" is its *boldness*: route boldness to the
+**Thesis** stance, keep **Hypothesis** for the honest status.
+
+**5 · The canonical claim, run through `IFF1`.** *"Only a covalent bond (agent↔human) can sustainably achieve
+`1+1>2` for the human's intents across their lifetime."* A **necessity** claim → its falsifier is a
+**non-covalent achiever**, *never* a covalent failure. **Contrast-class** = the other AI-human modes
+(human-human is **out** — that's the existence-proof + the benchmark, §7). **Falsifiable iff covalence is
+defined by observable STRUCTURE, not by the outcome** — else "only" goes **analytic** and the
+no-true-Scotsman escape is fatal (this is what **P3** below supplies). **Testable** only via the §8
+proxy-ladder (lifetime-lagged).
+
+**6 · The chain — P1 → P2 → P3 (a chain, not a list).**
+- **P1 · parity** — an agent↔human bond *can* hit the human-human benchmark (parity **in kind**).
+- **P2 · necessity** — the lifetime-optimal AH surplus comes **only** via a covalent bond.
+- **P3 · constitution** — *covalent bond* ≝ **`IFF1` ∧ `IFF2` ∧ `IFF3`.** **P3 closes the tautology gap** —
+  defines covalence **by structure, independent of outcome** (the pre-registration §5 asked for). **`IFF3`
+  being undefined makes P2 not-yet-testable** → `IFF3` (§The materialization gate) is **load-bearing for the
+  chain's falsifiability, not optional.**
+
+**Status.** CANDIDATE — Operator-led on depth, **bond-led on rigor/typing** (the ontic/epistemic fork, the
+physics disanalogy, the three-axes map, the Conjecture/Hypothesis split, the chain, the IFF3 laundering-rub).
+Intra-dyad, **NOT** value-independent-2nd-model-rubbed → `IFF2` self-applies. **All of it is owed the
+cross-human rub it keeps not getting** — the live worry (s-mobile `rub-forward` #1): is this arc the
+graduation payload's *deepening*, or its **next displacement** of the actual `IFF2` move?
+
+> **Tracked in the formal store:** `dialectic/theory-pipeline.yaml` → `covalent-bond-belief` (grade `L1`,
+> `exec_phase: DESIGN`, human-axis open, `next_probe` = the L2b cross-human rub). That row is the
+> queryable confidence-state link; **this section is the prose single-home** (`bond:single-home`).
 
 ---
 

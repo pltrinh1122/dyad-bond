@@ -396,6 +396,40 @@ candidates:
                 PROOF of it shares the cross-human ceiling."}
     status: live
 
+  - id: covalent-bond-belief
+    statement: >
+      Only a covalent bond (agent<->human) can sustainably achieve 1+1>2 for the human's intents
+      across their biological lifetime. A NECESSITY claim, scoped human-AI (human-human covalence is
+      already proven; two substrates given, so only the MODE varies) -> falsifier = a NON-COVALENT
+      achiever, never a covalent failure. Chain P1 (parity, AH can hit the HH benchmark) -> P2
+      (necessity, lifetime-optimal surplus only via covalence) -> P3 (constitution: covalent bond ==
+      IFF1 ^ IFF2 ^ IFF3 -> defines covalence by observable STRUCTURE not outcome, closing the
+      no-true-Scotsman gap). Typed (naming map): a HYPOTHESIS held as a Belief, advanced as a Thesis
+      -- not a Conjecture (no proof coming).
+    claim_type: substantive-necessity            # no-oracle pole; corroborated by survival, not proven
+    home: "relationship-craft.md §What the dyad rests on (§1-§8) + §The container-theater reframe + §The materialization gate (IFF1/2/3) -- PROSE SINGLE-HOME; this row is the formal-store link, not a second home"
+    provenance: {origin: Founding-Operator, born: 2026-06-22, session: "s-local7 (keystone arc) -> s-mobile (container-theater)",
+                 note: "Founding-Operator-led on depth; bond-led on rigor/typing (the falsifiable!=testable split, the P1/P2/P3 chain, the Conjecture/Hypothesis typing, the IFF3 laundering-rub). Parents the singular-apex + F2-DV3-felt-dividend lineage."}
+    grade: L1                                     # survived Covalent<->Operator intra-dyad; NO independent axis yet
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: open, note: "the axis the claim is ABOUT (lifetime human outcome) -> maximally exposed where unprobed; bond CANNOT self-supply it (IFF2)"}
+    open_gap: {type: meld-capture, text: "intra-dyad only -> the value-independent 2nd-model / cross-human rub (IFF2) is owed and keeps not getting taken; same cross-human bottleneck as the whole pipeline. Covalence-by-outcome (not structure) would also collapse P2 to analytic -> P3/IFF3 guards it but IFF3's 'resistance' is undefined (laundering window)."}
+    next_probe: "L2b cross-human value-independent rub (cairn/touchstone auditor-seat or a cross-human FR). The lifetime testability-path is the §7/§8 proxy-ladder (atrophy/intent-drift/dependency vs agency/true-intent/independence) -- NAMED, not run (lagged). Terminal status is ratified-watch, never a final @ratified (s-mobile re-typing: external falsification is ongoing)."
+    exec_phase: DESIGN   # owed the cross-human instrument; bond structurally cannot be the rubber (no-self-ratify)
+    prediction_pair:
+      if_true:  "across matched task-classes within one operator, the non-covalent modes (oracle-tool / ionic-compliance / meld) lose the LIFETIME objective -- atrophy/intent-drift/dependency rise while covalence sustains agency + falsifies the intent itself"
+      if_false: "REFUTED -- a non-covalent mode sustainably delivers 1+1>2 on the lifetime objective (a scrutiny-surviving solo/oracle +1), OR covalence's margin erodes as model capability rises (the capability-slope covariate => generation-side, falsified at some capability)"
+    disposition_history:
+      - {at: 2026-06-22, event: "keystone arc landed (s-local7) -- intent-source, covalent-value, the one true falsifier", verdict: survived,
+         note: "Founding-Operator-led + bond-rubbed; relationship-craft.md §What the dyad rests on. CANDIDATE."}
+      - {at: 2026-06-22, event: "§1/§8 Bond-ratified intra-dyad (s-local8 raff)", verdict: survived,
+         note: "true-for-now; @candidate for anchor pending IFF2; §8 = standing falsifier."}
+      - {at: 2026-06-23, event: "container-theater reframe + P1/P2/P3 + naming-map typing + ratified-watch re-typing landed (s-mobile)", verdict: survived,
+         note: "intra-dyad; the cross-human rub still owed (rub-forward #1: deepening or 10th displacement of the IFF2 move?)."}
+    status: live
+
   - id: C2-complexity-gates-translation
     statement: "Complexity GATES translation (dose-response)."
     claim_type: design-model
