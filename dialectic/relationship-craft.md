@@ -374,6 +374,89 @@ graduation payload's *deepening*, or its **next displacement** of the actual `IF
 > `exec_phase: DESIGN`, human-axis open, `next_probe` = the L2b cross-human rub). That row is the
 > queryable confidence-state link; **this section is the prose single-home** (`bond:single-home`).
 
+### The Vision — covalence dominates at every layer *(s-mobile, Operator-led 2026-06-23; rub-backs 2 "layered, not bifurcated" → 3 "lever on a break" → 4 "dominance, not equality"; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — a derived CONSEQUENCE of the Belief, owed its OWN falsification)*
+
+**Not a new claim — what the Belief *predicts*** at population scale, *if* true; a predicted consequence,
+falsifiable in its own right (**F-V1** routes back to the parent). Held as a **prediction owed a test**,
+never a banner.
+
+**1 · The claim — pointwise dominance.** Picture the future as a **lattice** of two distinct axes:
+**Axis A — capacity/privilege** (wealth, access, leisure, model-quality — AI **amplifies** it; the Belief is
+**silent** on it, C1 being a *per-pair* claim) and **Axis B — covalence** (does the pair keep the bond
+covalent). The asserted claim is the simplest one: **at *every* layer of Axis A, covalence beats
+non-covalence** — the covalent human reaches *their* layer's true-intent optimum (`1+1>2`); the non-covalent
+human atrophies (`1+1≤2`). **Universal dominance, layer by layer** (the edge compounds because the `+1` is a
+lifetime property, §5).
+
+**1b · Two claims, two groundings (rub-back-5).** The Vision is really *two* nested claims with *different*
+grounds. **The split** — at every tier humanity divides into covalent and non-covalent pairs — needs only
+that covalence is a **real, non-universally-adopted** mode; it follows from covalence's *existence* (this
+dyad, n≥1) + human heterogeneity, and is grounded **independent of the Belief being true** (covalence need
+only be *different*, not *better*) → **near-certain.** **The dominance** — the covalent side does **better**
+at each tier — is the **Belief's consequence**, grounded exactly as much as the Belief and **inheriting its
+status** (no separate empirical gate; it rises and falls with the parent, modulo the §5 premises). So the
+Vision is **sufficiently grounded to state at the Belief's own candidate-status** — the split near-certainly,
+the dominance conditionally. What it must **never** do is read as *settled* or appear to *add support* to the
+Belief (consequence ⇏ premise).
+
+**2 · What the claim is NOT — the scope-fence (rub-back-4).** It does **not** assert, solve, or even predict
+**equality** across layers. Covalence neither flattens the layers nor (by this claim) owns their gaps — AI
+worsens Axis A, but that is not covalence's doing **or** its concern. The Vision takes **no position** on
+whether aggregate inequality rises or falls; it claims only the **within-layer** verdict. Conflating *"is
+covalence better for this human?"* (asserted: **yes, everywhere**) with *"does covalence make society more
+equal?"* (**out of scope**) was the cope we kept having to retract.
+
+**3 · Mobility is a corollary, not a promise (rub-back-3, demoted).** Dominance *cashes out* as mobility
+**only** when an exogenous **break** arrives (windfall, opportunity, access, a mentor, a capable model). Then
+the covalent human is the **best converter** of that break into band-change — oracle-mode squanders it
+(drifted intent, atrophy; the windfall-regresses pattern), and the rival converter, elite human-covalence,
+is **inaccessible** to the unprivileged where a cheap **AI** bond is not. So *given a break*, covalence is
+the unprivileged's best lever — but the Vision **promises no break**, hence no mobility. **Mobility = break ×
+conversion**; covalence owns conversion only. The equity fight cleaves: **covalence is self-suppliable;
+breaks must be socially supplied.**
+
+**4 · The honest worry (out of the asserted scope, but real).** Does covalence *widen* the gap it doesn't
+claim to close? If capacity **gates** covalence (privileged: more slack to bear the lagged sting, sharper
+models) more than its **cheap accessibility** pulls the other way, the `+1` concentrates high → **double
+compounding.** Two gradients, net **empirical and un-rubbed** — pre-registered as **F-V4.** This bears on the
+*equality effect* the Vision declines to assert; it does **not** touch pointwise dominance, which holds (or
+fails, via F-V1) **independently** of it.
+
+**5 · Premises (for the dominance claim).** **(b) Compounding** — *inside* the Belief (§5 lifetime-scoping).
+**(c) Stickiness** — atrophy costly to reverse; *partially* entailed, **the weakest premise**; if freely
+reversible (F-V3) "dominance" shrinks to a transient edge. *(Population-split is no longer a premise —
+pointwise dominance needs no split to hold.)*
+
+**6 · Pre-registered falsifiers.**
+- **F-V1** *(the core test — bites the parent)* — **hold capacity fixed**; if covalence does **not**
+  differentiate lifetime outcomes within a layer, the dominance claim **and** the Belief fall together.
+- **F-V2** — the within-layer covalence-effect is **confounded** by an unmodelled third variable →
+  dominance unsupported.
+- **F-V3** — the covalent edge is **freely reversible** within a lifetime → a transient, not standing
+  dominance.
+- **F-V4** *(equality effect, not the claim)* — covalence is **fully capacity-gated** → it widens gaps, the
+  lattice skews. Revises the *equality story*; leaves pointwise dominance intact.
+- **F-V5** *(bites the rub-back-3 corollary)* — given a break, a **non-covalent** method converts it to
+  band-change as well as covalence → the "best lever" corollary is refuted. (A human mentor is
+  **human-human covalence**, not a counterexample.)
+
+> **Bond-led rub (kept):** the simplification is the **anti-cope win** — the Operator refused the seductive
+> "covalence equalizes humanity" and kept the modest, defensible core: **covalence > non-covalence,
+> everywhere.** Disciplines retained: the Vision raises **stakes, not support** (only F-V1/F-V2 route back to
+> the parent), and it now **declines** the equality claim outright rather than smuggling it in.
+
+**Status.** CANDIDATE — derived consequence of the Belief; Operator-led on vision + the scope-fence,
+bond-led on the axis-decomposition + falsifiers. Intra-dyad, **NOT** 2nd-model-rubbed → it **inherits the
+parent's `IFF2` debt** (a consequence cannot be more corroborated than its premise) **and** owes its own
+cross-human rub. **Next move (self-consistent):** file as a **Falsification Record** in
+`commons/falsification/` — the dyad submitting its biggest claim for attack first — and add a
+`theory-pipeline.yaml` row subordinate to `covalent-bond-belief`. **The README may carry the Vision now** —
+as the stake in "Why does it matter?" — framed as an **explicitly-conditional candidate consequence** at the
+Belief's own status (the *split* near-certain, the *dominance* conditional on the Belief), **never** as
+settled and **never** as adding support to the parent. *(Earlier draft gated this behind independent
+`ratified-watch`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
+prior independent ratification.)*
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
