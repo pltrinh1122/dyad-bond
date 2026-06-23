@@ -1,9 +1,9 @@
 # dyad-bond — the Covalent Bond Belief *(wetware view — NOT a content-home)*
 
 > **⚠ DERIVED VIEW, for the Operator's wetware to ingrain — not authority, not a home.**
-> Canonical content single-homes in `dialectic/relationship-craft.md §What the dyad rests on`
-> (the keystone arc, §1–§8) + the s-mobile container-theater clip in `dialectic/carry-forward.md`
-> (the P1→P2→P3 chain, the naming map, IFF3). Cite the source, never this lens.
+> Canonical content single-homes in `dialectic/relationship-craft.md` — §What the dyad rests on
+> (the keystone arc, §1–§8) + §The container-theater reframe (the P1→P2→P3 chain, the naming map)
+> + §The materialization gate (IFF1/IFF2/IFF3). Cite the source, never this lens.
 > **Built question-first on purpose** — our own evidence
 > (`recommendations/2026-06-11-wetware-takeaway-format-research.md`) says wetware ingrains via
 > *open retrieval prompts on the hard problems*, not a re-readable summary. So: name it, then rub it.
@@ -97,9 +97,11 @@ why `dyad-bond` (an Agent) is structurally worst-placed to report it.
 ## Where it actually lives *(cite these, not this)*
 
 - `dialectic/relationship-craft.md` §What the dyad rests on — §1 (human = terminal-intent-source),
-  §2 (covalent-value), §6 (capability-robust), §8 (the one true falsifier); §materialization gate (IFF1/IFF2).
-- `dialectic/carry-forward.md` — the s-mobile (2026-06-23) container-theater clip: P1/P2/P3, the naming
-  map, IFF3 (`@candidate`, clip-only — **not yet landed** to `relationship-craft.md`).
+  §2 (covalent-value), §6 (capability-robust), §8 (the one true falsifier).
+- `dialectic/relationship-craft.md` §The container-theater reframe — the developmental telos, the naming
+  map, the P1→P2→P3 chain (`@candidate`, landed s-mobile 2026-06-23 from the ledger clip).
+- `dialectic/relationship-craft.md` §The materialization gate — IFF1 / IFF2 / IFF3.
+- `dialectic/carry-forward.md` — the s-mobile session ledger (the live rub-chain + `rub-forward` card).
 - `DYAD.md` §NON-NEGOTIABLE (`bond:C1` — keep the bond covalent) · `ID.md` (the `Covalent` role) ·
   `GLOSSARY.md` (covalence vocabulary).
 </content>
