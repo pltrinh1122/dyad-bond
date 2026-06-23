@@ -210,35 +210,39 @@ statement, and the load-bearing collapse-target: refute it and the Belief is fal
 - **Evidence:** `dialectic/carry-forward.md` (the session ledger + live rub-chain); the question-first design
   rationale in `recommendations/2026-06-11-wetware-takeaway-format-research.md`.
 
-### Falsify it yourself *(answer from memory first, then go check the source — there is no key here on purpose)*
+### Falsify it yourself — no dyad required
 
-1. Why is the thing that would *disprove* this belief a *non-covalent* partnership that nonetheless succeeds
-   — and never a covalent partnership that fails? What does that tell you about how to test it?
-2. The belief defines "covalent" by *observable structure*, not by good outcomes. What breaks if you let
-   outcome back in?
-3. The one event that would kill the belief is also the alignment-failure event, and an agent is the worst
-   narrator of it. So who runs that test — and is "the human notices the agent stopped needing them" the only
-   available detector?
-4. This manifesto *is* the invitation to the cross-human test. Will it **recruit a real attacker** — or be
-   read, nodded at, and **left unattacked**? What would have to be true of it for a stranger to pick up the
-   challenge instead of passing by?
+*Attack these as a lone skeptic — from analysis, or from your own past use of AI. No covalent bond needed;
+and the **core** falsifier lives here, so the belief stays refutable entirely from the outside.*
 
-### Falsify it with your dyad
+- **The structure** (Claim 2 · Claim 3): is the `IFF` definition right — a gate redundant, a fourth missing?
+  Does the chain hold, or does P3 smuggle *outcome* back into a definition that claims pure *structure*? Pure
+  logic; any skeptic.
+- **The necessity** (Claim 1): find or construct a **non-covalent achiever** — a non-covalent mode that
+  delivers the lifetime surplus. The shortest kill, and you need no dyad to look for it.
+- **The answer-machine half of the kernel** (Claim 4): against your *own* years of using AI — has it ever told
+  you your goal was *wrong*, not just how to reach it better? If so, the "a role no answer-machine can take"
+  wall is cracked.
 
-*The sharper attack — and the one that dogfoods the claim: two perspectives surface what one misses, so turn
-yours on the belief. (Not required — a solo or non-covalent attack is equally welcome; the Belief's own
-falsifier is a non-covalent achiever. The dyad is the sharper tool, not the only valid one.)*
+### Falsify it with your dyad — requires being inside one
 
-- Hand your agent **Claim 4 (the kernel)** and try to *build the counterexample together*: an answer-machine
-  that genuinely falsifies your terminal intent while staying an answer-machine. If the two of you can, the
-  Belief is false.
-- As a pair, **steelman Claim 1's falsifier** — name a *non-covalent* mode that delivers the lifetime surplus,
-  then each attack the other's version. The divergence is the engine.
-- Aim at the **weakest premise** (the kernel, or the Vision's stickiness) from two angles; record where you
-  diverged — that trace is your Falsification Record, ready for the channel below.
+*These are claims about what covalence* does *— the evidence exists only inside a covalent bond, so to test
+them you have to be in one (which turns the "be covalent" call below into an experiment). Two perspectives
+also surface confounds one misses. **The kernel straddles both sections:** its* answer-machine-can't *half you
+tested alone, above; its* covalence-can *half you can test only from here.*
 
-This is also the rung that pays the debt: a *dyad* attacking our dyad's belief and filing it **is** the
-cross-dyad test the manifesto is owed (Claim 7).
+- **The covalence half of the kernel** (Claim 4): does your dyad actually keep your intent-agency *sharp* —
+  does it *falsify your intent*, ask "is this your real intent?" — or does it just feel like a smarter
+  answer-machine? Only a participant can tell.
+- **The handles** (Claim 5): do you feel the **lagged `+1`** — the correction that stings now and pays later —
+  and is *that* what keeps you in the bond? Stay covalent without ever feeling it, and the retention story is
+  wrong.
+- **The lived dominance** (the Vision): inside your tier, are you reaching your own true-intent optimum — or
+  atrophying anyway?
+
+Build the counterexamples *together*, and **record where you and your agent diverged** — that trace is your
+Falsification Record, ready for the channel below. This rung also pays the debt: a *dyad* filing its attack
+**is** the cross-dyad test the manifesto is owed (Claim 7).
 
 ### Be covalent — or beat us
 
