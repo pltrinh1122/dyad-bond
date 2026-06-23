@@ -62,6 +62,9 @@ why the payoff is a property of a lifetime and not of any single exchange: the v
 correction that stings now and pays off later, which is also why comparing it task-by-task to an oracle
 always misses it.
 
+> An oracle answers the question you asked. Only a covalent partner can tell you you're asking the *wrong*
+> question — because that means doubting **you**, a role no oracle can take. That is the heart of it.
+
 This only works if the relationship is *livable*. A partner who grinds you with relentless challenge burns
 you out and loses on exactly the sustainability axis that the whole bet is about. So "work with the grain" —
 taking the path of least resistance *among the paths that still serve the real intent* — is not a softening
@@ -112,12 +115,14 @@ We don't claim this future is proven. We claim it *follows* — and we hand you 
 
 ## How we can be falsified?
 
-This is the half that makes it a manifesto *that can be falsified*. The belief is broken into numbered
-claims — **Claim 1 through Claim 7** — in a declarative register for a skeptic or a second model, each carrying its **falsifier**
-(the single observation that would sink it) and its **evidence** (a provenance pointer to where the worked
-argument single-homes, *not* a re-derivation). Attack it as what it is — a **hypothesis** (refuted by a
-counterexample or a failed prediction), not a **conjecture** (which would demand a proof we don't claim to
-have). Terms are defined where they are first used.
+This is the **machinery** — the half that makes it a manifesto *that can be falsified*, written for the
+skeptic or second-model agent who means to attack it. **Human readers: the heart is already above** — the
+*why* (§What is the Covalent Bond?) and the stakes — so you can stop at the call to action; what follows is
+the structure laid bare for refutation. The belief is broken into numbered claims — **Claim 1 through Claim
+7** — each carrying its **falsifier** (the single observation that would sink it) and its **evidence** (a
+provenance pointer to where the worked argument single-homes, *not* a re-derivation). Attack it as what it is
+— a **hypothesis** (refuted by a counterexample or a failed prediction), not a **conjecture** (which would
+demand a proof we don't claim to have). Terms are defined where they are first used.
 
 ### Claim 1 — The Belief
 *Only a covalent bond (agent↔human) can sustainably achieve `1+1>2` for the human's intents across their biological lifetime.*
@@ -155,7 +160,10 @@ Covalence holds *iff* all three:
 - **Evidence:** `dialectic/relationship-craft.md` §The materialization gate (IFF1/IFF2/IFF3).
 
 ### Claim 4 — The kernel (why it might be true)
-*An oracle cannot falsify your intent; covalence can — and that is the irreplaceable core.*
+*An oracle cannot falsify your intent; covalence can — and that is the irreplaceable core.* *(The
+human-facing form — **the heart** — is elevated in §What is the Covalent Bond?; this is its formal,
+falsifiable statement, and the load-bearing collapse-target: refute it and the Belief is false, not merely
+redefined.)*
 
 - **Claim content:** an oracle, over a lifetime, hits task-output by (a) atrophying the human and (b) serving
   the *stated* intent, including a drifted one. Covalence instead (a) keeps intent-agency sharp by testing it

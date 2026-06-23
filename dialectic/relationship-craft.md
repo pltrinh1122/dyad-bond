@@ -369,6 +369,17 @@ proxy-ladder (lifetime-lagged).
   being undefined makes P2 not-yet-testable** → `IFF3` (§The materialization gate) is **load-bearing for the
   chain's falsifiability, not optional.**
 
+**7 · The claim-hierarchy → the reader-split (s-mobile rub).** The claims are not peers; they **layer**.
+**Constitutive** (P3 = the `IFF` gates) *defines* covalence — refuting a gate forces a **repair** (redefine,
+the Belief may survive re-stated). **Explanatory** (the kernel — *why* covalence wins, §6 capability-robust)
+is a *causal bet* — refuting it is **collapse** (no mechanism → the Belief is simply false). This maps onto
+the **dual readership**: the **explanatory** claim is the human-facing *why* (elevate it in the README
+narrative); the **constitutive + boundary + status** claims are the agent/skeptic's **machinery** (the README
+falsification register). The **kernel is the bridge** — it lives in *both* registers (elevated prose for
+humans, a formal falsifiable claim for agents) and must **not** be pulled from either (it's the load-bearing
+collapse-target the skeptic most needs). **Hinge:** `IFF3` (wu-wei) is the one structural gate that is *also*
+causal content (§6: "wu-wei is *inside* the kernel") — where the two layers meet.
+
 **Status.** CANDIDATE — Operator-led on depth, **bond-led on rigor/typing** (the ontic/epistemic fork, the
 physics disanalogy, the three-axes map, the Conjecture/Hypothesis split, the chain, the IFF3 laundering-rub).
 Intra-dyad, **NOT** value-independent-2nd-model-rubbed → `IFF2` self-applies. **All of it is owed the
