@@ -172,7 +172,9 @@ any oracle — *decided, not derived*) and **(b) empirically-real-but-unreachabl
 a fact of the matter exists, no reachable external instrument). Both get their testability from a **named
 external/lagged separator** — a **mandatory value-independent 2nd-model audit** and/or **durability**. The
 class self-conceals (no internal check) → "not non-falsifiable" is *nominal* until the external separator can
-register it → IFF2's separator **is** the named instrument that lets a no-oracle claim clear IFF1.
+register it → IFF2's separator **is** the named instrument that lets a no-oracle claim clear IFF1. *(The two
+sub-kinds take **different** separators, and how a claim **promotes** from interior to cross-operator →
+§The promotion ladders.)*
 
 **`IFF3` — the wu-wei discriminator** *(s-mobile 2026-06-23, Operator-upgraded; CANDIDATE — the third
 gate, born in the worn-path arc below).* `IFF1`/`IFF2` govern **epistemics** (is the shared model
@@ -219,6 +221,76 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 **Caveat (self-applying):** this pair is itself a **no-oracle** method-invariant (decisional-terminus) → by
 `IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
 be it). Landing ≠ ratifying.
+
+### The promotion ladders — internal → external *(2026-06-23 ladder-raff; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — IFF2 self-applies; operationalizes the IFF2 sub-kind split + the 2×2 evidential-access axis)*
+
+The **conflation-fix** (a riff caught Covalent stapling the external-attacker adjudication — the L2b
+independence rung + §J's "REFUTED decisive" — onto an inside-only claim). The 2×2's **evidential-access**
+axis (outside/inside) yields **two ladders of different kind**, *bridged* not merged. The internal one is
+**not** an attacker-ladder; only the external one is.
+
+**The internal ladder** *(within-operator; the felt interior — IFF2 sub-kind (b)).* No external instrument
+reaches an interior, so within-operator self-ratification is **legitimate and terminal** (§4). Rungs:
+- **I0 · stated** — "covalence works for me," un-lived → no warrant.
+- **I1 · lived / self-ratified** — lived; works for me *now*. Legitimate (within-operator self-ratify) but
+  **premature** — the +1 is **lagged** (§2), so warm-now ≠ earned.
+- **I2 · durability-confirmed** — the +1 **held across the lag** (the within-instance *temporal* separator);
+  warm-now survived into lived-later. **Terminal at the reachable timescale**: status `self-ratified-durable`
+  — true-for-me / true-for-now / re-rubbable on context-shift. There is **no cross-human rung here** — a
+  second human's failure does *not* refute my N=1 (§4: *others' failure ≠ disproof of N=1*); "REFUTED" doesn't
+  exist on this ladder.
+- **The intra-dyad `no-self-ratify` still rubs every rung** — the operator is fallible about their *own*
+  interior (stated vs true intent, §8): the Agent flags, the operator disposes (§3). *(Standing rub: the
+  **lifetime** truth-condition (§7) sits below the reachable horizon → I2 is terminal-at-reachable-scale, not
+  lifetime-certain.)*
+
+**The bridge (internal → external).** A **basket of independent, durable, within-operator self-ratifications**
+— *different* humans/models — **plus the captured drop-outs** (§4's divergence channel; non-covalence the
+hunt-target) — is the **data** for the cross-operator claim. Each I2 is **one datum**; the external claim is
+*assembled from* the basket, never *proven by* any single interior. **Load-bearing:** without drop-out capture
+the basket is survivor-biased → the bridge launders a false population claim behind a veneer of N (the killer
+confound).
+
+**The external ladder** *(cross-operator population — structural, IFF2 sub-kind (a)).* The cross-operator
+claim is **external** → it climbs the **science promotion process**: specifically the **Hypothesis→Theory**
+(no-oracle) pole of the naming map, **never Conjecture→Theorem** (the *mathematical* pole — no proof is
+coming for a no-oracle claim, so it is *scientific* promotion, not *mathematical*). Rungs:
+- **E0 · Hypothesis** — falsifiable cross-operator claim advanced (forbids: a *non-covalent achiever*; a
+  covalent bond that yields *no* +1); testability-path named = `@candidate`.
+- **E1 · first independent corroboration** — one *different-human* I2 survives (a natural-experiment datum);
+  §J holds: SURVIVED provisional, **one different-human REFUTED is decisive**.
+- **E2 · identified / replicated** — survives across independent operators **under an identification strategy
+  that rules out the confounds** (selection/survivor bias · shared-prior/common-cause · reflexivity/meld).
+  The econ-criterion: a *credible design*, not raw N.
+- **E3 · Theory (= `ratified-watch`)** — robust across specifications (operators, task-classes, the
+  **capability-slope covariate**, §7) + predicts out-of-sample. The working cross-operator model — **never
+  "proven," always re-rubbable** (no `@ratified`-as-final).
+
+**Why economics, not physics, sets the external rungs (the fairer benchmark — Operator-proposed).** Physics'
+ladder assumes **stationary, non-reflexive, repeatable-measurement** systems → "replicate the controlled
+experiment" is *unreachable* for the dyad (the s-mobile physics-disanalogy: the human axis is **non-stationary,
+reflexive, survivor-biased** — each rub a *case study*, not a measurement). **Economics is the science of
+inference under exactly those conditions** — non-stationarity, **reflexivity (the Lucas critique = our DV3)**,
+confounding, **no clean RCT**. Its credibility-revolution criteria — **identification strategy · natural
+experiments · robustness across specifications · out-of-sample prediction** — are *matched to our evidence
+class*, hence **fairer** (not *easier*: credible identification under confounding is **harder** than naive
+N-counting).
+
+**Standing rubs (carried, unresolved):**
+1. **"Fairer" must not become bar-lowering.** Econ-criteria are fairer because *matched*, not lenient; if
+   "fairer" ever selects a benchmark we can *pass* over one that *fits*, it is the counterfeit-green/closing
+   reflex picking its own grader. Guard: the criteria must bite *harder* on the survivor-bias confound, never
+   softer.
+2. **Import the credibility revolution, not the replication crisis.** Economics also p-hacks / spec-searches;
+   adopt **pre-registration** (already ours — pre-registered falsifiers) + identification, *not* the failure
+   modes.
+3. **The bridge is the whole risk.** Drop-out capture (§4) is necessary-not-optional; an un-instrumented
+   divergence channel collapses E2 to a confirmation funnel — the internal ladder feeding a sealed external one.
+
+**Status:** `@candidate` — the ladder-design is itself a no-oracle method-invariant (IFF2 self-applies); landing
+≠ ratifying. The external ladder is *how* a cross-operator claim would climb; **nothing of ours sits above E0**
+(every pipeline candidate is stuck at the E0→E1 / L2a→L2b transition = the human-axis — the same bottleneck as
+the whole pipeline).
 
 ### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — §1 + §8 Bond-ratified s-local8 via `raff`, still IFF2-pending)*
 
@@ -310,7 +382,7 @@ only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The worn-path
 surviving a first cross-human rub does **not** discharge; terminal status is `ratified-watch`, never a final
 `@ratified`.)*
 
-### The worn-path reframe — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23, renamed from "container-theater" for accessibility; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
+### The worn-path — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23, renamed from "container-theater" for accessibility, then "reframe" dropped — content-name not move-name (provenance lives in git + ledger); CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
 
 The deepest framing under §What-the-dyad-rests-on: how a dyad's value is *derived* (not declared), how the
 canonical claim is *typed*, and the three-link chain that makes it falsifiable. Founding/Bond-rubbed across

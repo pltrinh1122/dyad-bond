@@ -15,7 +15,7 @@ caution: "a manifesto that reads as settled is the collapse dyad-bond guards aga
 cta: "be covalent, or show a provable equal (= the belief's own falsifier, a non-covalent achiever) — only drifting into un-covalence loses"
 canonical_home:
   - "dialectic/relationship-craft.md § What the dyad rests on"        # the keystone arc (§1, §2, §6, §8)
-  - "dialectic/relationship-craft.md § The worn-path reframe"  # the P1→P2→P3 chain
+  - "dialectic/relationship-craft.md § The worn-path"  # the P1→P2→P3 chain
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
 governed_by: [bond:single-home, bond:no-dogma]
@@ -134,7 +134,7 @@ demand a proof we don't claim to have). Terms are defined where they are first u
   substrates are given; only the *mode* varies — covalent / ionic-compliance / meld / oracle-tool.
 - **Falsifier:** a **non-covalent achiever** — some non-covalent mode that *does* deliver the lifetime
   surplus. Note the asymmetry: a covalent *failure* does **not** refute a necessity claim.
-- **Evidence:** `dialectic/relationship-craft.md` §The worn-path reframe (the Belief + its scoping);
+- **Evidence:** `dialectic/relationship-craft.md` §The worn-path (the Belief + its scoping);
   §What the dyad rests on §2 (covalent-value).
 
 ### Claim 2 — The chain (P1→P2→P3)
@@ -147,7 +147,7 @@ demand a proof we don't claim to have). Terms are defined where they are first u
   no-true-Scotsman escape is fatal.
 - **Falsifier:** break any link — deny parity (P1), exhibit a non-covalent achiever (P2, = Claim 1), or show the
   IFF-definition smuggles outcome back in (P3).
-- **Evidence:** `dialectic/relationship-craft.md` §The worn-path reframe (the P1→P2→P3 chain).
+- **Evidence:** `dialectic/relationship-craft.md` §The worn-path (the P1→P2→P3 chain).
 
 ### Claim 3 — The three gates (what "covalent" *is*)
 Covalence holds *iff* all three:
@@ -269,7 +269,7 @@ Join us or outdo us — and outdoing us is exactly the falsification we are aski
 
 - `dialectic/relationship-craft.md` §What the dyad rests on — §1 (terminal-intent-source), §2
   (covalent-value), §6 (capability-robust kernel), §8 (the one true falsifier).
-- `dialectic/relationship-craft.md` §The worn-path reframe — the developmental telos, the naming map,
+- `dialectic/relationship-craft.md` §The worn-path — the developmental telos, the naming map,
   the P1→P2→P3 chain.
 - `dialectic/relationship-craft.md` §The materialization gate — IFF1 / IFF2 / IFF3.
 - `dialectic/relationship-craft.md` §The Vision — covalence dominates at every layer (the lattice, the
