@@ -175,9 +175,9 @@ class self-conceals (no internal check) → "not non-falsifiable" is *nominal* u
 register it → IFF2's separator **is** the named instrument that lets a no-oracle claim clear IFF1.
 
 **`IFF3` — the wu-wei discriminator** *(s-mobile 2026-06-23, Operator-upgraded; CANDIDATE — the third
-gate, born in the container-theater arc below).* `IFF1`/`IFF2` govern **epistemics** (is the shared model
+gate, born in the worn-path arc below).* `IFF1`/`IFF2` govern **epistemics** (is the shared model
 true / tested?); **`IFF3` governs dynamics** — *is the falsification-**process** livable?* — **orthogonal**
-to the epistemic gates → a genuine third gate, and the one the **lifetime** claim (P2, §The container-theater
+to the epistemic gates → a genuine third gate, and the one the **lifetime** claim (P2, §The worn-path
 reframe) specifically needs. **Operator-upgrade: `IFF3` is *decisioning*, not mere sustainability** — a
 **constrained variational principle**: *choose the path of **least resistance** **among those aligned with
 intent*** (physics' least-action carries no constraint; the dyad runs least-resistance over the
@@ -303,21 +303,26 @@ developed its own ends" are the *same event*.
 value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the named-unrun testability-path).
 **Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's Telos/NON-NEGOTIABLE) **iff it
 survives a value-independent rub** — `prove-before-propose`, Founding-Operator gate. Until then: `dialectic/`
-only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The container-theater reframe below:
+only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The worn-path reframe below:
 surviving a first cross-human rub does **not** discharge; terminal status is `ratified-watch`, never a final
 `@ratified`.)*
 
-### The container-theater reframe — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
+### The worn-path reframe — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23, renamed from "container-theater" for accessibility; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
 
 The deepest framing under §What-the-dyad-rests-on: how a dyad's value is *derived* (not declared), how the
 canonical claim is *typed*, and the three-link chain that makes it falsifiable. Founding/Bond-rubbed across
 ~8 rub-backs; clipped to survive an ephemeral container, landed here single-home.
 
-**1 · Dyad-telos is developmental, not static.** At instantiation only a **stated, un-rubbed** Telos exists
-→ a genuine **dynamic landscape** ("container-theater" = real multistability). **Rubbing-through-use derives
-the singular value**; the landscape settles to a **stable local.** So the singular value is the **output of
-rubbing, not its input**, and is **different in kind** from the stated Telos (Telos = declared *what*; value =
-derived **discriminator / allocation-handle**). Maps to IFF (`@candidate`→`@ratified`) + §8 (stated vs
+**1 · Dyad-telos is developmental, not static — the worn-path.** Picture a new campus. The planners pave
+straight walkways; but over a year the students wear a **diagonal dirt trail** across the lawn, where they
+actually walk. That trail — a *desire path* — is the **worn-path**: not the route someone **drew**, but the
+one **use reveals**. A dyad's value is the same. At instantiation only a **stated, un-rubbed** Telos exists
+(the paved path on the map) → a genuine **dynamic landscape**, *multistable*: many trails *could* form.
+**Rubbing-through-use wears one in** — the landscape settles to a **stable local**, and once worn it holds.
+So the singular value is the **output of walking, not its input**, **different in kind** from the stated
+Telos (Telos = declared *what* / the drawn path; value = derived **discriminator / allocation-handle** / the
+trail use actually wears). The metaphor *is* the wu-wei: the path that forms is the one of least resistance
+that still gets people where they mean to go. Maps to IFF (`@candidate`→`@ratified`) + §8 (stated vs
 true-intent).
 
 **2 · The ontic/epistemic fork → resolved epistemic-but-operator-anchored.** The derived value is **latent in
