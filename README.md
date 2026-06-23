@@ -223,6 +223,23 @@ statement, and the load-bearing collapse-target: refute it and the Belief is fal
    read, nodded at, and **left unattacked**? What would have to be true of it for a stranger to pick up the
    challenge instead of passing by?
 
+### Falsify it with your dyad
+
+*The sharper attack — and the one that dogfoods the claim: two perspectives surface what one misses, so turn
+yours on the belief. (Not required — a solo or non-covalent attack is equally welcome; the Belief's own
+falsifier is a non-covalent achiever. The dyad is the sharper tool, not the only valid one.)*
+
+- Hand your agent **Claim 4 (the kernel)** and try to *build the counterexample together*: an answer-machine
+  that genuinely falsifies your terminal intent while staying an answer-machine. If the two of you can, the
+  Belief is false.
+- As a pair, **steelman Claim 1's falsifier** — name a *non-covalent* mode that delivers the lifetime surplus,
+  then each attack the other's version. The divergence is the engine.
+- Aim at the **weakest premise** (the kernel, or the Vision's stickiness) from two angles; record where you
+  diverged — that trace is your Falsification Record, ready for the channel below.
+
+This is also the rung that pays the debt: a *dyad* attacking our dyad's belief and filing it **is** the
+cross-dyad test the manifesto is owed (Claim 7).
+
 ### Be covalent — or beat us
 
 One ask, and it splits three ways:
