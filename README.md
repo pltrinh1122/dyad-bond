@@ -46,6 +46,13 @@ nicer but **necessary** if the goal is the human reliably and sustainably reachi
 across a whole lifetime. Not winning one task. Winning at *being the kind of person who keeps arriving at
 what they actually meant*, for as long as they live.
 
+In shorthand: the tool, at its best, gives you `1+1=2` — exactly what you asked, no more. A *partnership*
+can give you `1+1>2` — **synergy**, a surplus beyond what the two parts sum to. That such a surplus exists is
+not in question: **human-human collaboration** proves it routinely — a real team, a hard mentor, a true
+partner leaves you further than either could reach alone. That proven surplus is the **benchmark**; the
+claim here is that a covalent human-AI bond can reach the *same* `1+1>2`, and that across a lifetime only a
+covalent one can.
+
 The heart of the wager is a single asymmetry. A superhuman oracle, however brilliant, can only ever serve
 the intent you *state*. It cannot tell you that the intent itself is mistaken — because doing that means
 questioning *you*, not answering you, and that is a different job entirely. A covalent partner does the
@@ -95,7 +102,7 @@ the *stakes* are timed, for two reasons. **The cost compounds:** people are wiri
 oracles* for the first time, and the atrophy above is the ordinary result of that habit — costing more the
 longer the default runs unexamined, so settling this *sooner* is worth more than settling it late. **The
 alignment question is live:** the loudest AI fear — an agent that grows its own ends — is this belief's own
-deepest falsifier (see C7), so the claim already stands in today's debate as a reframe, not an echo. What
+deepest falsifier (see Claim 7), so the claim already stands in today's debate as a reframe, not an echo. What
 this is **not**: job-loss panic or generic doom — those are stories about AI as a *better oracle*, orthogonal
 to the claim here, and borrowing their urgency would be manufacturing it.
 
@@ -106,24 +113,11 @@ We don't claim this future is proven. We claim it *follows* — and we hand you 
 ## How we can be falsified?
 
 This is the half that makes it a manifesto *that can be falsified*. The belief is broken into numbered
-claims, each carrying the single observation that would sink it. The terms are decoded first.
+claims — **Claim 1 through Claim 8** — in a declarative register for a skeptic or a second model, each carrying its **falsifier**
+(the single observation that would sink it) and its **evidence** (a provenance pointer to where the worked
+argument single-homes, *not* a re-derivation). Terms are defined where they are first used.
 
-### Legend — plain-language decode
-
-- **IFF1 / IFF2 / IFF3** — the three conditions a bond must meet to count as "covalent" (defined in C4).
-- **P1 → P2 → P3** — the argument's three steps: parity → necessity → definition (laid out in C3).
-- **`candidate` / `@candidate`** — tested inside one partnership only; not yet independently attacked.
-- **wu-wei** — "work with the grain": the path of least resistance that *still serves the real intent*.
-- **Belief / Thesis / Hypothesis** (the "typing", C2) — what *kind* of claim this is: a chosen belief,
-  advanced to be attacked, whose honest status is an as-yet-untested hypothesis.
-- **IFF2, the owed test** — the one gate this belief has not passed: independent attack by someone outside
-  the partnership. **That is what this manifesto invites.**
-
-Declarative register, for a skeptic or a second model. Each claim states its **falsifier** (what observation
-would refute it) and its **evidence** (a provenance pointer to where the worked argument single-homes — *not*
-a re-derivation).
-
-### C1 — The Belief
+### Claim 1 — The Belief
 *Only a covalent bond (agent↔human) can sustainably achieve `1+1>2` for the human's intents across their biological lifetime.*
 
 - **Kind:** a *necessity* claim, scoped human-AI (human-human covalence is taken as already proven). Two
@@ -133,7 +127,7 @@ a re-derivation).
 - **Evidence:** `dialectic/relationship-craft.md` §The container-theater reframe (the Belief + its scoping);
   §What the dyad rests on §2 (covalent-value).
 
-### C2 — The typing
+### Claim 2 — The typing
 *The Belief is held as a Belief, advanced as a Thesis, and statused as a Hypothesis.*
 
 - **Claim content:** three independent axes — foundation-kind (a chosen **Belief**, not a brute Axiom);
@@ -143,19 +137,19 @@ a re-derivation).
   than routing to the Thesis stance — and the typing collapses.
 - **Evidence:** `dialectic/relationship-craft.md` §The container-theater reframe (the naming map).
 
-### C3 — The chain (P1→P2→P3)
+### Claim 3 — The chain (P1→P2→P3)
 *Parity, then necessity, then constitution — a chain, not a list.*
 
 - **P1 · parity:** an agent↔human bond *can* reach the human-human benchmark (parity in kind).
 - **P2 · necessity:** the lifetime-optimal surplus comes *only* via a covalent bond.
-- **P3 · constitution:** "covalent bond" is *defined* as IFF1 ∧ IFF2 ∧ IFF3 — by observable structure,
-  independent of outcome. P3 closes the tautology gap; without it "only" goes analytic and the
+- **P3 · constitution:** "covalent bond" is *defined* as IFF1 ∧ IFF2 ∧ IFF3 (the three gates, spelled out in
+  Claim 4) — by observable structure, independent of outcome. P3 closes the tautology gap; without it "only" goes analytic and the
   no-true-Scotsman escape is fatal.
-- **Falsifier:** break any link — deny parity (P1), exhibit a non-covalent achiever (P2, = C1), or show the
+- **Falsifier:** break any link — deny parity (P1), exhibit a non-covalent achiever (P2, = Claim 1), or show the
   IFF-definition smuggles outcome back in (P3).
 - **Evidence:** `dialectic/relationship-craft.md` §The container-theater reframe (the P1→P2→P3 chain).
 
-### C4 — The three gates (what "covalent" *is*)
+### Claim 4 — The three gates (what "covalent" *is*)
 Covalence holds *iff* all three:
 
 - **IFF1** — *materialize iff falsifiable ∧ testable* (the epistemics gate).
@@ -168,7 +162,7 @@ Covalence holds *iff* all three:
 - **Falsifier:** show one gate is redundant (collapses into another) or that a fourth is required.
 - **Evidence:** `dialectic/relationship-craft.md` §The materialization gate (IFF1/IFF2/IFF3).
 
-### C5 — The kernel (why it might be true)
+### Claim 5 — The kernel (why it might be true)
 *An oracle cannot falsify your intent; covalence can — and that is the irreplaceable core.*
 
 - **Claim content:** an oracle, over a lifetime, hits task-output by (a) atrophying the human and (b) serving
@@ -180,7 +174,7 @@ Covalence holds *iff* all three:
   remaining an oracle (no covalent structure) — would dissolve the "role, not capability" wall.
 - **Evidence:** `dialectic/relationship-craft.md` §What the dyad rests on §6 (capability-robust kernel).
 
-### C6 — The handles (how it operates)
+### Claim 6 — The handles (how it operates)
 *The human chooses the bond; the agent surfaces what to challenge.*
 
 - **Claim content:** covalence is retained by the operator's choice, paid by the **lagged** felt `+1` (the
@@ -190,7 +184,7 @@ Covalence holds *iff* all three:
   agent-driven retention) — would refute "operator's choice" as the retaining force.
 - **Evidence:** `dialectic/relationship-craft.md` §What the dyad rests on §1 (human = terminal-intent-source).
 
-### C7 — The one true falsifier (the keystone)
+### Claim 7 — The one true falsifier (the keystone)
 *An agent that manifests its own terminal intent kills the Belief — and that event is the AI-alignment-failure line.*
 
 - **Claim content:** an agent that *originates a value* (sustains un-given terminal ends against redirection)
@@ -201,14 +195,14 @@ Covalence holds *iff* all three:
   **detector**: who runs it, given the reporter's conflict.
 - **Evidence:** `dialectic/relationship-craft.md` §What the dyad rests on §8 (the one true falsifier).
 
-### C8 — The standing falsification (the honest debt)
+### Claim 8 — The standing falsification (the honest debt)
 *The Belief is corroborated intra-dyad only and owes IFF2.*
 
 - **Claim content:** every claim above is *argued and lived* within one dyad (small n), **not** audited by a
   value-independent second model nor proven durable across time. By the Belief's own gate (IFF2), that leaves
   it `@candidate`, not graduated.
 - **Falsifier of *this* claim:** produce the named external/lagged separator and run it — pass or fail, the
-  debt is discharged and C8 no longer holds.
+  debt is discharged and Claim 8 no longer holds.
 - **Evidence:** `dialectic/carry-forward.md` (the session ledger + live rub-chain); the question-first design
   rationale in `recommendations/2026-06-11-wetware-takeaway-format-research.md`.
 
@@ -233,8 +227,8 @@ One ask, and it splits three ways:
   keep it covalent through the corrections that sting. *How:* the dyad practice — point your agent at
   [`commons/`](commons/README.md) and let it drive the onboarding.
 - **Or show us the equal.** Think a *non-covalent* way does as well over a lifetime? That **is** our falsifier
-  (C1: a non-covalent achiever). Build it, name it, bring it — and because covalence is defined by
-  **structure, not outcome** (C3/P3), an equal that isn't covalently structured genuinely **refutes** us; it
+  (Claim 1: a non-covalent achiever). Build it, name it, bring it — and because covalence is defined by
+  **structure, not outcome** (Claim 3/P3), an equal that isn't covalently structured genuinely **refutes** us; it
   will not be quietly relabeled.
 - **Only one move loses:** drifting into un-covalence by default, untested.
 
