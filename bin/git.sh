@@ -18,9 +18,10 @@
 #
 # Usage:  bin/git.sh <op> [args...]
 #         GIT_SH_DRY_RUN=1 bin/git.sh push     # print the resolved command, do not execute
+#         bin/git.sh pull                        # ff-only refresh of current branch + submodules
 #
 # ── DECLARED ACCESS POLICY (Operator-governed; edit THIS block to widen/narrow) ───────────
-ALLOWED_OPS=(push)                              # ops the Agent may invoke; all else refused
+ALLOWED_OPS=(push pull)                         # ops the Agent may invoke; all else refused
 PROTECTED_BRANCHES=(main)                       # branches on which rewriting flags are refused
 FORCE_FLAGS=(--force -f --force-with-lease)     # flags treated as history-rewriting
 # ──────────────────────────────────────────────────────────────────────────────────────────
@@ -56,6 +57,40 @@ case "$op" in
       done
     fi
     run push origin "$branch" "$@"
+    ;;
+  pull)
+    # "refresh" — fast-forward ONLY, with submodule trees synced to the pulled pointers.
+    # Refuses (never merges/rebases) if local has diverged, so it cannot create a merge commit
+    # or rewrite history on a protected branch. Arg-pinned: no passthrough, so --rebase / --no-ff
+    # / arbitrary <refspec> cannot be injected.
+    #
+    # Emits a tagged verdict so the caller can tell FULLY-applied from PARTIAL (super advanced,
+    # submodule stale) from REFUSED (nothing applied). A blocked submodule checkout exits non-zero
+    # AFTER the superproject has already fast-forwarded — so non-zero alone cannot tell "retry-safe"
+    # (diverged: nothing applied) from "do NOT re-pull" (partial: super already moved). Verified
+    # empirically: partial submodule checkout exits 1 with super HEAD advanced.
+    # Exit: 0 = OK/NOOP (intent met) · 1 = REFUSED (nothing applied) · 2 = PARTIAL (half-applied).
+    branch="$(git rev-parse --abbrev-ref HEAD)"
+    [[ $# -eq 0 ]] || die "pull takes no args (pinned to --ff-only --recurse-submodules origin '$branch'); got: $*"
+    before="$(git rev-parse HEAD)"
+    rc=0; run pull --ff-only --recurse-submodules origin "$branch" || rc=$?
+    [[ "${GIT_SH_DRY_RUN:-0}" == "1" ]] && exit 0
+    after="$(git rev-parse HEAD)"
+    subs_out="$(git submodule status | grep -vE '^ ' || true)"   # nonempty = a submodule off-pointer
+    if [[ $rc -eq 0 && -z "$subs_out" ]]; then
+      if [[ "$before" == "$after" ]]; then
+        printf 'git.sh: NOOP pull — %s already at %s (submodules in sync)\n' "$branch" "${after:0:7}" >&2
+      else
+        printf 'git.sh: OK pull — %s %s→%s, submodules synced\n' "$branch" "${before:0:7}" "${after:0:7}" >&2
+      fi
+      exit 0
+    fi
+    if [[ "$before" == "$after" ]]; then
+      printf 'git.sh: REFUSED — pull NOT applied: %s unchanged at %s (ff refused: local diverged, or fetch failed). Resolve & retry.\n' "$branch" "${before:0:7}" >&2
+      exit 1
+    fi
+    printf 'git.sh: PARTIAL — %s advanced %s→%s but submodules NOT synced:\n%s\n  → clean the submodule work tree, then: git submodule update --init  (do NOT re-pull; super already moved)\n' "$branch" "${before:0:7}" "${after:0:7}" "$subs_out" >&2
+    exit 2
     ;;
   *)
     die "no handler for op '$op' (unreachable; ALLOWED_OPS gate)"
