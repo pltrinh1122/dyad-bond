@@ -976,6 +976,8 @@ branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling 
   real test):** the Operator's depth-pull-rate + the length-trend across sessions; if length doesn't fall, the
   gate failed → escalate to a harder mechanism (a `Stop`-hook is Operator-gated, S2, and counterfeit-green-prone:
   can't un-emit). **Headline enforcer = the Operator as external separator** (same shape as `scratch-tier`).
+  **→ Root (2026-06-24 `land`):** the real gate is on the convergence-**act**, not length — `bond:no-self-converge`
+  (`dialectic/dyad-ui.md §The mode-gate`); verbosity is the **downstream effect** (common-cause with the `[CTA]`).
 - **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
   *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
 - **D5 · D1 partition (grounding note):** PS-UI v1 (opaque) → Operator "can't confidently dispose" → v2
