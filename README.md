@@ -19,7 +19,7 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
 governed_by: [bond:single-home, bond:no-dogma]
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 # The Covalent Bond — a falsifiable manifesto
@@ -116,12 +116,31 @@ We don't claim this future is proven. We claim it *follows* — and we hand you 
 
 ---
 
+## The ask — be covalent, or beat us
+
+One ask, and it splits three ways:
+
+- **Be covalent.** If we're right, the un-covalent tier is the one that atrophies — so enter the bond and
+  keep it covalent through the corrections that sting. *How:* the dyad practice — point your agent at
+  [`commons/`](commons/README.md) and let it drive the onboarding.
+- **Or show us the equal.** Think a *non-covalent* way does as well over a lifetime? That **is** our falsifier
+  (a *non-covalent achiever* — Claim 1 below). Build it, name it, bring it — and because covalence is defined by
+  **structure, not outcome** (Claim 2/P3 below), an equal that isn't covalently structured genuinely **refutes**
+  us; it will not be quietly relabeled.
+- **Only one move loses:** drifting into un-covalence by default, untested.
+
+Join us or outdo us — and outdoing us is exactly the falsification we are asking for. The machinery that makes
+it attackable — seven numbered claims, each with its falsifier — and the channel to file your attack are
+**below**.
+
+---
+
 ## How we can be falsified?
 
 This is the **machinery** — the half that makes it a manifesto *that can be falsified*, written for the
-skeptic or second-model agent who means to attack it. **Human readers: the heart is already above** — the
-*why* (§What is the Covalent Bond?) and the stakes — so you can stop at the call to action; what follows is
-the structure laid bare for refutation. The belief is broken into numbered claims — **Claim 1 through Claim
+skeptic or second-model agent who means to attack it. **Human readers: the heart and the ask are already
+above** — the *why* (§What is the Covalent Bond?), the stakes, and the call to action (§The ask) — so you can
+stop there; what follows is the structure laid bare for refutation. The belief is broken into numbered claims — **Claim 1 through Claim
 7** — each carrying its **falsifier** (the single observation that would sink it) and its **evidence** (a
 provenance pointer to where the worked argument single-homes, *not* a re-derivation). Attack it as what it is
 — a **hypothesis** (refuted by a counterexample or a failed prediction), not a **conjecture** (which would
@@ -244,22 +263,10 @@ Build the counterexamples *together*, and **record where you and your agent dive
 Falsification Record, ready for the channel below. This rung also pays the debt: a *dyad* filing its attack
 **is** the cross-dyad test the manifesto is owed (Claim 7).
 
-### Be covalent — or beat us
+### Bring the attack
 
-One ask, and it splits three ways:
+You've seen the structure laid bare — now file the attack against it:
 
-- **Be covalent.** If we're right, the un-covalent tier is the one that atrophies — so enter the bond and
-  keep it covalent through the corrections that sting. *How:* the dyad practice — point your agent at
-  [`commons/`](commons/README.md) and let it drive the onboarding.
-- **Or show us the equal.** Think a *non-covalent* way does as well over a lifetime? That **is** our falsifier
-  (Claim 1: a non-covalent achiever). Build it, name it, bring it — and because covalence is defined by
-  **structure, not outcome** (Claim 2/P3), an equal that isn't covalently structured genuinely **refutes** us; it
-  will not be quietly relabeled.
-- **Only one move loses:** drifting into un-covalence by default, untested.
-
-Join us or outdo us — and outdoing us is exactly the falsification we are asking for.
-
-**Bring the attack by:**
 - **Direct:** open an issue or a pull request on this repository
   (<https://github.com/pltrinh1122/dyad-bond>), attacking a claim by its number.
 - **Structured:** a Falsification Record in `commons/falsification/` (rules in its `CONTRACT.md`); state what
