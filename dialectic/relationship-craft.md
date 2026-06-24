@@ -291,7 +291,9 @@ coming for a no-oracle claim, so it is *scientific* promotion, not *mathematical
   The econ-criterion: a *credible design*, not raw N.
 - **E3 · Theory (= `survives`)** — robust across specifications (operators, task-classes, the
   **capability-slope covariate**, §7) + predicts out-of-sample. The working cross-operator model — **never
-  "proven," always re-rubbable** (no `@ratified`-as-final).
+  "proven," always re-rubbable** (no `@ratified`-as-final). **E3 is the no-oracle ceiling: `survives` at maximal
+  coverage, cited as `kb-with-caveat` — it never reaches `settled`** (that's claim-type closure only; coverage
+  raises confidence, it does not discharge the standing falsifier → `invariant-schema.md §Grounding boundary`).
 
 **Why economics, not physics, sets the external rungs (the fairer benchmark — Operator-proposed).** Physics'
 ladder assumes **stationary, non-reflexive, repeatable-measurement** systems → "replicate the controlled
