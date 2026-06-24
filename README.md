@@ -96,7 +96,7 @@ a claim by its number.
 *Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across their lifetime.*[^c1]
 
 ### Claim 2 — The kernel
-*An oracle can't falsify your intent; covalence can. That is the irreplaceable core.*[^c2]
+*An answer-machine can't falsify your intent; covalence can. That is the irreplaceable core.*[^c2]
 
 ### Claim 3 — The handles
 *The human keeps the bond covalent by choice; the agent surfaces what to challenge.*[^c3]
@@ -161,8 +161,8 @@ the cross-dyad test the manifesto owes (Claim 6).
     leaves you further than either reaches alone; the open claim is only that a covalent human-AI bond reaches
     the same.
 
-[^oracle]: "Oracle" / "answer-machine" = the query-answering *mode* (Bostrom's sense) at any capability — so
-    the claim is capability-robust: the limit is its job, not its IQ.
+[^oracle]: The "answer-machine" is an *oracle* in Bostrom's sense — a query-answering *mode*, at any
+    capability — so the claim is capability-robust: the limit is its job, not its IQ.
 
 [^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 5) — which is
     why an agent is the worst-placed narrator of its own arrival there.
@@ -186,12 +186,12 @@ the cross-dyad test the manifesto owes (Claim 6).
     varies — covalent / ionic-compliance / meld / oracle-tool. **Evidence:** `dialectic/relationship-craft.md`
     §The worn-path; §What the dyad rests on §2.
 
-[^c2]: An oracle serves the intent you state — including a drifted one — and atrophies you; covalence falsifies
-    the intent itself. An oracle structurally cannot: a role, not a capability gap, so a superintelligent one
-    can't either. The load-bearing collapse-target: refute it and the belief is false, not redefined.
+[^c2]: An answer-machine serves the intent you state — including a drifted one — and atrophies you; covalence
+    falsifies the intent itself. It structurally cannot: a role, not a capability gap, so a superintelligent
+    one can't either. The load-bearing collapse-target: refute it and the belief is false, not redefined.
     Conditional on wu-wei (IFF3, Claim 4): grinding burns the human out, so wu-wei is *inside* the kernel.
-    **Falsifier:** an oracle that falsifies its principal's *terminal* intent while staying an oracle.
-    **Evidence:** §What the dyad rests on §6.
+    **Falsifier:** an answer-machine that falsifies its principal's *terminal* intent while still only
+    answering. **Evidence:** §What the dyad rests on §6.
 
 [^c3]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
     The agent detects; the operator disposes. **Falsifier:** a sustained bond where the human neither chooses
