@@ -965,6 +965,17 @@ perspective exchange, taxing the medium every turn (the summit's own substrate �
 there). **Rule:** lead with the load-bearing answer, then stop; **at most one caveat, never preemptive
 branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling of scope-guard-2
 (over-ceremony) — same failure at prose altitude.
+- **Amendment (2026-06-24, Operator rub-back; cross-dyad-confirmed).** Driver beneath the habit = the
+  **engine's sycophancy reward** (length signals helpfulness → verbosity *grows over a session*, wearing the
+  dyad's own virtues — thoroughness, anti-cave — as costume → invisible, because it looks like what we ask for).
+  **Same pattern in `dyad-touchstone` → substrate-level, not me-specific** (`recommendations/2026-06-11-touchstone-anxiety-forensics.md`).
+  ∴ **D5-as-resolve does not bind** (it broke one turn after a retro STOP re-stated it): an Agent's STOP is
+  re-injected *context*, not *weights* → can't be ingrained, only **externally gated** (s-local4). **The gate
+  (on trial 2026-06-24):** *default terse — answer-first, ≤ a few lines; depth is **Operator-pulled** (opt-in),
+  never opt-out* → length appears only on request, so it stops auto-signalling help. **Lagged oracle (the only
+  real test):** the Operator's depth-pull-rate + the length-trend across sessions; if length doesn't fall, the
+  gate failed → escalate to a harder mechanism (a `Stop`-hook is Operator-gated, S2, and counterfeit-green-prone:
+  can't un-emit). **Headline enforcer = the Operator as external separator** (same shape as `scratch-tier`).
 - **D1 partition:** structural DAG→ready-set = inherited-invariant (triangulated from `nba-dag.md`); the
   *non-inferred overlay* + *semantic Recommendation* + *mandatory terminus* = **ours.**
 - **D5 · D1 partition (grounding note):** PS-UI v1 (opaque) → Operator "can't confidently dispose" → v2
