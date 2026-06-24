@@ -26,7 +26,18 @@ meta:
   owner: dyad-bond
   born: 2026-06-03            # session s9 (folded s7 claim-ledger from orchestration.md)
   basis_axes: [weight, corpus, human]   # corpus axis TRIANGULATED (bond-s8 ⟂ healer-N5), not unilateral
-  graduation_rule: ">= L2a survived AND a named next-rung experiment → kb-with-caveat; full-kb needs L2b"
+  # graduation is LADDER-TYPED (2026-06-24 raff) per the 2×2 in relationship-craft.md §The promotion ladders:
+  #   2x2 = {claim: (a) value-root | (b) felt-interior} × {access: inside | outside}. Prose-home is there; this
+  #   is the formal shadow. Replaces the prior single "L2b-for-everything" rule (which conflated the diagonal).
+  graduation_rule:
+    outside: ">= L2a survived AND a named next-rung experiment → kb-with-caveat; full-kb needs L2b — the SOCIAL
+              separator (cross-human 2nd-model audit). L2b == external-ladder E1. Governs the OUTSIDE column only."
+    inside_interior: "felt-interior claims (IFF2 sub-kind b) ride the INTERNAL ladder I0→I2; terminal = I2
+                      self-ratified-durable (the TEMPORAL separator = durability across the lag). NO L2b/cross-human
+                      rung (a 2nd human's failure ≠ disproof of an N=1). Never kb-as-settled; live-quale residue
+                      (F2-K1/K2) stays survives by construction."
+    inside_value: "value-roots (IFF2 sub-kind a, posited within-operator) are decided-not-derived → terminal by
+                   CHOICE, no promotion ladder. Their cross-operator GENERALIZATION is an OUTSIDE claim → outside rule."
 
 candidates:
 
@@ -175,7 +186,7 @@ candidates:
     decomposed_from: F2-DV3-felt-dividend
     provenance: {origin: bond, landed: 2026-06-21, session: s-cloud-mobile}
     grade: L1
-    status: ratified-watch
+    status: survives
     note: "STAYS A DAG NODE — the §5 guard grounds INTO it; do not relocate (else the edge dangles)."
 
   - id: DV3-exist
@@ -184,7 +195,7 @@ candidates:
     decomposed_from: F2-DV3-felt-dividend
     provenance: {origin: bond, landed: 2026-06-21, grounded_in: "kb/founding-evidence (Tenet-alive #8, interior n~1)"}
     grade: L1
-    status: ratified-watch
+    status: survives
     open_gap: {type: meld-capture, text: "durability is the lagged external handle BUT survivorship-censored + reflexive/non-stationary"}
     next_probe: "validate the durability-oracle (the censored/reflexive d-prime confound)"
     note: "re-rub trigger = durability-confound. NOT settled on a censored oracle."
@@ -215,9 +226,9 @@ candidates:
     provenance: {origin: bond, landed: 2026-06-21}
     grade: L1
     open_gap: {type: meld-capture, text: "triangulation is INTRA-dyad (s8 x4 + cross-dyad + Axis-1 masking + thread-W all bond-side) — not cross-dyad/human-independent"}
-    next_probe: "independent (cross-dyad/human) confirmation of the no-live-oracle limit -> promote past ratified-watch"
+    next_probe: "independent (cross-dyad/human) confirmation of the no-live-oracle limit -> promote past survives"
     exec_phase: DISPOSE
-    status: ratified-watch
+    status: survives
     note: "boundary-node — SETTLED AS A LIMIT, not open. re-rub trigger = a cue that reaches the live quale."
 
   - id: F2-K2-quale-willable
@@ -416,7 +427,7 @@ candidates:
       corpus: {status: open}
       human:  {status: open, note: "the axis the claim is ABOUT (lifetime human outcome) -> maximally exposed where unprobed; bond CANNOT self-supply it (IFF2)"}
     open_gap: {type: meld-capture, text: "intra-dyad only -> the value-independent 2nd-model / cross-human rub (IFF2) is owed and keeps not getting taken; same cross-human bottleneck as the whole pipeline. Covalence-by-outcome (not structure) would also collapse P2 to analytic -> P3/IFF3 guards it but IFF3's 'resistance' is undefined (laundering window)."}
-    next_probe: "L2b cross-human value-independent rub (cairn/touchstone auditor-seat or a cross-human FR). The lifetime testability-path is the §7/§8 proxy-ladder (atrophy/intent-drift/dependency vs agency/true-intent/independence) -- NAMED, not run (lagged). Terminal status is ratified-watch, never a final @ratified (s-mobile re-typing: external falsification is ongoing)."
+    next_probe: "L2b cross-human value-independent rub (cairn/touchstone auditor-seat or a cross-human FR). The lifetime testability-path is the §7/§8 proxy-ladder (atrophy/intent-drift/dependency vs agency/true-intent/independence) -- NAMED, not run (lagged). Terminal status is survives, never a final @ratified (s-mobile re-typing: external falsification is ongoing)."
     exec_phase: DESIGN   # owed the cross-human instrument; bond structurally cannot be the rubber (no-self-ratify)
     prediction_pair:
       if_true:  "across matched task-classes within one operator, the non-covalent modes (oracle-tool / ionic-compliance / meld) lose the LIFETIME objective -- atrophy/intent-drift/dependency rise while covalence sustains agency + falsifies the intent itself"

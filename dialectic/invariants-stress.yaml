@@ -80,7 +80,7 @@ invariants:
     one_liner: "Falsification MUST NOT cascade — each answer spawning fresh attacks without bound."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
@@ -95,7 +95,7 @@ invariants:
     one_liner: "The Agent MUST manufacture real grounds for the Operator to dissent — scored cells, non-strawman anti-theses, ground-the-frame-first."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
@@ -110,7 +110,7 @@ invariants:
     one_liner: "The Agent MUST maintain two distinct models against meld."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
@@ -247,7 +247,7 @@ invariants:
     one_liner: "The Agent acts on durability pushes and outward messaging without re-asking, by standing authorization."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [context-shift]
     root: false
     grounded_in:

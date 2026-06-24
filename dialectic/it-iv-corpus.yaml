@@ -11,7 +11,7 @@ invariants:
     one_liner: "Grow by increasing the known-unknown surface."
     status: ratified
     form: slogan
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [context-shift]
     root: true
     root_kind: fiat
@@ -24,7 +24,7 @@ invariants:
     one_liner: "A stand-down must not lower the count of open known-unknowns without closing one."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:

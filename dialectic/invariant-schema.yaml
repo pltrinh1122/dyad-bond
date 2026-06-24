@@ -16,7 +16,7 @@ condition_grammar:         # G1 fix (evaluator-build surfaced: undeclared = cons
 vocabularies:              # controlled — closed unless marked registry
   status:      [ratified, candidate, inherited, kb, retired]
   form:        [slogan, tuple, mathematical]
-  settlement:  [candidate, ratified-watch, settled]
+  settlement:  [candidate, survives, settled]   # `survives` (was `ratified-watch`, retired 2026-06-24 raff): no "ratify"/"-watch" on the no-oracle pole — see invariant-schema.md §Grounding boundary
   actor:       [agent, operator, both, any-dyad]
   modality:    [MUST, MUST-NOT, ONLY-BY, ONLY-AFTER]
   detector:    [hard-oracle, soft-record, other-half-only, unobservable-from-inside]

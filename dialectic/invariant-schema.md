@@ -182,8 +182,20 @@ no enforcement tag **halts the validator**, so the silent middle (required-but-u
 
 - **Settlement tiers + declared re-rub triggers** (bounds no-exemption WITHOUT repealing it — re-rub
   fires on TRIGGERS, not cadence): `candidate` (hot, actively attacked — `dialectic/`) ·
-  `ratified-watch` (settled-for-now; re-rub only on: context-shift class · breach-evidence · census
+  `survives` (standing-until-falsified; re-rub only on: context-shift class · breach-evidence · census
   conflict-flag — ledger/reload-set) · `settled` (safe to cite; re-opened on breach-evidence — `kb/`).
+  > **`survives` — retired `ratified-watch` (2026-06-24 raff; single-home for the no-oracle status name).**
+  > On the no-oracle pole there is **no "ratify"** (a positive endorsement-stamp = the ionic/sycophancy shape
+  > `bond:C1` forbids — admission is by *surviving falsification*, a negative test, never a bestowal). And
+  > **"-watch" is redundant** three ways: (1) re-rubbability is universal (`no-dogma`/s14) → it partitions no
+  > state; (2) the *specific* armed tripwire is the `re_rub_triggers[]` field (more informative read direct);
+  > (3) the hot/cold gradient is `exec_phase`/`status==candidate`. "-watch" lossily summarized fields that
+  > already exist **and** localized a *universal duty* (anti-cave) onto one label — the same error as "ratify."
+  > **Tense, not a monitor:** the present standing is **`survives`** (= not-yet-refuted, fully re-rubbable);
+  > the *dated disposition event* is **`survived`** (a `disposition_history` entry — "survived FR #38 @ T").
+  > REFUTED stays the only decisive terminal. *(Scope: `ratify` survives ONLY on the analytic pole —
+  > Conjecture→Theorem, proof decisive both ways — which the no-oracle ledger does not operate on; the broader
+  > `status: ratified`/`@ratified`/`ratification`-trigger purge is type-sensitive and held for per-claim dispose.)*
   New field: `re_rub_triggers[]` (demanded by the consumer "productive work"; = D2
   bounded-consolidation promoted to a schema property; falsification effort is a BUDGET — Operator =
   the scarce Validate resource, the boundary is the allocation rule).

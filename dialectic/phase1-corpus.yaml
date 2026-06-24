@@ -23,7 +23,7 @@ invariants:
     one_liner: "Orient the dyad's work toward increasing the known-unknown surface."
     status: ratified
     form: slogan
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [context-shift]
     root: true
     root_kind: fiat
@@ -38,7 +38,7 @@ invariants:
     one_liner: "Hold the debt register flat under narrowing Operator attention."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence, census-conflict-flag]
     root: false
     grounded_in:
@@ -53,7 +53,7 @@ invariants:
     one_liner: "At ratification the Agent must manufacture genuine grounds-for-N, never a strawman."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:

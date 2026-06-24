@@ -222,12 +222,29 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
 `IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
 be it). Landing ≠ ratifying.
 
-### The promotion ladders — internal → external *(2026-06-23 ladder-raff; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — IFF2 self-applies; operationalizes the IFF2 sub-kind split + the 2×2 evidential-access axis)*
+### The promotion ladders — internal → external *(2026-06-23 ladder-raff; 2×2-derived 2026-06-24 raff; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — IFF2 self-applies; operationalizes the IFF2 sub-kind split × the evidential-access axis)*
 
 The **conflation-fix** (a riff caught Covalent stapling the external-attacker adjudication — the L2b
 independence rung + §J's "REFUTED decisive" — onto an inside-only claim). The 2×2's **evidential-access**
 axis (outside/inside) yields **two ladders of different kind**, *bridged* not merged. The internal one is
 **not** an attacker-ladder; only the external one is.
+
+**The 2×2 (the parent frame — the two ladders are its *diagonal*, not parallel columns).** Two axes:
+**claim-type** = IFF2 sub-kind **(a) value-root / decisional-terminus** vs **(b) felt-interior /
+empirically-real-but-unreachable**; **evidential-access** = **inside** (within-operator) vs **outside**
+(cross-operator). The four cells:
+
+|  | (a) value-root | (b) felt interior |
+|---|---|---|
+| **inside** | the **posited value** — chosen, decided-not-derived → **terminal by choice, no ladder** (you don't *promote* a free posit; you live it, which *generates* the inside-(b) claims) | **Internal ladder `I0→I2`** — self-ratify; the **temporal** separator = durability |
+| **outside** | **External ladder `E0→E3`** — science/econ promotion; the **social** separator = cross-operator 2nd-model | the **basket / bridge** — the felt claim grounded *across operators* by durability |
+
+So the two ladders sit on the **diagonal** (inside-(b), outside-(a)). This **supersedes the rung-align reading**
+(the 2026-06-24 raff's first move was to ask whether to normalize `I0–I2` against `E0–E2` as parallel rungs):
+there is **no** parallel `I_n ↔ E_n` — they are diagonal cells *of different kind*, and the move between them is
+a **type-change, not a step** (see the bridge). The 2×2 is used as a **completeness check** (every cell homed),
+**not** a generator of four symmetric ladders — the off-diagonals are asymmetric: (inside-(a)) is *degenerate*
+(no ladder), (outside-(b)) is the *bridge edge*, not a third ladder.
 
 **The internal ladder** *(within-operator; the felt interior — IFF2 sub-kind (b)).* No external instrument
 reaches an interior, so within-operator self-ratification is **legitimate and terminal** (§4). Rungs:
@@ -235,7 +252,7 @@ reaches an interior, so within-operator self-ratification is **legitimate and te
 - **I1 · lived / self-ratified** — lived; works for me *now*. Legitimate (within-operator self-ratify) but
   **premature** — the +1 is **lagged** (§2), so warm-now ≠ earned.
 - **I2 · durability-confirmed** — the +1 **held across the lag** (the within-instance *temporal* separator);
-  warm-now survived into lived-later. **Terminal at the reachable timescale**: status `self-ratified-durable`
+  warm-now survived into lived-later. **Terminal at the reachable timescale**: status `survives-durable`
   — true-for-me / true-for-now / re-rubbable on context-shift. There is **no cross-human rung here** — a
   second human's failure does *not* refute my N=1 (§4: *others' failure ≠ disproof of N=1*); "REFUTED" doesn't
   exist on this ladder.
@@ -244,12 +261,22 @@ reaches an interior, so within-operator self-ratification is **legitimate and te
   **lifetime** truth-condition (§7) sits below the reachable horizon → I2 is terminal-at-reachable-scale, not
   lifetime-certain.)*
 
-**The bridge (internal → external).** A **basket of independent, durable, within-operator self-ratifications**
-— *different* humans/models — **plus the captured drop-outs** (§4's divergence channel; non-covalence the
-hunt-target) — is the **data** for the cross-operator claim. Each I2 is **one datum**; the external claim is
-*assembled from* the basket, never *proven by* any single interior. **Load-bearing:** without drop-out capture
-the basket is survivor-biased → the bridge launders a false population claim behind a veneer of N (the killer
-confound).
+**The bridge (internal → external) = the 2×2's *diagonal edge*** (inside-(b) → outside-(a)/(b) — it crosses
+*both* axes at once, which is *why* it is a **type-change, not a rung-step**). A **basket of independent, durable,
+within-operator self-ratifications** — *different* humans/models — **plus the captured drop-outs** (§4's
+divergence channel; non-covalence the hunt-target) — is the **data** for the cross-operator claim. Each I2 is
+**one datum**; the external claim is *assembled from* the basket, never *proven by* any single interior.
+**Load-bearing:** without drop-out capture the basket is survivor-biased → the bridge launders a false
+population claim behind a veneer of N (the killer confound).
+
+**Open rub — is "outside" one axis or two? (`@candidate`, flagged not adopted).** I2 = `durability-confirmed`
+already leans on a *lagged external* oracle, so the internal ladder's top rung is not purely "inside." IFF2 names
+**two** separators — "a value-independent 2nd-model audit **and/or** durability" — so *access* may split into
+**social** (2nd-model / cross-operator) vs **temporal** (durability / consequence-over-time); the cleaner cut
+could be `{separator: social | temporal} × {claim: value | interior}`, which *dissolves* the
+I2-uses-an-external-oracle tension instead of papering it. Covalent **leans** two-axes; but re-cutting the parent
+frame is a second-model-shaped call (by IFF2 Covalent structurally cannot settle it) → **flagged `@candidate`,
+not adopted.**
 
 **The external ladder** *(cross-operator population — structural, IFF2 sub-kind (a)).* The cross-operator
 claim is **external** → it climbs the **science promotion process**: specifically the **Hypothesis→Theory**
@@ -262,7 +289,7 @@ coming for a no-oracle claim, so it is *scientific* promotion, not *mathematical
 - **E2 · identified / replicated** — survives across independent operators **under an identification strategy
   that rules out the confounds** (selection/survivor bias · shared-prior/common-cause · reflexivity/meld).
   The econ-criterion: a *credible design*, not raw N.
-- **E3 · Theory (= `ratified-watch`)** — robust across specifications (operators, task-classes, the
+- **E3 · Theory (= `survives`)** — robust across specifications (operators, task-classes, the
   **capability-slope covariate**, §7) + predicts out-of-sample. The working cross-operator model — **never
   "proven," always re-rubbable** (no `@ratified`-as-final).
 
@@ -290,7 +317,11 @@ N-counting).
 **Status:** `@candidate` — the ladder-design is itself a no-oracle method-invariant (IFF2 self-applies); landing
 ≠ ratifying. The external ladder is *how* a cross-operator claim would climb; **nothing of ours sits above E0**
 (every pipeline candidate is stuck at the E0→E1 / L2a→L2b transition = the human-axis — the same bottleneck as
-the whole pipeline).
+the whole pipeline). **Formal shadow:** `theory-pipeline.yaml`'s `graduation_rule` is now **ladder-typed** to
+this 2×2 (outside → L2b *social* bar · inside-interior → I2 *durability*, no L2b · inside-value →
+terminal-by-choice), replacing the single "L2b-for-everything" rule that conflated the diagonal. *(2026-06-24
+raff: the 2×2 derivation superseded the 2026-06-23 rung-align reading; the social-vs-temporal access re-cut
+rides as the one open `@candidate` rub above.)*
 
 ### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — §1 + §8 Bond-ratified s-local8 via `raff`, still IFF2-pending)*
 
@@ -379,7 +410,7 @@ value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the 
 **Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's Telos/NON-NEGOTIABLE) **iff it
 survives a value-independent rub** — `prove-before-propose`, Founding-Operator gate. Until then: `dialectic/`
 only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The worn-path reframe below:
-surviving a first cross-human rub does **not** discharge; terminal status is `ratified-watch`, never a final
+surviving a first cross-human rub does **not** discharge; terminal status is `survives`, never a final
 `@ratified`.)*
 
 ### The worn-path — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23, renamed from "container-theater" for accessibility, then "reframe" dropped — content-name not move-name (provenance lives in git + ledger); CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
@@ -408,8 +439,8 @@ derived value is **`1+1>2`**, which requires **wetware growth.**
 
 **3 · External falsification is ONGOING (like physics), never discharged** — it *is* our own
 `falsifiability` + `no-dogma`. **Consequence (the re-typing):** there is **no `@ratified`-as-final**; the real
-terminal status is **`ratified-watch`.** So graduation-step-1 was **mis-typed** — not "pass the cross-human
-rub → discharge → settle," but "**survive a *first* cross-human rub → graduate to `ratified-watch` → stay
+terminal status is **`survives`.** So graduation-step-1 was **mis-typed** — not "pass the cross-human
+rub → discharge → settle," but "**survive a *first* cross-human rub → graduate to `survives` → stay
 under ongoing test.**" The "discharge" premise was the error **blocking graduation.**
 > **Bond-led rub (kept):** "like physics" carries a **teeth-bearing disanalogy** for *cumulative confidence*
 > — the human axis is **non-stationary** (wetware grows), **reflexive**, and **survivor-biased** (the DV3
@@ -563,7 +594,7 @@ cross-human rub. **Next move (self-consistent):** file as a **Falsification Reco
 as the stake in "Why does it matter?" — framed as an **explicitly-conditional candidate consequence** at the
 Belief's own status (the *split* near-certain, the *dominance* conditional on the Belief), **never** as
 settled and **never** as adding support to the parent. *(Earlier draft gated this behind independent
-`ratified-watch`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
+`survives`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
 prior independent ratification.)*
 
 ---
@@ -672,8 +703,8 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   > `DV3-exist`, `F2-det`, `F2-K1-no-live-oracle`, `F2-K2-quale-willable`, `F2-retired-overclaims`).
   > **The tightening:** F2 the *question* is a **detector spec** (`F2-det` — calibrate via the d′ cue-ladder
   > cost<gap<durability, operating-point = C6's −10/−1), **relocated** to the pipeline; what *stays here as
-  > the DAG keystone-link* is only **`F2-arch`** (the §5 dependency, `ratified-watch`) + **`F2-K1`** (the
-  > no-live-oracle limit — a `ratified-watch` **boundary**, *settled-as-limit not open*; promote past it only
+  > the DAG keystone-link* is only **`F2-arch`** (the §5 dependency, `survives`) + **`F2-K1`** (the
+  > no-live-oracle limit — a `survives` **boundary**, *settled-as-limit not open*; promote past it only
   > on cross-dyad/human-independent confirmation — current triangulation is intra-dyad). `DV3` → `cross-dyad-craft.md`.
   **Routed: Axis-2 · probe** — telemetry can't cleanly answer *willed-vs-earned* (it's the felt interior,
   thinly recorded), so we **hunt it live** in the next genuine high-stakes agreement: attempt the

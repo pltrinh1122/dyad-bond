@@ -181,7 +181,7 @@ The construct-validity gap was: no *measure* for the two no-oracle DVs. The sess
   > *"No external grader … irreducible"* holds **live** but is **false over time** — **durability** is a
   > *lagged* external oracle (survivorship-censored), which grounds existence without live self-report and
   > breaks the self-certification loop; *"not a gap to fill"* holds for the live-quale but the **policy**
-  > (calibrate the live tell against durability outcomes) **is** a fillable gap. `DV3-exist` = `ratified-watch`
+  > (calibrate the live tell against durability outcomes) **is** a fillable gap. `DV3-exist` = `survives`
   > (grounded in `kb/founding-evidence`; re-rub trigger = the durability-confound). The genuine no-oracle
   > residue shrinks to **`F2-K1`** (live self-report unavailable) + **`F2-K2`** (the quale is willable).
 
