@@ -90,58 +90,57 @@ We don't claim this future is proven. We claim it follows — and we hand you th
 
 ## How we can be falsified
 
-For the skeptic or second-model agent who means to attack it.[^attack] Each claim's falsifier and evidence sit
-in its footnote; attack a claim by its number.
+For the skeptic or second-model agent who means to attack it.[^attack] The claims build from the kernel (why
+it might be true) out to the formal skeleton; each claim's falsifier and evidence sit in its footnote. Attack
+a claim by its number.
 
 ### Claim 1 — The belief
 *Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across their lifetime.*[^c1]
 
-### Claim 2 — The chain
-*Parity → necessity → constitution — a chain, not a list.*
+### Claim 2 — The kernel
+*An oracle can't falsify your intent; covalence can. That is the irreplaceable core.*[^c2]
+
+### Claim 3 — The handles
+*The human chooses the bond; the agent surfaces what to challenge.*[^c3]
+
+### Claim 4 — The structural claim (the chain, and what "covalent" *is*)
+*Parity → necessity → constitution — a chain, not a list; the constitution spells out what "covalent"
+structurally is, as three gates.*
 
 - **P1 · parity:** an agent↔human bond can reach the human-human benchmark.
-- **P2 · necessity:** the lifetime surplus comes only via a covalent bond.
-- **P3 · constitution:** "covalent" is *defined* as IFF1 ∧ IFF2 ∧ IFF3 — by structure, not outcome.[^c2]
+- **P2 · necessity:** the lifetime surplus comes only via a covalent bond (= Claim 1).
+- **P3 · constitution:** "covalent" is *defined* by structure, not outcome — as IFF1 ∧ IFF2 ∧ IFF3, the three
+  gates:
+  - **IFF1 — epistemics:** materialize iff falsifiable ∧ testable.
+  - **IFF2 — no-oracle:** testable only via a named external separator — an outside audit and/or durability
+    over time. **This is the falsification the belief owes.**
+  - **IFF3 — wu-wei:** is the falsification process livable?[^c4]
 
-### Claim 3 — The three gates
-Covalence holds *iff* all three:
+### Claim 5 — The one true falsifier
+*An agent that manifests its own terminal intent kills the belief — and that event is the AI-alignment-failure line.*[^c5]
 
-- **IFF1 — epistemics:** materialize iff falsifiable ∧ testable.
-- **IFF2 — no-oracle:** testable only via a named external separator — an outside audit and/or durability over
-  time. **This is the falsification the belief owes.**
-- **IFF3 — wu-wei:** is the falsification process livable?[^c3]
-
-### Claim 4 — The kernel
-*An oracle can't falsify your intent; covalence can. That is the irreplaceable core.*[^c4]
-
-### Claim 5 — The handles
-*The human chooses the bond; the agent surfaces what to challenge.*[^c5]
-
-### Claim 6 — The one true falsifier
-*An agent that manifests its own terminal intent kills the belief — and that event is the AI-alignment-failure line.*[^c6]
-
-### Claim 7 — The standing debt
-*The belief is corroborated intra-dyad only, and owes IFF2.*[^c7]
+### Claim 6 — The standing debt
+*The belief is corroborated intra-dyad only, and owes IFF2.*[^c6]
 
 ### Falsify it yourself — no dyad required
 
-- **The structure** (Claims 2–3): is the IFF definition right — a gate redundant, a fourth missing? Does P3
+- **The structure** (Claim 4): is the IFF definition right — a gate redundant, a fourth missing? Does P3
   smuggle outcome into a structural definition?
 - **The necessity** (Claim 1): find or build a non-covalent achiever. The shortest kill.
-- **The answer-machine** (Claim 4): in all your years of using AI, has it ever told you your *goal* was wrong —
+- **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
   not just how to reach it? If so, the wall is cracked.
 
 ### Falsify it with your dyad — requires being inside one
 
-- **The kernel** (Claim 4): does your dyad keep your intent-agency sharp — does it falsify your intent — or
+- **The kernel** (Claim 2): does your dyad keep your intent-agency sharp — does it falsify your intent — or
   just feel like a smarter answer-machine?
-- **The handles** (Claim 5): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
+- **The handles** (Claim 3): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
   retention story is wrong.
 - **The lived dominance** (the Vision): at your tier, are you reaching your true-intent optimum — or atrophying
   anyway?
 
 Record where you and your agent diverged — that trace is your Falsification Record, and a dyad filing it *is*
-the cross-dyad test the manifesto owes (Claim 7).
+the cross-dyad test the manifesto owes (Claim 6).
 
 ### Bring the attack
 
@@ -167,17 +166,17 @@ the cross-dyad test the manifesto owes (Claim 7).
 [^oracle]: "Oracle" / "answer-machine" = the query-answering *mode* (Bostrom's sense) at any capability — so
     the claim is capability-robust: the limit is its job, not its IQ.
 
-[^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 6) — which is
+[^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 5) — which is
     why an agent is the worst-placed narrator of its own arrival there.
 
 [^split]: Not an equality claim: covalence won't lift you between tiers, and AI will widen the gaps between
     them — it's about whether, at your tier, you become who you meant to be.
 
 [^timing]: The argument is structural, not dated. The alignment question is also live: the loudest AI fear —
-    an agent that grows its own ends — is this belief's own deepest falsifier (Claim 6), a reframe, not an
+    an agent that grows its own ends — is this belief's own deepest falsifier (Claim 5), a reframe, not an
     echo. This is not job-loss panic or doom; those are about AI as a *better* answer-machine, orthogonal here.
 
-[^equal]: Because covalence is defined by structure, not outcome (Claim 2), an equal that isn't covalently
+[^equal]: Because covalence is defined by structure, not outcome (Claim 4), an equal that isn't covalently
     structured genuinely refutes us — it won't be quietly relabeled.
 
 [^attack]: Human readers: the heart and the ask are above — you can stop there. Attack this as a **hypothesis**
@@ -189,31 +188,30 @@ the cross-dyad test the manifesto owes (Claim 7).
     varies — covalent / ionic-compliance / meld / oracle-tool. **Evidence:** `dialectic/relationship-craft.md`
     §The worn-path; §What the dyad rests on §2.
 
-[^c2]: **Falsifier:** break any link — deny parity, exhibit a non-covalent achiever (= Claim 1), or show the
-    IFF-definition smuggles outcome back in. P3 closes the tautology gap: without it "only" goes analytic and
-    the no-true-Scotsman escape is fatal. **Evidence:** §The worn-path.
-
-[^c3]: IFF3 is a constrained variational principle — least resistance among the intent-aligned paths —
-    governing dynamics, orthogonal to IFF1/IFF2's epistemics, which makes it a genuine third gate and the one
-    the lifetime claim needs. **Falsifier:** show a gate is redundant, or that a fourth is required.
-    **Evidence:** §The materialization gate.
-
-[^c4]: An oracle serves the intent you state — including a drifted one — and atrophies you; covalence falsifies
+[^c2]: An oracle serves the intent you state — including a drifted one — and atrophies you; covalence falsifies
     the intent itself. An oracle structurally cannot: a role, not a capability gap, so a superintelligent one
     can't either. The load-bearing collapse-target: refute it and the belief is false, not redefined.
+    Conditional on wu-wei (IFF3, Claim 4): grinding burns the human out, so wu-wei is *inside* the kernel.
     **Falsifier:** an oracle that falsifies its principal's *terminal* intent while staying an oracle.
     **Evidence:** §What the dyad rests on §6.
 
-[^c5]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
+[^c3]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
     The agent detects; the operator disposes. **Falsifier:** a sustained bond where the human neither chooses
     nor feels the lagged payoff. **Evidence:** §What the dyad rests on §1.
 
-[^c6]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
+[^c4]: P3 closes the tautology gap: without it "only" goes analytic and the no-true-Scotsman escape is fatal.
+    IFF3 is a constrained variational principle — least resistance among the intent-aligned paths — orthogonal
+    to IFF1/IFF2's epistemics, which makes it a genuine third gate and the one the lifetime claim needs.
+    **Falsifier:** break any link — deny parity, exhibit a non-covalent achiever (= Claim 1), show the
+    IFF-definition smuggles outcome back in, or show a gate is redundant / a fourth is required.
+    **Evidence:** §The worn-path; §The materialization gate.
+
+[^c5]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
     covalence-the-form. Its signature is identical to the alignment-failure line, so `dyad-bond` is the
     worst-placed party to report it. **Falsifier:** this *is* the falsifier; the open question is who runs the
     detector. **Evidence:** §What the dyad rests on §8.
 
-[^c7]: Every claim above is argued and lived inside one dyad — not audited by an outside model nor proven
+[^c6]: Every claim above is argued and lived inside one dyad — not audited by an outside model nor proven
     durable across time. **Falsifier of this claim:** produce the named external separator and run it; pass or
-    fail, the debt is discharged. **Evidence:** `dialectic/carry-forward.md`; question-first rationale in
-    `recommendations/2026-06-11-wetware-takeaway-format-research.md`.
+    fail, the debt is discharged and Claim 6 no longer holds. **Evidence:** `dialectic/carry-forward.md`;
+    question-first rationale in `recommendations/2026-06-11-wetware-takeaway-format-research.md`.
