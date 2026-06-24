@@ -252,7 +252,7 @@ reaches an interior, so within-operator self-ratification is **legitimate and te
 - **I1 · lived / self-ratified** — lived; works for me *now*. Legitimate (within-operator self-ratify) but
   **premature** — the +1 is **lagged** (§2), so warm-now ≠ earned.
 - **I2 · durability-confirmed** — the +1 **held across the lag** (the within-instance *temporal* separator);
-  warm-now survived into lived-later. **Terminal at the reachable timescale**: status `self-ratified-durable`
+  warm-now survived into lived-later. **Terminal at the reachable timescale**: status `survives-durable`
   — true-for-me / true-for-now / re-rubbable on context-shift. There is **no cross-human rung here** — a
   second human's failure does *not* refute my N=1 (§4: *others' failure ≠ disproof of N=1*); "REFUTED" doesn't
   exist on this ladder.
@@ -289,7 +289,7 @@ coming for a no-oracle claim, so it is *scientific* promotion, not *mathematical
 - **E2 · identified / replicated** — survives across independent operators **under an identification strategy
   that rules out the confounds** (selection/survivor bias · shared-prior/common-cause · reflexivity/meld).
   The econ-criterion: a *credible design*, not raw N.
-- **E3 · Theory (= `ratified-watch`)** — robust across specifications (operators, task-classes, the
+- **E3 · Theory (= `survives`)** — robust across specifications (operators, task-classes, the
   **capability-slope covariate**, §7) + predicts out-of-sample. The working cross-operator model — **never
   "proven," always re-rubbable** (no `@ratified`-as-final).
 
@@ -410,7 +410,7 @@ value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the 
 **Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's Telos/NON-NEGOTIABLE) **iff it
 survives a value-independent rub** — `prove-before-propose`, Founding-Operator gate. Until then: `dialectic/`
 only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The worn-path reframe below:
-surviving a first cross-human rub does **not** discharge; terminal status is `ratified-watch`, never a final
+surviving a first cross-human rub does **not** discharge; terminal status is `survives`, never a final
 `@ratified`.)*
 
 ### The worn-path — the Belief, its typing & the P1→P2→P3 chain *(s-mobile, Operator-led interior arc 2026-06-23, renamed from "container-theater" for accessibility, then "reframe" dropped — content-name not move-name (provenance lives in git + ledger); CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — landed here from the `carry-forward.md` clip, ALL still owed the cross-human rub)*
@@ -439,8 +439,8 @@ derived value is **`1+1>2`**, which requires **wetware growth.**
 
 **3 · External falsification is ONGOING (like physics), never discharged** — it *is* our own
 `falsifiability` + `no-dogma`. **Consequence (the re-typing):** there is **no `@ratified`-as-final**; the real
-terminal status is **`ratified-watch`.** So graduation-step-1 was **mis-typed** — not "pass the cross-human
-rub → discharge → settle," but "**survive a *first* cross-human rub → graduate to `ratified-watch` → stay
+terminal status is **`survives`.** So graduation-step-1 was **mis-typed** — not "pass the cross-human
+rub → discharge → settle," but "**survive a *first* cross-human rub → graduate to `survives` → stay
 under ongoing test.**" The "discharge" premise was the error **blocking graduation.**
 > **Bond-led rub (kept):** "like physics" carries a **teeth-bearing disanalogy** for *cumulative confidence*
 > — the human axis is **non-stationary** (wetware grows), **reflexive**, and **survivor-biased** (the DV3
@@ -594,7 +594,7 @@ cross-human rub. **Next move (self-consistent):** file as a **Falsification Reco
 as the stake in "Why does it matter?" — framed as an **explicitly-conditional candidate consequence** at the
 Belief's own status (the *split* near-certain, the *dominance* conditional on the Belief), **never** as
 settled and **never** as adding support to the parent. *(Earlier draft gated this behind independent
-`ratified-watch`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
+`survives`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
 prior independent ratification.)*
 
 ---
@@ -703,8 +703,8 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   > `DV3-exist`, `F2-det`, `F2-K1-no-live-oracle`, `F2-K2-quale-willable`, `F2-retired-overclaims`).
   > **The tightening:** F2 the *question* is a **detector spec** (`F2-det` — calibrate via the d′ cue-ladder
   > cost<gap<durability, operating-point = C6's −10/−1), **relocated** to the pipeline; what *stays here as
-  > the DAG keystone-link* is only **`F2-arch`** (the §5 dependency, `ratified-watch`) + **`F2-K1`** (the
-  > no-live-oracle limit — a `ratified-watch` **boundary**, *settled-as-limit not open*; promote past it only
+  > the DAG keystone-link* is only **`F2-arch`** (the §5 dependency, `survives`) + **`F2-K1`** (the
+  > no-live-oracle limit — a `survives` **boundary**, *settled-as-limit not open*; promote past it only
   > on cross-dyad/human-independent confirmation — current triangulation is intra-dyad). `DV3` → `cross-dyad-craft.md`.
   **Routed: Axis-2 · probe** — telemetry can't cleanly answer *willed-vs-earned* (it's the felt interior,
   thinly recorded), so we **hunt it live** in the next genuine high-stakes agreement: attempt the

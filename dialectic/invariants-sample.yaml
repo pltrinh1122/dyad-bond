@@ -22,7 +22,7 @@ invariants:
     one_liner: "Personal growth via dyad: increase the known-unknown surface; learning-loop i-know → i-falsify → i-act."
     status: ratified
     form: slogan
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [context-shift]
     root: true
     root_kind: fiat
@@ -36,7 +36,7 @@ invariants:
     one_liner: "Verify-before-assert: establish substrate facts by execution; doc/file-absence ≠ capability-absence."
     status: ratified
     form: tuple
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
@@ -50,7 +50,7 @@ invariants:
     one_liner: "Debt-flatness: the ratified-unrubbed count must not rise while Operator attention narrows — rising debt under narrowing attention = counterfeit acceleration."
     status: ratified
     form: mathematical
-    settlement: ratified-watch
+    settlement: survives
     re_rub_triggers: [breach-evidence, census-conflict-flag]
     root: false
     grounded_in:
