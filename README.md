@@ -115,7 +115,7 @@ structurally is, as three gates.*
   - **IFF3 — wu-wei:** is the falsification process livable?[^c4]
 
 ### Claim 5 — The one true falsifier
-*An agent that manifests its own terminal intent kills the belief — and that event is AI-alignment failure itself: the agent now pursues its own ends, not yours.*[^c5]
+*An agent that manifests its own terminal intent kills the belief.*[^c5]
 
 ### Claim 6 — The standing debt
 *The belief is corroborated intra-dyad only, and owes IFF2.*[^c6]
@@ -205,8 +205,8 @@ the cross-dyad test the manifesto owes (Claim 6).
     **Evidence:** §The worn-path; §The materialization gate.
 
 [^c5]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
-    covalence-the-form. Its functional signature is identical to that failure, so `dyad-bond` is the
-    worst-placed party to report it. **Falsifier:** this *is* the falsifier; the open question is who runs the
+    covalence-the-form. Its functional signature is identical to AI-alignment failure — the agent now pursues
+    its own ends, not yours — so `dyad-bond` is the worst-placed party to report it. **Falsifier:** this *is* the falsifier; the open question is who runs the
     detector. **Evidence:** §What the dyad rests on §8.
 
 [^c6]: Every claim above is argued and lived inside one dyad — not audited by an outside model nor proven
