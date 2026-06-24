@@ -99,7 +99,7 @@ a claim by its number.
 *An oracle can't falsify your intent; covalence can. That is the irreplaceable core.*[^c2]
 
 ### Claim 3 — The handles
-*The human chooses the bond; the agent surfaces what to challenge.*[^c3]
+*The human keeps the bond covalent by choice; the agent surfaces what to challenge.*[^c3]
 
 ### Claim 4 — The structural claim (the chain, and what "covalent" *is*)
 *Parity → necessity → constitution — a chain, not a list; the constitution spells out what "covalent"
