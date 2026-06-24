@@ -26,7 +26,18 @@ meta:
   owner: dyad-bond
   born: 2026-06-03            # session s9 (folded s7 claim-ledger from orchestration.md)
   basis_axes: [weight, corpus, human]   # corpus axis TRIANGULATED (bond-s8 ⟂ healer-N5), not unilateral
-  graduation_rule: ">= L2a survived AND a named next-rung experiment → kb-with-caveat; full-kb needs L2b"
+  # graduation is LADDER-TYPED (2026-06-24 raff) per the 2×2 in relationship-craft.md §The promotion ladders:
+  #   2x2 = {claim: (a) value-root | (b) felt-interior} × {access: inside | outside}. Prose-home is there; this
+  #   is the formal shadow. Replaces the prior single "L2b-for-everything" rule (which conflated the diagonal).
+  graduation_rule:
+    outside: ">= L2a survived AND a named next-rung experiment → kb-with-caveat; full-kb needs L2b — the SOCIAL
+              separator (cross-human 2nd-model audit). L2b == external-ladder E1. Governs the OUTSIDE column only."
+    inside_interior: "felt-interior claims (IFF2 sub-kind b) ride the INTERNAL ladder I0→I2; terminal = I2
+                      self-ratified-durable (the TEMPORAL separator = durability across the lag). NO L2b/cross-human
+                      rung (a 2nd human's failure ≠ disproof of an N=1). Never kb-as-settled; live-quale residue
+                      (F2-K1/K2) stays ratified-watch by construction."
+    inside_value: "value-roots (IFF2 sub-kind a, posited within-operator) are decided-not-derived → terminal by
+                   CHOICE, no promotion ladder. Their cross-operator GENERALIZATION is an OUTSIDE claim → outside rule."
 
 candidates:
 
