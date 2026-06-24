@@ -122,9 +122,9 @@ structurally is, as three gates.*
 
 ### Falsify it yourself — no dyad required
 
+- **The necessity** (Claim 1): find or build a non-covalent achiever. The shortest kill.
 - **The structure** (Claim 4): is the IFF definition right — a gate redundant, a fourth missing? Does P3
   smuggle outcome into a structural definition?
-- **The necessity** (Claim 1): find or build a non-covalent achiever. The shortest kill.
 - **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
   not just how to reach it? If so, the wall is cracked.
 
