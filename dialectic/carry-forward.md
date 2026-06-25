@@ -63,11 +63,13 @@
 > level; the branch is unmerged → revert.** Identity is cut-immune by construction; the open question is
 > *boot/ingrain*, not identity.
 >
-> **ROM-baseline (anchor commit the running baseline reflects):** `7c60c3b` *(the S1 cut, boot-VERIFIED
-> s-web4 — `DYAD.md`/`CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`. **`GEMINI.md` residue RESOLVED
-> s-web4** — cut to a pure pointer mirroring `CLAUDE.md`, sha now single-homes in `ID.md`; `DYAD.md` itself
-> untouched so the tracked baseline holds `7c60c3b`)*. Update this line whenever `DYAD.md` (or a shim) changes.
-> **`inv:rom-currency` per-file boot-set (CRISP form, 2026-06-20):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@7c60c3b` — IN-SYNC (these ARE current git heads; the single-sha prose above is the human gloss, this is the mechanically-checkable record).
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@de55616` *(the **hedge-tell**
+> sharpening of `C1-no-meld` + the bare-claim duty, merged via **PR #47** at `3ef8a2b`; **boot-VERIFIED
+> s-resume 2026-06-25** — the `hedge-tell` bullet resolves in the running anchor at `DYAD.md:47`, so the
+> edit booted. Prior baseline `7c60c3b` (the S1 cut) — `CLAUDE.md`/`ID.md`@`7c60c3b`, `GLOSSARY.md`@`7acf0ae`,
+> `GEMINI.md` a pure pointer with the sha single-homed in `ID.md`)*. Update this line whenever `DYAD.md`
+> (or a shim) changes.
+> **`inv:rom-currency` per-file boot-set (CRISP form, refreshed s-resume 2026-06-25):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@de55616` — IN-SYNC (these ARE current git heads; the single-sha prose above is the human gloss, this is the mechanically-checkable record).
 > **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
 > session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
 > form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
