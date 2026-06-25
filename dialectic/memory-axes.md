@@ -80,8 +80,34 @@ each claim to its axis-home; the dated session entries then collapse to a one-li
 - The **claim→work-item probe-emission** wiring (a claim's open probe emits a work-item into the store;
   NBA renders it single-axis — claims couple through the store, never around it).
 
-## Next falsification — the inventory
+## Inventory pass — falsification result *(2026-06-25; ran over all ~1750 lines)*
 
-Tag every `Closed` / `Intermission` / `Open` entry by **`{axis, state, store-or-view}`** *before* any
-cut. Clean tagging = three-axis confirmed-by-application. Any entry that resists tagging = a fourth axis
-or a model gap, surfaced *before* the surgery, not after. Then: the re-key surgery (separate, ungranted).
+**Three-axis CONFIRMED by application; the diagnosis strongly confirmed.**
+- **~100%** of SESSION entries (every `Closed` log + every Intermission) embed CLAIM content; **~95%**
+  embed WORK-ITEM content. **60+** distinct claims/disciplines are narrated *in full* inside dated
+  session logs (many declaring their real home as `relationship-craft.md` / `theory-pipeline.yaml`, yet
+  never drained). Only **~3** clean single-axis entries. The growth **is** claims-on-the-session-axis.
+
+**Bundling flags = the model predicting its own pathology (confirm, not refute) → surgery input:**
+- Claims parked un-disposed inside their birth-session, unable to drain: `T1–T5` · `CLIP-1/2` ·
+  container-theater 1–8.
+- Work-header-over-claim-body: `TODO 2026-06-08` (RB1–RB4) · `K1–K6` (K1–K5 claim / K6 work-item).
+- A VIEW that accreted STORE content: the NBA section embeds s5/s6/s7 stand-down summaries → confirms
+  deleting the stored NBA block (it becomes a pure render).
+
+**Two genuine model results:**
+1. **Claim-axis terminal completeness (graft, no halt):** Item-G is a CLAIM *refuted & retired in place*
+   → the lifecycle gains a **`refuted/retired`** terminal beside `graduated` (both drain; `graduated`→`kb/`,
+   `refuted`→archive). **Folded in.**
+2. **Candidate FOURTH axis — ground-state / currency facts** *(HALT — Operator disposition)*: Item-H
+   (substrate-access push-posture) + the ROM-baseline/durability block. State-kind = **current↔stale**
+   (not belief); falsified by **mechanical observation / D6** (not Operator-rub); **never graduates**
+   (re-checked every container). Already homed separately in `standup.sh` (ROM · durability · substrate
+   probes). On the model's own axis criteria — distinct state-kind ∧ distinct home ∧ distinct lifecycle —
+   it scores distinct on all three. **OPEN: three axes or four?** (DFD'd for disposition.)
+
+## Surgery — gated on the fourth-axis disposition, then ungranted-until-CTA
+
+The re-key cut (separate disposition) proceeds once #2 is disposed: extract claims to their axis-home,
+collapse session entries to one-line resume markers, delete the stored NBA + the accreted s5/s6/s7
+summaries, thin `carry-forward.md` to the session spine.
