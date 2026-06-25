@@ -42,6 +42,27 @@
 >   the shared model (responses, dispositions, merges-of-others'-work) = the Operator's gate. Moving bytes
 >   off-machine for safety is not that. *(Repeatedly mis-conflated → this note exists to stop the relapse.)*
 
+## The save / pin / land model — three layers, by who-gates *(CANDIDATE · Operator `land` 2026-06-25; consolidates the posture above into the Operator's mental model)*
+
+Substrate mutation is **three layers**, gated differently — only the top is a gated "act":
+
+1. **Auto-save — un-gated, continuous (the Agent's, no token).** Commit + `bin/git.sh push` to the session
+   branch, run liberally for **resumability** (the record is the memory; a fresh session resumes from it).
+   = the s9 standing-durability disposition. Surfacing a durability-push as a CTA is the **abdication**
+   mis-anchor (above).
+2. **Drafts / pins — un-gated, liberal (the Agent's, no token).** Ledger clips + candidate `dialectic/`
+   writes exist as **cheap context-anchors for the Operator** (whose working-context is smaller than the
+   Agent's) — to ground and re-ground mid-arc. **Guard (`single-home`):** a pin **summarizes-and-points**;
+   it never *restates* a content-home (restating re-creates the drift that bloated the early ledger past 300KB).
+3. **Landing — the PR arc, gated.** **PR open = the *start* of landing — gated by `bond:no-self-act`: the
+   Agent waits for the Operator's `land` token to open it.** **PR merge = the *final* landing act, the
+   Operator's alone** (the covalent gate, §Permissioning protocol). One PR per session-arc.
+
+**The anchor carve (decomposed, not an exception — `no exceptions`).** The split is the axis *does the write
+touch the always-loaded boot-set* (`DYAD.md` + the `CLAUDE.md`/`GEMINI.md` shims + the `ID.md`/`GLOSSARY.md`
+frame)? **No → layer 1/2 (un-gated pin/save). Yes → landing-class (gated), even as a draft** — touching the
+always-loaded guard changes every future boot (write-through, RESTART-PENDING), so it is never a mere pin.
+
 ## The problem — trigger-grounded *(the transferable understanding; this + the annotated example = the bundle bond owns)*
 
 **Trigger** *(what makes this real — the recognition signal AND the adoption gate):*
