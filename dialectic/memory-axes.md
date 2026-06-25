@@ -20,7 +20,7 @@ double-duty: a task's do-state and a finding's belief-state move independently).
 | Axis | State-kind | States | Home | Loads at resume |
 |---|---|---|---|---|
 | **Session** | cadence | open → intermission → closed | `carry-forward.md`, thinned to the spine | whole (tiny): resume steps + ROM-baseline + pointers |
-| **Work-item** | do-state | active → parked → {done · archived} | `deferrals.md` (the work-item store) | NBA render of `{active ∪ parked}` (total view); `{done · archived}` drained |
+| **Work-item** | do-state | todo → in-progress → {done · archived} | `deferrals.md` (the work-item store) | NBA render of `{in-progress ∪ todo}` (total view); `{done · archived}` drained |
 | **Claim** | belief-state | candidate → under-falsification → ingrained → graduated | `theory-pipeline.yaml` (hooks/state) + `relationship-craft.md` (prose) → `kb/` on graduation | only open standing-tests/hooks; derivation prose on-demand |
 
 ## The store/view split *(DISPOSED)*
@@ -34,13 +34,16 @@ is a *render*, never a maintained section.
 **NBA is the recommendation view of the work-item store** — a render over `deferrals`, not a stored
 section. The 96-line stored NBA block is **deleted** (rendered on demand, like the killed dashboard).
 
-**The view is the TOTAL live set — `{active ∪ parked}`** (Operator-disposed: NBA must show parked too,
-so deferred work stays in sight; the Agent's exclude-parked default was **refuted**). Terminal states
-`{done · archived}` are excluded and drain out. **Drain is a DISPOSITION, not an auto-filter:** "parked
-**indefinitely**" → the **Operator** disposes it to **archive** (a judgment = Operator's seat, like
-claim-graduation); `done` drains at stand-down. **Pre-registered falsifier:** parked can accrete as
-NBA-noise if the archive-disposition lags (drain-latency) — watch whether `{active ∪ parked}` stays
-screen-bounded.
+*Vocabulary (Operator, 2026-06-25): `in-progress` ≡ the prior **active** (WIP); `todo` ≡ the prior
+**parked** (backlog). The kanban triple `todo → in-progress → done`, plus an `archived` off-ramp.*
+
+**The view is the TOTAL live set — `{in-progress ∪ todo}`** (Operator-disposed: NBA shows the backlog
+too, so queued work stays in sight; the Agent's hide-the-backlog default was **refuted**). Terminal
+states `{done · archived}` are excluded and drain out. **Drain is a DISPOSITION, not an auto-filter:** a
+**todo gone stale (indefinitely idle)** → the **Operator** disposes it to **archive** (a judgment =
+Operator's seat, like claim-graduation); `done` drains at stand-down. **Pre-registered falsifier:** the
+backlog can accrete as NBA-noise if the archive-disposition lags (drain-latency) — watch whether
+`{in-progress ∪ todo}` stays screen-bounded.
 
 ## Inter-axis coupling
 
@@ -61,10 +64,16 @@ each claim to its axis-home; the dated session entries then collapse to a one-li
 
 ## Disposed since landing *(Operator, 2026-06-25 cont.)*
 
-- **`deferrals.md` widens** parked-only ("intentional future work, not gaps") → **the work-item store**:
-  `do-state` field `{active · parked · done · archived}`; the active "Open items" fold *into* it. **Y.**
-- **NBA view = `{active ∪ parked}`** (total view); "parked indefinitely" → **Operator-disposed archive**;
-  `{done · archived}` drain. Corrects the Agent's exclude-parked synthesis.
+- **`deferrals.md` widens** → **the work-item store**: `do-state` field `{todo · in-progress · done ·
+  archived}` (`in-progress` ≡ prior *active*/WIP; `todo` ≡ prior *parked*/backlog); the active "Open
+  items" fold *into* it. **Y.**
+- **NBA view = `{in-progress ∪ todo}`** (total view); a stale `todo` → **Operator-disposed archive**;
+  `{done · archived}` drain. Corrects the Agent's hide-the-backlog synthesis.
+- **CATCH (Agent, for the inventory):** `deferrals.md` also holds a **Contribution candidates** section
+  (DFD · IFD · the relationship-craft) — those are **not** work-items (no do-state); they're **claim-axis**
+  items pending the Founding-Operator gate. They **peel to the claim axis** in the re-key, not into the
+  work-item store. (And once it holds todo/in-progress/done, the name "deferrals" is a legacy misnomer —
+  rename is a surgery-detail.)
 
 ## Derived consequences — still PENDING Operator rub *(Agent-derived)*
 
