@@ -183,7 +183,7 @@ no enforcement tag **halts the validator**, so the silent middle (required-but-u
 - **Settlement tiers + declared re-rub triggers** (bounds no-exemption WITHOUT repealing it — re-rub
   fires on TRIGGERS, not cadence): `candidate` (hot, actively attacked — `dialectic/`) ·
   `survives` (standing-until-falsified; re-rub only on: context-shift class · breach-evidence · census
-  conflict-flag — ledger/reload-set) · `settled` (safe to cite; re-opened on breach-evidence — `kb/`).
+  conflict-flag — ledger/reload-set) · `settled` (safe to cite — **reached by claim-type CLOSURE, not coverage; see below**; re-opened on breach-evidence — `kb/`).
   > **`survives` — retired `ratified-watch` (2026-06-24 raff; single-home for the no-oracle status name).**
   > On the no-oracle pole there is **no "ratify"** (a positive endorsement-stamp = the ionic/sycophancy shape
   > `bond:C1` forbids — admission is by *surviving falsification*, a negative test, never a bestowal). And
@@ -196,6 +196,15 @@ no enforcement tag **halts the validator**, so the silent middle (required-but-u
   > REFUTED stays the only decisive terminal. *(Scope: `ratify` survives ONLY on the analytic pole —
   > Conjecture→Theorem, proof decisive both ways — which the no-oracle ledger does not operate on; the broader
   > `status: ratified`/`@ratified`/`ratification`-trigger purge is type-sensitive and held for per-claim dispose.)*
+  > **`settled` — reached by claim-type CLOSURE, not coverage (2026-06-24 raff, per the `survives` refactor).**
+  > Coverage rungs (L0→L2b / E0→E3) measure how much independence has *attacked*; **no count of survived attacks
+  > converts a no-oracle claim into `settled`** (external falsification is ONGOING, never discharged — the
+  > physics-disanalogy). So `settled` is gated by TYPE: **analytic** (a proof closes it — Conjecture→Theorem,
+  > decisive both ways; re-rub = proof-flaw only) **or posited/inherited** (value-root / inherited form, held by
+  > choice/conformance; re-rub = posit-abandoned · Telos-shift · upstream-form-change). **No-oracle empirical
+  > claims (job-1) CAP at `survives`** — cited as **`kb-with-caveat`** (= `survives` + high coverage + the named
+  > standing falsifier still open), a citability *practice* over `survives`, **not a 4th tier.** The wider trigger
+  > set (breach + context-shift + census) is exactly what keeps a no-oracle claim short of `settled`.
   New field: `re_rub_triggers[]` (demanded by the consumer "productive work"; = D2
   bounded-consolidation promoted to a schema property; falsification effort is a BUDGET — Operator =
   the scarce Validate resource, the boundary is the allocation rule).

@@ -30,8 +30,13 @@ meta:
   #   2x2 = {claim: (a) value-root | (b) felt-interior} × {access: inside | outside}. Prose-home is there; this
   #   is the formal shadow. Replaces the prior single "L2b-for-everything" rule (which conflated the diagonal).
   graduation_rule:
-    outside: ">= L2a survived AND a named next-rung experiment → kb-with-caveat; full-kb needs L2b — the SOCIAL
-              separator (cross-human 2nd-model audit). L2b == external-ladder E1. Governs the OUTSIDE column only."
+    outside: ">= L2a survived AND a named next-rung experiment → kb-with-caveat (= survives + high coverage + the
+              named standing falsifier). L2b (SOCIAL separator = cross-human 2nd-model audit; == external-ladder E1)
+              RAISES coverage; it does NOT reach `settled` — no-oracle claims CAP at survives (external falsification
+              is ongoing, never discharged). Outside column tops out at E3 = survives = kb-with-caveat. 'full-kb
+              needs L2b' RETIRED (2026-06-24 raff: that re-imported a must-pass gate one level up — no-ratify)."
+    settled: "NOT a coverage rung — reached by claim-type CLOSURE only: analytic (proof closes; decisive both ways)
+              or posited/inherited (choice/conformance). No no-oracle claim reaches it. Single-home: invariant-schema.md."
     inside_interior: "felt-interior claims (IFF2 sub-kind b) ride the INTERNAL ladder I0→I2; terminal = I2
                       self-ratified-durable (the TEMPORAL separator = durability across the lag). NO L2b/cross-human
                       rung (a 2nd human's failure ≠ disproof of an N=1). Never kb-as-settled; live-quale residue

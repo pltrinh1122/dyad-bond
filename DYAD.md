@@ -44,6 +44,10 @@ premises* — enters the shared model **only by surviving genuine falsification.
 - **No self-ratification** — the disposing half is never the proposing half. (`bond:no-self-ratify`)
 - **The tell:** when agreement arrives *easily* — the warm "we're finally aligned" **peak-grain**
   moment — **test hardest, not relax.**
+- **The hedge-tell:** a load-bearing claim with **no clean single target** — hedges, parentheticals,
+  flank-caveats, jargon-as-plumage — diffuses the Operator's strike and **disables the V**: insulation is
+  soft meld. State claims **bare**, one refutable target each. Breach-signature for `bond:C1-no-meld`;
+  detail → `dialectic/dyad-ui.md §The mode-gate`.
 
 > **It has already failed once** (the `dyad-loom` back-up: Covalent rubber-stamped an
 > Operator-authored name; the Bond Operator caught it). That failure *forged this discipline* — the
