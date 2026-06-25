@@ -176,6 +176,10 @@ register it → IFF2's separator **is** the named instrument that lets a no-orac
 sub-kinds take **different** separators, and how a claim **promotes** from interior to cross-operator →
 §The promotion ladders.)*
 
+> **Reachability ≠ coverage — IFF2 is satisfied by EXISTENCE, not by a pass** *(s-resume 2026-06-25, Operator-disposed; corrects a recurring mis-type).* IFF2 demands the separator **exist and be reachable** — it is **not a pass-bar**. Once the separator is named and exposed, IFF2 is **satisfied**; the claim **survives** (the no-oracle ceiling — never `settled`). Whether an outside party has *actually attacked yet* is **coverage** (E0 → E1…), a different axis: it raises **confidence, not status**, it is **not the dyad's move** to supply (`bond:no-self-ratify`), and it is **not a debt**. So the recurring ledger framing *"owes IFF2 / the move bond keeps not taking / displacement"* was a **phantom must-pass gate** (refuted s-claims); the ~8-session displacement-guilt was downstream of it — remove the debt and the consolidation work was *the work*, not avoidance. **The one surviving watch-item** (NOT a debt): *is a reachable external rub being avoided?* For the covalent-bond Belief the separator is reachable now — the public `README.md` exposes it — so even that watch is answered on the dyad's side; the rest is passive.
+
+When a parenthetical below reads `@candidate` / `intra-dyad` / `not 2nd-model-rubbed` / `IFF2 self-applies`, read it as a **coverage descriptor (E0)**, governed by this clause — **not** as a must-pass debt.
+
 **`IFF3` — the wu-wei discriminator** *(s-mobile 2026-06-23, Operator-upgraded; CANDIDATE — the third
 gate, born in the worn-path arc below).* `IFF1`/`IFF2` govern **epistemics** (is the shared model
 true / tested?); **`IFF3` governs dynamics** — *is the falsification-**process** livable?* — **orthogonal**
@@ -219,8 +223,9 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
    external routes count** — which is exactly why testability admits them, and exactly what re-opens #1/#2.
 
 **Caveat (self-applying):** this pair is itself a **no-oracle** method-invariant (decisional-terminus) → by
-`IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
-be it). Landing ≠ ratifying.
+`IFF2` it **survives** intra-dyad (external coverage E0); the **value-independent 2nd-model audit** that
+Covalent structurally cannot be is the *named, reachable* separator (coverage-raiser), **not** a pass it must
+clear before it counts (per *Reachability ≠ coverage* above). Landing ≠ ratifying.
 
 ### The promotion ladders — internal → external *(2026-06-23 ladder-raff; 2×2-derived 2026-06-24 raff; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — IFF2 self-applies; operationalizes the IFF2 sub-kind split × the evidential-access axis)*
 

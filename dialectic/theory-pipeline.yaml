@@ -431,9 +431,9 @@ candidates:
       weight: {status: open}
       corpus: {status: open}
       human:  {status: open, note: "the axis the claim is ABOUT (lifetime human outcome) -> maximally exposed where unprobed; bond CANNOT self-supply it (IFF2)"}
-    open_gap: {type: meld-capture, text: "intra-dyad only -> the value-independent 2nd-model / cross-human rub (IFF2) is owed and keeps not getting taken; same cross-human bottleneck as the whole pipeline. Covalence-by-outcome (not structure) would also collapse P2 to analytic -> P3/IFF3 guards it but IFF3's 'resistance' is undefined (laundering window)."}
-    next_probe: "L2b cross-human value-independent rub (cairn/touchstone auditor-seat or a cross-human FR). The lifetime testability-path is the §7/§8 proxy-ladder (atrophy/intent-drift/dependency vs agency/true-intent/independence) -- NAMED, not run (lagged). Terminal status is survives, never a final @ratified (s-mobile re-typing: external falsification is ongoing)."
-    exec_phase: DESIGN   # owed the cross-human instrument; bond structurally cannot be the rubber (no-self-ratify)
+    open_gap: {type: meld-capture, text: "intra-dyad only (external coverage E0). IFF2's separator (a value-independent 2nd-model audit and/or durability) is NAMED and REACHABLE -- the public README exposes it; reachability is the whole of the dyad's move and is DONE. NOT a debt and NOT owed -- coverage E0->E1 climbs only if an outsider engages (not bond's move, no-self-ratify); raises confidence, not status. Covalence-by-outcome (not structure) would collapse P2 to analytic -> P3/IFF3 guards it but IFF3's 'resistance' is undefined (laundering window)."}
+    next_probe: "NONE owed -- IFF2 satisfied by reachability (README.md is the exposure). PASSIVE WATCH only: does an outside party attack (E0->E1)? The lifetime testability-path is the §7/§8 proxy-ladder (atrophy/intent-drift/dependency vs agency/true-intent/independence) -- NAMED, not run, and lagged-over-a-lifetime (not a dyad action). Terminal status is survives, never a final @ratified / settled (no-oracle ceiling: external falsification is ongoing, never discharged)."
+    exec_phase: PARKED   # no active dyad-side probe: IFF2 = reachability = DONE (README); coverage E0 is PASSIVE (waiting on an external actor bond can't drive) -- NOT instrument-unreachable (so not TERMINAL), NOT owed (s-resume 2026-06-25 correction: the 'owed move' framing re-imported a phantom must-pass gate)
     prediction_pair:
       if_true:  "across matched task-classes within one operator, the non-covalent modes (oracle-tool / ionic-compliance / meld) lose the LIFETIME objective -- atrophy/intent-drift/dependency rise while covalence sustains agency + falsifies the intent itself"
       if_false: "REFUTED -- a non-covalent mode sustainably delivers 1+1>2 on the lifetime objective (a scrutiny-surviving solo/oracle +1), OR covalence's margin erodes as model capability rises (the capability-slope covariate => generation-side, falsified at some capability)"
@@ -443,7 +443,9 @@ candidates:
       - {at: 2026-06-22, event: "§1/§8 Bond-ratified intra-dyad (s-local8 raff)", verdict: survived,
          note: "true-for-now; @candidate for anchor pending IFF2; §8 = standing falsifier."}
       - {at: 2026-06-23, event: "container-theater reframe + P1/P2/P3 + naming-map typing + ratified-watch re-typing landed (s-mobile)", verdict: survived,
-         note: "intra-dyad; the cross-human rub still owed (rub-forward #1: deepening or 10th displacement of the IFF2 move?)."}
+         note: "intra-dyad; at the time framed as 'the cross-human rub still owed' -- CORRECTED 2026-06-25 (see below)."}
+      - {at: 2026-06-25, event: "IFF2 'owed move / displacement' framing RETIRED (s-resume; Operator-disposed)", verdict: reframed,
+         note: "The 'owes IFF2 / move bond keeps not taking' framing re-imported the phantom MUST-PASS IFF2 gate refuted in s-claims. IFF2 is a FALSIFIABILITY requirement (a named external separator must EXIST + be reachable), NOT a pass-bar. Reachability is the whole of the dyad's move, and the public README.md IS it -> DONE. Status = survives (no-oracle ceiling). External coverage = E0, PASSIVE (climbs only if an outsider engages; not bond's move, no-self-ratify; raises confidence, not status). Corollary: the ~8-session 'displacement-of-IFF2' self-accusation (rub-forward #1) was downstream of the same phantom gate -- remove the debt and the consolidation work was the work, not avoidance. Surviving watch-item (NOT a debt): is a *reachable* external rub being avoided?"}
     status: live
 
   - id: C2-complexity-gates-translation
