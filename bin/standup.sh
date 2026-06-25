@@ -28,24 +28,38 @@ ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md)
 lines=()
 add() { lines+=("$1"); }
 
-# ── ROM-UI check (stateless: live anchor commit vs the baseline recorded in the ledger) ──────
-recorded="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
-            | grep -oE 'DYAD\.md@[0-9a-f]{7,40}|`[0-9a-f]{7,40}`' | head -1 \
-            | grep -oE '[0-9a-f]{7,40}' || true)"   # handles `DYAD.md@<sha>` (current) + bare `<sha>` (legacy)
-if [[ -z "$recorded" ]]; then
+# ── ROM-UI check (per-file boot-set if present, else legacy single-sha baseline) ──────────────
+# CRISP form (inv:rom-currency, Operator-corrected 2026-06-25): each anchor file vs its OWN recorded
+# sha — the boot SET is {CLAUDE.md, GEMINI.md, DYAD.md}, each pinned independently. The single-sha
+# `ROM-baseline (anchor commit…)` line is the legacy/human-gloss fallback; comparing all three files
+# against DYAD.md's one sha false-positives whenever the shims sit at a different commit (the norm).
+perfile="$(grep -m1 'inv:rom-currency.*per-file boot-set' "$LEDGER" 2>/dev/null || true)"
+legacy="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
+          | grep -oE 'DYAD\.md@[0-9a-f]{7,40}|`[0-9a-f]{7,40}`' | head -1 \
+          | grep -oE '[0-9a-f]{7,40}' || true)"   # handles `DYAD.md@<sha>` + bare `<sha>` (legacy)
+declare -A want=()
+if [[ -n "$perfile" ]]; then
+  for f in "${ANCHOR_FILES[@]}"; do
+    s="$(printf '%s' "$perfile" | grep -oE "${f//./\\.}@[0-9a-f]{7,40}" | head -1 | grep -oE '[0-9a-f]{7,40}' || true)"
+    [[ -n "$s" ]] && want["$f"]="$s"
+  done
+fi
+if ((${#want[@]} == 0)) && [[ -z "$legacy" ]]; then
   add "ROM-UI: ⚠ could not parse ROM-baseline from $LEDGER — check the ledger by hand."
 else
   mism=()
   for f in "${ANCHOR_FILES[@]}"; do
+    exp="${want[$f]:-$legacy}"
     cur="$(git log -1 --format=%H -- "$f" 2>/dev/null || true)"
-    [[ -n "$cur" && "$cur" == "$recorded"* ]] || mism+=("$f@${cur:0:7}")
+    [[ -n "$cur" && "$cur" == "$exp"* ]] || mism+=("$f@${cur:0:7}≠${exp:0:7}")
   done
   if ((${#mism[@]})); then
-    add "ROM-UI: ⚠ MISMATCH vs baseline \`$recorded\` — moved: ${mism[*]}."
+    add "ROM-UI: ⚠ MISMATCH — moved: ${mism[*]}."
     add "        → verify the shim boot-chain fired (you read DYAD.md because the shim said to),"
-    add "          then notify the Operator + refresh the ROM-baseline line in $LEDGER."
+    add "          then notify the Operator + refresh the per-file boot-set line in $LEDGER."
   else
-    add "ROM-UI: ✓ MATCH (anchor + shims at baseline \`$recorded\`)."
+    base="${want[DYAD.md]:-$legacy}"
+    add "ROM-UI: ✓ MATCH (boot-set {DYAD.md, CLAUDE.md, GEMINI.md} each at its recorded per-file sha; DYAD.md@${base:0:7})."
   fi
 fi
 
