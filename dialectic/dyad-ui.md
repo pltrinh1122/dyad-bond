@@ -296,6 +296,10 @@ The gates **nest**: an action token also lifts the convergence gate (you cannot 
 
 **Status: CANDIDATE**, dog-fooded live (this exchange ran under it), `dialectic/`. **Lagged oracle:** does premature convergence (self-`[CTA]`, easy-agreement close) fall across sessions, measured by the Operator's `raff`/`rub` pull-rate? If not, the gate failed and escalates.
 
+**Divergence quality — true vs theatrical (the valid-verbosity discriminator).** Default divergence does **not** license bloat. **Valid verbosity ran a live falsifier** — a test that could have flipped the outcome — or generated **N distinct candidates**. **Theatrical verbosity** wears the form with no live risk: strawman anti-theses, non-binding caveats, vocabulary-as-plumage; its tell is *the conclusion equals the opening*. **Master test — counterfactual-delete:** cut the passage; if only the appearance of rigor is lost, it was theater.
+
+**The hedge = a `C1-no-meld` vector (the root, off D5).** Insulating a claim diffuses the Operator's strike so the V cannot land a clean hit; at the limit an unrefutable claim is **V disabled = meld**. So the corrective is not a style preference — **state claims bare, one refutable target each** = keeping the bond covalent by handing V a target. The mechanical tell is the **parenthetical**: countable, spottable in two seconds, no judgment needed. **Anchored** as the `C1-no-meld` **hedge-tell** in `DYAD.md#NON-NEGOTIABLE` (always-reloaded → the ingraining channel); this is its detail-home.
+
 ## Forward
 
 - Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,

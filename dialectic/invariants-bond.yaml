@@ -72,7 +72,11 @@ invariants:
       - {ref: "bond:C1", edge: serves, scar: "meld collapse is the quiet one — agreement that needs no translation"}
     scope: {actor: both, trigger: candidate-admission}
     prescription: {action: admit, object: "a candidate by meld merger (loss of the second perspective)", modality: MUST-NOT}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "meld — both halves run one model wearing two hats"}
+    observability: {observable: ledger-line, detector: other-half-only,
+                    breach_example: "meld — both halves run one model wearing two hats. SPOTTABLE TELL (hedge):
+                      a load-bearing claim with no clean single target — hedges, parentheticals, flank-caveats,
+                      jargon-plumage — diffuses the V's strike; insulation is soft meld. Corrective: state claims
+                      bare, one refutable target each. (DYAD.md NON-NEGOTIABLE §hedge-tell; dyad-ui.md §mode-gate.)"}
 
   # ---- C1 active duty (the bidirectional-ionic guard; serves no-ionic, cannot catch meld) ----
 
