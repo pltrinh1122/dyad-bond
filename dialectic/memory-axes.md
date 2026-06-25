@@ -20,7 +20,7 @@ double-duty: a task's do-state and a finding's belief-state move independently).
 | Axis | State-kind | States | Home | Loads at resume |
 |---|---|---|---|---|
 | **Session** | cadence | open → intermission → closed | `carry-forward.md`, thinned to the spine | whole (tiny): resume steps + ROM-baseline + pointers |
-| **Work-item** | do-state | queued/active → parked → done | `deferrals.md` (the work-item store) | active items; parked = pointer; done drains out |
+| **Work-item** | do-state | active → parked → {done · archived} | `deferrals.md` (the work-item store) | NBA render of `{active ∪ parked}` (total view); `{done · archived}` drained |
 | **Claim** | belief-state | candidate → under-falsification → ingrained → graduated | `theory-pipeline.yaml` (hooks/state) + `relationship-craft.md` (prose) → `kb/` on graduation | only open standing-tests/hooks; derivation prose on-demand |
 
 ## The store/view split *(DISPOSED)*
@@ -29,11 +29,18 @@ Proven first on the **claim axis** (`theory-pipeline.yaml` = store; **chat-pull*
 markdown dashboard"). Now applied to the **work-item axis**: the store holds the items; the recommendation
 is a *render*, never a maintained section.
 
-## NBA–deferrals pairing *(DISPOSED)*
+## NBA–deferrals pairing *(DISPOSED; view-rule corrected by Operator 2026-06-25)*
 
 **NBA is the recommendation view of the work-item store** — a render over `deferrals`, not a stored
-section. The 96-line stored NBA block is **deleted** under this model (rendered on demand, like the
-killed dashboard).
+section. The 96-line stored NBA block is **deleted** (rendered on demand, like the killed dashboard).
+
+**The view is the TOTAL live set — `{active ∪ parked}`** (Operator-disposed: NBA must show parked too,
+so deferred work stays in sight; the Agent's exclude-parked default was **refuted**). Terminal states
+`{done · archived}` are excluded and drain out. **Drain is a DISPOSITION, not an auto-filter:** "parked
+**indefinitely**" → the **Operator** disposes it to **archive** (a judgment = Operator's seat, like
+claim-graduation); `done` drains at stand-down. **Pre-registered falsifier:** parked can accrete as
+NBA-noise if the archive-disposition lags (drain-latency) — watch whether `{active ∪ parked}` stays
+screen-bounded.
 
 ## Inter-axis coupling
 
@@ -52,13 +59,17 @@ wrong axis, so a settled claim can never drain out cleanly. **Storage axis ≠ d
 graduation tick at stand-down rarely fires (`kb/` = 2 files) → the bucket only grows. Re-keying moves
 each claim to its axis-home; the dated session entries then collapse to a one-line resume marker each.
 
-## Derived consequences — PENDING Operator rub *(Agent-derived, NOT yet disposed)*
+## Disposed since landing *(Operator, 2026-06-25 cont.)*
 
-- **`deferrals.md` widens** from parked-only ("intentional future work, not gaps") → **the work-item
-  store**: `do-state` becomes a field `{active · parked · done}`, and the active "Open items" currently
-  in `carry-forward.md` fold *into* it. (Required for the NBA–deferrals pairing to be *exact* rather than
-  a view-of-a-superset.)
-- The **claim→work-item probe-emission** wiring above (stated as the precise form of a loose existing line).
+- **`deferrals.md` widens** parked-only ("intentional future work, not gaps") → **the work-item store**:
+  `do-state` field `{active · parked · done · archived}`; the active "Open items" fold *into* it. **Y.**
+- **NBA view = `{active ∪ parked}`** (total view); "parked indefinitely" → **Operator-disposed archive**;
+  `{done · archived}` drain. Corrects the Agent's exclude-parked synthesis.
+
+## Derived consequences — still PENDING Operator rub *(Agent-derived)*
+
+- The **claim→work-item probe-emission** wiring (a claim's open probe emits a work-item into the store;
+  NBA renders it single-axis — claims couple through the store, never around it).
 
 ## Next falsification — the inventory
 
