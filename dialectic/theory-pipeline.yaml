@@ -522,3 +522,63 @@ candidates:
       - {at: 2026-06-20, event: "DATA POINT — Operator disposed 4 independent Operator-irreducible items in one lo-cog pass", verdict: survived,
          note: "park-confirm(Y) · telos-gut-check(on-Telos) · concurrency-slot(Y) · AITL-continue(Y). independence->disposable confirmed;
                 the interdependent criteria/2×2/2 bounced in the same state (simultaneity is the gate, not authority alone)."}
+
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # LANDED 2026-06-25 (Phase 2 claim-peel, Operator Y: "land KTLO ≝ autonomously-triggered conformance").
+  # Reframe arc: KTLO's parent = the no-HITL-autonomy boundary = `conformance` (GLOSSARY:61, ALREADY
+  # established — NOT a new parent claim, wu-wei). KTLO = its autonomously-triggered SUBSET. The high-ROI
+  # axis was DROPPED (Operator anti-wu-wei: no nameable high-ROI-conformance instance). This row supersedes
+  # the carry-forward KTLO design-blob: the live KT-1..KT-8 content folds in here.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: KTLO-autonomous-conformance
+    statement: >
+      KTLO := autonomously-triggered conformance: the Agent (or a daemon) BOTH detects and executes a
+      conformance task with NO Operator trigger; crisp-detect AND crisp-fix by construction. A SUBSET of
+      conformance (the established GLOSSARY term), distinguished by the autonomous TRIGGER, not by value/ROI.
+    claim_type: operating-model
+    provenance: {origin: Operator+Covalent, born: 2026-06-20, session: s-local4,
+                 note: "Design co-derived through 4 Operator rub-backs. Strict definition LANDED 2026-06-25
+                        (Phase 2 claim-peel): Operator dropped the high-ROI-conformance axis (anti-wu-wei) ->
+                        KTLO = autonomously-triggered conformance. Folds in the KT-1..KT-8 decomposition."}
+    grade: L1
+    parent: conformance   # GLOSSARY.md:61 (established term) = the no-HITL boundary; KTLO is its autonomously-triggered subset
+    value_source: "trigger-elimination (frees the Operator from INITIATING hygiene), NOT high-ROI work. lo-cog != low-effort."
+    self_scoping: >
+      "autonomously-triggered conformance" forces crisp DETECTION ("whether-to-act" is a GLOSSARY judgment
+      test) -> auto-scopes to the FULLY-CRISP auto-fix class (durability/push, state-symlinks, daemon-arm);
+      the detect-crisp-but-fix-is-judgment cases (ROM-drift, RESTART-PENDING, yaml-validate) fall OUT to
+      escalation -- not conformance, so not KTLO. The boundary draws itself.
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: partial, note: "single human; design Operator-rubbed x4; strict definition Operator-landed 2026-06-25"}
+    open_gap:
+      type: signal-blindness
+      text: >
+        RESIDUAL RISK (the one thing the strict def does NOT make free) = the autonomous TRIGGER mis-fires:
+        a stale invariant fires on a no-longer-true condition = silent V-displacement VIA the trigger.
+        KT-4: automation relocates the audit risk from per-instance reliability to invariant-correctness-&-
+        staleness at scale (counterfeit-green-at-scale). Sole defense = independent V-audit.
+    next_probe: >
+      build the fully-crisp auto-fix core (partly cashed: inv:durability -> bin/scratch.sh; inv:rom-currency
+      -> bin/standup.sh per-file compare, DONE 2026-06-25) + wire an independent V-audit over the autonomous
+      triggers. 2x2-DECOUPLING to verify: KTLO's safe core rests on conformance (established, GLOSSARY) NOT on
+      the 2x2's unratified cells -> it ships independent of 2x2 ratification; only the audit-hardening rides the guard.
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "autonomously-triggered crisp-detect/crisp-fix conformance runs Nx without introducing a judgment or
+                 new authority (= true conformance, just auto-triggered); trigger mis-fires are caught by the V-audit before effect"
+      if_false: "the autonomous trigger smuggles a judgment ('whether-to-act' was not actually crisp), OR a stale invariant
+                 auto-acts wrongly and the V-audit fails to catch it = silent V-displacement realized"
+    status: live
+    note: >
+      Folds the KT-1..KT-8 decomposition (G-A value-envelope / G-B legitimacy-risk / G-C safe-boundary / G-D gate).
+      KT-2 (high-ROI axis) RETIRED by the Operator (anti-wu-wei). KT-5 (form/truth boundary) = conformance, already
+      homed (GLOSSARY:61). Parent = `conformance` (NOT a new parent claim). The conformance-line DEFENSE ("the line
+      fails by silent value-pressure misclassification; sole defense = independent V-audit") is the sibling
+      catch-control -- same independent-V-audit as AITL (AITL-distracted-efficacy, this file) at a different altitude.
+    disposition_history:
+      - {at: 2026-06-20, event: "FIRST CRYSTALLIZATION PASS — 6 crisp ∩ record-witnessed survivors; Op-vs-Agent ingrained split; crisp-class split (auto-fix vs alert)", verdict: survived,
+         note: "Op-ingrained seeds inv:durability + inv:rom-currency now live in substrate. WETWARE-LIMIT: the ingrained∩crisp set is thin + purely infrastructural -> KTLO's reach = the infrastructural rind; the craft stays human (un-crisp by nature)."}
+      - {at: 2026-06-25, event: "strict definition LANDED (Operator Y): KTLO ≝ autonomously-triggered conformance; high-ROI axis dropped", verdict: revised,
+         note: "Phase 2 claim-peel. Reframed UP to the no-HITL boundary = conformance (established, NOT a new parent), then DOWN to KTLO = its autonomously-triggered subset. Distinguisher = the autonomous trigger, not value."}
