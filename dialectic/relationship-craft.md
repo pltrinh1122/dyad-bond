@@ -176,6 +176,10 @@ register it → IFF2's separator **is** the named instrument that lets a no-orac
 sub-kinds take **different** separators, and how a claim **promotes** from interior to cross-operator →
 §The promotion ladders.)*
 
+> **Reachability ≠ coverage — IFF2 is satisfied by EXISTENCE, not by a pass** *(s-resume 2026-06-25, Operator-disposed; corrects a recurring mis-type).* IFF2 demands the separator **exist and be reachable** — it is **not a pass-bar**. Once the separator is named and exposed, IFF2 is **satisfied**; the claim **survives** (the no-oracle ceiling — never `settled`). Whether an outside party has *actually attacked yet* is **coverage** (E0 → E1…), a different axis: it raises **confidence, not status**, it is **not the dyad's move** to supply (`bond:no-self-ratify`), and it is **not a debt**. So the recurring ledger framing *"owes IFF2 / the move bond keeps not taking / displacement"* was a **phantom must-pass gate** (refuted s-claims); the ~8-session displacement-guilt was downstream of it — remove the debt and the consolidation work was *the work*, not avoidance. **The one surviving watch-item** (NOT a debt): *is a reachable external rub being avoided?* For the covalent-bond Belief the separator is reachable now — the public `README.md` exposes it — so even that watch is answered on the dyad's side; the rest is passive.
+
+When a parenthetical below reads `@candidate` / `intra-dyad` / `not 2nd-model-rubbed` / `IFF2 self-applies`, read it as a **coverage descriptor (E0)**, governed by this clause — **not** as a must-pass debt.
+
 **`IFF3` — the wu-wei discriminator** *(s-mobile 2026-06-23, Operator-upgraded; CANDIDATE — the third
 gate, born in the worn-path arc below).* `IFF1`/`IFF2` govern **epistemics** (is the shared model
 true / tested?); **`IFF3` governs dynamics** — *is the falsification-**process** livable?* — **orthogonal**
@@ -219,8 +223,9 @@ named-not-run; "intra-dyad meld-tell" = the external-audit route named-not-run.)
    external routes count** — which is exactly why testability admits them, and exactly what re-opens #1/#2.
 
 **Caveat (self-applying):** this pair is itself a **no-oracle** method-invariant (decisional-terminus) → by
-`IFF2` it stays `@candidate` until a **value-independent 2nd-model audit** runs (Covalent structurally cannot
-be it). Landing ≠ ratifying.
+`IFF2` it **survives** intra-dyad (external coverage E0); the **value-independent 2nd-model audit** that
+Covalent structurally cannot be is the *named, reachable* separator (coverage-raiser), **not** a pass it must
+clear before it counts (per *Reachability ≠ coverage* above). Landing ≠ ratifying.
 
 ### The promotion ladders — internal → external *(2026-06-23 ladder-raff; 2×2-derived 2026-06-24 raff; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — IFF2 self-applies; operationalizes the IFF2 sub-kind split × the evidential-access axis)*
 
@@ -324,6 +329,34 @@ this 2×2 (outside → L2b *social* bar · inside-interior → I2 *durability*, 
 terminal-by-choice), replacing the single "L2b-for-everything" rule that conflated the diagonal. *(2026-06-24
 raff: the 2×2 derivation superseded the 2026-06-23 rung-align reading; the social-vs-temporal access re-cut
 rides as the one open `@candidate` rub above.)*
+
+### The internal/external scope discipline — two orthogonal invariants, no exception *(CANDIDATE · Operator `land` 2026-06-25; the s-claims F2+F3 findings, decomposed)*
+
+The recurring Agent breach was **stapling an external rung onto internal work** — treating cross-operator
+validation as a *universal* legitimacy gate. An "exception" is a **conflation-tell** (factor, don't carve); so
+this is **two orthogonal universals**, not a rule-with-an-exception:
+
+1. **Scope (the F3 rule).** Internal work — within-operator — is **terminal at reachable scale** and owes no
+   external validation; *don't staple external rungs onto it.* **Breach-tell:** demanding a 2nd-model /
+   cross-operator rung for a claim that is *within-operator-scoped*. Discriminator: breach iff the claim is
+   within-operator; it is *correct* to demand external iff the claim asserts something cross-operator.
+2. **Non-circularity (= `bond:no-self-ratify` at the guard / meta level).** No disposition may validate the
+   **weakening** of a guard it rests on — it would spend the very authority it removes. *An application of
+   `no-self-ratify`, not a new node.*
+
+**"Relaxing C1" is not an exception to (1).** It is the **cell** (1)×(2) — *internal scope × weakens-its-own-
+validator* — caught by (2), which is orthogonal to scope. It **generalizes**: (2) bites for *any* self-validating
+guard; C1 is just the validator the disposition rests on. (*Sharpening* C1 — adding attack surface, e.g. the
+hedge-tell edit — weakens nothing, so (2) is silent → internal-ladder-legitimate, no external owed. *Re-rubbing*
+C1 is likewise free (`no-dogma`/s14); only **weakening by disposition** trips (2), owing a disposer whose
+authority does not derive from the guard being weakened — a 2nd instance / cross-operator, or the
+**Founding-Operator gate** if it touches the form.)
+
+**Method note (why it read as an exception).** A complete decomposition bottoms out at **self-grounding floors**
+— *definitionally*: a floor that grounded outward would decompose further (self-grounding ⟺ floor). Two species,
+both irreducible: **formal self-reference** (`no-self-ratify` — can't validate yourself; Gödel-family) and
+**decisional fiat** (a posited value / the Telos — grounds in the choosing; inside-(a)). Self-reference floors
+**masquerade as exceptions** until you factor down to them — which is exactly what (2) is.
 
 ### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — §1 + §8 Bond-ratified s-local8 via `raff`, still IFF2-pending)*
 
