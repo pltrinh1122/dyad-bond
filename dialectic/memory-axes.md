@@ -99,15 +99,19 @@ each claim to its axis-home; the dated session entries then collapse to a one-li
 1. **Claim-axis terminal completeness (graft, no halt):** Item-G is a CLAIM *refuted & retired in place*
    → the lifecycle gains a **`refuted/retired`** terminal beside `graduated` (both drain; `graduated`→`kb/`,
    `refuted`→archive). **Folded in.**
-2. **Candidate FOURTH axis — ground-state / currency facts** *(HALT — Operator disposition)*: Item-H
-   (substrate-access push-posture) + the ROM-baseline/durability block. State-kind = **current↔stale**
-   (not belief); falsified by **mechanical observation / D6** (not Operator-rub); **never graduates**
-   (re-checked every container). Already homed separately in `standup.sh` (ROM · durability · substrate
-   probes). On the model's own axis criteria — distinct state-kind ∧ distinct home ∧ distinct lifecycle —
-   it scores distinct on all three. **OPEN: three axes or four?** (DFD'd for disposition.)
+2. **Candidate FOURTH axis — ground-state / currency facts** (Item-H + the ROM-baseline/durability
+   block): state-kind `current↔stale`, falsified by mechanical observation / D6, never graduates;
+   already homed separately in `standup.sh`. Distinct on the axis criteria — **but DISPOSED N (Operator,
+   wu-wei, 2026-06-25): stay three-axis.** Structurally distinct yet **operationally inert** — the surgery
+   drains Item-H to `standup.sh` + ROM-baseline + `substrate-access.md` *either way*, so a fourth lane
+   adds weight without changing the move. Ground-state = a **claim sub-type** (tag, not a lane). Revisit
+   only on substantial need.
 
-## Surgery — gated on the fourth-axis disposition, then ungranted-until-CTA
+## Surgery — model SETTLED (three-axis); cut is ungranted-until-CTA
 
-The re-key cut (separate disposition) proceeds once #2 is disposed: extract claims to their axis-home,
-collapse session entries to one-line resume markers, delete the stored NBA + the accreted s5/s6/s7
-summaries, thin `carry-forward.md` to the session spine.
+All model halts disposed; the re-key cut is the last step (separate disposition). Lean = **staged**:
+harvest the still-live hooks/standing-tests from `Closed`/`Intermission` to their axis-homes FIRST
+(the inventory's parked-but-live set: `T1–T5` · `CLIP-1/2` · container-theater · open standing-tests),
+then archive the residual settled prose, strip the stored NBA + accreted s5/s6/s7 summaries, peel
+contribution-candidates to the claim axis, and thin `carry-forward.md` to the session spine. The full
+per-claim prose-relocation is the thorough Phase 2; the high-leverage low-risk win is Phase 1.
