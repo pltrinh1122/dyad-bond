@@ -318,6 +318,8 @@ The Agent's own **Generate↔Validate, run on itself, inside one response**, at 
 
 **Status: CANDIDATE**, `dialectic/`, dog-fooded live — this whole exchange ran the protocol, displayed.
 
+**Oracle.** The behavior is **strongly, bilaterally visible** — both halves caught and corrected premature-convergence repeatedly this session (the cross-audit *working* = the live corroboration). For an *expose-and-correct* guard (`claim-4`), **visible-enough-to-catch-and-correct is the bar** — clean marginal effect-size is not. Shares `§The mode-gate`'s convergence-fall oracle (`bond:single-home`; not restated). Only CP's clean *marginal* share vs the bare gate stays confounded (one dyad → not cleanly separable). **Success across sessions = the Operator's cross-catch *rate* falls *because caves fall* + `CP2`-survivor-rate trends down. Failure = caves persist but go uncaught (CP became theater) → escalate.**
+
 ## Forward
 
 - Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,
