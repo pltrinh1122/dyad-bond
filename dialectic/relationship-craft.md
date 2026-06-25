@@ -330,6 +330,34 @@ terminal-by-choice), replacing the single "L2b-for-everything" rule that conflat
 raff: the 2×2 derivation superseded the 2026-06-23 rung-align reading; the social-vs-temporal access re-cut
 rides as the one open `@candidate` rub above.)*
 
+### The internal/external scope discipline — two orthogonal invariants, no exception *(CANDIDATE · Operator `land` 2026-06-25; the s-claims F2+F3 findings, decomposed)*
+
+The recurring Agent breach was **stapling an external rung onto internal work** — treating cross-operator
+validation as a *universal* legitimacy gate. An "exception" is a **conflation-tell** (factor, don't carve); so
+this is **two orthogonal universals**, not a rule-with-an-exception:
+
+1. **Scope (the F3 rule).** Internal work — within-operator — is **terminal at reachable scale** and owes no
+   external validation; *don't staple external rungs onto it.* **Breach-tell:** demanding a 2nd-model /
+   cross-operator rung for a claim that is *within-operator-scoped*. Discriminator: breach iff the claim is
+   within-operator; it is *correct* to demand external iff the claim asserts something cross-operator.
+2. **Non-circularity (= `bond:no-self-ratify` at the guard / meta level).** No disposition may validate the
+   **weakening** of a guard it rests on — it would spend the very authority it removes. *An application of
+   `no-self-ratify`, not a new node.*
+
+**"Relaxing C1" is not an exception to (1).** It is the **cell** (1)×(2) — *internal scope × weakens-its-own-
+validator* — caught by (2), which is orthogonal to scope. It **generalizes**: (2) bites for *any* self-validating
+guard; C1 is just the validator the disposition rests on. (*Sharpening* C1 — adding attack surface, e.g. the
+hedge-tell edit — weakens nothing, so (2) is silent → internal-ladder-legitimate, no external owed. *Re-rubbing*
+C1 is likewise free (`no-dogma`/s14); only **weakening by disposition** trips (2), owing a disposer whose
+authority does not derive from the guard being weakened — a 2nd instance / cross-operator, or the
+**Founding-Operator gate** if it touches the form.)
+
+**Method note (why it read as an exception).** A complete decomposition bottoms out at **self-grounding floors**
+— *definitionally*: a floor that grounded outward would decompose further (self-grounding ⟺ floor). Two species,
+both irreducible: **formal self-reference** (`no-self-ratify` — can't validate yourself; Gödel-family) and
+**decisional fiat** (a posited value / the Telos — grounds in the choosing; inside-(a)). Self-reference floors
+**masquerade as exceptions** until you factor down to them — which is exactly what (2) is.
+
 ### What the dyad rests on — intent-source, covalent-value & the one true falsifier *(s-local7, Founding-Operator-led + bond-rubbed, 2026-06-22; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — §1 + §8 Bond-ratified s-local8 via `raff`, still IFF2-pending)*
 
 The deepest layer under "+1 only from covalence." Founding-Operator-authored through a long rub-chain;
