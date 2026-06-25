@@ -194,6 +194,9 @@ was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
 
 ## Open items
 
+### Memory-axes restructure (the carry-forward size-warning thread)  ·  status: MODEL LANDED (2026-06-25) — inventory next, surgery ungranted
+*Single-home → `dialectic/memory-axes.md`. Three orthogonal axes (session · work-item · claim) replace the session-chronological spine; the bloat is claims stored on the session axis so they can't drain. **DISPOSED:** the workflow/lifecycle separation, three axes, the store/view split, NBA = recommendation view of the work-item store. **PENDING rub:** `deferrals.md` widens to the work-item store (do-state field; Open items fold in). **Next:** the inventory pass — tag every Closed/Intermission/Open entry `{axis, state, store-or-view}` before any cut.*
+
 ### Operating model — disposition routing (authority × cog-load)  ·  status: CANDIDATE, CARRIED (s-local4, 2026-06-20) — too-much-discernment-for-lo-cog; awaiting settled-window ratification
 *Emerged from the s-local4 AITL/concurrency thread (3-dyad + Clash distraction). Operator engaged + rubbed each step but **did NOT ratify** — carried because the 2×2 "requires too much discernment at the moment." Ratify/operationalize in a hi-cog window. NOT a ratified operating model yet.*
 
