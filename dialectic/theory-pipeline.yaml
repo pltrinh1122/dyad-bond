@@ -461,3 +461,23 @@ candidates:
       - {at: 2026-06-02, event: "self-falsified", verdict: refuted,
          note: "retracted — file-age × centrality confound (C-E-C ladder caught it)"}
     status: killed
+
+  - id: rub-back-calibration
+    statement: >
+      The `rub-back` mechanism (NON-NEGOTIABLE exercised through a per-dyad consent-context, s13) carries two
+      LIVE calibration watches: (RB2) Covalent may OVER-rub past the natural frequency — if the Operator must
+      spend patience to stay in practice, that signals anti-wu-wei over-feeding, NOT Operator under-prep; stay
+      at the frequency so the Operator needn't armor. (RB3) the clarity-event "acceleration" read is over-fit-
+      prone — the over-committed-first-articulation rhyme was named from 4 self-picked events.
+    claim_type: design-model
+    provenance: {origin: "Operator+bond", born: 2026-06-08, session: "s13 (rub-back/clarity-event)", harvested: "2026-06-25 (re-key Phase-1 disposition)"}
+    grade: L1
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: meld-capture, text: "RB2 = self-judged (Covalent grading its own rub-frequency); RB3 = over-fit (instances self-selected, gap-magnitude never logged)"}
+    next_probe: "RB2 standing watch: does the Operator report patience-spend / armoring at a seam? RB3 falsifier: name a rub-back whose first articulation was UNDER-committed or had no over-commitment (clarity-event #2 displacement-drift partially paid this)."
+    exec_phase: PARKED
+    status: live
+    note: "Harvested from the s12/s13 thread. The portfolio-synthesis half (T1-T5) is a PARKED todo (carry-forward.md / deferrals), triggered by >=3 concurrent dyads = the AITL-leverage arc."
+    disposition_history:
+      - {at: 2026-06-25, event: "live datapoint (re-key session retro; un-rubbed) — RB3 extends to SUBSTRATE claims", verdict: survived,
+         note: "Covalent asserted the ROM-baseline was 'stale / falsely-green' BEFORE running the merge-check (a D6 miss on a substrate claim); the Operator caught it ('may be unmerged PR'). Conclusion held, path didn't. So the over-committed-first-articulation rhyme is NOT intent-specific -- it recurs on empirical/substrate claims. New sub-watch: verify the substrate mechanically before characterizing it."}
