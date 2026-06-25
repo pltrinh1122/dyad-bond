@@ -478,3 +478,6 @@ candidates:
     exec_phase: PARKED
     status: live
     note: "Harvested from the s12/s13 thread. The portfolio-synthesis half (T1-T5) is a PARKED todo (carry-forward.md / deferrals), triggered by >=3 concurrent dyads = the AITL-leverage arc."
+    disposition_history:
+      - {at: 2026-06-25, event: "live datapoint (re-key session retro; un-rubbed) — RB3 extends to SUBSTRATE claims", verdict: survived,
+         note: "Covalent asserted the ROM-baseline was 'stale / falsely-green' BEFORE running the merge-check (a D6 miss on a substrate claim); the Operator caught it ('may be unmerged PR'). Conclusion held, path didn't. So the over-committed-first-articulation rhyme is NOT intent-specific -- it recurs on empirical/substrate claims. New sub-watch: verify the substrate mechanically before characterizing it."}
