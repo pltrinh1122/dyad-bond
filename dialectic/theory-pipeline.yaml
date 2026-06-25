@@ -499,8 +499,11 @@ candidates:
                         carry-forward ledger 2026-06-25 (Phase 2 claim-peel, Operator Y on the DFD synthesis split)."}
     grade: L1
     prose_home: "relationship-craft.md §The disposition-routing 2×2"
-    coupling: {gated_on: KTLO-invariants-audit-daemon,
-               note: "KTLO = this 2×2's agent-disposable cell cashed out; gated on this 2×2's ratification (KTLO relocation queued: Phase 2 DFD 2-of-3)."}
+    coupling: {related: KTLO-autonomous-conformance,
+               note: "The 2×2 is the CLASSIFIER (conformance-or-not) KTLO presupposes — but KTLO is NOT gated_on the 2×2's
+                      RATIFICATION. 2x2-DECOUPLING VERIFIED 2026-06-25 (Operator-predicted, Covalent-checked over GLOSSARY:61):
+                      KTLO rests on the established `conformance` term (which already carries '-> agent-disposable'), not on the
+                      2×2's unratified cells. KT-7's 'gated on 2×2' was a MIS-ATTRIBUTION; the strict-def reframe exposed it."}
     coverage:
       weight: {status: open}
       corpus: {status: open}
@@ -562,8 +565,9 @@ candidates:
     next_probe: >
       build the fully-crisp auto-fix core (partly cashed: inv:durability -> bin/scratch.sh; inv:rom-currency
       -> bin/standup.sh per-file compare, DONE 2026-06-25) + wire an independent V-audit over the autonomous
-      triggers. 2x2-DECOUPLING to verify: KTLO's safe core rests on conformance (established, GLOSSARY) NOT on
-      the 2x2's unratified cells -> it ships independent of 2x2 ratification; only the audit-hardening rides the guard.
+      triggers. 2x2-DECOUPLING VERIFIED 2026-06-25 (no coupling): KTLO's safe core rests on conformance (established,
+      GLOSSARY:61, which carries '-> agent-disposable') NOT on the 2x2's unratified cells -> UNBLOCKED, ships independent
+      of 2x2 ratification. The audit-hardening rides `conformance-line-defense` (sibling claim), not the 2x2-guard.
     exec_phase: DESIGN
     prediction_pair:
       if_true:  "autonomously-triggered crisp-detect/crisp-fix conformance runs Nx without introducing a judgment or
@@ -582,6 +586,8 @@ candidates:
          note: "Op-ingrained seeds inv:durability + inv:rom-currency now live in substrate. WETWARE-LIMIT: the ingrained∩crisp set is thin + purely infrastructural -> KTLO's reach = the infrastructural rind; the craft stays human (un-crisp by nature)."}
       - {at: 2026-06-25, event: "strict definition LANDED (Operator Y): KTLO ≝ autonomously-triggered conformance; high-ROI axis dropped", verdict: revised,
          note: "Phase 2 claim-peel. Reframed UP to the no-HITL boundary = conformance (established, NOT a new parent), then DOWN to KTLO = its autonomously-triggered subset. Distinguisher = the autonomous trigger, not value."}
+      - {at: 2026-06-25, event: "2x2-DECOUPLING check (Operator-predicted 'no coupling', Covalent-verified over GLOSSARY:61)", verdict: survived,
+         note: "NO COUPLING confirmed. KTLO rests on established `conformance` (agent-disposability is IN the GLOSSARY definition), not the 2×2's unratified cells; the classifier it needs is the GLOSSARY boundary test, also established. KT-7's 'gated on 2×2 ratification' = MIS-ATTRIBUTION (illusory gate, exposed by the strict-def reframe). KTLO's safe core is UNBLOCKED, independent of the 2×2."}
 
   # ──────────────────────────────────────────────────────────────────────────────────────────
   # LANDED 2026-06-25 (Phase 2 claim-peel, Operator Y: "conformance-line-defense claim"). The CATCH-side
