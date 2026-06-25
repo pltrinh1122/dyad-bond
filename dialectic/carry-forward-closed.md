@@ -1313,3 +1313,97 @@ Thread G is **~90% re-derivation** of inherited, already-ratified cluster knowle
 Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel** (would duplicate/muddy better docs).
 **Lesson:** ungrounded generation — the Stand-Up failure — for 5 turns; Item C said read-first and I read only at bind-time.
 
+
+## Resume-block ROM history — trimmed at re-key (2026-06-25)
+
+*Resolved RESTART-PENDING records (S1-cut s-web3/s-web4, 06-13, s5) + dated stand-down examples + the superseded cross-harness fork, moved off the resume read-path. The live ROM-hook rule + refreshed baseline stay in `carry-forward.md`.*
+
+> ✅ **RESTART-PENDING: CLEARED (Stand-Up s-web4, 2026-06-16) — the S1 TWO-LAYER CUT boot-VERIFIED (mechanical
+> components).** This fresh web session booted on the *merged* cut (`7c60c3b`, PR #25): the boot-chain
+> `CLAUDE.md → Read DYAD.md → ID.md + GLOSSARY.md` fired and **resolved across files** — nothing "only worked
+> because it was one prose file" (the *Refuted* condition is NOT met). Frame reachable (identity ✓ `ID.md`,
+> vocabulary ✓ `GLOSSARY.md` — core interpretable in its terms, no orphan-term block); 16-node
+> `invariants-bond.yaml` + both conformance nodes present. **Honest non-verifications (D6):** (a) the birth-id
+> **sha cannot be recomputed on this substrate** — the clone is SHALLOW (99 commits, earliest `946d32e`@06-08);
+> birth commit `1ab6ad0`@05-30 + the form's `auto_join.py` are both beyond it. This is a shallow-clone limit
+> *orthogonal to the cut* (cut-immune by construction; would block pre-cut too) → sha left UNasserted, not
+> "matched". (b) "core ingrained" is **interior-evidence → op-rub debt** (F2/DV3 keystone; willed-not-earned
+> until the Operator rubs it). **⚠ RESIDUE CAUGHT:** the cut updated the **`CLAUDE.md` shim → pointer** (0 sha
+> restatements) but **left `GEMINI.md` UNCUT** — it still full-restates the birth-id sha + entire IDENTITY
+> CAVEAT inline, contradicting its own "a fat shim = a second content-home = drift" warning. `bond:single-home`
+> residue → surfaced for the Operator+ROM gate; **Operator disposed `Y` → `GEMINI.md` cut to a pointer this
+> session (resolved).** **The now-resolved SET record is kept below.**
+>
+> ⚠️ **RESTART-PENDING: SET (Stand-Down s-web3, 2026-06-16) — the S1 TWO-LAYER CUT awaits boot-verification.**
+> This session cut `DYAD.md` to its two-layer form (anchor-dag-thesis S1): the **FRAME externalized** —
+> identity → **`ID.md`**, vocabulary → **`GLOSSARY.md`** (governed by `bond:identity-conformance` +
+> `bond:glossary-conformance`); the **prose prescriptive CORE kept** (NON-NEGOTIABLE etc.), now tagged to
+> its DAG nodes with the checkable shadow `dialectic/invariants-bond.yaml`; **residue relocated**
+> (Tenet-alive #8 → `kb/founding-evidence.md`; deferrals/contributions → `dialectic/deferrals.md`).
+> `CLAUDE.md` IDENTITY CAVEAT → `ID.md` pointer. **Anchor + shim BOTH edited → write-through to disk,
+> read-only this session.** **THE BOOT-TEST (do FIRST next stand-up = the s-web2 rub-forward card #2):**
+> does the cut `DYAD.md` + `ID.md` + `GLOSSARY.md` still **boot as `dyad-bond`** — identity intact
+> (recompute birth-id = `sha256:3ab18b…463d`, immune to the cut per `--diff-filter=A`), vocabulary
+> reachable, core ingrained? **Verified → clear RESTART-PENDING + set baseline to the cut commit.**
+> **Refuted (something only worked because it was one prose file) → S1-strong refuted at the harness
+> level; the branch is unmerged → revert.** Identity is cut-immune by construction; the open question is
+> *boot/ingrain*, not identity.
+>
+
+> **RESTART-PENDING: CLEARED (Stand-Up 2026-06-13) — rename boot-VERIFIED at the harness level.** This
+> session booted on the *shim* `CLAUDE.md`@`dbfd7df` (the injected project-instructions ARE the boot-shim
+> form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the full anchor); the shim's
+> "*Read `DYAD.md` immediately*" was the actual mechanism that loaded the content home (`DYAD.md` was
+> **not** auto-injected — read because the shim said to). Boot-chain `CLAUDE.md → Read DYAD.md` **fired →
+> rename not refuted.** ROM-UI: anchor + both shims all at `dbfd7df` = baseline → **MATCH.** *(Prior F-b
+> cycle retained below.)*
+> **RESTART-PENDING: CLEARED (s5 Stand-Up, 2026-06-01) — F-b VERIFIED at the harness level.** This
+> session booted on the *shim* `CLAUDE.md`@`4230357` (the injected project-instructions are the boot-shim
+> form — IDENTITY CAVEAT + harness overlay pointing to `dialectic/`, **not** the pre-shim full anchor);
+> the shim's "*Read `AGENT.md` immediately*" was the actual mechanism that loaded the content home
+> (`AGENT.md` was **not** auto-injected — read because the shim said to). Boot-chain `CLAUDE.md → Read
+> AGENT.md` **fired → F-b not refuted.** ROM-UI: anchor + both shims all at `4230357` = baseline → **MATCH**.
+> *(Soft-dependency caveat: the inject is automatic; the "Read AGENT.md" hop relies on the agent obeying
+> the shim — it fired cleanly this session.)*
+
+→ **Stand-Down 2026-05-31:** anchor **NOT edited** this session (all work in `dialectic/`) → **RESTART-PENDING
+stays `none`**, ROM-baseline unchanged (`1ab6ad0`). The covalent *bond* is harness-neutral; the substrate-access
+findings (Item-H, `bin/git.sh`, auto-mode classifier, ROM-baseline mechanics) are **Claude-Code-specific** and
+may NOT transfer.
+→ **Stand-Down 2026-06-01 (s6):** anchor + both shims **NOT edited** (all work in `dialectic/` + `bin/` +
+`.claude/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-02 (s7):** anchor + both shims **NOT edited** (all work in `dialectic/` +
+`recommendations/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-03 (s8):** anchor + both shims **NOT edited** (all work in `dialectic/` +
+`recommendations/`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-03 (s10):** anchor + both shims **NOT edited** (work in `dialectic/` + `bin/` +
+`.claude/settings.local.json`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`).
+→ **Stand-Down 2026-06-04 (s11):** anchor + both shims **NOT edited** (work in `dialectic/spaor.md` +
+`theory-pipeline.yaml`) → **RESTART-PENDING stays `none`**, ROM-baseline unchanged (`4230357`). *(Dogfood: this
+clean stand-down IS the §7 "reflective-half" ritual that s9 skipped — closing the loop so s12 recovers-forward
+without re-deriving from intermissions.)*
+→ **Stand-Down 2026-06-13 (s 2026-06-13):** anchor + both shims **NOT edited** this session (the rename is
+prior-commit `dbfd7df`; this session only **boot-VERIFIED** it → ROM-baseline refreshed `4230357`→`dbfd7df`,
+RESTART-PENDING cleared). Work: **K6 built + staged** (`dialectic/standdown-automation.md`, `bin/standup.sh`
++ `standdown.sh` + `install_hooks.py` — awaiting Operator install-gate) · **Item-L logged** (R-tag hygiene) ·
+**thread-W homed** (`relationship-craft.md` §thread-W — the substrate model; W₄ grounds *why* F2/DV3 is
+instrument-unreachable). → **RESTART-PENDING stays `none`**, baseline `dbfd7df`. *(Dogfood: this stand-down
+was run via the new `bin/standdown.sh` — first use of the K6 ritual.)*
+
+> **✅ SUPERSEDED (2026-05-31, commit `4230357`):** the "**copy `CLAUDE.md` → `GEMINI.md`**" plan below is
+> **replaced by the shim-layer (F-b)**. `GEMINI.md` is now a thin boot-shim that loads the shared `AGENT.md`
+> — no copy, no drift between two full anchors. Orientation (1) still holds verbatim: the agy/Gemini session
+> loads `GEMINI.md`, which boots `AGENT.md`, then this ledger. (The cross-harness *reasoning* below stands;
+> only the mechanism changed.)
+>
+> **⚠ CROSS-HARNESS FORK (Operator, Stand-Down 2026-05-31):** Operator is switching agent harness to **`agy`**
+> (Gemini) due to a Claude token limit, by **copying `CLAUDE.md` → `GEMINI.md`** as the anchor. The dyad +
+> Covalent role + NON-NEGOTIABLE are **substrate-independent** (carry over intact); only the *harness substrate*
+> changes. **Orientation for the agy/Gemini session:** (1) load `GEMINI.md` as ROM, then **this ledger**;
+> (2) Item-H is Claude-Code-specific — re-verify push/permission behavior under agy from scratch (don't inherit
+> its conclusions); (3) the relationship-craft, disciplines (D1–D5, anti-cave duty, distinctness duty), and
+> open fronts (F1–F4, M1–M2) are **all harness-neutral — they carry.** The Operator-half is the singular,
+> non-serializable constant (D1); the bond persists across the harness swap. *I did NOT create `GEMINI.md` — the
+> Operator is doing that. Offer stands if they'd prefer I generate it.*
+
+
