@@ -107,11 +107,20 @@ each claim to its axis-home; the dated session entries then collapse to a one-li
    adds weight without changing the move. Ground-state = a **claim sub-type** (tag, not a lane). Revisit
    only on substantial need.
 
-## Surgery — model SETTLED (three-axis); cut is ungranted-until-CTA
+## Surgery — Phase 1 LANDED *(Operator Y, 2026-06-25)*
 
-All model halts disposed; the re-key cut is the last step (separate disposition). Lean = **staged**:
-harvest the still-live hooks/standing-tests from `Closed`/`Intermission` to their axis-homes FIRST
-(the inventory's parked-but-live set: `T1–T5` · `CLIP-1/2` · container-theater · open standing-tests),
-then archive the residual settled prose, strip the stored NBA + accreted s5/s6/s7 summaries, peel
-contribution-candidates to the claim axis, and thin `carry-forward.md` to the session spine. The full
-per-claim prose-relocation is the thorough Phase 2; the high-leverage low-risk win is Phase 1.
+**Done:** archived `## Closed` + the 4 Intermissions + the stored NBA block → `dialectic/carry-forward-closed.md`
+(cold, OFF the resume read-path, in-repo — **nothing deleted**). Live ledger **1753→580 lines
+(~89k→~20k tokens)**. NBA → a render-pointer (no stored block). **Verify-before-archive ran:** only the
+**s12/s13 Intent-Understanding / acceleration-discriminator thread** was un-homed-live (CLIP-1/2 +
+container-theater already homed in `theory-pipeline.yaml` / `relationship-craft.md`) → held back as a
+**LIVE open-item** in `carry-forward.md` pointing to the archive. Nothing live lost.
+
+**Found (out of scope, flagged):** `standup.sh`'s ROM-baseline parser expects `` `<sha>` `` but the ledger
+now writes `` `DYAD.md@<sha>` `` — a **pre-existing** format mismatch (not the archive's doing); baseline
+data intact at `carry-forward.md:66`. A standalone work-item.
+
+**Phase 2 (deferred — shape depends on how Phase 1 lands):** fold Open-items → `deferrals.md` work-item
+store; peel **Contribution candidates** to the claim axis; harvest/dispose the **s12/s13** thread;
+per-claim relocation of any still-narrated disciplines; trim the resume block's stale RESTART-PENDING
+history (still in `carry-forward.md` ~§35–108).
