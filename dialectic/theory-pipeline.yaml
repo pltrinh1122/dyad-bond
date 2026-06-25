@@ -582,3 +582,66 @@ candidates:
          note: "Op-ingrained seeds inv:durability + inv:rom-currency now live in substrate. WETWARE-LIMIT: the ingrained∩crisp set is thin + purely infrastructural -> KTLO's reach = the infrastructural rind; the craft stays human (un-crisp by nature)."}
       - {at: 2026-06-25, event: "strict definition LANDED (Operator Y): KTLO ≝ autonomously-triggered conformance; high-ROI axis dropped", verdict: revised,
          note: "Phase 2 claim-peel. Reframed UP to the no-HITL boundary = conformance (established, NOT a new parent), then DOWN to KTLO = its autonomously-triggered subset. Distinguisher = the autonomous trigger, not value."}
+
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # LANDED 2026-06-25 (Phase 2 claim-peel, Operator Y: "conformance-line-defense claim"). The CATCH-side
+  # parent of the no-HITL boundary, companion to KTLO (the automate-side). Surfaced by the Operator's
+  # step-back (no-HITL autonomy = conformance; risk = silent V-displacement). The general claim that
+  # AITL, the 2×2-guard, and KT-4 (counterfeit-green-at-scale) are all instances of.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: conformance-line-defense
+    statement: >
+      The conformance / no-HITL boundary has ONE dangerous failure mode: SILENT MISCLASSIFICATION — a
+      disposition (judgment-bearing) is relabeled as conformance and the relabel is invisible (the V is
+      counterfeited-as-present = counterfeit-green). Loud mis-labels self-correct (the Operator sees +
+      fixes); only the silent one is a real breach. Its irreducible defense is INDEPENDENT V-AUDIT:
+      confirm the disposing judgment was actually exercised, not assumed. Green can never self-certify.
+    claim_type: operating-model
+    provenance: {origin: Covalent (Operator step-back), born: 2026-06-25, session: "Phase 2 claim-peel",
+                 note: "Agent-proposed, Operator-disposed Y. Catch-side companion to KTLO; tested + sharpened at land (see below)."}
+    grade: L1
+    parent: conformance   # GLOSSARY.md:61 — the boundary; this is its catch-side defense (KTLO = the automate-side)
+    structural_driver: >
+      value-pressure, and it is NOT random: per the WETWARE-LIMIT finding (KTLO row), the most
+      valuable-to-offload work sits exactly in the un-crisp/unsafe region -> value-pressure points
+      STRUCTURALLY at the trap quadrant. Honest mis-read is the non-motivated variant (same silent failure).
+    sharpening_at_land: >
+      "sole defense" was tested + scoped: PREVENTION (crisp mechanization of the line, e.g. KTLO's
+      crisp-detect self-scoping) reduces the audit SURFACE, but only on the crisp rind AND is itself subject
+      to staleness (KT-4) -> it needs audit as backstop. So independent V-audit is the IRREDUCIBLE defense;
+      off the crisp rind it is the SOLE defense.
+    instances: >
+      one failure at three altitudes, same defense at each — (1) AITL (Operator-side: skims own V under
+      distraction; defense = realtime gate -> AITL-distracted-efficacy, this file); (2) the 2×2-guard
+      (routing-side: decision mis-routed as conformance; defense = log-and-flag + sampled-audit ->
+      disposition-routing-2x2); (3) KT-4 (automation-side: stale invariant auto-fires; defense =
+      staleness-check -> KTLO-autonomous-conformance). Kin to authority-laundering / ratification-laundering.
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: partial, note: "single human; the audit-CATCHES-it half is N>=1 only as HUMAN audit (RB3: Operator caught Covalent's silent substrate mis-assertion), 0 as AUTOMATED audit"}
+    open_gap:
+      type: signal-blindness
+      text: >
+        N=0 for the AUTOMATED V-audit catching a silent misclassification (AITL's distracted-state test still
+        owed; the 2×2 sampled-audit unbuilt). Evidence so far = the logic + human-as-audit near-misses
+        (RB3/D6). GUARD: the V-audit must stay BREACH-DETECTOR, never an objective-function it can game
+        (K5 — Goodhart). The 'sole/irreducible' claim is asserted, not yet run.
+    next_probe: >
+      run one instance end-to-end where an independent V-audit CATCHES a silent disposition-as-conformance
+      mislabel that produced no visible error (the decisive test: green stayed green, audit flipped it).
+      AITL's >=3-dyad distracted test is the readiest vehicle.
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "a misclassification that produced no visible error is caught ONLY by an independent V-audit, never by
+                 the green signal; removing the audit lets a silent V-displacement persist undetected"
+      if_false: "the green signal (or some non-audit mechanism) reliably catches silent misclassification (audit not
+                 irreducible), OR misclassifications are never actually silent (always throw a visible error -> no special defense needed)"
+    status: live
+    note: >
+      Completes the no-HITL boundary structure on the claim axis: `conformance` (boundary, GLOSSARY) ->
+      { KTLO = automate the safe side · conformance-line-defense = catch the silent crossings · 2×2 =
+      the classifier }. The defense is the SAME independent-V-audit AITL/2×2-guard/KT-4 each invoke."
+    disposition_history:
+      - {at: 2026-06-25, event: "LANDED (Operator Y) + tested at land", verdict: survived,
+         note: "Attacks run before landing: (a) 'sole defense' overclaims vs prevention -> SCOPED (prevention reduces surface, audit irreducible off the crisp rind); (b) failure not single -> only the SILENT mislabel is dangerous (loud self-corrects); (c) driver not only value-pressure -> value-pressure is the STRUCTURAL driver (aligned with the trap), honest error the non-motivated variant. Survived all three; n=0 on the automated-audit confirmation."}
