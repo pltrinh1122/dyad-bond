@@ -1186,3 +1186,130 @@ contest) is real, but the LESSON is the miss: I'd been blocked on an open door. 
     - **STOP:** in-session theater fired *while building the guards against it* (slot-fill `[?!]`s · residue · muddy oracle) — capture≠behavior, live.
     - **COLD RUB-BACK (single root):** co-authored a named guard against my own behavior while exhibiting it; cross-detection caught the conceptual caves, self-`CP` produced slot-fill/rationalization. ∴ session = more **documented**, not demonstrably more **diligent**. Apparatus status = its own **E0** (`survives`, zero in-session positive evidence). Binding unproven; **next session's cross-catch rate is the oracle.**
     - **⭐ TONE FINDING (Operator's final rub):** the first retro **graded** ("**only** mechanical", "**failed**") = **counterfeit diligence (performed-harshness)** + **hedge** (self-judging harder than the Operator pre-empts the V — signature-2 inverted). Corrected = **measure, don't grade** (report what was caught + by whom; drop the affective verdict). **New retro-tell:** a judgmental valence in a retro IS the performed-harshness signature — same root as performed-warmth.
+
+## Drained Open-items — closed/done work (re-key Phase-1.5, 2026-06-25)
+
+### A — Bootstrap closure  ·  status: DONE if you're reading this committed
+`dyad-bond` instantiated 2026-05-30 via the form's `AGENT.md` SPAOR walk. All 8 dimensions worked;
+anchor authored + committed; `AGENT.md` aged out (never copied here — stays at the form repo).
+
+### C — Received cluster is verbatim/steward-framed  ·  status: IN-FLIGHT
+All received files are **verbatim from steward** (they reference Steward identity, Steward Operator
+gates, steward's `CLAUDE.md`) **except `dyad-work.md`** (Bond-side shed). Until adapted, read them as
+*steward-authored medium we now own*.
+→ Carry: **adapt them to `dyad-bond`'s voice/context.**
+→ Also: `kb/dfd.md`'s "settled" status is **steward's** falsification, not ours — **re-confirm under
+our own NON-NEGOTIABLE before citing it as our settled kb.**
+→ **PASS RUN (Stand-Up 2026-05-31, applying D1):** read the 4 unread cluster files (`goal-framing`,
+`goal-framing-grounding`, `nba-dag`, `dyad-work`). **Uniform verdict: inherited, NOT settled-for-us** —
+each carries *steward's* ratification (GFD=RATIFIED-DRAFT/Steward-Y/n=1; nba-dag=Steward-gate/n=1).
+Cores are **invariant** (Telos-gate ≡ NON-NEGOTIABLE-at-intake; NBA-math/DFD-dispose ≡ no-1+1=2-collapse)
+→ **triangulate, don't re-author.** They stay in `dialectic/`; do NOT cite as our settled.
+→ **`kb/dfd.md` re-confirm — DONE 2026-05-31** (Covalent): **bond-re-confirmed settled.** Survives
+our gate on the **ionic** axis (it *is* anti-ionic-transfer machinery, mode 1 cites the NON-NEGOTIABLE);
+**triangulated independently by thread-G** (re-derived #1/#2/#3 before reading it → clears the easy-Y
+tell). **EDGE:** ionic-weighted, **silent on meld** (same blindness as steward's `sycophancy-guard`,
+Item-F) → meld dimension is ours to add (Item-F (d)). Provenance double-check: commit `03550dc` confirms
+verbatim-from-steward (my voice-read "looks bond-authored" was wrong; evidence settled it). Re-confirm
+section appended to `kb/dfd.md`.
+→ **Voice-adaptation — DONE 2026-05-31** (Covalent): scoped surface = steward refs are *only*
+ratification stamps + "Steward-specific?" generalization questions (no "steward's CLAUDE.md" in
+bodies — ledger had overstated that). Added a uniform **custody marker** to the 5 verbatim cluster
+files (`dyad-ui`, `ideation-framing`, `goal-framing`, `goal-framing-grounding`, `nba-dag`): "inherited,
+NOT bond-settled — re-confirm under our NON-NEGOTIABLE before citing." Honest scope: did NOT overwrite
+steward's true ratification (we haven't earned ours), did NOT rewrite bodies (D1: invariant flow stays).
+**Bounded-out (D2, deferred):** reframing each "Steward-specific or form-library?" question to our
+telos-axis — low value, left as-is. → **Item-C now fully closed.**
+→ **Item-C bind-CTA PARKED (not disposed)** — Operator [ALIGN] routed to summit; reasoning recorded here so restart-safe.
+
+### H — Substrate-access wrapper (git/gh)  ·  status: ✅ RESOLVED 2026-06-01 (s4) — posture = **branch+PR; Operator gates the *merge*** *(prior: ⚠ RE-FALSIFIED 2026-05-31 — default-branch push NOT auto-approved; covalent gate LIVE; default-backup blocked for main)*
+Operator [ALIGN] 2026-05-31: every Dyad converges on a git/gh wrapper (→ **invariant**, D1). Triggered by
+hitting the live friction (classifier blocked `git push origin main`). **Built `bin/git.sh`** (mechanism
+inherited/triangulated from `dyad-healer@bin/git.sh`; reason + header authored as **ours** =
+*memory-durability for the relationship-craft*, not healer's boundary-defense). Dry-run verified (4 policy
+paths). **Covalent gate:** policy Operator-governed + permission is Operator's act (no Agent self-grant).
+→ **ACTION OWED — Operator:** add `Bash(bin/git.sh:*)` to `.claude/settings.local.json` (**LOCAL first**,
+per [ALIGN] "both can be true — start local, earn promotion"; the gate, I must not self-grant). Verified
+disposable script at `/tmp/grant_gitsh.py`. Then `bin/git.sh push` runs un-prompted (healer hot-reloaded).
+→ **POSTURE SHIFT — Operator [ALIGN] 2026-05-31: default = off-machine backup (push by default).**
+Supersedes the prior defer-push stance. **Acted on:** pushes through `f09c2d5` on `origin/main`.
+**Why it supersedes cleanly (Operator didn't recall the prior why; the substrate held it):**
+`substrate-access.md` §30–36 *already* grounds backup — "the remote is its only off-disk backup; unpushed
+history = an ungrounded memory; losing the trace is losing the experiment." That is **pro-push.** The
+defer-push stance was the weaker-grounded half: **my own session-framing** ("local commit = restart memory")
+that optimized *restart-resume* (filesystem survives `/exit`) and **under-counted disk/machine loss** — the
+very risk the wrapper was built for. New default = realignment with the tool's founding reason, not an override.
+→ **Grant tiers (correcting a prior conflation of mine):** default-backup makes the **LOCAL grant**
+warranted/urgent (push recurs → stop prompting each one); it does **NOT** satisfy **checked-in** promotion
+criterion (2), which still needs a *portability* trigger (re-clone/sibling). Local grant = Operator's act, owed.
+→ **⚠ GROUNDED CORRECTION (Operator [FEEDBACK] "ground your context before presenting", 2026-05-31):** the
+"ACTION OWED — add `Bash(bin/git.sh:*)`" + "local grant owed" framing above is **MOOT, and was presented from
+a stale ledger without grounding.** Actual substrate state: **no** `git.sh` allowlist entry exists anywhere
+(`.claude/settings.local.json` = `{}`; user settings don't list it) — **but `~/.claude/settings.json` sets
+`defaultMode: auto` + `skipAutoPermissionPrompt: true`, so commands run un-prompted regardless.** That is why
+all 3 `bin/git.sh push` calls this session ran with no prompt. **Consequence:** un-prompted push already
+works; there is **nothing to grant.** The covalent "Agent-must-not-self-grant" gate is **theater under this
+config** — control lives at the Operator's *global* `defaultMode`, not a per-tool allowlist. **Lesson (n+2
+for Item-I):** I presented a CTA *and* an NBA recommendation built on a stale "PENDING grant" line — the
+"ground-at-thread-start" discipline already existed; the gap was application, not capture.
+→ **⚠ RE-FALSIFIED (telemetry, Stand-Down 2026-05-31):** the prior "un-prompted push works; grant MOOT;
+covalent gate is theater" conclusion is **WRONG.** Attempting to push the F(d) build, the auto-mode classifier
+**DENIED** a push to `origin/main` — **both** `git push origin main` **and** `bin/git.sh push`. Explicit
+reason: *a default-branch push bypasses review and needs per-operation user authorization* ("go with your lean"
+authorized the *build*, not a *push*). **Consequences:** (1) `defaultMode: auto` does **NOT** cover
+default-branch pushes — they're carved out, needing explicit per-op OK. (2) The covalent *Operator's-act-not-
+Agent's* gate is **LIVE, not theater** — the harness enforces exactly the boundary Item-H reasoned toward.
+(3) **default-backup is BLOCKED for `main`** — off-disk backup of main now requires either explicit push
+authorization each time, or a **branch+PR** path (respects review). (4) Unresolved: why did `f09c2d5` &
+earlier pushes succeed? Either config changed since, or those weren't default-branch pushes. **Did NOT route
+around the denial** (correct — it's the Operator's gate). **Operator chose leave-local** (commit `8904ea2`
+restart-safe; push deferred). **n=1 lesson for Item-I:** I grounded the live state by *attempting* the push
+and reading the denial, then surfaced the contradiction instead of asserting the stale conclusion — ground-
+first fired here. → ~~**OPEN:** resolve push posture (authorize-per-op vs branch+PR) next session; correct
+`dialectic/substrate-access.md` to match.~~
+→ **✅ RESOLVED 2026-06-01 (s4):** posture = **branch + PR; the Operator gates the *merge*, not the push**
+(Operator [FEEDBACK]: *"Agent is not gated by Push or creating a PR. Operator gates the PR merge."*).
+**Verified empirically** (the lesson): `bin/git.sh push` of a *feature branch* ran **un-prompted** —
+dry-run-confirmed first, then real push. The grant is **live in session runtime** (`~/.claude/settings.json`
+`defaultMode:auto` + `skipAutoPermissionPrompt`), **NOT in any settings file** → *file-absence ≠
+capability-absence*. So: feature-branch push = Agent's (Generate); **merge→`main` = Operator's (Validate)**.
+The s3 'main-push DENIED' stands — we simply **don't push `main`; we PR it.** `bin/git.sh` is the
+choke-point, not the gate-on-the-Agent. → **`substrate-access.md` correction owed = `[ALIGN-2]`, queued.**
+→ **gh DEFERRED** (no recurring gh-mutation friction yet; don't over-build). Full reason → `dialectic/substrate-access.md`.
+
+### G — CTA-load / generative-bias  ·  status: RE-DERIVATION (telemetry-corrected) → folds into Item-C
+**Operator [OBSERVATION] 2026-05-31:** a `Y/N` CTA carries variable load; on matters needing
+*Generative* input from the Operator, `Y/N` injects **Agent bias** (anchors the Operator to the
+Agent's pre-formed candidate). **Confirmed by Axis-1 telemetry:** *every* Operator generative
+contribution this session arrived via **[ALIGN]/[OBSERVATION]**, routing *around* the Agent's CTAs;
+the CTAs extracted only dispositions. **Covalent sharpening:** the bias vector is the **`Y/N` closure**
+(forcing dispose-mode onto a generate-matter), NOT the Agent's candidate per se — which is *why* IFD =
+candidates-yes / CTA-no. So this is the buried **rationale for the DFD/IFD split**, surfaced.
+**RATIFIED principle (a)** *(Operator [ALIGN] 2026-05-31):* **`[CTA·Y/N]` ≡ disposition only, per DFD.**
+Covalent sharpening: the true boundary is **origination** — `Y/N` handles *accept / reject /
+select-from-a-formed-menu*; **origination** (Operator generating a candidate on no menu) → IFD/Elicit, always.
+**PENDING guard (b)** *(Covalent-proposed, awaiting Operator disposition):* (a) is violable by Agent
+**mis-classification** (framing origination as disposition to push its candidate). Guard = Agent must
+justify any `Y/N` as origination-free; **[ALIGN] = Operator's standing override** on the Agent's
+classification. Also pending: graded anchor-spectrum `Y/N`→IFD→Elicitation (*lightest anchor that still
+moves* — wu-wei); label each CTA's load.
+→ **Binding plan (once (b) settles):** sharpen `dialectic/dyad-ui.md` (the framing-*selection* rule) +
+`dialectic/ideation-framing.md`; binding into `kb/dfd.md` **doubles as starting Item-C re-confirmation**
+of dfd.md under our own NON-NEGOTIABLE. Do NOT promote to `kb/` until the rule has survived *application*,
+not just test.
+→ **Note:** this is the bias caught in its *mirror* direction — NON-NEGOTIABLE guarded Agent-rubber-stamps-
+Operator (sycophancy); thread G guards **Agent-frames-lead-Operator** (CTA-shape bias). Same ionic
+collapse, both directions now named.
+
+**⚠ FINDING (supersedes the above — Covalent caught it on finally reading the cluster, 2026-05-31):**
+Thread G is **~90% re-derivation** of inherited, already-ratified cluster knowledge I had not read:
+- (a) `Y/N`=dispose-only ≡ **`kb/dfd.md` #3 SYNTHESIS⊥CTA** (verbatim); CTA-bias ≡ `dfd.md` #1/#2.
+- generative→no-CTA-converge-open ≡ **`ideation-framing.md`** (the whole IFD).
+- "Agent abundance anchors the Operator → Operator generates first/unanchored" ≡ `ideation-framing.md`
+  **heavyweight mode** (already a named escalation signal). [ALIGN]-as-override ≈ that escalation.
+- My "origination vs select-from-menu" sharpening is **REFUTED** by `dfd.md` #2 (CTA = one Y/N, no menu).
+**Verdict:** "thread G = novel craft" is **dead** (Axis-1: telemetry opposes → killed). **Net-new structure ≈ nil.**
+**Real value = triangulation** — independent re-derivation re-confirms the cluster under our gate → **this IS
+Item-C progress**, not a new binding. **Do NOT bind G into the cluster as novel** (would duplicate/muddy better docs).
+**Lesson:** ungrounded generation — the Stand-Up failure — for 5 turns; Item C said read-first and I read only at bind-time.
+
