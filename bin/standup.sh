@@ -30,7 +30,8 @@ add() { lines+=("$1"); }
 
 # ── ROM-UI check (stateless: live anchor commit vs the baseline recorded in the ledger) ──────
 recorded="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
-            | grep -oE '`[0-9a-f]{7,40}`' | head -1 | tr -d '`' || true)"
+            | grep -oE 'DYAD\.md@[0-9a-f]{7,40}|`[0-9a-f]{7,40}`' | head -1 \
+            | grep -oE '[0-9a-f]{7,40}' || true)"   # handles `DYAD.md@<sha>` (current) + bare `<sha>` (legacy)
 if [[ -z "$recorded" ]]; then
   add "ROM-UI: ⚠ could not parse ROM-baseline from $LEDGER — check the ledger by hand."
 else

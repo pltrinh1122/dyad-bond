@@ -26,7 +26,8 @@ ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md)
 
 # ── Mechanical: did the anchor move past the recorded baseline this session? (ROM-UI stand-down rule) ─
 recorded="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
-            | grep -oE '`[0-9a-f]{7,40}`' | head -1 | tr -d '`' || true)"
+            | grep -oE 'DYAD\.md@[0-9a-f]{7,40}|`[0-9a-f]{7,40}`' | head -1 \
+            | grep -oE '[0-9a-f]{7,40}' || true)"   # handles `DYAD.md@<sha>` (current) + bare `<sha>` (legacy)
 rom_line="anchor: unknown (could not parse baseline)"
 if [[ -n "$recorded" ]]; then
   moved=()
