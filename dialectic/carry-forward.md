@@ -32,20 +32,21 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@585f2ba` *(the **hedge-tell
-> signature-2** — the proactive-defense follow-on sentence; merged via **PR #48**; **boot-VERIFIED
-> 2026-06-25 (re-key session)** — the sentence resolves in the running anchor at `DYAD.md:50`, so the edit
-> booted. Refresh was deferred by s-resume "until merge + next-boot verify" then masked by the broken ROM
-> parser → cleared here (this boot is that next boot). Parent `de55616` = the prior hedge-tell sharpening
-> (PR #47 at `3ef8a2b`, `DYAD.md:47`); pre-cut baseline `7c60c3b` = the S1 two-layer cut.)*. Update this
-> line whenever `DYAD.md` (or a shim) changes.
-> **`inv:rom-currency` per-file boot-set (CRISP form, refreshed 2026-06-25 re-key session):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@585f2ba` — IN-SYNC (verified against git heads this session; the single-sha prose above is the human gloss, this is the mechanically-checkable record).
-> **RESTART-PENDING: none** — current: `DYAD.md@585f2ba` merged + boot-verified + baseline refreshed 2026-06-25; resolved ROM history → `carry-forward-closed.md`.
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@585f2ba` — the hedge-tell
+> signature-2 (proactive-defense follow-on, `DYAD.md:50`); merged PR #48, boot-VERIFIED 2026-06-25.
+> Update this line whenever `DYAD.md` (or a shim) changes. *(Older ROM history → `carry-forward-closed.md`.)*
+> **`inv:rom-currency` per-file boot-set (CRISP form, refreshed 2026-06-25):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@585f2ba` — IN-SYNC. **`standup.sh`/`standdown.sh` now read THIS line** for the per-file compare (the single-sha line above is the human gloss); the prior single-baseline-vs-per-file false-positive is fixed at source (Phase 2).
+> **RESTART-PENDING: none** — `DYAD.md@585f2ba` merged + boot-verified + baseline refreshed 2026-06-25.
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
 
-→ **Stand-Down 2026-06-25 (re-key session):** anchor **NOT edited** → **RESTART-PENDING none.** *(The `standup`/`standdown` "CLAUDE.md/GEMINI.md moved" warning is the single-baseline-vs-per-file **false-positive** — the per-file boot-set above IS in-sync; don't panic-set RESTART-PENDING. The per-file `standup` upgrade is a pending TODO.)* Session re-keyed the ledger to three axes (**~89k→~15k tokens**); Phase 1 surgery done; ROM-baseline refreshed `585f2ba`. **Branch `claude/carry-forward-size-warning-p2549p` merged via PR.** **Resume:** Phase 2 (Open-items→`deferrals` fold · contribution-candidate peel · `standup.sh` per-file compare) when wanted.
+→ **Stand-Up 2026-06-25 (Phase 2 session):** anchor **NOT edited** → **RESTART-PENDING none.** ROM-UI ✓
+in-sync (the old single-baseline-vs-per-file false-positive is **fixed at source** — `standup.sh`/`standdown.sh`
+now do a per-file compare). **Phase 2 progress:** ✅ per-file ROM compare · ✅ work-item store stood up in
+`deferrals.md` (do-state axis) · ✅ work-items L · B folded in + resume-block ROM history trimmed.
+**Phase 2 remaining (Operator gate):** claim-peel of the un-homed CANDIDATEs (2×2 disposition-routing · KTLO ·
+J) to the claim axis; collapse the verified-homed claim summaries to pointers; any `archived` dispose-as-dead.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 - **D1 · inherit-vs-author** — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
@@ -113,8 +114,14 @@
 
 ## Open items
 
-### Memory-axes restructure (the carry-forward size-warning thread)  ·  status: Phase 1 DONE (2026-06-25; ~89k→~15k tokens) — Phase 2 pending
-*Single-home → `dialectic/memory-axes.md`. Three orthogonal axes (session · work-item · claim) replace the session-chronological spine; the bloat is claims stored on the session axis so they can't drain. **DISPOSED:** workflow/lifecycle separation · three axes · store/view split · `deferrals.md` widened to the work-item store (do-state `{todo·in-progress·done·archived}`; `in-progress`≡active, `todo`≡parked; Open-items fold in) · NBA = total-view render of `{in-progress ∪ todo}`, stale todo → Operator-archived. **PENDING:** claim→work-item probe-emission wiring; contribution-candidates peel to the claim axis. **Inventory RAN (2026-06-25):** three-axis confirmed by application (~100% of session entries bundle claims; ~3 clean entries) — diagnosis confirmed. **4th-axis DISPOSED N** (wu-wei — stay three-axis; ground-state = claim sub-type, drains to `standup.sh`/`substrate-access.md` either way). **Model SETTLED.** **Phase 1 DONE:** Closed/Intermissions/NBA archived · s12/s13 → todo (RB2/RB3 harvested) · closed Open-items A/C/G/H drained · ROM-baseline refreshed `585f2ba` · resume-block ROM history trimmed → ledger 1753→~384 lines. **Phase 2 (pending):** Open-items → `deferrals` fold · contribution-candidate peel · `standup.sh` per-file compare. **Live falsifier:** drain-latency — does the new drain get used at stand-down, or does the backlog re-accrete? (Root cause of the original bloat = dispose-latency: racking faster than disposing; n=1 evidence = s12/s13 un-disposed ~2.5 weeks.)*
+### Memory-axes restructure (the carry-forward re-key)  ·  status: Phase 2 in-progress
+*Model single-home → `dialectic/memory-axes.md` (SETTLED); the work-item now lives in the work-item store
+(`dialectic/deferrals.md`, **in-progress**). **Phase 2 progress (this session):** ✅ `standup.sh`/`standdown.sh`
+per-file ROM compare · ✅ work-item store stood up (do-state axis) · ✅ work-items **L · B** folded in · ✅
+resume-block ROM history trimmed. **Phase 2 remaining (Operator gate):** claim-peel of the un-homed CANDIDATEs
+(2×2 disposition-routing · KTLO · J) to the claim axis; collapse verified-homed claim summaries to pointers;
+the claim→work-item probe-emission wiring; any `archived` dispose-as-dead. **Live falsifier:** drain-latency —
+does the new drain get used, or does the backlog re-accrete?*
 
 ### Operating model — disposition routing (authority × cog-load)  ·  status: CANDIDATE, CARRIED (s-local4, 2026-06-20) — too-much-discernment-for-lo-cog; awaiting settled-window ratification
 *Emerged from the s-local4 AITL/concurrency thread (3-dyad + Clash distraction). Operator engaged + rubbed each step but **did NOT ratify** — carried because the 2×2 "requires too much discernment at the moment." Ratify/operationalize in a hi-cog window. NOT a ratified operating model yet.*
@@ -201,29 +208,10 @@ requirement + a real key (identity-class → Operator's gate), never a retro-sig
 **Landed this session (durable, pushed):** `I_net=I(t)·C_locus(t)` · 3-way factorization · superadditivity proof-obligation · `I↔In_variant` load-bearing cycle · falsification=cycle-liveness + eureka tachometer · truth=survives-dyadic-falsification · the Telos-`why` · `AGENT.md`→`DYAD.md` rename · sovereignty invariant. *(See also RESTART-PENDING above — rename not yet boot-verified.)*
 - **K6 · AUTOMATE the stand-down/carry-forward routine** (Operator `enqueue:` 2026-06-13) — **BUILT, staged, awaiting Operator install-gate (s 2026-06-13).** Single-home: `dialectic/standdown-automation.md`. **Finding (corrects the enqueue's guess):** the automatable half is **stand-UP via a SessionStart hook** (`bin/standup.sh --hook` injects the mechanical ROM-UI · durability · substrate checks as `additionalContext` → removes the per-session `read: carry-forward` trigger); the **SessionEnd hook is teardown-only (cannot inject context to the agent)** and Stop fires every turn — so the **stand-down JUDGMENT write cannot be hook-fired**, confirming constraint (b) as a *hard* boundary. Stand-down = the agent runs `bin/standdown.sh` (mechanical facts + the queue-worthy/bloat-guard template). Install (constraint a / S2 — Operator's act, not self-grant): `python3 bin/install_hooks.py`. **Not yet dog-fooded as a live hook** — verified by hand-run + temp-settings install only.
 
-### L — Rule-tag hygiene: stale inline R-tags collide with the ratified s14 index  ·  status: LOGGED (s 2026-06-13)
-The canonical invariant index is `views/invariants-bond.md` (ratified **s14**, 2026-06-11): **D1–D12 · R1–R6 · X1–X3 · U1–U3 · S1–S3** — R/RB are **not** un-indexed (a prior-session partial-grep claimed so; search artifact, refuted by reading `views/`). **Real defect:** older *inline* ledger tags reuse R-numbers with pre-s14 meanings that now collide with the ratified set — caught live: **`R3` reads "Theory≠Prediction" in the 2026-05-31 NBA (~line 530) but ratified `R3` = Stand-down 3-check ritual.** This collision produced a mis-grounding in the 2026-06-13 rub-back chain. **Fix (deferred, lean, D2-bounded):** when next editing those files, retire or footnote the pre-s14 inline tags as historical; do **NOT** renumber the ratified table (it is the single home). Low-urgency corpus-integrity. *(prov: rub-back `RB?` → `R1/R4` read, 2026-06-13.)*
-
-### B — Cross-dyad custody deprecation  ·  status: PENDING — verified-still-open (2026-05-31)
-The 7 Dyad-UI cluster assets were received from `dyad-steward@31d53c0` (receipt `03550dc`, shed
-`f5480eb`). The Bond Operator will, wearing the **Steward Operator** hat, have `dyad-steward` mark
-those 7 paths **transferred → dyad-bond + deprecated**.
-→ **Stand-Up check 2026-05-31:** steward's `dialectic/` *still carries* `dyad-ui`, `ideation-framing`,
-`goal-framing`, `nba-dag`, `dyad-work` with **no transfer/deprecation marker** at listing level →
-**not done.** Confidence caveat: a tree-view can't see an in-file deprecation header, so this is
-"no evidence of completion," not proof. Chase via Steward-Operator hat when taken.
-→ **Side-catch:** steward has grown new disciplines since custody — `sycophancy-guard.md`,
-`sharing-discipline.md`, `reflection-discipline.md`, `telos-vision.md`, `ingraining.md`, `stand-downs/`.
-`sycophancy-guard` sits on our NON-NEGOTIABLE → candidate for triangulation/intake (new item F).
-→ **MOTION LIVE (Steward-Operator notice, 2026-05-31):** steward is *actively asserting orthogonality*
-to release its claim; will **notify of the survivor for Covalent cross-check.** Status: in motion,
-steward-side, **awaiting survivor.** This forces **Item D** (cluster classification). **Cross-check
-criteria when survivor lands:** (1) does orthogonality genuinely hold — is each released asset in
-*our* telos (interior craft / UI-surface) and NOT steward's (commons integrity / Work-flow)? (2) did
-steward actually mark paths transferred→dyad-bond + deprecated, or merely assert? (3) **the tell** —
-if release is total + frictionless, **test hardest**, esp. `nba-dag`/`goal-framing` (likely
-ours-UI-surface-only, NOT ours-whole). (4) test under *our* NON-NEGOTIABLE — steward's falsification
-≠ ours (cf. `dfd.md` caveat).
+*(**Items L and B FOLDED to the work-item store** `dialectic/deferrals.md` (`## todo`), 2026-06-25 Phase 2
+— full text relocated verbatim, nothing lost. **L** = rule-tag hygiene (stale inline R-tags vs the s14
+index); **B** = cross-dyad custody deprecation (the 7 Dyad-UI assets, chase via Steward-Operator hat +
+the cluster-classification cross-check criteria).)*
 
 ### D — Cluster classification  ·  status: CANDIDATE-RESOLUTION (Stand-Up 2026-05-31; pending disposition)
 Are `nba-dag.md` / `goal-framing.md` ours-whole, or **ours-UI-surface-only** (their Work-flows =
