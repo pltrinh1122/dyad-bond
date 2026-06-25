@@ -69,6 +69,10 @@ each claim to its axis-home; the dated session entries then collapse to a one-li
   items" fold *into* it. **Y.**
 - **NBA view = `{in-progress ∪ todo}`** (total view); a stale `todo` → **Operator-disposed archive**;
   `{done · archived}` drain. Corrects the Agent's hide-the-backlog synthesis.
+- **Safe default = `todo` (Operator, 2026-06-25):** an undisposed work-item defaults to **`todo`** (live
+  backlog), **never `archived`** — archiving is a positive Operator dispose-as-dead; uncertainty → todo.
+  (So the s12 portfolio-synthesis parked as a `todo` against the ≥3-dyad trigger, not archived; the live
+  RB2/RB3 craft-watches harvested to `theory-pipeline.yaml: rub-back-calibration`.)
 - **CATCH (Agent, for the inventory):** `deferrals.md` also holds a **Contribution candidates** section
   (DFD · IFD · the relationship-craft) — those are **not** work-items (no do-state); they're **claim-axis**
   items pending the Founding-Operator gate. They **peel to the claim axis** in the re-key, not into the

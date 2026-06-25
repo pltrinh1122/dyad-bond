@@ -578,8 +578,8 @@ Two coupled items, queued for **active experimentation** (ideate the setup, don'
 - **Status:** problem + constraints GROUNDED (s6); **design still QUEUED** (no experiment built — solution work parked by
   Operator). When built, graduates into `relationship-craft.md` as a real front.
 
-### Intent-Understanding / acceleration-discriminator thread (s12/s13)  ·  status: UN-DISPOSED — pending Operator rub or harvest
-*The one live thread the re-key **held back from archive** (it had no home but the Closed prose): the s12 (2026-06-07) "bond = reflexive Intent-Understanding node / acceleration-discriminator" synthesis + **T1–T5 rub-targets** (racked before rubbing, never disposed), and the s13 `rub-back`/`clarity-event` telemetry (RB1/RB4 resolved; **RB2 over-rub watch + RB3 over-fit falsifier still OPEN**; re-anchored to "prove it works on me"). **Not in `theory-pipeline.yaml`.** Full prose → `dialectic/carry-forward-closed.md` (find "s12" / "TODO captured 2026-06-08"). **Next:** Operator rubs T1–T5 / RB2–RB3, or Covalent harvests the survivors into `theory-pipeline.yaml` (Phase 2 candidate).*
+### bond's portfolio-role synthesis (s12)  ·  status: TODO — parked against the ≥3-dyad trigger
+*Disposed 2026-06-25 (safe-default **todo**, NOT archived): the s12 "bond = acceleration-discriminator / Intent-Understanding node" synthesis + **T1–T5** (never rubbed) is a **backlog todo**, triggered by **≥3 concurrent dyads** (= the AITL-leverage arc, `theory-pipeline.yaml: AITL-distracted-efficacy`) — reactivates automatically when that runs. Prose → `carry-forward-closed.md` (find "s12"). The live craft-watches **RB2/RB3** were harvested out → `theory-pipeline.yaml: rub-back-calibration`.*
 
 ## NBA — rendered on demand (no stored block)
 > NBA is a **view, not a section**: the recommendation render over the work-item store `{in-progress ∪ todo}` (→ `dialectic/memory-axes.md`). The prior stored block (with the s5/s6/s7 stand-down summaries) was stripped to the archive — pull the NBA on demand.
