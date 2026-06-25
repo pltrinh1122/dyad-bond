@@ -481,3 +481,44 @@ candidates:
     disposition_history:
       - {at: 2026-06-25, event: "live datapoint (re-key session retro; un-rubbed) — RB3 extends to SUBSTRATE claims", verdict: survived,
          note: "Covalent asserted the ROM-baseline was 'stale / falsely-green' BEFORE running the merge-check (a D6 miss on a substrate claim); the Operator caught it ('may be unmerged PR'). Conclusion held, path didn't. So the over-committed-first-articulation rhyme is NOT intent-specific -- it recurs on empirical/substrate claims. New sub-watch: verify the substrate mechanically before characterizing it."}
+
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # Relocated from the carry-forward ledger 2026-06-25 (Phase 2 claim-peel, Operator Y on the DFD
+  # synthesis split): this is the BELIEF-STATE tracking-row; the discipline PROSE lives in
+  # relationship-craft.md. Belief-state CANDIDATE — relocation != ratification.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: disposition-routing-2x2
+    statement: >
+      Route work by AUTHORITY × COG-LOAD, not by cognitive load alone. conformance ⟺ agent-disposable
+      (any load); Operator-irreducible × lo-cog is disposable DISTRACTED (earns a dyad's concurrent slot);
+      Operator-irreducible × hi-cog waits for full engagement. Falsifies "lo-cog ⟹ Agent-disposable."
+    claim_type: operating-model
+    provenance: {origin: Operator+Covalent, born: 2026-06-20, session: s-local4,
+                 note: "Emerged from the AITL/concurrency thread (3-dyad + Clash distraction); Operator rubbed each
+                        step but did NOT ratify (too much discernment for the lo-cog moment). Relocated from the
+                        carry-forward ledger 2026-06-25 (Phase 2 claim-peel, Operator Y on the DFD synthesis split)."}
+    grade: L1
+    prose_home: "relationship-craft.md §The disposition-routing 2×2"
+    coupling: {gated_on: KTLO-invariants-audit-daemon,
+               note: "KTLO = this 2×2's agent-disposable cell cashed out; gated on this 2×2's ratification (KTLO relocation queued: Phase 2 DFD 2-of-3)."}
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: partial, note: "single human; lo-cog mechanics Operator-riffed + Covalent-sharpened, not cross-checked"}
+    open_gap: {type: layer-locality, text: "the guard (decision-rule + log-and-flag + sampled-audit) is proposed-not-ratified;
+               the lo-cog DEEPENED definition (ingrainedness = pre-paid grounding-traversal) carries 2 pre-registered falsifiers un-run:
+               (1) new-but-isolated datum should dispose lo-cog; (2) high-simultaneity-but-ingrained call should dispose lo-cog."}
+    next_probe: "settled-window ratification (Operator hi-cog): (a) ratify the 2×2 as an operating model (sibling to §6)?
+                 (b) encode the log-and-flag + sampled-audit guard as a discipline? (c) does it graduate beyond bond to a FLEET operating model?"
+    exec_phase: PARKED
+    prediction_pair:
+      if_true:  "routing by authority×cog-load disposes more correctly than routing by load alone — Operator-irreducible×lo-cog
+                 items get disposed distracted without laundering (DATA POINT: 4 independent OI items disposed in ONE lo-cog pass, 2026-06-20)"
+      if_false: "lo-cog reliably implies agent-disposable (the authority axis adds nothing), OR distracted disposition launders judgment as conformance"
+    status: live
+    note: "PARKED tracking-row; awaiting a hi-cog settled-window. DURABLE siblings already recorded elsewhere:
+           AITL first-firing (AITL-distracted-efficacy, this file) · §6 directed-merge (substrate-access.md) · 'conformance work' term (GLOSSARY.md)."
+    disposition_history:
+      - {at: 2026-06-20, event: "DATA POINT — Operator disposed 4 independent Operator-irreducible items in one lo-cog pass", verdict: survived,
+         note: "park-confirm(Y) · telos-gut-check(on-Telos) · concurrency-slot(Y) · AITL-continue(Y). independence->disposable confirmed;
+                the interdependent criteria/2×2/2 bounced in the same state (simultaneity is the gate, not authority alone)."}
