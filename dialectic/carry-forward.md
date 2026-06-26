@@ -41,12 +41,15 @@
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
 
-→ **Stand-Up 2026-06-25 (Phase 2 session):** anchor **NOT edited** → **RESTART-PENDING none.** ROM-UI ✓
-in-sync (the old single-baseline-vs-per-file false-positive is **fixed at source** — `standup.sh`/`standdown.sh`
-now do a per-file compare). **Phase 2 progress:** ✅ per-file ROM compare · ✅ work-item store stood up in
-`deferrals.md` (do-state axis) · ✅ work-items L · B folded in + resume-block ROM history trimmed.
-**Phase 2 remaining (Operator gate):** claim-peel of the un-homed CANDIDATEs (2×2 disposition-routing · KTLO ·
-J) to the claim axis; collapse the verified-homed claim summaries to pointers; any `archived` dispose-as-dead.
+→ **Stand-Down 2026-06-26 (Phase 2 COMPLETE):** anchor **NOT edited** → **RESTART-PENDING none.** ROM-UI ✓
+in-sync (per-file compare fixed at source). **Phase 2 done:** ✅ per-file ROM compare · ✅ work-item store
+(`deferrals.md`, do-state axis) + L·B fold · ✅ claim-peel — the **no-HITL boundary cluster** on the claim axis
+(`theory-pipeline.yaml`): `conformance` (GLOSSARY) = boundary → `disposition-routing-2x2` (classifier, PARKED) ·
+`KTLO-autonomous-conformance` (automate-side, LANDED) · `conformance-line-defense` (catch-side, LANDED) ·
+2×2-decoupling VERIFIED · ✅ remaining six disposed (I kept-live · K→stale work-items · E elevated = the Covalent
+Bond itself · F drained · Anchor-src/J relocated). **Ledger 1753→228 lines.** D3 retro → `relationship-craft.md`.
+**Resume:** live fronts = **E** (operate Covalently consistently) + **I** (the learn-watch); NBA will surface the
+**K** stale work-items for archive/done; **D** (cluster-classification) is the one borderline left (your-V).
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 - **D1 · inherit-vs-author** — converge w/ a sibling = invariant (triangulate); diverge = ours to author.

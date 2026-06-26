@@ -132,7 +132,14 @@ data intact at `carry-forward.md:66`. A standalone work-item.
 - ✅ **Work-items folded in:** L (rule-tag hygiene) · B (custody deprecation) relocated verbatim; the
   memory-axes meta collapsed to a pointer (its single-home is this file); resume-block ROM history trimmed.
 - ✅ **s12/s13** harvested/disposed already in Phase 1 (→ `carry-forward-closed.md` + `theory-pipeline.yaml`).
-- ⏳ **Claim-peel (Operator gate):** relocate the un-homed CANDIDATE claims (the 2×2 disposition-routing,
-  KTLO, J's in-ledger narration) to the claim axis; collapse the verified-homed claim summaries (Commission,
-  Anchor-source-of-truth, K, E, I, F) to pointers; the claim→work-item probe-emission wiring; any `archived`
-  dispose-as-dead. *(Judgment-class — verify-before-collapse + un-ratified-claim home/form is the Operator's seat.)*
+- ✅ **Claim-peel DONE (2026-06-26, Operator-disposed via DFD):** the un-homed CANDIDATEs landed on the claim
+  axis as the **no-HITL boundary cluster** (`theory-pipeline.yaml`): `conformance` (GLOSSARY) = the boundary →
+  `disposition-routing-2x2` (classifier) · `KTLO-autonomous-conformance` (automate-side) ·
+  `conformance-line-defense` (catch-side); 2×2-decoupling verified. The six summaries disposed: I kept-live · K →
+  stale work-items (`deferrals.md`) · E elevated (= the Covalent Bond itself) · F drained · Anchor-src/J relocated.
+  Every collapse verify-before-homed (the defense-claim caught 5/6 of a tempting batch-launder).
+- ⏳ **Still open (carried):** claim→work-item probe-emission wiring; `archived` dispose-as-dead stays the Operator's
+  seat (NBA surfaces stale todos — e.g. K — for the call).
+
+**Phase 2 RESULT:** carry-forward **1753→228 lines**; the three-axis model applied end-to-end and the drain
+got used (the live drain-latency falsifier — SURVIVED this session). D3 retro → `relationship-craft.md`.
