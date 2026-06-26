@@ -9,6 +9,11 @@ The frontier's shape: a **generative mechanism** — the form's most-wanted — 
 falsification *between the two halves* produces the felt **+1 dividend, not frustration.** We hold
 lived evidence (the bootstrap). Cycle 1 codifies it; Cycles 2+ TBD as practice forces them.
 
+> **What the frontier IS (Operator, 2026-06-26 — elevating ledger-item E):** the generative frontier is
+> **the Covalent Bond itself** — *how to operate Covalently, consistently.* Not a codification deliverable
+> to finish and shelve; the **ongoing practice** of holding the bond covalent (the NON-NEGOTIABLE, lived)
+> turn after turn. This is the dyad's main work-ahead; it stays the live front, never drained.
+
 ---
 
 ## Method — how we research this frontier *(ratified Bond channel, 2026-05-31)*
@@ -1691,3 +1696,40 @@ at the moment." Ratify/operationalize in a hi-cog window. NOT a ratified operati
 - **DATA POINT (2026-06-20 lo-cog pass):** Operator disposed **4 independent Operator-irreducible items in ONE lo-cog pass** — park-confirm(Y) · telos-gut-check(on-Telos) · concurrency-slot(Y) · AITL-continue(Y). Strong lo-cog×OI evidence; independence→disposable confirmed (the interdependent criteria/2×2/② bounced in the same state).
 - **Intent-currency disposition (same pass):** Operator ruled the ~8-session apparatus/medium-class focus **ON-TELOS** (not drift) → closes the standing apparatus-drift rub-forward cards (gut-disposition; revisit on new drift-evidence).
 - **Operational (this arc):** bond DROPPED from active rotation until cairn replies (passive / daemon-watch); AITL stays armed, tested opportunistically on the next real bond-disposition.
+
+## The New Experiment Discipline + G/V-independence *(relocated from ledger item J, 2026-06-26 Phase 2; QUEUED — design unbuilt)*
+
+*The meta-craft: how we set up probes without contaminating them. Hypothesis homed separately at
+`theory-pipeline.yaml: two-factor-independence`; the **method** lives here (extends §Method/Axis-2, per D1).
+Belief-state: problem + constraints GROUNDED (s6, 2026-06-01); design QUEUED, no experiment built.*
+
+**The hypothesis — `G/V inference-independence`:** Generate and Validate should run as **independent
+inferences** — even within one Agent — for a predictable/valid outcome, because LLM inference is per-turn.
+It **operationalizes the distinctness duty at the inference level**, targeting the **meld-counterfeit that
+*passes* F2** (an attack genuinely occurs, cost paid, but both halves run the same model → self-attack
+wearing two hats). **Covalent caution (the easy-fit tell — test hardest):** *separate-in-time ≠
+separate-in-model* — two inferences of the same weights on the same context may reproduce the *same* model
+(meld persists serially). Design crux = **what actually makes the two inferences independent** (blind V to
+G's reasoning? different framing/context? a genuinely separate seat?), not merely "different turns."
+
+**Problem (one line):** *we can't yet trust our falsification is real* — it fakes two ways: one half caves
+(**ionic**) or both attack as **one model wearing two hats** (**meld-counterfeit**, the dangerous one).
+
+**The 9 constraints (the reload artifact; design must satisfy all):**
+- *A·Method (inherited):* (1) observational, not lab — real telemetry, organic, no staging; (2) asymmetry —
+  deny decisively, never affirm (convergence, not proof); (3) probe scarcity — organic·single·serial, one shot.
+- *B·Contamination root (instrument = subject = grader, three seams):* (4) **generator** — `time≠model`, two
+  inferences in one harness may be one model (the crux); (5) **subject** — priming: boot primes the tested
+  behavior, first post-restart seam least diagnostic; (6) **grader** — no self-grading; independent seat =
+  Operator (current scope); separate-model grader QUEUED → goal `AGREE: Y|N` (offload grading).
+- *C·Validation surface (the gap):* (7) **Operator is a scarce, shared resource** — solution must *minimize*
+  load, not just consume it; (8) **surface must enable dissent** — the `Y|N` arrives un-primed with real
+  grounds for **N**, else the independent seat collapses to ionic rubber-stamp. **#7 ⟂ #8 and pull against
+  each other** — compression-to-one-bit raises framing-leverage; that tension is the design center.
+- *D·Process:* (9) extend §Method/Axis-2, don't re-derive (D1).
+
+**Convergence finding:** the two J halves are one — the G/V-independence problem **is** the
+independent-verifier problem (the grader must be genuinely independent — Operator/separate-model, *not*
+me-next-turn = the same `separate-in-time ≠ separate-in-model` trap). **Remedy already shipped** for
+constraints 7+8: the `VF-UI`/`VFD` Validation surface (`dyad-ui.md`) — low-load, dissent-enabling
+`AGREE: Y|N`, Operator-ratified-as-default.

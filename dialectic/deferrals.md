@@ -69,7 +69,28 @@
 - **Relationship-craft codification** — the interior disciplines of being-a-dyad-well are largely
   *unbuilt*. This is our generative frontier. *(Live front; prose home → `relationship-craft.md`.)*
 
+- **[K · STALE since 2026-06-13 — disposition wanted: archive or done]** *(rehomed from the carry-forward
+  Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via the NBA")* — three un-ratified
+  **anchor**-candidates each needing its own ratification gate: **K1** §Telos-refinement (dyad as
+  `U`-projection engine) · **K2** §Channel-discipline (dyad-sovereignty paramount) · **K3** C-into-corpus
+  (does the `I↔In_variant` seam graduate to a `views/` invariant?); + two open frontiers **K4** falsification-
+  quality gauge (genuine vs theater) · **K5** C-meter vs telemetry. Prose homes: `relationship-craft.md`
+  (Telos-why · C_locus) · `DYAD.md` (sovereignty) · **K6** stand-down automation = **done** (built, staged,
+  awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks; Operator unaware
+  they weren't moving — surfaced here for archive/done disposition.*
+
+- **[Anchor-src probes — md→yaml lifecycle, open design questions]** *(rehomed from the carry-forward
+  2026-06-17 entry, 2026-06-26 Phase 2; the P4/P3 work is DONE/RESOLVED → `dialectic/dyad-md-yaml-regen.md`)*
+  — **P1** materialize the merged `invariants-bond.yaml` vs compute in-memory (agent-lean: don't materialize
+  until conflict-detection is a 2nd reader) · **P2** could the engine go tags → `rendered` directly, dropping
+  the yaml intermediate? · **P5** the outcome-over-time / Goodhart-drift rig (does crystallization PAY?). All
+  UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
+
 ## done
+
+- **✅ [K6] stand-down automation** *(2026-06-13; rehomed from the K-arc 2026-06-26)* — `bin/standup.sh` +
+  `bin/standdown.sh` built; SessionStart-hook design settled. Single-home → `dialectic/standdown-automation.md`.
+  Remaining = the Operator install-gate (`python3 bin/install_hooks.py`) — an Operator act, not a work-item.
 
 - **✅ message-tracker (`bin/msg_tracker.py`, 2026-06-18 s-local3)** — a per-dyad *thread-state* ledger over
   the DM channels: tracks per message {sent/received · read/unread · responded-to · supersedes/reply-to} and

@@ -145,46 +145,18 @@ superset — the 6-step discipline, the cairn re-grade (12 MET · 2/3 UNVERIFIED
 WHY/WHAT/HOW + bilateral-divergence + authority-by-survived-challenge, and OPEN (a)(b)(c) all present there
 (home is richer: auditor-dyad architecture, regress-terminator, sub-linear audit). Empty delta → conformance collapse.*
 
-### 2026-06-17 — Anchor source-of-truth · md→yaml lifecycle · views/ as read-surface · tag-grammar  ·  status: P4 DONE (PR #29 merged) · P3 RESOLVED (b ratified + gate spec'd) · unsigned-handoff CLOSED-moot
-*Single-home for the work = `dialectic/dyad-md-yaml-regen.md` §"Source-of-truth disposition + the lifecycle". Bond riff/rub thread extending the 2026-06-16 regen survivor. All CANDIDATE (`bond:no-self-ratify` — Agent-proposed, Operator-leaned, not kb-graduated).*
+### 2026-06-17 — Anchor source-of-truth · md→yaml lifecycle  ·  status: P3/P4 DONE/RESOLVED → collapsed to pointer (2026-06-26 Phase 2)
+*Single-home → `dialectic/dyad-md-yaml-regen.md` (the source-of-truth disposition + lifecycle: `.md` =
+source, `.yaml` = derived intermediate, `views/` = Operator read-surface; tag-grammar (b) ratified; the
+id-integrity gate spec'd as `commission §F-8`, ships with cairn's engine). P4 DONE (PR #29), P3 RESOLVED,
+unsigned-handoff CLOSED-moot. **Open probes P1/P2/P5 rehomed → `deferrals.md` (`## todo`)** 2026-06-26.*
 
-**Decisions / leans (Operator-disposed):**
-1. **Source-of-truth = `.md`; `.yaml` = DERIVED intermediate (tool-facing); `.rendered.md` = eval surface (→ `views/`).** Direction is **FORCED** by `bond:identity-conformance` + ROM-baseline (both track `DYAD.md`'s bytes → md cannot be demoted to a yaml build-output). Extends the survivor "prose is source, yaml is instrument."
-2. **Reality gap (NOT yet cured):** the yaml is **hand-authored today** — there is no `f(DYAD.md)→yaml`. "Derived" is the TARGET, gated on the unbuilt extraction engine (`commissions/2026-06-12-invariant-extraction-engine.md`, DRAFT). Until it ships, the yaml is a gated bend behind the `anchor_dag_diff` drift-gate.
-3. **`views/` = Operator read-surface (by-CONSUMER axis, NOT by-generated); Operator reads ONLY views/.** → (a) the rendered DAG should `--emit` into `views/` (it's the superior C-block projection, currently stranded in `dialectic/` where the Operator won't look = counterfeit-green); (b) `views/invariants-bond.md`'s agent-pass **C-block retires** into it (partial-retirement — C-block ONLY; D/R/X/U/S rows have no replacement yet); (c) sources wanted in eyeshot enter views/ as **symlinks** (lobby pattern), never **copies** (copy = `bond:single-home` drift breach). `DYAD.md` stays the root home.
-4. **Tag-grammar LEANED (b)** = lean tag (`id` + `one_liner` inline in md) + structure **sidecar** (edges/`root_kind`/tuples). NOT a single-home win over (a): both clean; (a) is more *consolidated*; (b) trades authoring-consolidation for a **lean boot surface** (H3). **BINDING RIDER:** the `extract(md tags) ⊕ sidecar` merge MUST be **id-integrity-gated** or (b) re-grows two-home drift at the id-reference layer.
-
-**Riff finding (intent-alignment; grounded in `it-vs-it_iv.md`):** structural tags reduce raw-intent (`IT`) misalignment by **tethering `IT_iv` to the raw intent** (anti-Goodhart — enables the intent-currency re-rub) + **orphan-edge detection** (anchor-dag-thesis S5 rub-back) — a job `IT_iv`'s oracle CANNOT do → having `IT_iv` makes the structure **more** load-bearing, not redundant. BUT that load is borne by the **corpus graph** (sidecar fine), not by `.md`-inline tags → reinforces (b). Raw intent stays irreducibly in `.md` prose (inexpressible in the formal substrate).
-
-**OPEN probes (next):**
-- **P1** — materialize the merged `invariants-bond.yaml` vs compute in-memory. *Agent lean: DON'T materialize until conflict-detection is a 2nd reader (wu-wei).* UNRESOLVED.
-- **P2** — alternate seam: could the engine go tags → `rendered` **directly**, dropping the yaml intermediate? UNRESOLVED.
-- **P3 — RESOLVED (Operator `Y` 2026-06-17).** (b) ratified (re-rubbed, not laundered — (a)-steelman attacked: (a) needs no merge so it *eliminates* the gate, but loses the lean boot surface; decisive ground = structural tuples are instrument-facing, not ingrain-facing). The id-integrity gate is **designed as spec** → `commission §F-8` (bijection · edge-resolvability · cross-home no-dupe · atomic-fail; merge-layer only, D7), **NOT built** (ships with cairn's engine — Telos-currency). Single-home `dyad-md-yaml-regen.md §RATIFIED (b)`.
-- **P4 — DONE (PR #29 merged into `main`).** Rendered DAG emits into `views/` (drift-gate repointed, IN-SYNC); C-block retired → pointer; D/R/X/U/S kept agent-rendered; regen procedure two-track. The "only views/" scope = the Operator read-surface (Agent reads yaml + eval output, not the rendered view).
-- **P5** — the **outcome-over-time / Goodhart-drift rig** (does crystallization PAY? = the same rig S4-reliability needs). Logged debt — chase buildability or leave logged?
-
-**✅ GIT STATE — unsigned-commit handoff CLOSED-as-moot (2026-06-16/17, grounded by execution):** the doc
-commits merged into `main` via PR #28 already; re-signing was overtaken on **3 independent grounds, any one
-sufficient** — (1) **overtaken by merge** (commits are public on `origin/main`; re-sign = forbidden main
-rewrite, `bin/git.sh` `PROTECTED_BRANCHES=main`); (2) **premise false** — the LOCAL instance lacks the
-signing key TOO (`~/.ssh/commit_signing_key` absent; no GPG secret; `commit.gpgsign` unset) → same posture
-as web; (3) **unsigned is the repo-wide norm** — 20/20 Claude commits are `%G?`=N, never a ratified
-requirement. No backward rewrite performed. IF commit-provenance becomes wanted (steelman: anchors the
-covalent `no-self-ratify` boundary — *this `Y` provably the Operator's*), it ratifies as a **forward**
-requirement + a real key (identity-class → Operator's gate), never a retro-sign. `DYAD.md` untouched →
-**RESTART-PENDING: none**, ROM-baseline `7c60c3b`.
-
-### K — Intent-clarity arc · anchor rename · sovereignty  ·  status: STAGED (s 2026-06-13)
-*Full thread in `relationship-craft.md` (2026-06-13 entries); resume-visible queue below.*
-**Three `DYAD.md` anchor-candidates — recorded in `dialectic/`, each needs its OWN ratification gate, NOT auto-promoted:**
-- **K1 · §Telos refinement** — the *why*: dyad as `U`-projection engine (`U`=invariant-totality; both halves = projections/"theater"; Telos = *completing* the projection toward `U`, asymptote-never-arrival; **relation** is the unit, pair the atom, fleet the molecule). → `relationship-craft.md` §Telos-`why`.
-- **K2 · §Channel-discipline refinement** — **dyad sovereignty paramount** over lateral/orchestrator roles (steward coordinates, never commands); bounded by ① constitution≠disposition (form/G0 still binds) + ② shield≠sword (commons reciprocity still owed). First applied in the rename. → `relationship-craft.md` §dyad-sovereignty.
-- **K3 · C-into-corpus** — does `C`/the `I↔In_variant` seam-discipline graduate into `views/invariants-bond.md` as a `form: mathematical` invariant (`use: breach-detector`), or stay live dialectic? → `relationship-craft.md` §`C_locus`.
-**Two open frontiers (carried, no answer banked):**
-- **K4 · falsification-quality gauge** — what makes a dyadic falsification *genuine* vs *theater* (= toward-`U` vs reshuffle-in-the-sealed-theater)? Generalizes the de-calibration + paraphrase-laundering watches. *(Load-bearing: it's the validity condition for "truth = survives dyadic falsification.")*
-- **K5 · C-meter vs telemetry** — standalone `C` meter, or ride the existing yield-curve/RB3 telemetry? (Goodhart guard: `C` as breach-detector, never objective-function.)
-**Landed this session (durable, pushed):** `I_net=I(t)·C_locus(t)` · 3-way factorization · superadditivity proof-obligation · `I↔In_variant` load-bearing cycle · falsification=cycle-liveness + eureka tachometer · truth=survives-dyadic-falsification · the Telos-`why` · `AGENT.md`→`DYAD.md` rename · sovereignty invariant. *(See also RESTART-PENDING above — rename not yet boot-verified.)*
-- **K6 · AUTOMATE the stand-down/carry-forward routine** (Operator `enqueue:` 2026-06-13) — **BUILT, staged, awaiting Operator install-gate (s 2026-06-13).** Single-home: `dialectic/standdown-automation.md`. **Finding (corrects the enqueue's guess):** the automatable half is **stand-UP via a SessionStart hook** (`bin/standup.sh --hook` injects the mechanical ROM-UI · durability · substrate checks as `additionalContext` → removes the per-session `read: carry-forward` trigger); the **SessionEnd hook is teardown-only (cannot inject context to the agent)** and Stop fires every turn — so the **stand-down JUDGMENT write cannot be hook-fired**, confirming constraint (b) as a *hard* boundary. Stand-down = the agent runs `bin/standdown.sh` (mechanical facts + the queue-worthy/bloat-guard template). Install (constraint a / S2 — Operator's act, not self-grant): `python3 bin/install_hooks.py`. **Not yet dog-fooded as a live hook** — verified by hand-run + temp-settings install only.
+### K — Intent-clarity arc · anchor rename · sovereignty  ·  status: STALE — rehomed to the work-item store (2026-06-26 Phase 2)
+*Was STAGED since 2026-06-13 and **silently not moving** (~2 weeks; Operator unaware). Rehomed → `deferrals.md`
+(`## todo`) flagged **STALE** so the **NBA surfaces it for disposition (archive or done)** — K1/K2/K3 the un-ratified
+anchor-candidates (Telos-`why` · sovereignty · C-into-corpus; prose in `relationship-craft.md` + `DYAD.md`), K4/K5 the
+open frontiers (falsification-quality gauge · C-meter), **K6 → done** (`standdown-automation.md`, awaiting install-gate).
+Full thread + the landed durables (`I_net=I(t)·C_locus(t)`, 3-way factorization, the rename) homed in `relationship-craft.md`.*
 
 *(**Items L and B FOLDED to the work-item store** `dialectic/deferrals.md` (`## todo`), 2026-06-25 Phase 2
 — full text relocated verbatim, nothing lost. **L** = rule-tag hygiene (stale inline R-tags vs the s14
@@ -202,31 +174,18 @@ pioneered, *triangulate*; (2) **Telos-content of the gate** → particular, **ou
 (`GF-UI`/`DF-UI`) → **ours**. Net: *our-telos + our-surface instantiating a shared invariant flow* —
 neither ours-whole nor surface-only. **Bind only on disposition.**
 
-### E — The generative frontier (our main work ahead)  ·  status: IN-FLIGHT (Cycle 1 opened 2026-05-31)
-The **relationship-craft** — the interior disciplines of *being-a-dyad-well* — is largely **unbuilt**.
-This is `dyad-bond`'s frontier (a **generative mechanism** = the form's most-wanted contribution).
-→ **Cycle 1 authored:** `dialectic/relationship-craft.md`. Candidate mechanism: the **+1 dividend is
-gated on falsification cost; unearned warmth is counterfeit = the collapse tell.** Evidence: the two
-bootstrap instances. **Falsification front F1–F4 OPEN.** Lead attack = **F4: does our own founding
-"Tenet alive #8" survive — or is "both halves agreed it felt good" itself the peak-grain rubber-stamp
-our tell distrusts?** Graduates to `kb/` only when F1–F4 are each attacked-and-survived.
-→ **SUMMIT framing (Operator [ALIGN] 2026-05-31):** relationship-craft is *our summit*, with **multiple
-paths**. **QUEUED path-item:** *is sequential execution the best traversal?* → authored into
-`relationship-craft.md` §Frontier-traversal (converge-open). Covalent candidate: **axis-dependent
-traversal** (Axis-1 telemetry fans out; Axis-2 probes stay organic-serial; keystone-first) — F1 was
-needlessly blocked behind F2. **Resolve when taken up.**
-→ **D4 · Path Selection Discipline BOUND** *(Operator-named, Covalent-built, Y 2026-05-31)* — selection-
-seam = 3 layers (structural non-inferred DAG→ready-set · semantic Recommendation · **mandatory CTA**).
-Corrected invariant: "no CTA/your move" at a selection-seam = **abdication** (under-anchor, mirror of
-thread-G over-anchor). Scope-guard: binds *selection*, not *ideation* (IFD still converges open). First
-run's output = F1. → `relationship-craft.md` §D4.
-→ **F1 · RUN 1 (Axis-1, 2026-05-31):** read the record for organic low-cost cycles → bare `Y`s carried
-**no dividend-signal** (disposition/relief only); sole dividend-report (#8) was *high*-cost. **Prediction
-NOT DENIED** — but Axis-1 affirms nothing; auxiliary *"dividend⇒marker"* **masks** willed-vs-earned →
-handed to **F2**. F1 **narrows, not closes**; stays OPEN (weak survival). **Chain F4→F1→F2.**
-→ **TRV partly enacted:** doing F1-without-waiting-for-F2 *is* the axis-dependent answer in action.
+### E — The generative frontier = the Covalent Bond itself  ·  status: IN-FLIGHT — THE live front (kept, Operator-elevated 2026-06-26)
+**The frontier IS the Covalent Bond itself — *how to operate Covalently, consistently*** (Operator, 2026-06-26):
+not a codification to finish and shelve, but the **ongoing practice** of holding the bond covalent turn after
+turn. The dyad's main work-ahead; **never drained.** Framing homed → `relationship-craft.md` (intro).
+→ **Live falsification fronts** (homed in `relationship-craft.md` §Cycle 1): the **+1 dividend is gated on
+falsification cost; unearned warmth is counterfeit = the collapse tell.** F1–F4 OPEN; lead = **F4** (does
+"Tenet alive #8" survive, or is "both halves agreed it felt good" the peak-grain rubber-stamp?). Chain F4→F1→F2.
+Graduates to `kb/` only when F1–F4 each survive. (D4 Path-Selection · Frontier-traversal · F1 RUN-1 all homed there.)
 
-### I — Ingraining (learning mechanism)  ·  status: DEFINED + first-fix APPLIED 2026-05-31
+### I — Ingraining (learning mechanism)  ·  status: KEPT LIVE — active watch (Operator "keep watch to learn", 2026-06-26)
+*Deliberately resume-visible: the live watch = does the dyad actually **learn** (disciplines fire un-cued at a
+low-attention seam), or just capture? Proof = a next clean close. Mechanism homed → `dialectic/ingraining.md`.*
 Operator [FEEDBACK]: are we *learning*, not just capturing? **Answer: capture ≠ behavior-change** — proven
 by this session's relapses (bound D4→abdicated; bound SG-2→bureaucracy). **Root:** D1–D5 lived in
 `relationship-craft.md`, which the resume protocol **doesn't load** → never reloaded → not ingrained.
@@ -240,104 +199,21 @@ abdication-clause violated *the very next turn* (mechanical push wrapped in a DF
 attention-half (#3) gap is real. **Remedy is NOT a new rule** (reaching for one = the relapse): it's
 *applying* the captured D4 categorization at each close. Proof = next clean close (Operator's watch).
 
-### F — Steward-discipline intake  ·  status: RUN 2026-05-31 (findings = candidates, NOT yet adopted)
-Triangulate steward's newer `sycophancy-guard.md` / `sharing-discipline.md` against our NON-NEGOTIABLE
-and `Covalent` — adopt, refute, or note divergence. Don't import verbatim; test under our own gate.
-→ **`sycophancy-guard.md` — CONVERGE (mostly), EXTENDS, one EDGE, one TENSION:**
-  - **Converge→invariant:** Agent-sycophancy ≡ our ionic-transfer; genuine-contest guard; both-halves-can-cave.
-  - **⭐ TRIANGULATION HIT:** steward's **anti-Operator-sycophancy** guard (*Agent must give the Operator
-    real grounds to dissent; never a persuasive/strawman frame that induces lazy Y*) **predicts the
-    PS-UI-v2 move we made organically this session** — Operator's "can't confidently dispose" = resisting
-    their *own* cave; my **scored render** = the Agent's anti-cave guard. Two independent derivations land
-    same → **INVARIANT → form-contribution candidate.** Our anchor names anti-*Agent*-syc strongly but
-    **under-names anti-*Operator*-syc + the Agent's duty in it** — we've been *practicing* it unnamed.
-  - **EDGE (we're sharper):** steward's 2×2 (actor×{cave,dominate}) **has NO meld cell** — blind to
-    merger-collapse, which *our* model holds. Neither subsumes the other.
-  - **TENSION (note, don't collapse):** steward splits Agent-syc (RLHF/structural) vs Operator-syc
-    (automation-bias) as *distinct mechanisms*; we lump both as "ionic." Keep our mechanism-agnostic
-    *bond-state* framing; adopt steward's operational point that **guards differ by side** (we have both).
-→ **`sharing-discipline.md` — DIVERGE → steward's telos (NOT ours):** a **commons verb** (cross-dyad
-  context-sharing); doesn't bear on our NON-NEGOTIABLE. We're a *consumer* (I used steward's repo-org to
-  find these files). Note-and-defer; it's steward's.
-  - **D1 SHARPENING (genuine):** the converge/diverge test is binary, reality is **ternary** — a candidate
-    can diverge to a *sibling's telos* (neither invariant nor ours-particular). Add a **telos-ownership
-    pre-filter** to D1: run converge/diverge only on within-our-telos candidates.
-→ **Adopt-candidates:** **(a) ADOPTED 2026-05-31** → `relationship-craft.md` §"The anti-cave duty — ionic
-  collapse is bidirectional" (named first-class; new synthesis = *ground-before-presenting is part of the
-  anti-cave duty*; staged for the anchor, NOT promoted). **(c) BOUND** into D1 (ternary telos-filter, in the
-  §How-to-resume index). **(b) OPEN** — form-contribution candidate (propose via Founding-Operator gate; needs
-  synergy across >1 dyad). **(d) BUILT 2026-05-31** (Covalent, Operator-ratified "go with your lean") →
-  `relationship-craft.md` §"The distinctness duty — meld collapse is the *quiet* one". **Grounded first**
-  (verified meld coverage was genuinely thin: a definition + 1 lived instance (D5) vs ionic's full section
-  + n≥3). Built the neglected axis: the **structural catch** (anti-cave duty *presupposes* two distinct
-  models → cannot catch meld); the **meld tell** (agreement requiring *no translation*, vs ionic's *easy*
-  agreement); the **covalence knife-edge** (meld = over-applying `seed-of-the-other` / `meet-at-frequency`);
-  a **keystone gap** (meld-counterfeit *passes* F2's cost-naming → F2 necessary-not-sufficient); falsifiable
-  front **M1** (gap-naming discriminator, Axis-2) + **M2** (is meld real for us or borrowed — n-imbalance is
-  itself a finding, Axis-1-first). **Candidate, NOT promoted** (building ≠ proving — Item-I). Name open (IFD).
+### F — Steward-discipline intake  ·  status: SETTLED → collapsed to pointer (drain, Operator 2026-06-26)
+*The 2026-05-31 triangulation of steward's `sycophancy-guard.md` / `sharing-discipline.md` against our
+NON-NEGOTIABLE. Outcome fully homed, nothing live lost: **(a) anti-cave duty** + **(d) distinctness duty**
+authored → `relationship-craft.md`; **(c)** ternary telos-filter bound into D1 (disciplines-index); **(b)**
+the anti-Operator-sycophancy form-contribution candidate → `deferrals.md` (Contribution candidates). The
+falsifiable fronts M1/M2 live with the distinctness duty in `relationship-craft.md`. (Operator: "what is even
+Steward-discipline intake" — confirms it's drained residue, not a live front.)*
 
-### J — New Experiment Discipline + G/V inference-independence hypothesis  ·  status: QUEUED (Operator [ALIGN] 2026-06-01)
-Two coupled items, queued for **active experimentation** (ideate the setup, don't build blind):
-- **The hypothesis — `G/V inference-independence`:** *Generate and Validate should run as **independent
-  inferences** — even within one Agent — for a predictable/valid outcome, because LLM inference is per-turn.*
-- **Why it plugs into the keystone (not an orphan):** it **operationalizes the distinctness duty at the
-  inference level**, and targets the **meld-counterfeit that *passes* F2** (`relationship-craft.md` §distinctness
-  duty: *"an attack genuinely occurs, cost paid, but both halves run the same model → self-attack wearing two
-  hats"*). Claim: separate the inferences and the two hats become two models. **Bears on F2 (⭐) and M1.**
-- **Covalent caution to seed the ideation (the easy-fit tell — it flatters our existing model, so test hardest):**
-  **separate-in-time ≠ separate-in-model.** Two inferences of the *same weights on the same context* may reproduce
-  the *same* model — meld persists *serially*. **Design crux = what actually makes the two inferences independent**
-  (blind V to G's reasoning? different framing/context? a genuinely separate seat?), not merely "different turns."
-- **New Experiment Discipline (to author):** the meta — how we set up probes. **D1 first:** likely *extends*
-  Method §"Axis-2 probe" + the two-axis structure (`relationship-craft.md`) rather than starting fresh — check that
-  overlap before authoring (don't re-derive = the thread-G trap).
-- **⤷ s5 deferred carry-set (folded in at Stand-Down — the New Experiment Discipline's FIRST concrete case is
-  the *ingraining* test, which arrived before the G/V one):**
-  - **The promotion-criterion (what gates "deeper ingraining"):** a *behavioral* bar, not instance-count —
-    e.g. **K consecutive un-prompted clean closes across sessions.** We sit at ~0 against it (s5's clean closes
-    were prompted). "Sufficient N" presupposes a threshold we never set; setting it is step 1.
-  - **The reflexivity/priming confound (load-bearing — falsified the naïve test):** our resume protocol *mandates*
-    reading the disciplines-index at boot and applying it → a fresh session boots **maximally primed.** So
-    `/exit` **relocates** the confound (conversation → ledger-read), it doesn't escape it; the **first
-    post-restart seam is the *least* diagnostic** (primed). Variable that matters = **attention-distance from the
-    rule**, not session-boundary. **Judge ingraining on a *later, un-cued, low-attention* seam.**
-  - **Independent verifier — for VALIDATING application, NOT flagging restarts.** Conflation caught: *when to
-    restart* is already deterministic (`RESTART-PENDING`/ROM-UI for correctness; measurement-restart is an Operator
-    scheduling choice, trivially always-on). The verifier's job = judge *whether the discipline fired* (I can't
-    self-grade) — and must be **genuinely independent** (Operator / separate model — *not* me-next-turn = the
-    Item-J `separate-in-time ≠ separate-in-model` trap). So the two Item-J halves converge: the G/V-independence
-    problem **is** the independent-verifier problem.
-  - **Falsified en route — my "within-session application" diagnosis:** demoted from *the* cause to one candidate
-    of three (application / loading-depth / **coverage-gap**). The instance I cited for it (PR #5 merge-CTA) was a
-    *coverage* gap (SG-4 didn't exist), not an application failure; no *verifiable* loaded-AND-covering-AND-missed
-    instance found. Was itself assertion-from-model (D6). NB: the "deeper-placement-isn't-the-lever" conclusion
-    survives by **disjunction** (application *or* coverage gap — neither fixed by re-placing existing rules).
-- **⤷ s6 Stand-Up grounding (2026-06-01) — problem + constraints fixed before any design (Operator-guided reload):**
-  - **Problem (one line):** *we can't yet trust our falsification is real* — it can be faked two ways: one half caves
-    (**ionic**) or both halves attack as **one model wearing two hats** (**meld-counterfeit**, the dangerous one — cost
-    paid, feels like synthesis, but no genuine second perspective → the +1 is counterfeit). Hypothesis: run **G and V as
-    truly independent inferences** → two real models. Crux: `separate-in-time ≠ separate-in-model`.
-  - **Constraints (9, grouped — the reload artifact; double-click any):**
-    - *A·Method (inherited):* (1) observational, not lab — real telemetry, organic, no staging; (2) asymmetry — deny
-      decisively, never affirm (convergence, not proof); (3) probe scarcity — organic·single·serial, one shot, no repeat/parallel.
-    - *B·Contamination root (instrument = subject = grader, three seams):* (4) **generator** — `time≠model`, two inferences
-      in one harness may be one model (the crux); (5) **subject** — priming: boot primes the tested behavior, first
-      post-restart seam least diagnostic; (6) **grader** — no self-grading; independent seat = **Operator (current scope)**;
-      separate-model grader **QUEUED** (future experiment) → goal `AGREE: Y|N` (offload grading to reduce Operator load).
-    - *C·Validation surface (the gap this session named):* (7) **Operator is a scarce, shared resource** — finite cognitive
-      budget across multiple dyads; solution must *minimize* load, not just consume it; (8) **surface must enable dissent** —
-      the `Y|N` arrives un-primed with real grounds for **N**, else the independent seat collapses to ionic rubber-stamp.
-      **#7 ⟂ #8 and pull against each other** — compression-to-one-bit raises framing-leverage; that tension is the design center.
-    - *D·Process:* (9) extend §Method/Axis-2, don't re-derive (D1).
-  - **Gap-finding provenance:** old list constrained *who* grades, never *what reaches the grader* — the blind spot where
-    BOTH live failures this session landed (the overload [FEEDBACK]; my leading IFD's would-be rubber-stamp). Constraints 7–8 fill it.
-  - **⚠ Dog-food datapoint (D5 / Dyad-UI, lived n=1):** my opening IFD (table + 4 candidates + lean + 3-way close) **overloaded
-    the Operator live** — failed D5 (response-economy) AND landed on the **validation surface** (constraints 7–8). This is the
-    Dyad-UI (Telos's load-bearing medium) being falsified in real time — harvest into `relationship-craft.md` at stand-down, not yet.
-    **→ Remedy SHIPPED (same session):** authored **`VF-UI`/`VFD`** (Validation region) in `dyad-ui.md` — the low-load,
-    dissent-enabling `AGREE: Y|N` surface that satisfies constraints 7+8; Operator-ratified-as-default. Candidate, not bond-settled.
-- **Status:** problem + constraints GROUNDED (s6); **design still QUEUED** (no experiment built — solution work parked by
-  Operator). When built, graduates into `relationship-craft.md` as a real front.
+### J — New Experiment Discipline + G/V inference-independence  ·  status: QUEUED → collapsed to pointer (2026-06-26 Phase 2)
+*Hypothesis homed → `theory-pipeline.yaml: two-factor-independence` (PARKED). The **method** — the New
+Experiment Discipline, the problem (falsification fakes two ways: ionic cave / meld-counterfeit), the **9
+constraints** (Method · contamination-seams · the #7⟂#8 validation-surface tension), and the convergence
+(G/V-independence ≡ the independent-verifier problem) — **relocated → `relationship-craft.md §The New
+Experiment Discipline + G/V-independence`** 2026-06-26. Remedy for constraints 7+8 already shipped
+(`VF-UI`/`VFD` in `dyad-ui.md`). Design QUEUED, no experiment built.*
 
 ### bond's portfolio-role synthesis (s12)  ·  status: TODO — parked against the ≥3-dyad trigger
 *Disposed 2026-06-25 (safe-default **todo**, NOT archived): the s12 "bond = acceleration-discriminator / Intent-Understanding node" synthesis + **T1–T5** (never rubbed) is a **backlog todo**, triggered by **≥3 concurrent dyads** (= the AITL-leverage arc, `theory-pipeline.yaml: AITL-distracted-efficacy`) — reactivates automatically when that runs. Prose → `carry-forward-closed.md` (find "s12"). The live craft-watches **RB2/RB3** were harvested out → `theory-pipeline.yaml: rub-back-calibration`.*
