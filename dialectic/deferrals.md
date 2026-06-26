@@ -14,25 +14,17 @@
 
 ## in-progress
 
-- **Memory-axes restructure (the carry-forward re-key)** — Phase 1 landed (`carry-forward` ~89k→~20k tok);
-  Phase 2 underway (work-item fold + `standup.sh` per-file compare DONE; claim-peel of the un-homed
-  CANDIDATEs pending the Operator gate). Single-home → `dialectic/memory-axes.md`.
-  *Live falsifier: drain-latency — does this drain get used at stand-down, or does the backlog re-accrete?*
+— none active —
 
 ## todo
 
-- **[L] Rule-tag hygiene: stale inline R-tags collide with the ratified s14 index** *(relocated from the
-  carry-forward Open-items, 2026-06-25 Phase 2 fold)* — The canonical invariant index is
-  `views/invariants-bond.md` (ratified **s14**, 2026-06-11): **D1–D12 · R1–R6 · X1–X3 · U1–U3 · S1–S3** —
-  R/RB are **not** un-indexed (a prior-session partial-grep claimed so; search artifact, refuted by reading
-  `views/`). **Real defect:** older *inline* ledger tags reuse R-numbers with pre-s14 meanings that now
-  collide with the ratified set — caught live: **`R3` reads "Theory≠Prediction" in the 2026-05-31 NBA but
-  ratified `R3` = Stand-down 3-check ritual.** This collision produced a mis-grounding in the 2026-06-13
-  rub-back chain. **Fix (deferred, lean, D2-bounded):** when next editing those files, retire or footnote
-  the pre-s14 inline tags as historical; do **NOT** renumber the ratified table (it is the single home).
-  Low-urgency corpus-integrity. *(prov: rub-back `RB?` → `R1/R4` read, 2026-06-13.)*
+- **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
+  migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
+  `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Wearing the
+  **Steward-Operator hat**, notify siblings that may cite "bond's X#"; keep the `X#` as a *published display
+  alias* so existing cross-dyad references still resolve. → `dialectic/nomenclature-migration-plan.md`.
 
-- **[B] Cross-dyad custody deprecation** *(relocated from the carry-forward Open-items, 2026-06-25 Phase 2
+- **Cross-dyad custody deprecation** *(relocated from the carry-forward Open-items, 2026-06-25 Phase 2
   fold; chase via the Steward-Operator hat)* — The 7 Dyad-UI cluster assets were received from
   `dyad-steward@31d53c0` (receipt `03550dc`, shed `f5480eb`). The Bond Operator will, wearing the **Steward
   Operator** hat, have `dyad-steward` mark those 7 paths **transferred → dyad-bond + deprecated**.
@@ -69,17 +61,17 @@
 - **Relationship-craft codification** — the interior disciplines of being-a-dyad-well are largely
   *unbuilt*. This is our generative frontier. *(Live front; prose home → `relationship-craft.md`.)*
 
-- **[K · STALE since 2026-06-13 — disposition wanted: archive or done]** *(rehomed from the carry-forward
-  Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via the NBA")* — three un-ratified
-  **anchor**-candidates each needing its own ratification gate: **K1** §Telos-refinement (dyad as
-  `U`-projection engine) · **K2** §Channel-discipline (dyad-sovereignty paramount) · **K3** C-into-corpus
-  (does the `I↔In_variant` seam graduate to a `views/` invariant?); + two open frontiers **K4** falsification-
-  quality gauge (genuine vs theater) · **K5** C-meter vs telemetry. Prose homes: `relationship-craft.md`
-  (Telos-why · C_locus) · `DYAD.md` (sovereignty) · **K6** stand-down automation = **done** (built, staged,
-  awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks; Operator unaware
-  they weren't moving — surfaced here for archive/done disposition.*
+- **Intent-clarity arc — anchor-candidates [STALE since 2026-06-13 — disposition wanted: archive or done]**
+  *(rehomed from the carry-forward Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via
+  the NBA")* — three un-ratified **anchor**-candidates each needing its own ratification gate:
+  **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline** (dyad-sovereignty paramount) ·
+  **C-into-corpus** (does the `I↔In_variant` seam graduate to a `views/` invariant?); + two open frontiers —
+  **falsification-quality gauge** (genuine vs theater) · **C-meter vs telemetry**. Prose homes:
+  `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty). **stand-down automation = done**
+  (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks;
+  Operator unaware they weren't moving — surfaced here for archive/done disposition.*
 
-- **[Anchor-src probes — md→yaml lifecycle, open design questions]** *(rehomed from the carry-forward
+- **Anchor-src probes — md→yaml lifecycle, open design questions** *(rehomed from the carry-forward
   2026-06-17 entry, 2026-06-26 Phase 2; the P4/P3 work is DONE/RESOLVED → `dialectic/dyad-md-yaml-regen.md`)*
   — **P1** materialize the merged `invariants-bond.yaml` vs compute in-memory (agent-lean: don't materialize
   until conflict-detection is a 2nd reader) · **P2** could the engine go tags → `rendered` directly, dropping
@@ -88,7 +80,23 @@
 
 ## done
 
-- **✅ [K6] stand-down automation** *(2026-06-13; rehomed from the K-arc 2026-06-26)* — `bin/standup.sh` +
+- **✅ Rule-tag hygiene — DISSOLVED by slug-canonical** *(2026-06-26; was a todo)* — the defect was inline
+  pre-s14 R-number tags colliding with the ratified R-numbers (e.g. `R3` = two meanings). The
+  nomenclature migration retired numbers from *identity* → there is no authoritative `R3` to collide with
+  (it is `bond:standdown-ritual`); the collision **vector** is gone. Residual = orphaned inline number-tokens
+  in old prose, now harmless historical noise → retire-on-touch, not a live defect. → `nomenclature-migration-plan.md`.
+
+- **✅ Memory-axes restructure (the carry-forward re-key)** *(Phase 2 COMPLETE 2026-06-26; PRs #50/#51
+  merged, stand-down `72abbf8`)* — Phase 1 (`carry-forward` ~89k→~20k tok) + Phase 2 (per-file ROM compare ·
+  work-item store + L/B fold · claim-peel of the un-homed CANDIDATEs landed: KTLO · conformance-line-defense ·
+  2×2 peeled · 2×2-decoupling verified · remaining six disposed). Single-home → `dialectic/memory-axes.md`.
+  *Drain-latency falsifier — **DATA POINT**: the drain WAS used (carry-forward 1753→228 lines) but ran
+  INCOMPLETE — this entry was left `in-progress`/"underway" one commit (`51aa907`) past the `72abbf8` COMPLETE
+  stand-down, then reconciled at the next resume. Verdict: the backlog partially re-accretes at the
+  work-item-status seam → stand-down must reconcile BOTH memory files (carry-forward + deferrals), not just
+  carry-forward. (Resume caught it un-cued = an ingraining-watch hit.)*
+
+- **✅ stand-down automation** *(2026-06-13; rehomed from the Intent-clarity arc 2026-06-26)* — `bin/standup.sh` +
   `bin/standdown.sh` built; SessionStart-hook design settled. Single-home → `dialectic/standdown-automation.md`.
   Remaining = the Operator install-gate (`python3 bin/install_hooks.py`) — an Operator act, not a work-item.
 
