@@ -97,7 +97,7 @@ invariants:
 
   - id: "bond:falsifiability"
     locus: g0             # already form-G0 (status: inherited) — the conserved case; now stated at full generality
-    home: "DYAD.md#Falsifiability"
+    home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "Anything holds a place in the shared model — a candidate at entry, a ratified claim, the tenet, even C1 — only by currently surviving genuine falsification, earned and never asserted."
     status: inherited
     form: tuple
@@ -112,7 +112,7 @@ invariants:
 
   - id: "bond:no-dogma"
     locus: g0
-    home: "DYAD.md#Falsifiability"
+    home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift."
     status: ratified
     form: tuple
@@ -127,7 +127,7 @@ invariants:
 
   - id: "bond:wu-wei"
     locus: g0             # already form-G0 (status: inherited)
-    home: "DYAD.md#Falsifiability"
+    home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei)."
     status: inherited
     form: slogan
