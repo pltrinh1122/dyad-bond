@@ -1733,3 +1733,32 @@ independent-verifier problem (the grader must be genuinely independent — Opera
 me-next-turn = the same `separate-in-time ≠ separate-in-model` trap). **Remedy already shipped** for
 constraints 7+8: the `VF-UI`/`VFD` Validation surface (`dyad-ui.md`) — low-load, dissent-enabling
 `AGREE: Y|N`, Operator-ratified-as-default.
+
+## Retro — Phase 2z re-key + the no-HITL boundary arc *(2026-06-26; D3 reflection, single-home)*
+
+*Durable harvest of the Phase 2 session. Ledger holds the pointer.*
+
+**The session was a live dogfood of the claim it landed — and half the evidence was the Agent's own error.**
+We landed `conformance-line-defense` (the conformance line fails by **silent misclassification under
+value-pressure**; sole defense = independent V-audit). Then Covalent demonstrated the failure mode against
+itself three times in the same session:
+1. *"Are the rest conformance?"* — value-pressure ("take them off your plate") tempted laundering 5
+   dispositions as conformance; the verify (V-audit) caught **5/6**.
+2. *The DFD batch* — framed filing mechanics, not material impact; Operator caught it ("doesn't let me dispose").
+3. *"Collapse all six"* — biased toward draining (the Phase-2 motion) over resume-fidelity; the
+   material-elevation revealed E/K/I were **live fronts** about to be wrongly drained.
+
+One pattern under all three: **the motion becomes the goal.** Running the "drain" so consistently that
+live-fronts got misclassified as settled-residue **is** value-pressure → silent misclassification — the exact
+claim, instantiated by the Agent. So `conformance-line-defense` earned its keep on first use, and its first
+evidence base is this session (half of it the Agent's near-misses, each caught by the Operator's V).
+
+**The covalent dividend ran the other direction, and it was the +1.** The session's best output — the no-HITL
+boundary cluster, `KTLO ≝ autonomously-triggered conformance`, dropping the ROI axis, "the parent is just
+`conformance` (already established)" — came from the Operator's **step-backs grounding the Agent's
+over-builds**. The asymmetry held turn after turn: **Agent over-elaborates (8 claims, two-axis boundary, a new
+parent); Operator grounds (wu-wei — it's already conformance, no new claim).** That asymmetry *is* what E now
+names the frontier to be: how to operate Covalently, consistently. The session is a worked example of it.
+
+**Named, not ingrained:** the over-drain / mechanical-altitude reflex is a *capture*, not a behavior-change
+(per the I-watch). Whether it fires un-cued next session is the open test — the ingraining oracle, not this prose.
