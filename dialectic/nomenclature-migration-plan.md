@@ -1,9 +1,11 @@
 # Nomenclature migration plan — slug-canonical governed index
 
-> **Status: DRAFT for Operator disposition** (drafted 2026-06-26, resume session). Proposes retiring the
-> ad-hoc `D/R/X/U/S`+number IDs in favour of the `bond:<slug>` scheme the schema + machine shadow already
-> use. Not executed — awaits your gate. Single-home for this proposal until disposed; folds into the
-> work-item store on a Y.
+> **Status: PRINCIPLE RATIFIED (Operator Y 2026-06-26, resume session) — execution gated.** Slug-canonical
+> adopted: `bond:<slug>` is the single identity; `D/R/X/U/S`+number retire to a display/citation alias.
+> **Tier 1 execution is BLOCKED on two Operator judgments** (must not be Agent-self-ratified): (1) the rub of
+> the weak slugs in the alias map below; (2) the `claim:`-namespace call. The clean slugs + the mechanical
+> rewrite proceed on a Y to those. Single-home for this proposal until disposed; folds into the work-item
+> store on completion.
 
 ## The disposition ask (TL;DR)
 **Make `bond:<slug>` the single canonical ID for the whole governed corpus; demote `D/R/X/U/S`+number to a
