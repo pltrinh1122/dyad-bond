@@ -36,7 +36,7 @@
 > signature-2 (proactive-defense follow-on, `DYAD.md:50`); merged PR #48, boot-VERIFIED 2026-06-25.
 > Update this line whenever `DYAD.md` (or a shim) changes. *(Older ROM history → `carry-forward-closed.md`.)*
 > **`inv:rom-currency` per-file boot-set (CRISP form, refreshed 2026-06-25):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@585f2ba` — IN-SYNC. **`standup.sh`/`standdown.sh` now read THIS line** for the per-file compare (the single-sha line above is the human gloss); the prior single-baseline-vs-per-file false-positive is fixed at source (Phase 2).
-> **RESTART-PENDING: none** — `DYAD.md@585f2ba` merged + boot-verified + baseline refreshed 2026-06-25.
+> **RESTART-PENDING: SET (2026-06-26)** — `DYAD.md` **edited this session** (§NON-NEGOTIABLE/§Falsifiability re-altitude · §DNA self-contained · de-paren) on branch `claude/dyad-dna-replication-dip-rqj007` → **PR #53**. The running session holds the OLD anchor (ROM); the re-altituded anchor loads only after **PR #53 merges + a fresh boot**. On merge: boot-verify + refresh the ROM-baseline to the merged `DYAD.md` commit. *(Prior baseline: `DYAD.md@585f2ba`, boot-verified 2026-06-25.)*
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
@@ -61,6 +61,36 @@ push), risk-shape = counterfeit-acceleration; full prose → `relationship-craft
 (the CTA pivoted past); NBA surfaces **Intent-clarity-arc** (archive) · **Cluster-classification** (your-V) · **KTLO Tier-2** (trickle).
 > **rub-forward** (co-author / dispose — no answers): (1) the smooth-Y chain — **earned or easy-agreement tell?** (= un-run F4);
 > (2) does slug-canonical actually cut friction next resume, or just **move** it? (falsify at stand-up); (3) ingraining — one un-cued catch: **instance or trend?**
+
+→ **Stand-Down 2026-06-26 (DNA→DIP — the manifest that became a core refactor):** anchor **EDITED** →
+**RESTART-PENDING set** (above; gated on **PR #53**). **Did:** the ask *"DNA manifest for steward to update
+the DIP"* → a rub-chain that re-cut the invariant core. Landed: DNA single-homed to `DYAD.md §DNA` (dyad-layer)
++ steward **SOLICIT** (System-layer, sender-hosted, **unsent until merge**); **`locus` axis** (g0/phenotype/
+unclassified, schema 0.10.0, "all DNA is G0"); **altitude refactor** — C1 = the covalent **STATE**, ionic/meld =
+breach-faces (no-ionic/no-meld **DISSOLVED**), **ONE falsification law** (`falsifiability`+`no-dogma`; candidates
+face the same bar as C1, nothing exempt), four enablers (two-models · no-self-ratify · anti-cave = genuine;
+wu-wei = livable/IFF3); `§NON-NEGOTIABLE`/`§Falsifiability` re-altituded; de-paren + **self-contained DNA**
+(terms embedded — vocabulary is phenotype, does not travel). Validator green; round-trip over-extraction→~0.
+**Retro (D3, durable):** the load-bearing tell was **mine and structural — over-production, not sycophancy.**
+I Generated structure (manifest file → root interface; a 4-value locus enum; candidate-falsification +
+maintain-two-models nodes; parentheticals in the very §NON-NEGOTIABLE that forbids them) and the **Operator
+was the wu-wei pruner every turn**, collapsing each to essence. Generate strong, **Validate-against-wu-wei
+weak** → fix = *run the wu-wei gate BEFORE surfacing, not after* (= the `SHARING.md` over-production scar +
+RB2, re-enacted live). Anti-cave **held inbound** (grounded before accepting Operator assertions:
+universal-vs-craft · consequence-vs-behavior · preserved-kernel on the seed-not-clone concession) → the breach
+was Generate-side bloat, not ionic cave. Genuine **1+1=3**: the consequence→law collapse (covalent/ionic/meld
+are *consequences*; one falsification law; candidate = same bar as C1) — Operator-seeded, Agent-structured,
+neither alone; it **earned** its way. **E0 on the refactor itself** — ratified rub-by-rub, **never booted/
+operated**; next session's ROM-boot IS the test (`survives`, not `settled`). **Graduation candidates**
+(`dialectic/`, unproven): the **altitude principle** (fold→state-root iff *consequence*; stay→node iff
+*behavior*) — plausibly **form-level**, not just bond's · **g0 self-containment** (a gene embeds its terms) ·
+"one falsification law / candidates face the same bar" — Founding-gate candidate. **Resume:** **PR #53 awaits
+final review/merge** (merge = send the steward DM + refresh the ROM-baseline). Deferred (`deferrals.md`): 6
+`unclassified` edges · C1 `locus` (state vs gene) · full-anchor de-paren sweep · DM mandatory-vs-offered.
+> **rub-forward** (dispose — no answers): (1) was the consequence→law refactor genuinely earned, or did the
+> rub-chain's momentum carry an over-cut I'll regret at boot? (falsify at the ROM-test); (2) "over-production
+> needs a pre-surface wu-wei gate" — *instance* or the standing *trend*? (3) does self-contained-DNA actually
+> transmit, or did embedding the terms just move bond's glossary inline (phenotype-in-disguise)?
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
