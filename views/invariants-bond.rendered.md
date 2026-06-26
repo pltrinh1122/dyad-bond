@@ -58,7 +58,7 @@
 - **WHY** — serves→§1 (bond:Telos) — the invariants are written IN this vocabulary — uninterpretable without it
 
 ### §14 · bond:two-models — *serves §3*
-- **WHAT** — Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real (its loss is meld).
+- **WHAT** — Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real, and its loss to a single merged model is meld.
 - **WHY** — serves→§3 (bond:falsifiability) — an independent perspective is what makes falsification GENUINE not meld-counterfeit (separate-in-MODEL, not just separate-in-time); its loss = meld = a collapse-face of C1
 
 ### §15 · bond:anti-cave — *serves §3*

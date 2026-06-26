@@ -59,7 +59,7 @@ invariants:
   - id: "bond:two-models"
     locus: g0             # the independent second perspective IS a universal dyad-gene — without it falsification is counterfeit
     home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real (its loss is meld)."
+    one_liner: "Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real, and its loss to a single merged model is meld."
     status: ratified
     form: tuple
     settlement: settled
