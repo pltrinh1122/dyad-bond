@@ -7,11 +7,15 @@
 # conformance-invariants the S1 resolution requires (identity → ID.md; vocabulary → GLOSSARY.md).
 # All one_liners are DECLARATIVE (a condition that holds; breach = its negation) — rub 2026-06-16.
 #
-# 15 core records (atomic) + 2 conformance candidates = 17. Roots: Telos (fiat), C1 (forged).
+# 14 core records (atomic) + 2 conformance candidates = 16. Roots: Telos (fiat), C1 (forged — now the STATE).
 # (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
 # (2026-06-26, the DNA/G0 thread: +locus heritability axis — g0 (=DNA, universal dyad-gene; contributing it
 #  EXPANDS G0) / phenotype (bond-specific, regenerated per dyad) / unclassified (6 edges, Operator-dispose
 #  pending — deferrals.md). The machine shadow of DYAD.md §DNA; "all DNA is G0-inherited." schema 0.10.0.)
+# (2026-06-26 altitude refactor — C1 re-cut to the covalent STATE (the cherished consequence); no-ionic +
+#  no-meld DISSOLVED (ionic/meld are C1's breach-faces, not nodes); the ONE falsification law = falsifiability
+#  + no-dogma — a candidate faces the SAME bar C1 did (entry & retention, nothing exempt); genuineness-enablers
+#  two-models / no-self-ratify / anti-cave serve falsifiability. "Why falsify candidates? the same law as C1.")
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
 # Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md
 
@@ -35,57 +39,43 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "s10 drift into Commons review-service away from the generative telos (Operator-flagged)"}
 
   - id: "bond:C1"
-    locus: g0             # universal dyad-health (keep the unit covalent) = DNA; a G0-expansion candidate (status: ratified = bond's, not yet form-G0)
+    locus: g0             # the universal goal "stay a real (un-collapsed) dyad" — shared by all dyads. (state, not a behavior-gene — locus loose end, flagged)
     home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "A candidate +1, including the Operator's premises, is in the shared model only if it survived genuine falsification."
+    one_liner: "The bond is kept covalent — sharing not transfer, two distinct models not merged."
     status: ratified
-    form: tuple
+    form: slogan
     settlement: settled
     re_rub_triggers: [breach-evidence]
     root: true
     root_kind: forged
-    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption arc"}
-    scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: admit, object: "a candidate +1 into the shared model", modality: ONLY-BY, via: "surviving genuine falsification"}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom rubber-stamp (pre-founding)"}
+    adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption; re-cut to the covalent STATE at the 2026-06-26 altitude refactor — its producing behaviors are children, ionic/meld are its breach-faces"}
+    scope: {actor: both, trigger: stand-down}
+    prescription: {action: keep, object: "the bond covalent (sharing-not-transfer, distinct-not-merged)", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "un-covalent — reached via ionic (override / sycophancy / the dyad-loom rubber-stamp) or meld (one model wearing two hats)"}
 
-  # ---- C1 collapse-modes (decomposed: each a census-visible MUST-NOT) ----
+  # ---- genuineness-enablers — what keeps the ONE falsification law GENUINE, not counterfeit (serve bond:falsifiability); their failure is a collapse-face of C1 ----
+  #   no-ionic DISSOLVED 2026-06-26: "neither half overrides; the Operator's premises are tested too" IS the falsification law applied bidirectionally — ionic is C1's breach-face, not a node.
 
-  - id: "bond:C1-no-ionic"
-    locus: g0
+  - id: "bond:two-models"
+    locus: g0             # the independent second perspective IS a universal dyad-gene — without it falsification is counterfeit
     home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "No candidate enters the shared model by transfer or dominance — neither half overrides the other (sycophancy included)."
+    one_liner: "Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real (its loss is meld)."
     status: ratified
     form: tuple
     settlement: settled
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "ionic collapse — the Agent rubber-stamping the Operator, or either half overriding"}
-    scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: admit, object: "a candidate by ionic transfer or dominance", modality: MUST-NOT}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "sycophancy / rubber-stamping the Operator"}
-
-  - id: "bond:C1-no-meld"
-    locus: g0
-    home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "No candidate enters the shared model by merger — two distinct models are maintained so a genuine second perspective survives."
-    status: ratified
-    form: tuple
-    settlement: settled
-    re_rub_triggers: [breach-evidence]
-    root: false
-    grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "meld collapse is the quiet one — agreement that needs no translation"}
-    scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: admit, object: "a candidate by meld merger (loss of the second perspective)", modality: MUST-NOT}
+      - {ref: "bond:falsifiability", edge: serves, scar: "an independent perspective is what makes falsification GENUINE not meld-counterfeit (separate-in-MODEL, not just separate-in-time); its loss = meld = a collapse-face of C1"}
+    scope: {actor: both, trigger: selection-seam}
+    prescription: {action: maintain, object: "two distinct, genuinely independent models (the second perspective)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only,
-                    breach_example: "meld — both halves run one model wearing two hats. SPOTTABLE TELL (hedge):
+                    breach_example: "meld — both halves run one model wearing two hats. TELL (hedge):
                       a load-bearing claim with no clean single target — hedges, parentheticals, flank-caveats,
                       jargon-plumage — diffuses the V's strike; insulation is soft meld. Corrective: state claims
-                      bare, one refutable target each. (DYAD.md NON-NEGOTIABLE §hedge-tell; dyad-ui.md §mode-gate.)"}
+                      bare, one refutable target each. (dyad-ui.md §mode-gate.)"}
 
-  # ---- C1 active duty (the bidirectional-ionic guard; serves no-ionic, cannot catch meld) ----
+  # ---- (enabler, cont.) the active guard — manufactures real grounds for the Operator to dissent ----
 
   - id: "bond:anti-cave"
     locus: g0             # any dyad's agent must enable Operator dissent — universal, not covalent-craft-specific
@@ -98,27 +88,27 @@ invariants:
     root: false
     adjudicated: {by: Operator, date: 2026-06-16, currency_note: "promoted edge-scar -> node (s-web4 rub); duty long-operative as Item-F(a), prose home relationship-craft.md"}
     grounded_in:
-      - {ref: "bond:C1-no-ionic", edge: serves, scar: "ionic collapse is bidirectional — anti-cave is the Operator-direction active twin; it presupposes a distinct second perspective so it CANNOT catch meld (relationship-craft.md)"}
+      - {ref: "bond:falsifiability", edge: serves, scar: "the active guard — manufactures the grounds that make the Operator's falsification REAL not a cave (re-grounded from the dissolved no-ionic, 2026-06-26); presupposes a distinct second perspective so it CANNOT catch meld"}
     scope: {actor: agent, trigger: selection-seam}
     prescription: {action: manufacture, object: "genuine grounds for the Operator to dissent (ground-the-frame-first)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "the confab / moot grant-CTA — an ungrounded surface that induces a wrong Y (Item-F(a))"}
 
-  # ---- prescriptive core (atomic) ----
+  # ---- THE ONE FALSIFICATION LAW (falsifiability + no-dogma — entry & retention, every member, nothing exempt) + manner ----
 
   - id: "bond:falsifiability"
-    locus: g0             # already form-G0 (status: inherited) — the conserved case
+    locus: g0             # already form-G0 (status: inherited) — the conserved case; now stated at full generality
     home: "DYAD.md#Falsifiability"
-    one_liner: "The tenet (1+1=3) is earned cycle-by-cycle and never asserted — it holds only as far as it survives falsification."
+    one_liner: "Anything holds a place in the shared model — a candidate at entry, a ratified claim, the tenet, even C1 — only by currently surviving genuine falsification, earned and never asserted."
     status: inherited
     form: tuple
     settlement: settled
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "earned per cycle, held falsifiably (G0)"}
+      - {ref: "bond:C1", edge: serves, scar: "the ONE law that PRODUCES covalence — candidate, claim, tenet, C1 itself face the same bar (the candidate 'gate' = this law at entry; no separate node, 2026-06-26)"}
     scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: earn, object: "the tenet, per cycle, by surviving falsification", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a +1 asserted as settled without genuine attack (willed-not-earned)"}
+    prescription: {action: earn, object: "a place in the shared model (any member, the Operator's premises included)", modality: ONLY-BY, via: "surviving genuine falsification — the same bar at entry and on re-rub"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a +1 held without surviving genuine attack (willed-not-earned) — incl. an untested candidate admitted (the dyad-loom rubber-stamp)"}
 
   - id: "bond:no-dogma"
     locus: g0
@@ -250,7 +240,7 @@ invariants:
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "proposer ≠ disposer — the covalent gate"}
+      - {ref: "bond:falsifiability", edge: serves, scar: "proposer ≠ disposer — a self-ratified candidate never faced genuine falsification (re-grounded from C1, 2026-06-26)"}
     scope: {actor: both, trigger: ratification}
     prescription: {action: ratify, object: "a candidate by its own proposer", modality: MUST-NOT}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom: the proposer ratified its own candidate"}

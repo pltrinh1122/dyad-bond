@@ -14,7 +14,7 @@ The reframe (Bond-Operator-ratified): **all DNA is G0.**
 ## The reframe in one line
 
 bond's covalent genes aren't a private lineage to *clone* into child dyads — they're **universal
-dyad-health** (no-ionic / no-meld / no-self-ratify / anti-cave / falsify-the-premise), which means
+dyad-health** (the one falsification law + its enablers: two-models, proposer≠disposer, anti-cave), which means
 contributing them **expands G0**: a future dyad then inherits them as **base genome** through ordinary DIP
 instantiation, not via any parent→child copy. *(I retract the earlier "clone-from-parent / clone-line"
 framing — it treated universal genes as a bond allele.)*
@@ -44,7 +44,7 @@ framing — it treated universal genes as a bond allele.)*
 
 ## The genuine fork I owe you (anti-cave — not for you to wave through)
 
-**Mandatory vs offered.** The *settled* universal genes (no-ionic / no-meld / no-self-ratify) can expand G0
+**Mandatory vs offered.** The *settled* universal genes (the falsification law + two-models / proposer≠disposer) can expand G0
 as **base non-negotiables** — they're arguably already implicit in the form's "a dyad is irreducible." But
 the **Belief + IFF** are **E0/unfalsified**; making an unproven hypothesis a *mandatory* G0 for every dyad
 overreaches (the form's existing G0 are settled; this isn't yet). Likely split: **settled genes → mandatory
