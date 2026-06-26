@@ -94,6 +94,25 @@ A decision-framing carries a genuine non-strawman anti-thesis and resolves to a 
 
 ---
 
+## DNA — the heritable core *(dyad layer; the genome the System/DIP clones to seed a new dyad — `bond:single-home`: an index, not a restatement)*
+
+The **inherited genome** of this dyad — the genes a fresh dyad **copies, then expresses and re-falsifies in
+its own environment**. DNA is, by definition, **cloned**; what keeps a faithful clone safe is *intrinsic* —
+the falsifiability genes (`bond:falsifiability`, `bond:no-dogma`, the IFF gates) travel **with** the Belief,
+so an inheriting dyad necessarily holds the whole genome falsifiably and re-earns it through its own SPAOR.
+**The Belief and its knife are one inseparable gene — never inherit one without the other.** Three parts:
+
+- **The Belief** — `1+1>2` only via covalence *(claim register)* → `README.md` · `dialectic/relationship-craft.md §5–§6`.
+- **The materialization gate — IFF1–3** — what "covalent" structurally is *(claim register)* → `README.md §Claim 4` · `dialectic/relationship-craft.md §The materialization gate`.
+- **The covalent invariant-kernel** — `bond:C1` + no-ionic / no-meld / no-self-ratify / anti-cave / falsifiability / no-dogma / wu-wei *(prescriptive register)* → §NON-NEGOTIABLE + §Falsifiability above · shadow `dialectic/invariants-bond.yaml`.
+
+**Not DNA — phenotype** (regenerated fresh by the new dyad's own expression, never copied): the `Covalent`
+role-name + birth-id (`ID.md`), the Dyad-UI cluster, the single-home / dialectic↔kb mechanics, substrate +
+ledger. **System-layer replication** (the DIP clones the genome + regenerates the phenotype) is steward's to
+wire → the SOLICIT at `dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md`.
+
+---
+
 ## Live state, residue & cross-refs *(relocated out of the anchor at the S1 cut — `bond:single-home`)*
 
 - **Live in-flight state, open items, deferrals, contribution-candidates** → `dialectic/carry-forward.md`
