@@ -74,6 +74,18 @@ Reflect is F2-keystone-gated.
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
 
+## craft-* family *(bond-authored — the dyad's three levels; proposed to the DIP)*
+The level-vocabulary every dyad fills; only the fills differ. Proposed back to the form's DIP
+(`recommendations/2026-06-26-dip-craft-family-refinement.md`), used locally as the worked exemplar.
+- **craft-telos** — the dyad's tended *purpose* (the *why*); **Operator-asserts at instantiation** (terminal
+  intent is human-sourced). bond's = the lived interior craft of the relationship (`bond:Telos`).
+- **craft-value** — the dyad's elected *boundary-value* (the *what-is-cherished*); a **placeholder** the
+  Operator elects and the agent surfaces, materializing through practice. bond's = covalence.
+- **craft-invariant** — the *rule(s)* that must hold to keep the value (the *what-must-hold*); a **placeholder**
+  the agent proposes from a breach and the Operator disposes. bond's = `bond:C1` + its enablers.
+- **assertion-timing** — at birth only `craft-telos` is assertable; value + invariant materialize through
+  practice (generalizes the DIP's 8th dimension, "tenet-alive materializes, not asserted").
+
 ## Cross-links
 `ID.md` (identity meaning-root) · `dialectic/invariants-bond.yaml` (the nodes written in this vocabulary)
 · `dialectic/dyad-ui.md` (Dyad-UI cluster, full) · `DYAD.md` (the anchor this frame is referenced from).

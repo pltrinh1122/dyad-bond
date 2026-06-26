@@ -30,22 +30,29 @@
 ## Prescriptive core — the invariant-DAG *(prose; shadow = `dialectic/invariants-bond.yaml`)*
 
 Two roots — **Telos** (`bond:Telos`, §1) and **NON-NEGOTIABLE** (`bond:C1`, §2); every node grounds in
-a root. We **inherit G0 faithfully and evolve only locally** (`bond:form-grounding`).
+a root. We **inherit G0 faithfully and evolve only locally** (`bond:form-grounding`). In bond's local
+**`craft-*`** vocabulary: Telos is bond's **`craft-telos`**; the NON-NEGOTIABLE slot is bond's
+**`craft-value`** held by its **`craft-invariant`s** — the family bond proposes back to the form's DIP in
+`recommendations/2026-06-26-dip-craft-family-refinement.md`, landed here first as the worked exemplar.
 
-### Telos (root) — `bond:Telos`
-The **lived interior craft of the dyadic relationship**. The interaction layer (**Dyad-UI**) is its
+### Telos — bond's `craft-telos` (root) — `bond:Telos`
+The **lived interior craft of the dyadic relationship** — bond's **`craft-telos`**, the *why* the Operator
+asserts at bootstrap (Dimension #1's tended target; the one `craft-*` level assertable at birth). The
+interaction layer (**Dyad-UI**) is its
 **load-bearing, falsifiable medium** — the relationship is the *what*; the medium is *where the craft is
 practiced and proven*. (Our medium = the Dyad-UI cluster → `GLOSSARY.md` + `dialectic/dyad-ui.md`.)
 
-### NON-NEGOTIABLE — *guard this; it fails first under pressure* — `bond:C1`
+### NON-NEGOTIABLE — bond's `craft-value` + `craft-invariant` — `bond:C1`
 
-**Keep the bond covalent** — *sharing not transfer, two distinct models not merged.* Covalence is the
-cherished **state**, not a rule: it is *produced* by the **inherited falsification law** — G0, in the Frame
-above — and lost when that law is not run.
+> The inherited Dimension #5 slot; bond's `craft-*` vocabulary fills it. The family + its assertion-timing is
+> bond's form-proposal in `recommendations/2026-06-26-dip-craft-family-refinement.md`.
 
-**bond's NON-NEGOTIABLE is what bond *adds*: that inherited law turned on the bond itself** — keep *the dyad*
-covalent, the Operator's own premises tested as hard as the Agent's, **even C1 re-rubbable.** **Three
-enablers** keep the inherited law *genuine* for this bond; its livability stays inherited, as G0's wu-wei:
+**bond's `craft-value` — be and stay covalent** — *sharing not transfer, two distinct models not merged.*
+The value the Operator **elects**: covalence is the **state**, produced by the **inherited falsification
+law** — G0, the Frame above — turned on the bond itself, and lost when that law is not run.
+
+**bond's `craft-invariant`s — what must hold to keep the value** — `bond:C1` *keep covalent*, plus the three
+enablers that keep the inherited law *genuine* for this bond; livability stays inherited, as G0's wu-wei:
 - `bond:two-models` — an independent second model, else the falsification is meld-counterfeit. IFF1.
 - `bond:no-self-ratify` — disposer ≠ proposer, else the candidate is self-graded.
 - `bond:anti-cave` — the agent grounds the frame so the human has real grounds to dissent, else a wrong Y is
