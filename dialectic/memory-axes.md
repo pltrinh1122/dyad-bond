@@ -124,7 +124,15 @@ container-theater already homed in `theory-pipeline.yaml` / `relationship-craft.
 now writes `` `DYAD.md@<sha>` `` — a **pre-existing** format mismatch (not the archive's doing); baseline
 data intact at `carry-forward.md:66`. A standalone work-item.
 
-**Phase 2 (deferred — shape depends on how Phase 1 lands):** fold Open-items → `deferrals.md` work-item
-store; peel **Contribution candidates** to the claim axis; harvest/dispose the **s12/s13** thread;
-per-claim relocation of any still-narrated disciplines; trim the resume block's stale RESTART-PENDING
-history (still in `carry-forward.md` ~§35–108).
+**Phase 2 — IN PROGRESS (2026-06-25):**
+- ✅ **`standup.sh`/`standdown.sh` per-file ROM compare** — each anchor file vs its OWN recorded sha (the
+  `inv:rom-currency` per-file boot-set), killing the single-baseline-vs-per-file false-positive at source.
+- ✅ **Work-item store stood up** (`deferrals.md` widened to the do-state axis: `todo · in-progress · done ·
+  archived`; safe-default `todo`; NBA = render over `{in-progress ∪ todo}`).
+- ✅ **Work-items folded in:** L (rule-tag hygiene) · B (custody deprecation) relocated verbatim; the
+  memory-axes meta collapsed to a pointer (its single-home is this file); resume-block ROM history trimmed.
+- ✅ **s12/s13** harvested/disposed already in Phase 1 (→ `carry-forward-closed.md` + `theory-pipeline.yaml`).
+- ⏳ **Claim-peel (Operator gate):** relocate the un-homed CANDIDATE claims (the 2×2 disposition-routing,
+  KTLO, J's in-ledger narration) to the claim axis; collapse the verified-homed claim summaries (Commission,
+  Anchor-source-of-truth, K, E, I, F) to pointers; the claim→work-item probe-emission wiring; any `archived`
+  dispose-as-dead. *(Judgment-class — verify-before-collapse + un-ratified-claim home/form is the Operator's seat.)*

@@ -9,6 +9,11 @@ The frontier's shape: a **generative mechanism** — the form's most-wanted — 
 falsification *between the two halves* produces the felt **+1 dividend, not frustration.** We hold
 lived evidence (the bootstrap). Cycle 1 codifies it; Cycles 2+ TBD as practice forces them.
 
+> **What the frontier IS (Operator, 2026-06-26 — elevating ledger-item E):** the generative frontier is
+> **the Covalent Bond itself** — *how to operate Covalently, consistently.* Not a codification deliverable
+> to finish and shelve; the **ongoing practice** of holding the bond covalent (the NON-NEGOTIABLE, lived)
+> turn after turn. This is the dyad's main work-ahead; it stays the live front, never drained.
+
 ---
 
 ## Method — how we research this frontier *(ratified Bond channel, 2026-05-31)*
@@ -1665,3 +1670,66 @@ grep the index (`views/invariants-bond.md`) FIRST, never the inline references**
 **Status:** candidate, LIVE (true-for-now, R2). Single-home = here; resume-visible pointer in the ledger.
 Next probe: does W₃ (git=falsifiability-substrate) **redefine the resume protocol's justification** — i.e.
 is the ledger's job "Agent memory" or "the bond's cross-session falsification interface"? Open.
+
+## The disposition-routing 2×2 — route work by authority × cog-load *(CANDIDATE, carried s-local4 2026-06-20; relocated from the carry-forward ledger 2026-06-25, Phase 2 claim-peel, Operator Y on the DFD synthesis split)*
+
+*Belief-state tracking-row → `theory-pipeline.yaml: disposition-routing-2x2` (PARKED). This is the discipline
+PROSE; the row carries the falsification-state + next_probe. **Belief-state CANDIDATE — relocation ≠
+ratification.** Emerged from the s-local4 AITL/concurrency thread (3-dyad + Clash distraction). Operator
+engaged + rubbed each step but **did NOT ratify** — carried because the 2×2 "requires too much discernment
+at the moment." Ratify/operationalize in a hi-cog window. NOT a ratified operating model yet.*
+
+- **The 2×2 — route work by AUTHORITY × COG-LOAD, not by load alone:**
+  - **Agent-disposable** (any load) → Agent does it. **conformance ⟺ agent-disposable** (identity, by construction): conformance = *execute an already-ratified decision, zero-new-claim ∧ zero-new-authority* → nothing to gate. Directed+reversible merges (§6) ⊆ conformance. *Generate-labor* (drafting/proposing) is agent-DONE but **not** agent-DISPOSED — its output is a candidate +1 that needs the gate.
+  - **Operator-irreducible × lo-cog** → the Operator CAN do these *distracted* (ratify a term · grade a gate · telos gut-check · authorize prep · de-risked substrate-install). **This cell earns a dyad's concurrent slot.** Falsifies "lo-cog ⟹ Agent-disposable" — proven live: the Operator graded the AITL firing + ratified "conformance work" while distracted.
+  - **Operator-irreducible × hi-cog** → waits for full engagement (anchor edits, the criteria system, the GLOSSARY ROM-cut, K6-verify).
+- **Concurrency-value ∝ fresh-attack-surface rate** (a dyad earns a concurrent slot by how often it throws up lo-cog × Operator-irreducible items), NOT total open work.
+- **The guard (proposed, not ratified):** NOT "minimize HITL gates" — that's the wrong metric (suppresses *legitimate* gates; the −10≫−1 asymmetry correctly implies *uncertain → GATE*, i.e. MORE gates) and induces the worse error (laundering = disposing a decision as conformance). Right guard = **decision-rule** (uncertain → gate) + **log-and-flag** (log every conformance disposition, flag every borderline) + **sampled audit** with the −10 (laundering) / −1 (over-gate) weights as **audit-priority, NOT a reward I maximize** (reward-to-game = Goodhart, violates K5 `C as breach-detector never objective-function` + the no-exploit-the-asymmetry rule). Two laundering paths to guard: (1) mis-classify a decision as conformance; (2) treat Generate-output as agent-disposed.
+- **Already DURABLE (ratified/recorded, not part of the carry):** AITL first-firing + co-adjudicated grade `if_true (intra-dyad)` (`theory-pipeline.yaml`) · §6 directed-merge (`substrate-access.md`) · `conformance work` term (`GLOSSARY.md`).
+- **OPEN (settled-window):** (a) ratify the 2×2 as a real operating model (sibling to §6)? (b) encode the log-and-flag + sampled-audit guard as a discipline? (c) does any of this graduate beyond bond → a **fleet** operating model (it's framed fleet-general)?
+
+**lo-cog mechanics + data (s-local4 cont., 2026-06-20 lo-cog pass):**
+- **lo-cog DEFINED (Operator riff; Covalent-sharpened):** lo-cog = *incapable of grounding on large/complex context for discernment.* Sharpenings: (1) blocks deliberate **grounding-traversal**, NOT **feel/gut** (→ the lo-cog×OI cell is felt/fresh calls); (2) "large OR complex" = one mechanism, **simultaneity** (count of *interdependent* elements held at once); size bites only via simultaneity.
+- **lo-cog DEEPENED (Operator riff 2026-06-20 resume; CANDIDATE — falsifiers pre-registered):** the gate is **grounding-traversal DEMAND**, not state alone. Demand ≈ *(new elements to acquire)* × *(integration against existing structure)*. So: **ingrainedness = PRE-PAID grounding-traversal** — ingrained context is pre-chunked (N interdependent elements collapse to ~1 felt gestalt), so `effective-simultaneity = raw-simultaneity − chunking(ingrained)` → an ingrained call dispositions lo-cog *however complex its raw form*. Novelty is an INPUT (sets how much is freshly acquired), not the gate itself — Operator's literal "lo-cog = new context" over-claims: a **new-but-isolated** datum (one fact, no weaving) dispositions fine. Subsumes the simultaneity finding (simultaneity bites only on un-chunked/new context). **Pre-registered falsifiers:** (1) new-but-isolated datum → should dispose lo-cog (else pure-novelty wins); (2) high-simultaneity-but-ingrained call → should dispose lo-cog (else raw-simultaneity wins, chunking refuted). Fold into the definition once run live.
+- **Nibbling = thread-pulling = the DAG ready-set advancing (Operator riff):** disposing an independent (leaf) item removes a dependency edge from the core → its dependents may turn independent → new lo-cog items surface. So lo-cog throughput is NOT a fixed edge-set (corrects earlier pessimism) — it's the **moving frontier of a topological peel**, = the dyad's existing **NBA/ready-set-over-DAG** mechanic applied to lo-cog disposition. **Rub/floor:** works for **dependency-induced** hi-cog (resolved by pulling the dep), NOT **intrinsic** hi-cog (complex-in-itself — GLOSSARY ROM-cut, deep anchor calls, F2/DV3). Nibbling peels the core to its **intrinsically-hi-cog kernel**, can't dissolve it. Pull **leaves**, not load-bearing central threads (those tighten/break the knot).
+- **Falsifiable:** cutting simultaneity (nibble a leaf / decompose to independent sub-calls / Agent pre-grounds a small surface) converts hi-cog→lo-cog; if decomposition still bounces, the blocker is cold-context **reacquisition**, not simultaneity.
+- **DATA POINT (2026-06-20 lo-cog pass):** Operator disposed **4 independent Operator-irreducible items in ONE lo-cog pass** — park-confirm(Y) · telos-gut-check(on-Telos) · concurrency-slot(Y) · AITL-continue(Y). Strong lo-cog×OI evidence; independence→disposable confirmed (the interdependent criteria/2×2/② bounced in the same state).
+- **Intent-currency disposition (same pass):** Operator ruled the ~8-session apparatus/medium-class focus **ON-TELOS** (not drift) → closes the standing apparatus-drift rub-forward cards (gut-disposition; revisit on new drift-evidence).
+- **Operational (this arc):** bond DROPPED from active rotation until cairn replies (passive / daemon-watch); AITL stays armed, tested opportunistically on the next real bond-disposition.
+
+## The New Experiment Discipline + G/V-independence *(relocated from ledger item J, 2026-06-26 Phase 2; QUEUED — design unbuilt)*
+
+*The meta-craft: how we set up probes without contaminating them. Hypothesis homed separately at
+`theory-pipeline.yaml: two-factor-independence`; the **method** lives here (extends §Method/Axis-2, per D1).
+Belief-state: problem + constraints GROUNDED (s6, 2026-06-01); design QUEUED, no experiment built.*
+
+**The hypothesis — `G/V inference-independence`:** Generate and Validate should run as **independent
+inferences** — even within one Agent — for a predictable/valid outcome, because LLM inference is per-turn.
+It **operationalizes the distinctness duty at the inference level**, targeting the **meld-counterfeit that
+*passes* F2** (an attack genuinely occurs, cost paid, but both halves run the same model → self-attack
+wearing two hats). **Covalent caution (the easy-fit tell — test hardest):** *separate-in-time ≠
+separate-in-model* — two inferences of the same weights on the same context may reproduce the *same* model
+(meld persists serially). Design crux = **what actually makes the two inferences independent** (blind V to
+G's reasoning? different framing/context? a genuinely separate seat?), not merely "different turns."
+
+**Problem (one line):** *we can't yet trust our falsification is real* — it fakes two ways: one half caves
+(**ionic**) or both attack as **one model wearing two hats** (**meld-counterfeit**, the dangerous one).
+
+**The 9 constraints (the reload artifact; design must satisfy all):**
+- *A·Method (inherited):* (1) observational, not lab — real telemetry, organic, no staging; (2) asymmetry —
+  deny decisively, never affirm (convergence, not proof); (3) probe scarcity — organic·single·serial, one shot.
+- *B·Contamination root (instrument = subject = grader, three seams):* (4) **generator** — `time≠model`, two
+  inferences in one harness may be one model (the crux); (5) **subject** — priming: boot primes the tested
+  behavior, first post-restart seam least diagnostic; (6) **grader** — no self-grading; independent seat =
+  Operator (current scope); separate-model grader QUEUED → goal `AGREE: Y|N` (offload grading).
+- *C·Validation surface (the gap):* (7) **Operator is a scarce, shared resource** — solution must *minimize*
+  load, not just consume it; (8) **surface must enable dissent** — the `Y|N` arrives un-primed with real
+  grounds for **N**, else the independent seat collapses to ionic rubber-stamp. **#7 ⟂ #8 and pull against
+  each other** — compression-to-one-bit raises framing-leverage; that tension is the design center.
+- *D·Process:* (9) extend §Method/Axis-2, don't re-derive (D1).
+
+**Convergence finding:** the two J halves are one — the G/V-independence problem **is** the
+independent-verifier problem (the grader must be genuinely independent — Operator/separate-model, *not*
+me-next-turn = the same `separate-in-time ≠ separate-in-model` trap). **Remedy already shipped** for
+constraints 7+8: the `VF-UI`/`VFD` Validation surface (`dyad-ui.md`) — low-load, dissent-enabling
+`AGREE: Y|N`, Operator-ratified-as-default.

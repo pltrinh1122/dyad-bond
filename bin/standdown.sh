@@ -25,20 +25,33 @@ LEDGER="dialectic/carry-forward.md"
 ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md)
 
 # ── Mechanical: did the anchor move past the recorded baseline this session? (ROM-UI stand-down rule) ─
-recorded="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
+# Per-file boot-set (inv:rom-currency CRISP form) if present, else legacy single-sha baseline. Each
+# anchor file is compared to its OWN recorded sha — the boot SET {CLAUDE.md, GEMINI.md, DYAD.md} is
+# pinned independently, so one sha for all three false-positives when the shims differ from DYAD.md.
+perfile="$(grep -m1 'inv:rom-currency.*per-file boot-set' "$LEDGER" 2>/dev/null || true)"
+legacy="$(grep -m1 'ROM-baseline (anchor commit' "$LEDGER" 2>/dev/null \
             | grep -oE 'DYAD\.md@[0-9a-f]{7,40}|`[0-9a-f]{7,40}`' | head -1 \
-            | grep -oE '[0-9a-f]{7,40}' || true)"   # handles `DYAD.md@<sha>` (current) + bare `<sha>` (legacy)
+            | grep -oE '[0-9a-f]{7,40}' || true)"   # handles `DYAD.md@<sha>` + bare `<sha>` (legacy)
+declare -A want=()
+if [[ -n "$perfile" ]]; then
+  for f in "${ANCHOR_FILES[@]}"; do
+    s="$(printf '%s' "$perfile" | grep -oE "${f//./\\.}@[0-9a-f]{7,40}" | head -1 | grep -oE '[0-9a-f]{7,40}' || true)"
+    [[ -n "$s" ]] && want["$f"]="$s"
+  done
+fi
 rom_line="anchor: unknown (could not parse baseline)"
-if [[ -n "$recorded" ]]; then
+if ((${#want[@]})) || [[ -n "$legacy" ]]; then
   moved=()
   for f in "${ANCHOR_FILES[@]}"; do
+    exp="${want[$f]:-$legacy}"
     cur="$(git log -1 --format=%H -- "$f" 2>/dev/null || true)"
-    [[ -n "$cur" && "$cur" == "$recorded"* ]] || moved+=("$f@${cur:0:7}")
+    [[ -n "$cur" && "$cur" == "$exp"* ]] || moved+=("$f@${cur:0:7}")
   done
+  base="${want[DYAD.md]:-$legacy}"
   if ((${#moved[@]})); then
-    rom_line="anchor MOVED past baseline \`$recorded\` (${moved[*]}) → SET RESTART-PENDING + refresh the ROM-baseline line AFTER commit."
+    rom_line="anchor MOVED past per-file boot-set (${moved[*]}) → SET RESTART-PENDING + refresh the boot-set line AFTER commit."
   else
-    rom_line="anchor at baseline \`$recorded\` → RESTART-PENDING stays none."
+    rom_line="anchor + shims each at recorded per-file sha (DYAD.md@${base:0:7}) → RESTART-PENDING stays none."
   fi
 fi
 

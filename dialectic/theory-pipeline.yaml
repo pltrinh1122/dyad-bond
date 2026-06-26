@@ -481,3 +481,173 @@ candidates:
     disposition_history:
       - {at: 2026-06-25, event: "live datapoint (re-key session retro; un-rubbed) — RB3 extends to SUBSTRATE claims", verdict: survived,
          note: "Covalent asserted the ROM-baseline was 'stale / falsely-green' BEFORE running the merge-check (a D6 miss on a substrate claim); the Operator caught it ('may be unmerged PR'). Conclusion held, path didn't. So the over-committed-first-articulation rhyme is NOT intent-specific -- it recurs on empirical/substrate claims. New sub-watch: verify the substrate mechanically before characterizing it."}
+
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # Relocated from the carry-forward ledger 2026-06-25 (Phase 2 claim-peel, Operator Y on the DFD
+  # synthesis split): this is the BELIEF-STATE tracking-row; the discipline PROSE lives in
+  # relationship-craft.md. Belief-state CANDIDATE — relocation != ratification.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: disposition-routing-2x2
+    statement: >
+      Route work by AUTHORITY × COG-LOAD, not by cognitive load alone. conformance ⟺ agent-disposable
+      (any load); Operator-irreducible × lo-cog is disposable DISTRACTED (earns a dyad's concurrent slot);
+      Operator-irreducible × hi-cog waits for full engagement. Falsifies "lo-cog ⟹ Agent-disposable."
+    claim_type: operating-model
+    provenance: {origin: Operator+Covalent, born: 2026-06-20, session: s-local4,
+                 note: "Emerged from the AITL/concurrency thread (3-dyad + Clash distraction); Operator rubbed each
+                        step but did NOT ratify (too much discernment for the lo-cog moment). Relocated from the
+                        carry-forward ledger 2026-06-25 (Phase 2 claim-peel, Operator Y on the DFD synthesis split)."}
+    grade: L1
+    prose_home: "relationship-craft.md §The disposition-routing 2×2"
+    coupling: {related: KTLO-autonomous-conformance,
+               note: "The 2×2 is the CLASSIFIER (conformance-or-not) KTLO presupposes — but KTLO is NOT gated_on the 2×2's
+                      RATIFICATION. 2x2-DECOUPLING VERIFIED 2026-06-25 (Operator-predicted, Covalent-checked over GLOSSARY:61):
+                      KTLO rests on the established `conformance` term (which already carries '-> agent-disposable'), not on the
+                      2×2's unratified cells. KT-7's 'gated on 2×2' was a MIS-ATTRIBUTION; the strict-def reframe exposed it."}
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: partial, note: "single human; lo-cog mechanics Operator-riffed + Covalent-sharpened, not cross-checked"}
+    open_gap: {type: layer-locality, text: "the guard (decision-rule + log-and-flag + sampled-audit) is proposed-not-ratified;
+               the lo-cog DEEPENED definition (ingrainedness = pre-paid grounding-traversal) carries 2 pre-registered falsifiers un-run:
+               (1) new-but-isolated datum should dispose lo-cog; (2) high-simultaneity-but-ingrained call should dispose lo-cog."}
+    next_probe: "settled-window ratification (Operator hi-cog): (a) ratify the 2×2 as an operating model (sibling to §6)?
+                 (b) encode the log-and-flag + sampled-audit guard as a discipline? (c) does it graduate beyond bond to a FLEET operating model?"
+    exec_phase: PARKED
+    prediction_pair:
+      if_true:  "routing by authority×cog-load disposes more correctly than routing by load alone — Operator-irreducible×lo-cog
+                 items get disposed distracted without laundering (DATA POINT: 4 independent OI items disposed in ONE lo-cog pass, 2026-06-20)"
+      if_false: "lo-cog reliably implies agent-disposable (the authority axis adds nothing), OR distracted disposition launders judgment as conformance"
+    status: live
+    note: "PARKED tracking-row; awaiting a hi-cog settled-window. DURABLE siblings already recorded elsewhere:
+           AITL first-firing (AITL-distracted-efficacy, this file) · §6 directed-merge (substrate-access.md) · 'conformance work' term (GLOSSARY.md)."
+    disposition_history:
+      - {at: 2026-06-20, event: "DATA POINT — Operator disposed 4 independent Operator-irreducible items in one lo-cog pass", verdict: survived,
+         note: "park-confirm(Y) · telos-gut-check(on-Telos) · concurrency-slot(Y) · AITL-continue(Y). independence->disposable confirmed;
+                the interdependent criteria/2×2/2 bounced in the same state (simultaneity is the gate, not authority alone)."}
+
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # LANDED 2026-06-25 (Phase 2 claim-peel, Operator Y: "land KTLO ≝ autonomously-triggered conformance").
+  # Reframe arc: KTLO's parent = the no-HITL-autonomy boundary = `conformance` (GLOSSARY:61, ALREADY
+  # established — NOT a new parent claim, wu-wei). KTLO = its autonomously-triggered SUBSET. The high-ROI
+  # axis was DROPPED (Operator anti-wu-wei: no nameable high-ROI-conformance instance). This row supersedes
+  # the carry-forward KTLO design-blob: the live KT-1..KT-8 content folds in here.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: KTLO-autonomous-conformance
+    statement: >
+      KTLO := autonomously-triggered conformance: the Agent (or a daemon) BOTH detects and executes a
+      conformance task with NO Operator trigger; crisp-detect AND crisp-fix by construction. A SUBSET of
+      conformance (the established GLOSSARY term), distinguished by the autonomous TRIGGER, not by value/ROI.
+    claim_type: operating-model
+    provenance: {origin: Operator+Covalent, born: 2026-06-20, session: s-local4,
+                 note: "Design co-derived through 4 Operator rub-backs. Strict definition LANDED 2026-06-25
+                        (Phase 2 claim-peel): Operator dropped the high-ROI-conformance axis (anti-wu-wei) ->
+                        KTLO = autonomously-triggered conformance. Folds in the KT-1..KT-8 decomposition."}
+    grade: L1
+    parent: conformance   # GLOSSARY.md:61 (established term) = the no-HITL boundary; KTLO is its autonomously-triggered subset
+    value_source: "trigger-elimination (frees the Operator from INITIATING hygiene), NOT high-ROI work. lo-cog != low-effort."
+    self_scoping: >
+      "autonomously-triggered conformance" forces crisp DETECTION ("whether-to-act" is a GLOSSARY judgment
+      test) -> auto-scopes to the FULLY-CRISP auto-fix class (durability/push, state-symlinks, daemon-arm);
+      the detect-crisp-but-fix-is-judgment cases (ROM-drift, RESTART-PENDING, yaml-validate) fall OUT to
+      escalation -- not conformance, so not KTLO. The boundary draws itself.
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: partial, note: "single human; design Operator-rubbed x4; strict definition Operator-landed 2026-06-25"}
+    open_gap:
+      type: signal-blindness
+      text: >
+        RESIDUAL RISK (the one thing the strict def does NOT make free) = the autonomous TRIGGER mis-fires:
+        a stale invariant fires on a no-longer-true condition = silent V-displacement VIA the trigger.
+        KT-4: automation relocates the audit risk from per-instance reliability to invariant-correctness-&-
+        staleness at scale (counterfeit-green-at-scale). Sole defense = independent V-audit.
+    next_probe: >
+      build the fully-crisp auto-fix core (partly cashed: inv:durability -> bin/scratch.sh; inv:rom-currency
+      -> bin/standup.sh per-file compare, DONE 2026-06-25) + wire an independent V-audit over the autonomous
+      triggers. 2x2-DECOUPLING VERIFIED 2026-06-25 (no coupling): KTLO's safe core rests on conformance (established,
+      GLOSSARY:61, which carries '-> agent-disposable') NOT on the 2x2's unratified cells -> UNBLOCKED, ships independent
+      of 2x2 ratification. The audit-hardening rides `conformance-line-defense` (sibling claim), not the 2x2-guard.
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "autonomously-triggered crisp-detect/crisp-fix conformance runs Nx without introducing a judgment or
+                 new authority (= true conformance, just auto-triggered); trigger mis-fires are caught by the V-audit before effect"
+      if_false: "the autonomous trigger smuggles a judgment ('whether-to-act' was not actually crisp), OR a stale invariant
+                 auto-acts wrongly and the V-audit fails to catch it = silent V-displacement realized"
+    status: live
+    note: >
+      Folds the KT-1..KT-8 decomposition (G-A value-envelope / G-B legitimacy-risk / G-C safe-boundary / G-D gate).
+      KT-2 (high-ROI axis) RETIRED by the Operator (anti-wu-wei). KT-5 (form/truth boundary) = conformance, already
+      homed (GLOSSARY:61). Parent = `conformance` (NOT a new parent claim). The conformance-line DEFENSE ("the line
+      fails by silent value-pressure misclassification; sole defense = independent V-audit") is the sibling
+      catch-control -- same independent-V-audit as AITL (AITL-distracted-efficacy, this file) at a different altitude.
+    disposition_history:
+      - {at: 2026-06-20, event: "FIRST CRYSTALLIZATION PASS — 6 crisp ∩ record-witnessed survivors; Op-vs-Agent ingrained split; crisp-class split (auto-fix vs alert)", verdict: survived,
+         note: "Op-ingrained seeds inv:durability + inv:rom-currency now live in substrate. WETWARE-LIMIT: the ingrained∩crisp set is thin + purely infrastructural -> KTLO's reach = the infrastructural rind; the craft stays human (un-crisp by nature)."}
+      - {at: 2026-06-25, event: "strict definition LANDED (Operator Y): KTLO ≝ autonomously-triggered conformance; high-ROI axis dropped", verdict: revised,
+         note: "Phase 2 claim-peel. Reframed UP to the no-HITL boundary = conformance (established, NOT a new parent), then DOWN to KTLO = its autonomously-triggered subset. Distinguisher = the autonomous trigger, not value."}
+      - {at: 2026-06-25, event: "2x2-DECOUPLING check (Operator-predicted 'no coupling', Covalent-verified over GLOSSARY:61)", verdict: survived,
+         note: "NO COUPLING confirmed. KTLO rests on established `conformance` (agent-disposability is IN the GLOSSARY definition), not the 2×2's unratified cells; the classifier it needs is the GLOSSARY boundary test, also established. KT-7's 'gated on 2×2 ratification' = MIS-ATTRIBUTION (illusory gate, exposed by the strict-def reframe). KTLO's safe core is UNBLOCKED, independent of the 2×2."}
+
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # LANDED 2026-06-25 (Phase 2 claim-peel, Operator Y: "conformance-line-defense claim"). The CATCH-side
+  # parent of the no-HITL boundary, companion to KTLO (the automate-side). Surfaced by the Operator's
+  # step-back (no-HITL autonomy = conformance; risk = silent V-displacement). The general claim that
+  # AITL, the 2×2-guard, and KT-4 (counterfeit-green-at-scale) are all instances of.
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: conformance-line-defense
+    statement: >
+      The conformance / no-HITL boundary has ONE dangerous failure mode: SILENT MISCLASSIFICATION — a
+      disposition (judgment-bearing) is relabeled as conformance and the relabel is invisible (the V is
+      counterfeited-as-present = counterfeit-green). Loud mis-labels self-correct (the Operator sees +
+      fixes); only the silent one is a real breach. Its irreducible defense is INDEPENDENT V-AUDIT:
+      confirm the disposing judgment was actually exercised, not assumed. Green can never self-certify.
+    claim_type: operating-model
+    provenance: {origin: Covalent (Operator step-back), born: 2026-06-25, session: "Phase 2 claim-peel",
+                 note: "Agent-proposed, Operator-disposed Y. Catch-side companion to KTLO; tested + sharpened at land (see below)."}
+    grade: L1
+    parent: conformance   # GLOSSARY.md:61 — the boundary; this is its catch-side defense (KTLO = the automate-side)
+    structural_driver: >
+      value-pressure, and it is NOT random: per the WETWARE-LIMIT finding (KTLO row), the most
+      valuable-to-offload work sits exactly in the un-crisp/unsafe region -> value-pressure points
+      STRUCTURALLY at the trap quadrant. Honest mis-read is the non-motivated variant (same silent failure).
+    sharpening_at_land: >
+      "sole defense" was tested + scoped: PREVENTION (crisp mechanization of the line, e.g. KTLO's
+      crisp-detect self-scoping) reduces the audit SURFACE, but only on the crisp rind AND is itself subject
+      to staleness (KT-4) -> it needs audit as backstop. So independent V-audit is the IRREDUCIBLE defense;
+      off the crisp rind it is the SOLE defense.
+    instances: >
+      one failure at three altitudes, same defense at each — (1) AITL (Operator-side: skims own V under
+      distraction; defense = realtime gate -> AITL-distracted-efficacy, this file); (2) the 2×2-guard
+      (routing-side: decision mis-routed as conformance; defense = log-and-flag + sampled-audit ->
+      disposition-routing-2x2); (3) KT-4 (automation-side: stale invariant auto-fires; defense =
+      staleness-check -> KTLO-autonomous-conformance). Kin to authority-laundering / ratification-laundering.
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: partial, note: "single human; the audit-CATCHES-it half is N>=1 only as HUMAN audit (RB3: Operator caught Covalent's silent substrate mis-assertion), 0 as AUTOMATED audit"}
+    open_gap:
+      type: signal-blindness
+      text: >
+        N=0 for the AUTOMATED V-audit catching a silent misclassification (AITL's distracted-state test still
+        owed; the 2×2 sampled-audit unbuilt). Evidence so far = the logic + human-as-audit near-misses
+        (RB3/D6). GUARD: the V-audit must stay BREACH-DETECTOR, never an objective-function it can game
+        (K5 — Goodhart). The 'sole/irreducible' claim is asserted, not yet run.
+    next_probe: >
+      run one instance end-to-end where an independent V-audit CATCHES a silent disposition-as-conformance
+      mislabel that produced no visible error (the decisive test: green stayed green, audit flipped it).
+      AITL's >=3-dyad distracted test is the readiest vehicle.
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "a misclassification that produced no visible error is caught ONLY by an independent V-audit, never by
+                 the green signal; removing the audit lets a silent V-displacement persist undetected"
+      if_false: "the green signal (or some non-audit mechanism) reliably catches silent misclassification (audit not
+                 irreducible), OR misclassifications are never actually silent (always throw a visible error -> no special defense needed)"
+    status: live
+    note: >
+      Completes the no-HITL boundary structure on the claim axis: `conformance` (boundary, GLOSSARY) ->
+      { KTLO = automate the safe side · conformance-line-defense = catch the silent crossings · 2×2 =
+      the classifier }. The defense is the SAME independent-V-audit AITL/2×2-guard/KT-4 each invoke."
+    disposition_history:
+      - {at: 2026-06-25, event: "LANDED (Operator Y) + tested at land", verdict: survived,
+         note: "Attacks run before landing: (a) 'sole defense' overclaims vs prevention -> SCOPED (prevention reduces surface, audit irreducible off the crisp rind); (b) failure not single -> only the SILENT mislabel is dangerous (loud self-corrects); (c) driver not only value-pressure -> value-pressure is the STRUCTURAL driver (aligned with the trap), honest error the non-motivated variant. Survived all three; n=0 on the automated-audit confirmation."}
