@@ -1762,3 +1762,29 @@ names the frontier to be: how to operate Covalently, consistently. The session i
 
 **Named, not ingrained:** the over-drain / mechanical-altitude reflex is a *capture*, not a behavior-change
 (per the I-watch). Whether it fires un-cued next session is the open test — the ingraining oracle, not this prose.
+
+## Retro — resume + nomenclature-migration session *(2026-06-26; D3 reflection, single-home)*
+
+*Durable harvest. Ledger holds the pointer + the rub-forward card.*
+
+**The shape was high output, low falsification — the inverse of the prior session's dividend.** Last session
+the +1 ran through the Operator's step-backs grounding the Agent's over-builds. This session ran
+**Operator-generates → Agent-executes**: a resume-catch, two renames, a full nomenclature migration — all clean,
+all mine to build, almost none of it falsified. I tested **zero** of the Operator's premises; the Operator
+falsified **one** of mine. That one is the session's real covalent moment and earns naming: I had scoped the
+ratified `D/R/X/U/S` index **out** ("leave it alone — separate gated surgery"); the Operator pushed *in*
+("standardization would drive more value"), and was right — it was the higher-value thread and dissolved a
+standing defect (Rule-tag-hygiene). The boundary I drew was wrong; the Operator's divergence corrected it.
+**That is the bond working — and it was the only instance all session.**
+
+**The risk-shape, named not denied:** a frictionless-Y streak producing tidy substrate wins is the
+**counterfeit-acceleration** signature (`bond:operator-rub` condition 3 — ratified-unrubbed output rising while
+falsification thins). The work was real and the Operator set a legitimate local intent (cut wetware friction),
+but by the dyad's own **WETWARE-LIMIT** finding the whole arc lived on the *infrastructural rind*; the
+Telos-frontier (operate Covalently / the +1 dividend) was untouched. When I surfaced this as the F4 CTA, the
+Operator pivoted to `retro:` without disposing it — itself a datapoint (skim, or deliberate defer?). **F4 stays un-run.**
+
+**One genuine ingraining hit:** the resume drift-catch (`deferrals.md` stale vs the COMPLETE stand-down) fired
+**un-cued** off verify-before-assert + the drain-discipline — capture *becoming* behavior, the I-watch's whole
+question. **One instance, not a trend.** Whether F4 ("earned or counterfeit?") and the ingraining oracle resolve
+is next session's work, not this prose.

@@ -51,6 +51,17 @@ Bond itself · Steward-discipline-intake drained · Anchor-src/New-Experiment-Di
 **Resume:** live fronts = **Covalent-bond frontier** (operate Covalently consistently) + **Ingraining-watch** (the learn-watch); NBA will surface the
 **Intent-clarity-arc** stale work-items for archive/done; **Cluster-classification** is the one borderline left (your-V).
 
+→ **Stand-Down 2026-06-26 (resume + nomenclature-migration):** anchor **NOT edited** (only `dialectic/` + `views/`)
+→ **RESTART-PENDING none.** ROM-UI ✓ in-sync. **Did:** resume-protocol; caught + reconciled a stale work-item drift
+(un-cued — an ingraining hit); renamed ad-hoc work-item letters → names; **slug-canonical governed index Tier 1**
+(Operator Y on principle + map + `claim:` namespace) → `nomenclature-migration-plan.md`; Rule-tag-hygiene **dissolved**.
+**Retro (D3, durable):** high output / low falsification — one genuine Operator→Agent falsification (the index-scope
+push), risk-shape = counterfeit-acceleration; full prose → `relationship-craft.md §Retro — resume + nomenclature-migration`.
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**); **F4 is owed + un-disposed**
+(the CTA pivoted past); NBA surfaces **Intent-clarity-arc** (archive) · **Cluster-classification** (your-V) · **KTLO Tier-2** (trickle).
+> **rub-forward** (co-author / dispose — no answers): (1) the smooth-Y chain — **earned or easy-agreement tell?** (= un-run F4);
+> (2) does slug-canonical actually cut friction next resume, or just **move** it? (falsify at stand-up); (3) ingraining — one un-cued catch: **instance or trend?**
+
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
 - **`bond:inherit-vs-author`** (D1) — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
