@@ -18,16 +18,11 @@
 
 ## todo
 
-- **Rule-tag hygiene: stale inline R-tags collide with the ratified s14 index** *(relocated from the
-  carry-forward Open-items, 2026-06-25 Phase 2 fold)* — The canonical invariant index is
-  `views/invariants-bond.md` (ratified **s14**, 2026-06-11): **D1–D12 · R1–R6 · X1–X3 · U1–U3 · S1–S3** —
-  R/RB are **not** un-indexed (a prior-session partial-grep claimed so; search artifact, refuted by reading
-  `views/`). **Real defect:** older *inline* ledger tags reuse R-numbers with pre-s14 meanings that now
-  collide with the ratified set — caught live: **`R3` reads "Theory≠Prediction" in the 2026-05-31 NBA but
-  ratified `R3` = Stand-down 3-check ritual.** This collision produced a mis-grounding in the 2026-06-13
-  rub-back chain. **Fix (deferred, lean, D2-bounded):** when next editing those files, retire or footnote
-  the pre-s14 inline tags as historical; do **NOT** renumber the ratified table (it is the single home).
-  Low-urgency corpus-integrity. *(prov: rub-back `RB?` → `R1/R4` read, 2026-06-13.)*
+- **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
+  migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
+  `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Wearing the
+  **Steward-Operator hat**, notify siblings that may cite "bond's X#"; keep the `X#` as a *published display
+  alias* so existing cross-dyad references still resolve. → `dialectic/nomenclature-migration-plan.md`.
 
 - **Cross-dyad custody deprecation** *(relocated from the carry-forward Open-items, 2026-06-25 Phase 2
   fold; chase via the Steward-Operator hat)* — The 7 Dyad-UI cluster assets were received from
@@ -84,6 +79,12 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ Rule-tag hygiene — DISSOLVED by slug-canonical** *(2026-06-26; was a todo)* — the defect was inline
+  pre-s14 R-number tags colliding with the ratified R-numbers (e.g. `R3` = two meanings). The
+  nomenclature migration retired numbers from *identity* → there is no authoritative `R3` to collide with
+  (it is `bond:standdown-ritual`); the collision **vector** is gone. Residual = orphaned inline number-tokens
+  in old prose, now harmless historical noise → retire-on-touch, not a live defect. → `nomenclature-migration-plan.md`.
 
 - **✅ Memory-axes restructure (the carry-forward re-key)** *(Phase 2 COMPLETE 2026-06-26; PRs #50/#51
   merged, stand-down `72abbf8`)* — Phase 1 (`carry-forward` ~89k→~20k tok) + Phase 2 (per-file ROM compare ·

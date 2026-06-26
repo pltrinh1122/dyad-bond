@@ -1,11 +1,17 @@
 # Nomenclature migration plan — slug-canonical governed index
 
-> **Status: PRINCIPLE RATIFIED (Operator Y 2026-06-26, resume session) — execution gated.** Slug-canonical
-> adopted: `bond:<slug>` is the single identity; `D/R/X/U/S`+number retire to a display/citation alias.
-> **Tier 1 execution is BLOCKED on two Operator judgments** (must not be Agent-self-ratified): (1) the rub of
-> the weak slugs in the alias map below; (2) the `claim:`-namespace call. The clean slugs + the mechanical
-> rewrite proceed on a Y to those. Single-home for this proposal until disposed; folds into the work-item
-> store on completion.
+> **Status: TIER 1 DONE (Operator Y 2026-06-26 on principle + map-rub + `claim:` namespace).** Slug-canonical
+> is live: `bond:<slug>` is the single identity; `D/R/X/U/S`+number is a display/citation alias (the `(was)`
+> column). **Tier 1 landed:** `views/invariants-bond.md` (all 5 tables) + `carry-forward.md` §Bond-disciplines
+> index rewritten slug-primary; drift-gate IN-SYNC (yaml untouched); **Rule-tag-hygiene todo dissolved** →
+> `deferrals.md ## done`; Steward-hat X-tier heads-up queued → `deferrals.md ## todo`. **Settled alias map
+> below.** **Tier 2 (open):** mint each numbered invariant's `invariants-bond.yaml` pre-image as live work
+> pulls it in (wu-wei — not bulk-authored); apply the `claim:` prefix across `theory-pipeline.yaml`.
+>
+> **Map-rub outcome (Operator Y, no flags):** the 4 weak slugs took the recommended revisions —
+> `D8 → bond:datum-vs-reading` · `D9 → bond:claim-evidence-confound` · `D3 → bond:reflection-substance` ·
+> `S1 → bond:standing-authorization`. The other 23 stand as drafted. `claim:` prefix adopted for the
+> theory-pipeline tier (dissolves the `X1`/`X2` name collisions).
 
 ## The disposition ask (TL;DR)
 **Make `bond:<slug>` the single canonical ID for the whole governed corpus; demote `D/R/X/U/S`+number to a
@@ -45,17 +51,17 @@ prose. (a) is per-item authoring (naming = judgment → wants your rub); (b) is 
 |---|---|---|---|---|
 | D1 | `bond:inherit-vs-author` | | R1 | `bond:operator-rub` |
 | D2 | `bond:incremental-shore-up` | | R2 | `bond:no-exemption` |
-| D3 | `bond:reflection-form` | | R3 | `bond:standdown-ritual` |
+| D3 | `bond:reflection-substance` | | R3 | `bond:standdown-ritual` |
 | D4 | `bond:path-selection` | | R4 | `bond:primed-criterion` |
 | D5 | `bond:response-economy` | | R5 | `bond:locus-schema` |
 | D6 | `bond:verify-before-assert` | | R6 | `bond:grader-in-training` |
 | D7 | `bond:valid-vs-reachable` | | X1 | `bond:oracle-coverage` |
-| D8 | `bond:interpretation` | | X2 | `bond:independence-two-factor` |
-| D9 | `bond:cec-ladder` | | X3 | `bond:green-check-tell` |
+| D8 | `bond:datum-vs-reading` | | X2 | `bond:independence-two-factor` |
+| D9 | `bond:claim-evidence-confound` | | X3 | `bond:green-check-tell` |
 | D10 | `bond:anti-cave` *(exists)* | | U1 | `bond:DFD` *(exists)* |
 | D11 | `bond:distinctness` | | U2 | `bond:IFD` |
 | D12 | `bond:rom-ui` | | U3 | `bond:markers-habit-set` |
-| | | | S1 | `bond:standing-substrate` |
+| | | | S1 | `bond:standing-authorization` |
 | | | | S2 | `bond:no-self-grant` |
 | | | | S3 | `bond:daemon-rearm` |
 
