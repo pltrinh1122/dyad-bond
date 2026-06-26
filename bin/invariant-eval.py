@@ -81,7 +81,7 @@ def check_record(rec, spec, ids):
         ids.add(rec["id"])
     if "one_liner" in rec and len(rec["one_liner"]) > fields["one_liner"]["max_chars"]:
         errs.append(f"one_liner: {len(rec['one_liner'])} chars > {fields['one_liner']['max_chars']}")
-    for f in ("status", "form", "settlement"):
+    for f in ("status", "form", "settlement", "locus"):
         if f in rec:
             e = vocab_check(VOCABS, fields[f]["enum"], rec[f])
             if e:

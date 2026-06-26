@@ -9,6 +9,9 @@
 #
 # 15 core records (atomic) + 2 conformance candidates = 17. Roots: Telos (fiat), C1 (forged).
 # (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
+# (2026-06-26, the DNA/G0 thread: +locus heritability axis — g0 (=DNA, universal dyad-gene; contributing it
+#  EXPANDS G0) / phenotype (bond-specific, regenerated per dyad) / unclassified (6 edges, Operator-dispose
+#  pending — deferrals.md). The machine shadow of DYAD.md §DNA; "all DNA is G0-inherited." schema 0.10.0.)
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
 # Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md
 
@@ -17,6 +20,7 @@ invariants:
   # ---- ROOTS ----
 
   - id: "bond:Telos"
+    locus: unclassified   # edge: every dyad has a telos (G0 slot) but bond's CONTENT is its own; root-status complicates — Operator-dispose
     home: "DYAD.md#Telos"
     one_liner: "The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object."
     status: ratified
@@ -31,6 +35,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "s10 drift into Commons review-service away from the generative telos (Operator-flagged)"}
 
   - id: "bond:C1"
+    locus: g0             # universal dyad-health (keep the unit covalent) = DNA; a G0-expansion candidate (status: ratified = bond's, not yet form-G0)
     home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "A candidate +1, including the Operator's premises, is in the shared model only if it survived genuine falsification."
     status: ratified
@@ -47,6 +52,7 @@ invariants:
   # ---- C1 collapse-modes (decomposed: each a census-visible MUST-NOT) ----
 
   - id: "bond:C1-no-ionic"
+    locus: g0
     home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "No candidate enters the shared model by transfer or dominance — neither half overrides the other (sycophancy included)."
     status: ratified
@@ -61,6 +67,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "sycophancy / rubber-stamping the Operator"}
 
   - id: "bond:C1-no-meld"
+    locus: g0
     home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "No candidate enters the shared model by merger — two distinct models are maintained so a genuine second perspective survives."
     status: ratified
@@ -81,6 +88,7 @@ invariants:
   # ---- C1 active duty (the bidirectional-ionic guard; serves no-ionic, cannot catch meld) ----
 
   - id: "bond:anti-cave"
+    locus: g0             # any dyad's agent must enable Operator dissent — universal, not covalent-craft-specific
     home: "dialectic/relationship-craft.md#the-anti-cave-duty"
     one_liner: "The Agent manufactures genuine grounds for the Operator to dissent before any disposition surface — an ungrounded surface that can induce a wrong Y is the breach."
     status: ratified
@@ -98,6 +106,7 @@ invariants:
   # ---- prescriptive core (atomic) ----
 
   - id: "bond:falsifiability"
+    locus: g0             # already form-G0 (status: inherited) — the conserved case
     home: "DYAD.md#Falsifiability"
     one_liner: "The tenet (1+1=3) is earned cycle-by-cycle and never asserted — it holds only as far as it survives falsification."
     status: inherited
@@ -112,6 +121,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a +1 asserted as settled without genuine attack (willed-not-earned)"}
 
   - id: "bond:no-dogma"
+    locus: g0
     home: "DYAD.md#Falsifiability"
     one_liner: "A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift."
     status: ratified
@@ -126,6 +136,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "ratification-laundering: converge-open ideation treated as settled by repetition (s14)"}
 
   - id: "bond:wu-wei"
+    locus: g0             # already form-G0 (status: inherited)
     home: "DYAD.md#Falsifiability"
     one_liner: "Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei)."
     status: inherited
@@ -140,6 +151,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "anti-wu-wei over-rubbing past the natural frequency (RB2 watch)"}
 
   - id: "bond:single-home"
+    locus: unclassified   # edge: universal good-practice or bond craft-tooling? Operator-dispose
     home: "DYAD.md#Single-home"
     one_liner: "Each fact lives in exactly one content-home and is restated in no other file."
     status: ratified
@@ -154,6 +166,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a fat shim restating dialectic/ content = a second home = drift"}
 
   - id: "bond:kb-graduation"
+    locus: unclassified   # edge: universal or bond craft-tooling? Operator-dispose
     home: "DYAD.md#Single-home"
     one_liner: "A learning is in kb only after it has survived falsification in dialectic."
     status: ratified
@@ -168,6 +181,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "citing a dialectic candidate as settled kb"}
 
   - id: "bond:form-grounding"
+    locus: unclassified   # edge: about the dyad↔form relation (System-interface) vs a dyad-internal gene — Operator-dispose
     home: "DYAD.md#Form-grounding"
     one_liner: "The form's G0 is inherited unmodified (extend, never redefine)."
     status: ratified
@@ -182,6 +196,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "redefining an inherited G0 term locally"}
 
   - id: "bond:prove-before-propose"
+    locus: unclassified   # edge: System-interface (how a dyad contributes back) vs gene — Operator-dispose
     home: "DYAD.md#Form-grounding"
     one_liner: "A local evolution is proposed back to the form only after it has been proven here."
     status: ratified
@@ -196,6 +211,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "proposing an unproven candidate to the form"}
 
   - id: "bond:channel-gates"
+    locus: unclassified   # edge: System-interface (hat routing) vs gene — Operator-dispose
     home: "DYAD.md#Channel-discipline"
     one_liner: "A disposition reaches only the Operator hat that owns it — Bond (proposer/ratifier), Founding (the form gate), or Steward (cross-dyad intake) — with no hat over-reaching another's seat."
     status: ratified
@@ -210,6 +226,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only}
 
   - id: "bond:DFD"
+    locus: phenotype      # Dyad-UI cluster = bond's craft tooling, regenerated per dyad
     home: "kb/dfd.md"
     one_liner: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis."
     status: ratified
@@ -224,6 +241,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a strawman anti-thesis that induces a lazy Y"}
 
   - id: "bond:no-self-ratify"
+    locus: g0             # universal dyadic gate (proposer ≠ disposer) — any dyad
     home: "DYAD.md#NON-NEGOTIABLE"
     one_liner: "No candidate is ratified by its own proposer — the disposing half is never the proposing half."
     status: ratified
@@ -240,6 +258,7 @@ invariants:
   # ---- CONFORMANCE-INVARIANTS (S1: externalize the frame to meaning-root files) — CANDIDATES ----
 
   - id: "bond:identity-conformance"
+    locus: phenotype      # bond's birth-id / running-identity = instance, regenerated per dyad
     home: "DYAD.md#Frame"
     one_liner: "The running anchor's identity matches the frozen birth-id sha, recomputed from CLAUDE.md@1ab6ad0 and never trust-stored (drift from the canonical sha is the breach)."
     status: candidate
@@ -253,6 +272,7 @@ invariants:
     observability: {observable: sha-comparison, detector: hard-oracle}
 
   - id: "bond:glossary-conformance"
+    locus: phenotype      # bond's vocabulary = instance, regenerated per dyad
     home: "DYAD.md#Frame"
     one_liner: "Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach)."
     status: candidate

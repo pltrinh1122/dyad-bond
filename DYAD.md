@@ -94,22 +94,26 @@ A decision-framing carries a genuine non-strawman anti-thesis and resolves to a 
 
 ---
 
-## DNA — the heritable core *(dyad layer; the genome the System/DIP clones to seed a new dyad — `bond:single-home`: an index, not a restatement)*
+## DNA — the heritable core *(dyad layer; the universal genes that **expand G0** when contributed — `bond:single-home`: an index, not a restatement)*
 
-The **inherited genome** of this dyad — the genes a fresh dyad **copies, then expresses and re-falsifies in
-its own environment**. DNA is, by definition, **cloned**; what keeps a faithful clone safe is *intrinsic* —
-the falsifiability genes (`bond:falsifiability`, `bond:no-dogma`, the IFF gates) travel **with** the Belief,
-so an inheriting dyad necessarily holds the whole genome falsifiably and re-earns it through its own SPAOR.
-**The Belief and its knife are one inseparable gene — never inherit one without the other.** Three parts:
+The **transmissible genome** of this dyad: **universal dyad-genes** (not bond-craft-specific). **All DNA is
+G0** — every gene here belongs to *being a dyad at all*, so contributing it to the form **expands G0**, and a
+future dyad then inherits it as base genome (Founding-gated per `bond:prove-before-propose`) — *not* a private
+parent→child clone. Safety is **intrinsic**: the falsifiability genes (`bond:falsifiability`, `bond:no-dogma`,
+the IFF gates) travel **with** the Belief — **one inseparable gene, never inherit one without the other.**
 
-- **The Belief** — `1+1>2` only via covalence *(claim register)* → `README.md` · `dialectic/relationship-craft.md §5–§6`.
-- **The materialization gate — IFF1–3** — what "covalent" structurally is *(claim register)* → `README.md §Claim 4` · `dialectic/relationship-craft.md §The materialization gate`.
-- **The covalent invariant-kernel** — `bond:C1` + no-ionic / no-meld / no-self-ratify / anti-cave / falsifiability / no-dogma / wu-wei *(prescriptive register)* → §NON-NEGOTIABLE + §Falsifiability above · shadow `dialectic/invariants-bond.yaml`.
+- **The covalent invariant-kernel** *(prescriptive register)* — the nodes tagged **`locus: g0`** in the shadow
+  `dialectic/invariants-bond.yaml` (which-nodes-are-DNA single-homes there; not re-listed here). Already-G0 vs
+  bond's G0-expansion-candidate is carried by each node's `status` (`inherited` vs `ratified`).
+- **The Belief** — `1+1>2` only via covalence *(claim register; not an invariant — a G0-candidate claim)* →
+  `README.md` · `dialectic/relationship-craft.md §5–§6`.
+- **The materialization gate — IFF1–3** — what "covalent" structurally is *(claim register)* → `README.md §Claim 4`
+  · `dialectic/relationship-craft.md §The materialization gate`.
 
-**Not DNA — phenotype** (regenerated fresh by the new dyad's own expression, never copied): the `Covalent`
+**Not DNA — phenotype** (`locus: phenotype`; regenerated fresh per dyad, never inherited): the `Covalent`
 role-name + birth-id (`ID.md`), the Dyad-UI cluster, the single-home / dialectic↔kb mechanics, substrate +
-ledger. **System-layer replication** (the DIP clones the genome + regenerates the phenotype) is steward's to
-wire → the SOLICIT at `dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md`.
+ledger. **System-layer wiring** (fold the `g0` genes into the DIP's G0 so every instantiating dyad inherits
+them — Founding-gated; steward implements) → the SOLICIT at `dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md`.
 
 ---
 

@@ -18,6 +18,16 @@
 
 ## todo
 
+- **`locus` edge-disposal + the G0-membership validator** *(spawned 2026-06-26, the DNA/G0 thread)* — six
+  nodes carry `locus: unclassified` (`Telos` · `single-home` · `kb-graduation` · `form-grounding` ·
+  `prove-before-propose` · `channel-gates`); each is a genuine *which-is-DNA* judgment (System-interface vs
+  dyad-gene; content vs slot) = an **Operator disposition**, not conformance work. **Trigger = the first real
+  G0-expansion** (a second dyad inheriting the covalent genes — that practice forces the edges *and* falsifies
+  the partition). At that point also: (a) **wire the validator check** — a `locus: g0` Belief-gene must
+  co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
+  G0-expansion set from `locus: g0` instead of hand-listing. → `DYAD.md §DNA` · `dialectic/invariants-bond.yaml`
+  · the SOLICIT `dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md`.
+
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
   `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Wearing the
