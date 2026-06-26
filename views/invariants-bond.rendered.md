@@ -21,9 +21,9 @@
 - **WHAT** — A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift.
 - **WHY** — serves→§3 (bond:falsifiability) — s14 no-exemption amendment
 
-### §5 · bond:wu-wei — *serves §1*
+### §5 · bond:wu-wei — *serves §1; serves §3*
 - **WHAT** — Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei).
-- **WHY** — serves→§1 (bond:Telos)
+- **WHY** — serves→§1 (bond:Telos); serves→§3 (bond:falsifiability) — IFF3 — wu-wei keeps the falsification LIVABLE: relentless adversarial grinding burns the human out and loses on sustainability, so wu-wei is *inside* the law as its 4th enabler (livability), alongside two-models / no-self-ratify / anti-cave (genuineness)
 
 ### §6 · bond:single-home — *serves §1*
 - **WHAT** — Each fact lives in exactly one content-home and is restated in no other file.

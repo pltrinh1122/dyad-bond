@@ -14,8 +14,8 @@
 #  pending — deferrals.md). The machine shadow of DYAD.md §DNA; "all DNA is G0-inherited." schema 0.10.0.)
 # (2026-06-26 altitude refactor — C1 re-cut to the covalent STATE (the cherished consequence); no-ionic +
 #  no-meld DISSOLVED (ionic/meld are C1's breach-faces, not nodes); the ONE falsification law = falsifiability
-#  + no-dogma — a candidate faces the SAME bar C1 did (entry & retention, nothing exempt); genuineness-enablers
-#  two-models / no-self-ratify / anti-cave serve falsifiability. "Why falsify candidates? the same law as C1.")
+#  + no-dogma — a candidate faces the SAME bar C1 did (entry & retention, nothing exempt); enablers two-models /
+#  no-self-ratify / anti-cave (genuineness) + wu-wei (livability, IFF3) serve falsifiability. (candidate = same law as C1).)
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
 # Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md
 
@@ -136,6 +136,7 @@ invariants:
     root: false
     grounded_in:
       - {ref: "bond:Telos", edge: serves}
+      - {ref: "bond:falsifiability", edge: serves, scar: "IFF3 — wu-wei keeps the falsification LIVABLE: relentless adversarial grinding burns the human out and loses on sustainability, so wu-wei is *inside* the law as its 4th enabler (livability), alongside two-models / no-self-ratify / anti-cave (genuineness)"}
     scope: {actor: both, trigger: selection-seam}
     prescription: {action: apply, object: "minimum force; meet at the natural frequency", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "anti-wu-wei over-rubbing past the natural frequency (RB2 watch)"}
