@@ -14,10 +14,7 @@
 
 ## in-progress
 
-- **Memory-axes restructure (the carry-forward re-key)** — Phase 1 landed (`carry-forward` ~89k→~20k tok);
-  Phase 2 underway (work-item fold + `standup.sh` per-file compare DONE; claim-peel of the un-homed
-  CANDIDATEs pending the Operator gate). Single-home → `dialectic/memory-axes.md`.
-  *Live falsifier: drain-latency — does this drain get used at stand-down, or does the backlog re-accrete?*
+— none active —
 
 ## todo
 
@@ -87,6 +84,16 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ Memory-axes restructure (the carry-forward re-key)** *(Phase 2 COMPLETE 2026-06-26; PRs #50/#51
+  merged, stand-down `72abbf8`)* — Phase 1 (`carry-forward` ~89k→~20k tok) + Phase 2 (per-file ROM compare ·
+  work-item store + L/B fold · claim-peel of the un-homed CANDIDATEs landed: KTLO · conformance-line-defense ·
+  2×2 peeled · 2×2-decoupling verified · remaining six disposed). Single-home → `dialectic/memory-axes.md`.
+  *Drain-latency falsifier — **DATA POINT**: the drain WAS used (carry-forward 1753→228 lines) but ran
+  INCOMPLETE — this entry was left `in-progress`/"underway" one commit (`51aa907`) past the `72abbf8` COMPLETE
+  stand-down, then reconciled at the next resume. Verdict: the backlog partially re-accretes at the
+  work-item-status seam → stand-down must reconcile BOTH memory files (carry-forward + deferrals), not just
+  carry-forward. (Resume caught it un-cued = an Item-I ingraining hit.)*
 
 - **✅ [K6] stand-down automation** *(2026-06-13; rehomed from the K-arc 2026-06-26)* — `bin/standup.sh` +
   `bin/standdown.sh` built; SessionStart-hook design settled. Single-home → `dialectic/standdown-automation.md`.
