@@ -19,12 +19,12 @@
    line.** Match → silent (lightest anchor).
 5. **Load the theory-pipeline** *(→ `dialectic/theory-pipeline.yaml`)* — the formal store of experimental
    candidates + their independence-coverage state. **Read it at resume** (intake rots if not reloaded —
-   Item-I). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
+   the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
 5b. **Triage the scratch tank** *(→ `dialectic/scratch-tier.md`; tool `bin/scratch.sh --list`)* — the
    minimal-save buffer (save≠land). Land what's settled into `dialectic/`, then `--done <id>`; `--done`
-   or discard the rest. Intake rots if not reloaded (Item-I). *(Carried in this prose step because the
+   or discard the rest. Intake rots if not reloaded (the ingraining-watch). *(Carried in this prose step because the
    `standup.sh` SessionStart surfacing is NOT yet installed — Operator-gated, S2; don't rely on the hook.)*
 6. **Arm the IM daemon** *(→ `dialectic/im-daemon.md` — has the EXACT hardened command; arm it **verbatim**,
    don't re-derive — the naive version was falsified)* — a session-scoped **persistent `Monitor`** over
@@ -43,13 +43,13 @@
 
 → **Stand-Down 2026-06-26 (Phase 2 COMPLETE):** anchor **NOT edited** → **RESTART-PENDING none.** ROM-UI ✓
 in-sync (per-file compare fixed at source). **Phase 2 done:** ✅ per-file ROM compare · ✅ work-item store
-(`deferrals.md`, do-state axis) + L·B fold · ✅ claim-peel — the **no-HITL boundary cluster** on the claim axis
+(`deferrals.md`, do-state axis) + Rule-tag-hygiene·Custody-deprecation fold · ✅ claim-peel — the **no-HITL boundary cluster** on the claim axis
 (`theory-pipeline.yaml`): `conformance` (GLOSSARY) = boundary → `disposition-routing-2x2` (classifier, PARKED) ·
 `KTLO-autonomous-conformance` (automate-side, LANDED) · `conformance-line-defense` (catch-side, LANDED) ·
-2×2-decoupling VERIFIED · ✅ remaining six disposed (I kept-live · K→stale work-items · E elevated = the Covalent
-Bond itself · F drained · Anchor-src/J relocated). **Ledger 1753→228 lines.** D3 retro → `relationship-craft.md`.
-**Resume:** live fronts = **E** (operate Covalently consistently) + **I** (the learn-watch); NBA will surface the
-**K** stale work-items for archive/done; **D** (cluster-classification) is the one borderline left (your-V).
+2×2-decoupling VERIFIED · ✅ remaining six disposed (Ingraining-watch kept-live · Intent-clarity-arc→stale work-items · Covalent-bond-frontier elevated = the Covalent
+Bond itself · Steward-discipline-intake drained · Anchor-src/New-Experiment-Discipline relocated). **Ledger 1753→228 lines.** D3 retro → `relationship-craft.md`.
+**Resume:** live fronts = **Covalent-bond frontier** (operate Covalently consistently) + **Ingraining-watch** (the learn-watch); NBA will surface the
+**Intent-clarity-arc** stale work-items for archive/done; **Cluster-classification** is the one borderline left (your-V).
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 - **D1 · inherit-vs-author** — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
@@ -78,7 +78,7 @@ Bond itself · F drained · Anchor-src/J relocated). **Ledger 1753→228 lines.*
   establish it by **EXECUTION**, not by reading a doc or a file's absence. **doc/file-absence ≠
   capability-absence; run the thing.** Tell = confidence without a fresh observation. Execution-altitude twin
   of anti-cave's *ground-the-frame-first*. (s4: 3 assertion-from-model failures Operator-caught.)
-- **Anti-cave duty** *(Item-F(a); ionic collapse is bidirectional — staged for the anchor)* — the Agent must
+- **Anti-cave duty** *(Steward-discipline-intake (a); ionic collapse is bidirectional — staged for the anchor)* — the Agent must
   **manufacture real grounds for the Operator to dissent** (scored cells · non-strawman [ANTI-THESIS] ·
   **ground-the-frame-first**). An ungrounded surface offers *false* grounds → can induce a **wrong** `Y`.
   *Ground-before-presenting is part of this duty, not a separate rule.* (The session's confab + moot
@@ -117,14 +117,12 @@ Bond itself · F drained · Anchor-src/J relocated). **Ledger 1753→228 lines.*
 
 ## Open items
 
-### Memory-axes restructure (the carry-forward re-key)  ·  status: Phase 2 in-progress
-*Model single-home → `dialectic/memory-axes.md` (SETTLED); the work-item now lives in the work-item store
-(`dialectic/deferrals.md`, **in-progress**). **Phase 2 progress (this session):** ✅ `standup.sh`/`standdown.sh`
-per-file ROM compare · ✅ work-item store stood up (do-state axis) · ✅ work-items **L · B** folded in · ✅
-resume-block ROM history trimmed. **Phase 2 remaining (Operator gate):** claim-peel of the un-homed CANDIDATEs
-(2×2 disposition-routing · KTLO · J) to the claim axis; collapse verified-homed claim summaries to pointers;
-the claim→work-item probe-emission wiring; any `archived` dispose-as-dead. **Live falsifier:** drain-latency —
-does the new drain get used, or does the backlog re-accrete?*
+### Memory-axes restructure (the carry-forward re-key)  ·  status: Phase 2 COMPLETE (2026-06-26) → see work-item store
+*Phase 1 + Phase 2 done — do-state now homed in the work-item store (`dialectic/deferrals.md`, `## done`); model
+single-home → `dialectic/memory-axes.md`. Phase 2: per-file ROM compare · work-item store stood up
+(Rule-tag-hygiene + Custody-deprecation folded) · claim-peel of the un-homed candidates (disposition-routing-2×2 ·
+KTLO · New-Experiment-Discipline) to the claim axis. Drain-latency falsifier datum (drain ran one commit late at
+the work-item-status seam) logged in the work-item store `## done`.*
 
 ### Operating model — disposition routing (authority × cog-load)  ·  status: CANDIDATE — PEELED to the claim axis (2026-06-25 Phase 2)
 *Relocated (Operator Y on the DFD synthesis split): discipline prose → `relationship-craft.md §The
@@ -154,22 +152,22 @@ source, `.yaml` = derived intermediate, `views/` = Operator read-surface; tag-gr
 id-integrity gate spec'd as `commission §F-8`, ships with cairn's engine). P4 DONE (PR #29), P3 RESOLVED,
 unsigned-handoff CLOSED-moot. **Open probes P1/P2/P5 rehomed → `deferrals.md` (`## todo`)** 2026-06-26.*
 
-### K — Intent-clarity arc · anchor rename · sovereignty  ·  status: STALE — rehomed to the work-item store (2026-06-26 Phase 2)
+### Intent-clarity arc — anchor-candidates · sovereignty  ·  status: STALE — rehomed to the work-item store (2026-06-26 Phase 2)
 *Was STAGED since 2026-06-13 and **silently not moving** (~2 weeks; Operator unaware). Rehomed → `deferrals.md`
-(`## todo`) flagged **STALE** so the **NBA surfaces it for disposition (archive or done)** — K1/K2/K3 the un-ratified
-anchor-candidates (Telos-`why` · sovereignty · C-into-corpus; prose in `relationship-craft.md` + `DYAD.md`), K4/K5 the
-open frontiers (falsification-quality gauge · C-meter), **K6 → done** (`standdown-automation.md`, awaiting install-gate).
+(`## todo`) flagged **STALE** so the **NBA surfaces it for disposition (archive or done)** — three un-ratified
+anchor-candidates (Telos-`why` · sovereignty · C-into-corpus; prose in `relationship-craft.md` + `DYAD.md`), two
+open frontiers (falsification-quality gauge · C-meter), and **stand-down automation → done** (`standdown-automation.md`, awaiting install-gate).
 Full thread + the landed durables (`I_net=I(t)·C_locus(t)`, 3-way factorization, the rename) homed in `relationship-craft.md`.*
 
-*(**Items L and B FOLDED to the work-item store** `dialectic/deferrals.md` (`## todo`), 2026-06-25 Phase 2
-— full text relocated verbatim, nothing lost. **L** = rule-tag hygiene (stale inline R-tags vs the s14
-index); **B** = cross-dyad custody deprecation (the 7 Dyad-UI assets, chase via Steward-Operator hat +
-the cluster-classification cross-check criteria).)*
+*(**Rule-tag hygiene** and **Cross-dyad custody deprecation** FOLDED to the work-item store
+`dialectic/deferrals.md` (`## todo`), 2026-06-25 Phase 2 — full text relocated verbatim, nothing lost.
+Rule-tag hygiene = stale inline R-tags vs the s14 index; Cross-dyad custody deprecation = the 7 Dyad-UI
+assets, chase via Steward-Operator hat + the cluster-classification cross-check criteria.)*
 
-### D — Cluster classification  ·  status: CANDIDATE-RESOLUTION (Stand-Up 2026-05-31; pending disposition)
+### Cluster classification  ·  status: CANDIDATE-RESOLUTION (Stand-Up 2026-05-31; pending disposition)
 Are `nba-dag.md` / `goal-framing.md` ours-whole, or **ours-UI-surface-only** (their Work-flows =
 steward's)? See `dialectic/dyad-work.md` §Open.
-→ **Item-C reading forced it (as predicted).** Easy answer = "surface-only" (dyad-work.md's lean) →
+→ **The closed custody-intake item reading forced it (as predicted).** Easy answer = "surface-only" (dyad-work.md's lean) →
 tested hardest → **broke**: the Telos-gate vets against *the Telos*, and **our Telos ≠ steward's**, so
 the gate's **content** is ours even where its **shape** is inherited. → **Candidate = three-way
 partition** (n=1 reasoning via D1; NOT yet disposed): (1) **flow-structure** → invariant, steward-
@@ -177,7 +175,7 @@ pioneered, *triangulate*; (2) **Telos-content of the gate** → particular, **ou
 (`GF-UI`/`DF-UI`) → **ours**. Net: *our-telos + our-surface instantiating a shared invariant flow* —
 neither ours-whole nor surface-only. **Bind only on disposition.**
 
-### E — The generative frontier = the Covalent Bond itself  ·  status: IN-FLIGHT — THE live front (kept, Operator-elevated 2026-06-26)
+### Covalent-bond frontier = the generative front  ·  status: IN-FLIGHT — THE live front (kept, Operator-elevated 2026-06-26)
 **The frontier IS the Covalent Bond itself — *how to operate Covalently, consistently*** (Operator, 2026-06-26):
 not a codification to finish and shelve, but the **ongoing practice** of holding the bond covalent turn after
 turn. The dyad's main work-ahead; **never drained.** Framing homed → `relationship-craft.md` (intro).
@@ -186,7 +184,7 @@ falsification cost; unearned warmth is counterfeit = the collapse tell.** F1–F
 "Tenet alive #8" survive, or is "both halves agreed it felt good" the peak-grain rubber-stamp?). Chain F4→F1→F2.
 Graduates to `kb/` only when F1–F4 each survive. (D4 Path-Selection · Frontier-traversal · F1 RUN-1 all homed there.)
 
-### I — Ingraining (learning mechanism)  ·  status: KEPT LIVE — active watch (Operator "keep watch to learn", 2026-06-26)
+### Ingraining — the learning-watch  ·  status: KEPT LIVE — active watch (Operator "keep watch to learn", 2026-06-26)
 *Deliberately resume-visible: the live watch = does the dyad actually **learn** (disciplines fire un-cued at a
 low-attention seam), or just capture? Proof = a next clean close. Mechanism homed → `dialectic/ingraining.md`.*
 Operator [FEEDBACK]: are we *learning*, not just capturing? **Answer: capture ≠ behavior-change** — proven
@@ -202,7 +200,7 @@ abdication-clause violated *the very next turn* (mechanical push wrapped in a DF
 attention-half (#3) gap is real. **Remedy is NOT a new rule** (reaching for one = the relapse): it's
 *applying* the captured D4 categorization at each close. Proof = next clean close (Operator's watch).
 
-### F — Steward-discipline intake  ·  status: SETTLED → collapsed to pointer (drain, Operator 2026-06-26)
+### Steward-discipline intake  ·  status: SETTLED → collapsed to pointer (drain, Operator 2026-06-26)
 *The 2026-05-31 triangulation of steward's `sycophancy-guard.md` / `sharing-discipline.md` against our
 NON-NEGOTIABLE. Outcome fully homed, nothing live lost: **(a) anti-cave duty** + **(d) distinctness duty**
 authored → `relationship-craft.md`; **(c)** ternary telos-filter bound into D1 (disciplines-index); **(b)**
@@ -210,7 +208,7 @@ the anti-Operator-sycophancy form-contribution candidate → `deferrals.md` (Con
 falsifiable fronts M1/M2 live with the distinctness duty in `relationship-craft.md`. (Operator: "what is even
 Steward-discipline intake" — confirms it's drained residue, not a live front.)*
 
-### J — New Experiment Discipline + G/V inference-independence  ·  status: QUEUED → collapsed to pointer (2026-06-26 Phase 2)
+### New Experiment Discipline + G/V inference-independence  ·  status: QUEUED → collapsed to pointer (2026-06-26 Phase 2)
 *Hypothesis homed → `theory-pipeline.yaml: two-factor-independence` (PARKED). The **method** — the New
 Experiment Discipline, the problem (falsification fakes two ways: ionic cave / meld-counterfeit), the **9
 constraints** (Method · contamination-seams · the #7⟂#8 validation-surface tension), and the convergence
@@ -221,7 +219,9 @@ Experiment Discipline + G/V-independence`** 2026-06-26. Remedy for constraints 7
 ### bond's portfolio-role synthesis (s12)  ·  status: TODO — parked against the ≥3-dyad trigger
 *Disposed 2026-06-25 (safe-default **todo**, NOT archived): the s12 "bond = acceleration-discriminator / Intent-Understanding node" synthesis + **T1–T5** (never rubbed) is a **backlog todo**, triggered by **≥3 concurrent dyads** (= the AITL-leverage arc, `theory-pipeline.yaml: AITL-distracted-efficacy`) — reactivates automatically when that runs. Prose → `carry-forward-closed.md` (find "s12"). The live craft-watches **RB2/RB3** were harvested out → `theory-pipeline.yaml: rub-back-calibration`.*
 
-*(Closed/done items **A · C · G · H** drained to `dialectic/carry-forward-closed.md` §Drained-Open-items, 2026-06-25 — `kb/dfd.md`, `substrate-access.md` hold the live homes.)*
+*(Four closed/done items drained to `dialectic/carry-forward-closed.md` §Drained-Open-items, 2026-06-25 —
+archived there under their original letters `A · C · G · H` (now archive locators, not live IDs); `kb/dfd.md`,
+`substrate-access.md` hold the live homes.)*
 
 ## NBA — rendered on demand (no stored block)
 > NBA is a **view, not a section**: the recommendation render over the work-item store `{in-progress ∪ todo}` (→ `dialectic/memory-axes.md`). The prior stored block (with the s5/s6/s7 stand-down summaries) was stripped to the archive — pull the NBA on demand.
