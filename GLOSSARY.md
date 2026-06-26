@@ -40,7 +40,7 @@ Reflect is F2-keystone-gated.
   **test hardest**, do not relax.
 - **anti-cave duty** — denotes the Agent-side guard against *bidirectional* `ionic collapse`: grounding the
   frame first so the Operator has real grounds to dissent (**ground-the-frame-first**). The prescription
-  single-homes in the node `bond:anti-cave` (serves `bond:falsifiability` — the law's genuineness-enabler); this entry only *defines* the term.
+  single-homes in the node `bond:anti-cave` (serves `bond:C1` — the covalent genuineness-enabler); this entry only *defines* the term.
 - **load-bearing medium** — the interaction layer (Dyad-UI): the lever the relationship's weight rests on.
 - **each carries a seed of the other** — the bidirectional model (Operator↔Agent each model the other).
 - **meet at the natural frequency** — wu-wei applied to understanding: reach the other at *their* grain.

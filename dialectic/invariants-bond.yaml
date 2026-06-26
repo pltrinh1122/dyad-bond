@@ -7,15 +7,16 @@
 # conformance-invariants the S1 resolution requires (identity → ID.md; vocabulary → GLOSSARY.md).
 # All one_liners are DECLARATIVE (a condition that holds; breach = its negation) — rub 2026-06-16.
 #
-# 14 core records (atomic) + 2 conformance candidates = 16. Roots: Telos (fiat), C1 (forged — now the STATE).
+# 11 core records (atomic) + 2 conformance candidates = 13. Roots: Telos (fiat), C1 (forged — the covalent STATE).
 # (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
 # (2026-06-26, the DNA/G0 thread: +locus heritability axis — g0 (=DNA, universal dyad-gene; contributing it
 #  EXPANDS G0) / phenotype (bond-specific, regenerated per dyad) / unclassified (6 edges, Operator-dispose
 #  pending — deferrals.md). The machine shadow of DYAD.md §DNA; "all DNA is G0-inherited." schema 0.10.0.)
 # (2026-06-26 altitude refactor — C1 re-cut to the covalent STATE (the cherished consequence); no-ionic +
-#  no-meld DISSOLVED (ionic/meld are C1's breach-faces, not nodes); the ONE falsification law = falsifiability
-#  + no-dogma — a candidate faces the SAME bar C1 did (entry & retention, nothing exempt); enablers two-models /
-#  no-self-ratify / anti-cave (genuineness) + wu-wei (livability, IFF3) serve falsifiability. (candidate = same law as C1).)
+#  no-meld DISSOLVED (ionic/meld are C1's breach-faces, not nodes). FOLD (2026-06-26): falsifiability + no-dogma
+#  + wu-wei are INHERITED G0 (the form's falsification law + manner) — bond does NOT assert them → not bond-nodes
+#  (form-grounding: inherit, never re-node). bond's contribution = C1 + enablers two-models / no-self-ratify /
+#  anti-cave, which now serve C1 directly. A recipient already holds the law (its G0); bond transmits only covalence.)
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
 # Render/diff: python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md
 
@@ -53,7 +54,7 @@ invariants:
     prescription: {action: keep, object: "the bond covalent (sharing-not-transfer, distinct-not-merged)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "un-covalent — reached via ionic (override / sycophancy / the dyad-loom rubber-stamp) or meld (one model wearing two hats)"}
 
-  # ---- genuineness-enablers — what keeps the ONE falsification law GENUINE, not counterfeit (serve bond:falsifiability); their failure is a collapse-face of C1 ----
+  # ---- the covalent enablers (bond's CONTRIBUTION) — keep the inherited falsification law GENUINE for THIS bond; serve C1; their failure is a collapse-face of C1 ----
   #   no-ionic DISSOLVED 2026-06-26: "neither half overrides; the Operator's premises are tested too" IS the falsification law applied bidirectionally — ionic is C1's breach-face, not a node.
 
   - id: "bond:two-models"
@@ -66,7 +67,7 @@ invariants:
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:falsifiability", edge: serves, scar: "an independent perspective is what makes falsification GENUINE not meld-counterfeit (separate-in-MODEL, not just separate-in-time); its loss = meld = a collapse-face of C1"}
+      - {ref: "bond:C1", edge: serves, scar: "an independent perspective makes the (inherited) falsification GENUINE not meld-counterfeit (separate-in-MODEL, not just separate-in-time) — keeps the bond covalent; its loss = meld = a collapse-face of C1"}
     scope: {actor: both, trigger: selection-seam}
     prescription: {action: maintain, object: "two distinct, genuinely independent models (the second perspective)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only,
@@ -88,58 +89,19 @@ invariants:
     root: false
     adjudicated: {by: Operator, date: 2026-06-16, currency_note: "promoted edge-scar -> node (s-web4 rub); duty long-operative as Item-F(a), prose home relationship-craft.md"}
     grounded_in:
-      - {ref: "bond:falsifiability", edge: serves, scar: "the active guard — manufactures the grounds that make the Operator's falsification REAL not a cave (re-grounded from the dissolved no-ionic, 2026-06-26); presupposes a distinct second perspective so it CANNOT catch meld"}
+      - {ref: "bond:C1", edge: serves, scar: "the active guard — manufactures the grounds that make the Operator's (inherited) falsification REAL not a cave — keeps the bond covalent; presupposes a distinct second perspective so it CANNOT catch meld"}
     scope: {actor: agent, trigger: selection-seam}
     prescription: {action: manufacture, object: "genuine grounds for the Operator to dissent (ground-the-frame-first)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "the confab / moot grant-CTA — an ungrounded surface that induces a wrong Y (Item-F(a))"}
 
-  # ---- THE ONE FALSIFICATION LAW (falsifiability + no-dogma — entry & retention, every member, nothing exempt) + manner ----
-
-  - id: "bond:falsifiability"
-    locus: g0             # already form-G0 (status: inherited) — the conserved case; now stated at full generality
-    home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "Anything holds a place in the shared model — a candidate at entry, a ratified claim, the tenet, even C1 — only by currently surviving genuine falsification, earned and never asserted."
-    status: inherited
-    form: tuple
-    settlement: settled
-    re_rub_triggers: [breach-evidence]
-    root: false
-    grounded_in:
-      - {ref: "bond:C1", edge: serves, scar: "the ONE law that PRODUCES covalence — candidate, claim, tenet, C1 itself face the same bar (the candidate 'gate' = this law at entry; no separate node, 2026-06-26)"}
-    scope: {actor: both, trigger: candidate-admission}
-    prescription: {action: earn, object: "a place in the shared model (any member, the Operator's premises included)", modality: ONLY-BY, via: "surviving genuine falsification — the same bar at entry and on re-rub"}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "a +1 held without surviving genuine attack (willed-not-earned) — incl. an untested candidate admitted (the dyad-loom rubber-stamp)"}
-
-  - id: "bond:no-dogma"
-    locus: g0
-    home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "A ratified claim is true-for-now and stays re-rubbable — nothing is exempt from re-falsification at a context-shift."
-    status: ratified
-    form: tuple
-    settlement: settled
-    re_rub_triggers: [breach-evidence, context-shift]
-    root: false
-    grounded_in:
-      - {ref: "bond:falsifiability", edge: serves, scar: "s14 no-exemption amendment"}
-    scope: {actor: both, trigger: ratification}
-    prescription: {action: hold, object: "a ratified claim as re-rubbable (true-for-now, not dogma)", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "ratification-laundering: converge-open ideation treated as settled by repetition (s14)"}
-
-  - id: "bond:wu-wei"
-    locus: g0             # already form-G0 (status: inherited)
-    home: "DYAD.md#NON-NEGOTIABLE"
-    one_liner: "Force applied is minimal and works with the grain — the lightest anchor that still moves (wu-wei)."
-    status: inherited
-    form: slogan
-    settlement: settled
-    re_rub_triggers: [breach-evidence]
-    root: false
-    grounded_in:
-      - {ref: "bond:Telos", edge: serves}
-      - {ref: "bond:falsifiability", edge: serves, scar: "IFF3 — wu-wei keeps the falsification LIVABLE: relentless adversarial grinding burns the human out and loses on sustainability, so wu-wei is *inside* the law as its 4th enabler (livability), alongside two-models / no-self-ratify / anti-cave (genuineness)"}
-    scope: {actor: both, trigger: selection-seam}
-    prescription: {action: apply, object: "minimum force; meet at the natural frequency", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "anti-wu-wei over-rubbing past the natural frequency (RB2 watch)"}
+  # ---- THE FALSIFICATION LAW + manner = INHERITED G0 (folded out 2026-06-26 — "fold all three") ----
+  #   bond:falsifiability (the law — anything earns its place only by surviving genuine falsification, entry &
+  #   retention, nothing exempt), bond:no-dogma (its no-exemption face), and bond:wu-wei (minimum force /
+  #   livability) are the FORM'S G0. bond INHERITS them and does NOT assert them, so they are not bond-nodes
+  #   (bond:form-grounding — inherit, never re-node). They live in the form's G0; DYAD.md §NON-NEGOTIABLE
+  #   references them as the inherited floor. What bond AUTHORS = covalence turned on that law: C1 + the
+  #   enablers two-models / no-self-ratify / anti-cave (now serve C1 directly). A recipient dyad already holds
+  #   the law (its G0 too) — bond transmits only the covalent contribution.
 
   - id: "bond:single-home"
     locus: unclassified   # edge: universal good-practice or bond craft-tooling? Operator-dispose
@@ -241,7 +203,7 @@ invariants:
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:falsifiability", edge: serves, scar: "proposer ≠ disposer — a self-ratified candidate never faced genuine falsification (re-grounded from C1, 2026-06-26)"}
+      - {ref: "bond:C1", edge: serves, scar: "proposer ≠ disposer — a self-ratified candidate never faced genuine (inherited) falsification; keeps the bond covalent"}
     scope: {actor: both, trigger: ratification}
     prescription: {action: ratify, object: "a candidate by its own proposer", modality: MUST-NOT}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom: the proposer ratified its own candidate"}
