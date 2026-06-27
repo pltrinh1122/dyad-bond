@@ -86,6 +86,12 @@ the form's DIP (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
   the agent proposes from a breach and the Operator disposes. bond's = `bond:C1` + its enablers.
 - **assertion-timing** — at birth only `craft-telos` is assertable; value + invariant materialize through
   practice (generalizes the DIP's 8th dimension, "tenet-alive materializes, not asserted").
+- **Deprecated display names → redirect** *(2026-06-26 rename — the old names resolve **here**; they are
+  **not** swept from records, per single-home + don't-rewrite-provenance)*: **`NON-NEGOTIABLE`** →
+  `craft-value` + `craft-invariant` · **bond's root `Telos`** → `craft-telos` (machine node `bond:Telos` →
+  `bond:craft-telos`). Pre-rename ledgers/retros/kb and the form's DIP (Dimension #1 / #5, which bond's
+  proposal renames) keep the old names **by design**. *(The inherited generic **`Telos`** in the §G0 seed
+  vocabulary above is **unchanged** — only bond's two roots were renamed.)*
 
 ## Cross-links
 `ID.md` (identity meaning-root) · `dialectic/invariants-bond.yaml` (the nodes written in this vocabulary)

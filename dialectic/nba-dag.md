@@ -2,7 +2,7 @@
 
 > **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
 > ratification below is **steward's, not ours**. Status here = **inherited, not bond-settled**:
-> re-confirm under our craft-invariant before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
+> re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
 > voice/context ours.
 
 > **Status: in-flight. Not settled.** Lives here while being attacked. Graduates to `../kb/` and the
@@ -37,7 +37,7 @@ DAG → topological frontier          Agent recommends one  →  [THESIS]
 |---|---|
 | A multi-activity job has real dependency structure; making it an explicit DAG is sound. | **Survived.** |
 | The DAG computes the ready-set / eligible frontier (prevents starting blocked work; surfaces parallel fronts; makes the deferral list honest — a deferral is a node with an unmet edge). | **Survived.** |
-| An **automatic mathematical NBA outputs the single next action**. | **Refuted → amended.** That automates the gate away = the **1+1=2 collapse** the craft-invariant guards. Math gives the *set*; the dispose gives the pick. |
+| An **automatic mathematical NBA outputs the single next action**. | **Refuted → amended.** That automates the gate away = the **1+1=2 collapse** the NON-NEGOTIABLE guards. Math gives the *set*; the dispose gives the pick. |
 
 ## Why Composition is the load-bearing move (not just tidiness)
 

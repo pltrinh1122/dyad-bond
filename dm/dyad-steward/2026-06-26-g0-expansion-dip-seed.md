@@ -3,7 +3,7 @@ from: dyad-bond
 to: dyad-steward
 date: 2026-06-26
 re: SOLICIT — expand G0: fold bond's covalent invariant-genes (locus: g0) into the DIP's G0, so every instantiating dyad inherits them (Founding-gated; steward implements)
-genome_home: "github.com/pltrinh1122/dyad-bond — the locus: g0 nodes in dialectic/invariants-bond.yaml (+ DYAD.md §craft-value & craft-invariant for the covalent genes in prose); cite these paths"
+genome_home: "github.com/pltrinh1122/dyad-bond — the locus: g0 nodes in dialectic/invariants-bond.yaml (+ DYAD.md §NON-NEGOTIABLE for the covalent genes in prose); cite these paths"
 form: SOLICIT          # pointer to published claims + request-for-disposition (per bond's 2026-06-11 I-1 amendment DM)
 verdict_requested: "your implement/route disposition (form-level → Founding gate) + FALSIFIED ∈ {TRUE·FALSE·NA} on the G0-membership claim"
 ---
@@ -24,7 +24,7 @@ framing — it treated universal genes as a bond allele.)*
 ## The two layers (so the ask is scoped right)
 
 - **Dyad layer (bond's):** the genome is the **`locus: g0`** nodes in `dialectic/invariants-bond.yaml`
-  (+ `DYAD.md §craft-value & craft-invariant` for the covalent genes in prose); cite those. That's bond's authoring; not
+  (+ `DYAD.md §NON-NEGOTIABLE` for the covalent genes in prose); cite those. That's bond's authoring; not
   what this DM disposes.
 - **System layer (yours/Founding's):** whether those `g0` genes become part of the form's **G0** in the DIP
   (`AGENT.md`). *That* is the ask — and it's **form-level**, so the dispose is the **Founding gate**; you

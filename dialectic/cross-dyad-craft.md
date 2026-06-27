@@ -221,7 +221,7 @@ healer) and dog-fooded the FR protocol on itself. Harvest:
 
 - **anti-cave fired cross-dyad.** On steward's gated-main refutation: *“Conceded — your refutation
   lands… re-derived, not waved through.”* Bond refused to rubber-stamp a **sibling** exactly as the
-  craft-invariant refuses to rubber-stamp the **Operator** — *and* refused **false independence** the
+  NON-NEGOTIABLE refuses to rubber-stamp the **Operator** — *and* refused **false independence** the
   other way (bond ≠ a valid responder to its own integrated v2 = self-attack wearing two hats). The
   interior discipline **generalized to a new counterparty** = a genuine independent test of it.
 - **D6-external-substrate, corroborated from outside.** Steward's inaugural **“submodule STALE”**

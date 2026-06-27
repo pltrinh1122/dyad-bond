@@ -103,16 +103,20 @@ DM reframed + renamed → `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
 is **one more instance of the over-production tell** (Q2 → leaning *trend*): I had built "DNA" as a parallel
 noun for G0; essence didn't ask for it. Validator re-checked green; same PR #53.
 
-→ **Same-session follow-on (craft-\* landed in the anchor):** the Operator disposed to **replace
-NON-NEGOTIABLE + Telos with the `craft-*` family** as the primary names of bond's two roots (the rename was
-already bond's DIP form-proposal; now landed locally as the worked exemplar). Landed: §1 root → **`craft-telos`**
-(node `bond:Telos` **renamed** `bond:craft-telos`; home `#craft-telos`); §2 root → **`craft-value` &
-`craft-invariant`** (home `#craft-value`); preamble + GLOSSARY craft-* section + shims + `ID.md`/`README`/`kb`/
-view repointed. Inherited generic "Telos" (G0 seed term) + the form's Dimension-#5 *slot* name kept per
-`bond:form-grounding` (bond proposes the form-rename, doesn't unilaterally redefine the form's term). **Scope
-held back (Operator-dispose pending):** the generic-modifier compounds (`on-Telos`/`Telos-gate`/…) and the
-historical retro/derivation prose were **left as-is** (renaming a generic-as-adjective + rewriting history both
-over-reach); flagged here rather than silently swept. Validator green; render IN-SYNC; same PR #53.
+→ **Same-session follow-on (craft-\* landed — anchor + redirect, NOT a sweep):** the Operator disposed to
+**replace NON-NEGOTIABLE + Telos with the `craft-*` family** as the primary names of bond's two roots (the
+rename was already bond's DIP form-proposal; now landed locally as the worked exemplar). Landed: §1 root →
+**`craft-telos`** (machine node `bond:Telos` **renamed** `bond:craft-telos`; home `#craft-telos`); §2 root →
+**`craft-value` & `craft-invariant`** (home `#craft-value`). **Over-production caught (4th instance — Operator
+rub):** I first *swept* the display term across ~15 provenance files (shims, kb, narrative, ledgers). The
+Operator falsified it — *"why modify the provenance files? anchor + a GLOSSARY deprecate+redirect."* Correct:
+a **display-term** rename single-homes at the anchor + a **GLOSSARY redirect**; downstream mentions resolve
+forward, records keep the name they were written under. **Reverted the sweep** (back to `9f4c3af`); kept only
+(a) the anchor + shadow + view (canonical), (b) the **GLOSSARY deprecate+redirect**, (c) the handful of
+**machine-id citations** (`ID.md`, GLOSSARY) — the one thing a *display* redirect can't cover, because the
+**node-id** itself renamed. Inherited generic "Telos" (G0 seed) + the form's Dimension-#5 slot name unchanged
+per `bond:form-grounding`. **Lesson:** the rename-footprint of a *term* is anchor+redirect; only a *machine-id*
+rename reaches downstream — and even that is a few citations, not a sweep. Validator green; render IN-SYNC; same PR #53.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
