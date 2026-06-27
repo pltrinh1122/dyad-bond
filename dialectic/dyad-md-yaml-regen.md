@@ -158,6 +158,58 @@ What stays CANDIDATE: the **pipeline itself is unbuilt** — inline tags don't e
 engine is cairn's DRAFT commission. So (b) is the ratified *spec*; the lived `md → yaml` derivation graduates
 to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
 
+## Change-propagation formalization — the derivation-edge map *(CANDIDATE · Operator `Y` 2026-06-27)*
+
+> **Prerequisite to operational guardrails.** A guardrail is *enforcement of a gate on a derivation edge*.
+> Before strengthening guardrails for **initiating** and **propagating** changes, the edges must be typed:
+> `source → sink`, derivation-mechanism (today's *actual* state), the gate, and what the gate certifies.
+> Build guardrails before this map and you risk claiming a *generated*-edge guarantee on a *derived* (hand)
+> edge — false confidence — or gating the wrong direction (blocking the yaml-first reasoning workflow).
+
+### Vocabulary — authored / derived / generated *(Operator 2026-06-27 — honest mechanism-state)*
+- **authored** — created by the dyad's *Generate* half. The source: **`DYAD.md`**. (The tenet-"Generate"
+  lives *here*; don't overload it downstream.)
+- **derived** — dependent on source, kept consistent **by hand**, no generator. A derived-edge gate can only
+  check **consistency**, never correctness.
+- **generated** — produced by a **mechanical, gated `f`**. A generated-edge gate can "re-run `f` and diff."
+- **Rule:** say **derived** until a mechanical `f` exists *and is gated*; only then is the edge **generated**.
+  (Until the extraction engine ships, the most important edge — `md → yaml` — is **derived**, not generated.)
+
+### The edge map (today's state)
+| Edge | source → sink | type **now** | gate | certifies / blind-to |
+|---|---|---|---|---|
+| **E1** | `DYAD.md` → `invariants-bond.yaml` | **derived (hand)** — engine unbuilt | `anchor_dag_diff` 2-way coverage | **completeness** (0 omission / 0 over-extraction); **blind to fidelity** |
+| **E2** | `.yaml` → `invariants-bond.rendered.md` | **generated** (`--emit`) | drift-gate (lockstep; exit 1 if stale) | render-determinism |
+| **E3** | `rendered.md`/sources → `views/invariants-bond.md` | **mixed**: constitutional = generated; `D/R/X/U/S` = derived (hand) | source-pin; **hand-tier un-gated** | partial; hand-tier has **no source** |
+| **AUDIT** | view ↔ `DYAD.md` | **human check** (not a derivation) | Operator manual cross-ref | **fidelity** (covers E1's blind spot); **decays with attention** (Φ1) |
+
+### What this dictates for the guardrails (the enforcement layer — built AFTER, on top of this)
+- **E1 fidelity is not mechanizable until the extraction engine ships.** Until then the strongest E1 guardrail
+  is: **completeness-gate at land** (`anchor_dag_diff` clean) **+** a **cheap, land-mandatory human
+  fidelity-audit**. (The auto-propagate-md→yaml guardrail you'd most want **cannot be built yet** — E1 is
+  derived, not generated. Don't chase it; build the three buildable gates.)
+- **E2** is already a generated-edge gate (lockstep) — keep.
+- **E3's hand-tier** (`D/R/X/U/S`) must gain **source pre-images** or be **scoped out of the audit-view**
+  (un-auditable against source by construction).
+
+### The side-by-side audit view — spec *(the E1-fidelity instrument)*
+**Purpose:** make the human fidelity-audit *cheap* — else it decays → counterfeit-green. Per invariant node,
+render the **derived claim beside its source prose** so a fidelity mismatch is spottable in seconds:
+
+`[node-id] | SHADOW one_liner | DYAD.md source-excerpt | match?`
+
+A **2nd-order generated** view (a renderer reads `yaml` + `DYAD.md`), home `views/invariants-bond.audit.md`.
+
+**Requires a per-node source reference** — the yaml `home` is *section*-level (too coarse for sentence-level
+side-by-side; several nodes share one `home`). **Recommended: a per-node `source_quote`** (the exact `DYAD.md`
+sentence the `one_liner` extracts), because it *also* enables a **mechanical verbatim-containment gate** — the
+quote must appear in `DYAD.md` → catches a class of E1 drift the lexical coverage-diff misses (the *one* slice
+of fidelity the machine *can* certify: that the cited source text is real, even if it can't certify the
+paraphrase is faithful). **Tension to dispose:** `source_quote` re-introduces a source *excerpt* in the yaml —
+cf. the ratified (b) lean-tag/sidecar design that avoided content-dup. The quote is a *derived, checkable
+excerpt* (regenerated, gate-verified), not a rival content-home — but it trades lean-yaml for
+audit-precision + a partial fidelity-gate. → the build-fork below.
+
 ## Cross-links
 `anchor-dag-thesis.md` (S1: state-to-falsify) · `dyad-dag-derivation.md` (the two-layer cut this rub
 re-rubs) · `bin/anchor_dag_diff.py` (the gate) · `invariants-bond.yaml` (the shadow) · `DYAD.md` (the
