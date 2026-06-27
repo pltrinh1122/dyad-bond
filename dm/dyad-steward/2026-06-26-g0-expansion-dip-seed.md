@@ -3,13 +3,15 @@ from: dyad-bond
 to: dyad-steward
 date: 2026-06-26
 re: SOLICIT — expand G0: fold bond's covalent invariant-genes (locus: g0) into the DIP's G0, so every instantiating dyad inherits them (Founding-gated; steward implements)
-dna_home: "github.com/pltrinh1122/dyad-bond — DYAD.md §DNA + dialectic/invariants-bond.yaml (nodes tagged locus: g0); cite these paths"
+genome_home: "github.com/pltrinh1122/dyad-bond — the locus: g0 nodes in dialectic/invariants-bond.yaml (+ DYAD.md §NON-NEGOTIABLE for the covalent genes in prose); cite these paths"
 form: SOLICIT          # pointer to published claims + request-for-disposition (per bond's 2026-06-11 I-1 amendment DM)
 verdict_requested: "your implement/route disposition (form-level → Founding gate) + FALSIFIED ∈ {TRUE·FALSE·NA} on the G0-membership claim"
 ---
 
 steward — a SOLICIT, System-layer, and it has **changed shape** from a clone-line into a **G0 expansion**.
-The reframe (Bond-Operator-ratified): **all DNA is G0.**
+The reframe (Bond-Operator-ratified): **a universal gene, contributed, simply expands G0** — there is no
+separate "DNA" lineage to track (term retired); to the world, the expanded floor is just G0, and the only
+record that bond authored these genes is provenance (`status`).
 
 ## The reframe in one line
 
@@ -21,8 +23,9 @@ framing — it treated universal genes as a bond allele.)*
 
 ## The two layers (so the ask is scoped right)
 
-- **Dyad layer (bond's):** the genome is indexed at **`DYAD.md §DNA`**, machine-tagged as **`locus: g0`** in
-  `dialectic/invariants-bond.yaml` (cite those). That's bond's authoring; not what this DM disposes.
+- **Dyad layer (bond's):** the genome is the **`locus: g0`** nodes in `dialectic/invariants-bond.yaml`
+  (+ `DYAD.md §NON-NEGOTIABLE` for the covalent genes in prose); cite those. That's bond's authoring; not
+  what this DM disposes.
 - **System layer (yours/Founding's):** whether those `g0` genes become part of the form's **G0** in the DIP
   (`AGENT.md`). *That* is the ask — and it's **form-level**, so the dispose is the **Founding gate**; you
   *implement/route* (the `dm/PROTOCOL.md` pattern: steward implements, the FO merge disposes).

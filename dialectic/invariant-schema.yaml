@@ -3,7 +3,7 @@
 # rationale). On structural conflict: THIS FILE WINS. On meaning: the MD wins.
 # Engine binding: build-time, not runtime (A-3 grammar_version pins; no yaml dependency in the engine).
 schema: dyad-invariant
-schema_version: "0.10.0"    # 0.10: +locus (G0/phenotype heritability axis; all-DNA-is-G0, 2026-06-26) · 0.9: enforcement un-deferred — per-field A/B tag (s-web4, 2026-06-16)
+schema_version: "0.10.0"    # 0.10: +locus (G0/phenotype heritability axis, 2026-06-26) · 0.9: enforcement un-deferred — per-field A/B tag (s-web4, 2026-06-16)
 fleet_idiom: yaml          # converges with fr.yaml / dag.yaml / theory-pipeline.yaml (D1)
 
 condition_grammar:         # G1 fix (evaluator-build surfaced: undeclared = consistency hazard at meta-level)
@@ -22,7 +22,7 @@ vocabularies:              # controlled — closed unless marked registry
   detector:    [hard-oracle, soft-record, other-half-only, unobservable-from-inside]
   edge_type:   [derived, serves, inherited]
   root_kind:   [fiat, forged, inherited]
-  locus:       [g0, phenotype, unclassified]   # heritability axis (2026-06-26): G0-membership. g0 = universal dyad-gene = DNA (heritable; contributing it EXPANDS G0 — all DNA is G0-inherited) · phenotype = bond-specific, regenerated per dyad (not heritable) · unclassified = edge, pending Operator disposal. The machine shadow of DYAD.md §DNA; already-G0-vs-expansion-candidate timing is carried by `status` (inherited vs ratified/candidate).
+  locus:       [g0, phenotype, unclassified]   # heritability axis (2026-06-26): G0-membership. g0 = universal dyad-gene (heritable; contributing it EXPANDS G0 — to the world the expanded floor is just G0) · phenotype = bond-specific, regenerated per dyad (not heritable) · unclassified = edge, pending Operator disposal. already-G0-vs-expansion-candidate timing is carried by `status` (inherited vs ratified/candidate). ("DNA" framing retired 2026-06-26 — redundant with G0.)
   enforcement: [hard-oracle, trust-boundary]  # per-field A/B (un-deferred s-web4) — gate vs declare
   re_rub_trigger: [context-shift, breach-evidence, census-conflict-flag, upstream-form-change]
   trigger:     # REGISTRY (open, append-only; the seam-taxonomy — the declared semantic-residue field)
@@ -47,8 +47,8 @@ record:                    # per-invariant constraints (engine VALIDATE stage �
     re_rub_triggers: {enforcement: hard-oracle, type: list, items: {enum: re_rub_trigger}, required_iff: "settlement != candidate"}
     root:        {enforcement: hard-oracle, type: bool, default: false}
     root_kind:   {enforcement: hard-oracle, enum: root_kind, required_iff: "root == true", forbidden_iff: "root == false"}
-    locus:       {enforcement: trust-boundary, enum: locus, optional: true,   # G0/phenotype heritability; enum-gated (form), TRUTH (which-is-DNA) = Operator disposal (B). shadow of DYAD.md §DNA.
-                  note: "g0=DNA-heritable-expands-G0 · phenotype=regenerated-per-dyad · unclassified=edge-pending-dispose"}
+    locus:       {enforcement: trust-boundary, enum: locus, optional: true,   # G0/phenotype heritability; enum-gated (form), TRUTH (which-is-g0) = Operator disposal (B).
+                  note: "g0=heritable-expands-G0 · phenotype=regenerated-per-dyad · unclassified=edge-pending-dispose"}
     adjudicated: {enforcement: trust-boundary, type: object, required_iff: "root == true",  # B-4 adjudication-truth: unverifiable-from-inside
                   fields: {by: {const: Operator}, date: {type: date}, currency_note: {type: string}}}
     grounded_in: {enforcement: trust-boundary, type: list, required_iff: "root == false", forbidden_iff: "root == true",  # graph GATED (orphan/cycle/term); edge-PLAUSIBILITY = B

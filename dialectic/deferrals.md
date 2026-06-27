@@ -18,15 +18,16 @@
 
 ## todo
 
-- **`locus` edge-disposal + the G0-membership validator** *(spawned 2026-06-26, the DNA/G0 thread)* — six
+- **`locus` edge-disposal + the G0-membership validator** *(spawned 2026-06-26, the G0/heritability thread)* — six
   nodes carry `locus: unclassified` (`Telos` · `single-home` · `kb-graduation` · `form-grounding` ·
-  `prove-before-propose` · `channel-gates`); each is a genuine *which-is-DNA* judgment (System-interface vs
+  `prove-before-propose` · `channel-gates`); each is a genuine *which-is-g0* judgment (System-interface vs
   dyad-gene; content vs slot) = an **Operator disposition**, not conformance work. **Trigger = the first real
   G0-expansion** (a second dyad inheriting the covalent genes — that practice forces the edges *and* falsifies
   the partition). At that point also: (a) **wire the validator check** — a `locus: g0` Belief-gene must
   co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
-  G0-expansion set from `locus: g0` instead of hand-listing. → `DYAD.md §DNA` · `dialectic/invariants-bond.yaml`
-  · the SOLICIT `dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md`.
+  G0-expansion set from `locus: g0` instead of hand-listing. → the `locus: g0` nodes in
+  `dialectic/invariants-bond.yaml` · `DYAD.md §NON-NEGOTIABLE`
+  · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
 
 - **DYAD.md §NON-NEGOTIABLE + frame prose → re-altitude to the refactored shadow** *(spawned 2026-06-26,
   the altitude refactor; Operator deferred — "yaml first")* — the shadow now reads: **C1 = the covalent
