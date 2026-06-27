@@ -41,6 +41,8 @@ record:                    # per-invariant constraints (engine VALIDATE stage â€
     home:        {enforcement: hard-oracle, type: string}   # single-home ref; file gated, #anchor declared (engine tag-grammar)
     one_liner:   {enforcement: trust-boundary, type: string, max_chars: 300,  # display PROJECTION â€” tuple wins; fidelity = B-2
                   note: stored-at-ratification-never-regenerated}
+    source_quote: {enforcement: hard-oracle, type: string, optional: true,  # the verbatim DYAD.md prose the one_liner derives from;
+                   note: "audit_view.py gates verbatim-presence in DYAD.md (E1-fidelity instrument); whitespace-normalized"}
     status:      {enforcement: hard-oracle, enum: status}
     form:        {enforcement: hard-oracle, enum: form}
     settlement:  {enforcement: hard-oracle, enum: settlement}
