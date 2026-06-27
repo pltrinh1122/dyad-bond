@@ -22,21 +22,23 @@
    the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
-5b. **Triage the scratch tank** *(→ `dialectic/scratch-tier.md`; tool `bin/scratch.sh --list`)* — the
-   minimal-save buffer (save≠land). Land what's settled into `dialectic/`, then `--done <id>`; `--done`
-   or discard the rest. Intake rots if not reloaded (the ingraining-watch). *(Carried in this prose step because the
-   `standup.sh` SessionStart surfacing is NOT yet installed — Operator-gated, S2; don't rely on the hook.)*
+5b. **Durability discipline** *(→ `dialectic/substrate-access.md §Scratch RETIRED`)* — commit+push WIP at every
+   **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
+   the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
+   thread-until-land; durability-of-record is this auto-save, not a separate store. Reloaded here so it ingrains.)*
 6. **Arm the IM daemon** *(→ `dialectic/im-daemon.md` — has the EXACT hardened command; arm it **verbatim**,
    don't re-derive — the naive version was falsified)* — a session-scoped **persistent `Monitor`** over
    `falsify.py inbox --me dyad-bond`: emit-on-rise (new mail) + **gh-health-gated** blind alert. Session-
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@585f2ba` — the hedge-tell
-> signature-2 (proactive-defense follow-on, `DYAD.md:50`); merged PR #48, boot-VERIFIED 2026-06-25.
-> Update this line whenever `DYAD.md` (or a shim) changes. *(Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (CRISP form, refreshed 2026-06-25):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@585f2ba` — IN-SYNC. **`standup.sh`/`standdown.sh` now read THIS line** for the per-file compare (the single-sha line above is the human gloss); the prior single-baseline-vs-per-file false-positive is fixed at source (Phase 2).
-> **RESTART-PENDING: SET (2026-06-26)** — `DYAD.md` **edited this session** (§NON-NEGOTIABLE/§Falsifiability re-altitude · **§DNA RETIRED — folded into G0; Belief relocated as `bond:C1`'s grounding** · **craft-\* LANDED — the two roots renamed `craft-telos` + `craft-value`/`craft-invariant`; node `bond:Telos`→`bond:craft-telos`** · de-paren) on branch `claude/dyad-dna-replication-dip-rqj007` → **PR #53**. The running session holds the OLD anchor (ROM); the re-altituded anchor loads only after **PR #53 merges + a fresh boot**. On merge: boot-verify + refresh the ROM-baseline to the merged `DYAD.md` commit. *(Prior baseline: `DYAD.md@585f2ba`, boot-verified 2026-06-25.)*
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@e0c9280` — the **craft-\* /
+> G0-fold refactor** (PR #53 merged `df86b02`): the two roots renamed `craft-telos` + `craft-value`/`craft-invariant`,
+> DNA retired into G0, Belief relocated as `bond:C1`'s grounding. **Boot-VERIFIED 2026-06-27** (this session
+> *is* the cold ROM-boot = the owed E0 test; the two-root DAG read coherent at boot). Update this line whenever
+> `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@585f2ba`, PR #48, 2026-06-25. Older ROM history → `carry-forward-closed.md`.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-06-27):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@e0c9280` — IN-SYNC (shims untouched by PR #53; only `DYAD.md` moved). **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the single-sha line above is the human gloss).
+> **RESTART-PENDING: CLEARED (2026-06-27)** — PR #53 **merged** (`df86b02`) + **fresh boot done**: this session booted the re-altituded anchor (`DYAD.md@e0c9280`), so the RESTART-PENDING set 2026-06-26 is **discharged**. Boot-verify ✓ (craft-\* reads clean cold); steward DM ✓ published on `main` (rode in with PR #53, sender-hosted-pull); ROM-baseline refreshed (above). **Residue, unchanged + logged:** the re-altitude todo (`deferrals.md`) — anchor *prose* still trails the refactored shadow (DAG round-trip: 3 over-extraction `anti-cave`/`prove-before-propose`/`no-self-ratify` · 7 prescriptive-omission; validator green, digest IN-SYNC). Anchor-class + Operator-gated → not touched at resume.
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
@@ -146,6 +148,31 @@ links.
 > production? (2) does the **anchor+redirect** rename-discipline graduate to `kb/` — and is it **form-level**
 > (every dyad renames terms)? (3) the craft-\* roots are **un-booted** — does `craft-value`/`craft-invariant`
 > read as clean at a cold ROM-boot as it did mid-rub, or did the rename's momentum carry an over-cut?
+
+→ **Stand-Up 2026-06-27 (resume — PR #53 post-merge reconciliation):** the RESTART-PENDING gate **cleared**.
+PR #53 merged (`df86b02`); **this session booted the re-altituded anchor** (`DYAD.md@e0c9280`) = the cold ROM-boot
+that was the owed E0 test. **Resolves the close's rub-forward Q3:** craft-\* reads clean cold — `craft-telos` +
+`craft-value`/`craft-invariant` boot as a coherent two-root DAG; **no over-cut surfaced at boot** (the rename's
+momentum did not carry one). Did (mechanical, `bond:rom-ui` + standing-durability): cleared RESTART-PENDING,
+refreshed the ROM-baseline + per-file set to the merged commits, confirmed the steward DM is already published on
+`main` (rode in with PR #53; sender-hosted-pull → steward can pull it — nothing to send). Validator green (exit 0,
+all PASS), digest IN-SYNC. **Residue (logged, unchanged):** the re-altitude todo — anchor *prose* trails the
+shadow (3 over-extraction / 7 omission); anchor-class + Operator-gated, untouched. **Resume:** live fronts
+unchanged (**Covalent-bond frontier** + **Ingraining-watch**); NBA surfaces the backlog for Operator selection
+(re-altitude · Intent-clarity-arc STALE [archive/done] · Cluster-classification [your-V] · `locus` edges).
+
+→ **Disposition 2026-06-27 (scratch RETIRED + durability-of-record named):** Operator `fold`+`land`. A
+step-back falsification arc (do-we-need-scratch → what-use-case → thread-until-land dissolves it → its companion
+is Agent-owned WIP-commit → are you actually doing that?). **Landed:** `bin/scratch.sh` RETIRED (mount-coupled =
+cloud-dark *symptom*; use-case dissolved by **thread-until-land** = *root*: no boundary until after a land, so
+un-landed raw never crosses one — empty by construction). Durability-of-record = the layer-1 **Agent-owned WIP
+auto-save** (commit+push at natural pauses, **un-gated**), **Stop-hook-enforced** (substrate-agnostic). De-wired
+scratch from `standup.sh`/`standdown.sh`; resume step 5b repurposed to the durability discipline (reloads → ingrains).
+Single-home → `substrate-access.md §Scratch RETIRED`. **Ingraining-watch hit (mine, Operator-caught):** I'd been
+**over-gating durability** — deferring WIP-commit to the `land` moment (the abdication mis-anchor), leaning on the
+Stop hook as backstop rather than owning auto-save. Correction is mechanized (the hook), not promised. **Still
+open (separate disposition):** the two-clause substrate-agnostic principle + the rest of the cluster (`standup.sh`
+mount-probe · IM daemon · the absent `bin/falsify.py`). → `substrate-access.md`.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.

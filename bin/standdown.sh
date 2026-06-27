@@ -62,21 +62,13 @@ dur_line="clean + in sync on \`$branch\`."
 [[ -n "$dirty" ]] && dur_line="⚠ DIRTY on \`$branch\` — commit + push so the memory is grounded."
 [[ -z "$dirty" && "$unpushed" != "0" ]] && dur_line="⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh)."
 
-# Scratch tank — the cheapest triage moment is NOW (context still live), not next-session resume.
-scratch_line="✓ tank clean."
-if [[ -s /mnt/shared_data/dzw/.dyad-bond-state/scratch.jsonl ]]; then
-  if sc="$(bin/scratch.sh --count 2>/dev/null)" && [[ "$sc" =~ ^[0-9]+$ ]]; then
-    [[ "$sc" != "0" ]] && scratch_line="⚠ $sc unreviewed save(s) — land the settled / --done the rest before the boundary (cheap now, dear next session)."
-  else
-    scratch_line="⚠ could not read the tank — check by hand."
-  fi
-fi
+# Scratch tier RETIRED 2026-06-27 (Operator fold+land) — durability-of-record is the Agent-owned WIP
+# auto-save (commit+push at natural pauses), Stop-hook-enforced. → dialectic/substrate-access.md §Scratch RETIRED.
 
 mech="$(printf '%s\n' \
   "dyad-bond stand-down — mechanical:" \
   "  ROM: $rom_line" \
-  "  Durability: $dur_line" \
-  "  Scratch: $scratch_line")"
+  "  Durability: $dur_line")"
 
 if [[ "${1:-}" == "--log" ]]; then
   printf '%s\n' "$mech"

@@ -91,19 +91,8 @@ else
   add "Substrate: ⚠ ephemeral/partial ($missjoin) → IM daemon NOT armable here; DM-watch is dark this session."
 fi
 
-# ── Scratch tier (minimal-save holding tank; unreviewed = pending triage — anti-rot, Item-I) ───
-# Fail CLOSED: a subprocess failure must NOT read as 'tank clean' (that would hide pending triage).
-if [[ -s /mnt/shared_data/dzw/.dyad-bond-state/scratch.jsonl ]]; then
-  if sc="$(bin/scratch.sh --count 2>/dev/null)" && [[ "$sc" =~ ^[0-9]+$ ]]; then
-    if [[ "$sc" != "0" ]]; then
-      add "Scratch: $sc unreviewed save(s) — triage (bin/scratch.sh --list); land what's settled into dialectic/, --done the rest. (save ≠ land: inv:durability is met at the scratch tier — don't race to synthesize.)"
-    else
-      add "Scratch: ✓ tank clean."
-    fi
-  else
-    add "Scratch: ⚠ could not read the tank (bin/scratch.sh --count failed) — check by hand; do NOT assume clean."
-  fi
-fi
+# ── Scratch tier RETIRED 2026-06-27 (Operator fold+land) — durability-of-record is now the Agent-owned
+#    WIP auto-save (commit+push at natural pauses), Stop-hook-enforced. → dialectic/substrate-access.md §Scratch RETIRED.
 
 # ── Output ───────────────────────────────────────────────────────────────────────────────────
 header="dyad-bond stand-up (bin/standup.sh) — mechanical resume checks. Operate as Covalent; read $LEDGER; then take the NBA / Item-K queue."

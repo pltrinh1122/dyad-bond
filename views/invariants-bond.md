@@ -12,7 +12,7 @@
 > (P4, 2026-06-17). The 17-node constitutional/core DAG is **deterministically rendered** from
 > `dialectic/invariants-bond.yaml` (source: `DYAD.md`) by `bin/anchor_dag_diff.py`, and a **drift-gate
 > guards it** (`STALE ⚠` = counterfeit-green). It is the **superior projection** — finer-grained than
-> the old C1–C5 hand-table (e.g. C1 splits into §2 C1 · §3 no-ionic · §4 no-meld · §5 anti-cave) and
+> the old C1–C5 hand-table (post-2026-06-26 refactor: C1 = the covalent **state**, its enablers `bond:two-models` · `bond:no-self-ratify` · `bond:anti-cave` as distinct nodes; ionic/meld are C1's breach-faces, not nodes) and
 > regen-checked instead of hand-maintained. The easy-agreement **tell** and other practice-heuristics
 > stay homed in `DYAD.md §craft-value & craft-invariant`.
 > *(Partial retirement: only the Constitutional block is mechanized; D/R/X/U/S below stay agent-rendered

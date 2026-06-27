@@ -29,18 +29,6 @@
   `dialectic/invariants-bond.yaml` · `DYAD.md §NON-NEGOTIABLE`
   · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
 
-- **DYAD.md §NON-NEGOTIABLE + frame prose → re-altitude to the refactored shadow** *(spawned 2026-06-26,
-  the altitude refactor; Operator deferred — "yaml first")* — the shadow now reads: **C1 = the covalent
-  STATE**; the **ONE falsification law** (`bond:falsifiability` generalized + `bond:no-dogma`); enablers
-  `bond:two-models` / `bond:no-self-ratify` / `bond:anti-cave` serving falsifiability; **no-ionic + no-meld
-  DISSOLVED** (ionic/meld are C1's breach-faces, not nodes). The anchor/frame prose still describes the OLD
-  collapse-mode structure, so the round-trip flags it (`REGEN-FALSIFIED`; 3 over-extraction). Re-altitude:
-  **`DYAD.md §NON-NEGOTIABLE`** (load-bearing, ROM/identity-adjacent — Operator-gated), **`GLOSSARY.md`**
-  (anti-cave "serves `bond:C1-no-ionic`" → `bond:falsifiability`), **`views/invariants-bond.md`** (the
-  hand-authored table), narrative refs in `relationship-craft.md` / `dyad-ui.md` /
-  `commission-protocol-commissioner.md`. Clears the round-trip flags when done. → `dialectic/invariants-bond.yaml`
-  (the landed shadow) · `views/invariants-bond.rendered.md` (regenerated, in-sync).
-
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
   `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Wearing the
@@ -102,6 +90,23 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ Re-altitude to the refactored shadow — DONE, corrected scope** *(2026-06-27; was a todo spawned
+  2026-06-26 "yaml first")* — **scope corrected on inspection:** the todo (written *before* the craft-\*
+  landing) framed this as a `DYAD.md §NON-NEGOTIABLE` anchor-prose rewrite. **Not needed** — the craft-\*
+  landing (PR #53) already re-altituded the anchor (C1=state · one falsification law · enablers
+  two-models/no-self-ratify/anti-cave · ionic/meld = breach-faces) **and** `GLOSSARY.md` (anti-cave already
+  reads `serves bond:C1` — the todo's predicted `bond:C1-no-ionic → bond:falsifiability` mapping was **wrong**:
+  the merged shadow grounds anti-cave in `bond:C1`, not falsifiability). The 3 round-trip "over-extraction"
+  flags are **lexical-floor false positives** (the nodes *do* appear in `DYAD.md`; the diff is a weak fidelity
+  detector). **Genuine residual = 5 stale machine-refs** (dissolved `C1-no-meld` node-id + renamed
+  `#NON-NEGOTIABLE` anchor-link cited as live): `dyad-ui.md` (hedge-tell home → `bond:two-models`/`#craft-value`)
+  · `relationship-craft.md` · `commission-protocol-commissioner.md` (`C1-no-meld`→`bond:two-models`) ·
+  `views/invariants-bond.md` (dissolved-node parenthetical) · `invariants-bond.yaml` (shadow comment). Fixed;
+  validator green; `DYAD.md`/shims untouched (no RESTART-PENDING). **Anti-sweep:** historical/test-fixture refs
+  left under the name written under. **Lesson (re-confirms the craft-\* rename-discipline):** a refactor's
+  footprint is the anchor + *live* machine-id citations, **not** a prose sweep — and a deferred todo's scoping
+  can itself go stale once later work overtakes it; **re-derive scope at pickup, don't trust the stale frame.**
 
 - **✅ Rule-tag hygiene — DISSOLVED by slug-canonical** *(2026-06-26; was a todo)* — the defect was inline
   pre-s14 R-number tags colliding with the ratified R-numbers (e.g. `R3` = two meanings). The

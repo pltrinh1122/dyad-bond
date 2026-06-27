@@ -63,6 +63,32 @@ touch the always-loaded boot-set* (`DYAD.md` + the `CLAUDE.md`/`GEMINI.md` shims
 frame)? **No → layer 1/2 (un-gated pin/save). Yes → landing-class (gated), even as a draft** — touching the
 always-loaded guard changes every future boot (write-through, RESTART-PENDING), so it is never a mere pin.
 
+## Scratch RETIRED → durability-of-record = Agent-owned auto-save *(Operator `fold`+`land` 2026-06-27)*
+
+**`bin/scratch.sh` (the minimal-save tank) is RETIRED.** Two reasons, the second decisive:
+- **Substrate-coupling (symptom):** its store was a local mount (`/mnt/shared_data/dzw`) **absent in cloud** —
+  most sessions — so it failed *silently clean*, violating the Operator's principle that **state & durability
+  operate identically cloud and local** (the **git repo is the substrate of record**; no mechanism depends on a
+  local mount, and any substrate-local state must fail *loud*, never silent-clean = counterfeit-green).
+- **Use-case absence (root):** scratch existed to carry **un-landed raw across a session boundary** (the
+  bootstrap `/exit`+fresh-claude premise). The Operator's operating discipline — **one thread continues until it
+  lands; no `/exit`/archive until after landing** — moves every boundary *after* a land, so un-landed raw never
+  crosses one. The tank is empty **by construction, not by disuse**.
+
+**The replacement is not a new store — it is layer-1 auto-save above, now NAMED as the durability companion to
+thread-until-land.** The live thread is the save≠land buffer (conversation-raw is durable server-side);
+working-tree raw is made durable by **Agent-owned WIP commit+push at every natural pause, un-gated — NOT coupled
+to `land`** (deferring it to the land moment was the over-gating *abdication* mis-anchor; corrected 2026-06-27,
+Operator-caught — an ingraining-watch hit). **Mechanized, not promised** (an agent-resolve doesn't bind: context,
+not weights) by the **Stop hook** (`stop-hook-git-check.sh`) — it flags uncommitted WIP at every turn-end and is
+**substrate-agnostic** (a hook, runs cloud and local); **honoring its flag every turn IS the mechanism**. The
+save≠land *understanding* survives as recorded learning in `scratch-tier.md` (RETIRED) — apparatus demoted,
+concept kept (the `gh.sh`-deferral pattern).
+
+**Still open (NOT folded here — separate disposition):** the broader substrate-cluster — `standup.sh`'s
+`/mnt/shared_data/dzw` probe, the IM daemon + the **absent `bin/falsify.py`** (cloud-dark DM-watch) — awaits
+ratification of the two-clause substrate-agnostic principle above.
+
 ## The problem — trigger-grounded *(the transferable understanding; this + the annotated example = the bundle bond owns)*
 
 **Trigger** *(what makes this real — the recognition signal AND the adoption gate):*

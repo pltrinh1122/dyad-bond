@@ -1,5 +1,13 @@
 # scratch-tier — the minimal-save holding tank *(s-local7, 2026-06-22; tool: `bin/scratch.sh`)*
 
+> **⚠ RETIRED 2026-06-27 (Operator `fold`+`land`).** The *mechanism* is dormant — its store was mount-coupled
+> (cloud-dark) and its use-case (un-landed raw crossing a `/exit` boundary) is **dissolved by the
+> thread-until-land operating discipline** (no boundary until after a land → nothing un-landed ever crosses one).
+> Durability-of-record is now the Agent-owned **WIP auto-save** (commit+push at natural pauses), enforced by the
+> Stop hook → **single-home `substrate-access.md §Scratch RETIRED`.** This file is kept as the **recorded
+> learning** below (the save≠land *distinction* + the premature-consolidation failure mode it named) — concept
+> kept, apparatus demoted. The text below is historical (describes the live mechanism).
+
 > **Single-home for the save≠land decoupling.** Materialized on Agent initiative when the Operator
 > turned the s-local7 CSS into a test: *"convert STOP prose into materialized intent — without my
 > prompt, the Agent should have the initiative to materialize its own STOPs."* Then **adversarially

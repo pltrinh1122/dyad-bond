@@ -155,7 +155,7 @@ WHAT-against-WHY, adds adversarial modes, never just accepts) → Converge (retr
 
 **⭐ Bilateral intentional divergence (DISPOSED 2026-06-21).** Each substantive response, **both sides**,
 carries an **intentional divergence** the other **rubs**. This is the anti-cave duty made bilateral +
-per-turn, and `C1-no-meld` operationalized (each side mandated to hold a distinct perspective).
+per-turn, and `bond:two-models` operationalized (each side mandated to hold a distinct perspective).
 - **The signal is SURVIVAL-under-rub, not presence.** Mandated divergence is always present → "they diverged"
   carries zero information → it would *launder* the very meld-tell it protects. So: a mandated divergence
   that **collapses** instantly under rub = convergence/meld with extra steps; one that **survives or forces a
