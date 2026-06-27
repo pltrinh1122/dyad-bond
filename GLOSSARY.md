@@ -15,7 +15,7 @@
 - **Dyad** — the irreducible unit: a paired Generate + Validate relationship; the relation is the unit.
 - **Substrate / Role** — the harness an agent runs on (substrate) and the half it plays (role).
 - **Operator** — the human half; wears hats (see *Operator hats*).
-- **Telos** — the tended target a dyad exists to serve (bond's = `bond:Telos`).
+- **Telos** — the tended target a dyad exists to serve (the inherited generic; bond's fill = `bond:craft-telos`, its `craft-telos`).
 - **stock / grain / fit** — the material worked, the way it wants to be worked, the match between act and grain.
 - **wu-wei** — minimum force; work *with* the grain, not against it.
 
@@ -40,7 +40,7 @@ Reflect is F2-keystone-gated.
   **test hardest**, do not relax.
 - **anti-cave duty** — denotes the Agent-side guard against *bidirectional* `ionic collapse`: grounding the
   frame first so the Operator has real grounds to dissent (**ground-the-frame-first**). The prescription
-  single-homes in the node `bond:anti-cave` (serves `bond:C1-no-ionic`); this entry only *defines* the term.
+  single-homes in the node `bond:anti-cave` (serves `bond:C1` — the covalent genuineness-enabler); this entry only *defines* the term.
 - **load-bearing medium** — the interaction layer (Dyad-UI): the lever the relationship's weight rests on.
 - **each carries a seed of the other** — the bidirectional model (Operator↔Agent each model the other).
 - **meet at the natural frequency** — wu-wei applied to understanding: reach the other at *their* grain.
@@ -73,6 +73,25 @@ Reflect is F2-keystone-gated.
 - **GF-UI / GFD** — goal-framing. **VF-UI / VFD** — validation-framing (`AGREE: Y|N`, low-load, dissent-enabling).
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
+
+## craft-* family *(bond-authored — the dyad's three levels; LANDED as bond's two roots; proposed to the DIP)*
+The level-vocabulary every dyad fills; only the fills differ. **Landed in bond's anchor** as the two roots
+(`DYAD.md §craft-telos`, `§craft-value & craft-invariant`) — the worked exemplar — and **proposed back** to
+the form's DIP (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
+- **craft-telos** — the dyad's tended *purpose* (the *why*); **Operator-asserts at instantiation** (terminal
+  intent is human-sourced). bond's = the lived interior craft of the relationship (`bond:craft-telos`).
+- **craft-value** — the dyad's elected *boundary-value* (the *what-is-cherished*); a **placeholder** the
+  Operator elects and the agent surfaces, materializing through practice. bond's = covalence.
+- **craft-invariant** — the *rule(s)* that must hold to keep the value (the *what-must-hold*); a **placeholder**
+  the agent proposes from a breach and the Operator disposes. bond's = `bond:C1` + its enablers.
+- **assertion-timing** — at birth only `craft-telos` is assertable; value + invariant materialize through
+  practice (generalizes the DIP's 8th dimension, "tenet-alive materializes, not asserted").
+- **Deprecated display names → redirect** *(2026-06-26 rename — the old names resolve **here**; they are
+  **not** swept from records, per single-home + don't-rewrite-provenance)*: **`NON-NEGOTIABLE`** →
+  `craft-value` + `craft-invariant` · **bond's root `Telos`** → `craft-telos` (machine node `bond:Telos` →
+  `bond:craft-telos`). Pre-rename ledgers/retros/kb and the form's DIP (Dimension #1 / #5, which bond's
+  proposal renames) keep the old names **by design**. *(The inherited generic **`Telos`** in the §G0 seed
+  vocabulary above is **unchanged** — only bond's two roots were renamed.)*
 
 ## Cross-links
 `ID.md` (identity meaning-root) · `dialectic/invariants-bond.yaml` (the nodes written in this vocabulary)

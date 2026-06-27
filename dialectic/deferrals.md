@@ -18,6 +18,29 @@
 
 ## todo
 
+- **`locus` edge-disposal + the G0-membership validator** *(spawned 2026-06-26, the G0/heritability thread)* — six
+  nodes carry `locus: unclassified` (`Telos` · `single-home` · `kb-graduation` · `form-grounding` ·
+  `prove-before-propose` · `channel-gates`); each is a genuine *which-is-g0* judgment (System-interface vs
+  dyad-gene; content vs slot) = an **Operator disposition**, not conformance work. **Trigger = the first real
+  G0-expansion** (a second dyad inheriting the covalent genes — that practice forces the edges *and* falsifies
+  the partition). At that point also: (a) **wire the validator check** — a `locus: g0` Belief-gene must
+  co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
+  G0-expansion set from `locus: g0` instead of hand-listing. → the `locus: g0` nodes in
+  `dialectic/invariants-bond.yaml` · `DYAD.md §NON-NEGOTIABLE`
+  · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
+
+- **DYAD.md §NON-NEGOTIABLE + frame prose → re-altitude to the refactored shadow** *(spawned 2026-06-26,
+  the altitude refactor; Operator deferred — "yaml first")* — the shadow now reads: **C1 = the covalent
+  STATE**; the **ONE falsification law** (`bond:falsifiability` generalized + `bond:no-dogma`); enablers
+  `bond:two-models` / `bond:no-self-ratify` / `bond:anti-cave` serving falsifiability; **no-ionic + no-meld
+  DISSOLVED** (ionic/meld are C1's breach-faces, not nodes). The anchor/frame prose still describes the OLD
+  collapse-mode structure, so the round-trip flags it (`REGEN-FALSIFIED`; 3 over-extraction). Re-altitude:
+  **`DYAD.md §NON-NEGOTIABLE`** (load-bearing, ROM/identity-adjacent — Operator-gated), **`GLOSSARY.md`**
+  (anti-cave "serves `bond:C1-no-ionic`" → `bond:falsifiability`), **`views/invariants-bond.md`** (the
+  hand-authored table), narrative refs in `relationship-craft.md` / `dyad-ui.md` /
+  `commission-protocol-commissioner.md`. Clears the round-trip flags when done. → `dialectic/invariants-bond.yaml`
+  (the landed shadow) · `views/invariants-bond.rendered.md` (regenerated, in-sync).
+
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
   `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Wearing the
