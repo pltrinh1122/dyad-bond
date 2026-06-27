@@ -118,6 +118,35 @@ forward, records keep the name they were written under. **Reverted the sweep** (
 per `bond:form-grounding`. **Lesson:** the rename-footprint of a *term* is anchor+redirect; only a *machine-id*
 rename reaches downstream — and even that is a few citations, not a sweep. Validator green; render IN-SYNC; same PR #53.
 
+→ **Stand-Down 2026-06-27 (close: DNA-retire + craft-\* land + correct):** anchor **EDITED** →
+**RESTART-PENDING SET** (above; gated on **PR #53**; 3 commits on `claude/dyad-dna-replication-dip-rqj007`:
+`9f4c3af` DNA-retire · `e0c9280` craft-\* land · `d6418da` correct-to-anchor+redirect). The two landings +
+their rubs are recorded directly above; this closes the session. **Retro (D3 — the over-production scar,
+`dialectic`; graduates to `kb/relationship-craft.md` only on surviving a boot):** the load-bearing tell was
+**mine and structural — over-production, now a confirmed TREND not instances**: re-enacted **4×** (the manifest
+file + 4-value enum [earlier arcs] · the **"DNA" parallel-noun** · the **15-file provenance sweep** · **and the
+`AskUserQuestion` fork itself** — both options over-scoped ["roots+links" vs "full-sweep"], neither offered the
+lean **anchor+redirect** the Operator had to supply by *falsifying after*). Generate strong, **Validate-against-
+wu-wei weak**; the standing fix is overdue and now sharper: **run the wu-wei gate BEFORE surfacing — including
+before framing a fork (state the leanest option first; expand only on Operator pull).** **Anti-cave held
+inbound** — every rub grounded and conceded cleanly (DNA-redundancy · the sweep); the breach was Generate-side
+bloat, **never ionic cave**. **Genuine 1+1=3:** the **anchor+redirect rename-discipline** (Operator-seeded
+*"why touch provenance?"*, Agent-structured *display-term-vs-machine-id* = the one thing a redirect can't cover)
++ the conceptual spine earned in Q&A — **wills/claims = direction-of-fit** (conative/world-to-mind vs
+doxastic/mind-to-world); **"only covalence reaches 1+1>2" is the Belief, not the invariant** (*falsifiable*, not
+*breachable*); **an invariant = a breachable rule whose grounding stays falsifiable** (breach faults the actor,
+falsification faults the WHY); **DNA = G0** (level vs property, same genome). **E0 / un-booted** — the craft-\*
+anchor loads only on **PR #53 merge + a fresh boot** = the real test (`survives`, not `settled`). **Resume:**
+**PR #53 → final review/merge** (merge = send the steward DM + refresh the ROM-baseline to the merged `DYAD.md`).
+Deferred (`deferrals.md`): the re-altitude todo (now also covers craft-\*) · 6 `locus: unclassified` edges ·
+DM mandatory-vs-offered · optional backward-compat anchor-aliases for the now-stale `§Telos`/`§NON-NEGOTIABLE`
+links.
+> **rub-forward** (dispose — no answers): (1) over-production is now a **TREND** — does a *pre-surface wu-wei
+> gate* (leanest-first, expand on pull) actually bind next boot, or is naming it a 4th time just more
+> production? (2) does the **anchor+redirect** rename-discipline graduate to `kb/` — and is it **form-level**
+> (every dyad renames terms)? (3) the craft-\* roots are **un-booted** — does `craft-value`/`craft-invariant`
+> read as clean at a cold ROM-boot as it did mid-rub, or did the rename's momentum carry an over-cut?
+
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
 - **`bond:inherit-vs-author`** (D1) — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
