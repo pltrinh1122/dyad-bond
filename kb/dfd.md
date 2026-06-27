@@ -19,7 +19,7 @@ transfer directly.)*
 
 1. **Agent-voice CTA** — *"Re-route our candidates…", "I'll resolve…"*. Phrases the disposition
    as the Agent's own next action. Collapses proposer→disposer: the Agent both proposes and
-   (implicitly) disposes. That is 1+1=2 — the exact collapse the NON-NEGOTIABLE guards.
+   (implicitly) disposes. That is 1+1=2 — the exact collapse the craft-invariant guards.
    **Fix:** the CTA is addressed *TO* the Operator and names the disposition *they* make.
 
 2. **Either/or CTA** — *"Commit now or hold?"*. Offers alternatives, forcing the Operator to
@@ -86,11 +86,11 @@ it — and it has now jumped from the CTA slot to the show, confirming the drift
 ## Re-confirmation under `dyad-bond`'s gate (2026-05-31)
 
 *Received verbatim from `dyad-steward@31d53c0` (custody `03550dc`); its "settled" status was
-**steward's** falsification. Item-C owed a re-confirm under our **own** NON-NEGOTIABLE before we
+**steward's** falsification. Item-C owed a re-confirm under our **own** craft-invariant before we
 cite it as bond-settled. Done here — Covalent, Bond channel.*
 
 - **SURVIVES on the ionic axis (strong).** The whole lesson — "cost silently flowing from Agent back
-  to Operator" — *is* ionic-transfer named on the dispose side. Mode 1 invokes the NON-NEGOTIABLE
+  to Operator" — *is* ionic-transfer named on the dispose side. Mode 1 invokes the craft-invariant
   directly (proposer→disposer = 1+1=2). Converges with our model → **invariant → triangulate, keep.**
 - **Independently corroborated this session (the decisive evidence).** Thread-G re-derived modes
   #1/#2/#3 from live friction *before* the file was read (carry-forward: "knowledge I had not read")

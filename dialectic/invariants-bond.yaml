@@ -7,7 +7,9 @@
 # conformance-invariants the S1 resolution requires (identity → ID.md; vocabulary → GLOSSARY.md).
 # All one_liners are DECLARATIVE (a condition that holds; breach = its negation) — rub 2026-06-16.
 #
-# 11 core records (atomic) + 2 conformance candidates = 13. Roots: Telos (fiat), C1 (forged — the covalent STATE).
+# 11 core records (atomic) + 2 conformance candidates = 13. Roots: craft-telos (bond:craft-telos, fiat), C1 (forged — the covalent STATE).
+# (2026-06-26, craft-* landing: bond:Telos RENAMED -> bond:craft-telos; the two roots now lead with the craft-* family
+#  (craft-telos / craft-value+craft-invariant) — bond's local rename of the DIP's Dimension #1 + #5, landed as exemplar.)
 # (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
 # (2026-06-26, the G0/heritability thread: +locus heritability axis — g0 (universal dyad-gene; contributing it
 #  EXPANDS G0) / phenotype (bond-specific, regenerated per dyad) / unclassified (6 edges, Operator-dispose
@@ -25,9 +27,9 @@ invariants:
 
   # ---- ROOTS ----
 
-  - id: "bond:Telos"
+  - id: "bond:craft-telos"
     locus: unclassified   # edge: every dyad has a telos (G0 slot) but bond's CONTENT is its own; root-status complicates — Operator-dispose
-    home: "DYAD.md#Telos"
+    home: "DYAD.md#craft-telos"
     one_liner: "The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object."
     status: ratified
     form: slogan
@@ -42,7 +44,7 @@ invariants:
 
   - id: "bond:C1"
     locus: g0             # the universal goal "stay a real (un-collapsed) dyad" — shared by all dyads. (state, not a behavior-gene — locus loose end, flagged)
-    home: "DYAD.md#NON-NEGOTIABLE"
+    home: "DYAD.md#craft-value"
     one_liner: "The bond is kept covalent — sharing not transfer, two distinct models not merged."
     status: ratified
     form: slogan
@@ -60,7 +62,7 @@ invariants:
 
   - id: "bond:two-models"
     locus: g0             # the independent second perspective IS a universal dyad-gene — without it falsification is counterfeit
-    home: "DYAD.md#NON-NEGOTIABLE"
+    home: "DYAD.md#craft-value"
     one_liner: "Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real, and its loss to a single merged model is meld."
     status: ratified
     form: tuple
@@ -114,7 +116,7 @@ invariants:
     re_rub_triggers: [breach-evidence]
     root: false
     grounded_in:
-      - {ref: "bond:Telos", edge: serves, scar: "context-economy — a bloated anchor dilutes the signal; the lean anchor"}
+      - {ref: "bond:craft-telos", edge: serves, scar: "context-economy — a bloated anchor dilutes the signal; the lean anchor"}
     scope: {actor: both, trigger: anchor-edit}
     prescription: {action: home, object: "each fact in exactly one content-home", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a fat shim restating dialectic/ content = a second home = drift"}
@@ -144,7 +146,7 @@ invariants:
     re_rub_triggers: [breach-evidence, upstream-form-change]
     root: false
     grounded_in:
-      - {ref: "bond:Telos", edge: serves, scar: "inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary"}
+      - {ref: "bond:craft-telos", edge: serves, scar: "inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary"}
     scope: {actor: both, trigger: candidate-admission}
     prescription: {action: inherit, object: "the form's G0, unmodified", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "redefining an inherited G0 term locally"}
@@ -196,7 +198,7 @@ invariants:
 
   - id: "bond:no-self-ratify"
     locus: g0             # universal dyadic gate (proposer ≠ disposer) — any dyad
-    home: "DYAD.md#NON-NEGOTIABLE"
+    home: "DYAD.md#craft-value"
     one_liner: "No candidate is ratified by its own proposer — the disposing half is never the proposing half."
     status: ratified
     form: tuple
@@ -220,7 +222,7 @@ invariants:
     settlement: candidate
     root: false
     grounded_in:
-      - {ref: "bond:Telos", edge: serves, scar: "ROM-UI birth-id — the identity is constitutive of the relationship tended"}
+      - {ref: "bond:craft-telos", edge: serves, scar: "ROM-UI birth-id — the identity is constitutive of the relationship tended"}
     scope: {actor: both, trigger: stand-up}
     prescription: {action: conform, object: "running identity to the frozen birth-id sha", modality: MUST}
     observability: {observable: sha-comparison, detector: hard-oracle}
@@ -234,7 +236,7 @@ invariants:
     settlement: candidate
     root: false
     grounded_in:
-      - {ref: "bond:Telos", edge: serves, scar: "the invariants are written IN this vocabulary — uninterpretable without it"}
+      - {ref: "bond:craft-telos", edge: serves, scar: "the invariants are written IN this vocabulary — uninterpretable without it"}
     scope: {actor: both, trigger: anchor-edit}
     prescription: {action: define, object: "every term used in an invariant node, in GLOSSARY.md", modality: MUST}
     observability: {observable: term-membership-check, detector: hard-oracle}

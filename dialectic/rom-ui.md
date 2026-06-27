@@ -15,7 +15,7 @@ loaded baseline **diverge** the instant the anchor is edited mid-session; only `
 
 > **Shim-layer (F-b, 2026-05-31) + rename (2026-06-13).** The load-bearing content lives in the
 > dedicated anchor **`DYAD.md`** (renamed from `AGENT.md` 2026-06-13 — fleet-standard via steward;
-> bond-grounds: an `AGENT.md` name centers the *agent*-half, contra the Telos that the *relation* is
+> bond-grounds: an `AGENT.md` name centers the *agent*-half, contra bond's `craft-telos` that the *relation* is
 > the unit; `git mv` preserved history → birth-identity hash unaffected, `--diff-filter=A` still selects
 > the original add-commit). `CLAUDE.md` / `GEMINI.md` are thin boot-shims that `Read DYAD.md` at boot.
 > The **ROM-baseline tracks `DYAD.md`'s** commit hash (the content file — shims rarely change); keep the

@@ -129,6 +129,11 @@ invariants" rub. The collision is now **empirical, not theoretical.**
 inflated consistency + validity, measuring *retrieval* not generative G. To test G, strip the label / use
 a document where the non-negotiable must be **inferred**.
 
+> **⚑ Premise shifted (2026-06-26, craft-\* landing):** the `## NON-NEGOTIABLE` header was **renamed** to
+> `### craft-value & craft-invariant`, so the exact-string "extract the non-negotiable" no longer has a
+> verbatim label to copy — the confound is now **partly self-resolved** (it *strengthens* the
+> strip-to-force-inference goal). Before any real N-run, re-target `--strip-heading` to the new heading.
+
 ## Status / next
 
 - **v4 built + syntax/CLI-validated** (input + gold ingestion + validity scoring). Validity measure

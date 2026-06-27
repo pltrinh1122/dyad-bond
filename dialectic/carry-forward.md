@@ -36,7 +36,7 @@
 > signature-2 (proactive-defense follow-on, `DYAD.md:50`); merged PR #48, boot-VERIFIED 2026-06-25.
 > Update this line whenever `DYAD.md` (or a shim) changes. *(Older ROM history → `carry-forward-closed.md`.)*
 > **`inv:rom-currency` per-file boot-set (CRISP form, refreshed 2026-06-25):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@585f2ba` — IN-SYNC. **`standup.sh`/`standdown.sh` now read THIS line** for the per-file compare (the single-sha line above is the human gloss); the prior single-baseline-vs-per-file false-positive is fixed at source (Phase 2).
-> **RESTART-PENDING: SET (2026-06-26)** — `DYAD.md` **edited this session** (§NON-NEGOTIABLE/§Falsifiability re-altitude · **§DNA RETIRED — folded into G0; Belief relocated to §NON-NEGOTIABLE as C1's grounding** · de-paren) on branch `claude/dyad-dna-replication-dip-rqj007` → **PR #53**. The running session holds the OLD anchor (ROM); the re-altituded anchor loads only after **PR #53 merges + a fresh boot**. On merge: boot-verify + refresh the ROM-baseline to the merged `DYAD.md` commit. *(Prior baseline: `DYAD.md@585f2ba`, boot-verified 2026-06-25.)*
+> **RESTART-PENDING: SET (2026-06-26)** — `DYAD.md` **edited this session** (§NON-NEGOTIABLE/§Falsifiability re-altitude · **§DNA RETIRED — folded into G0; Belief relocated as `bond:C1`'s grounding** · **craft-\* LANDED — the two roots renamed `craft-telos` + `craft-value`/`craft-invariant`; node `bond:Telos`→`bond:craft-telos`** · de-paren) on branch `claude/dyad-dna-replication-dip-rqj007` → **PR #53**. The running session holds the OLD anchor (ROM); the re-altituded anchor loads only after **PR #53 merges + a fresh boot**. On merge: boot-verify + refresh the ROM-baseline to the merged `DYAD.md` commit. *(Prior baseline: `DYAD.md@585f2ba`, boot-verified 2026-06-25.)*
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
@@ -96,12 +96,23 @@ final review/merge** (merge = send the steward DM + refresh the ROM-baseline). D
 **"DNA" itself as redundant with G0**: contributing a `locus: g0` gene *definitionally expands G0*, so there
 is no separate heritable lineage to name; to the world the expanded floor is just G0, and provenance rides on
 `status`. Landed: `DYAD.md §DNA` **deleted** (the Belief — its one anchor-worthy claim — relocated to
-§NON-NEGOTIABLE as `bond:C1`'s grounding); the `locus` axis **kept** (the real g0/phenotype cut survives the
-term's retirement), DNA-language stripped from schema + shadow comments; steward DM reframed + renamed →
-`dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`. **Resolves rub-forward Q3** (self-contained-DNA *was*
-phenotype-in-disguise — the cleaner cut was to drop the frame, not embed terms) and is **one more instance of
-the over-production tell** (Q2 → leaning *trend*): I had built "DNA" as a parallel noun for G0; essence didn't
-ask for it. Validator re-checked green; same PR #53.
+the `craft-value`/`craft-invariant` root as `bond:C1`'s grounding); the `locus` axis **kept** (the real
+g0/phenotype cut survives the term's retirement), DNA-language stripped from schema + shadow comments; steward
+DM reframed + renamed → `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`. **Resolves rub-forward Q3**
+(self-contained-DNA *was* phenotype-in-disguise — the cleaner cut was to drop the frame, not embed terms) and
+is **one more instance of the over-production tell** (Q2 → leaning *trend*): I had built "DNA" as a parallel
+noun for G0; essence didn't ask for it. Validator re-checked green; same PR #53.
+
+→ **Same-session follow-on (craft-\* landed in the anchor):** the Operator disposed to **replace
+NON-NEGOTIABLE + Telos with the `craft-*` family** as the primary names of bond's two roots (the rename was
+already bond's DIP form-proposal; now landed locally as the worked exemplar). Landed: §1 root → **`craft-telos`**
+(node `bond:Telos` **renamed** `bond:craft-telos`; home `#craft-telos`); §2 root → **`craft-value` &
+`craft-invariant`** (home `#craft-value`); preamble + GLOSSARY craft-* section + shims + `ID.md`/`README`/`kb`/
+view repointed. Inherited generic "Telos" (G0 seed term) + the form's Dimension-#5 *slot* name kept per
+`bond:form-grounding` (bond proposes the form-rename, doesn't unilaterally redefine the form's term). **Scope
+held back (Operator-dispose pending):** the generic-modifier compounds (`on-Telos`/`Telos-gate`/…) and the
+historical retro/derivation prose were **left as-is** (renaming a generic-as-adjective + rewriting history both
+over-reach); flagged here rather than silently swept. Validator green; render IN-SYNC; same PR #53.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.

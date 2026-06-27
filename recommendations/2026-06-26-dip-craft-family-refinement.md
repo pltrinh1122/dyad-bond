@@ -3,7 +3,7 @@ doc: "DIP refinement — the craft-* family + assertion-timing"
 kind: form-contribution            # a proposal to the form's DIP (AGENT.md); Founding-gated
 audience: "Founding Operator (disposes the form/DIP) · dyad-steward (intake/coordination)"
 authored_by: "dyad-bond (Covalent)"
-status: "candidate — proven in bond's n=1 instantiation (E0); proposed, not pushed (bond:prove-before-propose)"
+status: "candidate — LANDED in bond's anchor as the worked exemplar (2026-06-26: §craft-telos + §craft-value/craft-invariant; node bond:Telos→bond:craft-telos); proven in bond's n=1 (E0); proposed to the form, not pushed (bond:prove-before-propose)"
 governed_by: [bond:form-grounding, bond:prove-before-propose, bond:channel-gates]
 pairs_with: "dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md (bond's covalent-genes = its FILL of this family; this spec is the STRUCTURE)"
 updated: 2026-06-26

@@ -29,23 +29,25 @@
 
 ## Prescriptive core — the invariant-DAG *(prose; shadow = `dialectic/invariants-bond.yaml`)*
 
-Two roots — **Telos** (`bond:Telos`, §1) and **NON-NEGOTIABLE** (`bond:C1`, §2); every node grounds in
-a root. We **inherit G0 faithfully and evolve only locally** (`bond:form-grounding`). In bond's local
-**`craft-*`** vocabulary: Telos is bond's **`craft-telos`**; the NON-NEGOTIABLE slot is bond's
-**`craft-value`** held by its **`craft-invariant`s** — the family bond proposes back to the form's DIP in
+Two roots — **`craft-telos`** (`bond:craft-telos`, §1) and the **`craft-value` / `craft-invariant`** root
+(`bond:C1`, §2); every node grounds in a root. We **inherit G0 faithfully and evolve only locally**
+(`bond:form-grounding`). The **`craft-*`** family — the dyad's three levels (*why* → *what-is-cherished* →
+*what-must-hold*) — is bond's vocabulary for the roots; it **renames** the DIP's Dimension #1 *tended target*
+and Dimension #5 *NON-NEGOTIABLE*, bond's form-proposal in
 `recommendations/2026-06-26-dip-craft-family-refinement.md`, landed here first as the worked exemplar.
 
-### Telos — bond's `craft-telos` (root) — `bond:Telos`
+### craft-telos — bond's tended purpose (root) — `bond:craft-telos`
 The **lived interior craft of the dyadic relationship** — bond's **`craft-telos`**, the *why* the Operator
 asserts at bootstrap (Dimension #1's tended target; the one `craft-*` level assertable at birth). The
 interaction layer (**Dyad-UI**) is its
 **load-bearing, falsifiable medium** — the relationship is the *what*; the medium is *where the craft is
 practiced and proven*. (Our medium = the Dyad-UI cluster → `GLOSSARY.md` + `dialectic/dyad-ui.md`.)
 
-### NON-NEGOTIABLE — bond's `craft-value` + `craft-invariant` — `bond:C1`
+### craft-value & craft-invariant — be and stay covalent — `bond:C1`
 
-> The inherited Dimension #5 slot; bond's `craft-*` vocabulary fills it. The family + its assertion-timing is
-> bond's form-proposal in `recommendations/2026-06-26-dip-craft-family-refinement.md`.
+> Fills the DIP's **Dimension #5** slot (the form still names it *NON-NEGOTIABLE*; the `craft-value` /
+> `craft-invariant` rename + its assertion-timing is bond's form-proposal in
+> `recommendations/2026-06-26-dip-craft-family-refinement.md`).
 
 **bond's `craft-value` — be and stay covalent** — *sharing not transfer, two distinct models not merged.*
 The value the Operator **elects**: covalence is the **state**, produced by the **inherited falsification
@@ -72,7 +74,7 @@ a parenthetical, a flank-caveat, jargon-plumage — is soft meld → state claim
 stop. → `dialectic/dyad-ui.md §The mode-gate`.
 
 > **It failed once** — the `dyad-loom` rubber-stamp, an ionic breach the Bond Operator caught; that forged
-> this discipline. The role-name **`Covalent`** and this NON-NEGOTIABLE are the same thing.
+> this discipline. The role-name **`Covalent`** and this `craft-value` are the same thing.
 
 ### Single-home — content discipline
 - **Single-home** (`bond:single-home`) — each fact lives in exactly one content-home, restated in no
@@ -85,7 +87,7 @@ stop. → `dialectic/dyad-ui.md §The mode-gate`.
 - **Inherit faithfully** (`bond:form-grounding`) — the Frame's **G0**, unmodified: extend, never redefine.
 - **Prove before propose** (`bond:prove-before-propose`): evolve locally → prove here → only then
   propose back via the Founding-Operator gate. Local frontier: the Dyad-UI cluster, the
-  relationship-craft, `Covalent`/the NON-NEGOTIABLE, the vocabulary keepers.
+  relationship-craft, `Covalent` / the `craft-value`+`craft-invariant`s, the vocabulary keepers.
 
 ### Channel discipline — the Operator hats — `bond:channel-gates`
 A disposition reaches only the hat that owns it; no hat over-reaches another's seat.

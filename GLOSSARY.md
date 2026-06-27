@@ -15,7 +15,7 @@
 - **Dyad** — the irreducible unit: a paired Generate + Validate relationship; the relation is the unit.
 - **Substrate / Role** — the harness an agent runs on (substrate) and the half it plays (role).
 - **Operator** — the human half; wears hats (see *Operator hats*).
-- **Telos** — the tended target a dyad exists to serve (bond's = `bond:Telos`).
+- **Telos** — the tended target a dyad exists to serve (the inherited generic; bond's fill = `bond:craft-telos`, its `craft-telos`).
 - **stock / grain / fit** — the material worked, the way it wants to be worked, the match between act and grain.
 - **wu-wei** — minimum force; work *with* the grain, not against it.
 
@@ -74,11 +74,12 @@ Reflect is F2-keystone-gated.
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
 
-## craft-* family *(bond-authored — the dyad's three levels; proposed to the DIP)*
-The level-vocabulary every dyad fills; only the fills differ. Proposed back to the form's DIP
-(`recommendations/2026-06-26-dip-craft-family-refinement.md`), used locally as the worked exemplar.
+## craft-* family *(bond-authored — the dyad's three levels; LANDED as bond's two roots; proposed to the DIP)*
+The level-vocabulary every dyad fills; only the fills differ. **Landed in bond's anchor** as the two roots
+(`DYAD.md §craft-telos`, `§craft-value & craft-invariant`) — the worked exemplar — and **proposed back** to
+the form's DIP (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
 - **craft-telos** — the dyad's tended *purpose* (the *why*); **Operator-asserts at instantiation** (terminal
-  intent is human-sourced). bond's = the lived interior craft of the relationship (`bond:Telos`).
+  intent is human-sourced). bond's = the lived interior craft of the relationship (`bond:craft-telos`).
 - **craft-value** — the dyad's elected *boundary-value* (the *what-is-cherished*); a **placeholder** the
   Operator elects and the agent surfaces, materializing through practice. bond's = covalence.
 - **craft-invariant** — the *rule(s)* that must hold to keep the value (the *what-must-hold*); a **placeholder**

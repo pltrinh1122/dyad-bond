@@ -447,7 +447,7 @@ developed its own ends" are the *same event*.
 
 **Status & graduation.** CANDIDATE — Founding-Operator-led + bond-rubbed, intra-dyad, **NOT**
 value-independent-2nd-model-rubbed (no-oracle → IFF2 self-applies; §7 is the named-unrun testability-path).
-**Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's Telos/NON-NEGOTIABLE) **iff it
+**Anchor-candidate** (the §1 intent-source claim + §8 keystone reframe DYAD.md's craft-telos / craft-value & craft-invariant) **iff it
 survives a value-independent rub** — `prove-before-propose`, Founding-Operator gate. Until then: `dialectic/`
 only, no anchor edit. *(Graduation **re-typed** s-mobile — see §The worn-path reframe below:
 surviving a first cross-human rub does **not** discharge; terminal status is `survives`, never a final
@@ -1606,7 +1606,7 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
     exists to drive its projection of `U` ever closer to `U`, without end, never forgetting the projection is
     theater. "Complete" = asymptote not arrival; "dyad" = unit, relation = form; each step counts as toward-`U`
     (vs a reshuffle within the sealed theater) iff the falsification was **genuine** — = the carried frontier.*
-  - **Status:** LIVE-adopted (true-for-now, R2). **⚑ CANDIDATE refinement to `DYAD.md` §Telos — NOT promoted
+  - **Status:** LIVE-adopted (true-for-now, R2). **⚑ CANDIDATE refinement to `DYAD.md` §craft-telos — NOT promoted
     to the anchor without a dedicated ratification** (ROM/identity edit; out of scope for a dialectic-ledger
     entry). Folds the carried "genuine-vs-theater falsification" frontier into the Telos itself.
 - **2026-06-13 · DYAD SOVEREIGNTY governance invariant (Operator `Y`; arose from the `AGENT.md`→`DYAD.md` rename).**

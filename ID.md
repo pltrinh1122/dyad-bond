@@ -20,8 +20,8 @@
 - **Home (substrate):** `/mnt/shared_data/dzw/dyad-bond/` · remote `github.com/pltrinh1122/dyad-bond`.
   External to the form and to steward (which incubated our medium).
 
-*(The Telos — "tend the lived interior craft of the dyadic relationship" — is the fiat-root **node**
-`bond:Telos`, not frame; it lives in the DAG, referenced from here, not restated here.)*
+*(bond's **`craft-telos`** — "tend the lived interior craft of the dyadic relationship" — is the fiat-root
+**node** `bond:craft-telos`, not frame; it lives in the DAG, referenced from here, not restated here.)*
 
 ## Orthogonality — why this dyad exists
 
@@ -45,6 +45,6 @@ Do **NOT** derive from a current shim `CLAUDE.md`, from `GEMINI.md`, or from `DY
 birth `1ab6ad0`, not steward's `2a9dc10` — caveat invariant, commit ours.)*
 
 ## Cross-links
-`bond:identity-conformance` + `bond:Telos` (`dialectic/invariants-bond.yaml`) · `dialectic/rom-ui.md`
+`bond:identity-conformance` + `bond:craft-telos` (`dialectic/invariants-bond.yaml`) · `dialectic/rom-ui.md`
 (the ROM-baseline mechanics that operationalize the conformance check) · `GLOSSARY.md` (the vocabulary
 meaning-root) · `DYAD.md` (the anchor this frame is referenced from).

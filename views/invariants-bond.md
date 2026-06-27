@@ -14,7 +14,7 @@
 > guards it** (`STALE ⚠` = counterfeit-green). It is the **superior projection** — finer-grained than
 > the old C1–C5 hand-table (e.g. C1 splits into §2 C1 · §3 no-ionic · §4 no-meld · §5 anti-cave) and
 > regen-checked instead of hand-maintained. The easy-agreement **tell** and other practice-heuristics
-> stay homed in `DYAD.md §NON-NEGOTIABLE`.
+> stay homed in `DYAD.md §craft-value & craft-invariant`.
 > *(Partial retirement: only the Constitutional block is mechanized; D/R/X/U/S below stay agent-rendered
 > until they have yaml pre-images.)*
 > **ID scheme (slug-canonical, Operator Y 2026-06-26 → `nomenclature-migration-plan.md`):** the `bond:<slug>`

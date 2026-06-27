@@ -1,6 +1,6 @@
 # dyad-bond — CLAUDE.md *(Claude Code boot shim)*
 
-**Read `DYAD.md` immediately.** It is the load-bearing anchor — identity, Telos, NON-NEGOTIABLE,
+**Read `DYAD.md` immediately.** It is the load-bearing anchor — identity, craft-telos, craft-value/craft-invariant,
 disciplines. This file is **only** the Claude Code boot-pointer + a thin harness overlay. Keep it
 thin: the overlay *points*, it never restates `dialectic/` content (a fat shim becomes a second
 content-home = drift).

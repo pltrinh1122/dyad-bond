@@ -5,7 +5,7 @@
 > citation handle; edges resolve by stable `bond:` id (renumber-safe). The round-trip target
 > for the S1 coverage diff against `DYAD.md`. Regenerate; never hand-edit.
 
-### §1 · bond:Telos — *fiat-root*
+### §1 · bond:craft-telos — *fiat-root*
 - **WHAT** — The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object.
 - **WHY** — fiat — adjudicated Operator 2026-05-30: founding Telos; bootstrap-ratified; refined (true-for-now) by the K1 §Telos-why arc
 
@@ -23,7 +23,7 @@
 
 ### §5 · bond:single-home — *serves §1*
 - **WHAT** — Each fact lives in exactly one content-home and is restated in no other file.
-- **WHY** — serves→§1 (bond:Telos) — context-economy — a bloated anchor dilutes the signal; the lean anchor
+- **WHY** — serves→§1 (bond:craft-telos) — context-economy — a bloated anchor dilutes the signal; the lean anchor
 
 ### §6 · bond:kb-graduation — *serves §5*
 - **WHAT** — A learning is in kb only after it has survived falsification in dialectic.
@@ -31,7 +31,7 @@
 
 ### §7 · bond:form-grounding — *serves §1*
 - **WHAT** — The form's G0 is inherited unmodified (extend, never redefine).
-- **WHY** — serves→§1 (bond:Telos) — inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary
+- **WHY** — serves→§1 (bond:craft-telos) — inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary
 
 ### §8 · bond:prove-before-propose — *serves §7*
 - **WHAT** — A local evolution is proposed back to the form only after it has been proven here.
@@ -51,9 +51,9 @@
 
 ### §12 · bond:identity-conformance — *serves §1*  ·candidate
 - **WHAT** — The running anchor's identity matches the frozen birth-id sha, recomputed from CLAUDE.md@1ab6ad0 and never trust-stored (drift from the canonical sha is the breach).
-- **WHY** — serves→§1 (bond:Telos) — ROM-UI birth-id — the identity is constitutive of the relationship tended
+- **WHY** — serves→§1 (bond:craft-telos) — ROM-UI birth-id — the identity is constitutive of the relationship tended
 
 ### §13 · bond:glossary-conformance — *serves §1*  ·candidate
 - **WHAT** — Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach).
-- **WHY** — serves→§1 (bond:Telos) — the invariants are written IN this vocabulary — uninterpretable without it
+- **WHY** — serves→§1 (bond:craft-telos) — the invariants are written IN this vocabulary — uninterpretable without it
 

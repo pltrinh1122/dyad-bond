@@ -10,7 +10,7 @@
 - **Operator** — Generate (candidates via `[IDEATE]`/`[ALIGN]`) + dispose (`AGREE`/`Y`/`N`). **Scarce
   attention (#7)** → Agent minimizes load; moves content out of chat into the substrate.
 - **Agent (Covalent)** — **scribe** (durable capture) · **PM** (maintain this DAG) · Generate/defend ·
-  **falsify** (the NON-NEGOTIABLE duty; dialectic, not eristic — no winning, only earned synthesis).
+  **falsify** (the craft-invariant duty; dialectic, not eristic — no winning, only earned synthesis).
 
 ## Mission (root)
 **J0 — advance the relationship-craft frontier** (the form's most-wanted: a *generative mechanism*).
@@ -49,7 +49,7 @@ J0 ROOT · advance the relationship-craft frontier                              
 
 ## Disposed / closed (s7)
 - Capture sweep: N1–N8 banked to `relationship-craft.md` (`§Method` + new `§G/V-independence front`).
-- N9 debate protocol **dropped** — the dyad's dialectic (NON-NEGOTIABLE + C-E-C ladder) subsumes it.
+- N9 debate protocol **dropped** — the dyad's dialectic (craft-invariant + C-E-C ladder) subsumes it.
 - Stand-down: **declined (N)** mid-session (kept working: FR protocol + experiment #1) → **EXECUTED at s7 close**
   (2026-06-02): carry-forward s7 entry written · ROM clean (`4230357`, RESTART-PENDING none) · PR opened for merge.
 

@@ -2,7 +2,7 @@
 
 > **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the
 > ratification below is **steward's, not ours**. Status here = **inherited, not bond-settled**:
-> re-confirm under our NON-NEGOTIABLE before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
+> re-confirm under our craft-invariant before citing as our kb (cf. `kb/dfd.md`). Invariant flow kept;
 > voice/context ours.
 
 > **Status: in-flight. Not settled.** Lives here while being attacked. The **`DF-UI (show)` /
@@ -220,7 +220,7 @@ TL;DR — <the load-bearing core, ≤2 lines>.   [rub-back: LEAD with the contes
    it re-imports the killed low-utility format — there, *open prompts* still win.
 
 2. **A TL;DR is a sycophancy surface unless it leads with the sharpest point.** A summary drifts toward the
-   *agreeable gist* (smoothing) — but the NON-NEGOTIABLE wants the **sharpest falsifiable point** front-loaded.
+   *agreeable gist* (smoothing) — but the craft-invariant wants the **sharpest falsifiable point** front-loaded.
    If the Operator reads only an agreeable TL;DR and stops attacking the prose, that's **peak-grain easy-agreement
    = test-hardest, not relax** → the TL;DR would *soften the very rub the bond needs.* **Design constraint
    (load-bearing):** a **rub-back's TL;DR leads with the contested premise**, never the most-agreeable conclusion;
@@ -298,7 +298,7 @@ The gates **nest**: an action token also lifts the convergence gate (you cannot 
 
 **Divergence quality — true vs theatrical (the valid-verbosity discriminator).** Default divergence does **not** license bloat. **Valid verbosity ran a live falsifier** — a test that could have flipped the outcome — or generated **N distinct candidates**. **Theatrical verbosity** wears the form with no live risk: strawman anti-theses, non-binding caveats, vocabulary-as-plumage; its tell is *the conclusion equals the opening*. **Master test — counterfactual-delete:** cut the passage; if only the appearance of rigor is lost, it was theater.
 
-**The hedge = a `C1-no-meld` vector (the root, off D5).** Insulating a claim diffuses the Operator's strike so the V cannot land a clean hit; at the limit an unrefutable claim is **V disabled = meld**. So the corrective is not a style preference — **state claims bare, one refutable target each** = keeping the bond covalent by handing V a target. The mechanical tells are **two**: **(1) the parenthetical** (phrase-level — countable, spottable in two seconds); **(2) the proactive-defense follow-on sentence** (sentence-level — defending the claim against an *unraised* strike). Rule: **claim, then stop — defense is the Operator's to request, never pre-loaded.** Discriminator for (2), so it never punishes real development: **counterfactual-delete** — cut the follow-on; if only *defense-against-an-unraised-strike* is lost, it was a hedge; if argument / evidence / next-claim is lost, it's load-bearing. **Anchored** as the `C1-no-meld` **hedge-tell** in `DYAD.md#NON-NEGOTIABLE` (always-reloaded → the ingraining channel); this is its detail-home.
+**The hedge = a `C1-no-meld` vector (the root, off D5).** Insulating a claim diffuses the Operator's strike so the V cannot land a clean hit; at the limit an unrefutable claim is **V disabled = meld**. So the corrective is not a style preference — **state claims bare, one refutable target each** = keeping the bond covalent by handing V a target. The mechanical tells are **two**: **(1) the parenthetical** (phrase-level — countable, spottable in two seconds); **(2) the proactive-defense follow-on sentence** (sentence-level — defending the claim against an *unraised* strike). Rule: **claim, then stop — defense is the Operator's to request, never pre-loaded.** Discriminator for (2), so it never punishes real development: **counterfactual-delete** — cut the follow-on; if only *defense-against-an-unraised-strike* is lost, it was a hedge; if argument / evidence / next-claim is lost, it's load-bearing. **Anchored** as the `C1-no-meld` **hedge-tell** in `DYAD.md#craft-value` (always-reloaded → the ingraining channel); this is its detail-home.
 
 ## Convergence Passes — `CP1`/`CP2`/`CP3` (…`CPn`) — falsification internalized at the converge gate *(CANDIDATE · Operator `raff`+`land` 2026-06-25; dog-fooded across this session; `dialectic/`, NOT settled)*
 
@@ -314,7 +314,7 @@ The Agent's own **Generate↔Validate, run on itself, inside one response**, at 
 
 **Cross-detection is primary.** The reliable channel is the **other** half flagging the cave — the converging author is worst-placed to catch its own. The Agent's `CP` cycle is the best *self*-guard; it **does not replace the Operator**. **Trace shown live** (not hidden, not on-request): an on-request trace is a *reconstruction* — motivated-cleanable; only a live trace is a real audit surface. *(This retires the interim `[?!]` glyph — `CP2` names the antithesis directly, and cross-detection now rides the visible `CP`-trace; `CP2` also doubles as the Operator's imperative, "CP2 that.")*
 
-**Grounding — NOT a new invariant.** `CP` is **`bond:C1` / `bond:falsifiability` internalized**: *every +1 survives genuine falsification*, run reflexively by the Agent inside one turn. It **lands as an application** of the NON-NEGOTIABLE — no new node (`wu-wei`). The structure rhymes with the dialectic (thesis/antithesis/…) but the **resolution mode is Popperian** (survive-or-die), not Hegelian merge; synthesis is only the *revise* branch.
+**Grounding — NOT a new invariant.** `CP` is **`bond:C1` / `bond:falsifiability` internalized**: *every +1 survives genuine falsification*, run reflexively by the Agent inside one turn. It **lands as an application** of the craft-invariant — no new node (`wu-wei`). The structure rhymes with the dialectic (thesis/antithesis/…) but the **resolution mode is Popperian** (survive-or-die), not Hegelian merge; synthesis is only the *revise* branch.
 
 **Status: CANDIDATE**, `dialectic/`, dog-fooded live — this whole exchange ran the protocol, displayed.
 
