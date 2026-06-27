@@ -170,9 +170,11 @@ auto-save** (commit+push at natural pauses, **un-gated**), **Stop-hook-enforced*
 scratch from `standup.sh`/`standdown.sh`; resume step 5b repurposed to the durability discipline (reloads → ingrains).
 Single-home → `substrate-access.md §Scratch RETIRED`. **Ingraining-watch hit (mine, Operator-caught):** I'd been
 **over-gating durability** — deferring WIP-commit to the `land` moment (the abdication mis-anchor), leaning on the
-Stop hook as backstop rather than owning auto-save. Correction is mechanized (the hook), not promised. **Still
-open (separate disposition):** the two-clause substrate-agnostic principle + the rest of the cluster (`standup.sh`
-mount-probe · IM daemon · the absent `bin/falsify.py`). → `substrate-access.md`.
+Stop hook as backstop rather than owning auto-save. Correction is mechanized (the hook), not promised. **Follow-on
+(2026-06-27, DFD `Y`):** the two-clause principle **ratified-candidate** as `bond:substrate-agnostic` (repo =
+substrate-of-record · substrate-local must fail-loud; carve-out for reconstructable cursors; n=1 → candidate-tier
++ named falsifier) → `substrate-access.md §bond:substrate-agnostic`. **Still open:** the cluster *cleanup*
+(`standup.sh` mount-probe · IM daemon · absent `bin/falsify.py`) — gh.sh-pattern, fix on bite.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
