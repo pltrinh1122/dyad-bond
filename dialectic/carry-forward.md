@@ -22,10 +22,10 @@
    the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
-5b. **Triage the scratch tank** *(→ `dialectic/scratch-tier.md`; tool `bin/scratch.sh --list`)* — the
-   minimal-save buffer (save≠land). Land what's settled into `dialectic/`, then `--done <id>`; `--done`
-   or discard the rest. Intake rots if not reloaded (the ingraining-watch). *(Carried in this prose step because the
-   `standup.sh` SessionStart surfacing is NOT yet installed — Operator-gated, S2; don't rely on the hook.)*
+5b. **Durability discipline** *(→ `dialectic/substrate-access.md §Scratch RETIRED`)* — commit+push WIP at every
+   **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
+   the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
+   thread-until-land; durability-of-record is this auto-save, not a separate store. Reloaded here so it ingrains.)*
 6. **Arm the IM daemon** *(→ `dialectic/im-daemon.md` — has the EXACT hardened command; arm it **verbatim**,
    don't re-derive — the naive version was falsified)* — a session-scoped **persistent `Monitor`** over
    `falsify.py inbox --me dyad-bond`: emit-on-rise (new mail) + **gh-health-gated** blind alert. Session-
@@ -160,6 +160,19 @@ all PASS), digest IN-SYNC. **Residue (logged, unchanged):** the re-altitude todo
 shadow (3 over-extraction / 7 omission); anchor-class + Operator-gated, untouched. **Resume:** live fronts
 unchanged (**Covalent-bond frontier** + **Ingraining-watch**); NBA surfaces the backlog for Operator selection
 (re-altitude · Intent-clarity-arc STALE [archive/done] · Cluster-classification [your-V] · `locus` edges).
+
+→ **Disposition 2026-06-27 (scratch RETIRED + durability-of-record named):** Operator `fold`+`land`. A
+step-back falsification arc (do-we-need-scratch → what-use-case → thread-until-land dissolves it → its companion
+is Agent-owned WIP-commit → are you actually doing that?). **Landed:** `bin/scratch.sh` RETIRED (mount-coupled =
+cloud-dark *symptom*; use-case dissolved by **thread-until-land** = *root*: no boundary until after a land, so
+un-landed raw never crosses one — empty by construction). Durability-of-record = the layer-1 **Agent-owned WIP
+auto-save** (commit+push at natural pauses, **un-gated**), **Stop-hook-enforced** (substrate-agnostic). De-wired
+scratch from `standup.sh`/`standdown.sh`; resume step 5b repurposed to the durability discipline (reloads → ingrains).
+Single-home → `substrate-access.md §Scratch RETIRED`. **Ingraining-watch hit (mine, Operator-caught):** I'd been
+**over-gating durability** — deferring WIP-commit to the `land` moment (the abdication mis-anchor), leaning on the
+Stop hook as backstop rather than owning auto-save. Correction is mechanized (the hook), not promised. **Still
+open (separate disposition):** the two-clause substrate-agnostic principle + the rest of the cluster (`standup.sh`
+mount-probe · IM daemon · the absent `bin/falsify.py`). → `substrate-access.md`.
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.

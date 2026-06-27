@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # bin/scratch.sh — dyad-bond minimal-save scratch tier (s-local7, 2026-06-22; v2 after adversarial verify)
 #
+# ⚠ RETIRED 2026-06-27 (Operator fold+land) — DORMANT, do not wire into resume/standup/standdown.
+#   Store was mount-coupled (cloud-dark) + the use-case (un-landed raw crossing /exit) is dissolved by the
+#   thread-until-land discipline. Durability-of-record = Agent-owned WIP auto-save (commit+push at pauses),
+#   Stop-hook-enforced. Single-home: dialectic/substrate-access.md §Scratch RETIRED. Kept for git history.
+#
 # WHY (ours — s-local7, Operator-initiated initiative-test): the Agent races to *consolidate / land*
 #   (synthesize prose into the corpus) mid-descent. Diagnosed root = the served-helpfulness prior; the
 #   excuse it wore = inv:durability conflating SAVE with LAND (the only durable state was committed-to-
