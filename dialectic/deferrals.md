@@ -25,12 +25,6 @@
   dyad inheriting the genes). → the `locus: g0` nodes in `dialectic/invariants-bond.yaml`
   · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
 
-- **C1 locus revisit — `g0` vs offered** *(spawned 2026-06-28 by the G0≈membership model)* — the membership
-  model implies **covalence (`bond:C1`) is ELECTED, not mandatory membership** (a Healer is a full dyad without
-  it) → its `locus: g0` tag (already flagged a "loose end": *state, not behavior-gene*) needs revisiting against
-  the **mandatory-vs-offered split** (`g0-expansion-dip-seed.md`: settled genes → mandatory G0; covalence/Belief →
-  offered layer). An **Operator disposition**, ties to the DIP-adoption proposal. → `invariants-bond.yaml:48`.
-
 - **`G0 = membership` — identity vs superset (the `~=` fork)** *(spawned 2026-06-28)* — does the form's G0 =
   membership *exactly* (tighten — demote SPAOR/mechanism-catalog/seed-vocab to a separate inherited-scaffold
   layer), or = membership ∪ scaffold (status quo, the current AGENT.md §G0)? Decides whether the DIP proposal is
@@ -108,6 +102,15 @@
   (exit 0). **Self-caught relapse:** proposed a new `system` locus value (over-production tell, 5th instance) →
   Operator-pruned ("substrate is the system; redefining G0 = no longer a dyad") → folded into `g0`, no schema
   change. → `invariants-bond.yaml` (the disposed nodes + header model-note).
+
+- **✅ C1 locus revisit — DONE: `g0` → `phenotype`/offered** *(2026-06-28, same DFD sweep, Operator Y: "C1 is an
+  expression of a dyad from a choice")* — the membership model demoted **covalence (`C1`) from mandatory g0 to the
+  OFFERED/elected craft-value** (bond's own craft-* proposal already says craft-value is elected; healer's ≠
+  covalence). Decisive: keeping `C1=g0` would make the published craft-* proposal self-contradict. Resolves the
+  yaml loose-end. **Net for the proposal:** MANDATORY floor = {`two-models`, `no-self-ratify`, `anti-cave`,
+  `form-grounding`}; OFFERED = {covalence, Belief/IFF}. **Follow-on (flagged, not done):** the g0 enablers'
+  *universal* grounding is the form's tenet — re-ground at EXPORT when authoring the form proposal (local
+  serve-`C1` edges stay). → `invariants-bond.yaml:48`.
 
 - **✅ Re-altitude to the refactored shadow — DONE, corrected scope** *(2026-06-27; was a todo spawned
   2026-06-26 "yaml first")* — **scope corrected on inspection:** the todo (written *before* the craft-\*
