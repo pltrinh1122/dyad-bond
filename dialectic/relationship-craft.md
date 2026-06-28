@@ -1,3 +1,7 @@
+---
+locus: mixed   # the dyad/craft boundary runs THROUGH this file: phenotype (exportable craft — the bond-disciplines, the materialization gate, the craft candidates) + instance (bond-private — the retros, the bootstrap evidence, the live F1–F4 falsification fronts). Key → MAP.md.
+---
+
 # relationship-craft — the generative frontier (LIVE)
 
 > `dyad-bond`'s frontier slice: the **interior disciplines of being-a-dyad-well** — largely

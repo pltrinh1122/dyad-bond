@@ -1,3 +1,7 @@
+---
+locus: phenotype   # Dyad-UI cluster craft; library-eligible. NB: ours-whole vs ours-UI-surface-only is UNRESOLVED (cluster-classification, stale since 2026-05-31). Key → MAP.md.
+---
+
 # NBA → DFD — next-best-action over a DAG, composed with decision-framing — LIVE CYCLE
 
 > **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the

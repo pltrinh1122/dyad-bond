@@ -1,3 +1,7 @@
+---
+locus: phenotype   # the medium bond owns — inherited from steward, re-confirmed under our NON-NEGOTIABLE; library-eligible craft. Key → MAP.md.
+---
+
 # Dyad UI — the framing/signaling layer — LIVE CYCLE (under falsification)
 
 > **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the

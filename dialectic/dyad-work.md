@@ -1,3 +1,7 @@
+---
+locus: phenotype   # the shed UI↔Work boundary — the Work-management layer is steward's domain; bond holds the Dyad-UI half. Key → MAP.md.
+---
+
 # Dyad UI ↔ Dyad Work — the domain boundary (Bond-side extract) — LIVE CYCLE
 
 > **Provenance.** Derived from `dyad-steward/dialectic/dyad-work.md` @ `31d53c0` during the
