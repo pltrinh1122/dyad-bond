@@ -176,6 +176,27 @@ substrate-of-record · substrate-local must fail-loud; carve-out for reconstruct
 + named falsifier) → `substrate-access.md §bond:substrate-agnostic`. **Still open:** the cluster *cleanup*
 (`standup.sh` mount-probe · IM daemon · absent `bin/falsify.py`) — gh.sh-pattern, fix on bite.
 
+→ **Stand-Down 2026-06-27 (the change-propagation architecture arc):** anchor **NOT edited** →
+**RESTART-PENDING none.** ROM-UI ✓ in-sync (`DYAD.md@e0c9280`). **Landed (5 PRs #53–#57, all merged to `main`):**
+resume reconciliation (RESTART-PENDING cleared · ROM-baseline refreshed · re-altitude residual = 5 stale
+machine-refs) · **scratch RETIRED** (use-case dissolved by thread-until-land) · **`bond:substrate-agnostic`**
+(cloud==local, candidate) · **the change-propagation architecture**: the **WORKSHEET MODEL** (`intent → yaml
+worksheet → md output`, craft-not-compile; neither yaml nor md is source — the intent is) + the derivation-edge
+map + the side-by-side **audit-view** (`output_quote`, the worksheet→output fidelity gate) + **rendered.md
+RETIRED**. **Single-home → `dialectic/dyad-md-yaml-regen.md §The worksheet model` + §Change-propagation
+formalization** (this ledger only points). **Retro (D3, `dialectic`):** worksheet model = genuine 1+1=3 but
+**E0/un-booted** (graduates only if the next invariant create/edit actually reaches for it) · **over-gating
+durability re-fired = confirmed TREND** (deferred WIP-commit to `land`; corrected → reloaded into resume-5b;
+the bind-test is next boot) · self-caught **verify-before-assert lapse** (read `grep`'s exit not the tool's →
+gate on the tool's exit) · **counter-evidence**: the over-production guard fired correctly + repeatedly
+(anti-sweep ×3), anti-cave held (pushed the compiler-inversion before conceding; corrected my own over-claim).
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**).
+> **rub-forward** (dispose — no answers): (1) the worksheet model is **un-booted** — does anyone *reach for it*
+> at the next create/edit, or is it shelf-ware for a 13-node anchor? (2) over-gating durability is now a TREND —
+> does reloading it into resume-5b actually **bind** next boot, or is "capture into reloaded substrate" the
+> relapse again? (3) the `output_quote` gate only works if it's **run** at the craft step — does it get run, or
+> decay counterfeit-green (the Φ1 human-audit risk)?
+
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
 - **`bond:inherit-vs-author`** (D1) — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
