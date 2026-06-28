@@ -18,6 +18,16 @@
 
 ## todo
 
+- **`single-home` playbook — PROPOSED to the form library (Founding-gate routing owed)** *(2026-06-28)* —
+  staged at `the-dyad-practice:library/single-home/` (PLAYBOOK + `ledger/3ab18bb7-n1.md`, n=1 multi-cycle)
+  on branch `claude/repo-structure-dyad-craft-g07g0i`. **Next:** the PR **is** the Founding-gate dispose
+  (CONTRIBUTING §2) — open it wearing the Founding hat (SG-4: the PR is the CTA surface, no conversational
+  double-anchor). **Held back, un-booted (n=0):** the `locus:` tag axis + the reach-rule are named in the
+  playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
+  (`prove-before-propose`) — then they earn a ledger entry. **Breadth falsifier:** a non-inheriting second
+  dyad's testimonial (same-lineage convergence ≠ clean independence). Home is the form's library; this is a
+  pointer only (`bond:single-home`).
+
 - **DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(Operator todo, 2026-06-28)* —
   the acronym **`DFD` is unchanged**; only its *expansion* changes (Decision → **Disposition**), which reads
   truer to the ontology: a DFD resolves in a `[CTA·Y/N]` = the Operator's **disposition**, not a generic
