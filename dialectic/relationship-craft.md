@@ -1668,7 +1668,7 @@ riding across." Agent-centric — it counted only the carriers *I* touch and dro
 **Craft lesson banked (the mixed-credit residual, RB2/anti-cave — do NOT rubber-stamp "the rub worked").**
 The rub-back was productive *because* my prior turn was sloppy: I asserted a namespace gap ("R un-indexed")
 from a **partial grep** that skipped `views/`. Durable rule (cheaper than the +1): **grounding a namespace →
-grep the index (`assessment/invariants-bond.md`) FIRST, never the inline references** (they carry stale tags — the
+grep the slug-keyed yaml shadow (`dialectic/invariants-bond.yaml`) / `DYAD.md` FIRST, never the inline references** (they carry stale tags — the
 `R3` collision, Item-L). Execution-altitude twin of D6: partial-search-absence ≠ real absence.
 
 **Status:** candidate, LIVE (true-for-now, R2). Single-home = here; resume-visible pointer in the ledger.

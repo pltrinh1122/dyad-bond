@@ -1,5 +1,10 @@
 # Nomenclature migration plan — slug-canonical governed index
 
+> **Index view RETIRED 2026-06-28.** The slug-canonical surface is no longer a separate derived view —
+> slugs live in the yaml shadow (`dialectic/invariants-bond.yaml`) + `DYAD.md`, validated directly (the
+> output is the final artifact). The Tier-1 descriptions below name the now-retired `assessment/invariants-bond.md`
+> under its written name (anti-sweep).
+
 > **Status: TIER 1 DONE (Operator Y 2026-06-26 on principle + map-rub + `claim:` namespace).** Slug-canonical
 > is live: `bond:<slug>` is the single identity; `D/R/X/U/S`+number is a display/citation alias (the `(was)`
 > column). **Tier 1 landed:** `assessment/invariants-bond.md` (all 5 tables) + `carry-forward.md` §Bond-disciplines

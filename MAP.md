@@ -110,8 +110,7 @@ a content file with **no `locus:`** defaults to **`instance`** (bond-private wor
 *proven and offered* — then it earns a `phenotype`/`g0` tag, the way a claim graduates `dialectic/ → kb/`.
 Tags are placed only where the locus is **already disposed**; the fuzzy method/model files are left to the
 default rather than force-classified — pre-drawing the phenotype/instance line is the very trap this
-partition guards against. Two classes carry **no** content-locus: **derived views** (`README`, `MAP`,
-`assessment/`) are marked `kind: derived-view` — they locate, never home; **apparatus** (`bin/`, test-fixture
+partition guards against. Two classes carry **no** content-locus: **derived views** (`README`, `MAP`) are marked `kind: derived-view` — they locate, never home; **apparatus** (`bin/`, test-fixture
 corpora) is tooling, not content. The **anchor** (`DYAD.md`) + **shims** (`CLAUDE.md`/`GEMINI.md`) are
 ROM-gated — their tag waits for an Operator-gated boot pass (would set `RESTART-PENDING`).
 

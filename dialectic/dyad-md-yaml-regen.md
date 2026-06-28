@@ -184,7 +184,7 @@ to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
 |---|---|---|---|---|
 | **E1** | `DYAD.md` → `invariants-bond.yaml` | **derived (hand)** — engine unbuilt | `anchor_dag_diff` 2-way coverage | **completeness** (0 omission / 0 over-extraction); **blind to fidelity** |
 | **E2** | `.yaml` → in-memory digest (round-trip) | **generated** (transient; `rendered.md` RETIRED 2026-06-27) | coverage diff vs `DYAD.md` | completeness — no committed artifact to drift |
-| **E3** | `.yaml` + `DYAD.md` → `assessment/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `output_quote` gate (worksheet→output) | does the output realize each worksheet node (the keystone view) |
+| **E3** | `.yaml` + `DYAD.md` → audit-view (regen on demand) | **generated** (`audit_view.py`; transient, NOT committed) | verbatim `output_quote` gate (worksheet→output) | does the output realize each worksheet node (the keystone check) |
 | **AUDIT** | view ↔ `DYAD.md` | **human check** (not a derivation) | Operator manual cross-ref | **fidelity** (covers E1's blind spot); **decays with attention** (Φ1) |
 
 ### What this dictates for the guardrails (the enforcement layer — built AFTER, on top of this)
@@ -209,7 +209,7 @@ render the **derived claim beside its source prose** so a fidelity mismatch is s
 
 `[node-id] | SHADOW one_liner | DYAD.md source-excerpt | match?`
 
-A **2nd-order generated** view (a renderer reads `yaml` + `DYAD.md`), home `assessment/invariants-bond.audit.md`.
+A **2nd-order generated** view (a renderer reads `yaml` + `DYAD.md`), **regenerated on demand** (transient; NOT committed — like `rendered.md`'s in-memory render; the gate is *running* `audit_view.py`, not a stored transcript).
 
 **Requires a per-node source reference** — the yaml `home` is *section*-level (too coarse for sentence-level
 side-by-side; several nodes share one `home`). **Recommended: a per-node `source_quote`** (the exact `DYAD.md`

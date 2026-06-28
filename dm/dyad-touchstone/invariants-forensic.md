@@ -1,5 +1,9 @@
 # INVARIANT VIEW — dyad-touchstone *(derived by bond, read-only forensic extraction — NOT a home, NOT theirs)*
 
+> **Staged DM falsification** — relocated to the touchstone DM channel 2026-06-28 (was `views/`→`assessment/`).
+> A cross-dyad forensic of a sibling: it **persists** (not regenerable — a snapshot; touchstone has moved on),
+> and it is **sender-hosted, pending the consent-to-send disposition** (not yet shared with touchstone).
+
 > **⚠ DERIVED VIEW, EXTERNALLY EXTRACTED.** Built by bond/Covalent for the Operator's evaluation of the
 > 2026-06-11 anxiety-forensics (`recommendations/2026-06-11-touchstone-anxiety-forensics.md`). Sources
 > are touchstone's canonical files; touchstone has NOT ratified this extraction — treat compressions as
