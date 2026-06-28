@@ -86,8 +86,35 @@ save≠land *understanding* survives as recorded learning in `scratch-tier.md` (
 concept kept (the `gh.sh`-deferral pattern).
 
 **Still open (NOT folded here — separate disposition):** the broader substrate-cluster — `standup.sh`'s
-`/mnt/shared_data/dzw` probe, the IM daemon + the **absent `bin/falsify.py`** (cloud-dark DM-watch) — awaits
-ratification of the two-clause substrate-agnostic principle above.
+`/mnt/shared_data/dzw` probe, the IM daemon + the **absent `bin/falsify.py`** (cloud-dark DM-watch) — is
+governed by `bond:substrate-agnostic` (below; ratified-candidate 2026-06-27), cleanup gh.sh-pattern (on bite).
+
+## `bond:substrate-agnostic` — state & durability operate identically cloud and local *(CANDIDATE · Operator `Y` 2026-06-27, DFD-ratified)*
+
+**The principle — two clauses:**
+1. **Substrate of record = the git repo.** Durable, *original* state-of-record anchors on committed+pushed
+   state — identical cloud and local; **no durable-original content on a local-only substrate** (mount, `/tmp`,
+   ephemeral working dir). The dyad's memory already obeys this (committed `dialectic/`); the violations were
+   the off-tree apparatus.
+2. **Substrate-local state must fail LOUD, not clean.** State permitted to be substrate-local must announce
+   "substrate absent" — never silently report empty/clean (the **counterfeit-green** tell; precisely how
+   scratch hid its own cloud breakage every session).
+
+**The carve-out (what clause 1 does NOT forbid).** Substrate-local state is *permitted* **iff
+reconstructable/non-canonical AND fail-loud.** Discriminator: *is this the only home of original content?* →
+repo (clause 1). *Is it a rebuildable view/cursor?* → local-OK, but loud (clause 2).
+- **Compliant exemplar:** `msg_tracker`'s cwd `.msg-tracker.json` — a rebuildable cursor, ephemeral-OK.
+- **Violation exemplar:** scratch — durable-*original* content, on a mount, failing silent (the worst cell).
+
+**Tier + standing falsifier (kept honest — n=1).** CANDIDATE, not settled: induced from a single failure
+(scratch). Graduates to `kb/` only after surviving across more cases (`bond:kb-graduation`). **Falsifier:** the
+next substrate-coupled mechanism that *legitimately* must differ cloud-vs-local would refute clause 1's
+universality — none found yet (`msg_tracker` fit the carve-out rather than breaking it). *Anti-cave note: the
+principle is n=1; this candidate-tier + named falsifier is the guard against over-codifying it.*
+
+**Governs the open cluster:** `standup.sh`'s mount-probe · the IM daemon · the absent `bin/falsify.py`. These
+already fail *loud* (standup reports "no mount") → clause 2 satisfied; clause-1 alignment (re-found on the repo
+substrate, or honestly retire) waits on real cloud-DM-watch need (gh.sh-pattern: fix on bite, not pre-emptively).
 
 ## The problem — trigger-grounded *(the transferable understanding; this + the annotated example = the bundle bond owns)*
 
