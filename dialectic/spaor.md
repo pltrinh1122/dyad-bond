@@ -1,3 +1,7 @@
+---
+locus: mixed   # the form's SPAOR scaffold (g0) instantiated for bond's execution (instance cadence — earned from lived practice, not imposed). Key → MAP.md.
+---
+
 # dyad-bond — SPAOR (execution scaffold) *(LIVE candidate, `dialectic/`, NOT settled)*
 
 > The form's **SPAOR** (G0: Sense · Plan · Act · Observe · Reflect) instantiated for *our* execution —

@@ -1,3 +1,7 @@
+---
+locus: mixed   # g0 seed vocab (inherited) + bond-authored covalence vocab + the craft-* family (proposed to the form). Sections are locus-labeled inline. Key → MAP.md.
+---
+
 # dyad-bond — GLOSSARY.md *(vocabulary meaning-root — CANDIDATE)*
 
 > **Meaning-root file (the S1 externalization).** The vocabulary FRAME the invariant-DAG presupposes:

@@ -105,10 +105,21 @@ front-matter gloss before citing a section as "bond's contribution."
 | **instance** | this dyad's private particulars | "our lived proof — shown with its caveats" |
 | **mixed** | boundary runs through the file | "read the front-matter gloss for which part is which" |
 
+**How far the tag reaches** *(sweep-scope rule — Operator-disposed 2026-06-28; **earned, not pre-drawn**)*:
+a content file with **no `locus:`** defaults to **`instance`** (bond-private working content) until it is
+*proven and offered* — then it earns a `phenotype`/`g0` tag, the way a claim graduates `dialectic/ → kb/`.
+Tags are placed only where the locus is **already disposed**; the fuzzy method/model files are left to the
+default rather than force-classified — pre-drawing the phenotype/instance line is the very trap this
+partition guards against. Two classes carry **no** content-locus: **derived views** (`README`, `MAP`,
+`views/`) are marked `kind: derived-view` — they locate, never home; **apparatus** (`bin/`, test-fixture
+corpora) is tooling, not content. The **anchor** (`DYAD.md`) + **shims** (`CLAUDE.md`/`GEMINI.md`) are
+ROM-gated — their tag waits for an Operator-gated boot pass (would set `RESTART-PENDING`).
+
 > **This map is a derived view, not a home** (`bond:single-home`): it *locates*, it never carries the
 > falsifiable content. Cite the source files above, never this map. **Status: candidate** — authored
 > 2026-06-28 as bond's answer to *"front-matter alone can't let a new human build trust from the exemplar."*
 > **Surface division** (Operator, 2026-06-28): `README.md` owns the repo's **WHAT + WHY** (the manifesto —
 > dual by design); this file owns the **HOW** (read + audit). It stands alone rather than folding into the
-> already-dual README. Still owed to the Bond Operator: how far the `locus:` front-matter sweep should reach
-> beyond the craft cluster.
+> already-dual README. Sweep-scope is resolved by the reach-rule above (default-to-`instance`, tag only the
+> disposed); the one residue owed to the Bond Operator is the **anchor + shim** locus tag, held for an
+> Operator-gated boot pass.

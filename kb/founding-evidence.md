@@ -1,3 +1,7 @@
+---
+locus: instance   # bond's lived founding proof (the felt 1+1=3) — settled on the lifecycle axis, but bond-private on the locus axis (not offerable). Key → MAP.md.
+---
+
 # dyad-bond — founding evidence *(settled; relocated from the anchor at the S1 two-layer cut)*
 
 ## Tenet alive (#8) — the felt 1+1=3
