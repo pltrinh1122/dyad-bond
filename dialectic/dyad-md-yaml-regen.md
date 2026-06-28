@@ -210,6 +210,51 @@ cf. the ratified (b) lean-tag/sidecar design that avoided content-dup. The quote
 excerpt* (regenerated, gate-verified), not a rival content-home — but it trades lean-yaml for
 audit-precision + a partial fidelity-gate. → the build-fork below.
 
+## The worksheet model — LANDED *(Operator `land` 2026-06-27; the frame that resolves "which is source")*
+
+The change-propagation thread converged on an analogy that **dissolves** the source-of-truth confusion the
+`src/obj` (compiler) framing created. The three artifacts are three **stages of materializing intent**:
+
+```
+unstructured raw input  →   worksheet        →   final output
+   (prompt / chat)          (invariants-bond.yaml)   (DYAD.md)
+   THE SOURCE = intent      structure + VALIDATE     hand-crafted DELIVERABLE
+                            (DAG/coverage-checked;    (the ingrain / boot surface;
+                             kept for audit/recompute, the operative anchor)
+                             NOT the deliverable)
+```
+
+- **Neither the yaml nor the md is "the source" — the *intent* is** (the chat prompt; → the change-vector
+  reframe earlier in this section). This is why the yaml *feels like it leads* (you work in the worksheet
+  first) **without** being authoritative-as-source: the **output** is what ships and what the LLM ingrains.
+- **The yaml's true type is WORKSHEET** — the structured surface where messy intent is *organized and
+  validated* (what `invariant-eval` + `anchor_dag_diff` literally do). A *kept* worksheet (version-controlled,
+  re-runnable), but not the deliverable. This **sharpens** the 2026-06-17 "yaml is a DERIVED intermediate"
+  line: it is an *active working/validation surface*, not a passive byproduct.
+- **The md is the FINAL OUTPUT — hand-CRAFTED from the validated worksheet, NOT compiled from it.** The
+  worksheet *informs* a crafted output (compute on scratch paper, then *write* the clean answer); it does not
+  mechanically emit it. This re-confirms the 2026-06-16 survivor (*prose is the operative form, not generated*)
+  on a sharper basis.
+
+**Why CRAFT, not COMPILE (the `yml=src → md=obj` inversion, rejected — `bond:no-dogma` re-run, true-for-now):**
+the compiler model is *internally* coherent (determinism would guarantee consistency), but it loses on three
+counts: **(1)** the boot surface must be *crafted* prose — a deterministic template flattens (cf.
+`rendered.md`, explicitly *not* the ingrain surface) and an LLM compiler re-introduces the non-determinism/
+contamination `anchor_dag_diff` was designed to exclude; **(2)** "a compiled anchor ingrains as well as crafted
+prose" is **untested** — the lone falsifiable, and adopting on it un-run would be assert-not-instrument; **(3)**
+wu-wei — a prose-compiler is a bigger build than the unbuilt extraction engine, heavy force for a *contained*
+drift problem (one re-altitude todo, already held by the gates).
+
+**The worksheet → output gate** (keeps the crafted md consistent with the validated worksheet — neither is
+purely upstream): **completeness** via the round-trip (`anchor_dag_diff`: every prescriptive line ↔ a node) +
+**fidelity** via the side-by-side audit view (`audit_view.py`: each `one_liner` ↔ its verbatim `source_quote`).
+The audit-view is therefore **not** a stopgap-for-a-missing-compiler — under the craft reading it **is** the
+keystone worksheet→output gate.
+
+**Open consequence (follow-on, not landed here):** under craft, `invariants-bond.rendered.md` (the flat digest)
+narrows to the round-trip's internal render; whether to retire it *as a committed/view artifact* (the md prose
+is the human form; the audit-view is the check) is a separate disposition.
+
 ## Cross-links
 `anchor-dag-thesis.md` (S1: state-to-falsify) · `dyad-dag-derivation.md` (the two-layer cut this rub
 re-rubs) · `bin/anchor_dag_diff.py` (the gate) · `invariants-bond.yaml` (the shadow) · `DYAD.md` (the
