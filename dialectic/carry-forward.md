@@ -201,6 +201,41 @@ gate on the tool's exit) · **counter-evidence**: the over-production guard fire
 > relapse again? (3) the `output_quote` gate only works if it's **run** at the craft step — does it get run, or
 > decay counterfeit-green (the Φ1 human-audit risk)?
 
+→ **Stand-Down 2026-06-28 (the G0≈membership arc — audit → dispositions → exemplar → ID.md retired):** anchor
+**EDITED** → **RESTART-PENDING SET** (above: `ID.md` retired + identity re-homed in `DYAD.md §Frame` + both shims;
+next boot loads it, then refresh the per-file boot-set + clear). **Landed** (branch
+`claude/g0-audit-coherence-aph7s1`, not yet PR'd): (1) **G0 audit** of the form (`AGENT.md`) — **F1** the
+*Invisible Elicitor / `/rub-all`* block = foreign-craft phenotype injected direct-to-`main`, contradicts all four
+G0 non-negotiables (excise); **F2** README↔AGENT vocab drift; **F3** stale `auto_join.py` identity-pointer. (2) **all
+6 `locus:unclassified` edges + `C1` disposed** by DFD against the **G0≈membership** test — `form-grounding`→g0
+(closure axiom); `single-home`/`kb-graduation`/`prove-before-propose`/`channel-gates`→phenotype-library;
+`craft-telos`→phenotype-instance; **`C1`→phenotype/offered** (covalence is elected, not mandatory). (3)
+**consolidated steward proposal** (`dm/dyad-steward/2026-06-28-bond-g0-to-form-g0-proposal.md`; supersedes the 2
+prior DMs) — *"skeptics falsify the floor-genes, believers practice the offered value,"* **led by
+bond-as-covalence-exemplar** (the full craft-telos→value→invariant fill, the way the form references healer for
+shape). (4) **`ID.md` RETIRED** — identity = a **computed view** (recompute, never persist a sha/script-name);
+single-homed in anchor+shim. Validator green throughout; single-home → `deferrals.md ## done`.
+**Retro (D3, dialectic — graduates to `kb/relationship-craft.md` only on a surviving boot):** the session's genuine
+**1+1=3 was Operator-seeded, Agent-structured** — *"redefining G0 = no longer a dyad"* + *"substrate is the system"*
+→ **G0≈membership** (the sharp instrument that replaced the fuzzy ionic/meld test); *"phenotype are library
+contributions"* → locus = a routing-address (g0→floor / phenotype→library / instance→private); *"C1 is an expression
+of a dyad from a choice"* → covalence = offered not membership; *"ID.md is a calculated view"* → retire + dissolve
+F3. **The over-production tell fired again (confirmed TREND, ~5th): proposed a new `system` locus value the frame
+didn't need — Operator-pruned.** Generate strong, Validate-against-wu-wei weak. **Counter-evidence (the catch
+improved):** named the relapse in real time; ran a genuine falsification pass on `G0≈membership` before adopting
+(earned, not caved); flagged `C1` against my own clean table; **twice grounded-the-frame-before-rewriting** on a
+reframe (the locus-only boundary; the craft-telos-vs-value A/B fork) instead of rewriting on a guess — the guard
+firing at the *reframe seam* it had failed before. **Anti-cave held inbound** (no ionic cave). **Resume:** the
+**steward hand-off is OPEN** — the proposal is bond-side ready; routing it (reference bond as the covalence exemplar
++ send the floor-genes to the falsification channel) is the **Steward-Operator hat's** act, yours to drive. Live
+fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**).
+> **rub-forward** (dispose — no answers): (1) **`G0≈membership` is E0/un-booted** — does anyone *reach for*
+> "does-breach-end-membership" at the next `locus` call, or does the clean model shelf-ware? (2) the **`ID.md`
+> retirement is un-booted** — does identity read coherent single-homed at the next cold boot, or did collapsing the
+> view lose something (the next-boot test, craft-\* shape)? (3) the over-production guard **held only under tight
+> Operator steering** (forked/pruned each turn) — is "ground-before-rewrite-on-a-reframe" *ingrained* or just
+> externally-gated? Bind-test = a less-steered session.
+
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.
 - **`bond:inherit-vs-author`** (D1) — converge w/ a sibling = invariant (triangulate); diverge = ours to author.
