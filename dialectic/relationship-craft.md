@@ -1518,7 +1518,7 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   - **"Accurate" is consequentialist, not representational:** accuracy = *"does ENFORCING `In_variant`
     produce the world `I` intends,"* tested by breach-behaviour over time (`In_variant(t)`) — NOT
     introspective resemblance (which the membership-test demotes to unfalsifiable fiat/value).
-  - **Status:** LIVE-adopted (true-for-now, R2). Candidate R-row for `views/invariants-bond.md`
+  - **Status:** LIVE-adopted (true-for-now, R2). Candidate R-row for `assessment/invariants-bond.md`
     (the `I↔In_variant` seam-discipline); not yet promoted.
 - **2026-06-13 · FALSIFICATION = CYCLE-LIVENESS; the eureka tachometer (Operator-driven, multi-rub-back, LANDED).**
   The capstone-bank was **rubbed-first by the Operator** and the held capstone **SUPERSEDED**. Arc
@@ -1668,7 +1668,7 @@ riding across." Agent-centric — it counted only the carriers *I* touch and dro
 **Craft lesson banked (the mixed-credit residual, RB2/anti-cave — do NOT rubber-stamp "the rub worked").**
 The rub-back was productive *because* my prior turn was sloppy: I asserted a namespace gap ("R un-indexed")
 from a **partial grep** that skipped `views/`. Durable rule (cheaper than the +1): **grounding a namespace →
-grep the index (`views/invariants-bond.md`) FIRST, never the inline references** (they carry stale tags — the
+grep the index (`assessment/invariants-bond.md`) FIRST, never the inline references** (they carry stale tags — the
 `R3` collision, Item-L). Execution-altitude twin of D6: partial-search-absence ≠ real absence.
 
 **Status:** candidate, LIVE (true-for-now, R2). Single-home = here; resume-visible pointer in the ledger.

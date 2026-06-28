@@ -16,7 +16,7 @@
 # Single-home: the intent is the source; the yaml is the worksheet; DYAD.md is the output. This view + the
 #   output_quote excerpts are DERIVED (regenerated, gate-checked), never a rival content-home.
 #
-# Usage: python3 bin/audit_view.py dialectic/invariants-bond.yaml DYAD.md [--emit views/invariants-bond.audit.md]
+# Usage: python3 bin/audit_view.py dialectic/invariants-bond.yaml DYAD.md [--emit assessment/invariants-bond.audit.md]
 # Exit:  0 every worksheet node is realized in the output · 1 a node's output_quote is ABSENT (craft-drop) · 2 load error.
 
 import sys, re

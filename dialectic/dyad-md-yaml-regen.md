@@ -93,7 +93,7 @@ DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
 
 > **⚠ SUPERSEDED 2026-06-27 (→ §The worksheet model, below).** `invariants-bond.rendered.md` is **RETIRED**;
 > the chain is now `intent → yaml worksheet → DYAD.md output` — the human form is the **output (DYAD.md prose)**,
-> not a flat digest, and the fidelity lens is the **audit-view** (`views/invariants-bond.audit.md`).
+> not a flat digest, and the fidelity lens is the **audit-view** (`assessment/invariants-bond.audit.md`).
 
 - **Direction is FORCED, not chosen.** md cannot be demoted to a yaml build-output: `bond:identity-
   conformance` + ROM-baseline both track **DYAD.md**'s bytes/sha. yaml-as-source breaks the frame. So even
@@ -184,7 +184,7 @@ to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
 |---|---|---|---|---|
 | **E1** | `DYAD.md` → `invariants-bond.yaml` | **derived (hand)** — engine unbuilt | `anchor_dag_diff` 2-way coverage | **completeness** (0 omission / 0 over-extraction); **blind to fidelity** |
 | **E2** | `.yaml` → in-memory digest (round-trip) | **generated** (transient; `rendered.md` RETIRED 2026-06-27) | coverage diff vs `DYAD.md` | completeness — no committed artifact to drift |
-| **E3** | `.yaml` + `DYAD.md` → `views/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `output_quote` gate (worksheet→output) | does the output realize each worksheet node (the keystone view) |
+| **E3** | `.yaml` + `DYAD.md` → `assessment/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `output_quote` gate (worksheet→output) | does the output realize each worksheet node (the keystone view) |
 | **AUDIT** | view ↔ `DYAD.md` | **human check** (not a derivation) | Operator manual cross-ref | **fidelity** (covers E1's blind spot); **decays with attention** (Φ1) |
 
 ### What this dictates for the guardrails (the enforcement layer — built AFTER, on top of this)
@@ -209,7 +209,7 @@ render the **derived claim beside its source prose** so a fidelity mismatch is s
 
 `[node-id] | SHADOW one_liner | DYAD.md source-excerpt | match?`
 
-A **2nd-order generated** view (a renderer reads `yaml` + `DYAD.md`), home `views/invariants-bond.audit.md`.
+A **2nd-order generated** view (a renderer reads `yaml` + `DYAD.md`), home `assessment/invariants-bond.audit.md`.
 
 **Requires a per-node source reference** — the yaml `home` is *section*-level (too coarse for sentence-level
 side-by-side; several nodes share one `home`). **Recommended: a per-node `source_quote`** (the exact `DYAD.md`

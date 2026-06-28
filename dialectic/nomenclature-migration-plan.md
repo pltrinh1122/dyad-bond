@@ -2,7 +2,7 @@
 
 > **Status: TIER 1 DONE (Operator Y 2026-06-26 on principle + map-rub + `claim:` namespace).** Slug-canonical
 > is live: `bond:<slug>` is the single identity; `D/R/X/U/S`+number is a display/citation alias (the `(was)`
-> column). **Tier 1 landed:** `views/invariants-bond.md` (all 5 tables) + `carry-forward.md` §Bond-disciplines
+> column). **Tier 1 landed:** `assessment/invariants-bond.md` (all 5 tables) + `carry-forward.md` §Bond-disciplines
 > index rewritten slug-primary; drift-gate IN-SYNC (yaml untouched); **Rule-tag-hygiene todo dissolved** →
 > `deferrals.md ## done`; Steward-hat X-tier heads-up queued → `deferrals.md ## todo`. **Settled alias map
 > below.** **Tier 2 (open):** mint each numbered invariant's `invariants-bond.yaml` pre-image as live work
@@ -35,7 +35,7 @@ prose. (a) is per-item authoring (naming = judgment → wants your rub); (b) is 
 ## The work, in two tiers
 
 **Tier 1 — mechanical (conformance; Agent-disposable on a Y):**
-- In `views/invariants-bond.md`: keep the table, change the `ID` column to the slug, add a `§/alias` column
+- In `assessment/invariants-bond.md`: keep the table, change the `ID` column to the slug, add a `§/alias` column
   carrying the old `D#` as a **citation handle** (so existing cross-refs still resolve by lookup).
 - Regenerate `views/invariants-bond.rendered.md` via the existing tool (no hand-edit).
 - Update the ledger disciplines-index (`carry-forward.md` §Bond-disciplines) to lead with slugs.
@@ -68,7 +68,7 @@ prose. (a) is per-item authoring (naming = judgment → wants your rub); (b) is 
 ## Blast radius (where numbered IDs are referenced)
 Grounded scan (`grep` over `*.md`/`*.yaml`, false-positives like the anchor-thesis "S1" excluded by hand at
 edit time). Heaviest live carriers: `relationship-craft.md` (~60), `carry-forward-closed.md` (~82, **cold
-archive — leave as historical**), `views/invariants-bond.md` (27, the index itself), `substrate-access.md`
+archive — leave as historical**), `assessment/invariants-bond.md` (27, the index itself), `substrate-access.md`
 (~12, the S-tier home), `cross-dyad-craft.md` (~10, the X-tier home), `ingraining.md`, `spaor.md`,
 `dyad-ui.md`. Strategy: rewrite **live read-path + home files**; leave **closed archives + commission/
 recommendation records** with the number as a frozen historical handle (an alias-map lookup covers them).

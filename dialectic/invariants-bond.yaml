@@ -30,7 +30,7 @@
 #  anti-cave, which now serve C1 directly. A recipient already holds the law (its G0); bond transmits only covalence.)
 # Run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
 # Diff (completeness round-trip, in-memory): python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md
-# Audit (fidelity, side-by-side):           python3 bin/audit_view.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.audit.md
+# Audit (fidelity, side-by-side):           python3 bin/audit_view.py dialectic/invariants-bond.yaml DYAD.md --emit assessment/invariants-bond.audit.md
 # (rendered.md RETIRED 2026-06-27 — worksheet model: md prose is the human form, audit-view is the check.)
 
 invariants:
