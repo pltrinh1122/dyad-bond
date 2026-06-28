@@ -4,7 +4,7 @@
 # anchor-dag-thesis.md S1, RESOLVED 2026-06-14). DYAD.md is NOT edited by this file. The prescriptive
 # core from dyad-dag-derivation.md §(1), DECOMPOSED to atomic single-breach records (s-web one_liner-
 # atomicity rule; the round-trip diff flagged the buried clauses as PRESCRIPTIVE-UNCOVERED) + the 2
-# conformance-invariants the S1 resolution requires (identity → ID.md; vocabulary → GLOSSARY.md).
+# conformance-invariants the S1 resolution requires (identity: single-homed in the anchor+shim — ID.md RETIRED 2026-06-28 as a computed view, externalization declined; vocabulary → GLOSSARY.md).
 # All one_liners are DECLARATIVE (a condition that holds; breach = its negation) — rub 2026-06-16.
 #
 # 11 core records (atomic) + 2 conformance candidates = 13. Roots: craft-telos (bond:craft-telos, fiat), C1 (forged — the covalent STATE).

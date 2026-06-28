@@ -105,6 +105,18 @@
   Operator-pruned ("substrate is the system; redefining G0 = no longer a dyad") → folded into `g0`, no schema
   change. → `invariants-bond.yaml` (the disposed nodes + header model-note).
 
+- **✅ ID.md retired — identity single-homed in anchor+shim** *(2026-06-28, Operator Y; anchor edit →
+  RESTART-PENDING)* — Operator: *"ID.md is a calculated view, not necessary to be persisted."* The S1
+  identity-externalization is **declined**: the birth-id is a **computed view** (recompute from the
+  add-commit `1ab6ad0` via the form's *current* onboarding script — `onboard.py`; verified the method is
+  intact: `sha256` over content+`%cI`, `--diff-filter=A`), and the authored identity (Covalent role,
+  orthogonality, Home) single-homes in `DYAD.md §Frame` + the shims. **Dissolves F3** (no pinned pointer to
+  go stale — don't trust-store a sha *or* a script-name). Deleted `ID.md`; re-homed identity in `DYAD.md
+  §Frame`; shims' IDENTITY CAVEAT made self-contained; fixed live refs (`GLOSSARY.md`, `README.md`,
+  `invariants-bond.yaml` S1 comment). Provenance refs left under their written name (anti-sweep). Validator
+  green. **Next boot:** refresh the per-file boot-set + clear RESTART-PENDING. (`GLOSSARY.md` stays — it's
+  authored vocabulary, genuine source, not a computed view.)
+
 - **✅ C1 locus revisit — DONE: `g0` → `phenotype`/offered** *(2026-06-28, same DFD sweep, Operator Y: "C1 is an
   expression of a dyad from a choice")* — the membership model demoted **covalence (`C1`) from mandatory g0 to the
   OFFERED/elected craft-value** (bond's own craft-* proposal already says craft-value is elected; healer's ≠

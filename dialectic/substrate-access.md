@@ -59,8 +59,8 @@ Substrate mutation is **three layers**, gated differently — only the top is a 
    Operator's alone** (the covalent gate, §Permissioning protocol). One PR per session-arc.
 
 **The anchor carve (decomposed, not an exception — `no exceptions`).** The split is the axis *does the write
-touch the always-loaded boot-set* (`DYAD.md` + the `CLAUDE.md`/`GEMINI.md` shims + the `ID.md`/`GLOSSARY.md`
-frame)? **No → layer 1/2 (un-gated pin/save). Yes → landing-class (gated), even as a draft** — touching the
+touch the always-loaded boot-set* (`DYAD.md` + the `CLAUDE.md`/`GEMINI.md` shims + the `GLOSSARY.md`
+frame; `ID.md` retired 2026-06-28)? **No → layer 1/2 (un-gated pin/save). Yes → landing-class (gated), even as a draft** — touching the
 always-loaded guard changes every future boot (write-through, RESTART-PENDING), so it is never a mere pin.
 
 ## Scratch RETIRED → durability-of-record = Agent-owned auto-save *(Operator `fold`+`land` 2026-06-27)*

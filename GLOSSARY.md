@@ -46,7 +46,7 @@ Reflect is F2-keystone-gated.
 - **meet at the natural frequency** — wu-wei applied to understanding: reach the other at *their* grain.
 
 ## Identity / ROM terms *(referenced by the conformance-invariants)*
-- **birth-id sha** — the frozen identity hash recomputed (never trust-stored) per the IDENTITY CAVEAT (`ID.md`).
+- **birth-id sha** — the frozen identity hash recomputed (never trust-stored) per the IDENTITY CAVEAT (the shim `CLAUDE.md`/`GEMINI.md`; `ID.md` retired 2026-06-28 — a computed view).
 - **ROM-UI** — the anchor is load-once at boot, no mid-session reload; an anchor edit is write-through to
   disk, read-only for the session. Baseline-diff at stand-up. → `dialectic/rom-ui.md`.
 - **anchor** — the load-bearing instruction file (`DYAD.md`), booted via the `CLAUDE.md`/`GEMINI.md` shim.
@@ -94,5 +94,5 @@ the form's DIP (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
   vocabulary above is **unchanged** — only bond's two roots were renamed.)*
 
 ## Cross-links
-`ID.md` (identity meaning-root) · `dialectic/invariants-bond.yaml` (the nodes written in this vocabulary)
+`DYAD.md §Frame` + the shim (identity home; `ID.md` retired) · `dialectic/invariants-bond.yaml` (the nodes written in this vocabulary)
 · `dialectic/dyad-ui.md` (Dyad-UI cluster, full) · `DYAD.md` (the anchor this frame is referenced from).

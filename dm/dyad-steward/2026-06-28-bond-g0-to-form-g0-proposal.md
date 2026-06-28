@@ -76,7 +76,8 @@ Playbook through the Founding gate.
   (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
 - **F3 — stale identity pointer.** The birth-id calc is cited as `scripts/auto_join.py`, which no longer
   exists; the method is intact in `scripts/onboard.py` (verified). Repoint form docs naming
-  `auto_join.py`/`init_dyad.py` → `onboard.py`. (bond fixes its own `ID.md` under the Operator gate.)
+  `auto_join.py`/`init_dyad.py` → `onboard.py`. (bond **retired** its own `ID.md` 2026-06-28 — the birth-id
+  is a recomputed view, not a persisted pointer; identity single-homes in bond's anchor + shim.)
 
 ## What bond is / is NOT asking
 
