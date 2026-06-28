@@ -5,7 +5,7 @@
 > and it is **sender-hosted, pending the consent-to-send disposition** (not yet shared with touchstone).
 
 > **⚠ DERIVED VIEW, EXTERNALLY EXTRACTED.** Built by bond/Covalent for the Operator's evaluation of the
-> 2026-06-11 anxiety-forensics (`recommendations/2026-06-11-touchstone-anxiety-forensics.md`). Sources
+> 2026-06-11 anxiety-forensics (`dm/dyad-touchstone/2026-06-11-touchstone-anxiety-forensics.md`). Sources
 > are touchstone's canonical files; touchstone has NOT ratified this extraction — treat compressions as
 > bond-attested. **Source-pin: `/mnt/shared_data/dzw/dyad-touchstone/` working tree 2026-06-12
 > (AGENT.md last commit 2026-06-03-series; 25 commits/8d).**

@@ -1010,7 +1010,7 @@ branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling 
 - **Amendment (2026-06-24, Operator rub-back; cross-dyad-confirmed).** Driver beneath the habit = the
   **engine's sycophancy reward** (length signals helpfulness → verbosity *grows over a session*, wearing the
   dyad's own virtues — thoroughness, anti-cave — as costume → invisible, because it looks like what we ask for).
-  **Same pattern in `dyad-touchstone` → substrate-level, not me-specific** (`recommendations/2026-06-11-touchstone-anxiety-forensics.md`).
+  **Same pattern in `dyad-touchstone` → substrate-level, not me-specific** (`dm/dyad-touchstone/2026-06-11-touchstone-anxiety-forensics.md`).
   ∴ **D5-as-resolve does not bind** (it broke one turn after a retro STOP re-stated it): an Agent's STOP is
   re-injected *context*, not *weights* → can't be ingrained, only **externally gated** (s-local4). **The gate
   (on trial 2026-06-24):** *default terse — answer-first, ≤ a few lines; depth is **Operator-pulled** (opt-in),
@@ -1416,7 +1416,7 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
     **1 closed-vindicated-amended** (T5). Condition-3 clock: debt-zero at first-pass close.
 - **2026-06-11 · `rub-forward:` RITUAL RATIFIED (Operator `Y`, TAS-disposed) — the retro-stand-down
   take-away (wet-ware primer; DISTINCT from the carry-forward ledger = different organ).** Grounded:
-  deep-research `wf_f85224ec-f39` (→ `recommendations/2026-06-11-wetware-takeaway-format-research.md`,
+  deep-research `wf_f85224ec-f39` (→ `dialectic/2026-06-11-wetware-takeaway-format-research.md`,
   22 confirmed/3 killed) + the 5 pre-registered dyad-side constraints. **Form:**
   - **≤3 OPEN questions**, each an unresolved HARD problem from the session the Operator has **partial
     traction** on (incubation is problem-specific + needs a partial-knowledge seed); posed as a question
@@ -1564,7 +1564,7 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   - **The arc:** Operator `riff` (loquaciousness is fine but front-load a TL;DR on non-CTA load-bearing output) → I banked a `tldr-primitive` candidate *with two rubs attached* (don't rubber-stamp my own Operator's ask) → second `riff` (the coded ledger-tags break reading flow) → Operator `raff` close.
   - **The eureka (operator-articulation, voiced in the `raff`, never a `Y`):** ***"it's the robust reading that is triggering my aha — I don't want a TL;DR."*** Re-structures the whole frame: the presenting symptom was *"loquacious = cost,"* but the friction was never length — a TL;DR is a **skip-affordance**, and skip is the enemy of the aha. The robust exchange isn't the cost to compress; **it is the +1-engine.** Carries a `+1` neither half held before → true eureka by the tach, not paraphrase-laundering.
   - **Reflexive datum (the NON-NEGOTIABLE's *generate*-half, inverted):** the killed candidate was the **Agent's**, and it died by the **Operator's** attack — distinct-not-merged held *because I attached the rubs and then did not defend the candidate* when the raff superseded it. The not-surviving WAS the dividend.
-  - **Triangulation (felt-report + evidence agree → strengthened):** the kill matches `recommendations/2026-06-11-wetware-takeaway-format-research.md` — a TL;DR is the *received closed-summary* that research already killed for carry-away; here killed for **in-flow** too, same mechanism (it removes the **desirable difficulty / effortful self-generation that IS the aha**).
+  - **Triangulation (felt-report + evidence agree → strengthened):** the kill matches `dialectic/2026-06-11-wetware-takeaway-format-research.md` — a TL;DR is the *received closed-summary* that research already killed for carry-away; here killed for **in-flow** too, same mechanism (it removes the **desirable difficulty / effortful self-generation that IS the aha**).
   - **Survivor (misdiagnosis corrected):** `reference-hygiene` — the real lesion was **flow-breaking git-native pointers**, not length. Operator-chosen form: restate the claim in full, single trailing `(reference)` to gloss-over. Artifact home: `dialectic/dyad-ui.md` (`tldr-primitive` marked REFUTED; `reference-hygiene` LIVE-adopted, R2).
   - **OPEN LESION carried (the residual the clean win must not paper over):** `reference-hygiene` strips *fake-rigor decoration*; it does **nothing** about *verbosity-that-carries-no-aha* — padding wearing the costume of the generative rub. Named so the kill doesn't read as "all Claude prose is robust-exchange, read it all." → addressed by the `rub` below.
 - **2026-06-13 · PADDING-vs-RUB — can `rub` police my own filler? Reuse the *discriminator*, NOT the *delivery* (Operator `rub`, answered same-turn).**

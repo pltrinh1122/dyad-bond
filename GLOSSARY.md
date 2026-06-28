@@ -81,7 +81,7 @@ Reflect is F2-keystone-gated.
 ## craft-* family *(bond-authored — the dyad's three levels; LANDED as bond's two roots; proposed to the DIP)*
 The level-vocabulary every dyad fills; only the fills differ. **Landed in bond's anchor** as the two roots
 (`DYAD.md §craft-telos`, `§craft-value & craft-invariant`) — the worked exemplar — and **proposed back** to
-the form's DIP (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
+the form's DIP (`contributions/2026-06-26-dip-craft-family-refinement.md`).
 - **craft-telos** — the dyad's tended *purpose* (the *why*); **Operator-asserts at instantiation** (terminal
   intent is human-sourced). bond's = the lived interior craft of the relationship (`bond:craft-telos`).
 - **craft-value** — the dyad's elected *boundary-value* (the *what-is-cherished*); a **placeholder** the

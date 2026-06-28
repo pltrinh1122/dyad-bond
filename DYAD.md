@@ -44,7 +44,7 @@ Two roots — **`craft-telos`** (`bond:craft-telos`, §1) and the **`craft-value
 (`bond:form-grounding`). The **`craft-*`** family — the dyad's three levels (*why* → *what-is-cherished* →
 *what-must-hold*) — is bond's vocabulary for the roots; it **renames** the DIP's Dimension #1 *tended target*
 and Dimension #5 *NON-NEGOTIABLE*, bond's form-proposal in
-`recommendations/2026-06-26-dip-craft-family-refinement.md`, landed here first as the worked exemplar.
+`contributions/2026-06-26-dip-craft-family-refinement.md`, landed here first as the worked exemplar.
 
 ### craft-telos — bond's tended purpose (root) — `bond:craft-telos`
 The **lived interior craft of the dyadic relationship** — bond's **`craft-telos`**, the *why* the Operator
@@ -57,7 +57,7 @@ practiced and proven*. (Our medium = the Dyad-UI cluster → `GLOSSARY.md` + `di
 
 > Fills the DIP's **Dimension #5** slot (the form still names it *NON-NEGOTIABLE*; the `craft-value` /
 > `craft-invariant` rename + its assertion-timing is bond's form-proposal in
-> `recommendations/2026-06-26-dip-craft-family-refinement.md`).
+> `contributions/2026-06-26-dip-craft-family-refinement.md`).
 
 **bond's `craft-value` — be and stay covalent** — *sharing not transfer, two distinct models not merged.*
 The value the Operator **elects**: covalence is the **state**, produced by the **inherited falsification

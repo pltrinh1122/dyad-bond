@@ -185,7 +185,7 @@ retrofitted → the frontier is making push/pop **fluid, Agent-maintained, proac
 > want a TL;DR."* The candidate **misdiagnosed the friction** as *length* when it was the flow-breaking
 > coded pointers (→ `reference-hygiene`, the survivor, below). A TL;DR is a **skip-affordance**, and skip is
 > the enemy of the aha — it removes the **desirable difficulty / effortful self-generation** that the
-> robust exchange runs on (converges with `recommendations/2026-06-11-wetware-takeaway-format-research.md`,
+> robust exchange runs on (converges with `dialectic/2026-06-11-wetware-takeaway-format-research.md`,
 > which already killed received closed-summaries for carry-away — here killed for **in-flow** too, same
 > mechanism). Reflexive: an **Agent** candidate killed by an **Operator** eureka — the generate-half tested
 > and not-surviving WAS the +1 (logged: `relationship-craft.md`, 2026-06-13 "robust-read is the aha-engine").
@@ -216,7 +216,7 @@ TL;DR — <the load-bearing core, ≤2 lines>.   [rub-back: LEAD with the contes
 
 **The two covalent rubs (why this isn't an ionic rubber-stamp):**
 
-1. **It contradicts our own verified evidence — until the job is split.** `recommendations/2026-06-11-wetware-takeaway-format-research.md`
+1. **It contradicts our own verified evidence — until the job is split.** `dialectic/2026-06-11-wetware-takeaway-format-research.md`
    *killed* closed summaries for **carry-away** (re-reading/summarization = LOW utility; open retrieval-prompts win,
    `3-0`). A TL;DR **is** a closed summary. **Resolution = different telos:** the TL;DR serves **in-flow grasp**
    (real-time decidability, *this* turn); the research served **offline synthesis** (next-session wetware memory).
