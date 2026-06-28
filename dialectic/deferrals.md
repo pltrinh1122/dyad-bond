@@ -18,6 +18,15 @@
 
 ## todo
 
+- **DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(Operator todo, 2026-06-28)* —
+  the acronym **`DFD` is unchanged**; only its *expansion* changes (Decision → **Disposition**), which reads
+  truer to the ontology: a DFD resolves in a `[CTA·Y/N]` = the Operator's **disposition**, not a generic
+  "decision." **Scope = the anchor+redirect rename-discipline (NOT a sweep)** — change the expansion only
+  where it is *defined/canonical*: `kb/dfd.md` (settled home) · `DYAD.md` (the `bond:DFD` node; **anchor ⇒
+  ROM/Operator-gated, sets RESTART-PENDING**) · `GLOSSARY.md` (Dyad-UI cluster) + a GLOSSARY
+  deprecate→redirect line. Leave provenance/ledger mentions under the name they were written (anti-sweep).
+  **Disposition wanted:** do-now vs park (anchor touch ⇒ next-boot reload).
+
 - **`locus` G0-membership validator (mechanization)** *(spawned 2026-06-26; the 6-edge disposal half RESOLVED
   2026-06-28 — see below)* — REMAINING: (a) **wire the validator check** — a `locus: g0` Belief-gene must
   co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
