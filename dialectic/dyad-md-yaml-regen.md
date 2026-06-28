@@ -184,7 +184,7 @@ to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
 |---|---|---|---|---|
 | **E1** | `DYAD.md` → `invariants-bond.yaml` | **derived (hand)** — engine unbuilt | `anchor_dag_diff` 2-way coverage | **completeness** (0 omission / 0 over-extraction); **blind to fidelity** |
 | **E2** | `.yaml` → in-memory digest (round-trip) | **generated** (transient; `rendered.md` RETIRED 2026-06-27) | coverage diff vs `DYAD.md` | completeness — no committed artifact to drift |
-| **E3** | `.yaml` + `DYAD.md` → `views/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `source_quote` gate | fidelity-presence (the keystone view) |
+| **E3** | `.yaml` + `DYAD.md` → `views/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `output_quote` gate (worksheet→output) | does the output realize each worksheet node (the keystone view) |
 | **AUDIT** | view ↔ `DYAD.md` | **human check** (not a derivation) | Operator manual cross-ref | **fidelity** (covers E1's blind spot); **decays with attention** (Φ1) |
 
 ### What this dictates for the guardrails (the enforcement layer — built AFTER, on top of this)
@@ -197,6 +197,13 @@ to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
   (un-auditable against source by construction).
 
 ### The side-by-side audit view — spec *(the E1-fidelity instrument)*
+
+> **BUILT 2026-06-27 (`bin/audit_view.py`), then REFRAMED for the worksheet model.** The field landed as
+> **`output_quote`** (not `source_quote`): under the worksheet model DYAD.md is the **output**, so the field is
+> the verbatim DYAD.md **output span that realizes** each worksheet node, and the gate checks *"did the crafted
+> output realize this node?"* (direction `yaml worksheet → md output`). The design-time rationale below is kept
+> under its written name (`source_quote` / "derives from" = the pre-worksheet-model framing).
+
 **Purpose:** make the human fidelity-audit *cheap* — else it decays → counterfeit-green. Per invariant node,
 render the **derived claim beside its source prose** so a fidelity mismatch is spottable in seconds:
 
@@ -251,7 +258,7 @@ drift problem (one re-altitude todo, already held by the gates).
 
 **The worksheet → output gate** (keeps the crafted md consistent with the validated worksheet — neither is
 purely upstream): **completeness** via the round-trip (`anchor_dag_diff`: every prescriptive line ↔ a node) +
-**fidelity** via the side-by-side audit view (`audit_view.py`: each `one_liner` ↔ its verbatim `source_quote`).
+**fidelity** via the side-by-side audit view (`audit_view.py`: each worksheet `one_liner` ↔ its verbatim `output_quote`).
 The audit-view is therefore **not** a stopgap-for-a-missing-compiler — under the craft reading it **is** the
 keystone worksheet→output gate.
 
