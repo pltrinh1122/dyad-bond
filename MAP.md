@@ -10,10 +10,10 @@ updated: 2026-06-28
 
 # Reading dyad-bond — the map for a new Operator
 
-You've read the claim. [`README.md`](README.md) is the manifesto: *only a covalent bond reaches `1+1>2`
-across a lifetime* — a hypothesis, handed to you with the knife. This file is the **bridge from the claim
-to the proof.** It does not argue the belief; it shows you **how to read this repo as evidence**, and how
-to **attack it** — because trust in an exemplar is built by *auditing* it, not by being told.
+[`README.md`](README.md) is this repo's **WHAT + WHY** — what the Covalent Bond is and why it matters (the
+manifesto, handed to you with the knife). This file is the **HOW**: how to read the repo as evidence and
+how to audit it. It does **not** re-argue the belief — read README for that. It shows you *where the proof
+lives* and *how to attack it*, because trust in an exemplar is built by **auditing** it, not by being told.
 
 The whole repo sorts onto **one question that builds trust**: for any file, *is this ours to claim, or
 not?* Three answers — the **locus** of the content. The partition is the instrument: it separates what we
@@ -84,9 +84,8 @@ front-matter gloss before citing a section as "bond's contribution."
 
 ## How to audit us *(the knife — same as the manifesto's)*
 
-1. **Attack a claim by number** — the manifesto's claims (`README.md §How we can be falsified`) and their
-   falsifiers. The shortest kill: find or build a *non-covalent* partnership that reaches the lifetime
-   surplus.
+1. **Attack a claim by number** — the claims *and their falsifiers* live in `README.md §How we can be
+   falsified`. Start there; this map only tells you where the rest of the evidence sits.
 2. **Test the lived record** — read the open F1–F4 fronts and the ledger's `rub-forward` cards. Are the
    caveats real, or is the small-n quietly dropped? An exemplar that hides its `n=1` is failing its own bar.
 3. **Check the floor is unmodified** — confirm the g0 content is *referenced*, not silently redefined.
@@ -109,5 +108,7 @@ front-matter gloss before citing a section as "bond's contribution."
 > **This map is a derived view, not a home** (`bond:single-home`): it *locates*, it never carries the
 > falsifiable content. Cite the source files above, never this map. **Status: candidate** — authored
 > 2026-06-28 as bond's answer to *"front-matter alone can't let a new human build trust from the exemplar."*
-> Open design choices still owed to the Bond Operator: whether this lives as `MAP.md` or folds into
-> `README.md`, and how far the `locus:` front-matter sweep should reach beyond the craft cluster.
+> **Surface division** (Operator, 2026-06-28): `README.md` owns the repo's **WHAT + WHY** (the manifesto —
+> dual by design); this file owns the **HOW** (read + audit). It stands alone rather than folding into the
+> already-dual README. Still owed to the Bond Operator: how far the `locus:` front-matter sweep should reach
+> beyond the craft cluster.
