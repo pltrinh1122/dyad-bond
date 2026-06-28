@@ -12,8 +12,14 @@
 #  (craft-telos / craft-value+craft-invariant) — bond's local rename of the DIP's Dimension #1 + #5, landed as exemplar.)
 # (s-web4 rub: bond:anti-cave promoted edge-scar -> node — the Grade-B orphan prescription from GLOSSARY.)
 # (2026-06-26, the G0/heritability thread: +locus heritability axis — g0 (universal dyad-gene; contributing it
-#  EXPANDS G0) / phenotype (bond-specific, regenerated per dyad) / unclassified (6 edges, Operator-dispose
-#  pending — deferrals.md). G0-membership tag; the "DNA" framing was RETIRED (2026-06-26) — a contributed g0
+#  EXPANDS G0) / phenotype (bond-specific, regenerated per dyad) / unclassified (RESOLVED 2026-06-28 — all 6
+#  edges disposed via DFD, Operator Y). MODEL (Operator 2026-06-28): **G0 ≈ MEMBERSHIP**. g0 = the non-negotiables
+#  whose breach ENDS dyad-hood (→ the DIP floor, mandatory every dyad); phenotype = optional Playbooks (→ library/
+#  when generalizable, else PRIVATE instance-fill). Test: "does breach end membership?" — form-grounding=g0 (the
+#  closure axiom of membership); single-home/kb-graduation/prove-before-propose/channel-gates=phenotype-library,
+#  craft-telos=phenotype-instance. (Loose end surfaced by the model: C1=covalence is ELECTED/offered, not mandatory
+#  membership — its locus:g0 tag needs revisiting vs the mandatory-vs-offered split.)
+#  G0-membership tag; the "DNA" framing was RETIRED (2026-06-26) — a contributed g0
 #  gene just expands G0 (to the world it is G0), provenance carried by `status`. schema 0.10.0.)
 # (2026-06-26 altitude refactor — C1 re-cut to the covalent STATE (the cherished consequence); no-ionic +
 #  no-meld DISSOLVED (ionic/meld are C1's breach-faces, not nodes). FOLD (2026-06-26): falsifiability + no-dogma
@@ -30,7 +36,7 @@ invariants:
   # ---- ROOTS ----
 
   - id: "bond:craft-telos"
-    locus: unclassified   # edge: every dyad has a telos (G0 slot) but bond's CONTENT is its own; root-status complicates — Operator-dispose
+    locus: phenotype      # DISPOSED 2026-06-28 (DFD 6/6, Operator Y "specific not common"): this node encodes bond's SPECIFIC telos-content = instance-fill (private — not even library; you can't contribute "bond's telos" as a Playbook). The universal "have a telos" is already DIP Dimension #1 (g0); the craft-* rename is the separate recommendations form-proposal. Root-status is orthogonal to locus.
     home: "DYAD.md#craft-telos"
     one_liner: "The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object."
     output_quote: "The **lived interior craft of the dyadic relationship**"
@@ -113,7 +119,7 @@ invariants:
   #   the law (its G0 too) — bond transmits only the covalent contribution.
 
   - id: "bond:single-home"
-    locus: unclassified   # edge: universal good-practice or bond craft-tooling? Operator-dispose
+    locus: phenotype      # DISPOSED 2026-06-28 (DFD 1/6, Operator Y): good-practice, not a dyad-health gene — its breach is drift/bloat, not ionic/meld collapse; library-Playbook-eligible, NOT form-G0 floor.
     home: "DYAD.md#Single-home"
     one_liner: "Each fact lives in exactly one content-home and is restated in no other file."
     output_quote: "each fact lives in exactly one content-home, restated in no other file"
@@ -129,7 +135,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "a fat shim restating dialectic/ content = a second home = drift"}
 
   - id: "bond:kb-graduation"
-    locus: unclassified   # edge: universal or bond craft-tooling? Operator-dispose
+    locus: phenotype      # DISPOSED 2026-06-28 (DFD 2/6, Operator Y): bond-specific mechanism (dialectic/→kb/ graduation gate); its universal principle (unfalsified≠settled) is already the INHERITED falsification law — re-noding it would breach form-grounding ("inherit, never re-node"). Not a new G0 gene.
     home: "DYAD.md#Single-home"
     one_liner: "A learning is in kb only after it has survived falsification in dialectic."
     output_quote: "a learning is in `kb/` only **after** it survives falsification in `dialectic/`."
@@ -145,7 +151,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "citing a dialectic candidate as settled kb"}
 
   - id: "bond:form-grounding"
-    locus: unclassified   # edge: about the dyad↔form relation (System-interface) vs a dyad-internal gene — Operator-dispose
+    locus: g0             # DISPOSED 2026-06-28 (DFD 3/6, Operator Y): the CLOSURE AXIOM of membership (G0≈membership) — redefining G0 redefines the membership set = exit the Practice = not-a-dyad. Purest g0; breach ends dyad-hood, harder than C1. The form IS the dyad's substrate, so this constitutive rule is a gene, not a separate "system" locus (the new-value call was over-production, Operator-pruned).
     home: "DYAD.md#Form-grounding"
     one_liner: "The form's G0 is inherited unmodified (extend, never redefine)."
     output_quote: "the Frame's **G0**, unmodified: extend, never redefine."
@@ -161,7 +167,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "redefining an inherited G0 term locally"}
 
   - id: "bond:prove-before-propose"
-    locus: unclassified   # edge: System-interface (how a dyad contributes back) vs gene — Operator-dispose
+    locus: phenotype      # DISPOSED 2026-06-28 (DFD 4/6, Operator Y): NOT membership — premature proposal = a member contributing badly, still a dyad; the commons is protected form-side by the Founding gate (§Governance), not by per-dyad self-restraint. Residue = bond's contribution-rigor → library-eligible Playbook.
     home: "DYAD.md#Form-grounding"
     one_liner: "A local evolution is proposed back to the form only after it has been proven here."
     output_quote: "evolve locally → prove here → only then propose back via the Founding-Operator gate."
@@ -177,7 +183,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "proposing an unproven candidate to the form"}
 
   - id: "bond:channel-gates"
-    locus: unclassified   # edge: System-interface (hat routing) vs gene — Operator-dispose
+    locus: phenotype      # DISPOSED 2026-06-28 (DFD 5/6, Operator Y): NOT membership — a commanded/mis-routed dyad is still a dyad; the Founding/Steward roles + "steward coordinates, never commands" (K2) already live form-side. Residue = bond's three-hat routing + the sovereignty principle → library-eligible governance Playbook.
     home: "DYAD.md#Channel-discipline"
     one_liner: "A disposition reaches only the Operator hat that owns it — Bond (proposer/ratifier), Founding (the form gate), or Steward (cross-dyad intake) — with no hat over-reaching another's seat."
     output_quote: "A disposition reaches only the hat that owns it; no hat over-reaches another's seat."
