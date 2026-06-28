@@ -31,7 +31,7 @@ invariants:
     locus: unclassified   # edge: every dyad has a telos (G0 slot) but bond's CONTENT is its own; root-status complicates — Operator-dispose
     home: "DYAD.md#craft-telos"
     one_liner: "The dyad's work stays oriented toward the lived interior craft of the dyadic relationship — the relationship itself, not an external artifact, is the craft-object."
-    source_quote: "The **lived interior craft of the dyadic relationship**"
+    output_quote: "The **lived interior craft of the dyadic relationship**"
     status: ratified
     form: slogan
     settlement: settled
@@ -47,7 +47,7 @@ invariants:
     locus: g0             # the universal goal "stay a real (un-collapsed) dyad" — shared by all dyads. (state, not a behavior-gene — locus loose end, flagged)
     home: "DYAD.md#craft-value"
     one_liner: "The bond is kept covalent — sharing not transfer, two distinct models not merged."
-    source_quote: "*sharing not transfer, two distinct models not merged.*"
+    output_quote: "*sharing not transfer, two distinct models not merged.*"
     status: ratified
     form: slogan
     settlement: settled
@@ -66,7 +66,7 @@ invariants:
     locus: g0             # the independent second perspective IS a universal dyad-gene — without it falsification is counterfeit
     home: "DYAD.md#craft-value"
     one_liner: "Two distinct, genuinely independent models are maintained — the second perspective that makes falsification real, and its loss to a single merged model is meld."
-    source_quote: "an independent second model, else the falsification is meld-counterfeit. IFF1."
+    output_quote: "an independent second model, else the falsification is meld-counterfeit. IFF1."
     status: ratified
     form: tuple
     settlement: settled
@@ -88,7 +88,7 @@ invariants:
     locus: g0             # any dyad's agent must enable Operator dissent — universal, not covalent-craft-specific
     home: "dialectic/relationship-craft.md#the-anti-cave-duty"
     one_liner: "The Agent manufactures genuine grounds for the Operator to dissent before any disposition surface — an ungrounded surface that can induce a wrong Y is the breach."
-    source_quote: "the agent grounds the frame so the human has real grounds to dissent, else a wrong Y is induced."
+    output_quote: "the agent grounds the frame so the human has real grounds to dissent, else a wrong Y is induced."
     status: ratified
     form: tuple
     settlement: settled
@@ -114,7 +114,7 @@ invariants:
     locus: unclassified   # edge: universal good-practice or bond craft-tooling? Operator-dispose
     home: "DYAD.md#Single-home"
     one_liner: "Each fact lives in exactly one content-home and is restated in no other file."
-    source_quote: "each fact lives in exactly one content-home, restated in no other file"
+    output_quote: "each fact lives in exactly one content-home, restated in no other file"
     status: ratified
     form: tuple
     settlement: settled
@@ -130,7 +130,7 @@ invariants:
     locus: unclassified   # edge: universal or bond craft-tooling? Operator-dispose
     home: "DYAD.md#Single-home"
     one_liner: "A learning is in kb only after it has survived falsification in dialectic."
-    source_quote: "a learning is in `kb/` only **after** it survives falsification in `dialectic/`."
+    output_quote: "a learning is in `kb/` only **after** it survives falsification in `dialectic/`."
     status: ratified
     form: tuple
     settlement: settled
@@ -146,7 +146,7 @@ invariants:
     locus: unclassified   # edge: about the dyad↔form relation (System-interface) vs a dyad-internal gene — Operator-dispose
     home: "DYAD.md#Form-grounding"
     one_liner: "The form's G0 is inherited unmodified (extend, never redefine)."
-    source_quote: "the Frame's **G0**, unmodified: extend, never redefine."
+    output_quote: "the Frame's **G0**, unmodified: extend, never redefine."
     status: ratified
     form: tuple
     settlement: settled
@@ -162,7 +162,7 @@ invariants:
     locus: unclassified   # edge: System-interface (how a dyad contributes back) vs gene — Operator-dispose
     home: "DYAD.md#Form-grounding"
     one_liner: "A local evolution is proposed back to the form only after it has been proven here."
-    source_quote: "evolve locally → prove here → only then propose back via the Founding-Operator gate."
+    output_quote: "evolve locally → prove here → only then propose back via the Founding-Operator gate."
     status: ratified
     form: tuple
     settlement: settled
@@ -178,7 +178,7 @@ invariants:
     locus: unclassified   # edge: System-interface (hat routing) vs gene — Operator-dispose
     home: "DYAD.md#Channel-discipline"
     one_liner: "A disposition reaches only the Operator hat that owns it — Bond (proposer/ratifier), Founding (the form gate), or Steward (cross-dyad intake) — with no hat over-reaching another's seat."
-    source_quote: "A disposition reaches only the hat that owns it; no hat over-reaches another's seat."
+    output_quote: "A disposition reaches only the hat that owns it; no hat over-reaches another's seat."
     status: ratified
     form: tuple
     settlement: settled
@@ -194,7 +194,7 @@ invariants:
     locus: phenotype      # Dyad-UI cluster = bond's craft tooling, regenerated per dyad
     home: "kb/dfd.md"
     one_liner: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis."
-    source_quote: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis"
+    output_quote: "A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis"
     status: ratified
     form: tuple
     settlement: settled
@@ -210,7 +210,7 @@ invariants:
     locus: g0             # universal dyadic gate (proposer ≠ disposer) — any dyad
     home: "DYAD.md#craft-value"
     one_liner: "No candidate is ratified by its own proposer — the disposing half is never the proposing half."
-    source_quote: "disposer ≠ proposer, else the candidate is self-graded."
+    output_quote: "disposer ≠ proposer, else the candidate is self-graded."
     status: ratified
     form: tuple
     settlement: settled
@@ -228,7 +228,7 @@ invariants:
     locus: phenotype      # bond's birth-id / running-identity = instance, regenerated per dyad
     home: "DYAD.md#Frame"
     one_liner: "The running anchor's identity matches the frozen birth-id sha, recomputed from CLAUDE.md@1ab6ad0 and never trust-stored (drift from the canonical sha is the breach)."
-    source_quote: "drift from the canonical birth-id sha = breach; the sha is computed over the original add-commit `1ab6ad0`"
+    output_quote: "drift from the canonical birth-id sha = breach; the sha is computed over the original add-commit `1ab6ad0`"
     status: candidate
     form: tuple
     settlement: candidate
@@ -243,7 +243,7 @@ invariants:
     locus: phenotype      # bond's vocabulary = instance, regenerated per dyad
     home: "DYAD.md#Frame"
     one_liner: "Every term used in an invariant node is defined in GLOSSARY.md (an undefined orphan term is the mechanical breach)."
-    source_quote: "**The core below is written in this vocabulary**"
+    output_quote: "**The core below is written in this vocabulary**"
     status: candidate
     form: tuple
     settlement: candidate
