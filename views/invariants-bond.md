@@ -8,15 +8,14 @@
 
 ## Constitutional *(the core DAG — now MECHANICALLY rendered, not hand-compressed)*
 
-> **→ [`views/invariants-bond.rendered.md`](invariants-bond.rendered.md)** — the C-block retired here
-> (P4, 2026-06-17). The 17-node constitutional/core DAG is **deterministically rendered** from
-> `dialectic/invariants-bond.yaml` (source: `DYAD.md`) by `bin/anchor_dag_diff.py`, and a **drift-gate
-> guards it** (`STALE ⚠` = counterfeit-green). It is the **superior projection** — finer-grained than
-> the old C1–C5 hand-table (post-2026-06-26 refactor: C1 = the covalent **state**, its enablers `bond:two-models` · `bond:no-self-ratify` · `bond:anti-cave` as distinct nodes; ionic/meld are C1's breach-faces, not nodes) and
-> regen-checked instead of hand-maintained. The easy-agreement **tell** and other practice-heuristics
-> stay homed in `DYAD.md §craft-value & craft-invariant`.
-> *(Partial retirement: only the Constitutional block is mechanized; D/R/X/U/S below stay agent-rendered
-> until they have yaml pre-images.)*
+> **RETIRED 2026-06-27 (worksheet model).** The mechanically-rendered digest `invariants-bond.rendered.md`
+> is **retired** — under the worksheet model (→ `dialectic/dyad-md-yaml-regen.md §The worksheet model`) the
+> **output (`DYAD.md` prose) IS the human form**, and the **audit-view (`views/invariants-bond.audit.md`) is
+> the fidelity check** (each `one_liner` ↔ its verbatim `DYAD.md` `source_quote`). The constitutional
+> invariants live in **`DYAD.md §craft-value & craft-invariant`** (the deliverable); `bin/anchor_dag_diff.py`
+> still gates **completeness** in-memory (no committed digest). The easy-agreement **tell** and other
+> practice-heuristics stay homed in `DYAD.md`.
+> *(D/R/X/U/S below stay agent-rendered until each gains a yaml pre-image.)*
 > **ID scheme (slug-canonical, Operator Y 2026-06-26 → `nomenclature-migration-plan.md`):** the `bond:<slug>`
 > is the **canonical identity** (schema-conformant per `invariant-schema.yaml`; corpus-unique). The old
 > `D/R/X/U/S`+number is a **display/citation alias only** (the `(was)` column) — cite the slug, not the number.
@@ -77,9 +76,9 @@
 
 ## Regeneration procedure *(two-track since P4)*
 
-> **Constitutional block → MECHANICAL** (the superior path, decision 3a): no agent pass —
-> `python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.rendered.md`,
-> then commit the digest in lockstep (the drift-gate exits 1 / prints `STALE ⚠` if you don't).
+> **Constitutional block → no committed digest** (`rendered.md` RETIRED 2026-06-27, worksheet model). The
+> **completeness** round-trip runs in-memory: `python3 bin/anchor_dag_diff.py dialectic/invariants-bond.yaml DYAD.md`;
+> the **fidelity** check is `python3 bin/audit_view.py dialectic/invariants-bond.yaml DYAD.md --emit views/invariants-bond.audit.md`.
 > **D/R/X/U/S rows → AGENT-MODE** (v1, below) until each gains a yaml pre-image.
 
 1. Agent pass over: `DYAD.md` · `carry-forward.md` §Bond-disciplines · `relationship-craft.md` (ratified

@@ -91,6 +91,10 @@ DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
     → invariants-bond.rendered.md  (the lens the Operator reads; lands in views/)
 ```
 
+> **⚠ SUPERSEDED 2026-06-27 (→ §The worksheet model, below).** `invariants-bond.rendered.md` is **RETIRED**;
+> the chain is now `intent → yaml worksheet → DYAD.md output` — the human form is the **output (DYAD.md prose)**,
+> not a flat digest, and the fidelity lens is the **audit-view** (`views/invariants-bond.audit.md`).
+
 - **Direction is FORCED, not chosen.** md cannot be demoted to a yaml build-output: `bond:identity-
   conformance` + ROM-baseline both track **DYAD.md**'s bytes/sha. yaml-as-source breaks the frame. So even
   granting the yaml's superior *structural* fidelity (typed edges/roots/tuples), the only admissible
@@ -157,6 +161,113 @@ single-homes in the sidecar. No content duplication; the boot surface stays lean
 What stays CANDIDATE: the **pipeline itself is unbuilt** — inline tags don't exist yet and the extraction
 engine is cairn's DRAFT commission. So (b) is the ratified *spec*; the lived `md → yaml` derivation graduates
 to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
+
+## Change-propagation formalization — the derivation-edge map *(CANDIDATE · Operator `Y` 2026-06-27)*
+
+> **Prerequisite to operational guardrails.** A guardrail is *enforcement of a gate on a derivation edge*.
+> Before strengthening guardrails for **initiating** and **propagating** changes, the edges must be typed:
+> `source → sink`, derivation-mechanism (today's *actual* state), the gate, and what the gate certifies.
+> Build guardrails before this map and you risk claiming a *generated*-edge guarantee on a *derived* (hand)
+> edge — false confidence — or gating the wrong direction (blocking the yaml-first reasoning workflow).
+
+### Vocabulary — authored / derived / generated *(Operator 2026-06-27 — honest mechanism-state)*
+- **authored** — created by the dyad's *Generate* half. The source: **`DYAD.md`**. (The tenet-"Generate"
+  lives *here*; don't overload it downstream.)
+- **derived** — dependent on source, kept consistent **by hand**, no generator. A derived-edge gate can only
+  check **consistency**, never correctness.
+- **generated** — produced by a **mechanical, gated `f`**. A generated-edge gate can "re-run `f` and diff."
+- **Rule:** say **derived** until a mechanical `f` exists *and is gated*; only then is the edge **generated**.
+  (Until the extraction engine ships, the most important edge — `md → yaml` — is **derived**, not generated.)
+
+### The edge map (today's state)
+| Edge | source → sink | type **now** | gate | certifies / blind-to |
+|---|---|---|---|---|
+| **E1** | `DYAD.md` → `invariants-bond.yaml` | **derived (hand)** — engine unbuilt | `anchor_dag_diff` 2-way coverage | **completeness** (0 omission / 0 over-extraction); **blind to fidelity** |
+| **E2** | `.yaml` → in-memory digest (round-trip) | **generated** (transient; `rendered.md` RETIRED 2026-06-27) | coverage diff vs `DYAD.md` | completeness — no committed artifact to drift |
+| **E3** | `.yaml` + `DYAD.md` → `views/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `output_quote` gate (worksheet→output) | does the output realize each worksheet node (the keystone view) |
+| **AUDIT** | view ↔ `DYAD.md` | **human check** (not a derivation) | Operator manual cross-ref | **fidelity** (covers E1's blind spot); **decays with attention** (Φ1) |
+
+### What this dictates for the guardrails (the enforcement layer — built AFTER, on top of this)
+- **E1 fidelity is not mechanizable until the extraction engine ships.** Until then the strongest E1 guardrail
+  is: **completeness-gate at land** (`anchor_dag_diff` clean) **+** a **cheap, land-mandatory human
+  fidelity-audit**. (The auto-propagate-md→yaml guardrail you'd most want **cannot be built yet** — E1 is
+  derived, not generated. Don't chase it; build the three buildable gates.)
+- **E2** is already a generated-edge gate (lockstep) — keep.
+- **E3's hand-tier** (`D/R/X/U/S`) must gain **source pre-images** or be **scoped out of the audit-view**
+  (un-auditable against source by construction).
+
+### The side-by-side audit view — spec *(the E1-fidelity instrument)*
+
+> **BUILT 2026-06-27 (`bin/audit_view.py`), then REFRAMED for the worksheet model.** The field landed as
+> **`output_quote`** (not `source_quote`): under the worksheet model DYAD.md is the **output**, so the field is
+> the verbatim DYAD.md **output span that realizes** each worksheet node, and the gate checks *"did the crafted
+> output realize this node?"* (direction `yaml worksheet → md output`). The design-time rationale below is kept
+> under its written name (`source_quote` / "derives from" = the pre-worksheet-model framing).
+
+**Purpose:** make the human fidelity-audit *cheap* — else it decays → counterfeit-green. Per invariant node,
+render the **derived claim beside its source prose** so a fidelity mismatch is spottable in seconds:
+
+`[node-id] | SHADOW one_liner | DYAD.md source-excerpt | match?`
+
+A **2nd-order generated** view (a renderer reads `yaml` + `DYAD.md`), home `views/invariants-bond.audit.md`.
+
+**Requires a per-node source reference** — the yaml `home` is *section*-level (too coarse for sentence-level
+side-by-side; several nodes share one `home`). **Recommended: a per-node `source_quote`** (the exact `DYAD.md`
+sentence the `one_liner` extracts), because it *also* enables a **mechanical verbatim-containment gate** — the
+quote must appear in `DYAD.md` → catches a class of E1 drift the lexical coverage-diff misses (the *one* slice
+of fidelity the machine *can* certify: that the cited source text is real, even if it can't certify the
+paraphrase is faithful). **Tension to dispose:** `source_quote` re-introduces a source *excerpt* in the yaml —
+cf. the ratified (b) lean-tag/sidecar design that avoided content-dup. The quote is a *derived, checkable
+excerpt* (regenerated, gate-verified), not a rival content-home — but it trades lean-yaml for
+audit-precision + a partial fidelity-gate. → the build-fork below.
+
+## The worksheet model — LANDED *(Operator `land` 2026-06-27; the frame that resolves "which is source")*
+
+The change-propagation thread converged on an analogy that **dissolves** the source-of-truth confusion the
+`src/obj` (compiler) framing created. The three artifacts are three **stages of materializing intent**:
+
+```
+unstructured raw input  →   worksheet        →   final output
+   (prompt / chat)          (invariants-bond.yaml)   (DYAD.md)
+   THE SOURCE = intent      structure + VALIDATE     hand-crafted DELIVERABLE
+                            (DAG/coverage-checked;    (the ingrain / boot surface;
+                             kept for audit/recompute, the operative anchor)
+                             NOT the deliverable)
+```
+
+- **Neither the yaml nor the md is "the source" — the *intent* is** (the chat prompt; → the change-vector
+  reframe earlier in this section). This is why the yaml *feels like it leads* (you work in the worksheet
+  first) **without** being authoritative-as-source: the **output** is what ships and what the LLM ingrains.
+- **The yaml's true type is WORKSHEET** — the structured surface where messy intent is *organized and
+  validated* (what `invariant-eval` + `anchor_dag_diff` literally do). A *kept* worksheet (version-controlled,
+  re-runnable), but not the deliverable. This **sharpens** the 2026-06-17 "yaml is a DERIVED intermediate"
+  line: it is an *active working/validation surface*, not a passive byproduct.
+- **The md is the FINAL OUTPUT — hand-CRAFTED from the validated worksheet, NOT compiled from it.** The
+  worksheet *informs* a crafted output (compute on scratch paper, then *write* the clean answer); it does not
+  mechanically emit it. This re-confirms the 2026-06-16 survivor (*prose is the operative form, not generated*)
+  on a sharper basis.
+
+**Why CRAFT, not COMPILE (the `yml=src → md=obj` inversion, rejected — `bond:no-dogma` re-run, true-for-now):**
+the compiler model is *internally* coherent (determinism would guarantee consistency), but it loses on three
+counts: **(1)** the boot surface must be *crafted* prose — a deterministic template flattens (cf.
+`rendered.md`, explicitly *not* the ingrain surface) and an LLM compiler re-introduces the non-determinism/
+contamination `anchor_dag_diff` was designed to exclude; **(2)** "a compiled anchor ingrains as well as crafted
+prose" is **untested** — the lone falsifiable, and adopting on it un-run would be assert-not-instrument; **(3)**
+wu-wei — a prose-compiler is a bigger build than the unbuilt extraction engine, heavy force for a *contained*
+drift problem (one re-altitude todo, already held by the gates).
+
+**The worksheet → output gate** (keeps the crafted md consistent with the validated worksheet — neither is
+purely upstream): **completeness** via the round-trip (`anchor_dag_diff`: every prescriptive line ↔ a node) +
+**fidelity** via the side-by-side audit view (`audit_view.py`: each worksheet `one_liner` ↔ its verbatim `output_quote`).
+The audit-view is therefore **not** a stopgap-for-a-missing-compiler — under the craft reading it **is** the
+keystone worksheet→output gate.
+
+**Follow-on RESOLVED (Operator `retire rendered.md` 2026-06-27):** `invariants-bond.rendered.md` is **RETIRED**.
+The md prose is the human form; the audit-view is the fidelity check; the round-trip renders **in-memory** (no
+committed digest). `bin/anchor_dag_diff.py`'s default staleness-gate is off (`RENDERED_DEFAULT = None`;
+`--rendered FILE` stays opt-in). Live refs repointed: `views/invariants-bond.md` (constitutional block → the
+output + audit-view), the yaml header, this chain. Historical refs (the 2026-06-16 ATTACK narrative, `P4`
+records, the migration plan) kept under the name written under.
 
 ## Cross-links
 `anchor-dag-thesis.md` (S1: state-to-falsify) · `dyad-dag-derivation.md` (the two-layer cut this rub
