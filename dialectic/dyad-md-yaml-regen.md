@@ -91,6 +91,10 @@ DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
     → invariants-bond.rendered.md  (the lens the Operator reads; lands in views/)
 ```
 
+> **⚠ SUPERSEDED 2026-06-27 (→ §The worksheet model, below).** `invariants-bond.rendered.md` is **RETIRED**;
+> the chain is now `intent → yaml worksheet → DYAD.md output` — the human form is the **output (DYAD.md prose)**,
+> not a flat digest, and the fidelity lens is the **audit-view** (`views/invariants-bond.audit.md`).
+
 - **Direction is FORCED, not chosen.** md cannot be demoted to a yaml build-output: `bond:identity-
   conformance` + ROM-baseline both track **DYAD.md**'s bytes/sha. yaml-as-source breaks the frame. So even
   granting the yaml's superior *structural* fidelity (typed edges/roots/tuples), the only admissible
@@ -179,8 +183,8 @@ to `kb/` only after the engine ships and F-1…F-8 pass on bond's own re-run.
 | Edge | source → sink | type **now** | gate | certifies / blind-to |
 |---|---|---|---|---|
 | **E1** | `DYAD.md` → `invariants-bond.yaml` | **derived (hand)** — engine unbuilt | `anchor_dag_diff` 2-way coverage | **completeness** (0 omission / 0 over-extraction); **blind to fidelity** |
-| **E2** | `.yaml` → `invariants-bond.rendered.md` | **generated** (`--emit`) | drift-gate (lockstep; exit 1 if stale) | render-determinism |
-| **E3** | `rendered.md`/sources → `views/invariants-bond.md` | **mixed**: constitutional = generated; `D/R/X/U/S` = derived (hand) | source-pin; **hand-tier un-gated** | partial; hand-tier has **no source** |
+| **E2** | `.yaml` → in-memory digest (round-trip) | **generated** (transient; `rendered.md` RETIRED 2026-06-27) | coverage diff vs `DYAD.md` | completeness — no committed artifact to drift |
+| **E3** | `.yaml` + `DYAD.md` → `views/invariants-bond.audit.md` | **generated** (`audit_view.py`) | verbatim `source_quote` gate | fidelity-presence (the keystone view) |
 | **AUDIT** | view ↔ `DYAD.md` | **human check** (not a derivation) | Operator manual cross-ref | **fidelity** (covers E1's blind spot); **decays with attention** (Φ1) |
 
 ### What this dictates for the guardrails (the enforcement layer — built AFTER, on top of this)
@@ -251,9 +255,12 @@ purely upstream): **completeness** via the round-trip (`anchor_dag_diff`: every 
 The audit-view is therefore **not** a stopgap-for-a-missing-compiler — under the craft reading it **is** the
 keystone worksheet→output gate.
 
-**Open consequence (follow-on, not landed here):** under craft, `invariants-bond.rendered.md` (the flat digest)
-narrows to the round-trip's internal render; whether to retire it *as a committed/view artifact* (the md prose
-is the human form; the audit-view is the check) is a separate disposition.
+**Follow-on RESOLVED (Operator `retire rendered.md` 2026-06-27):** `invariants-bond.rendered.md` is **RETIRED**.
+The md prose is the human form; the audit-view is the fidelity check; the round-trip renders **in-memory** (no
+committed digest). `bin/anchor_dag_diff.py`'s default staleness-gate is off (`RENDERED_DEFAULT = None`;
+`--rendered FILE` stays opt-in). Live refs repointed: `views/invariants-bond.md` (constitutional block → the
+output + audit-view), the yaml header, this chain. Historical refs (the 2026-06-16 ATTACK narrative, `P4`
+records, the migration plan) kept under the name written under.
 
 ## Cross-links
 `anchor-dag-thesis.md` (S1: state-to-falsify) · `dyad-dag-derivation.md` (the two-layer cut this rub

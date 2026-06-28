@@ -40,7 +40,7 @@ can may must shall will would could should do does did done being been have has 
 
 HI, LO = 0.60, 0.30          # containment thresholds (printed; tune by reading the report)
 TRACE_FLOOR = 0.30           # a node below this against its best anchor line = over-extraction
-RENDERED_DEFAULT = "views/invariants-bond.rendered.md"   # committed digest the gate guards (Operator read-surface, P4)
+RENDERED_DEFAULT = None   # rendered.md RETIRED 2026-06-27 (worksheet model): the md prose is the human form, the audit-view is the check. Staleness gate OFF by default; `--rendered FILE` remains opt-in for a one-off lockstep check. The in-memory coverage round-trip below is unaffected.
 # deontic markers: a DYAD.md line carrying one is "prescriptive-looking" -> uncovered = a real flag
 DEONTIC = re.compile(r"\b(must|never|only|always|keep|enter|guard|require|forbid|shall|do not|don't)\b", re.I)
 
@@ -223,7 +223,8 @@ if __name__ == "__main__":
     regenerable = covered + partial
     stale_str = {True:  f"STALE ⚠ — committed {rendered} drifted from a fresh render (regenerate it)",
                  False: f"IN-SYNC — {rendered} == fresh render",
-                 None:  f"absent — {rendered} not found (no committed digest to gate)"}[stale]
+                 None:  ("no committed digest — rendered.md RETIRED 2026-06-27 (worksheet model); completeness still gated in-memory above"
+                         if rendered is None else f"absent — {rendered} not found (no committed digest to gate)")}[stale]
     print("\n--- REGEN-VERDICT (rub: 'DYAD.md reliably re-generates from .yml') ---")
     print(f"  STRONG rub : FALSIFIED — {frame_resid} prose lines (frame / pointer / narrative) have NO")
     print( "               yaml pre-image; they cannot regenerate. The yaml is a CORE shadow, not a source.")
