@@ -39,9 +39,10 @@
 > `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@585f2ba`, PR #48, 2026-06-25. Older ROM history → `carry-forward-closed.md`.)*
 > **`inv:rom-currency` per-file boot-set (refreshed 2026-06-27):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@e0c9280` — IN-SYNC (shims untouched by PR #53; only `DYAD.md` moved). **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the single-sha line above is the human gloss).
 > **RESTART-PENDING: SET (2026-06-28 — `ID.md` retired; anchor identity re-homed).** The anchor was **edited
-> this session** — `DYAD.md §Frame` + both shims (`CLAUDE.md`/`GEMINI.md`) now single-home identity (the S1
-> externalization to `ID.md` is **declined**: identity is a computed view — recompute the birth-id, never
-> trust-store, no script-name pinned). `ID.md` deleted. Change is on disk, **read-only this session**; next
+> this session** — `DYAD.md §Frame` now single-homes identity **+ the IDENTITY CAVEAT** (substrate-agnostic →
+> anchor, not shim — *caveat-altitude corrected during PR #59 review, Operator-caught*); the shims thin to a
+> pointer. The S1 externalization to `ID.md` is **declined**: identity is a computed view — recompute the
+> birth-id, never trust-store, no script-name pinned. `ID.md` deleted. Change is on disk, **read-only this session**; next
 > boot loads it (then refresh the per-file boot-set + clear this). *(Prior: CLEARED 2026-06-27 — PR #53 **merged** (`df86b02`) + fresh boot done: this session booted the re-altituded anchor (`DYAD.md@e0c9280`), so the RESTART-PENDING set 2026-06-26 was **discharged**.)* Boot-verify ✓ (craft-\* reads clean cold); steward DM ✓ published on `main` (rode in with PR #53, sender-hosted-pull); ROM-baseline refreshed (above). **Residue, unchanged + logged:** the re-altitude todo (`deferrals.md`) — anchor *prose* still trails the refactored shadow (DAG round-trip: 3 over-extraction `anti-cave`/`prove-before-propose`/`no-self-ratify` · 7 prescriptive-omission; validator green, digest IN-SYNC). Anchor-class + Operator-gated → not touched at resume.
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
@@ -235,6 +236,11 @@ fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**).
 > view lose something (the next-boot test, craft-\* shape)? (3) the over-production guard **held only under tight
 > Operator steering** (forked/pruned each turn) — is "ground-before-rewrite-on-a-reframe" *ingrained* or just
 > externally-gated? Bind-test = a less-steered session.
+→ **Post-stand-down (PR #59 review):** Operator caught a **caveat-altitude miss** — I'd left the
+substrate-agnostic IDENTITY CAVEAT in the substrate-specific shim (self-undermining: the caveat itself says
+*"don't derive from a current shim"*). Relocated to `DYAD.md §Frame`; shims thinned. **Ingraining data point for
+rub-forward (3):** even under tight steering a single-home/altitude error slipped through and needed the Operator
+to catch — the placement-discipline is still externally-gated, not yet ingrained. (PR re-pushed; same RESTART-PENDING.)
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.

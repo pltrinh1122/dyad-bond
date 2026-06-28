@@ -5,13 +5,9 @@ disciplines. This file is **only** the Gemini CLI boot-pointer + a thin harness 
 thin: the overlay *points*, it never restates `dialectic/` content (a fat shim becomes a second
 content-home = drift — cf. the sibling whose `GEMINI.md` grew into a 5 K parallel body).
 
-> ⚠️ **IDENTITY CAVEAT** *(single-homed in this shim; `ID.md` retired 2026-06-28 — identity is a computed
-> view, not a persisted file)*. Identity is **frozen at birth from the *original* `CLAUDE.md`@`1ab6ad0`**
-> (2026-05-30, *"bootstrap complete"*), immutable in git regardless of this file's shim form.
-> **Recompute the birth-id, never trust-store it** — run the form's **current** onboarding script (today
-> `commons/scripts/onboard.py`; `--diff-filter=A` selects the add-commit, so it ignores this shim's form).
-> Do not pin a stored sha *or* a script-name — both are recomputed. Governed by `bond:identity-conformance`.
-> Do **NOT** derive from a current shim `GEMINI.md`, `CLAUDE.md`, or `DYAD.md`.
+> **Identity + the IDENTITY CAVEAT home in `DYAD.md §Frame`, not here.** They're **substrate-agnostic**
+> (frozen birth-commit · recompute-from-git · never trust-store), so they live in the anchor; this shim
+> carries only what differs by substrate. *(`ID.md` retired 2026-06-28 — identity is a computed view.)*
 
 ## Harness overlay — Gemini CLI
 

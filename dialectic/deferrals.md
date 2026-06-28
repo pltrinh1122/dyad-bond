@@ -112,7 +112,9 @@
   intact: `sha256` over content+`%cI`, `--diff-filter=A`), and the authored identity (Covalent role,
   orthogonality, Home) single-homes in `DYAD.md §Frame` + the shims. **Dissolves F3** (no pinned pointer to
   go stale — don't trust-store a sha *or* a script-name). Deleted `ID.md`; re-homed identity in `DYAD.md
-  §Frame`; shims' IDENTITY CAVEAT made self-contained; fixed live refs (`GLOSSARY.md`, `README.md`,
+  §Frame`; the **IDENTITY CAVEAT homes in `DYAD.md §Frame`** (substrate-agnostic → anchor, **not** the shim;
+  *corrected during PR #59 review — first wrongly left in the shims, Operator-caught: the shim is
+  substrate-specific only*), shims thinned to a pointer; fixed live refs (`GLOSSARY.md`, `README.md`,
   `invariants-bond.yaml` S1 comment). Provenance refs left under their written name (anti-sweep). Validator
   green. **Next boot:** refresh the per-file boot-set + clear RESTART-PENDING. (`GLOSSARY.md` stays — it's
   authored vocabulary, genuine source, not a computed view.)
