@@ -28,8 +28,10 @@
 - **`G0 = membership` — identity vs superset (the `~=` fork)** *(spawned 2026-06-28)* — does the form's G0 =
   membership *exactly* (tighten — demote SPAOR/mechanism-catalog/seed-vocab to a separate inherited-scaffold
   layer), or = membership ∪ scaffold (status quo, the current AGENT.md §G0)? Decides whether the DIP proposal is
-  "remove F1 + add genes" or "**partition** G0 into membership-floor + inherited-scaffold." **Operator-dispose**;
-  widens DIP scope if "tighten." → `dm/dyad-steward/2026-06-28-g0-coherence-audit.md`.
+  "remove F1 + add genes" or "**partition** G0 into membership-floor + inherited-scaffold." **Reframed 2026-06-28
+  (Operator):** not bond's to *decree* — the floor is what survives the skeptics, the scaffold/offered is what
+  believers practice; bond ships falsifiable candidates and the partition is *earned* through the falsification
+  channel + practice, not pre-drawn. → `dm/dyad-steward/2026-06-28-bond-g0-to-form-g0-proposal.md`.
 
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
