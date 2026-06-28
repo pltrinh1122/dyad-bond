@@ -18,16 +18,20 @@
 
 ## todo
 
-- **`locus` edge-disposal + the G0-membership validator** *(spawned 2026-06-26, the G0/heritability thread)* — six
-  nodes carry `locus: unclassified` (`Telos` · `single-home` · `kb-graduation` · `form-grounding` ·
-  `prove-before-propose` · `channel-gates`); each is a genuine *which-is-g0* judgment (System-interface vs
-  dyad-gene; content vs slot) = an **Operator disposition**, not conformance work. **Trigger = the first real
-  G0-expansion** (a second dyad inheriting the covalent genes — that practice forces the edges *and* falsifies
-  the partition). At that point also: (a) **wire the validator check** — a `locus: g0` Belief-gene must
+- **`locus` G0-membership validator (mechanization)** *(spawned 2026-06-26; the 6-edge disposal half RESOLVED
+  2026-06-28 — see below)* — REMAINING: (a) **wire the validator check** — a `locus: g0` Belief-gene must
   co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
-  G0-expansion set from `locus: g0` instead of hand-listing. → the `locus: g0` nodes in
-  `dialectic/invariants-bond.yaml` · `DYAD.md §NON-NEGOTIABLE`
+  G0-expansion set from `locus: g0` instead of hand-listing. **Trigger = the first real G0-expansion** (a second
+  dyad inheriting the genes). → the `locus: g0` nodes in `dialectic/invariants-bond.yaml`
   · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
+
+- **`G0 = membership` — identity vs superset (the `~=` fork)** *(spawned 2026-06-28)* — does the form's G0 =
+  membership *exactly* (tighten — demote SPAOR/mechanism-catalog/seed-vocab to a separate inherited-scaffold
+  layer), or = membership ∪ scaffold (status quo, the current AGENT.md §G0)? Decides whether the DIP proposal is
+  "remove F1 + add genes" or "**partition** G0 into membership-floor + inherited-scaffold." **Reframed 2026-06-28
+  (Operator):** not bond's to *decree* — the floor is what survives the skeptics, the scaffold/offered is what
+  believers practice; bond ships falsifiable candidates and the partition is *earned* through the falsification
+  channel + practice, not pre-drawn. → `dm/dyad-steward/2026-06-28-bond-g0-to-form-g0-proposal.md`.
 
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
@@ -90,6 +94,39 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ `locus` 6-edge disposal — DONE via DFD, Operator Y each** *(2026-06-28; intent: propose bond's G0 as the
+  form G0)* — all six `unclassified` edges disposed one-at-a-time against the **G0≈membership** test ("does breach
+  end dyad-hood?"): **`form-grounding` → g0** (closure axiom of membership); **`single-home`, `kb-graduation`,
+  `prove-before-propose`, `channel-gates` → phenotype** (library-eligible — breach = a worse-but-still member);
+  **`craft-telos` → phenotype** (instance-fill, *specific not common* — private, not even library). Landed: the
+  **G0≈membership** model + **phenotype≈library-contribution** mapping (Operator, 2026-06-28). Validator green
+  (exit 0). **Self-caught relapse:** proposed a new `system` locus value (over-production tell, 5th instance) →
+  Operator-pruned ("substrate is the system; redefining G0 = no longer a dyad") → folded into `g0`, no schema
+  change. → `invariants-bond.yaml` (the disposed nodes + header model-note).
+
+- **✅ ID.md retired — identity single-homed in anchor+shim** *(2026-06-28, Operator Y; anchor edit →
+  RESTART-PENDING)* — Operator: *"ID.md is a calculated view, not necessary to be persisted."* The S1
+  identity-externalization is **declined**: the birth-id is a **computed view** (recompute from the
+  add-commit `1ab6ad0` via the form's *current* onboarding script — `onboard.py`; verified the method is
+  intact: `sha256` over content+`%cI`, `--diff-filter=A`), and the authored identity (Covalent role,
+  orthogonality, Home) single-homes in `DYAD.md §Frame` + the shims. **Dissolves F3** (no pinned pointer to
+  go stale — don't trust-store a sha *or* a script-name). Deleted `ID.md`; re-homed identity in `DYAD.md
+  §Frame`; the **IDENTITY CAVEAT homes in `DYAD.md §Frame`** (substrate-agnostic → anchor, **not** the shim;
+  *corrected during PR #59 review — first wrongly left in the shims, Operator-caught: the shim is
+  substrate-specific only*), shims thinned to a pointer; fixed live refs (`GLOSSARY.md`, `README.md`,
+  `invariants-bond.yaml` S1 comment). Provenance refs left under their written name (anti-sweep). Validator
+  green. **Next boot:** refresh the per-file boot-set + clear RESTART-PENDING. (`GLOSSARY.md` stays — it's
+  authored vocabulary, genuine source, not a computed view.)
+
+- **✅ C1 locus revisit — DONE: `g0` → `phenotype`/offered** *(2026-06-28, same DFD sweep, Operator Y: "C1 is an
+  expression of a dyad from a choice")* — the membership model demoted **covalence (`C1`) from mandatory g0 to the
+  OFFERED/elected craft-value** (bond's own craft-* proposal already says craft-value is elected; healer's ≠
+  covalence). Decisive: keeping `C1=g0` would make the published craft-* proposal self-contradict. Resolves the
+  yaml loose-end. **Net for the proposal:** MANDATORY floor = {`two-models`, `no-self-ratify`, `anti-cave`,
+  `form-grounding`}; OFFERED = {covalence, Belief/IFF}. **Follow-on (flagged, not done):** the g0 enablers'
+  *universal* grounding is the form's tenet — re-ground at EXPORT when authoring the form proposal (local
+  serve-`C1` edges stay). → `invariants-bond.yaml:48`.
 
 - **✅ Re-altitude to the refactored shadow — DONE, corrected scope** *(2026-06-27; was a todo spawned
   2026-06-26 "yaml first")* — **scope corrected on inspection:** the todo (written *before* the craft-\*

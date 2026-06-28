@@ -151,7 +151,7 @@ the cross-dyad test the manifesto invites (Claim 6).
 - `dialectic/relationship-craft.md` — §What the dyad rests on (§1, §2, §6, §8), §The worn-path (P1→P2→P3),
   §The materialization gate (IFF1–3), §The Vision.
 - `dialectic/carry-forward.md` — the session ledger (the live rub-chain + `rub-forward` card).
-- `DYAD.md` §NON-NEGOTIABLE (`bond:C1`) · `ID.md` (the `Covalent` role) · `GLOSSARY.md` (covalence vocabulary).
+- `DYAD.md` §NON-NEGOTIABLE (`bond:C1`) · `DYAD.md §Frame` (the `Covalent` role) · `GLOSSARY.md` (covalence vocabulary).
 
 [^status]: `survives` — not-yet-refuted, re-rubbable (a no-oracle Hypothesis caps here, never `settled`).
     IFF2's separator — an independent attack from outside the partnership (a second-model audit and/or
