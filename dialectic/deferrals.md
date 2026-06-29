@@ -28,14 +28,6 @@
   dyad's testimonial (same-lineage convergence ≠ clean independence). Home is the form's library; this is a
   pointer only (`bond:single-home`).
 
-- **DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(Operator todo, 2026-06-28)* —
-  the acronym **`DFD` is unchanged**; only its *expansion* changes (Decision → **Disposition**), which reads
-  truer to the ontology: a DFD resolves in a `[CTA·Y/N]` = the Operator's **disposition**, not a generic
-  "decision." **Scope = the anchor+redirect rename-discipline (NOT a sweep)** — change the expansion only
-  where it is *defined/canonical*: `kb/dfd.md` (settled home) · `DYAD.md` (the `bond:DFD` node; **anchor ⇒
-  ROM/Operator-gated, sets RESTART-PENDING**) · `GLOSSARY.md` (Dyad-UI cluster) + a GLOSSARY
-  deprecate→redirect line. Leave provenance/ledger mentions under the name they were written (anti-sweep).
-  **Disposition wanted:** do-now vs park (anchor touch ⇒ next-boot reload).
 
 - **`locus` G0-membership validator (mechanization)** *(spawned 2026-06-26; the 6-edge disposal half RESOLVED
   2026-06-28 — see below)* — REMAINING: (a) **wire the validator check** — a `locus: g0` Belief-gene must
@@ -113,6 +105,13 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(2026-06-29)* — the acronym
+  **`DFD` is unchanged**; the *expansion* renamed Decision → **Disposition** (reads truer: DFD resolves in a
+  `[CTA·Y/N]` = the Operator's **disposition**, not a generic "decision"). Applied anchor+redirect discipline:
+  **canonical sites only** — `DYAD.md` (§bond:DFD node) · `GLOSSARY.md` (DF-UI definition + deprecate→redirect line) ·
+  `kb/dfd.md` (unchanged — the title is "DFD — the CTA failure-mode", not the expansion). Left provenance/ledger
+  mentions under the name they were written (anti-sweep). Anchor edit → **RESTART-PENDING set** (cleared next boot).
 
 - **✅ `locus` 6-edge disposal — DONE via DFD, Operator Y each** *(2026-06-28; intent: propose bond's G0 as the
   form G0)* — all six `unclassified` edges disposed one-at-a-time against the **G0≈membership** test ("does breach
