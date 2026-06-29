@@ -1,3 +1,7 @@
+---
+locus: phenotype   # IFD — a named contribution candidate (Library track); library-eligible craft. Key → MAP.md.
+---
+
 # Ideation Framing Discipline (IFD) — show `IF-UI` / flow `IFD` — LIVE CYCLE
 
 > **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the

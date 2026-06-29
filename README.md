@@ -217,4 +217,4 @@ the cross-dyad test the manifesto invites (Claim 6).
     **Falsifier of this claim:** an outside attack actually lands (E0→E1+). It does **not** *discharge* anything —
     a no-oracle claim stays `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study,
     not a terminal measurement); what climbs is coverage/confidence, not status. **Evidence:** `dialectic/carry-forward.md`;
-    question-first rationale in `recommendations/2026-06-11-wetware-takeaway-format-research.md`.
+    question-first rationale in `dialectic/2026-06-11-wetware-takeaway-format-research.md`.

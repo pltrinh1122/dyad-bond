@@ -1,3 +1,7 @@
+---
+locus: phenotype   # settled craft — a named contribution candidate (Library track). Key → MAP.md.
+---
+
 # DFD — the CTA failure-mode
 
 *Settled knowledge. First harvest of the Learning Discipline. The rule lives in

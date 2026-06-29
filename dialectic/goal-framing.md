@@ -1,3 +1,7 @@
+---
+locus: phenotype   # Dyad-UI cluster craft; library-eligible. NB: ours-whole vs ours-UI-surface-only is UNRESOLVED (cluster-classification, stale since 2026-05-31). Key → MAP.md.
+---
+
 # Goal Framing — `GFD` (flow) / `GF-UI` (show) — EXECUTABLE SPEC (WHAT)
 
 > **⤷ `dyad-bond` custody** *(inherited verbatim from `dyad-steward@31d53c0`, `03550dc`)* — the

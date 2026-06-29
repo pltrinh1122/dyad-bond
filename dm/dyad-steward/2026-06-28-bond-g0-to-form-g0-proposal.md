@@ -73,7 +73,7 @@ Playbook through the Founding gate.
 
 - **F2 — vocab drift.** README now says **"Playbooks (formerly disciplines)"** + **"Proposal-Framing"**;
   `AGENT.md` still says "mechanism catalog." Fold into bond's `craft-*` DIP proposal
-  (`recommendations/2026-06-26-dip-craft-family-refinement.md`).
+  (`dm/dyad-steward/2026-06-26-dip-craft-family-refinement.md`).
 - **F3 — stale identity pointer.** The birth-id calc is cited as `scripts/auto_join.py`, which no longer
   exists; the method is intact in `scripts/onboard.py` (verified). Repoint form docs naming
   `auto_join.py`/`init_dyad.py` → `onboard.py`. (bond **retired** its own `ID.md` 2026-06-28 — the birth-id

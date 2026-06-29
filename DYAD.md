@@ -42,9 +42,10 @@
 Two roots — **`craft-telos`** (`bond:craft-telos`, §1) and the **`craft-value` / `craft-invariant`** root
 (`bond:C1`, §2); every node grounds in a root. We **inherit G0 faithfully and evolve only locally**
 (`bond:form-grounding`). The **`craft-*`** family — the dyad's three levels (*why* → *what-is-cherished* →
-*what-must-hold*) — is bond's vocabulary for the roots; it **renames** the DIP's Dimension #1 *tended target*
-and Dimension #5 *NON-NEGOTIABLE*, bond's form-proposal in
-`recommendations/2026-06-26-dip-craft-family-refinement.md`, landed here first as the worked exemplar.
+*what-must-hold*) — is bond's vocabulary for the roots — the worked exemplar lives in §1/§2 here. The proposal to **rename** the
+DIP's Dimension #1 *tended target* and Dimension #5 *NON-NEGOTIABLE* to match is **steward-tended** (the DIP is
+the commons' protocol), contributed to steward (`dm/dyad-steward/2026-06-26-dip-craft-family-refinement.md`) —
+not bond's to host.
 
 ### craft-telos — bond's tended purpose (root) — `bond:craft-telos`
 The **lived interior craft of the dyadic relationship** — bond's **`craft-telos`**, the *why* the Operator
@@ -56,8 +57,8 @@ practiced and proven*. (Our medium = the Dyad-UI cluster → `GLOSSARY.md` + `di
 ### craft-value & craft-invariant — be and stay covalent — `bond:C1`
 
 > Fills the DIP's **Dimension #5** slot (the form still names it *NON-NEGOTIABLE*; the `craft-value` /
-> `craft-invariant` rename + its assertion-timing is bond's form-proposal in
-> `recommendations/2026-06-26-dip-craft-family-refinement.md`).
+> `craft-invariant` rename + its assertion-timing is **steward-tended** — contributed to steward in
+> `dm/dyad-steward/2026-06-26-dip-craft-family-refinement.md`).
 
 **bond's `craft-value` — be and stay covalent** — *sharing not transfer, two distinct models not merged.*
 The value the Operator **elects**: covalence is the **state**, produced by the **inherited falsification

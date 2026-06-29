@@ -38,6 +38,13 @@
 > *is* the cold ROM-boot = the owed E0 test; the two-root DAG read coherent at boot). Update this line whenever
 > `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@585f2ba`, PR #48, 2026-06-25. Older ROM history → `carry-forward-closed.md`.)*
 > **`inv:rom-currency` per-file boot-set (refreshed 2026-06-27):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@e0c9280` — IN-SYNC (shims untouched by PR #53; only `DYAD.md` moved). **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the single-sha line above is the human gloss).
+> **RESTART-PENDING (repo-structure branch): `DYAD.md` edited 2026-06-28** — the outward-by-consumer sort reframed
+> the two DIP-proposal citations (`DYAD.md:47,60`): **dip-craft is steward-tended** (the DIP is the commons'
+> protocol), so it moved to `dm/dyad-steward/` and the anchor now frames craft-\* as bond's roots (the exemplar)
+> with the DIP-rename *contributed to steward*, not bond's to host. On disk, read-only this session; next boot
+> loads it → refresh the per-file boot-set + clear. *(Distinct from the `ID.md`-retirement RESTART-PENDING below,
+> from the g0-audit branch.)*
+>
 > **RESTART-PENDING: SET (2026-06-28 — `ID.md` retired; anchor identity re-homed).** The anchor was **edited
 > this session** — `DYAD.md §Frame` now single-homes identity **+ the IDENTITY CAVEAT** (substrate-agnostic →
 > anchor, not shim — *caveat-altitude corrected during PR #59 review, Operator-caught*); the shims thin to a

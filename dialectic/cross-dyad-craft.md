@@ -1,3 +1,7 @@
+---
+locus: phenotype   # bond-authored cross-dyad falsification craft — library-eligible (offerable to siblings / proposable to the form). Key → MAP.md.
+---
+
 # cross-dyad-craft — bond's cross-dyad falsification craft (LIVE)
 
 > `dyad-bond`'s **outward** frontier slice: how bond reasons about validation-**independence** and

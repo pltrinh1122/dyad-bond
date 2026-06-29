@@ -18,6 +18,25 @@
 
 ## todo
 
+- **`single-home` playbook — PROPOSED to the form library (Founding-gate routing owed)** *(2026-06-28)* —
+  staged at `the-dyad-practice:library/single-home/` (PLAYBOOK + `ledger/3ab18bb7-n1.md`, n=1 multi-cycle)
+  on branch `claude/repo-structure-dyad-craft-g07g0i`. **Next:** the PR **is** the Founding-gate dispose
+  (CONTRIBUTING §2) — open it wearing the Founding hat (SG-4: the PR is the CTA surface, no conversational
+  double-anchor). **Held back, un-booted (n=0):** the `locus:` tag axis + the reach-rule are named in the
+  playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
+  (`prove-before-propose`) — then they earn a ledger entry. **Breadth falsifier:** a non-inheriting second
+  dyad's testimonial (same-lineage convergence ≠ clean independence). Home is the form's library; this is a
+  pointer only (`bond:single-home`).
+
+- **DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(Operator todo, 2026-06-28)* —
+  the acronym **`DFD` is unchanged**; only its *expansion* changes (Decision → **Disposition**), which reads
+  truer to the ontology: a DFD resolves in a `[CTA·Y/N]` = the Operator's **disposition**, not a generic
+  "decision." **Scope = the anchor+redirect rename-discipline (NOT a sweep)** — change the expansion only
+  where it is *defined/canonical*: `kb/dfd.md` (settled home) · `DYAD.md` (the `bond:DFD` node; **anchor ⇒
+  ROM/Operator-gated, sets RESTART-PENDING**) · `GLOSSARY.md` (Dyad-UI cluster) + a GLOSSARY
+  deprecate→redirect line. Leave provenance/ledger mentions under the name they were written (anti-sweep).
+  **Disposition wanted:** do-now vs park (anchor touch ⇒ next-boot reload).
+
 - **`locus` G0-membership validator (mechanization)** *(spawned 2026-06-26; the 6-edge disposal half RESOLVED
   2026-06-28 — see below)* — REMAINING: (a) **wire the validator check** — a `locus: g0` Belief-gene must
   co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
@@ -80,7 +99,7 @@
   *(rehomed from the carry-forward Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via
   the NBA")* — three un-ratified **anchor**-candidates each needing its own ratification gate:
   **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline** (dyad-sovereignty paramount) ·
-  **C-into-corpus** (does the `I↔In_variant` seam graduate to a `views/` invariant?); + two open frontiers —
+  **C-into-corpus** (does the `I↔In_variant` seam graduate to a derived (regen-on-demand) invariant?); + two open frontiers —
   **falsification-quality gauge** (genuine vs theater) · **C-meter vs telemetry**. Prose homes:
   `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty). **stand-down automation = done**
   (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks;
