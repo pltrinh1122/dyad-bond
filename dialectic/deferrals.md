@@ -14,13 +14,7 @@
 
 ## in-progress
 
-- **Apex-telos-singularity — falsify whether craft-telos is singular or plural** (2026-06-29) —
-  The craft-* DIP proposal renames Dimension #1 to "craft-telos" (universal framing: every dyad has one).
-  Apex-telos-singularity tests: **Is a dyad's craft-telos always singular (one integrated purpose) or can
-  it be plural (multiple co-equal purposes)?** Falsifier: **does plural telos cause covalence to collapse?**
-  FR staged + conformant (`dialectic/fr-apex-telos-singularity.staged.yaml`); executable handoff in
-  `dialectic/fr-deposit-pickup.md`. Validation path: **Covalent-bond frontier** (F4→F1→F2 chain proves
-  the exemplar works, validating the craft-* framing). Deposit follows frontier validation.
+— none active —
 
 ## todo
 
