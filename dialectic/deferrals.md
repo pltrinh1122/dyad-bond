@@ -77,14 +77,15 @@
   **C-meter vs telemetry**. Prose homes: `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty).
   Sub-item: **stand-down automation** (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`).
 
-- **Anchor-src probes — md→yaml lifecycle, open design questions** *(rehomed from the carry-forward
-  2026-06-17 entry, 2026-06-26 Phase 2; the P4/P3 work is DONE/RESOLVED → `dialectic/dyad-md-yaml-regen.md`)*
-  — **P1** materialize the merged `invariants-bond.yaml` vs compute in-memory (agent-lean: don't materialize
-  until conflict-detection is a 2nd reader) · **P2** could the engine go tags → `rendered` directly, dropping
-  the yaml intermediate? · **P5** the outcome-over-time / Goodhart-drift rig (does crystallization PAY?). All
-  UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ Anchor-src probes — md→yaml→rendered lifecycle (ARCHIVED N/A)** *(2026-06-29; Operator Y)* —
+  Context shift: the invariant lifecycle is **prompt → yaml → md**, not md → yaml → rendered. YAML is the
+  source-of-truth (generated from prompt); DYAD.md is the rendered form. The probe questions (materialize
+  YAML vs in-memory? skip YAML and go direct to md?) were premised on DYAD.md being the source. That
+  assumption is obsolete. The **worksheet model** (landed 2026-06-27) already resolved this: YAML as the
+  stable middle layer, DYAD.md as the rendered output. Work-item is stale (moot).
 
 - **✅ Cluster classification: `nba-dag`/`goal-framing` scope** *(2026-06-29; Operator disposition)* —
   Original framing (carry-forward 2026-05-31): not ours-whole, not surface-only. **Three-way partition:**
