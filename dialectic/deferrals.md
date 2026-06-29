@@ -70,15 +70,12 @@
 - **Relationship-craft codification** — the interior disciplines of being-a-dyad-well are largely
   *unbuilt*. This is our generative frontier. *(Live front; prose home → `relationship-craft.md`.)*
 
-- **Intent-clarity arc — anchor-candidates [STALE since 2026-06-13 — disposition wanted: archive or done]**
-  *(rehomed from the carry-forward Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via
-  the NBA")* — three un-ratified **anchor**-candidates each needing its own ratification gate:
-  **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline** (dyad-sovereignty paramount) ·
-  **C-into-corpus** (does the `I↔In_variant` seam graduate to a derived (regen-on-demand) invariant?); + two open frontiers —
-  **falsification-quality gauge** (genuine vs theater) · **C-meter vs telemetry**. Prose homes:
-  `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty). **stand-down automation = done**
-  (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks;
-  Operator unaware they weren't moving — surfaced here for archive/done disposition.*
+- **Intent-clarity arc — anchor-candidates (deferred)** — three un-ratified **anchor**-candidates each
+  needing its own ratification gate: **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline**
+  (dyad-sovereignty paramount) · **C-into-corpus** (does the `I↔In_variant` seam graduate to a derived
+  (regen-on-demand) invariant?); + two open frontiers — **falsification-quality gauge** (genuine vs theater) ·
+  **C-meter vs telemetry**. Prose homes: `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty).
+  Sub-item: **stand-down automation** (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`).
 
 - **Anchor-src probes — md→yaml lifecycle, open design questions** *(rehomed from the carry-forward
   2026-06-17 entry, 2026-06-26 Phase 2; the P4/P3 work is DONE/RESOLVED → `dialectic/dyad-md-yaml-regen.md`)*
