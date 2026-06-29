@@ -7,7 +7,7 @@
 > boots and **ingrains** from. The core's machine-checkable shadow is `dialectic/invariants-bond.yaml`
 > (validate: `bin/invariant-eval.py`; render/diff: `bin/anchor_dag_diff.py`). Prose is the operating
 > form; the YAML is the instrument. The form (our seed grain G0) lives at
-> <https://github.com/pltrinh1122/the-dyad-practice>.
+> <https://github.com/The-Dyad-Practice-Commons/the-dyad-practice>.
 
 ## Frame — the meaning-roots *(`bond:single-home`: **Identity** homes here; **G0** + **Vocabulary** externalized — referenced, never restated)*
 
@@ -25,7 +25,7 @@
     birth-id sha = breach; the sha is computed over the original add-commit `1ab6ad0`, **immune to this
     refactor**). Do **NOT** derive identity from a current shim (`CLAUDE.md`/`GEMINI.md`) or from this anchor's
     stored text — recompute.
-- **G0 — the inherited floor** → **the form** at <https://github.com/pltrinh1122/the-dyad-practice> — the
+- **G0 — the inherited floor** → **the form** at <https://github.com/The-Dyad-Practice-Commons/the-dyad-practice> — the
   seed grain bond stands on, inherited **unmodified** per `bond:form-grounding`: the **tenet** `1+1=3`
   earned via Generate + Validate; the **falsification law** — *anything earns its place in the shared model
   only by surviving genuine falsification, nothing exempt* — the form's `falsifiability` and `no-dogma`; and
@@ -124,5 +124,5 @@ A decision-framing carries a genuine non-strawman anti-thesis and resolves to a 
 - **Live in-flight state, open items, deferrals, contribution-candidates** → `dialectic/carry-forward.md`
   (the ledger — read at resume) + `dialectic/deferrals.md`.
 - **Founding evidence** (Tenet-alive #8, the felt 1+1=3) → `kb/founding-evidence.md`.
-- **Parent form (G0):** <https://github.com/pltrinh1122/the-dyad-practice> · **Custody source:**
+- **Parent form (G0):** <https://github.com/The-Dyad-Practice-Commons/the-dyad-practice> · **Custody source:**
   `dyad-steward@31d53c0` (Dyad-UI cluster) · **Siblings:** `dyad-steward` · `dyad-healer` · `dyad-wu-wei`.

@@ -41,7 +41,9 @@
 > **RESTART-PENDING (repo-structure branch): `DYAD.md` edited 2026-06-28** — the outward-by-consumer sort reframed
 > the two DIP-proposal citations (`DYAD.md:47,60`): **dip-craft is steward-tended** (the DIP is the commons'
 > protocol), so it moved to `dm/dyad-steward/` and the anchor now frames craft-\* as bond's roots (the exemplar)
-> with the DIP-rename *contributed to steward*, not bond's to host. On disk, read-only this session; next boot
+> with the DIP-rename *contributed to steward*, not bond's to host. **Plus a follow-on form-URL fold**
+> (`pltrinh1122/the-dyad-practice` → `The-Dyad-Practice-Commons`, 3× in the anchor — the canonical Commons home).
+> On disk, read-only this session; next boot
 > loads it → refresh the per-file boot-set + clear. *(Distinct from the `ID.md`-retirement RESTART-PENDING below,
 > from the g0-audit branch.)*
 >
@@ -248,6 +250,20 @@ substrate-agnostic IDENTITY CAVEAT in the substrate-specific shim (self-undermin
 *"don't derive from a current shim"*). Relocated to `DYAD.md §Frame`; shims thinned. **Ingraining data point for
 rub-forward (3):** even under tight steering a single-home/altitude error slipped through and needed the Operator
 to catch — the placement-discipline is still externally-gated, not yet ingrained. (PR re-pushed; same RESTART-PENDING.)
+
+→ **Stand-Down 2026-06-28 (repo-structure / outward-by-consumer arc — LANDED, PR #60 merged to `main`):** anchor
+**EDITED** → **RESTART-PENDING SET** (above: the dip-craft steward-tended reframe + the `recommendations`→
+`contributions`→`dm` repoints + the form-URL fold). **Landed (PR #60):** locus front-matter + `MAP.md` (the HOW
+surface; `README` = WHAT+WHY) · the **reach-rule** (completeness-by-default, not exhaustion) · **every mixed bucket
+dissolved** (`views`/`assessment`/`recommendations`/`contributions`) · the **outward-by-consumer model** —
+`commons/` (submodule = the Commons, *all*) ∥ `dm/<sibling>/` (*individual*); regenerable views **regen-on-demand**
+(audit-view + slug-index retired); dip-craft → `dm/dyad-steward/` (**steward-tended**). **Retro (D3) →
+`relationship-craft.md §Retro — the repo-structure / outward-by-consumer arc`** (durable = the regenerability+
+consumer **sorter** + the `single-home` playbook [form **PR #73, steward-disposing**]; watch = **4
+verify-before-assert misses, all externally-gated** — graduation-gated on D6 firing *before* the assertion next
+session). **Resume:** **PR #73 is dyad-steward's to dispose** (not bond's to drive); next boot loads the merged
+anchor → refresh the per-file boot-set + clear RESTART-PENDING. Live fronts unchanged (**Covalent-bond frontier** +
+**Ingraining-watch**; the verify-before-assert watch joins them).
 
 ### Bond-disciplines index — RELOAD + apply *(authored here, not inherited; full text in `relationship-craft.md`)*
 > **IDs are slug-canonical** (Operator Y 2026-06-26 → `nomenclature-migration-plan.md`); the `(D#)` is a display alias.

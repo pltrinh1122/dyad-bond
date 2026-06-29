@@ -1792,3 +1792,39 @@ Operator pivoted to `retro:` without disposing it — itself a datapoint (skim, 
 **un-cued** off verify-before-assert + the drain-discipline — capture *becoming* behavior, the I-watch's whole
 question. **One instance, not a trend.** Whether F4 ("earned or counterfeit?") and the ingraining oracle resolve
 is next session's work, not this prose.
+
+## Retro — the repo-structure / outward-by-consumer arc *(2026-06-28; D3 reflection, `dialectic` → `kb/` only on a surviving boot)*
+
+*Durable harvest. Ledger holds the stand-down pointer; the model lives in `MAP.md` + the arc's commits (PR #60, merged).*
+
+**The arc.** "Evaluate clarity between the dyad files and the craft/practice files" → a full structural refactor,
+landed. The locus partition (`g0`/`phenotype`/`instance`) made legible (front-matter + `MAP.md`); **every mixed
+bucket dissolved** (`views/`→`assessment/`→gone; `recommendations/`→`contributions/`→gone); the outward surface
+resolved to **two consumers** — `commons/` (submodule = the Commons, *all*) ∥ `dm/<sibling>/` (*individual*) — with
+regenerable views regenerated **on demand**, not persisted.
+
+**The durable (genuine 1+1=3 — Operator-seeded, Agent-structured, neither alone):**
+- **the sorter** — *what regenerates from your own source is temp (don't persist); what records an independent event
+  (cross-dyad falsification, a sibling snapshot) persists; what's outward routes by **consumer** (all→`commons/` /
+  individual→`dm/`)*. Operator-seeded ("two consumers"; "dip-craft is steward-tended"), Agent-applied file-by-file.
+- **the lesson, lived 5×:** *don't name a mixed bucket — sort by who-it's-for and whether it regenerates, and the
+  name falls out.* The naming rubs (views/assessment/validation; recommendations/contributions/commons) were the
+  **symptom** of unsorted contents, not the problem.
+- codified outward as the **`single-home` playbook** (form PR #73, **steward-disposing**); the dissolutions ARE its
+  ledger (a fact/structure-decision spreading past its one earned home, caught and pulled back).
+
+**The watch — mine, structural, the load-bearing tell.** **Four `verify-before-assert` (D6) misses, all
+externally-gated:** (1) the `commons/` **submodule collision** — `git mv` onto a live gitlink, never `ls`-ed the
+target; (2) the **filename-only sort** — two steward-directed files mis-filed without reading the body; (3) the
+**PR-by-analogy** routing — assumed dip-craft's mechanism instead of checking how DIP proposals actually flow
+(steward); (4) the **`assessment/` completeness-grep** — on dissolution I checked the *old* name (`views/`), not the
+*new* name I'd just introduced. One root: **asserting a mechanism by assumption instead of establishing it by
+execution.** Each caught by an Operator question; **none self-fired.**
+
+**Counter-evidence.** The catch *improved under steering* — mid-arc I began `ls`-ing targets, reading bodies, and
+grepping before moving (just always *after* the first miss in each class). And single-home itself held: anti-sweep
+ran correctly throughout (historical refs left under their written names; only live machine-id paths repointed).
+
+**Graduation gate.** This graduates to `kb/` only if **D6 fires *before* the assertion in a less-steered session** —
+externally-gated ≠ ingrained. Bind-test: a session where the Operator does *not* catch the mechanism-assumption for
+me. Until then, `dialectic`, debt-not-earned. The verify-before-assert watch joins the live I-watch fronts.
