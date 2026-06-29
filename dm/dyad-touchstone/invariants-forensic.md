@@ -1,6 +1,6 @@
 # INVARIANT VIEW — dyad-touchstone *(derived by bond, read-only forensic extraction — NOT a home, NOT theirs)*
 
-> **Staged DM falsification** — relocated to the touchstone DM channel 2026-06-28 (was `views/`→`assessment/`).
+> **Staged DM falsification** — relocated to the touchstone DM channel 2026-06-28 (from the retired views surface).
 > A cross-dyad forensic of a sibling: it **persists** (not regenerable — a snapshot; touchstone has moved on),
 > and it is **sender-hosted, pending the consent-to-send disposition** (not yet shared with touchstone).
 

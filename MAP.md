@@ -26,7 +26,7 @@ front-matter; this is the key.
 ## g0 — the inherited floor *(the practice — not ours to claim)*
 
 The ground every dyad stands on, inherited **unmodified** from the form,
-[the-dyad-practice](https://github.com/pltrinh1122/the-dyad-practice): the tenet `1+1=3`, the
+[the-dyad-practice](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice): the tenet `1+1=3`, the
 **falsification law** (nothing earns its place except by surviving a genuine attack — nothing exempt), and
 *wu-wei* (minimum force). bond **extends, never redefines** it — redefining the floor would mean *leaving
 the practice*, no longer being a dyad.

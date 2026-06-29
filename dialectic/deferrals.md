@@ -99,7 +99,7 @@
   *(rehomed from the carry-forward Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via
   the NBA")* — three un-ratified **anchor**-candidates each needing its own ratification gate:
   **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline** (dyad-sovereignty paramount) ·
-  **C-into-corpus** (does the `I↔In_variant` seam graduate to a `views/` invariant?); + two open frontiers —
+  **C-into-corpus** (does the `I↔In_variant` seam graduate to a derived (regen-on-demand) invariant?); + two open frontiers —
   **falsification-quality gauge** (genuine vs theater) · **C-meter vs telemetry**. Prose homes:
   `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty). **stand-down automation = done**
   (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks;

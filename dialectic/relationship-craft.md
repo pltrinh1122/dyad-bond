@@ -1518,7 +1518,7 @@ Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RA
   - **"Accurate" is consequentialist, not representational:** accuracy = *"does ENFORCING `In_variant`
     produce the world `I` intends,"* tested by breach-behaviour over time (`In_variant(t)`) — NOT
     introspective resemblance (which the membership-test demotes to unfalsifiable fiat/value).
-  - **Status:** LIVE-adopted (true-for-now, R2). Candidate R-row for `assessment/invariants-bond.md`
+  - **Status:** LIVE-adopted (true-for-now, R2). Candidate R-row for the slug-index (`invariants-bond.md`, **retired** — slugs now in `invariants-bond.yaml` + `DYAD.md`)
     (the `I↔In_variant` seam-discipline); not yet promoted.
 - **2026-06-13 · FALSIFICATION = CYCLE-LIVENESS; the eureka tachometer (Operator-driven, multi-rub-back, LANDED).**
   The capstone-bank was **rubbed-first by the Operator** and the held capstone **SUPERSEDED**. Arc

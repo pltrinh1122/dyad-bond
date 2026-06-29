@@ -93,7 +93,7 @@ DYAD.md  (source-of-truth, hand-authored, ROM/identity-pinned)
 
 > **⚠ SUPERSEDED 2026-06-27 (→ §The worksheet model, below).** `invariants-bond.rendered.md` is **RETIRED**;
 > the chain is now `intent → yaml worksheet → DYAD.md output` — the human form is the **output (DYAD.md prose)**,
-> not a flat digest, and the fidelity lens is the **audit-view** (`assessment/invariants-bond.audit.md`).
+> not a flat digest, and the fidelity lens is the **audit-view** (regenerated on demand via `audit_view.py`; not committed).
 
 - **Direction is FORCED, not chosen.** md cannot be demoted to a yaml build-output: `bond:identity-
   conformance` + ROM-baseline both track **DYAD.md**'s bytes/sha. yaml-as-source breaks the frame. So even
