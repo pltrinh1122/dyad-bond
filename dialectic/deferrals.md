@@ -29,12 +29,6 @@
   pointer only (`bond:single-home`).
 
 
-- **`locus` G0-membership validator (mechanization)** *(spawned 2026-06-26; the 6-edge disposal half RESOLVED
-  2026-06-28 — see below)* — REMAINING: (a) **wire the validator check** — a `locus: g0` Belief-gene must
-  co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
-  G0-expansion set from `locus: g0` instead of hand-listing. **Trigger = the first real G0-expansion** (a second
-  dyad inheriting the genes). → the `locus: g0` nodes in `dialectic/invariants-bond.yaml`
-  · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
 
 - **`G0 = membership` — identity vs superset (the `~=` fork)** *(spawned 2026-06-28)* — does the form's G0 =
   membership *exactly* (tighten — demote SPAOR/mechanism-catalog/seed-vocab to a separate inherited-scaffold
@@ -105,6 +99,16 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ `locus: g0` validator — self-assessment + semi-mechanized linter** *(2026-06-29)* — Rub: the
+  "inseparable knife" is a *principle* (g0 genes must encode both assertion + falsification), not a mechanical
+  rule that can hard-gate. Disposition: **self-audit before export**. Built (a) **Self-assessment checklist**
+  (`dialectic/g0-gene-checklist.md`) — Operator walks through before proposing g0 candidates (universal test,
+  falsifiability, grounding, co-travel); (b) **Semi-mechanized linter** (`bin/validate-g0-genes.py`) — flags
+  g0 nodes missing observability or grounded_in sections (advisory, not rejecting). Derivation (b) "compute
+  G0-expansion set from `locus: g0`" deferred — trigger is first real G0-expansion (a second dyad inheriting);
+  at that point it becomes a form-level gate, not bond's to build preemptively. Current validation: all 4 g0
+  nodes in invariants-bond.yaml pass (have observability + grounding).
 
 - **✅ DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(2026-06-29)* — the acronym
   **`DFD` is unchanged**; the *expansion* renamed Decision → **Disposition** (reads truer: DFD resolves in a
