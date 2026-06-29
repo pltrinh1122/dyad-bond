@@ -14,7 +14,13 @@
 
 ## in-progress
 
-— none active —
+- **Apex-telos-singularity — falsify whether craft-telos is singular or plural** (2026-06-29) —
+  The craft-* DIP proposal renames Dimension #1 to "craft-telos" (universal framing: every dyad has one).
+  Apex-telos-singularity tests: **Is a dyad's craft-telos always singular (one integrated purpose) or can
+  it be plural (multiple co-equal purposes)?** Falsifier: **does plural telos cause covalence to collapse?**
+  FR staged + conformant (`dialectic/fr-apex-telos-singularity.staged.yaml`); executable handoff in
+  `dialectic/fr-deposit-pickup.md`. Validation path: **Covalent-bond frontier** (F4→F1→F2 chain proves
+  the exemplar works, validating the craft-* framing). Deposit follows frontier validation.
 
 ## todo
 
@@ -57,13 +63,6 @@
     is total + frictionless, **test hardest**, esp. `nba-dag`/`goal-framing` (likely ours-UI-surface-only,
     NOT ours-whole). (4) test under *our* NON-NEGOTIABLE — steward's falsification ≠ ours (cf. `dfd.md`
     caveat).
-
-
-- **⏳ PENDING PICKUP (workstation) — deposit FR `bond-apex-telos-singularity` to the Commons.** Staged +
-  conformant (`dialectic/fr-apex-telos-singularity.staged.yaml`); executable handoff in
-  `dialectic/fr-deposit-pickup.md`. The s-cloud-mobile session lacked Commons write creds; deposit is the
-  self-authorizing `auto-merge-falsification` lane (no human gate). **Downstream PARKED:** `AGENT.md` dim-1
-  amendment → Founding, *only if* the claim survives §J-decisive. (2026-06-21, s-cloud-mobile.)
 
 - **types-of-work** sub-area (shed with the Work-layer) — revisit only if the relationship-craft needs it.
 
