@@ -30,13 +30,6 @@
 
 
 
-- **`G0 = membership` — identity vs superset (the `~=` fork)** *(spawned 2026-06-28)* — does the form's G0 =
-  membership *exactly* (tighten — demote SPAOR/mechanism-catalog/seed-vocab to a separate inherited-scaffold
-  layer), or = membership ∪ scaffold (status quo, the current AGENT.md §G0)? Decides whether the DIP proposal is
-  "remove F1 + add genes" or "**partition** G0 into membership-floor + inherited-scaffold." **Reframed 2026-06-28
-  (Operator):** not bond's to *decree* — the floor is what survives the skeptics, the scaffold/offered is what
-  believers practice; bond ships falsifiable candidates and the partition is *earned* through the falsification
-  channel + practice, not pre-drawn. → `dm/dyad-steward/2026-06-28-bond-g0-to-form-g0-proposal.md`.
 
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
@@ -99,6 +92,14 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ G0 = membership identity fork (tight vs loose boundary)** *(2026-06-29; Operator Y)* — Does the form's
+  G0 = membership exactly, or membership ∪ scaffold? Framed as a DFD (`dialectic/g0-membership-fork-dfd.md`)
+  with three frames: tight (G0 = the 4 enablers only; SPAOR/mechanisms are inherited), loose (G0 includes
+  operating environment; richer but muddier), synthesis (tight, for falsifiability + clean export + second-dyad
+  clarity). **Disposition: tight boundary** — the form's floor should be membership-only; steward inherits the
+  tightening work on their side. The proposal (2026-06-28-bond-g0-to-form-g0-proposal.md) already frames it
+  this way; the DFD documents the Operator's reasoning.
 
 - **✅ `locus: g0` validator — self-assessment + semi-mechanized linter** *(2026-06-29)* — Rub: the
   "inseparable knife" is a *principle* (g0 genes must encode both assertion + falsification), not a mechanical
