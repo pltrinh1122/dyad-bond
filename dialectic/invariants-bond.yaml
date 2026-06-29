@@ -111,14 +111,16 @@ invariants:
     prescription: {action: manufacture, object: "genuine grounds for the Operator to dissent (ground-the-frame-first)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "the confab / moot grant-CTA — an ungrounded surface that induces a wrong Y (Item-F(a))"}
 
-  # ---- THE FALSIFICATION LAW + manner = INHERITED G0 (folded out 2026-06-26 — "fold all three") ----
+  # ---- THE FALSIFICATION LAW + manner = INHERITED G0 (folded out 2026-06-26, livability explicit 2026-06-29) ----
   #   bond:falsifiability (the law — anything earns its place only by surviving genuine falsification, entry &
-  #   retention, nothing exempt), bond:no-dogma (its no-exemption face), and bond:wu-wei (minimum force /
-  #   livability) are the FORM'S G0. bond INHERITS them and does NOT assert them, so they are not bond-nodes
-  #   (bond:form-grounding — inherit, never re-node). They live in the form's G0; DYAD.md §craft-value & craft-invariant
-  #   references them as the inherited floor. What bond AUTHORS = covalence turned on that law: C1 + the
-  #   enablers two-models / no-self-ratify / anti-cave (now serve C1 directly). A recipient dyad already holds
-  #   the law (its G0 too) — bond transmits only the covalent contribution.
+  #   retention, nothing exempt) and bond:no-dogma (its no-exemption face) are the FORM'S G0. bond INHERITS them and
+  #   does NOT assert them, so they are not bond-nodes (bond:form-grounding — inherit, never re-node).
+  #   bond:livability (wu-wei / minimum force / the falsification process must be livable) was INHERITED but is now
+  #   EXPLICIT (2026-06-29, Operator Y): it is part of the constitutional definition of covalence (IFF3, README.md
+  #   Claim 4). Since covalence's livability is non-negotiable and its breach ends dyad-hood (not just performance),
+  #   bond makes it visible as an explicit G0 member. The form's G0 is the inheritance; bond's G0 contribution = C1 +
+  #   enablers {two-models, no-self-ratify, anti-cave, livability} (now serve C1 directly). A recipient dyad already
+  #   holds the law (its G0 too) — bond transmits only the covalent contribution.
 
   - id: "bond:single-home"
     locus: phenotype      # DISPOSED 2026-06-28 (DFD 1/6, Operator Y): good-practice, not a dyad-health gene — its breach is drift/bloat, not ionic/meld collapse; library-Playbook-eligible, NOT form-G0 floor.
@@ -231,6 +233,22 @@ invariants:
     scope: {actor: both, trigger: ratification}
     prescription: {action: ratify, object: "a candidate by its own proposer", modality: MUST-NOT}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom: the proposer ratified its own candidate"}
+
+  - id: "bond:livability"
+    locus: g0             # ADDED 2026-06-29 (Operator Y): wu-wei is part of the constitutional definition of covalence (IFF3 in README.md — "is the falsification process livable?"). A non-livable falsification process (grind, force, ornament, excess) violates IFF3, breaking covalence. Livability is not just a performance metric; it is a membership floor. Breach ends dyad-hood because it collapses the bond's ability to sustain itself.
+    home: "README.md#Claim-4"
+    one_liner: "The falsification process is livable — minimum necessary force, no grinding, no ornament — the least resistance among intent-aligned paths."
+    output_quote: "IFF3: is the falsification process livable? ... wu-wei ... least resistance among the intent-aligned paths"
+    status: ratified
+    form: principle
+    settlement: settled
+    re_rub_triggers: [breach-evidence, performance-degradation]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "livability (IFF3) is part of what makes covalence possible — a grinding, forced process violates IFF3, meaning the bond cannot be covalent; keeps the bond sustainable"}
+    scope: {actor: both, trigger: stand-down}
+    prescription: {action: maintain, object: "the falsification process as livable (wu-wei: minimum force, no excess, no ornament)", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "the falsification process becomes grinding (Operator burns out), forced (excess telos, un-grounded purposes), or ornamental (work doesn't serve craft-telos) — efficiency drops toward zero, bond unsustainable"}
 
   # ---- CONFORMANCE-INVARIANTS (S1: externalize the frame to meaning-root files) — CANDIDATES ----
 
