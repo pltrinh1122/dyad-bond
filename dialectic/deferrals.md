@@ -58,6 +58,16 @@
     NOT ours-whole). (4) test under *our* NON-NEGOTIABLE — steward's falsification ≠ ours (cf. `dfd.md`
     caveat).
 
+- **apex-telos-singularity — empirical work (Operator-initiated)** *(2026-06-29)* — Reframed from
+  premature assertion to empirical question: **Does bond's exemplar sustain Agent distinctness under
+  plural, explicitly composed Operator telos?** The theory `operator-coherence-prevents-covalence-collapse`
+  asserts that coherence (not singularity) is what matters; apex-telos-singularity tests whether bond can
+  maintain that coherence with plural, composed telos. **Context:** N=1 (bond hasn't seen plural composed
+  telos yet); the Belief assumes Operator coherence as a structural prerequisite. **Next:** define what
+  "plural composed telos" would look like in bond's practice (composition candidate?), then watch whether
+  it preserves Agent distinctness and synthesis. Status = deferred (not settled/stale), pending craft
+  evolution. → `theory-pipeline.yaml` (operator-coherence row, prediction pair gates this).
+
 - **types-of-work** sub-area (shed with the Work-layer) — revisit only if the relationship-craft needs it.
 
 - **Relationship-craft codification** — the interior disciplines of being-a-dyad-well are largely
