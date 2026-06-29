@@ -58,10 +58,6 @@
     NOT ours-whole). (4) test under *our* NON-NEGOTIABLE — steward's falsification ≠ ours (cf. `dfd.md`
     caveat).
 
-- **Cluster classification:** are `nba-dag`/`goal-framing` ours-whole, or ours-UI-surface-only (their
-  Work-flows = steward's)? → flagged in `dialectic/dyad-work.md`. *(Forced by [B]'s motion; bind only on
-  disposition — candidate = three-way partition: flow-structure (invariant, triangulate) · Telos-content
-  of the gate (ours) · UI surface (ours).)*
 
 - **⏳ PENDING PICKUP (workstation) — deposit FR `bond-apex-telos-singularity` to the Commons.** Staged +
   conformant (`dialectic/fr-apex-telos-singularity.staged.yaml`); executable handoff in
@@ -92,6 +88,14 @@
   UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ Cluster classification: `nba-dag`/`goal-framing` scope** *(2026-06-29; Operator disposition)* —
+  Original framing (carry-forward 2026-05-31): not ours-whole, not surface-only. **Three-way partition:**
+  (1) **flow-structure** → invariant, steward-pioneered, triangulate; (2) **Telos-content of the gate** →
+  particular, ours (our-telos vets against our-telos, not steward's); (3) **UI surface** (GF-UI/DF-UI) →
+  ours. Net: **our-telos + our-surface instantiating a shared invariant flow**. Bond owns the Telos-gate
+  content + the display; steward owns the flow structure. Custody-intake tension resolved by triangulation.
+  Marked done per the original partition reasoning.
 
 - **✅ G0 = membership identity fork (tight vs loose boundary)** *(2026-06-29; Operator Y)* — Does the form's
   G0 = membership exactly, or membership ∪ scaffold? Framed as a DFD (`dialectic/g0-membership-fork-dfd.md`)
