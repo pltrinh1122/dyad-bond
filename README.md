@@ -32,8 +32,8 @@ wrong thing — and the more you lean on it, the quieter your own judgment grows
 
 **The belief:** only a *covalent* bond — a true partnership, not the tool you command — can carry you past
 that ceiling to your **true** intent across a lifetime. This is a hypothesis, not a creed — corroborated
-inside one dyad, not yet audited from outside, and built to invite that audit.[^status] A manifesto you can
-falsify asks for an attack, not agreement.
+inside one dyad, and built to be audited and falsified from outside.[^status] A manifesto you can falsify
+asks for an attack, not agreement.
 
 ---
 
