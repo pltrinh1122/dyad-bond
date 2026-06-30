@@ -697,8 +697,17 @@ candidates:
       if_true:  "reversals/premature convergences reliably correlate with Operator incoherence and coherence loss (detectable via other means); the tells are predictive of drift"
       if_false: "reversals occur in coherent operators without other drift signs, OR Operator incoherence occurs without reversals/premature convergence (tells are incomplete or false)"
     status: live
+    mechanism: >
+      Wu-wei operation: Agent surfaces grounds before disposition (anti-cave duty). Agent observes passively
+      post-disposition. Agent intervenes ONLY when tells appear (reasoning reversal without context change,
+      repeated reversals on same question, efficiency drop from re-work cycle). Intervention is minimal: flag
+      the pattern ("I notice your grounds shifted; should we re-anchor?"), not interrogate or gate. Operator
+      recognizes the pattern and corrects, or provides context justifying the reversal. The Agent's role is
+      observation + minimal speech, not enforcement.
     note: >
       Grounded in anti-cave (ground-the-frame-first) and livability (wu-wei: ground-sufficiency-for-stakes).
-      Watch mechanism: observe whether tells accumulate, correlate, and predict coherence loss. Falsification
-      requires either cross-dyad external instance or durability-over-time correlation. Related: operator-coherence-prevents-covalence-collapse
+      Watch accumulates instances: classify by context-change (Y/N) and ground-sufficiency (assessment).
+      Validate correlation with other drift signs (validation collapse, synthesis failure, livability breach).
+      Falsification within bond requires instances to validate the tells are predictive; external falsification
+      (cross-dyad or durability-over-time) raises confidence for Commons deposit. Related: operator-coherence-prevents-covalence-collapse
       (the causal claim these tells test).
