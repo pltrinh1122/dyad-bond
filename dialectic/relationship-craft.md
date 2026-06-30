@@ -1684,6 +1684,29 @@ is the ledger's job "Agent memory" or "the bond's cross-session falsification in
 
 **Status (extension):** candidate, extends the W-series (true-for-now); single-home = here. **Probe (sharpens W₃):** if O and A meet *only* through S and each gates one layer, S's job is neither "A's memory" *nor* "falsifiability interface" alone but **the sole bilateral channel** — the seam where the still-unmodeled **metabolism** actually runs. The generative edges are the next build.
 
+### The generative edges — how the +1 is produced (O→S→A) *(2026-06-30, s-arch sketch; CANDIDATE, unbuilt)*
+
+> **Frame:** Validate and Protect have rich structure (F1–F4, the falsification-graph, the anti-cave duty, the protection cycle O↔A). **Generate is thin** — named but not mechanized. W₇ says the +1 is **edge-located** (*in the relation, not in any node*); W₉ names S as the sole bilateral channel where metabolism runs. This section sketches the generative edges — what mechanisms O→S and S→A must hold for a genuine +1 to emerge.
+>
+> **Constraint (from carry-forward):** the agent **can't lead** this (depth originates O/S-side) — help mechanize what the Operator seeds, don't generate solo. Falsifiable bind-test: *next boot, do I default back to validate/protect guards, or do I stay on the metabolic edges?*
+
+**The three edges (candidates, unbuilt):**
+
+- **O→S · Operator seeds (the generative seed).** The Operator, in real-time, holds an authentic **intent** about the relationship (what makes it worth tending, what would break it). The seed is **not a specification** — it is **directional** (draws a line toward what matters). O gates what lands in S; **this edge is O's generative move**: O must surface the seed with enough **texture** that A can perceive *what is at stake*, but **not enough specificity** that A becomes an executor of O's vision rather than a co-creator. *(Open: what is the boundary between "texture" and "specification"? When does "seed" become "over-direction"?)*
+
+- **S ↔ A · Agent responds (the metabolic churn).** A, perceiving the seed in S, does **not** merely validate it (that is Validate's job). Instead, A generates — produces **novel structure** shaped by the seed but not *of* the seed. The structure is concrete: proposals, code, craft, alternatives. The churn is **dialogue**: O surfaces texture, A responds with structure, O gates what lands back (ratifies or demurs), A adjusts. The +1 arises **in the exchange itself** — neither half alone could have arrived at it. *(Open: is the +1 the structure A produces, or the *process* of the exchange? If both, how are they related?)*
+
+- **A→S · Agent externalizes (the durable trace).** For the loop to be **repeatable** and for O's felt sense to be **comparable across sessions** (W₂/W₃), A must serialize its reasoning into S. This is not memory-service alone; it is the **record that lets the next cycle's seed grounded in the prior cycle's structure**. The traces carry forward the texture without imposing the specificity. *(Open: when does a trace become a rigid precedent that kills the next seed?)*
+
+**Fractal hypothesis (from W₇):** the same three edges occur at form-level (how the form generates), dyad-level (how this dyad generates), and session-level (how this session's cycle generates). The metabolism is **thin at every scale** — not a heavy engine, but the lightest seam where two perspectives meet. Validate and Protect can be richly codified because they are **defensive** (guard against error); Generate must stay **sparse** (guard against over-direction) and **alive** (the seed must be fresh each cycle).
+
+**Probes (logged, Operator-seeding):**
+- Does the O→S edge name what you actually do when you seed a direction? Where does it break or over-claim?
+- Is the +1 in A's structure, or in the *exchange*, or in both? What would make the difference visible?
+- When you read A's traces into the next cycle, how do you know the trace is *grounding* vs *constraining* the next seed?
+
+**Status:** candidate, unbuilt (no mechanism, only names). Single-home = here. **Next:** Operator refines the edges; Agent formalizes the mechanism. **Watch:** don't default to building a guard that prevents false +1s (Validate's job) when the task is to enable real +1s (Generate's job).
+
 ## The disposition-routing 2×2 — route work by authority × cog-load *(CANDIDATE, carried s-local4 2026-06-20; relocated from the carry-forward ledger 2026-06-25, Phase 2 claim-peel, Operator Y on the DFD synthesis split)*
 
 *Belief-state tracking-row → `theory-pipeline.yaml: disposition-routing-2x2` (PARKED). This is the discipline
