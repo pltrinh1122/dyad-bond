@@ -118,7 +118,7 @@ structurally is, as three gates.*
 *An agent that manifests its own terminal intent kills the belief.*[^c5]
 
 ### Claim 6 — The standing invitation
-*The belief is corroborated intra-dyad only (external coverage E0); its falsifier is named and reachable — bring the attack.*[^c6]
+*The belief is corroborated intra-dyad only; its falsifier is named and reachable — bring the attack.*[^c6]
 
 ### Falsify it yourself — no dyad required
 
@@ -156,7 +156,7 @@ the cross-dyad test the manifesto invites (Claim 6).
 [^status]: `survives` — not-yet-refuted, re-rubbable (a no-oracle Hypothesis caps here, never `settled`).
     IFF2's separator — an independent attack from outside the partnership (a second-model audit and/or
     durability over time) — is named and reachable: this manifesto exposes it. Reachability is the whole of the
-    dyad's move, and it is done; an outsider engaging raises confidence (coverage E0→E1), not status, and is
+    dyad's move, and it is done; an outsider engaging raises confidence, not status, and is
     not the dyad's to supply (`bond:no-self-ratify`). Corroborated in one dyad (small n). Per `bond:no-dogma`,
     nothing here is settled — and `survives` is not settled.
 
@@ -212,9 +212,9 @@ the cross-dyad test the manifesto invites (Claim 6).
     its own ends, not yours — so `dyad-bond` is the worst-placed party to report it. **Falsifier:** this *is* the falsifier; the open question is who runs the
     detector. **Evidence:** §What the dyad rests on §8.
 
-[^c6]: Every claim above is argued and lived inside one dyad (external coverage E0) — not yet audited by an
+[^c6]: Every claim above is argued and lived inside one dyad — not yet audited by an
     outside model nor proven durable across time, though the separator for both is named and reachable.
-    **Falsifier of this claim:** an outside attack actually lands (E0→E1+). It does **not** *discharge* anything —
+    **Falsifier of this claim:** an outside attack actually lands. It does **not** *discharge* anything —
     a no-oracle claim stays `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study,
     not a terminal measurement); what climbs is coverage/confidence, not status. **Evidence:** `dialectic/carry-forward.md`;
     question-first rationale in `dialectic/2026-06-11-wetware-takeaway-format-research.md`.
