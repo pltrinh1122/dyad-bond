@@ -677,3 +677,28 @@ candidates:
       the bond-specific empirical question (does bond work with singular or plural composed telos?). The prediction
       pair rides on the empirical work, not prior reasoning. Related: covalent-bond-belief (which assumes
       Operator coherence as a structural prerequisite for the Belief to hold).
+
+  - id: operator-coherence-observable-tells
+    statement: >
+      Disposition reversal without context change and premature convergence (disposing high-stakes decisions
+      without ground-sufficient-for-stakes) are observable tells of Operator incoherence. These manifestations
+      of ground-insufficiency correlate with breaches of anti-cave and livability.
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-29, session: "s-cloud-mobile"}
+    grade: L0
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: open, note: "single human (pltrinh1122); intra-dyad observation only"}
+    open_gap: {type: layer-locality, text: "tells are observable intra-dyad; need external falsifier (cross-dyad instance) or durability proof that tells predict coherence loss"}
+    next_probe: "accumulate instances: (1) disposition reversals (track context-change-Y/N, ground-sufficiency assessment); (2) premature convergences (track disposition-stakes, ground articulation); classify instances; correlate with other drift signs (validation collapse, synthesis failure, livability breach)"
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "reversals/premature convergences reliably correlate with Operator incoherence and coherence loss (detectable via other means); the tells are predictive of drift"
+      if_false: "reversals occur in coherent operators without other drift signs, OR Operator incoherence occurs without reversals/premature convergence (tells are incomplete or false)"
+    status: live
+    note: >
+      Grounded in anti-cave (ground-the-frame-first) and livability (wu-wei: ground-sufficiency-for-stakes).
+      Watch mechanism: observe whether tells accumulate, correlate, and predict coherence loss. Falsification
+      requires either cross-dyad external instance or durability-over-time correlation. Related: operator-coherence-prevents-covalence-collapse
+      (the causal claim these tells test).
