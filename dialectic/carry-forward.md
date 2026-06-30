@@ -275,6 +275,7 @@ is bond's keystone AND least-instrumentable). **No anchor edit → RESTART-PENDI
 > (lean — directed "land," not a race-to-consolidate). (4) **`slot`** proposed as the canonical fillable-term (vs field/member) —
 > GLOSSARY-governed, awaiting conform. (5) **process scar:** consolidated the first tally on **unverified** subagent extraction
 > (2 of 5 clones weren't even local) + a line-wrapped grep false-accusation — *verify-don't-trust applies to my own tools*, caught only on the Operator's "falsify."
+> **Also landed (2nd arc, same session):** the O/A/S relational model → **`relationship-craft.md §thread-W extended` (W₆–W₉)** — role≠substrate (O/A/S) · the one-relation decomposed into generate/validate/protect (metabolism = the thin, edge-located layer; fractal across form/dyad/session) · protection is a mutual cycle (O↔A, prune-or-prime, means-vs-end) · the O/A asymmetry is **parametric not structural** (layer-matching → symmetric private-interior+gate+S-traces; the asymmetries are timescale/obligation params = slot/fill one level up). Extends the existing thread-W (W₁–W₅), not a new home. **rub-forward:** the **generative edges are unbuilt** — the metabolism (where the +1 actually runs) is named, not mechanized; that's the form's frontier and bond's, fractally.
 
 → **Stand-Down 2026-06-28 (repo-structure / outward-by-consumer arc — LANDED, PR #60 merged to `main`):** anchor
 **EDITED** → **RESTART-PENDING SET** (above: the dip-craft steward-tended reframe + the `recommendations`→
