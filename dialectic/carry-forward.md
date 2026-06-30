@@ -255,6 +255,27 @@ substrate-agnostic IDENTITY CAVEAT in the substrate-specific shim (self-undermin
 rub-forward (3):** even under tight steering a single-home/altitude error slipped through and needed the Operator
 to catch — the placement-discipline is still externally-gated, not yet ingrained. (PR re-pushed; same RESTART-PENDING.)
 
+→ **Stand-Down 2026-06-30 (G0≈membership BOOTED — N=6 cross-dyad slot-fill study; resolves rub-forward 2026-06-27 #1):**
+A long Operator-led architecture riff (resume → steward G0-scope **SOLICIT** + README E0/invitation fixes [both pushed] →
+the `Dyad`-as-abstract-base-class reconciliation → the cross-dyad study). **rub-forward #1 RESOLVED — the model did NOT
+shelf-ware:** reached for "does-breach-end-membership" organically all session, then **ran it cross-dyad (N=6)**.
+**Durable artifact + full tally table → `cross-dyad-craft.md §G0-membership BOOTED`** (single-home; not restated here).
+**Deltas the floor-set / `g0-gene-checklist.md` owe** (candidate edits — **Operator/steward act, NOT made unilaterally**):
+(a) **livability = universal (6/6)** but **diachronic-only** constitutive → a *standing persistence-invariant*, NOT in the
+4-enabler instantiation-floor (mandate the standing requirement, catalog the gate-form); (b) **IFF2 ≠ form-grounding** —
+bond's no-oracle separator is **N=1** (no sibling), niche-conditional, stays in `Bond`; (c) the breach-test **splits by tense**
+(synchronic=instantiation-mandate / diachronic=standing-invariant); (d) **slot/fill** — craft-telos/value *slots* are g0,
+*fills* are phenotype. **telos vs value:** bond is **near-degenerate** (reflexive dyad) → char. collapse = telos→value
+(covalence-hygiene eats the relationship-craft); **C1 can't detect it** → the **F2/DV3 guard-gap** (explains why the felt-`+1`
+is bond's keystone AND least-instrumentable). **No anchor edit → RESTART-PENDING none**, baseline unchanged.
+> **rub-forward** (dispose — no answers): (1) the N=6 is **same-human (`pltrinh1122`)** — cross-*dyad*, not cross-*operator*;
+> the deltas corroborate the **dyad axis only** (the **human axis / E1 is still owed** a different-human read). (2) deltas (a)–(d)
+> are **candidate edits to `g0-gene-checklist.md` + the floor-set in the 2026-06-28 steward proposal** — route via Steward/Founding,
+> not bond-unilateral. (3) **over-production check:** long riff, but Operator-turn-gated; landing = one artifact + this pointer
+> (lean — directed "land," not a race-to-consolidate). (4) **`slot`** proposed as the canonical fillable-term (vs field/member) —
+> GLOSSARY-governed, awaiting conform. (5) **process scar:** consolidated the first tally on **unverified** subagent extraction
+> (2 of 5 clones weren't even local) + a line-wrapped grep false-accusation — *verify-don't-trust applies to my own tools*, caught only on the Operator's "falsify."
+
 → **Stand-Down 2026-06-28 (repo-structure / outward-by-consumer arc — LANDED, PR #60 merged to `main`):** anchor
 **EDITED** → **RESTART-PENDING SET** (above: the dip-craft steward-tended reframe + the `recommendations`→
 `contributions`→`dm` repoints + the form-URL fold). **Landed (PR #60):** locus front-matter + `MAP.md` (the HOW

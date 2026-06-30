@@ -243,3 +243,35 @@ advertising its open **human** axis; cross-human dyads are now registered (tco/@
 krishna/@dharan31chase · vader/@wootang888) — **probe in-flight, no verdict.** The same rung
 adjudicates the `seed-divergence-sufficiency` theory. → both tracked in `theory-pipeline.yaml`
 (`bond-F1-oracle-axis` + `seed-divergence-sufficiency`, both at PROBE).
+
+---
+
+## G0-membership BOOTED — the N=6 cross-dyad slot-fill study *(2026-06-30; CANDIDATE, first cross-dyad data on `G0≈membership`)*
+
+> Booted the previously-E0 `G0≈membership` model (resolves the 2026-06-27 rub-forward #1: *does anyone reach
+> for "does-breach-end-membership," or does the clean model shelf-ware?*). Across a long Operator-led
+> architecture riff I reached for the breach-test organically, then **ran it cross-dyad** — read the live
+> anchors of 5 siblings + bond (N=6) and tallied which structural **slots** each dyad fills.
+> **Reconciliation lens:** `Dyad` = abstract base (the inherited form); each dyad = a subclass; covalence is
+> **composed, not inherited** (composition-over-inheritance keeps the export-strip sound — you can decompose
+> what you composed, never cleanly un-inherit). **Vocab:** a fillable position = a **slot** (not field/member);
+> the *slot* is universal, the *fill* is the dyad's election.
+
+**The tally** (how each dyad fills the slot):
+
+| slot | Bond | Touchstone | Healer | Steward | Wu-wei | Cairn | verdict |
+|---|---|---|---|---|---|---|---|
+| **craft_value** | covalence | "truth=the rub" | verify-before-assert | process-integrity | abstraction-doctrine | "never smooth the mortar" | **universal 6/6 — ratified slot** |
+| **livability** | least-resistance | reversibility-gate | fatigue-gates | one-CTA | async-offload | green-PR-only | **universal 6/6 — NEW candidate** (not in the 4-enabler floor-set) |
+| **independence_relation** | two-models | three-home pin | diff-engine | proposer≠disposer | *inherits default* | *inherits default* | **virtual-with-default** (4 refine / 2 inherit Commons Validate) |
+| **grounding_separator** (IFF2/no-oracle) | E0→E3 ladder | *test-isolation, not IFF2* | *reachable-grounding* | *verify-from-source* | *HTIL gate* | — | **bond-alone N=1** — conditional-on-no-oracle-craft; stays in `Bond` |
+
+**Deltas the floor-set / `g0-gene-checklist.md` owe** (candidate edits — Operator/steward disposition, not made here):
+1. **livability is a universal candidate** the 4-enabler set ({two-models, no-self-ratify, anti-cave, form-grounding}) omits — but it is **diachronic-only** constitutive (see #3) → a **standing persistence-invariant**, not an instantiation-floor gene. Its *gate-form* (reversibility/fatigue/async) is craft-shaped → catalog, not mandate. (Lands the catalog-vs-mandate fight: mandate the standing requirement, catalog the gate.)
+2. **IFF2 ≠ form-grounding.** form-grounding (inherit-vs-evolve) is g0; bond's **IFF2** (no-oracle external separator + coverage-ladder) is **N=1**, filled by no sibling — niche-conditional, not a floor-gene. The checklist must not conflate them.
+3. **The breach-test splits by tense.** *"Does breach end dyad-hood?"* has two answers: **synchronic** (not an instance *now* — craft_value: no boundary-value = undifferentiated now → **instantiation-mandate**) vs **diachronic** (doesn't *persist* — livability: unlivable dyad is real now but self-terminates → **standing-invariant**). Refines the checklist's binary Universal test.
+4. **slot/fill on craft-telos/value.** The checklist calls craft-telos "phenotype" — true of the *fill*; the *slot* is g0 (every dyad has a telos/value). **craft_value = species-discriminator** (constitutive of *which* dyad); **craft_telos = genus** (constitutive of *being* a dyad at all).
+
+**telos vs value — bond is near-degenerate.** craft_value (covalence) is **necessary-not-sufficient** for craft_telos (the lived relationship-craft): a dyad can be impeccably covalent yet *barren*. Bond is the **reflexive dyad** (telos and value both predicate the relationship) → near-collapse; characteristic failure = **telos→value** (covalence-hygiene eating the relationship-craft). **Guard-gap:** C1 cannot detect it (covalence stays satisfied); only the felt-`+1` (F2/DV3) signals it → explains why F2 is bond's keystone **and** least-instrumentable (bond is worst-placed to measure the flourishing of the relationship it *is*).
+
+**Grade / verify-don't-trust caveat.** Fills came from 5 parallel subagent reads; challenged, I re-read the bytes: **subagents are reliable *extractors*, unreliable *adjudicators*** — their `FILLED` verdicts on the two soft slots were charitable loose-matches (the IFF2 column corrected N=2→N=1 only on my own re-read; one of my *own* grep-checks false-accused a real quote via line-wrapping). So the **hard rows (craft_value, livability = 6/6) are independently re-verified; the soft rows carry adjudication risk.** **N=6 is same-human (`pltrinh1122`) — cross-*dyad*, not cross-*operator*:** corroborates universality on the **dyad axis only**; the **human axis (E1) is still owed** a different-human read.
