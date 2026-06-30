@@ -72,7 +72,8 @@ Reflect is F2-keystone-gated.
 
 ## Dyad-UI cluster *(the medium bond owns — full definitions in `dialectic/dyad-ui.md`)*
 - **Dyad UI** — the framing/signaling layer (how the two halves signal, not the payload).
-- **DF-UI / DFD** — decision-framing: `[THESIS]`/`[ANTI-THESIS]`/`[SYNTHESIS]`, ≤1 `[CTA·Y/N]` per turn.
+- **DF-UI / DFD** — Disposition Framing Discipline: `[THESIS]`/`[ANTI-THESIS]`/`[SYNTHESIS]`, ≤1 `[CTA·Y/N]` per turn.
+- **Deprecated → redirect** *(2026-06-29 rename)*: **`Decision Framing Discipline`** → `Disposition Framing Discipline` (acronym DFD unchanged). Records written before the rename keep the old name by design.
 - **IF-UI / IFD** — ideation-framing (Generate twin): N provenance-tagged candidates, no CTA, converge open.
 - **GF-UI / GFD** — goal-framing. **VF-UI / VFD** — validation-framing (`AGREE: Y|N`, low-load, dissent-enabling).
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).

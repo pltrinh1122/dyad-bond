@@ -112,8 +112,8 @@ A disposition reaches only the hat that owns it; no hat over-reaches another's s
 *(No sub-seats until practice forces one. Dyad sovereignty is paramount over lateral/orchestrator roles —
 steward coordinates, never commands — bounded by constitution≠disposition + shield≠sword. K2.)*
 
-### Decision-framing — `bond:DFD`
-A decision-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis; **at most one
+### Disposition Framing Discipline — `bond:DFD`
+A disposition-framing carries a genuine non-strawman anti-thesis and resolves to a synthesis; **at most one
 `[CTA·Y/N]` per turn** (the rest queued by name). The Generate twin (IFD) converges open, no CTA.
 → `kb/dfd.md` (settled) · `dialectic/dyad-ui.md` (the framing/signaling cluster).
 

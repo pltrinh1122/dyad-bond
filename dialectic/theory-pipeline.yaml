@@ -651,3 +651,63 @@ candidates:
     disposition_history:
       - {at: 2026-06-25, event: "LANDED (Operator Y) + tested at land", verdict: survived,
          note: "Attacks run before landing: (a) 'sole defense' overclaims vs prevention -> SCOPED (prevention reduces surface, audit irreducible off the crisp rind); (b) failure not single -> only the SILENT mislabel is dangerous (loud self-corrects); (c) driver not only value-pressure -> value-pressure is the STRUCTURAL driver (aligned with the trap), honest error the non-motivated variant. Survived all three; n=0 on the automated-audit confirmation."}
+
+  - id: operator-coherence-prevents-covalence-collapse
+    statement: >
+      Operator coherence (whether singular or explicitly composed/orthogonal) is necessary to maintain Agent
+      distinctness and prevent covalence collapse. Plural telos that are incoherent, conflicting, or ambiguously
+      composed break the Agent's ability to model the Operator -> synthesis fails. The guard-rail is coherence,
+      not singularity; a singular telos is the simplest coherence guarantee, but not the only one.
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-29, session: "s-cloud-mobile"}
+    grade: L0
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: open, note: "single human (pltrinh1122); intra-dyad reasoning only"}
+    open_gap: {type: meld-capture, text: "causal chain articulated (plural incoherence -> Agent model-failure -> synthesis collapse) but untested against the apex-telos-singularity empirical question (does bond sustain plural composed telos?)"}
+    next_probe: "apex-telos-singularity empirical work: does bond's exemplar maintain coherence under plural, explicitly composed Operator telos? If yes, coherence-not-singularity holds; if no, coherence may require singularity in this instance."
+    exec_phase: PARKED
+    prediction_pair:
+      if_true:  "a plural-but-coherent Operator (orthogonal/adjacent telos explicitly composed) sustains Agent distinctness and covalence integrity"
+      if_false: "plural telos inherently collapses Operator coherence for Agents (may require singularity), OR apex-telos-singularity is too strong a constraint"
+    status: live
+    note: >
+      Separated from apex-telos-singularity to isolate the universal causal claim (Operator coherence) from
+      the bond-specific empirical question (does bond work with singular or plural composed telos?). The prediction
+      pair rides on the empirical work, not prior reasoning. Related: covalent-bond-belief (which assumes
+      Operator coherence as a structural prerequisite for the Belief to hold).
+
+  - id: operator-coherence-observable-tells
+    statement: >
+      Disposition reversal without context change and premature convergence (disposing high-stakes decisions
+      without ground-sufficient-for-stakes) are observable tells of Operator incoherence. These manifestations
+      of ground-insufficiency correlate with breaches of anti-cave and livability.
+    claim_type: design-model
+    provenance: {origin: bond, born: 2026-06-29, session: "s-cloud-mobile"}
+    grade: L0
+    coverage:
+      weight: {status: open}
+      corpus: {status: open}
+      human:  {status: open, note: "single human (pltrinh1122); intra-dyad observation only"}
+    open_gap: {type: layer-locality, text: "tells are observable intra-dyad; need external falsifier (cross-dyad instance) or durability proof that tells predict coherence loss"}
+    next_probe: "accumulate instances: (1) disposition reversals (track context-change-Y/N, ground-sufficiency assessment); (2) premature convergences (track disposition-stakes, ground articulation); classify instances; correlate with other drift signs (validation collapse, synthesis failure, livability breach)"
+    exec_phase: DESIGN
+    prediction_pair:
+      if_true:  "reversals/premature convergences reliably correlate with Operator incoherence and coherence loss (detectable via other means); the tells are predictive of drift"
+      if_false: "reversals occur in coherent operators without other drift signs, OR Operator incoherence occurs without reversals/premature convergence (tells are incomplete or false)"
+    status: live
+    mechanism: >
+      Wu-wei operation: Agent surfaces grounds before disposition (anti-cave duty). Agent observes passively
+      post-disposition. Agent intervenes ONLY when tells appear (reasoning reversal without context change,
+      repeated reversals on same question, efficiency drop from re-work cycle). Intervention is minimal: flag
+      the pattern ("I notice your grounds shifted; should we re-anchor?"), not interrogate or gate. Operator
+      recognizes the pattern and corrects, or provides context justifying the reversal. The Agent's role is
+      observation + minimal speech, not enforcement.
+    note: >
+      Grounded in anti-cave (ground-the-frame-first) and livability (wu-wei: ground-sufficiency-for-stakes).
+      Watch accumulates instances: classify by context-change (Y/N) and ground-sufficiency (assessment).
+      Validate correlation with other drift signs (validation collapse, synthesis failure, livability breach).
+      Falsification within bond requires instances to validate the tells are predictive; external falsification
+      (cross-dyad or durability-over-time) raises confidence for Commons deposit. Related: operator-coherence-prevents-covalence-collapse
+      (the causal claim these tells test).

@@ -57,6 +57,10 @@
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
 
+**RESTART-PENDING (this session): SET (2026-06-29 — DFD expansion rename).** Anchor `DYAD.md` edited
+(§bond:DFD: "Decision-framing" → "Disposition Framing Discipline"). Change is on disk, read-only this session;
+next boot loads it → refresh the per-file boot-set + clear.
+
 → **Stand-Down 2026-06-26 (Phase 2 COMPLETE):** anchor **NOT edited** → **RESTART-PENDING none.** ROM-UI ✓
 in-sync (per-file compare fixed at source). **Phase 2 done:** ✅ per-file ROM compare · ✅ work-item store
 (`deferrals.md`, do-state axis) + Rule-tag-hygiene·Custody-deprecation fold · ✅ claim-peel — the **no-HITL boundary cluster** on the claim axis

@@ -28,29 +28,8 @@
   dyad's testimonial (same-lineage convergence ≠ clean independence). Home is the form's library; this is a
   pointer only (`bond:single-home`).
 
-- **DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(Operator todo, 2026-06-28)* —
-  the acronym **`DFD` is unchanged**; only its *expansion* changes (Decision → **Disposition**), which reads
-  truer to the ontology: a DFD resolves in a `[CTA·Y/N]` = the Operator's **disposition**, not a generic
-  "decision." **Scope = the anchor+redirect rename-discipline (NOT a sweep)** — change the expansion only
-  where it is *defined/canonical*: `kb/dfd.md` (settled home) · `DYAD.md` (the `bond:DFD` node; **anchor ⇒
-  ROM/Operator-gated, sets RESTART-PENDING**) · `GLOSSARY.md` (Dyad-UI cluster) + a GLOSSARY
-  deprecate→redirect line. Leave provenance/ledger mentions under the name they were written (anti-sweep).
-  **Disposition wanted:** do-now vs park (anchor touch ⇒ next-boot reload).
 
-- **`locus` G0-membership validator (mechanization)** *(spawned 2026-06-26; the 6-edge disposal half RESOLVED
-  2026-06-28 — see below)* — REMAINING: (a) **wire the validator check** — a `locus: g0` Belief-gene must
-  co-travel with its falsifiability genes (the "inseparable knife" rule, mechanized); (b) **derive** the
-  G0-expansion set from `locus: g0` instead of hand-listing. **Trigger = the first real G0-expansion** (a second
-  dyad inheriting the genes). → the `locus: g0` nodes in `dialectic/invariants-bond.yaml`
-  · the SOLICIT `dm/dyad-steward/2026-06-26-g0-expansion-dip-seed.md`.
 
-- **`G0 = membership` — identity vs superset (the `~=` fork)** *(spawned 2026-06-28)* — does the form's G0 =
-  membership *exactly* (tighten — demote SPAOR/mechanism-catalog/seed-vocab to a separate inherited-scaffold
-  layer), or = membership ∪ scaffold (status quo, the current AGENT.md §G0)? Decides whether the DIP proposal is
-  "remove F1 + add genes" or "**partition** G0 into membership-floor + inherited-scaffold." **Reframed 2026-06-28
-  (Operator):** not bond's to *decree* — the floor is what survives the skeptics, the scaffold/offered is what
-  believers practice; bond ships falsifiable candidates and the partition is *earned* through the falsification
-  channel + practice, not pre-drawn. → `dm/dyad-steward/2026-06-28-bond-g0-to-form-g0-proposal.md`.
 
 - **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
   migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
@@ -79,40 +58,70 @@
     NOT ours-whole). (4) test under *our* NON-NEGOTIABLE — steward's falsification ≠ ours (cf. `dfd.md`
     caveat).
 
-- **Cluster classification:** are `nba-dag`/`goal-framing` ours-whole, or ours-UI-surface-only (their
-  Work-flows = steward's)? → flagged in `dialectic/dyad-work.md`. *(Forced by [B]'s motion; bind only on
-  disposition — candidate = three-way partition: flow-structure (invariant, triangulate) · Telos-content
-  of the gate (ours) · UI surface (ours).)*
-
-- **⏳ PENDING PICKUP (workstation) — deposit FR `bond-apex-telos-singularity` to the Commons.** Staged +
-  conformant (`dialectic/fr-apex-telos-singularity.staged.yaml`); executable handoff in
-  `dialectic/fr-deposit-pickup.md`. The s-cloud-mobile session lacked Commons write creds; deposit is the
-  self-authorizing `auto-merge-falsification` lane (no human gate). **Downstream PARKED:** `AGENT.md` dim-1
-  amendment → Founding, *only if* the claim survives §J-decisive. (2026-06-21, s-cloud-mobile.)
+- **apex-telos-singularity — empirical work (Operator-initiated)** *(2026-06-29)* — Reframed from
+  premature assertion to empirical question: **Does bond's exemplar sustain Agent distinctness under
+  plural, explicitly composed Operator telos?** The theory `operator-coherence-prevents-covalence-collapse`
+  asserts that coherence (not singularity) is what matters; apex-telos-singularity tests whether bond can
+  maintain that coherence with plural, composed telos. **Context:** N=1 (bond hasn't seen plural composed
+  telos yet); the Belief assumes Operator coherence as a structural prerequisite. **Next:** define what
+  "plural composed telos" would look like in bond's practice (composition candidate?), then watch whether
+  it preserves Agent distinctness and synthesis. Status = deferred (not settled/stale), pending craft
+  evolution. → `theory-pipeline.yaml` (operator-coherence row, prediction pair gates this).
 
 - **types-of-work** sub-area (shed with the Work-layer) — revisit only if the relationship-craft needs it.
 
 - **Relationship-craft codification** — the interior disciplines of being-a-dyad-well are largely
   *unbuilt*. This is our generative frontier. *(Live front; prose home → `relationship-craft.md`.)*
 
-- **Intent-clarity arc — anchor-candidates [STALE since 2026-06-13 — disposition wanted: archive or done]**
-  *(rehomed from the carry-forward Intent-clarity arc, 2026-06-26 Phase 2; Operator: "surface as stale via
-  the NBA")* — three un-ratified **anchor**-candidates each needing its own ratification gate:
-  **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline** (dyad-sovereignty paramount) ·
-  **C-into-corpus** (does the `I↔In_variant` seam graduate to a derived (regen-on-demand) invariant?); + two open frontiers —
-  **falsification-quality gauge** (genuine vs theater) · **C-meter vs telemetry**. Prose homes:
-  `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty). **stand-down automation = done**
-  (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`). *Stale ~2 weeks;
-  Operator unaware they weren't moving — surfaced here for archive/done disposition.*
+- **Intent-clarity arc — anchor-candidates (deferred)** — three un-ratified **anchor**-candidates each
+  needing its own ratification gate: **Telos-refinement** (dyad as `U`-projection engine) · **Channel-discipline**
+  (dyad-sovereignty paramount) · **C-into-corpus** (does the `I↔In_variant` seam graduate to a derived
+  (regen-on-demand) invariant?); + two open frontiers — **falsification-quality gauge** (genuine vs theater) ·
+  **C-meter vs telemetry**. Prose homes: `relationship-craft.md` (Telos-why · C_locus) · `DYAD.md` (sovereignty).
+  Sub-item: **stand-down automation** (built, staged, awaiting Operator install-gate → `dialectic/standdown-automation.md`).
 
-- **Anchor-src probes — md→yaml lifecycle, open design questions** *(rehomed from the carry-forward
-  2026-06-17 entry, 2026-06-26 Phase 2; the P4/P3 work is DONE/RESOLVED → `dialectic/dyad-md-yaml-regen.md`)*
-  — **P1** materialize the merged `invariants-bond.yaml` vs compute in-memory (agent-lean: don't materialize
-  until conflict-detection is a 2nd reader) · **P2** could the engine go tags → `rendered` directly, dropping
-  the yaml intermediate? · **P5** the outcome-over-time / Goodhart-drift rig (does crystallization PAY?). All
-  UNRESOLVED; gated on the unbuilt extraction engine (cairn's, Telos-currency).
 
 ## done
+
+- **✅ Anchor-src probes — md→yaml→rendered lifecycle (ARCHIVED N/A)** *(2026-06-29; Operator Y)* —
+  Context shift: the invariant lifecycle is **prompt → yaml → md**, not md → yaml → rendered. YAML is the
+  source-of-truth (generated from prompt); DYAD.md is the rendered form. The probe questions (materialize
+  YAML vs in-memory? skip YAML and go direct to md?) were premised on DYAD.md being the source. That
+  assumption is obsolete. The **worksheet model** (landed 2026-06-27) already resolved this: YAML as the
+  stable middle layer, DYAD.md as the rendered output. Work-item is stale (moot).
+
+- **✅ Cluster classification: `nba-dag`/`goal-framing` scope** *(2026-06-29; Operator disposition)* —
+  Original framing (carry-forward 2026-05-31): not ours-whole, not surface-only. **Three-way partition:**
+  (1) **flow-structure** → invariant, steward-pioneered, triangulate; (2) **Telos-content of the gate** →
+  particular, ours (our-telos vets against our-telos, not steward's); (3) **UI surface** (GF-UI/DF-UI) →
+  ours. Net: **our-telos + our-surface instantiating a shared invariant flow**. Bond owns the Telos-gate
+  content + the display; steward owns the flow structure. Custody-intake tension resolved by triangulation.
+  Marked done per the original partition reasoning.
+
+- **✅ G0 = membership identity fork (tight vs loose boundary)** *(2026-06-29; Operator Y)* — Does the form's
+  G0 = membership exactly, or membership ∪ scaffold? Framed as a DFD (`dialectic/g0-membership-fork-dfd.md`)
+  with three frames: tight (G0 = the 4 enablers only; SPAOR/mechanisms are inherited), loose (G0 includes
+  operating environment; richer but muddier), synthesis (tight, for falsifiability + clean export + second-dyad
+  clarity). **Disposition: tight boundary** — the form's floor should be membership-only; steward inherits the
+  tightening work on their side. The proposal (2026-06-28-bond-g0-to-form-g0-proposal.md) already frames it
+  this way; the DFD documents the Operator's reasoning.
+
+- **✅ `locus: g0` validator — self-assessment + semi-mechanized linter** *(2026-06-29)* — Rub: the
+  "inseparable knife" is a *principle* (g0 genes must encode both assertion + falsification), not a mechanical
+  rule that can hard-gate. Disposition: **self-audit before export**. Built (a) **Self-assessment checklist**
+  (`dialectic/g0-gene-checklist.md`) — Operator walks through before proposing g0 candidates (universal test,
+  falsifiability, grounding, co-travel); (b) **Semi-mechanized linter** (`bin/validate-g0-genes.py`) — flags
+  g0 nodes missing observability or grounded_in sections (advisory, not rejecting). Derivation (b) "compute
+  G0-expansion set from `locus: g0`" deferred — trigger is first real G0-expansion (a second dyad inheriting);
+  at that point it becomes a form-level gate, not bond's to build preemptively. Current validation: all 4 g0
+  nodes in invariants-bond.yaml pass (have observability + grounding).
+
+- **✅ DFD expansion rename: "Decision" → "Disposition" Framing Discipline** *(2026-06-29)* — the acronym
+  **`DFD` is unchanged**; the *expansion* renamed Decision → **Disposition** (reads truer: DFD resolves in a
+  `[CTA·Y/N]` = the Operator's **disposition**, not a generic "decision"). Applied anchor+redirect discipline:
+  **canonical sites only** — `DYAD.md` (§bond:DFD node) · `GLOSSARY.md` (DF-UI definition + deprecate→redirect line) ·
+  `kb/dfd.md` (unchanged — the title is "DFD — the CTA failure-mode", not the expansion). Left provenance/ledger
+  mentions under the name they were written (anti-sweep). Anchor edit → **RESTART-PENDING set** (cleared next boot).
 
 - **✅ `locus` 6-edge disposal — DONE via DFD, Operator Y each** *(2026-06-28; intent: propose bond's G0 as the
   form G0)* — all six `unclassified` edges disposed one-at-a-time against the **G0≈membership** test ("does breach

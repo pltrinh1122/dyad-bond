@@ -54,7 +54,7 @@ invariants:
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "s10 drift into Commons review-service away from the generative telos (Operator-flagged)"}
 
   - id: "bond:C1"
-    locus: phenotype      # DISPOSED 2026-06-28 (DFD, Operator Y: "C1 is an expression of a dyad from a choice"): covalence is bond's ELECTED craft-value (the OFFERED layer), NOT mandatory membership — bond's own craft-* proposal says craft-value is elected (healer's ≠ covalence). The universal un-collapsed STATE is already the form's tenet #1 (not bond's to re-node). Generalizable/offerable, never mandatory. A root CAN be phenotype (= bond's identity-fill). Loose-end RESOLVED. NB: the g0 enablers re-ground in the form's tenet at EXPORT; their local serve-C1 edges stay.
+    locus: phenotype      # DISPOSED 2026-06-28 (DFD, Operator Y: "C1 is an expression of a dyad from a choice"): covalence is bond's ELECTED craft-value (the OFFERED layer), NOT mandatory membership — bond's own craft-* proposal says craft-value is elected (healer's ≠ covalence). The universal un-collapsed STATE is already the form's tenet #1 (not bond's to re-node). Generalizable/offerable, never mandatory. A root CAN be phenotype (= bond's identity-fill). Loose-end RESOLVED. CRITICAL (2026-06-29): phenotype ≠ independent. C1 is ELECTED (a choice) but NON-VIABLE without G0 (every G0 member is prerequisite: two-models for IFF1, form-grounding for IFF2, livability for IFF3). Breach of any G0 member collapses C1 regardless of election. C1 is phenotype in the sense of "offered value" not "optional burden." NB: the g0 enablers re-ground in the form's tenet at EXPORT; their local serve-C1 edges stay.
     home: "DYAD.md#craft-value"
     one_liner: "The bond is kept covalent — sharing not transfer, two distinct models not merged."
     output_quote: "*sharing not transfer, two distinct models not merged.*"
@@ -67,6 +67,10 @@ invariants:
     adjudicated: {by: Operator, date: 2026-05-30, currency_note: "founding; re-affirmed through s14 no-exemption; re-cut to the covalent STATE at the 2026-06-26 altitude refactor — its producing behaviors are children, ionic/meld are its breach-faces"}
     scope: {actor: both, trigger: stand-down}
     prescription: {action: keep, object: "the bond covalent (sharing-not-transfer, distinct-not-merged)", modality: MUST}
+    grounded_in:
+      - {ref: "bond:two-models", edge: enables, scar: "IFF1 — epistemics (falsifiable ∧ testable): two-models provides the second perspective that makes falsification real, not meld-counterfeit"}
+      - {ref: "bond:form-grounding", edge: enables, scar: "IFF2 — no-oracle (external separator): form-grounding defines the boundary that creates separation (inside dyad / outside world); named falsifiers and durability depend on this boundary existing"}
+      - {ref: "bond:livability", edge: requires, scar: "IFF3 — livability (wu-wei): if livability (G0) fails, the falsification process grinds to a halt; IFF3 fails; covalence collapses. C1 is elected but only sustainable under G0-livability"}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "un-covalent — reached via ionic (override / sycophancy / the dyad-loom rubber-stamp) or meld (one model wearing two hats)"}
 
   # ---- the covalent enablers (bond's CONTRIBUTION) — keep the inherited falsification law GENUINE for THIS bond; serve C1; their failure is a collapse-face of C1 ----
@@ -109,16 +113,18 @@ invariants:
       - {ref: "bond:C1", edge: serves, scar: "the active guard — manufactures the grounds that make the Operator's (inherited) falsification REAL not a cave — keeps the bond covalent; presupposes a distinct second perspective so it CANNOT catch meld"}
     scope: {actor: agent, trigger: selection-seam}
     prescription: {action: manufacture, object: "genuine grounds for the Operator to dissent (ground-the-frame-first)", modality: MUST}
-    observability: {observable: ledger-line, detector: other-half-only, breach_example: "the confab / moot grant-CTA — an ungrounded surface that induces a wrong Y (Item-F(a))"}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "the confab / moot grant-CTA — an ungrounded surface that induces a wrong Y (Item-F(a)). ALSO: premature convergence — Operator disposes a final/high-stakes decision without grounds adequate for its stakes (cannot articulate ground, or ground is superficial relative to stakes). The breach: disposition + stakes mismatch with ground-sufficiency, violating the 'ground-the-frame-first' duty."}
 
-  # ---- THE FALSIFICATION LAW + manner = INHERITED G0 (folded out 2026-06-26 — "fold all three") ----
+  # ---- THE FALSIFICATION LAW + manner = INHERITED G0 (folded out 2026-06-26, livability explicit 2026-06-29) ----
   #   bond:falsifiability (the law — anything earns its place only by surviving genuine falsification, entry &
-  #   retention, nothing exempt), bond:no-dogma (its no-exemption face), and bond:wu-wei (minimum force /
-  #   livability) are the FORM'S G0. bond INHERITS them and does NOT assert them, so they are not bond-nodes
-  #   (bond:form-grounding — inherit, never re-node). They live in the form's G0; DYAD.md §craft-value & craft-invariant
-  #   references them as the inherited floor. What bond AUTHORS = covalence turned on that law: C1 + the
-  #   enablers two-models / no-self-ratify / anti-cave (now serve C1 directly). A recipient dyad already holds
-  #   the law (its G0 too) — bond transmits only the covalent contribution.
+  #   retention, nothing exempt) and bond:no-dogma (its no-exemption face) are the FORM'S G0. bond INHERITS them and
+  #   does NOT assert them, so they are not bond-nodes (bond:form-grounding — inherit, never re-node).
+  #   bond:livability (wu-wei / minimum force / the falsification process must be livable) was INHERITED but is now
+  #   EXPLICIT (2026-06-29, Operator Y): it is part of the constitutional definition of covalence (IFF3, README.md
+  #   Claim 4). Since covalence's livability is non-negotiable and its breach ends dyad-hood (not just performance),
+  #   bond makes it visible as an explicit G0 member. The form's G0 is the inheritance; bond's G0 contribution = C1 +
+  #   enablers {two-models, no-self-ratify, anti-cave, livability} (now serve C1 directly). A recipient dyad already
+  #   holds the law (its G0 too) — bond transmits only the covalent contribution.
 
   - id: "bond:single-home"
     locus: phenotype      # DISPOSED 2026-06-28 (DFD 1/6, Operator Y): good-practice, not a dyad-health gene — its breach is drift/bloat, not ionic/meld collapse; library-Playbook-eligible, NOT form-G0 floor.
@@ -231,6 +237,22 @@ invariants:
     scope: {actor: both, trigger: ratification}
     prescription: {action: ratify, object: "a candidate by its own proposer", modality: MUST-NOT}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "dyad-loom: the proposer ratified its own candidate"}
+
+  - id: "bond:livability"
+    locus: g0             # ADDED 2026-06-29 (Operator Y): wu-wei is part of the constitutional definition of covalence (IFF3 in README.md — "is the falsification process livable?"). A non-livable falsification process (grind, force, ornament, excess) violates IFF3, breaking covalence. Livability is not just a performance metric; it is a membership floor. Breach ends dyad-hood because it collapses the bond's ability to sustain itself.
+    home: "README.md#Claim-4"
+    one_liner: "The falsification process is livable — minimum necessary force, no grinding, no ornament — the least resistance among intent-aligned paths."
+    output_quote: "IFF3: is the falsification process livable? ... wu-wei ... least resistance among the intent-aligned paths"
+    status: ratified
+    form: principle
+    settlement: settled
+    re_rub_triggers: [breach-evidence, performance-degradation]
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "livability (IFF3) is part of what makes covalence possible — a grinding, forced process violates IFF3, meaning the bond cannot be covalent; keeps the bond sustainable"}
+    scope: {actor: both, trigger: stand-down}
+    prescription: {action: maintain, object: "the falsification process as livable (wu-wei: minimum force, no excess, no ornament)", modality: MUST}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "the falsification process becomes grinding (Operator burns out), forced (excess telos, un-grounded purposes), or ornamental (work doesn't serve craft-telos) — efficiency drops toward zero, bond unsustainable. ALSO: reasoning reversal without context change — Operator reverses disposition AND grounds without corresponding context shift (no new evidence, no scope change), indicating original grounds were unstable (premature convergence, insufficient ground-sufficiency-for-stakes). The breach: ground insufficiency manifests as dispositions that don't survive friction; the repeated re-work violates wu-wei (minimum force)."}
 
   # ---- CONFORMANCE-INVARIANTS (S1: externalize the frame to meaning-root files) — CANDIDATES ----
 
