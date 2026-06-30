@@ -4,9 +4,9 @@ locus: instance   # live generation substrate; session-scoped active context for
 
 # generation-cycles — distilled generative learning per cycle
 
-> **Active dyad substrate.** Each generation cycle, Agent distills signal from the chat metabolism. Operator gates with "land" — decides when the distillation is coherent enough to become grounding for the next cycle. This file is *live* (consulted for every generation) and *durable* (ratified, committed, persistent in git).
+> **Active dyad substrate.** Each generation cycle, Agent distills signal from the chat metabolism. Operator gates with "land" — decides when the distillation is coherent enough to become grounding for the next cycle. This file is *live* (consulted for every generation), *durable* (ratified, committed, persistent in git), and *append-only* (all entries are active; no rolling window, no archiving, no decay).
 >
-> **Purpose:** active context that grounds A's next generation in "here's what we learned about generating this" rather than restarting from scratch each cycle. Reduces drift.
+> **Purpose:** active context that grounds A's next generation in "here's what we learned about generating this" rather than restarting from scratch each cycle. Reduces drift. All cycles remain active dyad substrate.
 >
 > **Signal definition (locked):** problem A perceived in O's seed · decision points A chose · principles A applied · surprising collisions where the +1 emerged.
 
