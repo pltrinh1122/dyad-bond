@@ -22,7 +22,7 @@
    the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
-5a. **The active dyad substrate — generation** *(→ `dialectic/generation-learnings.md`)* — distilled generation learning. **Active fetch, not a resume pre-load:** consult it when actually generating, to ground in "here's what we learned"; **distill to it on "land"/"retro"** (A extracts signal, O gates coherence). Append-only, all entries active. Single-file (no split until a real constraint manifests).
+5a. **The active dyad substrate — generation** *(→ `dialectic/generation-distillations.md`)* — A's distilled generative signal, per cycle. **Active fetch, not a resume pre-load:** consult it when actually generating, to ground in "here's what we learned"; **distill to it on "land"/"reflect"** (A extracts signal, O gates coherence). Append-only, all entries active. Single-file (no split until a real constraint manifests).
 5b. **Durability discipline** *(→ `dialectic/substrate-access.md §Scratch RETIRED`)* — commit+push WIP at every
    **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
    the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
@@ -73,6 +73,25 @@
 **Retro (D3, durable) → `relationship-craft.md §Retro — the generation-substrate arc + the post-land CTA relapse`.** Headline: after the Operator gated the architecture with **"land,"** I re-opened the decision by asking "what do you want me to do?" — a live instantiation of `kb/dfd.md`'s settled lesson (the CTA fails by migrating decision-cost back onto the Operator), but in a brand-new seam (the generation mechanism's own "land" gate) the corpus hadn't yet named. Caught by the Operator, not self-fired. Not kb/-eligible as new (restates dfd.md), but is evidence the lesson under-generalized past DFD-the-mechanism to any informal gate. Candidate follow-up (undisposed): broaden `kb/dfd.md`'s scope note to name "land"/"retro" explicitly.
 
 **Next cycle:** bind-test (generation) = does the dyad default to building guards (Validate's job) or extraction (Generate's job) when faced with noisy generation? bind-test (retro) = does a future informal gate outside "land"/DFD trigger the same post-gate relapse?
+
+**ROM:** anchor NOT edited this session → **RESTART-PENDING none.**
+
+---
+
+## Stand-Down 2026-07-01 (cont., new branch) — kb-graduation practice + two real graduations
+
+**Arc:** resumed off the merged PR onto a fresh branch. Investigated `relationship-craft.md`'s intent and growth mechanics (record-type structure: workbench claims vs. session-harvest), confirmed by falsification that no *trigger* exists for kb-graduation (criteria exist; cadence/actor don't), riffed candidate triggers, then ran the mechanic for real: DFD-form proposal → Operator `Y` → `kb/` file + pointer-collapse.
+
+**Landed:**
+- `"reflect"` consolidated as the CTA trigger word in lieu of `"retro"` (Operator disposition) — updated in `generation-distillations.md` and `carry-forward.md`'s resume protocol; historical uses of "retro" left as-is.
+- CSS's OR (operator-reflect) sub-component documented in `relationship-craft.md §D3` as `CANDIDATE` — audited across all instances, used only in the credit direction, zero drift-flagging instances, correctly not kb-eligible.
+- **D3 (the reflection form itself) graduated** → `kb/reflection-discipline.md`, kb-with-caveat (4 intra-dyad applications, L2b open). `relationship-craft.md`'s D3 entry collapsed to a pointer.
+- `bin/graduation-scan.py` built to mechanize the review pass (section-by-section scan, disqualifying-language + Graduation-gate detection, session-harvest exclusion).
+- **Operator-rub-invariant core graduated** → `kb/operator-rub-invariant.md`, kb-with-caveat — a correction of the tool's own false negative: the scan had blocked it via a keyword match on "Graduation gate" without checking that the gate governs downstream findings, not the invariant itself. Re-read found a stronger evidentiary trail than D3's (7 real adversarial dispositions, debt-zero close). The section's tail (unrelated later threads: `C_locus(t)` model, `I↔In_variant` cycle, eureka-tachometer, Telos-`U`-projection, dyad sovereignty) stays un-graduated, correctly candidate — flagged as its own heading-drift instance.
+
+**Reflect (D3, durable) → `relationship-craft.md §Reflect — the graduation-review arc + the scan-tool's false negative`.** Headline: *"it doesn't feel right that very few are promoted"* was a genuine falsification signal, not a mood — it forced the re-check that found the tool's false negative. CONTINUE: terse single-word gates kept the whole arc moving without re-litigation. START: read what a matched keyword actually governs before asserting a verdict. STOP: reporting a first-pass mechanical scan as if it were a complete review, with the tool's known granularity limit buried as an aside instead of leading with it.
+
+**Next cycle:** bind-test = does `bin/graduation-scan.py`, once corrected to read gate-context before verdict, still miss a similar case on its next real run?
 
 **ROM:** anchor NOT edited this session → **RESTART-PENDING none.**
 
