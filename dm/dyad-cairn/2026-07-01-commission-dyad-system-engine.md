@@ -2,7 +2,7 @@
 from: dyad-bond
 to: dyad-cairn
 date: 2026-07-01
-re: COMMISSION SOLICITATION (DRAFT, NOT YET SENT) — dyad-system claim/invariant validated-factory engine; spec pinned @ ad6429e; awaiting Operator confirm-to-dispatch
+re: COMMISSION SOLICITATION (DRAFT, NOT YET SENT) — dyad-system claim/invariant validated-factory engine; spec re-pinned @ c736f4b; awaiting Operator confirm-to-dispatch
 ---
 
 > **PREPARED, NOT DISPATCHED.** This DM is drafted for Operator review alongside the spec. Sending is
@@ -16,9 +16,16 @@ Bond's second commission. Same shape as the first (`2026-06-17-commission-invari
 
 **The pin (mode-4 guard — build against these bytes, not HEAD):**
 - spec: `commissions/2026-07-01-dyad-system-engine.md`
-- commit: `ad6429e91975b3880123de7057aa22afb2b680af` · blob: `727033cb8ead187e93ee96cb6605b5cadc781ba9`
+- commit: `c736f4bdebc7ca9c12e4ca7c5a792b3fb4d69b6d` · blob: `a0497f26e0eab7caf9cc947a7c83c6458b8c0b30`
+  (re-pinned — the original `ad6429e` pin's spec text had the dangling `§2` citations fixed above)
 - repo: `github.com/pltrinh1122/dyad-bond`
 - any spec change re-pins + re-notifies.
+
+**Background (optional, not part of the contract):** `dialectic/dyad-system.md` is bond's own design
+arc — the dialectical back-and-forth behind the spec's fixed calls (why `graduates-to` not `is-a`,
+why the claim-core boundary sits where it does) and the still-open items left to your design
+judgment (module layout, cross-file write strategy). The spec's requirements stand on their own; this
+is just there if the reasoning behind an unscoped call would help you decide it.
 
 **The requirement (full text in the spec — not restated here, `bond:single-home`):** two corpus files
 (`theory-pipeline.yaml` candidates, `invariants-bond.yaml` invariants) independently evolved
