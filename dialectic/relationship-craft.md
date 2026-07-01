@@ -957,14 +957,13 @@ cognition. So each Dyad is singular **through its Operator half.**
 answer breeds three attacks, nothing settles). Bounded, wu-wei: test to *shore up*, then **stop and
 build.** *(Names a real failure exhibited this session: cascading meta-tests.)*
 
-**D3 · Our reflection form** (first authored instance = this very Intermission). Keep the inherited
-**function** (close learning loops durably; survive session-death); author the **form** — *substance +
-durability, minus the four-step ratification ceremony.* **Lightweight ≠ less substance** — it drops the
-ratify-loop, keeps the CSS content. (The "lightweight vs full" mis-cut is dissolved: the real knob is
-*ratify+persist — yes/no*, never *how much substance*.)
+**D3 · Our reflection form — graduated to `kb/reflection-discipline.md`** (kb-with-caveat, 2026-07-01;
+Operator Y). Settled: the CSS form (Continue/Start/Stop) survived 4 intra-dyad applications; not yet
+cross-dyad/cross-human rubbed (L2b open). First authored instance = the 2026-05-31 Intermission. See
+`kb/reflection-discipline.md` for the full definition — this entry is a pointer, not a duplicate.
 
 **CSS's provenance-tag structure includes an OR (operator-reflect) slot, landed 2026-07-01 as CANDIDATE
-— structure only, behavior unverified.** Every CSS entry already tags lines by whose conduct they're
+— did NOT graduate with the rest of the form, structure only, behavior unverified.** Every CSS entry already tags lines by whose conduct they're
 about: `CONTINUE (Operator-retrospected)` vs. `START/STOP (Agent, from feedback)` — the Operator-tagged
 slot is OR. Audited across all 6 CSS/Reflect-harvest instances to date: **OR has been used only in the
 credit direction** (naming a positive Operator pattern to continue) — **zero instances** exist of OR
