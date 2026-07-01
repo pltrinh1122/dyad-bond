@@ -92,3 +92,10 @@ un-unified:
 Scope the `claim-core` field list precisely enough to write an actual sub-schema YAML (the first
 falsifiable artifact of this arc) — that's the smallest next step that turns "design decided" into
 something `bin/invariant-eval.py`-shaped can check.
+
+## Commission (2026-07-01)
+Operator disposed to commission the engine rather than build it bond-side — spec drafted as
+template-fill on the invariant-extraction pilot (same builder-fit read: FSM/parser/validated-writer
+shape, cairn's native Generate mechanism + TDD-by-deterministic-suite). Single-home →
+`commissions/2026-07-01-dyad-system-engine.md`. **Status: DRAFT, not yet solicited** — awaiting
+Operator review/pin before dispatch to dyad-cairn.

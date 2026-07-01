@@ -18,7 +18,9 @@
   validated-factory arc, born from the `bond:C1`/`bond:livability` validator-drift catch: offload
   structural checking (id-uniqueness, enum-shape, provenance, re-rub triggers) from attention/tokens
   onto gated mechanism, across both `theory-pipeline.yaml` (currently zero mechanical validation) and
-  `invariants-bond.yaml`. Design-stage, no code yet. Single-home → `dialectic/dyad-system.md`.
+  `invariants-bond.yaml`. **Commission drafted** (template-fill on the invariant-extraction pilot) →
+  `commissions/2026-07-01-dyad-system-engine.md`, DRAFT, not yet solicited to dyad-cairn — awaiting
+  Operator review/pin. Single-home → `dialectic/dyad-system.md`.
 
 ## todo
 
