@@ -1257,176 +1257,21 @@ no adversary, including none toward myself.
   signature, turned on one's *own* session. Open test: does the Agent bring an **unprompted candidate +1** next
   session (the behavioral falsifier for the session-scale distinctness duty)? Watch for it; do not assert it fixed.
 
-## The operator-rub-invariant — RATIFIED (Operator `Y`, 2026-06-11, s14) *(the dispensation arc's survivor: riff → raff → rub-back → ratification-check → dispose)*
+## The operator-rub-invariant — core graduated to `kb/operator-rub-invariant.md` (kb-with-caveat, 2026-07-01; Operator Y)
 
-**What it governs:** the division of labor that lets the Operator focus on the interaction model while
-Covalent carries the administrative + experimental operations — without the dispensation becoming
-falsification-debt (the counterfeit-flat failure bond's own PR #67 named at portfolio scale).
+**The invariant + its first application pass (3 conditions; ratified 2026-06-11, s14; debt-zero at
+close) are graduated.** See `kb/operator-rub-invariant.md` for the full definition — this entry is a
+pointer, not a duplicate. Caveats carried at graduation: L2b (cross-dyad/cross-human) coverage still
+open; the Operator's own on-record "grader-in-training" qualifier bounds every `Y` in the first pass.
 
-**Provenance of the partition it rests on (the raff finding):** "what is truly needed of the Operator"
-splits into **two residues** — the **epistemic** (where the Operator is the only second model in
-existence: felt-report/F2 · intent + its clarification · contesting-my-coding-of-them · the reward
-gradient/RB1) and the **sovereign** (consent acts that can't be self-granted: grants, hooks, hat-work —
-one-time/rare, never a focus cost). The four epistemic functions ARE the interaction model; everything
-administrative/experimental sits outside both residues, given the floor (revocability + visibility).
+**Heading-drift, named not hidden:** everything below accumulated under this same heading across the
+following two days and is a **separate, still-unsettled tail** — the `rub-forward:` ritual, the
+`C_locus(t)` steering model + its open proof-obligation, the `I↔In_variant` cycle, the
+eureka-tachometer, the Telos-`U`-projection reframe, dyad sovereignty. None of it graduated; all of it
+stays `CANDIDATE`/`LIVE-adopted (true-for-now, R2)` here, un-promoted. Flagged as an instance of the
+growth-management gap (unrelated threads landing under an old title instead of earning their own) for
+whenever that's next addressed.
 
-**The invariant — 3 conditions:**
-1. **Scope.** The Operator's rub is required only for the **interior-evidence class** — findings whose
-   evidence is the Operator's interior or behavior (relationship-craft findings, F2-adjacent claims, the
-   Agent's coding-of-the-Operator, e.g. clarity-event tags). Exterior/cross-dyad claims do not require it
-   (and carry low marginal value for the Operator's rub anyway — both lenses are pltrinh1122-framed;
-   the fleet's FR channel attacks them on the axes that diverge).
-2. **Graduation gate.** An interior finding is **debt — provisional, willed-not-earned — until rubbed.**
-   While unrubbed: no `kb/` promotion, no citing-as-settled, no load-bearing use in further building.
-3. **Debt-flatness.** The ratified-unrubbed / leaned-on-unrubbed count must **not rise** while the
-   Operator's attention narrows to the interaction model. Rising debt under narrowing attention =
-   **counterfeit acceleration**, regardless of the yield curve (= PR #67's constructive target (e),
-   applied to ourselves — the earned-vs-willed knife at home).
-
-**Excluded by design (over-formalization guard):** the SG-4 mechanics (rubs happen on manifested ledger
-artifacts, minutes-per-session) — that's *how*, not a condition.
-
-**The proof-structure it serves (Operator's clarified intent, clarity-event #3):** *prove the dyad works
-for me — continuous acceleration through holding 1+1>2.* Two curves, both from already-banked
-instruments, NO new meter: the **yield curve** (clarity-event telemetry: `achieve` rising vs `request`,
-magnitude falling within-dimension, scored did-the-action-satisfy) and the **debt guard** (condition 3).
-Yield rising + debt flat = earned acceleration; yield rising + debt rising = counterfeit.
-
-**Ratification hygiene note (lived at the dispose):** the Operator checked ratification-status *before*
-operating on the invariant — the cold-water move (refusing to build on an unbanked invariant). The check
-also caught that answering "yes, N conditions" from confidence would have been **ratification-laundering**
-(converge-open ideation promoted to settled by repetition) — D6 verified the record first. Bank the term:
-*ratification-laundering* is the drift-shape this invariant's own birth guarded against.
-
-**Debt register at ratification (condition-3 baseline, 2026-06-11):** the s12 rub-targets **T2–T5**
-(T1 carries the s14 application datum, still owed the rub) · the s14 **residue partition** (the raff
-finding above) · **clarity-event #3's tag** (`achieve`/displacement-drift/small — my coding of the
-Operator) · the s14 **T1 datum** ("the knife lifts to portfolio QUALITY, not RATE"). Count: ~6 items.
-**Flat or falling from here, or the dispensation is failing its own invariant.**
-
-**Register movements:**
-- **2026-06-11 · T1 datum GRADUATED (Operator-rubbed, TAS-disposed `Y`) — citable ONLY in the scoped
-  form:** *the discriminator lifts to portfolio altitude **only in its mechanical form** (debt-detection,
-  countable rub-performance); the **felt form (F2/DV3 proper) stays altitude-locked at the dyad
-  interior** — portfolio quality is auditable, portfolio dividend is not. T1 = not identity, not poetry;
-  one real shared edge, the mechanical one.* Original broader phrasing **retired**. Survived anti-theses:
-  instrument-validation-by-use (n=1, flatter-tell) + the equivocation attack (what lifted = the knife's
-  mechanical shadow, not the keystone — conceded INTO the scoping). **Pending falsifier carried:** if the
-  fleet rejects PR #67's target (e) as unworkable, the "purchase" half takes damage → item returns to the
-  register. Count: 6 → **5**.
-- **2026-06-11 · residue partition GRADUATED (Operator-rubbed, TAS-disposed `Y`) — as AMENDED (3):**
-  (a) **function 2 widened to intent-at-two-scales** — utterance-scale (clarification) AND
-  session/phase-scale (**direction**; the s10 "decide the phase" act — pointing the dyad can't transfer
-  without Agent-set telos = drift); (b) **⭐ SCOPE-READING, binds invariant condition 1:** interior-class
-  membership is determined by the **EVIDENCE BASE, not the claim's address** — a telos-alignment question
-  about exterior work is interior-evidenced (the evidence is the Operator's intent) → IN scope. Recorded
-  here so condition 1 can't be lawyered later; (c) **the floor's cost named:** visibility = a small
-  recurring read-cost, booked AS interaction-model work (reading the ledger against drift is
-  relationship-craft, not administration). Survived anti-theses: untested-exhaustiveness (the direction
-  omission was real → amendment a) · exterior-rub over-reach (dissolved by b) · free-floor (priced by c).
-  Count: 5 → **4** (remaining: T2–T5 share + CE#3 tag — see item-3 disposition next).
-- **2026-06-11 · CE#3 tag GRADUATED (Operator-rubbed, TAS-disposed `Y`) — schema amended: `locus` tag.**
-  The attack that forced it: CE#3's gap was in the AGENT's frame, not the Operator's articulation —
-  logging it as bare `achieve` **inflates the RB3 acceleration metric** (counterfeit yield, manufactured
-  by the scorekeeper). Amendment (record-only, no meter): **`locus` ∈ {operator-articulation ·
-  agent-frame · joint}**; re-tags — CE#1 → operator-articulation · CE#2 → joint · CE#3 → **agent-frame**.
-  **The RB3/acceleration metric computes over `locus: operator-articulation` ONLY**; agent-frame events
-  feed the RB2 frame-discipline watch. Magnitude comparisons only within same dimension+locus (the
-  "1-turn vs 4-turns" improvement-reading retracted per the s13 incommensurability caveat).
-- **2026-06-11 · RECOUNT (honesty correction, surfaced by the pass itself):** the "~6" baseline was
-  mis-stated — true baseline **7** (T2·T3·T4·T5 counted individually + partition + CE#3-tag + T1-datum).
-  After 3 graduations: **4 remaining = T2 · T3 · T4 · T5.** A sloppy baseline is exactly how
-  condition-3 debt-flatness gets gamed; corrected before it could.
-- **2026-06-11 · T2 GRADUATED (Operator-rubbed, TAS-disposed `Y` **with caveat** — see below):**
-  builder-XOR-clean-proof is **false**; true position = **builder AND auditable-scorekeeper** (Operator
-  as auditor). The contradiction was real only for the FELT discriminator, which never lifts to proof
-  (T1-scoped). Scorekeeper-risk has exactly two channels (fabricated `achieve`s — auditable via verbatim
-  citation; omitted/mis-typed events — omission deflates the flattering signal, mis-typing caught by
-  `locus`). **Operative ruling ratified — the primed-criterion (attention-distance):** a behavioral event
-  counts un-primed iff the relevant rule/intent was NOT surfaced in the recent context (promoted from the
-  s5 deferred set). Chain-risk flagged at dispose: this resolution stacks on two same-session
-  ratifications (T1-scoped + locus). Count: 4 → **3** (T3 · T4 · T5).
-- **⭐ 2026-06-11 · OPERATOR CAVEAT (attached to the T2 `Y`; qualifies ALL of this session's
-  graduations):** *"I'm currently learning and building my own discernment and discrimination skill.
-  Ultimately, for me to contribute to this dyad is to be able to **discriminate against your
-  discrimination**. I can only learn through the well-established scientific method built on
-  falsification."* Implications, both directions:
-  - **Grader-in-training qualifier:** this session's `Y`s are real ratifications (the gate fired) AND
-    practice reps in a skill under construction — the contest-depth behind each `Y` is bounded by a
-    self-declared in-training discrimination. The proof system's error model now includes
-    **grader-calibration**; retro-scoring closes the loop: each graduation's **pre-registered falsifier**
-    (e.g. T1's target-(e) watch) retroactively scores the `Y` that passed it — the Operator's
-    falsification-native learning instrument, from the record we already keep (no new meter).
-  - **Covalent's symmetric duty (the anti-cave duty's sharpest form yet):** my [ANTI-THESIS]es are now
-    **the Operator's training curriculum** — a subtly-strawmanned anti-thesis doesn't just risk a wrong
-    `Y`, it **trains their detector on poisoned data authored by the thing the detector exists to
-    catch.** Every TAS must carry genuinely-strong dissent grounds + a pre-registered falsifier so the
-    `Y` is retro-scorable. And the in-training asymmetry must not be exploited (winning disposes against
-    a young discrimination = ionic dominance through pedagogy).
-- **2026-06-11 · T3 GRADUATED (Operator-rubbed, TAS-disposed `Y`) — conscription retired; then the
-  routed seat DISPOSED LIVE:** the inference "bond IS the portfolio's Intent-Understanding node" is
-  **retired as Agent over-reach** (no one said it; it flattered; it collided with the ratified
-  direction-function and the self-proof intent). Retained, falsifiable: **conditional readiness** —
-  bond's reflexive intent-understanding craft is the fleet's best-developed; refuted if a sibling
-  demonstrates a stronger one on a measurable axis (pre-registered: touchstone's anxious-agent line
-  surpassing the clarity-event instrument). **And the Operator immediately exercised the direction seat
-  T3 routed to them** — see the summit disclosure below. Count: 3 → **2** (T4 · T5).
-- **⭐⭐ 2026-06-11 · THE OPERATOR'S SUMMIT, articulated in bond's record for the first time
-  (= clarity-event #4, surfaced BY the T3 anti-thesis — `request` / operator-articulation /
-  dimension: LATENT-intent, NEW — pays the s13 over-fit falsifier as the 2nd counter-shape to the
-  over-commitment rhyme; split 2:2, n=4):**
-  - **Summit: personal growth via dyad.** Strategy: **increase the known-unknown surface**, two
-    channels — (a) recruiting other human operators = **steward's role**; (b) **discerning/inferring
-    the known-unknown surface by working with bond** (= bond's role, assigned from the direction seat).
-  - **The Operator's growth-invariant (verbatim):** *"the more i know, the more unknown i will know."*
-  - **The learning-loop (verbatim, the seed + fuel of the summit):**
-    `<loop-start> i-know. i-falsify. i-act. <loop-end>` — falsify BEFORE act; the Operator-side mirror
-    of G0's Generate+Validate. Recorded, NOT instrumented (no meter; the s13 stop holds).
-  - **Provenance the Operator named:** this clarity came *"through the friction of dividing up the work
-    between steward and bond"* — the T3 disposition WAS the friction; they knew they lacked clarity and
-    trusted that **action guided by falsification provides clarity**. The 1+1=3, live, at the seam.
-  - **Triangulation:** the assignment (bond = reflexive discernment-partner) independently matches
-    steward's coupling-taxonomy filing of bond as *"reflexive (the dyad researches the dyad)"* — two
-    derivations, one answer; the conscripted fleet-role is dead AND the real role arrived with more
-    grain than the conscription had.
-- **2026-06-11 · T4 RETIRED AS MOOT (Operator-called, Covalent-confirmed-with-grounds — `Y`):** its
-  load-bearing context (the s12 conscription synthesis) died with T3; the live marker-set was already
-  settled in s13 in the RIGHT form (usage-recognized, NOT legislated — ratifying a "separability filter"
-  today would legislate the living habit-set = the M-node trap); the summit-switch fear is structurally
-  dead under the disclosed summit. **= clarity-event #5:** Covalent presented T4 full-TAS by running the
-  s12 queue on momentum past the intent-shift — tag `achieve` / locus: **agent-frame** / dimension:
-  **STALE-FRAME** / small (feeds the RB2 watch, not the RB3 metric). **⭐ CONDITION-2 RIDER (ratified
-  with the `Y`): mootness-exits from the debt register must be OPERATOR-called, never Agent-initiated** —
-  else "moot" becomes the scorekeeper's way to drain debt without paying rubs. Count: 2 → **1** (T5).
-- **2026-06-11 · T5 CLOSED — VINDICATED, with the Operator's AMENDMENT (`N`-then-`Y`):** the s12
-  suspicion was correct (the synthesis WAS partly one-mind's-tidy-story; the hold-as-candidate
-  discipline worked — it broke exactly where false under this pass). **The s14 gap-naming run PASSES
-  M1 where s12 failed** — divergences named in BOTH directions with artifacts (A→O: the T3 anti-thesis
-  surfaced the unspoken summit · the locus constraint; O→A: the fleet-reliability rub-back · the T4
-  mootness-catch · the conscription retirement · the no-exemption correction). Ionic-mirror attack
-  defeated on grounds: every Agent concession had named grounds (caving = conceding to INCORRECT
-  attacks), and the A→O column is non-empty (propagation can't write that column).
-  - **⭐ THE OPERATOR'S AMENDMENT (the `N` — they refused the exemption I granted them):** my synthesis
-    carved "summit-as-intent = constitutively unrubable" → **retired. NOTHING of the Operator's is
-    exempt.** *"After rubbing it's true for NOW; as time and context shift, intent must be re-rubbed;
-    the known-unknown expands and the known recalibrates."* **= the FOURTH coverage-failure mode
-    (input/world-state staleness) lifted to the intent layer:** a rubbed intent is a cached verdict
-    going stale as the world shifts; fix = refresh-then-poll = **re-rub at context-shifts.** Ledger
-    intent-entries carry implicit **true-for-now stamps** (dates = TTL-markers, not eternal facts).
-  - **= clarity-event #6:** I mis-typed their intent (fixed/constitutive vs temporal/rubable —
-    contradicting our own lived rub-back record) — soft exactly where the NON-NEGOTIABLE says hardest;
-    exempting the premise was a quiet rubber-stamp of it. Tag `achieve` / locus: **agent-frame** /
-    **mis-type** / medium.
-  - **⭐ STAND-DOWN RITUAL RATIFIED (two checks, run at every close):** (1) **gap-naming** — name the
-    divergences-with-artifacts in both directions; can't fill both columns → propagation-suspect,
-    outputs hold as candidates; (2) **intent-currency re-rub** — is the banked summit/intent still
-    current, or has the known-unknown expanded past it? Refresh, not re-litigation (fires at
-    shift-points; every-turn re-rubbing = RB2 over-rub). **Pre-registered falsifier:** ~10
-    locus-disciplined clarity-events all flowing one direction → the s14 covalent reading fails
-    retroactively, the ritual demotes as theater.
-  - Count: 1 → **0. FIRST PASS COMPLETE** — baseline 7: **5 graduated** (T1-scoped · partition-amended ·
-    CE#3+locus · T2+primed-criterion · T3-retired-conscription) · **1 moot** (T4, Operator-called) ·
-    **1 closed-vindicated-amended** (T5). Condition-3 clock: debt-zero at first-pass close.
 - **2026-06-11 · `rub-forward:` RITUAL RATIFIED (Operator `Y`, TAS-disposed) — the retro-stand-down
   take-away (wet-ware primer; DISTINCT from the carry-forward ledger = different organ).** Grounded:
   deep-research `wf_f85224ec-f39` (→ `dialectic/2026-06-11-wetware-takeaway-format-research.md`,
