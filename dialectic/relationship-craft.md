@@ -965,9 +965,12 @@ cross-dyad/cross-human rubbed (L2b open). First authored instance = the 2026-05-
 **CSS's provenance-tag structure includes an OR (operator-reflect) slot, landed 2026-07-01 as CANDIDATE
 — did NOT graduate with the rest of the form, structure only, behavior unverified.** Every CSS entry already tags lines by whose conduct they're
 about: `CONTINUE (Operator-retrospected)` vs. `START/STOP (Agent, from feedback)` — the Operator-tagged
-slot is OR. Audited across all 6 CSS/Reflect-harvest instances to date: **OR has been used only in the
-credit direction** (naming a positive Operator pattern to continue) — **zero instances** exist of OR
-flagging Operator drift/incoherence, the direction the slot's own bidirectional structure would permit.
+slot is OR. Audited across all 7 CSS/Reflect-harvest instances to date (updated 2026-07-01 — the
+generation-substrate reflect entry re-checked live: no genuine drift/incoherence candidate found in this
+session's Operator conduct, but that is a **self-report**, carrying the same self-grading risk already
+named for retro-records-as-telemetry; not counted as a settled negative result): **OR has been used only
+in the credit direction** (naming a positive Operator pattern to continue) — **zero instances** exist of
+OR flagging Operator drift/incoherence, the direction the slot's own bidirectional structure would permit.
 **Falsified: CSS+OR cannot promote to `kb/` as one bundle** — `bond:kb-graduation` requires *survives
 falsification*, and an untested direction has survived nothing; bundling it with CSS's own 4x-survived
 form would let OR ride on CSS's earned status, the exact no-dogma violation ("nothing exempt") the
