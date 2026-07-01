@@ -10,6 +10,12 @@ locus: instance   # live generation substrate; session-scoped active context for
 >
 > **Signal definition (locked):** problem A perceived in O's seed · decision points A chose · principles A applied · surprising collisions where the +1 emerged.
 
+## The mechanism (locked, 2026-07-01)
+
+**O's coherence check:** wetware "does this make sense, for now?" falsifying the question. If incoherent, O asks for grounding context / explanation / falsification of O's reading / or anything else that's not a btw observation or disposition. If coherent, **land** — commit to `generation-cycles.md`.
+
+**A's consultation (active fetch):** When generating next cycle, A actively reads `generation-cycles.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned last cycle." No passive pre-load; active fetch during the work.
+
 ---
 
 ## Cycle N₁ — 2026-06-30 (s-arch): Generate edges of the O/A/S graph
