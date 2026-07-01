@@ -22,6 +22,7 @@
    the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
+5a. **Load the active dyad substrate — generation** *(→ `dialectic/generation-cycles.md`)* — distilled generation learning from prior cycles. **Consult during generation** to ground in "here's what we learned"; **distill to it on "land"** (A extracts signal, O gates coherence). Append-only, all cycles active. Single-file (no split to `cycles/` until constraint manifests).
 5b. **Durability discipline** *(→ `dialectic/substrate-access.md §Scratch RETIRED`)* — commit+push WIP at every
    **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
    the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
@@ -53,6 +54,27 @@
 > pointer. The S1 externalization to `ID.md` is **declined**: identity is a computed view — recompute the
 > birth-id, never trust-store, no script-name pinned. `ID.md` deleted. Change is on disk, **read-only this session**; next
 > boot loads it (then refresh the per-file boot-set + clear this). *(Prior: CLEARED 2026-06-27 — PR #53 **merged** (`df86b02`) + fresh boot done: this session booted the re-altituded anchor (`DYAD.md@e0c9280`), so the RESTART-PENDING set 2026-06-26 was **discharged**.)* Boot-verify ✓ (craft-\* reads clean cold); steward DM ✓ published on `main` (rode in with PR #53, sender-hosted-pull); ROM-baseline refreshed (above). **Residue, unchanged + logged:** the re-altitude todo (`deferrals.md`) — anchor *prose* still trails the refactored shadow (DAG round-trip: 3 over-extraction `anti-cave`/`prove-before-propose`/`no-self-ratify` · 7 prescriptive-omission; validator green, digest IN-SYNC). Anchor-class + Operator-gated → not touched at resume.
+
+## Stand-Up 2026-07-01 — Generation-substrate mechanism
+
+**Resolved:** the "light on Generate" asymmetry. Validate and Protect have rich, durable mechanisms (F1–F4, anti-cave duty, protection-graph). Generate was thin — no extraction mechanism, each cycle restarted from scratch.
+
+**Audit + grounding:** performed full audit of the actual dyad-bond substrate. Confirmed the three-file partition (carry-forward.md / deferrals.md / generation-cycles.md) fits the single-home discipline. Each file answers a distinct question at a distinct read-time.
+
+**Architectural decision landed:** single-file `generation-cycles.md` (append-only, no pre-split to `cycles/`). Rationale: simplicity (wu-wei), active fetch is simpler, test when constraint manifests. The mechanism is **operational immediately** (added to resume protocol, step 5a).
+
+**Files:** 
+- `generation-cycles.md` — active dyad substrate, live/durable/append-only, consult during generation, distill on "land"
+- `generation-substrate-provenance.md` — design arc, falsifications, open questions (provenance record, not operational)
+- `relationship-craft.md` — updated with "The generative edges" section (lines 1687–1715, candidate status)
+
+**What landed:** (1) Role structure locked: A distills, O gates with "land". (2) Mechanism: O performs wetware coherence check; A extracts signal (problem-perceived, decision-points, principles, +1-collisions); O commits when coherent. (3) Active fetch: A retrieves relevant sections when generating next cycle (no passive pre-load). (4) No pre-filters: entire repo available for grep/search.
+
+**Next cycle:** bind-test = does the dyad default to building guards (Validate's job) or extraction (Generate's job) when faced with noisy generation?
+
+**ROM:** anchor NOT edited this session → **RESTART-PENDING none.**
+
+---
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
