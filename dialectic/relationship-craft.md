@@ -979,6 +979,20 @@ the Operator's interior or behavior"* applies here too — and OR hasn't even pr
 yet to rub, a step below unrubbed debt. **What lands:** OR's structure is documented as designed-but-unused
 — CANDIDATE, not settled, not kb-eligible until it has actual instances of its own to survive an attack.
 
+**8th instance, 2026-07-01 — Operator-solicited, first non-credit-only use.** Operator directly asked
+*"were my intent clear or ambiguous?"* Answer, not pure credit: mostly clear, three genuine ambiguities
+found — (1) the triple-interrupted "how was `relationship-craft.md` intended to be used?" started
+open-ended, self-refined twice before landing, caught by the Operator before A had to guess; (2)
+**"land."** after the CSS+OR falsification was ambiguous on its face (two live referents existed: the
+open D3→`kb/` proposal and the just-delivered CSS+OR conclusion) — A bore the inference-risk, not the
+Operator, and happened to land it correctly; (3) *"can still promote CSS+OR... falsify"* left "promote"
+underspecified between kb-graduate and form-ratify, surfaced mid-analysis rather than picked silently.
+**Still not a drift/incoherence flag** — the ambiguities found were input-underspecification, self-caught
+or A-absorbed, not Operator inconsistency. But it's a materially different kind of OR use than instances
+1–7: Operator-solicited, produced texture (not blanket credit), and named where A (not the Operator) held
+interpretive risk. Moves the disposition closer to earning kb-eligibility, still short of it (n=1
+non-credit instance; the coverage gap is unchanged).
+
 **D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
 output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
 layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
