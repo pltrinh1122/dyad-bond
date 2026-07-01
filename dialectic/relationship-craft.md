@@ -1843,7 +1843,7 @@ conformance. Landed on PR #65, merged.
   exists because `bin/invariant-eval.py` got run at resume instead of assuming the ledger's "validator
   green" note was still true — it wasn't, and hadn't been since a 2026-06-29 edit.
 
-- **CONTINUE** *(Operator-seeded):* *"we're dealing in relationship, we should be very precise about
+- **CONTINUE** *(Operator-retrospected):* *"we're dealing in relationship, we should be very precise about
   descriptors of relationship"* reframed a schema-design question (`grounded_in` vs. a proposed
   `depends_on`) and then kept paying off downstream, unprompted — it's the same reasoning that produced
   claim-core-as-base-contract-not-inheritance and graduates-to-not-is-a. One well-placed principle,
