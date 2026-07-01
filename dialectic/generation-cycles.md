@@ -14,23 +14,9 @@ locus: instance   # live generation substrate; session-scoped active context for
 
 **O's coherence check:** wetware "does this make sense, for now?" falsifying the question. If incoherent, O asks for grounding context / explanation / falsification of O's reading / or anything else that's not a btw observation or disposition. If coherent, **land** — commit to `generation-cycles.md`.
 
-**A's consultation (active fetch):** When generating next cycle, A actively reads `generation-cycles.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned last cycle." No passive pre-load; active fetch during the work.
+**A's distillation triggers:** on Operator CTAs — "land" (commit distillation to active context) or "retro" (retrospective distillation).
 
-## Questions resolved (provenance record, 2026-07-01)
-
-1. ✅ **Complete active dyad substrate composition** — FALSIFIED. No curation layer needed. Entire repo is available; grep what's relevant when generating. No pre-defined "active substrate" manifest.
-
-2. ✅ **Relationship to kb/** — ANSWERED. Operator: "promoted context is still active dyad substrate." Cycles stay in dialectic/ indefinitely; no graduation out.
-
-3. ⏸️ **Relationship to deferrals/NBA** — DEFERRED (out-of-scope for this phase). Can be revisited if generation learning needs to feed into work-items.
-
-4. ✅ **Verify/ratify readiness** — ANSWERED. Mechanism is ready to use now. Triggered by "land" and "retro" CTAs.
-
-5. ✅ **Cross-dyad scaling** — FALSIFIED. Each dyad has their repo; no meta-architecture needed. Search/fetch happens per-dyad.
-
-6. ✅ **Selection criterion for "relevant sections"** — FALSIFIED. No pre-defined criterion. A fetches what's relevant to the generation task via grep/search.
-
-7. ✅ **Distillation frequency** — ANSWERED. A distills on Operator CTAs: "land" (commit distillation) and "retro" (retrospective distillation).
+**A's consultation (active fetch):** When generating next cycle, A actively reads `generation-cycles.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned last cycle." No passive pre-load; active fetch during the work. Entire repo available for search/grep.
 
 ---
 
