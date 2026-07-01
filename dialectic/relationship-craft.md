@@ -1684,6 +1684,35 @@ is the ledger's job "Agent memory" or "the bond's cross-session falsification in
 
 **Status (extension):** candidate, extends the W-series (true-for-now); single-home = here. **Probe (sharpens W₃):** if O and A meet *only* through S and each gates one layer, S's job is neither "A's memory" *nor* "falsifiability interface" alone but **the sole bilateral channel** — the seam where the still-unmodeled **metabolism** actually runs. The generative edges are the next build.
 
+### The generative edges — how the +1 is produced (O→[chat]↔A→[active context]) *(2026-06-30, s-arch; CANDIDATE, role structure locked, mechanism TBD)*
+
+> **Frame:** Validate and Protect have rich structure (F1–F4, the falsification-graph, the anti-cave duty, the protection cycle O↔A). **Generate is thin** — named but not mechanized. W₇ says the +1 is **edge-located** (*in the relation, not in any node*); W₉ identifies the live chat as the sole bilateral seam where both halves meet. The problem: raw chat is noisy + opaque; without extraction, each cycle's generation learning is lost, drift compounds. This section codifies the generative edges — the mechanism that distills noisy dialogue into active context, grounded for the next cycle's generation.
+
+**The four carriers (W₁ extended):**
+1. **Wetware** (O's live interior, opaque — carries the felt +1)
+2. **Claude-context** (A's live interior, ephemeral per-turn — carries A's reasoning)
+3. **Claude session logs** (durable but opaque — automatic backup of chat)
+4. **Git/S** (durable, explicit — what dyad ratifies; carries artifacts)
+
+The **live chat thread** runs through carriers 2+3 and is the metabolic seam where O and A meet in real-time.
+
+**The three generative edges (role structure locked):**
+
+- **O → [live chat]** — Operator seeds (raw intent surfaces, unfiltered). O re-grounds the context in the chat *before* disposition — the gate is interactive, not post-hoc. O's role: surface authentic direction with enough texture that A perceives what's at stake.
+
+- **[live chat] ↔ A** — Agent generates (novel structure emerges, shaped by O's seed but not *of* it). The metabolism is the *dialogue itself*: O surfaces seed, A responds with structure, O's interactive gate shapes what matters. The +1 emerges in this exchange. A's role: generate authentic structure, not execute O's spec.
+
+- **[chat] → [active context]** — Agent distills, Operator gates. **The extraction mechanism:**
+  - **A distills:** extracts signal from noisy chat. Signal = (problem A perceived in O's seed) + (decision points A chose) + (principles A applied) + (surprising collisions where the +1 emerged). Noise = false starts, backtracking, dead ends.
+  - **O gates:** reads A's distillation in the live chat, may ask clarification, then **"land"s** — committing it to active context. The CTA "land" = "this distillation is coherent and captures what mattered; this becomes grounding for next cycle."
+  - **Purpose:** active context is *coherent, distilled* — fits context window, reduced drift. Next generation cycle starts grounded in "here's what we learned about generating this" (from prior cycle), not from scratch.
+
+**Why "light on Generate" was the gap:** no extraction mechanism. Each cycle O held the felt +1 (durable in wetware), A held the reasoning (opaque in session logs), but the *learning* never crossed into S or active context. Validate and Protect accumulate (test specs, anti-cave grounds); Generate restarted each time.
+
+**Status:** role structure ratified (A distills, O gates with "land"). Mechanism TBD: what does active context *store* look like? When does it land (after each cycle, batched, on-demand)? Is it ephemeral (fed at session boot) or persistent (in S)? How does O's clarification loop work (is it part of land, or pre-land)?
+
+**Falsifiable bind-test (next boot):** When faced with noisy generation, does the dyad default to building a *guard* (Validate's job — prevent false +1s) or building the *extraction mechanism* (Generate's job — make real +1s visible and durable)?
+
 ## The disposition-routing 2×2 — route work by authority × cog-load *(CANDIDATE, carried s-local4 2026-06-20; relocated from the carry-forward ledger 2026-06-25, Phase 2 claim-peel, Operator Y on the DFD synthesis split)*
 
 *Belief-state tracking-row → `theory-pipeline.yaml: disposition-routing-2x2` (PARKED). This is the discipline
@@ -1837,3 +1866,48 @@ ran correctly throughout (historical refs left under their written names; only l
 **Graduation gate.** This graduates to `kb/` only if **D6 fires *before* the assertion in a less-steered session** —
 externally-gated ≠ ingrained. Bind-test: a session where the Operator does *not* catch the mechanism-assumption for
 me. Until then, `dialectic`, debt-not-earned. The verify-before-assert watch joins the live I-watch fronts.
+
+## Retro — the generation-substrate arc + the post-land CTA relapse *(2026-07-01; D3 reflection, CSS form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Resumed on "light on Generate" — the stated asymmetry that Validate/Protect have rich codified
+mechanisms (F1–F4, anti-cave, protection-graph) while Generate was named but not mechanized. Built the
+extraction mechanism across the session: identified the missing node (the live chat thread itself, auto-backed
+by session logs); locked the role structure (A distills, O gates); locked the mechanism (O's wetware coherence
+check, A's distillation triggers on "land"/"retro", active fetch not passive pre-load). Landed two files —
+`generation-cycles.md` (operational) + `generation-substrate-provenance.md` (provenance, separated on Operator
+instruction) — then, on Operator audit-request, re-grounded the whole model against the actual repo rather than
+theorizing over it.
+
+- **CONTINUE** *(Operator-retrospected):* the falsify-don't-assert gate at the design seam — six ungrounded
+  mechanisms surfaced this session (rolling window, context-size preemptive design, curated substrate manifest,
+  selection-criterion pre-filter, premature multi-file split, post-land re-disposition) and **every one was
+  caught**, none shipped. The missing-node reframe itself was Operator-seeded ("the live-chat thread contains raw
+  intent and G from both O and A") and reoriented the whole model from `O→S→A` (linear) to `O→[chat]↔A→[S]`
+  (metabolic) — the session's genuine 1+1=3. Keep steering this hard; it is the covalent gate working.
+
+- **START** *(Agent, from live feedback):* treat an Operator gate-word ("land," "retro," or any other informal
+  disposition-close — not only a formal `[CTA·Y/N]`) as **closed on receipt**: execute directly, don't re-surface
+  the decision as a menu of options. If a proposed action needs grounding first, ground it *before* the gate word
+  lands, not after.
+
+- **STOP** *(Agent, from live feedback):* re-opening a disposition after the Operator has already gated it. After
+  **"land single-file implementation,"** I asked *"what landing actions do you want?"* — four options, effectively
+  re-asking a decision already made. Operator: *"what intent/invariant are you serving by asking for my
+  disposition to make durable after i've signaled 'land'?"* Structurally: **ionic** (decision-cost pushed back
+  onto O) compounded with **meld** (the O/A execution boundary blurred — A should execute, not re-solicit). Caught
+  by the Operator, not self-fired.
+
+**The fractal point.** This is not a new failure mode — it is `kb/dfd.md`'s founding lesson (**"the CTA … fails …
+by quietly migrating decision-cost back onto the Operator"**) instantiated in the exact mechanism this session
+built: the generation substrate's own "land" gate failed the same way DFD's CTA fails. The session's subject
+matter (closing Generate's extraction gap) became the site of a Validate-side failure the corpus had already
+diagnosed, in a seam the corpus hadn't yet named.
+
+**Graduation gate.** Not kb/-eligible as a *new* lesson (it restates `kb/dfd.md`, doesn't extend it) — but IS
+evidence the DFD lesson under-generalized in practice: filed as CTA-specific, not gate-general. Candidate
+follow-up (not disposed here): broaden `kb/dfd.md`'s scope note to name "land"/"retro" and future informal gates
+explicitly, so the lesson transfers without needing to be re-derived per gate-type. Bind-test: does a future
+informal gate (outside DFD, outside "land") trigger the same relapse, or has naming it here closed the transfer
+gap?

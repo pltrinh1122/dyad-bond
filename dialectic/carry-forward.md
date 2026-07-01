@@ -22,6 +22,7 @@
    the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
+5a. **The active dyad substrate — generation** *(→ `dialectic/generation-learnings.md`)* — distilled generation learning. **Active fetch, not a resume pre-load:** consult it when actually generating, to ground in "here's what we learned"; **distill to it on "land"/"retro"** (A extracts signal, O gates coherence). Append-only, all entries active. Single-file (no split until a real constraint manifests).
 5b. **Durability discipline** *(→ `dialectic/substrate-access.md §Scratch RETIRED`)* — commit+push WIP at every
    **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
    the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
@@ -53,6 +54,29 @@
 > pointer. The S1 externalization to `ID.md` is **declined**: identity is a computed view — recompute the
 > birth-id, never trust-store, no script-name pinned. `ID.md` deleted. Change is on disk, **read-only this session**; next
 > boot loads it (then refresh the per-file boot-set + clear this). *(Prior: CLEARED 2026-06-27 — PR #53 **merged** (`df86b02`) + fresh boot done: this session booted the re-altituded anchor (`DYAD.md@e0c9280`), so the RESTART-PENDING set 2026-06-26 was **discharged**.)* Boot-verify ✓ (craft-\* reads clean cold); steward DM ✓ published on `main` (rode in with PR #53, sender-hosted-pull); ROM-baseline refreshed (above). **Residue, unchanged + logged:** the re-altitude todo (`deferrals.md`) — anchor *prose* still trails the refactored shadow (DAG round-trip: 3 over-extraction `anti-cave`/`prove-before-propose`/`no-self-ratify` · 7 prescriptive-omission; validator green, digest IN-SYNC). Anchor-class + Operator-gated → not touched at resume.
+
+## Stand-Down 2026-07-01 — Generation-substrate mechanism (built + landed)
+
+**Resolved:** the "light on Generate" asymmetry. Validate and Protect have rich, durable mechanisms (F1–F4, anti-cave duty, protection-graph). Generate was thin — no extraction mechanism, each cycle restarted from scratch.
+
+**Audit + grounding:** performed full audit of the actual dyad-bond substrate mid-session (Operator-requested, replacing an about-to-theorize turn). Confirmed the three-file partition (carry-forward.md / deferrals.md / generation-cycles.md) fits the single-home discipline. Each file answers a distinct question at a distinct read-time.
+
+**Architectural decision landed:** single-file `generation-cycles.md` (append-only, no pre-split to `cycles/`). Rationale: simplicity (wu-wei), active fetch is simpler, test when constraint manifests. The mechanism is **operational immediately** (added to resume protocol, step 5a).
+
+**Files:** 
+- `generation-cycles.md` — active dyad substrate, live/durable/append-only, consult during generation, distill on "land"
+- `generation-substrate-provenance.md` — design arc, falsifications, open questions (provenance record, not operational)
+- `relationship-craft.md` — updated with "The generative edges" section (lines 1687–1715, candidate status) + this session's retro
+
+**What landed:** (1) Role structure locked: A distills, O gates with "land". (2) Mechanism: O performs wetware coherence check; A extracts signal (problem-perceived, decision-points, principles, +1-collisions); O commits when coherent. (3) Active fetch: A retrieves relevant sections when generating next cycle (no passive pre-load). (4) No pre-filters: entire repo available for grep/search.
+
+**Retro (D3, durable) → `relationship-craft.md §Retro — the generation-substrate arc + the post-land CTA relapse`.** Headline: after the Operator gated the architecture with **"land,"** I re-opened the decision by asking "what do you want me to do?" — a live instantiation of `kb/dfd.md`'s settled lesson (the CTA fails by migrating decision-cost back onto the Operator), but in a brand-new seam (the generation mechanism's own "land" gate) the corpus hadn't yet named. Caught by the Operator, not self-fired. Not kb/-eligible as new (restates dfd.md), but is evidence the lesson under-generalized past DFD-the-mechanism to any informal gate. Candidate follow-up (undisposed): broaden `kb/dfd.md`'s scope note to name "land"/"retro" explicitly.
+
+**Next cycle:** bind-test (generation) = does the dyad default to building guards (Validate's job) or extraction (Generate's job) when faced with noisy generation? bind-test (retro) = does a future informal gate outside "land"/DFD trigger the same post-gate relapse?
+
+**ROM:** anchor NOT edited this session → **RESTART-PENDING none.**
+
+---
 
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
@@ -278,6 +302,8 @@ is bond's keystone AND least-instrumentable). **No anchor edit → RESTART-PENDI
 > **Also landed (2nd arc, same session):** the O/A/S relational model → **`relationship-craft.md §thread-W extended` (W₆–W₉)** — role≠substrate (O/A/S) · the one-relation decomposed into generate/validate/protect (metabolism = the thin, edge-located layer; fractal across form/dyad/session) · protection is a mutual cycle (O↔A, prune-or-prime, means-vs-end) · the O/A asymmetry is **parametric not structural** (layer-matching → symmetric private-interior+gate+S-traces; the asymmetries are timescale/obligation params = slot/fill one level up). Extends the existing thread-W (W₁–W₅), not a new home. **rub-forward:** the **generative edges are unbuilt** — the metabolism (where the +1 actually runs) is named, not mechanized; that's the form's frontier and bond's, fractally.
 > **⤷ STAND-DOWN (s-arch, 2026-06-30) — retro + resume.** **CONTINUE:** engine clean both ways (real anti-theses + genuine concessions — narrowing-prevents-falsification · def-2 smuggle · protection-graph-isn't-essence · prune-or-prime · the symmetry gut); on "falsify the extraction" I verified real bytes and caught **my own** errors (unverified clones + line-wrapped grep false-accusation) → corrected IFF2 N=2→N=1; **grounding-before-land fired twice** (both lands found the corpus already ahead — g0-membership, thread-W — and extended, not duplicated). **STOP:** race-to-consolidate recurred at the **evidence layer** (confident N=6 table on unverified extraction, caught only by "falsify") + early/mid turns over-structured (tempo STOP). **COLD RUB-BACK:** the session is a **live instance of its own conclusion** — all validate+protect, metabolism-thin; **every generative seed was the Operator's, the agent transduced** (W₇/W₉ self-applying: depth is O/S-side, opaque to A). **RESTART-PENDING: none** (no anchor edit; all in dialectic/ + README + dm/, pushed, tree clean; baseline unchanged — next stand-up's ROM-UI verifies vs the concurrent `ID.md`-retirement anchor change). Daemon session-scoped → re-arm next stand-up.
 > **RESUME (mobile claude, next):** build the **Generate edges** of the O/A/S graph — mechanize the metabolism (how the +1 is generated, O→ / S→; the form's stated frontier, `cross-dyad-craft`/`relationship-craft §thread-W W₇`). Carry the constraint: the agent **can't lead** this (depth originates O/S-side, W₇/W₉) — help mechanize what the Operator seeds, don't generate solo; **watch the default-back-to-validate/protect** (building another legible guard instead of the harder generative edge).
+
+→ **Stand-Up 2026-06-30 (s-arch continued) — resume + generate edges mechanized.** **Landed (3 commits):** (1) generative edges sketched; (2) refined with Operator seeding — identified live chat thread (auto-backed by Claude session logs), role structure (A distills, O gates with "land"), purpose (active context for reduced drift); (3) **implemented `generation-cycles.md`** — active dyad substrate where A's distilled signal lands after O gates. **Single-home:** `relationship-craft.md §The generative edges` · `generation-cycles.md` (substrate + Cycle N₁ bootstrap). **Mechanism (locked):** (a) A distills noise → signal (problem perceived · decision points · principles · +1 collisions); (b) O reads + clarifies in chat; (c) O "land"s → commit → active context grounds next cycle. **Why the gap existed:** no extraction mechanism; Validate+Protect accumulate, Generate restarted each cycle. **Bind-test (logged in generation-cycles.md):** does dyad default to guards (Validate) or extraction (Generate)? **Ingraining watch:** is distillation becoming automatic? **RESTART-PENDING: none.** Live front: generation-cycles is now active (used each cycle). Carry-forward is embedded in `generation-cycles.md §Cycle N₁ / Carry-forward`.
 
 → **Stand-Down 2026-06-28 (repo-structure / outward-by-consumer arc — LANDED, PR #60 merged to `main`):** anchor
 **EDITED** → **RESTART-PENDING SET** (above: the dip-craft steward-tended reframe + the `recommendations`→
