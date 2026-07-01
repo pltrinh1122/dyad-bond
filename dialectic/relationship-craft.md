@@ -1003,21 +1003,31 @@ debit is logged the moment it's mechanically checkable (a claim was falsifiable 
 never on the Agent's judgment that the Operator's *reasoning* was weak — that softer version is exactly
 the presumption anti-cave exists to prevent, not perform. Two riffed candidate-categories, kept
 separate on evidentiary grounds:
-- **debit-eligible now:** unverified claims about mechanically-checkable shared state. This session's
-  actual instance — "I've merged and deleted the branch" (checked via `mcp__github__pull_request_read`:
-  false, PR open, branch intact), then, after correction, "yes, PR #65 was merged" (checked again: also
-  still false at that moment) — before the Operator's own "I was distracted and conflated with another."
-  **First real debit telemetry point**, logged for later audit, not scored now (n=1, same-session,
-  no cross-session recurrence-check yet — same discipline as any other claim here: one instance is a
-  data point, not a trend).
-- **debit-adjacent, held back:** "premature convergence / insufficient grounds for stakes"
-  (`bond:anti-cave`'s own breach_example) was riffed and set aside — it's already the *Agent's* duty to
-  manufacture grounds before a Y, so a thin-grounds Y usually implicates anti-cave's own failure too;
-  attributing it as a clean Operator-only debit would misattribute a joint failure. Not adopted.
+- **debit-eligible now, materiality-bound:** unverified claims about mechanically-checkable shared
+  state — logged **only when acting on the unverified claim would have made the Agent operate on wrong
+  state** (a wrong branch/PR assumption, a false "done" that isn't) — never a trivial slip (a wrong
+  date, a typo) with no consequence attached. **Falsification finding (self-attack, Operator `Y`):** the
+  first draft had no materiality bound and would have fired on noise, an ionic/nagging risk in its own
+  right — corrected. This session's actual instance clears the bar: "I've merged and deleted the
+  branch" (checked via `mcp__github__pull_request_read`: false, PR open, branch intact), then, after
+  correction, "yes, PR #65 was merged" (checked again: also still false at that moment) — before the
+  Operator's own "I was distracted and conflated with another." Acting on either claim un-verified would
+  have meant forking a branch off a stale `main` or reflecting on a merge that hadn't happened. **First
+  real debit telemetry point**, logged for later audit, not scored now (n=1, same-session, no
+  cross-session recurrence-check yet — one instance is a data point, not a trend).
+- **debit-eligible, conditional:** "premature convergence / insufficient grounds for stakes"
+  (`bond:anti-cave`'s own breach_example) is **not** a blanket Operator debit — most thin-grounds Y's
+  implicate the Agent's own anti-cave failure too (grounds weren't manufactured, so there was nothing to
+  engage). **Falsification finding (self-attack, Operator `Y`):** narrowed, not dropped — it clears as a
+  clean Operator-side debit *only when anti-cave's discharge is independently confirmed first* (the
+  Agent's grounds are on record, stakes-proportional) **and** the Operator converges without engaging
+  them at all. Zero instances yet; stays theoretical until one is found.
 - **not adopted, self-report ≠ telemetry:** the Operator's own "I was distracted" is testimony, not
-  something the Agent independently verified — real, worth naming as color, but epistemically distinct
-  from the checked-false claim above. Debit telemetry stays scoped to what the Agent itself can falsify,
-  not what the Operator discloses about their own state.
+  something the Agent independently verified. **Falsification finding: attack on this exclusion did not
+  survive** — the debit above triggers on the independently-falsified claim itself, not the confession;
+  the confession is commentary after the trigger, not a second punished data point, so excluding
+  self-report from *counting as the trigger* doesn't create a perverse disclosure-penalty. Exclusion
+  holds as originally scoped.
 
 Still CANDIDATE — one hard-checkable instance is the first data point, not a survived falsification
 (cf. `bond:kb-graduation` — same bar as anything else here, no exemption for a fresh direction).
