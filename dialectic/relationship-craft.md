@@ -963,6 +963,20 @@ durability, minus the four-step ratification ceremony.* **Lightweight ≠ less s
 ratify-loop, keeps the CSS content. (The "lightweight vs full" mis-cut is dissolved: the real knob is
 *ratify+persist — yes/no*, never *how much substance*.)
 
+**CSS's provenance-tag structure includes an OR (operator-reflect) slot, landed 2026-07-01 as CANDIDATE
+— structure only, behavior unverified.** Every CSS entry already tags lines by whose conduct they're
+about: `CONTINUE (Operator-retrospected)` vs. `START/STOP (Agent, from feedback)` — the Operator-tagged
+slot is OR. Audited across all 6 CSS/Reflect-harvest instances to date: **OR has been used only in the
+credit direction** (naming a positive Operator pattern to continue) — **zero instances** exist of OR
+flagging Operator drift/incoherence, the direction the slot's own bidirectional structure would permit.
+**Falsified: CSS+OR cannot promote to `kb/` as one bundle** — `bond:kb-graduation` requires *survives
+falsification*, and an untested direction has survived nothing; bundling it with CSS's own 4x-survived
+form would let OR ride on CSS's earned status, the exact no-dogma violation ("nothing exempt") the
+falsification law exists to block. The operator-rub-invariant's own gate for *"findings whose evidence is
+the Operator's interior or behavior"* applies here too — and OR hasn't even produced a findable instance
+yet to rub, a step below unrubbed debt. **What lands:** OR's structure is documented as designed-but-unused
+— CANDIDATE, not settled, not kb-eligible until it has actual instances of its own to survive an attack.
+
 **D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
 output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
 layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
