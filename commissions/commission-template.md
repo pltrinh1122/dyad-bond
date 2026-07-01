@@ -17,6 +17,15 @@
 > - **Generative** — contract specifies *acceptance*, leaves the *solution* to the builder's G;
 >   full-spec here is an **anti-pattern** — it collapses the builder to a compiler.
 >
+> **Before you commit Part A** (new file or edit): `python3 bin/commission-lint.py <file>` — FORM
+> only, catches the shape-gaps a re-read misses (it caught the dyad-system-engine spec's own missing
+> `Commission-type` line, live for two turns before anyone reread it). **This reminder is a known-weak
+> mechanism** (`dialectic/ingraining.md`: capture ≠ behavior) — it depends on this file actually being
+> reread at authoring time, not on anyone recalling it from a past session. The reliable fix is a
+> `PostToolUse` hook on `Write|Edit` matching `commissions/*.md`; that requires Operator install
+> (`bin/install_hooks.py`'s own boundary — an Agent wiring its own automated behavior is the thing
+> S2 guards), so it isn't wired yet. Treat this line as the fallback, not the fix.
+>
 > Two artifacts come out of this template: **Part A (the spec, lives in `commissions/`)** and
 > **Part B (the solicitation DM, lives in `dm/<builder>/`, pinned to the spec's exact commit+blob)**.
 > Part B is drafted alongside Part A but **dispatch is the Operator's act**, never the Agent's to
