@@ -4,7 +4,7 @@ locus: dialectic   # provenance record for generation-substrate mechanism; not o
 
 # generation-substrate-provenance — how we arrived at the mechanism
 
-> **Provenance record.** This file documents the questions asked, falsifications, and reasoning that shaped the generation-cycles mechanism. Not operational (see `generation-cycles.md` for that); kept for understanding *why* the mechanism is the way it is. Important for future G that needs to understand the design decisions.
+> **Provenance record.** This file documents the questions asked, falsifications, and reasoning that shaped the generation-learnings mechanism. Not operational (see `generation-learnings.md` for that); kept for understanding *why* the mechanism is the way it is. Important for future G that needs to understand the design decisions.
 
 ---
 
@@ -69,7 +69,7 @@ locus: dialectic   # provenance record for generation-substrate mechanism; not o
 - A distills on "land"/"retro" CTAs
 - O coherence-checks (wetware "does this make sense, for now?")
 - O clarifies if needed (grounding / explanation / falsification)
-- A commits to generation-cycles.md
+- A commits to generation-learnings.md
 - A fetches from repo (grep/search) when generating next cycle
 
 **Wu-wei applied:** no rolling window, no curation layer, no pre-filters, no meta-architecture. Just: mechanism is ready, use it.

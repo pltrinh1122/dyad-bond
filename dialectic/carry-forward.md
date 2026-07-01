@@ -22,7 +22,7 @@
    the ingraining-watch). Presentation is **chat-pull**: render the relevant slice on demand, NO maintained markdown
    dashboard; full dump via the deferred `report.py` only on an actual "show me the whole dashboard" ask.
    Each candidate's largest **typed gap = its next probe** = a feed into the NBA.
-5a. **Load the active dyad substrate — generation** *(→ `dialectic/generation-cycles.md`)* — distilled generation learning from prior cycles. **Consult during generation** to ground in "here's what we learned"; **distill to it on "land"** (A extracts signal, O gates coherence). Append-only, all cycles active. Single-file (no split to `cycles/` until constraint manifests).
+5a. **The active dyad substrate — generation** *(→ `dialectic/generation-learnings.md`)* — distilled generation learning. **Active fetch, not a resume pre-load:** consult it when actually generating, to ground in "here's what we learned"; **distill to it on "land"/"retro"** (A extracts signal, O gates coherence). Append-only, all entries active. Single-file (no split until a real constraint manifests).
 5b. **Durability discipline** *(→ `dialectic/substrate-access.md §Scratch RETIRED`)* — commit+push WIP at every
    **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
    the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
