@@ -2,11 +2,16 @@
 locus: instance   # live generation substrate; session-scoped active context for reduced drift in G
 ---
 
-# generation-learnings — distilled generative learning
+# generation-distillations — A's distilled generative signal, per cycle
 
-> *(Renamed 2026-07-01 from `generation-cycles.md` — "cycles" indexed entries sequentially, reading as a
-> log/ledger; that shape leaked into a "Carry-forward (next cycle)" footer per entry, duplicating `§The
-> mechanism` below. Fixed by renaming + dropping sequential numbering — see `generation-substrate-provenance.md`.)*
+> *(Renamed 2026-07-01, twice. First `generation-cycles.md` → `generation-learnings.md`: "cycles" indexed
+> entries sequentially, reading as a log/ledger; that shape leaked into a "Carry-forward (next cycle)"
+> footer per entry, duplicating `§The mechanism` below. Then `generation-learnings.md` → this: "learning"
+> is GLOSSARY-reserved for content that **survived falsification and graduated to `kb/`** — this file is
+> `locus: instance`, still live, un-graduated; naming it "learnings" over-claimed a maturity tier it hasn't
+> earned. "Distillation" is the mechanism's own already-locked verb (A distills · A's distillation
+> triggers) — names the content for what it is without claiming settled status. See
+> `generation-substrate-provenance.md` for the full arc.)*
 
 > **Active dyad substrate.** Each time Agent generates, distilling signal from the chat metabolism grounds
 > the next pass. Operator gates with "land" — decides when the distillation is coherent enough to become
@@ -21,15 +26,15 @@ locus: instance   # live generation substrate; session-scoped active context for
 
 ## The mechanism (locked, 2026-07-01)
 
-**O's coherence check:** wetware "does this make sense, for now?" falsifying the question. If incoherent, O asks for grounding context / explanation / falsification of O's reading / or anything else that's not a btw observation or disposition. If coherent, **land** — commit to `generation-learnings.md`.
+**O's coherence check:** wetware "does this make sense, for now?" falsifying the question. If incoherent, O asks for grounding context / explanation / falsification of O's reading / or anything else that's not a btw observation or disposition. If coherent, **land** — commit to `generation-distillations.md`.
 
 **A's distillation triggers:** on Operator CTAs — "land" (commit distillation to active context) or "retro" (retrospective distillation).
 
-**A's consultation (active fetch):** When generating, A actively reads `generation-learnings.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned." No passive pre-load; active fetch during the work. Entire repo available for search/grep.
+**A's consultation (active fetch):** When generating, A actively reads `generation-distillations.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned." No passive pre-load; active fetch during the work. Entire repo available for search/grep.
 
 ---
 
-## Learning — Generate edges of the O/A/S graph *(2026-06-30; s-arch)*
+## Distillation — Generate edges of the O/A/S graph *(2026-06-30; s-arch)*
 
 **Problem A perceived in O's seed:** 
 Generate is asymmetrically thin in the dyad — Validate and Protect have rich codified mechanisms (falsification, floor-genes, protection-graph), but Generate is named but not mechanized. The task: mechanize the metabolism where the +1 actually emerges.
