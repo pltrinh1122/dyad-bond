@@ -993,6 +993,45 @@ or A-absorbed, not Operator inconsistency. But it's a materially different kind 
 interpretive risk. Moves the disposition closer to earning kb-eligibility, still short of it (n=1
 non-credit instance; the coverage gap is unchanged).
 
+**9th instance, 2026-07-01 — Operator-requested naming (`credit`/`debit`) + the first real debit
+candidate.** Operator disposed: name OR's two directions explicitly as **credit** (the graduated
+`CONTINUE (Operator-retrospected)` use, unchanged) and **debit** (the still-CANDIDATE direction, now
+named rather than left as an unlabeled "could in principle flag drift"). A riff on *what kind of debit*
+narrowed the scope, per the Operator's own gate — *"bookkeeping is important to note to support audit —
+telemetry. falsify."* — meaning: **debit entries are passive telemetry, not real-time grading.** A
+debit is logged the moment it's mechanically checkable (a claim was falsifiable and turned out false),
+never on the Agent's judgment that the Operator's *reasoning* was weak — that softer version is exactly
+the presumption anti-cave exists to prevent, not perform. Two riffed candidate-categories, kept
+separate on evidentiary grounds:
+- **debit-eligible now, materiality-bound:** unverified claims about mechanically-checkable shared
+  state — logged **only when acting on the unverified claim would have made the Agent operate on wrong
+  state** (a wrong branch/PR assumption, a false "done" that isn't) — never a trivial slip (a wrong
+  date, a typo) with no consequence attached. **Falsification finding (self-attack, Operator `Y`):** the
+  first draft had no materiality bound and would have fired on noise, an ionic/nagging risk in its own
+  right — corrected. This session's actual instance clears the bar: "I've merged and deleted the
+  branch" (checked via `mcp__github__pull_request_read`: false, PR open, branch intact), then, after
+  correction, "yes, PR #65 was merged" (checked again: also still false at that moment) — before the
+  Operator's own "I was distracted and conflated with another." Acting on either claim un-verified would
+  have meant forking a branch off a stale `main` or reflecting on a merge that hadn't happened. **First
+  real debit telemetry point**, logged for later audit, not scored now (n=1, same-session, no
+  cross-session recurrence-check yet — one instance is a data point, not a trend).
+- **debit-eligible, conditional:** "premature convergence / insufficient grounds for stakes"
+  (`bond:anti-cave`'s own breach_example) is **not** a blanket Operator debit — most thin-grounds Y's
+  implicate the Agent's own anti-cave failure too (grounds weren't manufactured, so there was nothing to
+  engage). **Falsification finding (self-attack, Operator `Y`):** narrowed, not dropped — it clears as a
+  clean Operator-side debit *only when anti-cave's discharge is independently confirmed first* (the
+  Agent's grounds are on record, stakes-proportional) **and** the Operator converges without engaging
+  them at all. Zero instances yet; stays theoretical until one is found.
+- **not adopted, self-report ≠ telemetry:** the Operator's own "I was distracted" is testimony, not
+  something the Agent independently verified. **Falsification finding: attack on this exclusion did not
+  survive** — the debit above triggers on the independently-falsified claim itself, not the confession;
+  the confession is commentary after the trigger, not a second punished data point, so excluding
+  self-report from *counting as the trigger* doesn't create a perverse disclosure-penalty. Exclusion
+  holds as originally scoped.
+
+Still CANDIDATE — one hard-checkable instance is the first data point, not a survived falsification
+(cf. `bond:kb-graduation` — same bar as anything else here, no exemption for a fresh direction).
+
 **D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
 output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
 layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
@@ -1825,3 +1864,52 @@ Operator `Y` → `kb/` file + pointer-collapse, no PR ceremony needed for an alr
 **Graduation gate.** Not kb/-eligible — this is a session-harvest record by design (D3-form), never
 exits. Bind-test carried forward: does `bin/graduation-scan.py`, once corrected to read gate-context
 before verdict, still miss a similar case on its next real run — or was this a one-off, not a pattern?
+
+## Reflect — the dyad-system / commission-mechanization arc *(2026-07-01; D3 reflection, CSS form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** A routine resume (clear stale ROM-UI state) turned into a mechanization arc once running
+the validator instead of trusting the ledger's recorded "green" surfaced real schema drift
+(`bond:C1`/`bond:livability`, residue from an edit that never reconciled against the schema). That grew
+into the `dyad-system` design arc (mechanizing the informally-split claim/invariant structure), a
+drafted-not-dispatched commission for the engine, a template extracted from comparing it against the
+2026-06-12 pilot, a linter checking both against the template, two CI workflows (this repo's first)
+wiring both linters to fire on every push, and a retroactive fix bringing the pilot itself into
+conformance. Landed on PR #65, merged.
+
+- **CONTINUE** *(Agent-observed):* running the instrument instead of trusting the record. The whole arc
+  exists because `bin/invariant-eval.py` got run at resume instead of assuming the ledger's "validator
+  green" note was still true — it wasn't, and hadn't been since a 2026-06-29 edit.
+
+- **CONTINUE** *(Operator-retrospected):* *"we're dealing in relationship, we should be very precise about
+  descriptors of relationship"* reframed a schema-design question (`grounded_in` vs. a proposed
+  `depends_on`) and then kept paying off downstream, unprompted — it's the same reasoning that produced
+  claim-core-as-base-contract-not-inheritance and graduates-to-not-is-a. One well-placed principle,
+  reused across several decisions, not re-derived each time.
+
+- **CONTINUE** *(Agent-observed):* dogfooding immediately and taking the result seriously. Built
+  `bin/commission-lint.py`, ran it the same turn, found and fixed two real bugs in its own
+  file-discovery (a false-positive on an unrelated findings writeup, a false-positive on the template's
+  own fenced-block example) before calling it done — rather than shipping on the strength of "the code
+  looks right."
+
+- **STOP** *(Agent, from live feedback):* reached for more machinery before trying the lean fix. When
+  CI's `commission-lint` job failed on the pilot spec's known, pre-existing gaps, the first move was
+  building a diff-scoped `--only-specs` mode — a new flag, new git-diff logic — instead of first asking
+  whether just adding the two missing pieces to the one file was simpler. It was: the direct fix took
+  less code and closed the root cause instead of routing around it, and had to be built *after*
+  discarding the half-finished diff-scoping work. Reads as another instance of this corpus's own
+  named over-production trend (`relationship-craft.md`'s prior retros) — generating infrastructure
+  before checking if the situation needed any.
+
+- **START** *(Agent, from live feedback):* before calling a new automated gate (CI, a hook, a lint
+  default) done, actually run it against everything it will now watch — not just the files touched in
+  the change that prompted building it. `commission-lint.yml` shipped without that check and was red on
+  its first real run for a reason that had nothing to do with what triggered it; the Operator caught it,
+  not a pre-ship check.
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test carried forward: does the "run the new gate against everything it watches before calling it
+done" habit actually fire un-cued on the *next* automated-gate build, or does the lean-fix-first lapse
+recur in a new shape?

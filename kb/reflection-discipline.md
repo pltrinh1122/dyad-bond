@@ -2,7 +2,7 @@
 locus: phenotype   # settled craft — kb-with-caveat (survives, not settled — see Coverage below). Key → MAP.md.
 ---
 
-# Reflection Discipline (D3) — the CSS retro form
+# Reflection Discipline (D3) — the CSS+OR retro form
 
 *Settled knowledge, kb-with-caveat. Authored `dialectic/relationship-craft.md §Bond disciplines` (D3),
 2026-05-31 — this file holds the graduated form; the dialectic entry collapses to a pointer here.*
@@ -14,10 +14,15 @@ Keep the inherited **function** (close a learning loop durably; survive session-
 substance: it drops the ratify-loop, keeps the CSS content. The real knob is *ratify+persist —
 yes/no*, never *how much substance*.
 
-## The form — CSS (Continue / Start / Stop)
+## The form — CSS+OR (Continue / Start / Stop, + the Operator-Reflect provenance tag)
 
-Each entry tags lines by provenance — whose conduct/observation it credits:
-- **CONTINUE** *(Operator-retrospected or Agent-observed)* — a pattern worth keeping
+Each entry tags lines by provenance — whose conduct/observation it credits. **OR (Operator-Reflect)**
+is not a fourth entry-type alongside CONTINUE/START/STOP — it's the provenance tag a CONTINUE carries
+when the credit goes to the *Operator's* own conduct, not the Agent's. Named in the header, not just
+the bullet below, because it was already-graduated content that kept getting skipped/mislabeled when
+it wasn't visible at a glance (renamed 2026-07-01, Operator Y, after a live miss — see
+`relationship-craft.md`'s dyad-system retro):
+- **CONTINUE** *(Operator-retrospected — the OR tag — or Agent-observed)* — a pattern worth keeping
 - **START** *(Agent, from live feedback)* — a commitment going forward
 - **STOP** *(Agent, from live feedback)* — a failure to name and correct
 
@@ -37,12 +42,12 @@ cross-dyad or cross-human attack has ever tested this form. Per `theory-pipeline
 `graduation_rule`, an "outside" claim without an L2b (cross-human) rub caps at `survives`, not
 `settled`. This file graduates as **kb-with-caveat**, not full-settled — cite accordingly.
 
-**Known open gap in the form's own structure (not new, structural):** CSS's provenance-tag structure
-includes an OR (operator-reflect) slot — `CONTINUE (Operator-retrospected)` — that could in principle
-flag Operator drift/incoherence, not just credit. Audited across all 4 CSS instances + the 2 earlier
-`Reflect-harvest` precursors: OR has only ever been used in the credit direction. **This gap did NOT
-graduate with the rest of the form** — it stays in `dialectic/relationship-craft.md §D3` as
-`CANDIDATE`, since it has zero survived instances of its own. See there.
+**Known open gap in the form's own structure (not new, structural):** the OR (Operator-Reflect) tag —
+`CONTINUE (Operator-retrospected)` — could in principle flag Operator drift/incoherence, not just
+credit. Audited across all 4 CSS instances + the 2 earlier `Reflect-harvest` precursors: OR has only
+ever been used in the credit direction. **This gap did NOT graduate with the rest of the form** — it
+stays in `dialectic/relationship-craft.md §D3` as `CANDIDATE`, since it has zero survived instances of
+its own. See there.
 
 ## Forward
 
