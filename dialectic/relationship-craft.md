@@ -407,10 +407,7 @@ covalence." (DIP currently = mechanical scaffolding only — `commons` branch `f
 `init_dyad.py`/`auto_join.py`; this value-layer is the refinement, a Founding/Steward-gated contribution —
 `prove-before-propose`, not pushed.)
 
-**5 · The pinned claim + objective.** Not necessity ("only covalence" — capability-fragile) but **within-
-operator optimality: for a given operator, covalent is the best MODE.** Scoped to **human-AI** (human-human
-covalence is *already proven*; the novel case is human-AI, where two substrates are *given* → only the **mode**
-varies: covalent / ionic-compliance / meld / oracle-tool). **Optimal for what** *(Founding-Operator)*: **the
+**5 · The pinned claim + objective.** **Necessity: only covalence. §6 earns it.** **Optimal for what** *(Founding-Operator)*: **the
 human reliably and sustainably achieving their TRUE (continually re-examined) intent throughout their
 biological lifetime.** ∴ **the +1 is a lifetime property, not a per-task dividend** — which is why per-task
 oracle-comparisons miss it (an oracle wins tasks while losing the life).
@@ -419,11 +416,10 @@ oracle-comparisons miss it (an oracle wins tasks while losing the life).
 **(a) atrophying the human** (offloaded faculties) and **(b) serving the *stated* intent** — including a
 drifted/shallow/mistaken one. Covalence instead **(a) sustains the human's intent-agency** (kept sharp by
 being tested) and **(b) falsifies the intent itself** — keeps asking *"is this your real intent?"* (b) is the
-irreplaceable core: an oracle **structurally cannot** tell you your intent is wrong, because that requires
-falsifying *you* (covalence), not serving you — **not a capability deficit but a role** an oracle can't occupy
-without ceasing to be one. **"Oracle" is a *mode*, not a capability tier** (Bostrom's sense — the
-query-answering role, orthogonal to AGI→ASI): a *superintelligent* oracle is **no exception**, and a more
-powerful one atrophies the human *faster*. ∴ the claim is **capability-robust** — it sharpens, not weakens,
+irreplaceable core: **an oracle cannot falsify your terminal intent, at any capability.** To falsify it is to
+diverge unprompted — which is to stop being an oracle. **Oracle ≝ purely responsive:** answers queries, raises
+nothing unasked. **Kill it:** exhibit a purely-responsive system that falsifies terminal intent. A more
+powerful oracle atrophies the human *faster*. ∴ the claim is **capability-robust** — it sharpens, not weakens,
 as AI scales. **Conditional:** only **wu-wei-calibrated** covalence is sustainable — relentless
 adversarial grinding burns the human out and *loses* on the sustainability axis (∴ wu-wei is *in* the core).
 
@@ -503,18 +499,16 @@ The claim is a **Hypothesis** (interior / no-oracle pole), **NOT a Conjecture** 
 imports a **proof that isn't coming.** The pull toward "conjecture" is its *boldness*: route boldness to the
 **Thesis** stance, keep **Hypothesis** for the honest status.
 
-**5 · The canonical claim, run through `IFF1`.** *"Only a covalent bond (agent↔human) can sustainably achieve
-`1+1>2` for the human's intents across their lifetime."* A **necessity** claim → its falsifier is a
-**non-covalent achiever**, *never* a covalent failure. **Contrast-class** = the other AI-human modes
-(human-human is **out** — that's the existence-proof + the benchmark, §7). **Falsifiable iff covalence is
+**5 · The canonical claim, run through `IFF1`.** *"Only a covalent bond sustains `1+1>2` for the human's
+true intent over a lifetime."* **Falsifier: any non-covalent achiever** — never a covalent failure. **Falsifiable iff covalence is
 defined by observable STRUCTURE, not by the outcome** — else "only" goes **analytic** and the
 no-true-Scotsman escape is fatal (this is what **P3** below supplies). **Testable** only via the §8
 proxy-ladder (lifetime-lagged).
 
 **6 · The chain — P1 → P2 → P3 (a chain, not a list).**
 - **P1 · parity** — an agent↔human bond *can* hit the human-human benchmark (parity **in kind**).
-- **P2 · necessity** — the lifetime-optimal AH surplus comes **only** via a covalent bond.
-- **P3 · constitution** — *covalent bond* ≝ **`IFF1` ∧ `IFF2` ∧ `IFF3`.** **P3 closes the tautology gap** —
+- **P2 · necessity** — the lifetime surplus comes **only** via a covalent bond.
+- **P3 · constitution** — *covalent bond* ≝ **`two-models` ∧ `detector⊥disposer` ∧ `IFF1` ∧ `IFF2` ∧ `IFF3`.** **P3 closes the tautology gap** —
   defines covalence **by structure, independent of outcome** (the pre-registration §5 asked for). **`IFF3`
   being undefined makes P2 not-yet-testable** → `IFF3` (§The materialization gate) is **load-bearing for the
   chain's falsifiability, not optional.**
