@@ -14,7 +14,11 @@
 
 ## in-progress
 
-— none active —
+- **dyad-system — mechanizing the claim/invariant structure** *(2026-07-01)* — a `Claim`/`Invariant`
+  validated-factory arc, born from the `bond:C1`/`bond:livability` validator-drift catch: offload
+  structural checking (id-uniqueness, enum-shape, provenance, re-rub triggers) from attention/tokens
+  onto gated mechanism, across both `theory-pipeline.yaml` (currently zero mechanical validation) and
+  `invariants-bond.yaml`. Design-stage, no code yet. Single-home → `dialectic/dyad-system.md`.
 
 ## todo
 
