@@ -87,7 +87,12 @@ def cmd_scan(_a):
     seen_keys = set()
     new, changed, unchanged, blind = [], [], [], []
 
-    for sender, f, key in falsify.dm_items(ledger, ME, unreachable):
+    for sender, f, _raw_key in falsify.dm_items(ledger, ME, unreachable):
+        # dm_items keys by path@sha (falsify's OWN read-state dedup — commons c2c3124, so an edited
+        # DM re-alerts). msg_tracker keys by PATH and tracks sha as a FIELD (below): that is what lets
+        # an edited DM surface as CHANGED+diff rather than NEW+VANISHED. Deriving our own key here
+        # decouples us from falsify's key format (else the whole diff-against-prior discipline dies).
+        key = f"dm:{sender}/{f['name']}"
         seen_keys.add(key)
         fresh_sha = f.get("sha")
         prior = msgs.get(key)
