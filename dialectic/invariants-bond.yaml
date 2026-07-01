@@ -166,6 +166,7 @@ invariants:
     root: false
     grounded_in:
       - {ref: "bond:craft-telos", edge: serves, scar: "inherit faithfully — tenet, SPAOR, mechanism catalog, vocabulary"}
+      - {ref: "bond:C1", edge: serves, scar: "IFF2 — no-oracle (external separator): form-grounding defines the boundary that creates separation (inside dyad / outside world); named falsifiers and durability depend on this boundary existing — moved here from C1's own (schema-illegal, root:true) grounded_in block, matching the reverse-edge pattern two-models/anti-cave/livability already use"}
     scope: {actor: both, trigger: candidate-admission}
     prescription: {action: inherit, object: "the form's G0, unmodified", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "redefining an inherited G0 term locally"}
@@ -240,9 +241,13 @@ invariants:
     one_liner: "The falsification process is livable — minimum necessary force, no grinding, no ornament — the least resistance among intent-aligned paths."
     output_quote: "IFF3: is the falsification process livable? ... wu-wei ... least resistance among the intent-aligned paths"
     status: ratified
-    form: principle
+    form: tuple    # was 'principle' — not on the form-ladder (slogan/tuple/mathematical is a precision
+                   # gradient, not a category list); this is the same action/object/modality shape as
+                   # the sibling G0 enablers (two-models, anti-cave), so tuple is the correct rung.
     settlement: settled
-    re_rub_triggers: [breach-evidence, performance-degradation]
+    re_rub_triggers: [breach-evidence]   # dropped 'performance-degradation' — not in the closed vocab;
+                                          # breach-evidence already covers a livability failure (grinding/
+                                          # forced/ornamental process is itself the breach-evidence)
     root: false
     grounded_in:
       - {ref: "bond:C1", edge: serves, scar: "livability (IFF3) is part of what makes covalence possible — a grinding, forced process violates IFF3, meaning the bond cannot be covalent; keeps the bond sustainable"}
