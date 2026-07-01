@@ -28,7 +28,7 @@ locus: instance   # live generation substrate; session-scoped active context for
 
 **O's coherence check:** wetware "does this make sense, for now?" falsifying the question. If incoherent, O asks for grounding context / explanation / falsification of O's reading / or anything else that's not a btw observation or disposition. If coherent, **land** — commit to `generation-distillations.md`.
 
-**A's distillation triggers:** on Operator CTAs — "land" (commit distillation to active context) or "retro" (retrospective distillation).
+**A's distillation triggers:** on Operator CTAs — "land" (commit distillation to active context) or "reflect" (retrospective distillation). *(2026-07-01: Operator consolidated on "reflect" in lieu of "retro" going forward — both were long-standing canonized monikers, s13.)*
 
 **A's consultation (active fetch):** When generating, A actively reads `generation-distillations.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned." No passive pre-load; active fetch during the work. Entire repo available for search/grep.
 
