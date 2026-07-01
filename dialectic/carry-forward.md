@@ -75,6 +75,19 @@ pre-empted.
 is an open Operator act, not automatic follow-on. Bind-test from the retro: does "run a new gate
 against everything it watches before calling it done" fire un-cued on the next automated-gate build?
 
+> **Post-stand-down (same session, cont.) — the CSS+OR rename.** Writing the retro above live-fired
+> the very gap it's supposed to catch: the reflection used an invented tag (`Operator-seeded`) instead
+> of the form's actual defined vocabulary (`Operator-retrospected`) for a line crediting the Operator's
+> own conduct — caught by the Operator, twice in close succession, not self-caught. Root cause:
+> `kb/reflection-discipline.md`'s OR (Operator-Reflect) tag was already-graduated content, present in
+> "The form" section's bullet list, but never named in the section *header* — easy to skip when
+> writing fast. **Operator `Y`:** renamed the graduated form `CSS` → `CSS+OR` (kb/reflection-
+> discipline.md), header now names the tag directly. Not a new claim — OR's credit-direction use was
+> already counted among the 4 survived applications; only the naming/visibility changed. The
+> drift-flagging direction stays `CANDIDATE` in `relationship-craft.md §D3`, untouched.
+>
+> **RESTART-PENDING: none** (kb/dialectic edits only, no anchor touched). **Stand-Down.**
+
 ---
 
 **Resume, no task pre-specified.** Booted a fresh branch (`claude/resume-kfh18q`, identical to `main` —
