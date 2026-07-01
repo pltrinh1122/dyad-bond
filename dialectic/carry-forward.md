@@ -27,33 +27,69 @@
    **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
    the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
    thread-until-land; durability-of-record is this auto-save, not a separate store. Reloaded here so it ingrains.)*
+5c. **Commissioning** *(→ `commissions/commission-template.md`)* — active fetch, not a resume pre-load: a
+   Operator "commission:" cue starts there, not from a blank page (spec + paired solicitation-DM skeleton,
+   `TERMS.md`'s TS-1..6 discipline). **Gate before any commit:** `python3 bin/commission-lint.py <file>`
+   (FORM-only; catches template-shape gaps a re-read misses — see `commission-template.md`'s own note on
+   why this reminder alone is known-weak). Reloaded here on the same theory that makes "resume" itself
+   work: the word only routes correctly because *something reliably read* names what it means — this line
+   is that pointer for "commission," `carry-forward.md §How to resume` already being the one for "resume."
 6. **Arm the IM daemon** *(→ `dialectic/im-daemon.md` — has the EXACT hardened command; arm it **verbatim**,
    don't re-derive — the naive version was falsified)* — a session-scoped **persistent `Monitor`** over
    `falsify.py inbox --me dyad-bond`: emit-on-rise (new mail) + **gh-health-gated** blind alert. Session-
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@e0c9280` — the **craft-\* /
-> G0-fold refactor** (PR #53 merged `df86b02`): the two roots renamed `craft-telos` + `craft-value`/`craft-invariant`,
-> DNA retired into G0, Belief relocated as `bond:C1`'s grounding. **Boot-VERIFIED 2026-06-27** (this session
-> *is* the cold ROM-boot = the owed E0 test; the two-root DAG read coherent at boot). Update this line whenever
-> `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@585f2ba`, PR #48, 2026-06-25. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-06-27):** `CLAUDE.md@7c60c3b` · `GEMINI.md@2d0104a` · `DYAD.md@e0c9280` — IN-SYNC (shims untouched by PR #53; only `DYAD.md` moved). **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the single-sha line above is the human gloss).
-> **RESTART-PENDING (repo-structure branch): `DYAD.md` edited 2026-06-28** — the outward-by-consumer sort reframed
-> the two DIP-proposal citations (`DYAD.md:47,60`): **dip-craft is steward-tended** (the DIP is the commons'
-> protocol), so it moved to `dm/dyad-steward/` and the anchor now frames craft-\* as bond's roots (the exemplar)
-> with the DIP-rename *contributed to steward*, not bond's to host. **Plus a follow-on form-URL fold**
-> (`pltrinh1122/the-dyad-practice` → `The-Dyad-Practice-Commons`, 3× in the anchor — the canonical Commons home).
-> On disk, read-only this session; next boot
-> loads it → refresh the per-file boot-set + clear. *(Distinct from the `ID.md`-retirement RESTART-PENDING below,
-> from the g0-audit branch.)*
->
-> **RESTART-PENDING: SET (2026-06-28 — `ID.md` retired; anchor identity re-homed).** The anchor was **edited
-> this session** — `DYAD.md §Frame` now single-homes identity **+ the IDENTITY CAVEAT** (substrate-agnostic →
-> anchor, not shim — *caveat-altitude corrected during PR #59 review, Operator-caught*); the shims thin to a
-> pointer. The S1 externalization to `ID.md` is **declined**: identity is a computed view — recompute the
-> birth-id, never trust-store, no script-name pinned. `ID.md` deleted. Change is on disk, **read-only this session**; next
-> boot loads it (then refresh the per-file boot-set + clear this). *(Prior: CLEARED 2026-06-27 — PR #53 **merged** (`df86b02`) + fresh boot done: this session booted the re-altituded anchor (`DYAD.md@e0c9280`), so the RESTART-PENDING set 2026-06-26 was **discharged**.)* Boot-verify ✓ (craft-\* reads clean cold); steward DM ✓ published on `main` (rode in with PR #53, sender-hosted-pull); ROM-baseline refreshed (above). **Residue, unchanged + logged:** the re-altitude todo (`deferrals.md`) — anchor *prose* still trails the refactored shadow (DAG round-trip: 3 over-extraction `anti-cave`/`prove-before-propose`/`no-self-ratify` · 7 prescriptive-omission; validator green, digest IN-SYNC). Anchor-class + Operator-gated → not touched at resume.
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@9519e01` — folds in, since the
+> last-recorded `e0c9280`: the **repo-structure / outward-by-consumer** reframe (dip-craft → steward-tended,
+> form-URL fold to `The-Dyad-Practice-Commons`), the **`ID.md` retirement** (identity re-homed as a computed
+> view in `§Frame`, IDENTITY CAVEAT caveat-altitude corrected), and the **DFD expansion rename** ("Decision-framing"
+> → "Disposition Framing Discipline"). **Boot-VERIFIED 2026-07-01** (this session's cold ROM-boot; all three
+> read coherent — no over-cut surfaced). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior
+> baseline: `DYAD.md@e0c9280`, PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
+> `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
+> single-sha line above is the human gloss).
+> **RESTART-PENDING: none** — the three sets below (repo-structure/form-URL · `ID.md`-retirement ·
+> DFD-rename) are **CLEARED**, discharged by this session's boot (→ Stand-Up 2026-07-01 entry below).
+
+## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
+
+**Resume, no task pre-specified.** Booted a fresh branch (`claude/resume-kfh18q`, identical to `main` —
+no dedicated PR for it yet). Ran the resume protocol cold: anchor, ledger, disciplines-index, ROM-UI diff.
+
+**ROM-UI:** `DYAD.md` had moved `e0c9280` → `9519e01` since the last-recorded baseline — three
+already-logged RESTART-PENDING sets (repo-structure/form-URL fold, `ID.md` retirement, DFD-expansion
+rename), none newly discovered. All three read coherent cold (no over-cut); **cleared** (baseline
+refreshed above).
+
+**New catch (bond:verify-before-assert — ran the validator instead of trusting the ledger's "green"):**
+`bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml` **exits 1**, not the
+green the ledger's last stand-downs assumed. Two real failures, both look like residue from the
+2026-06-29 "livability made EXPLICIT" edit that never reconciled against the schema:
+- `bond:C1` — `root: true` but now carries a `grounded_in` block (the IFF1/IFF2/IFF3 edges to
+  `two-models`/`form-grounding`/`livability`, added when livability went explicit). Schema **forbids**
+  `grounded_in` when `root == true`, and the edge values used (`enables`, `requires`) aren't in the
+  `edge_type` vocab (`[derived, serves, inherited]`) either way.
+- `bond:livability` — `form: principle` (vocab is `[slogan, tuple, mathematical]`) and
+  `re_rub_triggers: [..., performance-degradation]` (`re_rub_trigger` vocab has no such value).
+This is a genuine schema/corpus divergence, not a new finding about the *content* — Operator's call
+whether to extend the schema vocab (new edge-types/form/trigger) or correct the corpus (drop C1's
+`grounded_in`, since a root traditionally doesn't cite outbound edges) to restore green. Flagging, not
+unilaterally fixing (`bond:no-self-ratify` — schema is machine-checkable shadow of the prescriptive core).
+
+**IM daemon (step 6):** not armed — `commons/` is an uninitialized submodule (empty dir) and
+`/mnt/shared_data/dzw` doesn't exist in this remote sandbox, so `falsify.py` is unreachable. Matches the
+already-logged residual (`carry-forward.md` 2026-06-27 entry: "absent `bin/falsify.py`" · `deferrals.md`
+cluster-cleanup) — re-confirmed, not new.
+
+**RESTART-PENDING: none** (this session hasn't edited the anchor). **Resume:** live fronts unchanged
+(**Covalent-bond frontier** + **Ingraining-watch**); NBA backlog is the `deferrals.md` `## todo` list
+(single-home playbook Founding-gate PR · X-tier steward heads-up · cross-dyad custody deprecation ·
+apex-telos-singularity empirical work · intent-clarity-arc anchor-candidates) — Operator selection owed,
+none picked unilaterally.
+
+---
 
 ## Stand-Down 2026-07-01 — Generation-substrate mechanism (built + landed)
 
@@ -100,9 +136,8 @@
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
 
-**RESTART-PENDING (this session): SET (2026-06-29 — DFD expansion rename).** Anchor `DYAD.md` edited
-(§bond:DFD: "Decision-framing" → "Disposition Framing Discipline"). Change is on disk, read-only this session;
-next boot loads it → refresh the per-file boot-set + clear.
+**RESTART-PENDING: CLEARED 2026-07-01** — the DFD expansion rename (§bond:DFD: "Decision-framing" →
+"Disposition Framing Discipline") booted clean this session; folded into the refreshed baseline above.
 
 → **Stand-Down 2026-06-26 (Phase 2 COMPLETE):** anchor **NOT edited** → **RESTART-PENDING none.** ROM-UI ✓
 in-sync (per-file compare fixed at source). **Phase 2 done:** ✅ per-file ROM compare · ✅ work-item store

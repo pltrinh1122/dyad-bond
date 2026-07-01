@@ -5,7 +5,10 @@
 > commission and end up spending as much or more time than if we had just built it, that defeats the
 > calculus."* These invariants govern HOW contract terms are selected; the per-commission spec applies
 > them. Status: candidates under the operator-rub-invariant (rubbed in-session, untested by a lived
-> commission). First trial = `2026-06-12-invariant-extraction-engine.md`.
+> commission). First trial = `2026-06-12-invariant-extraction-engine.md`. Second trial =
+> `2026-07-01-dyad-system-engine.md` — spec-cost was template-fill, not a fresh session-arc (the TS-6
+> falsifier survives this round). **Template extracted from the two-trial comparison** →
+> `commission-template.md` — start new commissions there, not from a blank page.
 
 - **TS-1 · hour-deletion test:** a term earns its place only by deleting future commissioner-hours
   (maintenance/troubleshooting), never by expressing quality preference. Selection question: *which

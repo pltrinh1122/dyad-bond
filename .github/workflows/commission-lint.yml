@@ -1,0 +1,25 @@
+name: commission-lint
+
+# First CI wired in this repo. Fires on every push/PR touching commissions/ or the linter itself -
+# regardless of whether whoever committed remembered to run it locally. Complements, doesn't
+# replace, the reminder in commissions/commission-template.md and the resume-protocol pointer in
+# dialectic/carry-forward.md §How to resume 5c - those depend on being read; this doesn't depend on
+# anything being read.
+
+on:
+  push:
+    paths:
+      - "commissions/**"
+      - "bin/commission-lint.py"
+  pull_request:
+    paths:
+      - "commissions/**"
+      - "bin/commission-lint.py"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint commission specs (FORM only, never TRUTH - see the script's own docstring)
+        run: python3 bin/commission-lint.py

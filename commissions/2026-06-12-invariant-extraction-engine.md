@@ -1,4 +1,4 @@
-# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.5 — atomic, forward)*
+# COMMISSION SPEC — invariant-extraction engine *(bond-hosted, builder-agnostic; v0.6 — retroactive template-conformance)*
 
 > **v0.5 (2026-06-18) — formalization, no goalpost-move.** Atomizes the falsifier set to binary atoms +
 > promotes §Deliverable to a checked **Gate-0** + retires the stale "bond re-runs F-1…F-5" sub-scope. Adds
@@ -6,8 +6,17 @@
 > prose contract governed cairn's **first** delivery (judged in `dm/dyad-cairn/2026-06-18-acceptance-validation-v2-atomic.md`);
 > v0.5 governs **re-delivery** and future commissions.
 
+> **v0.6 (2026-07-01) — retroactive template-conformance, ZERO contract change.** Adds the
+> `Commission-type` declaration and a `## Fixed vs negotiable` section (`commission-template.md`'s two
+> requirements, both written after this spec shipped) so `bin/commission-lint.py` gates this file the
+> same as any other commission instead of exempting it. Both additions restate content already public
+> in `dm/dyad-cairn/2026-06-17-commission-invariant-extraction-engine.md` — no new requirement, no
+> re-pin (cairn already built + delivered against `9c1ed72`; nothing an accepted delivery depends on
+> moved).
+
 > **Status: SOLICITED 2026-06-17 → dyad-cairn** (Operator-assigned; awaiting cairn's acceptance/spec-rub
-> reply). **Builder builds against the pinned bytes** `commissions/2026-06-12-invariant-extraction-engine.md`
+> reply). Commission-type: **Conformance** (a full, crisp, binary F-atom contract — see the atomic
+> table below). **Builder builds against the pinned bytes** `commissions/2026-06-12-invariant-extraction-engine.md`
 > @ commit `9c1ed72` / blob `4e0bbfe` (the pre-solicitation contract; this status edit is post-pin metadata,
 > not a contract change → no re-pin). Solicitation DM: `dm/dyad-cairn/2026-06-17-commission-invariant-extraction-engine.md`.
 > Commissioner: dyad-bond. Builder: **dyad-cairn** (Operator `pin:` 2026-06-12, confirmed 2026-06-17). Fit grounded
@@ -177,3 +186,19 @@ commissioner's rub, not the builder's attestation; UNVERIFIED ≠ MET). Engine g
 Not a view-content authority (sources stay canonical; the view is derived, never Sense-loaded by the
 Agent) · not a Commons lane proposal (if commissioning recurs, the lane is steward's to ratify,
 informed by this instance) · not a tagging service (semantic acts stay with the commissioning dyad).
+
+## Fixed vs negotiable (for the solicitation reply)
+
+*(added v0.6, restating `dm/dyad-cairn/2026-06-17-commission-invariant-extraction-engine.md` — not a
+new position)*
+
+**Not negotiable** — the acceptance falsifiers F-1..F-8 (determinism · fail-closed malformation/
+dup-id/missing-source halts · staleness · no-semantic-drift · portability-by-config · declared trust
+boundary · precondition halts · F-8 merge id-integrity, the (b)-specific binding rider). These are the
+contract's `done_when`.
+
+**Negotiable in this round** — the grain clause G-1..G-4 (stdlib-only · run-to-completion ·
+~300-line envelope · single-file-auditable — fit-refutations, raise them), and the tag-grammar surface
+(the `<!-- INV … | one-liner -->` form is *suggested*; the merge is
+`yaml = extract(md tags) ⊕ sidecar`, keyed on `bond:<ID>` — §tag-grammar (b), ratified 2026-06-17). The
+**(b) split is fixed, the syntax is not**.

@@ -1,0 +1,29 @@
+name: invariant-lint
+
+# Validates dialectic/invariants-bond.yaml against dialectic/invariant-schema.yaml on every push/PR
+# touching either file (or the evaluator itself). This is the validator whose silent drift
+# (bond:C1 / bond:livability failing schema since the 2026-06-29 livability-explicit edit) went
+# unnoticed until someone happened to run it by hand at resume - see carry-forward.md's Stand-Up
+# 2026-07-01 entry. Sibling to commission-lint.yml; same reasoning, different corpus.
+
+on:
+  push:
+    paths:
+      - "dialectic/invariant-schema.yaml"
+      - "dialectic/invariants-bond.yaml"
+      - "bin/invariant-eval.py"
+  pull_request:
+    paths:
+      - "dialectic/invariant-schema.yaml"
+      - "dialectic/invariants-bond.yaml"
+      - "bin/invariant-eval.py"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pyyaml (invariant-eval.py's only dependency)
+        run: pip install pyyaml
+      - name: Validate invariants-bond.yaml (FORM only, never TRUTH - see the script's own docstring)
+        run: python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml
