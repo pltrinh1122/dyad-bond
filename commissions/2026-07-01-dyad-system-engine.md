@@ -1,6 +1,10 @@
 # COMMISSION SPEC — dyad-system: claim/invariant validated-factory engine *(bond-hosted, builder-agnostic; v0.1 — template-fill on the invariant-extraction pilot)*
 
-> **Status: DRAFT (2026-07-01) — not yet solicited.** Prepared for Operator review + pin before
+> **Status: DRAFT (2026-07-01) — not yet solicited.** Commission-type: **Conformance** (a full,
+> crisp, binary F-atom contract — the schema-syntax/CLI-surface/module-layout items left open are
+> negotiable *within* that fixed contract, not an undefined solution; per
+> `dialectic/commission-protocol-commissioner.md` §0 the type hinges on acceptance-criteria
+> crispness, not on how much implementation freedom the builder gets). Prepared for Operator review + pin before
 > dispatch to a builder. Modeled directly on the invariant-extraction engine commission
 > (`commissions/2026-06-12-invariant-extraction-engine.md`, builder: dyad-cairn) — same term-selection
 > invariants (`commissions/TERMS.md` TS-1..TS-6), same six-section skeleton, same commissioner-side
