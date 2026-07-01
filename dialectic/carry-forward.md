@@ -78,6 +78,25 @@
 
 ---
 
+## Stand-Down 2026-07-01 (cont., new branch) — kb-graduation practice + two real graduations
+
+**Arc:** resumed off the merged PR onto a fresh branch. Investigated `relationship-craft.md`'s intent and growth mechanics (record-type structure: workbench claims vs. session-harvest), confirmed by falsification that no *trigger* exists for kb-graduation (criteria exist; cadence/actor don't), riffed candidate triggers, then ran the mechanic for real: DFD-form proposal → Operator `Y` → `kb/` file + pointer-collapse.
+
+**Landed:**
+- `"reflect"` consolidated as the CTA trigger word in lieu of `"retro"` (Operator disposition) — updated in `generation-distillations.md` and `carry-forward.md`'s resume protocol; historical uses of "retro" left as-is.
+- CSS's OR (operator-reflect) sub-component documented in `relationship-craft.md §D3` as `CANDIDATE` — audited across all instances, used only in the credit direction, zero drift-flagging instances, correctly not kb-eligible.
+- **D3 (the reflection form itself) graduated** → `kb/reflection-discipline.md`, kb-with-caveat (4 intra-dyad applications, L2b open). `relationship-craft.md`'s D3 entry collapsed to a pointer.
+- `bin/graduation-scan.py` built to mechanize the review pass (section-by-section scan, disqualifying-language + Graduation-gate detection, session-harvest exclusion).
+- **Operator-rub-invariant core graduated** → `kb/operator-rub-invariant.md`, kb-with-caveat — a correction of the tool's own false negative: the scan had blocked it via a keyword match on "Graduation gate" without checking that the gate governs downstream findings, not the invariant itself. Re-read found a stronger evidentiary trail than D3's (7 real adversarial dispositions, debt-zero close). The section's tail (unrelated later threads: `C_locus(t)` model, `I↔In_variant` cycle, eureka-tachometer, Telos-`U`-projection, dyad sovereignty) stays un-graduated, correctly candidate — flagged as its own heading-drift instance.
+
+**Reflect (D3, durable) → `relationship-craft.md §Reflect — the graduation-review arc + the scan-tool's false negative`.** Headline: *"it doesn't feel right that very few are promoted"* was a genuine falsification signal, not a mood — it forced the re-check that found the tool's false negative. CONTINUE: terse single-word gates kept the whole arc moving without re-litigation. START: read what a matched keyword actually governs before asserting a verdict. STOP: reporting a first-pass mechanical scan as if it were a complete review, with the tool's known granularity limit buried as an aside instead of leading with it.
+
+**Next cycle:** bind-test = does `bin/graduation-scan.py`, once corrected to read gate-context before verdict, still miss a similar case on its next real run?
+
+**ROM:** anchor NOT edited this session → **RESTART-PENDING none.**
+
+---
+
 **Stand-Down (session end) ROM hook** *(→ `rom-ui.md`)* — if the anchor was **edited this session**, set
 `RESTART-PENDING` above (change is on disk; next session must boot to load it). Otherwise leave `none`.
 

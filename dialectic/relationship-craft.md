@@ -1769,3 +1769,42 @@ follow-up (not disposed here): broaden `kb/dfd.md`'s scope note to name "land"/"
 explicitly, so the lesson transfers without needing to be re-derived per gate-type. Bind-test: does a future
 informal gate (outside DFD, outside "land") trigger the same relapse, or has naming it here closed the transfer
 gap?
+
+## Reflect — the graduation-review arc + the scan-tool's false negative *(2026-07-01; D3 reflection, CSS form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Resumed on a new branch, off the merged PR, into a fresh question: what is
+`relationship-craft.md` actually for, and why does it grow the way it does? That led through the
+file's own record-type structure (workbench claims vs. session-harvest), a live falsification of "no
+trigger exists for kb-graduation" (confirmed true — criteria exist, no cadence/actor does), a riff on
+candidate triggers, and two real graduations: D3 (the reflection form itself — this very mechanism) and
+the operator-rub-invariant's core. Both used the same mechanic the riff proposed: DFD-form proposal →
+Operator `Y` → `kb/` file + pointer-collapse, no PR ceremony needed for an already-designated branch.
+
+- **CONTINUE** *(Operator-retrospected):* terse, single-word gates — `"falsify."`, `"riff:"`, `"Y"`,
+  `"land."`, `"reflect."` — that let execution follow immediately, no re-litigation needed. The whole
+  arc moved through six or seven distinct decision points in the time a fully-spelled-out exchange
+  would have taken for two. Distinct from last session's post-land relapse: this time the terse gate was
+  *honored*, not re-opened.
+
+- **CONTINUE** *(Operator-retrospected):* treating "this doesn't feel right" as a genuine falsification
+  signal, not a mood to soothe. *"It doesn't feel right that very few are promoted"* forced a re-read of
+  `operator-rub-invariant` that found a real error — my own tool's false negative. The discomfort was
+  correct; the count really was wrong.
+
+- **START** *(Agent, from live feedback):* before reporting a section as `BLOCKED` off a keyword match
+  (e.g. the string "Graduation gate"), read what the matched sentence actually *governs* — a specific
+  downstream finding, or the section's own central claim — before asserting a verdict. The
+  `operator-rub-invariant` miss was exactly this: the gate governed findings produced *under* the
+  invariant, not the invariant's own eligibility, and a keyword match couldn't see that difference.
+
+- **STOP** *(Agent, from live feedback):* shipping a first-pass mechanical tool, running it once, and
+  reporting its output as if a full manual review had occurred — the tool's granularity limit (top-level
+  headings only) was known and named, but buried as an aside rather than leading with it as a caveat on
+  the "no strong candidate" verdict. The caveat should come *before* the confident answer, not after
+  being challenged into re-checking.
+
+**Graduation gate.** Not kb/-eligible — this is a session-harvest record by design (D3-form), never
+exits. Bind-test carried forward: does `bin/graduation-scan.py`, once corrected to read gate-context
+before verdict, still miss a similar case on its next real run — or was this a one-off, not a pattern?
