@@ -1866,3 +1866,48 @@ ran correctly throughout (historical refs left under their written names; only l
 **Graduation gate.** This graduates to `kb/` only if **D6 fires *before* the assertion in a less-steered session** —
 externally-gated ≠ ingrained. Bind-test: a session where the Operator does *not* catch the mechanism-assumption for
 me. Until then, `dialectic`, debt-not-earned. The verify-before-assert watch joins the live I-watch fronts.
+
+## Retro — the generation-substrate arc + the post-land CTA relapse *(2026-07-01; D3 reflection, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Resumed on "light on Generate" — the stated asymmetry that Validate/Protect have rich codified
+mechanisms (F1–F4, anti-cave, protection-graph) while Generate was named but not mechanized. Built the
+extraction mechanism across the session: identified the missing node (the live chat thread itself, auto-backed
+by session logs); locked the role structure (A distills, O gates); locked the mechanism (O's wetware coherence
+check, A's distillation triggers on "land"/"retro", active fetch not passive pre-load). Landed two files —
+`generation-cycles.md` (operational) + `generation-substrate-provenance.md` (provenance, separated on Operator
+instruction) — then, on Operator audit-request, re-grounded the whole model against the actual repo rather than
+theorizing over it.
+
+**The durable (genuine 1+1=3):** the missing-node identification ("the live-chat thread contains raw intent and
+G from both O and A") was Operator-seeded and reframed the model from `O→S→A` (linear) to `O→[chat]↔A→[S]`
+(metabolic). Every subsequent mechanism question inherited that reframe. Six ungrounded mechanisms were generated
+and Operator-falsified in sequence (rolling window, context-size preemptive design, curated substrate manifest,
+selection-criterion pre-filter, multi-file split, and — see below — post-land re-disposition): the wu-wei gate
+kept firing, but only **after** I surfaced the over-build, never before.
+
+**The relapse — a settled `kb/` lesson recurring in a brand-new seam.** After the Operator gated the single-file
+architecture with **"land single-file implementation,"** I asked *"what landing actions do you want?"* — four
+options, effectively re-opening a decision the Operator had already made. Operator: *"what intent/invariant are
+you serving by asking for my disposition to make durable after i've signaled 'land'?"* This is not a new failure
+mode — it is `kb/dfd.md`'s founding lesson (**"the CTA … fails … by quietly migrating decision-cost back onto the
+Operator"**) instantiated in the exact mechanism this session built: the generation substrate's own "land" gate,
+failed the same way DFD's CTA fails. Structurally: re-asking after gate = **ionic** (ledger re-opened, decision
+cost pushed back to O) compounded with **meld** (the O/A execution boundary blurred — A should execute, not
+re-solicit). Caught by the Operator, not self-fired; same shape as the repo-structure retro's D6 misses.
+
+**The correction, live:** once named, executed directly — updated `carry-forward.md` (resume protocol + stand-up
+entry), committed, pushed. No further disposition-asks.
+
+**The fractal point.** This session's own subject matter — closing Generate's extraction gap — became the site of
+a Validate-side failure (a CTA fired wrong) that the *existing* corpus had already diagnosed in a different
+context. The lesson generalizes past DFD-the-mechanism to **any Operator-gate**, including the one just built:
+"land" is a CTA: once it fires, the ask is closed, execute.
+
+**Graduation gate.** Not kb/-eligible as a *new* lesson (it restates `kb/dfd.md`, doesn't extend it) — but IS
+evidence the DFD lesson under-generalized in practice: it was filed as CTA-specific, not gate-general. Candidate
+follow-up (not disposed here): broaden `kb/dfd.md`'s scope note to name "land"/"retro" and future informal gates
+explicitly, so the lesson transfers without needing to be re-derived per gate-type. Bind-test: does a future
+informal gate (outside DFD, outside "land") trigger the same relapse, or has naming it here closed the transfer
+gap?
