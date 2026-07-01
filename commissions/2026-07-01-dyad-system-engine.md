@@ -37,7 +37,8 @@ invariant are structurally different objects; the engine must not conflate them.
    (`dialectic/claim-core-schema.yaml`), analogous to how bond supplied the tag-grammar for the
    extraction engine. Builder CONSUMES this schema; does not author its semantic content. **Exact file
    syntax is negotiable in spec-rub** (mirrors the pilot's tag-grammar fork) — the field *boundary*
-   (which fields are claim-core vs invariant-only vs candidate-only, `dyad-system.md` §2) is **fixed**.
+   (which fields are claim-core vs invariant-only vs candidate-only, `dyad-system.md` §Design
+   decisions reached, item 2) is **fixed**.
 2. **Factory/validator (deterministic CLI, no daemon).** Given the claim-core schema + the two corpus
    files, provides: (a) **validate** — check every existing record in both files against claim-core
    (global id-uniqueness, enum-membership, provenance shape); (b) **new** — construct + append a
@@ -138,7 +139,8 @@ Commons lane proposal.
 
 ## Fixed vs negotiable (for the solicitation reply)
 **Not negotiable** — the F-1..F-8 atomic set (done_when); the claim-core field *boundary* (which fields
-are shared vs invariant-only vs candidate-only, `dyad-system.md` §2); the `graduates-to`-not-`is-a`
+are shared vs invariant-only vs candidate-only, `dyad-system.md` §Design decisions reached, item 2);
+the `graduates-to`-not-`is-a`
 relationship; the trust-boundary declaration requirement (F-6/B-1..B-4).
 **Negotiable in this round** — the claim-core schema's file *syntax* (field boundary is fixed,
 representation is not — mirrors the pilot's tag-grammar fork); the CLI's exact verb/flag shape; the
