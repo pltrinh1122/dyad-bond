@@ -27,6 +27,13 @@
    **natural pause, un-gated** (NOT coupled to `land`); honor the Stop hook's flag every turn. The git repo is
    the substrate of record (cloud == local). *(Scratch tank RETIRED 2026-06-27 — use-case dissolved by
    thread-until-land; durability-of-record is this auto-save, not a separate store. Reloaded here so it ingrains.)*
+5c. **Commissioning** *(→ `commissions/commission-template.md`)* — active fetch, not a resume pre-load: a
+   Operator "commission:" cue starts there, not from a blank page (spec + paired solicitation-DM skeleton,
+   `TERMS.md`'s TS-1..6 discipline). **Gate before any commit:** `python3 bin/commission-lint.py <file>`
+   (FORM-only; catches template-shape gaps a re-read misses — see `commission-template.md`'s own note on
+   why this reminder alone is known-weak). Reloaded here on the same theory that makes "resume" itself
+   work: the word only routes correctly because *something reliably read* names what it means — this line
+   is that pointer for "commission," `carry-forward.md §How to resume` already being the one for "resume."
 6. **Arm the IM daemon** *(→ `dialectic/im-daemon.md` — has the EXACT hardened command; arm it **verbatim**,
    don't re-derive — the naive version was falsified)* — a session-scoped **persistent `Monitor`** over
    `falsify.py inbox --me dyad-bond`: emit-on-rise (new mail) + **gh-health-gated** blind alert. Session-
