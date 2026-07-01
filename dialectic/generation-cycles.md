@@ -16,6 +16,16 @@ locus: instance   # live generation substrate; session-scoped active context for
 
 **A's consultation (active fetch):** When generating next cycle, A actively reads `generation-cycles.md`, extracts relevant sections (principles · decision points · collision patterns), and grounds the generation in "here's what we learned last cycle." No passive pre-load; active fetch during the work.
 
+## Open questions (durable carry-forward for next resume)
+
+1. **Complete active dyad substrate composition** — what files/mechanisms comprise the full active substrate that A consults? (Beyond generation-cycles?)
+2. **Relationship to kb/** — do cycles graduate out of dialectic/ to kb/, or stay in dialectic/ indefinitely? When/how?
+3. **Relationship to deferrals/NBA** — does generation learning feed into work-items or the NBA, or is it standalone?
+4. **Verify/ratify readiness** — is the mechanism ready to use now, or does it need a live cycle test before ratified?
+5. **Cross-dyad scaling** — if multiple dyads, how does generation-cycles work? Each separate? Shared synthesis? Siblings learn from each other?
+6. **Selection criterion for "relevant sections"** — when A extracts from generation-cycles, what's the actual criterion for what's relevant? (Now: "principles · decision points · collision patterns" is vague.)
+7. **Distillation frequency** — after every generation cycle, or batched? On-demand? Schedule-driven?
+
 ---
 
 ## Cycle N₁ — 2026-06-30 (s-arch): Generate edges of the O/A/S graph
