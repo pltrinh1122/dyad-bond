@@ -993,6 +993,35 @@ or A-absorbed, not Operator inconsistency. But it's a materially different kind 
 interpretive risk. Moves the disposition closer to earning kb-eligibility, still short of it (n=1
 non-credit instance; the coverage gap is unchanged).
 
+**9th instance, 2026-07-01 — Operator-requested naming (`credit`/`debit`) + the first real debit
+candidate.** Operator disposed: name OR's two directions explicitly as **credit** (the graduated
+`CONTINUE (Operator-retrospected)` use, unchanged) and **debit** (the still-CANDIDATE direction, now
+named rather than left as an unlabeled "could in principle flag drift"). A riff on *what kind of debit*
+narrowed the scope, per the Operator's own gate — *"bookkeeping is important to note to support audit —
+telemetry. falsify."* — meaning: **debit entries are passive telemetry, not real-time grading.** A
+debit is logged the moment it's mechanically checkable (a claim was falsifiable and turned out false),
+never on the Agent's judgment that the Operator's *reasoning* was weak — that softer version is exactly
+the presumption anti-cave exists to prevent, not perform. Two riffed candidate-categories, kept
+separate on evidentiary grounds:
+- **debit-eligible now:** unverified claims about mechanically-checkable shared state. This session's
+  actual instance — "I've merged and deleted the branch" (checked via `mcp__github__pull_request_read`:
+  false, PR open, branch intact), then, after correction, "yes, PR #65 was merged" (checked again: also
+  still false at that moment) — before the Operator's own "I was distracted and conflated with another."
+  **First real debit telemetry point**, logged for later audit, not scored now (n=1, same-session,
+  no cross-session recurrence-check yet — same discipline as any other claim here: one instance is a
+  data point, not a trend).
+- **debit-adjacent, held back:** "premature convergence / insufficient grounds for stakes"
+  (`bond:anti-cave`'s own breach_example) was riffed and set aside — it's already the *Agent's* duty to
+  manufacture grounds before a Y, so a thin-grounds Y usually implicates anti-cave's own failure too;
+  attributing it as a clean Operator-only debit would misattribute a joint failure. Not adopted.
+- **not adopted, self-report ≠ telemetry:** the Operator's own "I was distracted" is testimony, not
+  something the Agent independently verified — real, worth naming as color, but epistemically distinct
+  from the checked-false claim above. Debit telemetry stays scoped to what the Agent itself can falsify,
+  not what the Operator discloses about their own state.
+
+Still CANDIDATE — one hard-checkable instance is the first data point, not a survived falsification
+(cf. `bond:kb-graduation` — same bar as anything else here, no exemption for a fresh direction).
+
 **D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
 output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
 layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
