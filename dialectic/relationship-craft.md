@@ -1825,3 +1825,52 @@ Operator `Y` → `kb/` file + pointer-collapse, no PR ceremony needed for an alr
 **Graduation gate.** Not kb/-eligible — this is a session-harvest record by design (D3-form), never
 exits. Bind-test carried forward: does `bin/graduation-scan.py`, once corrected to read gate-context
 before verdict, still miss a similar case on its next real run — or was this a one-off, not a pattern?
+
+## Reflect — the dyad-system / commission-mechanization arc *(2026-07-01; D3 reflection, CSS form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** A routine resume (clear stale ROM-UI state) turned into a mechanization arc once running
+the validator instead of trusting the ledger's recorded "green" surfaced real schema drift
+(`bond:C1`/`bond:livability`, residue from an edit that never reconciled against the schema). That grew
+into the `dyad-system` design arc (mechanizing the informally-split claim/invariant structure), a
+drafted-not-dispatched commission for the engine, a template extracted from comparing it against the
+2026-06-12 pilot, a linter checking both against the template, two CI workflows (this repo's first)
+wiring both linters to fire on every push, and a retroactive fix bringing the pilot itself into
+conformance. Landed on PR #65, merged.
+
+- **CONTINUE** *(Agent-observed):* running the instrument instead of trusting the record. The whole arc
+  exists because `bin/invariant-eval.py` got run at resume instead of assuming the ledger's "validator
+  green" note was still true — it wasn't, and hadn't been since a 2026-06-29 edit.
+
+- **CONTINUE** *(Operator-seeded):* *"we're dealing in relationship, we should be very precise about
+  descriptors of relationship"* reframed a schema-design question (`grounded_in` vs. a proposed
+  `depends_on`) and then kept paying off downstream, unprompted — it's the same reasoning that produced
+  claim-core-as-base-contract-not-inheritance and graduates-to-not-is-a. One well-placed principle,
+  reused across several decisions, not re-derived each time.
+
+- **CONTINUE** *(Agent-observed):* dogfooding immediately and taking the result seriously. Built
+  `bin/commission-lint.py`, ran it the same turn, found and fixed two real bugs in its own
+  file-discovery (a false-positive on an unrelated findings writeup, a false-positive on the template's
+  own fenced-block example) before calling it done — rather than shipping on the strength of "the code
+  looks right."
+
+- **STOP** *(Agent, from live feedback):* reached for more machinery before trying the lean fix. When
+  CI's `commission-lint` job failed on the pilot spec's known, pre-existing gaps, the first move was
+  building a diff-scoped `--only-specs` mode — a new flag, new git-diff logic — instead of first asking
+  whether just adding the two missing pieces to the one file was simpler. It was: the direct fix took
+  less code and closed the root cause instead of routing around it, and had to be built *after*
+  discarding the half-finished diff-scoping work. Reads as another instance of this corpus's own
+  named over-production trend (`relationship-craft.md`'s prior retros) — generating infrastructure
+  before checking if the situation needed any.
+
+- **START** *(Agent, from live feedback):* before calling a new automated gate (CI, a hook, a lint
+  default) done, actually run it against everything it will now watch — not just the files touched in
+  the change that prompted building it. `commission-lint.yml` shipped without that check and was red on
+  its first real run for a reason that had nothing to do with what triggered it; the Operator caught it,
+  not a pre-ship check.
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test carried forward: does the "run the new gate against everything it watches before calling it
+done" habit actually fire un-cued on the *next* automated-gate build, or does the lean-fix-first lapse
+recur in a new shape?

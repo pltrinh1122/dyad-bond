@@ -55,6 +55,28 @@
 
 ## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
 
+## Stand-Down 2026-07-01 (close of the dyad-system / commission-mechanization arc — PR #65 merged)
+
+**RESTART-PENDING: none** — anchor (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`) not touched this session; ROM
+baseline from the Stand-Up entry below stays current. Same branch name restarted fresh off `main`
+after the merge (per the merged-PR protocol) purely to land this closing retro.
+
+**Landed (PR #65):** the whole arc below this entry — resume reconciliation, the `invariant-eval.py`
+corpus-drift catch + fix, the `dyad-system` design arc, the drafted (unsent) commission + template +
+`bin/commission-lint.py`, two CI workflows (first in this repo), and the pilot commission's retroactive
+template-conformance fix. **Retro (D3, durable) → `relationship-craft.md` §Reflect — the dyad-system /
+commission-mechanization arc.** Headline: the arc's own STOP is a live recurrence of this corpus's
+already-named over-production trend (reached for a diff-scoped CI flag before trying the two-line fix
+that actually closed the root cause) — caught by the Operator reporting "CI check failed," not
+pre-empted.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**). New: the
+`dyad-system` commission is drafted, DRAFT status, still not dispatched to dyad-cairn — dispatching it
+is an open Operator act, not automatic follow-on. Bind-test from the retro: does "run a new gate
+against everything it watches before calling it done" fire un-cued on the next automated-gate build?
+
+---
+
 **Resume, no task pre-specified.** Booted a fresh branch (`claude/resume-kfh18q`, identical to `main` —
 no dedicated PR for it yet). Ran the resume protocol cold: anchor, ledger, disciplines-index, ROM-UI diff.
 
