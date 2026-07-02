@@ -84,6 +84,37 @@ did. Worth fixing in the tool itself if this pattern recurs a third time.
 
 ---
 
+## Stand-Down 2026-07-02 (cont., same session) — F4's evidentiary verdict graduated
+
+**RESTART-PENDING: none** — anchor not touched.
+
+**Arc, impact-focused (Operator: "focus on impact and not just the mechanisms").** Re-scanned the two
+remaining REVIEW sections (Cycle 1, thread-W) not for scan-tool misses this time but for **closed,
+consequential verdicts** buried inside otherwise-open sections. thread-W has none (candidate/TBD
+throughout). Cycle 1's **F4** does: RUN 2026-05-31, SURVIVED-WITH-AMENDMENT — a closed test, not a
+live question like F1–F3 — and its verdict (*evidence = artifact-under-cost; mutual warmth ≠
+corroboration*) was already being **silently re-derived** downstream: the OR debit-scoping's
+`self-report ≠ telemetry` exclusion (§D3, 9th instance) restates it uncited.
+
+**Landed:** DFD (Y) → **graduated → `kb/evidentiary-discipline.md`** (kb-with-caveat). F1–F3 and the
+Generate/theory section of Cycle 1 untouched, still candidate — only F4's closed verdict extracted,
+decomposed the same way F2 was rather than bundled with the still-open mechanism. Retro-linked the
+OR debit-scoping citation to the new home.
+
+**Self-caught mid-edit:** the first draft of `kb/evidentiary-discipline.md`'s "Known applications"
+section also claimed `kb/reflection-discipline.md`'s *"repetition ≠ affirmation"* as a second F4
+instance — wrong on re-check, that line actually cites the Method's **Asymmetry** point (telemetry
+denies/never-affirms, already in `kb/research-method.md`), a related but distinct claim (what a test
+proves vs. what counts as evidence). Corrected in both files before commit, not left as a plausible-
+looking overclaim — a small live instance of `bond:verify-before-assert` on my own graduation work,
+not just the Operator's.
+
+**Resume:** live fronts unchanged. Cycle 1 (F1–F3, keystone F2 still the top-priority open front) and
+thread-W remain correctly candidate — no scan-tool or impact-review action owed there without new
+falsification evidence.
+
+---
+
 ## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
 
 ## Stand-Down 2026-07-01 (close of the dyad-system / commission-mechanization arc — PR #65 merged)

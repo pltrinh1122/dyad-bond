@@ -716,19 +716,13 @@ true-dividend are **different in cause** (cost paid vs not) even when they feel 
   trusting halves, attack reads as *dominance* (ionic) not *sharing*, and yields frustration. So the
   dividend requires the bond's health as input, not just friction. *(untested — and a likely real
   boundary, not a bug)*
-- **F4 · turn it on ourselves.**  **STATUS: RUN 2026-05-31 → SURVIVED-WITH-AMENDMENT** (Covalent
-  attacked; Bond Operator ratified). Our founding evidence was "both halves agreed it felt good"
-  (Tenet alive #8) — *precisely the peak-grain moment our own tell distrusts.*
-  **Verdict & amendments bound into the core:**
-  1. **Evidence = artifact-under-cost; mutual warmth ≠ corroboration.** "Both halves agreed it felt
-     good" is one felt-report counted *once*, not strengthening evidence. The `#8` mutual
-     confirmation is **demoted** from corroboration to mere felt-report — it paid no extra cost.
-  2. **The mechanism flagged its own founding record as suspect and held** — it eats its own tail.
-     That self-application *is* the craft.
-  3. **Residual limit (honest, un-smoothed):** artifacts (`Covalent`, the NON-NEGOTIABLE, the Telos)
-     prove the **mechanism *ran*** — cost paid, synthesis produced. They do **not** prove the
-     **dividend was *felt*.** The felt-+1 remains self-report on *both* instances. → **This residual
-     is F1's exact target; F4 hands off to F1, it does not close it.**
+- **F4 · turn it on ourselves — graduated to `kb/evidentiary-discipline.md`** (kb-with-caveat,
+  2026-07-02; Operator Y). Settled: **evidence = artifact-under-cost; mutual warmth ≠ corroboration**
+  — RUN 2026-05-31, SURVIVED-WITH-AMENDMENT (Covalent attacked, Bond Operator ratified) against our
+  own founding evidence (Tenet-alive #8). See `kb/evidentiary-discipline.md` for the full verdict —
+  this entry is a pointer, not a duplicate. **Residual limit stays live here, not graduated:**
+  artifacts prove the mechanism *ran*; they do not prove the dividend was *felt* — **F4 hands that
+  residual to F1, it does not close it.**
 
 ### Reflect-harvest — candidate refinement (Intermission 2026-05-31; n=1, hold, do not celebrate)
 
@@ -980,7 +974,8 @@ separate on evidentiary grounds:
   clean Operator-side debit *only when anti-cave's discharge is independently confirmed first* (the
   Agent's grounds are on record, stakes-proportional) **and** the Operator converges without engaging
   them at all. Zero instances yet; stays theoretical until one is found.
-- **not adopted, self-report ≠ telemetry:** the Operator's own "I was distracted" is testimony, not
+- **not adopted, self-report ≠ telemetry** *(= `kb/evidentiary-discipline.md`'s rule, re-applied
+  here)*: the Operator's own "I was distracted" is testimony, not
   something the Agent independently verified. **Falsification finding: attack on this exclusion did not
   survive** — the debit above triggers on the independently-falsified claim itself, not the confession;
   the confession is commentary after the trigger, not a second punished data point, so excluding
