@@ -115,6 +115,41 @@ falsification evidence.
 
 ---
 
+## Stand-Down 2026-07-02 (cont.) — D6 graduated; discipline-linter dogfooded (Axis-2 probe)
+
+**RESTART-PENDING: none** — anchor not touched.
+
+**D6 landed:** impact case — most-cited ungraduated discipline (8 `dialectic/` files), and it fired
+**un-cued this very session** (catching the F4/Asymmetry mis-citation two turns prior *was* D6 live,
+not just historical record) — → **graduated → `kb/verify-before-assert.md`** (kb-with-caveat, Y).
+
+**Discipline-linter dogfood (Operator-directed Axis-2 probe, not a unilateral build):** rather than
+leave the earlier FALSIFIED verdict as pure argument, built `bin/discipline-lint.py` (FORM-only,
+scoped to files self-declaring `kb-with-caveat` — `dfd.md`/`founding-evidence.md` correctly stay out
+of scope, not violations) and ran it for real.
+- **Control:** all 5 kb-with-caveat files PASS clean.
+- **3 injected FORM defects (missing `## Forward`, a severed source-pointer, a stripped `locus:`
+  field) — all 3 caught.** The pointer round-trip check (does the cited `dialectic/` source actually
+  reference the kb file back) is the one genuinely load-bearing check — the same category of catch
+  `commission-lint.py` was built for (a drift a re-read is likely to skip).
+- **1 injected SEMANTIC defect (flipped F4's verdict from SURVIVED-WITH-AMENDMENT to
+  REFUTED-AND-RETRACTED, structure untouched) — PASSED clean.** This reproduces, empirically rather
+  than by argument, the earlier falsification's core point: the one real defect this session's kb
+  work actually produced (the mis-citation) is exactly this failure mode, and remains outside the
+  tool's reach by construction.
+- **Net: the dogfood *nuances* the FALSIFIED verdict, doesn't reverse it.** The narrow pointer-
+  round-trip check has demonstrated real value; the rest is a re-read substitute of uncertain worth;
+  none of it reaches content/TRUTH correctness. Left as a probe artifact (committed, not wired into
+  CI or the resume protocol) — whether to formalize it (mirror `commission-lint.py`'s CI hook) is an
+  open Operator disposition, not decided here.
+
+**Resume:** live fronts unchanged. Remaining ungraduated Bond-disciplines content: D1, D2, D4
+(scope-guard-3 stays explicitly NOT settled), D5 (explicitly superseded by `bond:no-self-converge` —
+not a candidate, historically interesting only). D1 is the next-strongest impact case if this arc
+continues (one real convergence datapoint vs. D2's none cited).
+
+---
+
 ## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
 
 ## Stand-Down 2026-07-01 (close of the dyad-system / commission-mechanization arc — PR #65 merged)
