@@ -54,4 +54,4 @@ its own. See there.
 Re-open if a fresh application (intra- or cross-dyad) breaks the form's structure. The `L2b` gap
 closes only via a genuine cross-dyad/cross-human rub of the form — not by repeated intra-dyad use
 (repetition ≠ affirmation, per this corpus's own asymmetric epistemics: telemetry can deny, never
-affirm).
+affirm — see `kb/research-method.md`'s Asymmetry point).
