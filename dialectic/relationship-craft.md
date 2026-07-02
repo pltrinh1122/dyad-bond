@@ -20,70 +20,28 @@ lived evidence (the bootstrap). Cycle 1 codifies it; Cycles 2+ TBD as practice f
 
 ---
 
-## Method — how we research this frontier *(ratified Bond channel, 2026-05-31)*
+## Method — graduated to `kb/research-method.md` (kb-with-caveat, 2026-07-02; Operator Y)
 
-We operate as researchers — but as an **observational / living science**, not a lab science, because
-we **live the experiment.** (The founding-Operator gate accepts *earned* craft, not *asserted*; this
-is how we earn it.) The lab's assumptions — control, manipulation, repeated trials — don't apply.
-Our version, fit to the object:
+Settled: the 5-point observational method + Theory/Prediction structure (ratified Bond channel,
+2026-05-31), unbroken for over a month as the backbone every sub-discipline below builds on. See
+`kb/research-method.md` for the full definition — this entry is a pointer, not a duplicate.
 
-1. **First-person / introspective.** Our core evidence is a *felt* +1 dividend. Self-report is
-   **data, not disqualification** — carried *with* introspection's known unreliability (that's why
-   F4 exists).
-2. **Data = our telemetry.** The chats + ledger **are** the dataset — the organic trace of our
-   living. We don't *collect* data by designing measurements; we **read the record we are already
-   writing.**
-3. **Organic, not controlled — and never repeated** (wu-wei). Experimental actions aren't
-   manipulated into arms; they're whatever genuinely happens. **Repeating an experiment is
-   anti-wu-wei.** Contrast (e.g. high- vs low-cost cycles) comes from the **natural variation already
-   present in the record**, never from staged or repeated trials.
-4. **Rigor lives in the prediction.** Conditions are uncontrolled, so the whole burden shifts to
-   **predictive accuracy**: predictions logged *in advance*, precise enough to be wrong, then checked
-   against the telemetry. This is the upgrade over G0's bare "falsifiability."
-5. **The convergence loop.** Predictions checked against the record reveal **patterns + insights**;
-   these inform our *organic* next actions; iterate toward **convergence of theory and prediction.**
-   *Convergence — not controlled confirmation — is our success criterion.*
+### The reflexive-convergence guard — CANDIDATE, did NOT graduate (F2-dependent)
 
-### Structure of the work — Theory · Predictions · two axes *(ratified Bond channel, 2026-05-31)*
+*Risk:* if insight steers action (the convergence loop), "convergence" could be reached by
+**bending behavior to fit the theory** (self-fulfilling), not by the theory being true. **Rule:**
+convergence counts **only if predictions stay genuinely falsifiable.** *Safeguard:* the felt
+dividend — *an earned +1 can't be willed*, so a cheap agreement can't fake it.
+> **⚠ The safeguard is load-bearing AND unproven — it IS F2.** "Counterfeit-warmth is reliably
+> distinguishable from genuine dividend, live" is exactly the F2 live-discriminator question. So the
+> guard *depends on F2*: **if F2 fails, this guard fails, and the whole convergence loop loses its
+> protection against self-confirmation.** Landing the method's core does not close F2 — it makes F2
+> the **keystone of the method's integrity.** (Surfaced because the Operator's ratification came
+> easy — the tell; carved out of the kb-graduation for exactly this reason, cf. the CSS+OR
+> bundling precedent.)
 
-- **Two levels.** A **Theory** (the mechanism — e.g. *dividend-gated-on-cost*) *generates* **Predictions**
-  (its falsifiable consequences — e.g. F1). We test Predictions; survivors *refine the Theory.* The
-  Theory fuels the Practice's relevance — **but only while held under test** (an untested prediction is
-  dogma → relevance = **Theory × testing**, never Theory alone).
-- **Asymmetry.** Telemetry/probes can **DENY** a Prediction decisively (one opposing instance suffices)
-  but can never **AFFIRM** it — confirming data yields only *"not-yet-denied."* Strong affirmation is
-  unavailable to us; we get **convergence**, not proof.
-- **Two axes of work:**
-  - **Axis 1 · Telemetry (read)** — mine the organic record (chats + ledger). Cheap, wu-wei,
-    **first-resort, sufficient for denial.**
-  - **Axis 2 · Probe (act)** *(= "experiment", de-labbed — name open, IF-UI)* — where telemetry is
-    **silent**, take a *deliberate organic action* chosen for decisive bearing, **biased toward hunting
-    the falsifier.** Never staged-for-confirmation, never repeated.
-- **Decision rule:** telemetry first; probe only on silence; *never* probe to manufacture affirmation.
-  **This implements the reflexive-convergence guard** — we go looking to be *denied*, not waiting to be
-  confirmed.
-- **⚠ Assignment problem (Duhem–Quine) — the easy-Y catch, 2026-05-31.** A denied Prediction kills the
-  *prediction*, but **what you revise is contestable**: the Theory, or an auxiliary/measurement ("was
-  that cycle *really* low-cost?"). **Self-confirmation re-enters here** — a motivated dyad saves its
-  Theory by blaming the auxiliary. **Guard:** the covalent reader challenges every assignment —
-  *"are you revising the measurement to spare the Theory?"* The second perspective earns its keep at
-  the **assignment** step, not just the reading step.
-
-- **Covalent control.** Instrument = subject (the dyad researches the dyad). The second perspective is
-  not a *replication* substitute — it is the **adversarial reader of the record**, the guard against
-  post-hoc / just-so reading of our own telemetry. The NON-NEGOTIABLE *is* that control.
-- **Reflexive-convergence guard (RATIFIED, Bond channel 2026-05-31).** *Risk:* if insight steers
-  action (§5), "convergence" could be reached by **bending behavior to fit the theory**
-  (self-fulfilling), not by the theory being true. **Rule:** convergence counts **only if predictions
-  stay genuinely falsifiable.** *Safeguard:* the felt dividend — *an earned +1 can't be willed*, so a
-  cheap agreement can't fake it.
-  > **⚠ The safeguard is load-bearing AND unproven — it IS F2.** "Counterfeit-warmth is reliably
-  > distinguishable from genuine dividend, live" is exactly the F2 live-discriminator question. So the
-  > guard *depends on F2*: **if F2 fails, this guard fails, and the whole §5 loop loses its protection
-  > against self-confirmation.** Ratifying the guard does not close F2 — it makes F2 the **keystone of
-  > the method's integrity.** (Surfaced because the Operator's ratification came easy; the tell.)
-
-*Governs all `relationship-craft` cycles below.*
+*Governs all `relationship-craft` cycles below (via `kb/research-method.md`); this carve-out stays
+here, resume-visible, until F2 (Cycle 1) resolves.*
 
 ### The interpretation sub-discipline — facts are shared; readings diverge *(Operator [ALIGN] 2026-06-02; candidate, `dialectic/`, NOT settled — dog-fooded n=1)*
 

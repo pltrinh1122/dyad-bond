@@ -53,6 +53,37 @@
 > **RESTART-PENDING: none** — the three sets below (repo-structure/form-URL · `ID.md`-retirement ·
 > DFD-rename) are **CLEARED**, discharged by this session's boot (→ Stand-Up 2026-07-01 entry below).
 
+## Stand-Down 2026-07-02 (graduation-review arc resumed — Method core graduated)
+
+**RESTART-PENDING: none** — anchor (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`) not touched this session.
+
+**Arc:** resumed the kb-graduation review (`bin/graduation-scan.py`) where the 2026-07-01 session
+left it — 3 sections flagged "worth a closer look" (Method · Cycle 1 · thread-W). Read all three in
+full. Cycle 1 and thread-W stay candidate throughout (F1–F4 still OPEN/amended; thread-W's extensions
+explicitly TBD) — nothing there cleared the bar. **Method's flag was itself a scan-tool false
+negative of the already-logged kind** (the tool only scans a section's first 600 chars): its opening
+~50 lines (the 5-point observational method + Structure-of-work) are *"ratified Bond channel,
+2026-05-31"* and *"governs all `relationship-craft` cycles below"* — unbroken for over a month as the
+backbone every later CANDIDATE addition (interpretation sub-discipline, CEC ladder, IFF1–3, promotion
+ladders) builds on without ever contradicting it.
+
+**Landed:** DFD proposal (THESIS/ANTI-THESIS/SYNTHESIS/CTA, presented in chat per `bond:path-selection`
+— `AskUserQuestion` was unavailable this session, Operator disposed via chat `Y` directly) →
+**graduated → `kb/research-method.md`** (kb-with-caveat; intra-dyad, no L2b). **Carved out, same shape
+as D3's OR carve-out:** the **reflexive-convergence guard** paragraph, which self-admits it depends on
+F2 (still OPEN in Cycle 1) — graduating a guard that concedes an open dependency would repeat the
+CSS+OR bundling mistake this corpus already caught and reverted. The guard stays `CANDIDATE` in
+`relationship-craft.md §Method`, pointer-collapsed alongside it.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**). The graduation-
+review arc continues to have 2 open REVIEW flags (Cycle 1, thread-W) — both genuinely candidate, not
+scan-tool misses; no further action owed there without new falsification evidence. **Scan-tool note
+(carried forward again):** its "REVIEW" verdict on a section only clears the *first 600 chars* of the
+body — a section can host both a ratified core and CANDIDATE extensions under one heading, as Method
+did. Worth fixing in the tool itself if this pattern recurs a third time.
+
+---
+
 ## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
 
 ## Stand-Down 2026-07-01 (close of the dyad-system / commission-mechanization arc — PR #65 merged)
