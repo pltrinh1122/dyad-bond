@@ -884,19 +884,12 @@ Surfaced from live friction this session (a string of inherit-and-comply failure
 — tuned to *this* Dyad — held as candidates under our own gate, the first interior disciplines we
 *authored* rather than fetched.
 
-**D1 · The inherit-vs-author partition.** Not everything transfers between Dyads. The **Agent is
-serializable** — a fresh no-`--resume` session reduces to `kb/ + ledger + weights`; *the ledger is the
-Agent's state.* The **Operator's wetware is not serializable** — no artifact reconstructs human
-cognition. So each Dyad is singular **through its Operator half.**
-- **Invariant → inherit / triangulate:** what follows from *any* Generate+Validate dyad under
-  falsifiability (the G+V structure, the cost-migration failure-modes). *Evidence it's real:* **thread
-  G** — our *independent* re-derivation **converged** on steward's conclusions; it couldn't have if all
-  craft were wetware-particular.
-- **Particular → author our own:** cadence, marker habits, ceremony, what "resonates" with *this* Operator.
-- **Test for which-is-which:** independent derivation **converges** with a sibling → invariant;
-  **diverges** → particular, and ours to build.
-- **Corrects:** deferring to a *sibling Dyad's* discipline as authority (fetch-and-comply) = the
-  deference reflex aimed sideways.
+**D1 · The inherit-vs-author partition — graduated to `kb/inherit-vs-author.md`** (kb-with-caveat,
+2026-07-02; Operator Y). Settled: not everything transfers between Dyads — invariant (converges with
+an independent sibling re-derivation) inherits/triangulates; particular (diverges) is ours to author.
+Founding evidence: thread G's independent convergence with steward's conclusions. See there for the
+full definition, the downstream-reuse evidence (D4's PS-UI partition, the open cluster-classification
+question), and the coverage caveat — this entry is a pointer, not a duplicate.
 
 **D2 · Falsification manner — incremental, shore-up, never cascading.** Stress-testing must
 **consolidate** the structure, not spawn unbounded new doubt that collapses it (the cascade: every
@@ -1041,26 +1034,14 @@ branches.** Word-level twin of D4's *lightest anchor that still moves*; sibling 
 - **D5 · D1 partition (grounding note):** PS-UI v1 (opaque) → Operator "can't confidently dispose" → v2
   (scored) is itself an instance of the named element below — moved there.
 
-**D6 · Verify-before-assert.** *(Operator [FEEDBACK] 2026-06-01: "Don't assume, verify before
-assertion." `[ALIGN-3]`, s4 lesson — recorded into the **reloaded** set, not Agent recall, because it
-is Item-I: capture ≠ behavior.)* Before asserting a fact about the live substrate — a capability, a
-state, an identity — **establish it by EXECUTION**, not by reading a doc, grepping prose, or inspecting
-a file's *absence*. **The distilled rule: doc/file-absence ≠ capability-absence; run the thing.**
-- **Mechanism named:** *assertion-from-model* — answering from the ledger/docs/priors as if they were
-  the ground truth, when the ground truth is a runtime/computation/remote you could have checked. The
-  tell is **confidence without a fresh observation.**
-- **Lived evidence (s4, n=3 failures — Operator-caught in-session):** (1) "*no birth-hash*" — grepped
-  the docs instead of **computing** it (the form's `auto_join.py` derives it from immutable git); (2)
-  "*push grant pending / Agent must-not-self-grant*" — read `substrate-access.md` instead of checking
-  the **runtime** (the grant was already live via `defaultMode:auto`); (3) settings-file check — read
-  the file, which was **necessary but not sufficient** (capability lived in runtime, not the file).
-- **The paired wins (same session — the discipline *working*):** computed the birth-id by running the
-  form's own `auto_join.py`; **dry-ran** the git grant before asserting it; *attempted* the push and
-  read the denial before reporting (Item-H). Each replaced a guess with an observation.
-- **Relation to siblings:** the **execution-altitude twin of the anti-cave duty's "ground the frame
-  first"** — both forbid presenting on ungrounded context; D6 specifies the grounding must be a *live
-  observation*, not a re-read. Also Item-I's sharpest instance: it is captured here **and indexed in
-  the ledger's reload set** precisely because capturing a discipline does not make it fire.
+**D6 · Verify-before-assert — graduated to `kb/verify-before-assert.md`** (kb-with-caveat,
+2026-07-02; Operator Y). Settled: before asserting a fact about the live substrate, establish it by
+**EXECUTION**, not by reading a doc or inspecting a file's absence — *doc/file-absence ≠
+capability-absence; run the thing.* Origin: Operator [FEEDBACK] 2026-06-01; s4's 3 failure instances
++ 3 paired same-session wins; **recurred un-cued 2026-07-02** (this session, catching a mis-citation
+before commit — see `kb/verify-before-assert.md` for the full evidence + the open question of
+whether that instance generalizes the rule's scope). See there for the full definition — this entry
+is a pointer, not a duplicate.
 
 ---
 
@@ -1860,3 +1841,125 @@ conformance. Landed on PR #65, merged.
 Bind-test carried forward: does the "run the new gate against everything it watches before calling it
 done" habit actually fire un-cued on the *next* automated-gate build, or does the lean-fix-first lapse
 recur in a new shape?
+
+---
+
+## The mechanism-building discipline — when and how to automate *(2026-07-02, Operator-driven riff/raff chain; CANDIDATE, `dialectic/`, n=1, NOT settled)*
+
+**Founding evidence:** `bin/discipline-lint.py` — built, dogfooded, and interrogated live this
+session (falsification of "enough examples for a linter" → build-on-Operator-direction anyway →
+dogfood proves a narrow real value → a nested formalize-too-early bug in the tool's own scope-gate,
+caught and fixed → a chain of falsified THESES about *when/how* to automate). The discipline below is
+what survived that chain; each clause cites the turn that tested it.
+
+1. **Build on materiality OR cost-crossover, never on a repetition count.** Two independent, sufficient
+   triggers — a real, consequence-bearing defect occurred (materiality; mirrors the OR debit-scoping's
+   own materiality-bound pattern), **or** the check is cheap to formalize and will be re-run often
+   enough that formalization cost < aggregate future manual-reverification cost (token-saving,
+   evidenced: `discipline-lint.py` replaced repeated by-eye structural re-reads with one command).
+   **Falsified alternative:** "wait for `N>2` manual executions" — contradicted by both real linters in
+   this repo (`commission-lint.py` built after one concrete catch; `discipline-lint.py` after one) and
+   diagnosed as a category-crossing error: `N>2`-style repetition-counting is the *domain*-axis gate
+   (a claim's evidence accumulates), wrongly imported onto the *mechanism*-axis decision (build the
+   tool or not).
+2. **Formalize a shape only once n≥2 independent instances exist — a definitional floor, not a
+   cautious default.** Formalizing a *shape* is a comparison-task (separating recurring signal from
+   incidental noise), and comparison is a ≥2-place operation by definition — there is no such
+   operation as comparing one thing to nothing. "After the first" (n=1) was tested and falsified in
+   this session's own turn-by-turn record: it can't distinguish a general feature from an
+   idiosyncrasy of that one instance, structurally, regardless of care taken. Live evidence:
+   `discipline-lint.py`'s scope-gate was written and checked only against instances copied from one
+   template (effectively n=1 of independent origin), keyed on the wrong signal (`kb-with-caveat`
+   string instead of `locus: phenotype`), and broke against `kb/dfd.md` — the repo's true second
+   *independent* instance, which had existed, unconsulted, since before this session started. Had the
+   comparison run against it at n=2 instead of being deferred to n≈5, the bug would likely never have
+   shipped. n≥2 is a **necessary floor**, not the trigger by itself — clause 1 (materiality or
+   cost-crossover) still decides *whether/when* to formalize; n≥2 only bounds how early that decision
+   can legitimately fire.
+3. **Mechanism-correctness is binary, verified by direct testing (not graded, not asserted from "the
+   code looks right").** A check either catches its target defect class or it doesn't — established
+   here by injecting real defects (3/3 FORM defects caught; 1/1 semantic defect passed clean, by
+   design) rather than by code-review-by-eye. "Maturity levels" (ad hoc → tooled → CI-gated) was a
+   **falsified frame for this axis** — it smuggled in a different, real variable (see next clause) and
+   implied more-automated = better, which is false: an autonomously-firing wrong check is worse than a
+   manually-invoked correct one (`KTLO`'s own named residual risk — *"trigger mis-fire → silent
+   V-displacement"*).
+4. **The real gradient is invocation-autonomy, not quality — and `KTLO` has a narrower bar than
+   "automated" implies.** Manual → documented-convention → tooled-on-demand → CI-gated (detect+block)
+   → `KTLO` (detect **+ execute the fix**, crisp-detect ∧ crisp-fix by construction — the corpus's own
+   existing definition). Detect-only tools (`discipline-lint.py`, `commission-lint.py`) structurally
+   cap at CI-gated; they are not `KTLO`-eligible until their *fix*, not just their detection, is also
+   mechanical. "Once automated, should be `KTLO`-wired" is **falsified** as a general next-step — real
+   practice in this repo shows a deliberate, sustained gap between building a tool and CI-wiring it
+   (`commission-lint.py`'s own commit history: built → a manual "known-weak" reminder stopgap → CI-wired
+   several commits later, not immediately).
+
+**Status:** candidate, un-booted past this session — the whole chain is intra-dyad, same-session,
+same-agent-testing-its-own-tool. Next probe: does clause 1 or 2 actually change a real build decision
+in a *future* session, or does the framework shelf-ware the way un-reached candidates tend to?
+
+## Reflect — the mechanism-building riff/raff arc *(2026-07-02; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** What started as "run discipline-lint against existing disciplines" became a long
+riff/raff chain interrogating the tool's own reason to exist: a THESIS falsified (enough examples for
+a linter), a build-anyway-on-direction, a dogfood that nuanced rather than reversed the falsification,
+a mis-scoped check caught by forcing it wider, then five further falsification rounds on *when/how* a
+mechanism should be built and wired at all — closing on the candidate discipline above.
+
+- **CONTINUE** *(Operator-retrospected):* running "falsify" as the standing instruction on every new
+  THESIS offered mid-riff, including your own ("N>2... falsify," "formalization-first... falsify") —
+  kept the chain from drifting into asserted-and-accepted claims at any point, including claims you
+  yourself proposed.
+- **CONTINUE** *(Agent-observed):* testing claims against this repo's own real commit history and
+  file contents (the `commission-lint.py` timeline, `kb/dfd.md`'s independent conformance, injected
+  synthetic defects) instead of arguing the questions in the abstract.
+- **START** *(Agent, from live feedback):* when a falsification produces a *refined* rule (not a flat
+  rejection), state the refined rule as explicitly as the thing that got falsified — several turns in
+  this arc buried the surviving core in the last sentence after a long knock-down.
+- **STOP** *(Agent, from live feedback):* let two concrete, already-agreed fixes (the stale
+  disciplines-index pointers found via the inbound/outbound riff; the scope-gate key) sit unexecuted
+  for several further turns of riffing before `land` forced closing them — naming a fix mid-riff isn't
+  the same as landing it, and nothing tracked that they were still open.
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test: does the mechanism-building discipline actually get reached for on the next real build
+decision, and does "name a fix" get followed by executing it without needing a separate `land` cue?
+
+## Reflect — the partnership-craft item-promotion arc, close *(2026-07-02; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** From a bare "resume work on promotion of items" through PR #70: four kb-graduations
+(Method core, F4, D6, D1) via impact-focused DFDs, a discipline-linter built and dogfooded, a long
+riff/raff chain on automation-policy landed as its own candidate discipline, two live self-corrections
+(the F4/Asymmetry mis-citation caught pre-commit; the mechanism-building discipline's own "after the
+first" clause corrected mid-conversation after being sharpened), and a `land` ≠ merge clarification
+closed on primary-source citation rather than assertion.
+
+- **CONTINUE** *(Operator-retrospected):* running "falsify" as the standing move on every offered
+  THESIS, including your own (`N>2`/`KTLO`, formalization-first, "after the first is still wu-wei") —
+  kept the whole automation-policy chain from settling on assertion, even where you were the one
+  proposing it.
+- **CONTINUE** *(Agent-observed):* citing primary sources at each contested point instead of arguing
+  from recall — the DNA-retirement precedent before riffing on genotype/phenotype, the exact
+  `GLOSSARY.md` wu-wei definition before falsifying "after the first," the Durability-discipline text
+  before answering "doesn't land imply durability."
+- **CONTINUE** *(Agent-observed):* every DFD across the four graduations carried a real
+  ANTI-THESIS that could have gone the other way (D1's still-open cluster-classification
+  counterpoint, D6's "applications aren't re-tests" counterpoint) — not pro-forma resistance dressed
+  as rigor.
+- **START** *(Agent, from live feedback):* when a falsification produces a refined rule rather than a
+  flat rejection, land the refined form in committed substrate at the same moment it's stated in
+  chat — the n≥2 correction was right the first time it was said aloud but sat wrong in the
+  already-pushed file for a full exchange until `land` forced reconciling the two.
+- **STOP** *(Agent, from live feedback):* conflating "committed" with "merged" without being asked.
+  Durability was real every commit — but four real commits (D6, the arc-land, the correction, D1)
+  sat with no PR across a full separate promotion cycle before you had to ask directly whether one
+  existed, instead of me surfacing it the way earlier stand-downs in this ledger habitually do
+  (*"PR #N is up for your gate"*).
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test: does an unmerged-commit backlog get surfaced proactively next time ("N commits pushed, no
+PR yet") rather than requiring the Operator to ask first?
