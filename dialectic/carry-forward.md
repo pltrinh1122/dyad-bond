@@ -150,6 +150,34 @@ continues (one real convergence datapoint vs. D2's none cited).
 
 ---
 
+## Stand-Down 2026-07-02 (cont.) — the mechanism-building riff/raff arc, landed
+
+**RESTART-PENDING: none** — anchor not touched.
+
+**Landed:** a long riff/raff chain (triggered by "run discipline-lint against existing disciplines")
+closing on a candidate discipline — `relationship-craft.md §The mechanism-building discipline — when
+and how to automate` — durable + Reflect (CSS+OR) → same file. Headline claims: build on materiality
+OR cost-crossover, never a repetition count; formalize after the first real instance, never before
+any; mechanism-correctness is binary (verified by direct testing) not graded; `KTLO` requires
+crisp-*fix* not just crisp-detect, so detect-only linters cap at CI-gating.
+
+**Two concrete fixes closed on `land` (named mid-riff, executed only now):**
+- Stale disciplines-index pointers (D3, D6, R1) now cite their graduated `kb/` homes directly instead
+  of `relationship-craft.md`'s collapsed pointers.
+- `bin/discipline-lint.py`'s scope-gate re-keyed from the `kb-with-caveat` string to `locus:
+  phenotype` — `kb/dfd.md` now correctly included by default; `kb/founding-evidence.md` still
+  correctly excluded. Re-run clean (`kb/dfd.md` PASS with its pre-existing round-trip advisory,
+  unrelated to the fix).
+
+**Self-caught mid-arc (STOP, logged in the Reflect entry):** the two fixes above sat named-but-
+unexecuted for several turns of further riffing before `land` forced closing them — a live instance
+of "naming a fix isn't landing it," worth watching next time a riff surfaces something actionable.
+
+**Resume:** live fronts unchanged. New candidate (mechanism-building discipline) is un-booted —
+next probe is whether it's actually reached for on a future real build decision, not asserted here.
+
+---
+
 ## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
 
 ## Stand-Down 2026-07-01 (close of the dyad-system / commission-mechanization arc — PR #65 merged)
@@ -511,6 +539,7 @@ anchor → refresh the per-file boot-set + clear RESTART-PENDING. Live fronts un
   Ternary: a candidate may diverge to a *sibling's* telos (filter by telos-ownership first).
 - **`bond:incremental-shore-up`** (D2) — falsify to *consolidate*, bounded; never cascade (every answer → 3 attacks).
 - **`bond:reflection-substance`** (D3) — substance + durability, minus the four-step ceremony.
+  *(graduated → `kb/reflection-discipline.md`, kb-with-caveat, 2026-07-01.)*
 - **`bond:path-selection`** (D4) — at a **selection-seam**: scored PS-UI (DAG→ready-set · ranked
   Recommendation) + **mandatory [CTA]**. *"No CTA / your move" = abdication.* **SG-1:** binds selection,
   not ideation (IFD converges open, no CTA). **SG-2:** a **mechanical** act (push/commit) takes the
@@ -533,6 +562,7 @@ anchor → refresh the per-file boot-set + clear RESTART-PENDING. Live fronts un
   establish it by **EXECUTION**, not by reading a doc or a file's absence. **doc/file-absence ≠
   capability-absence; run the thing.** Tell = confidence without a fresh observation. Execution-altitude twin
   of anti-cave's *ground-the-frame-first*. (s4: 3 assertion-from-model failures Operator-caught.)
+  *(graduated → `kb/verify-before-assert.md`, kb-with-caveat, 2026-07-02.)*
 - **`bond:anti-cave`** (D10 · Anti-cave duty) *(Steward-discipline-intake (a); ionic collapse is bidirectional — staged for the anchor)* — the Agent must
   **manufacture real grounds for the Operator to dissent** (scored cells · non-strawman [ANTI-THESIS] ·
   **ground-the-frame-first**). An ungrounded surface offers *false* grounds → can induce a **wrong** `Y`.
@@ -552,7 +582,8 @@ anchor → refresh the per-file boot-set + clear RESTART-PENDING. Live fronts un
   claim = claim → cited evidence → **named confound** → calibrated verdict; a rival confound *demotes* the
   claim. Run it on your OWN claims (it caught C2 *and* the survivor-bias).
 - **`bond:operator-rub`** (R1 · operator-rub-invariant) *(RATIFIED `Y` 2026-06-11 s14; full text + debt register →
-  `relationship-craft.md`)* — 3 conditions: (1) **Scope** — Operator-rub required only for the
+  `kb/operator-rub-invariant.md`, kb-with-caveat, graduated 2026-07-01 — `relationship-craft.md`'s own R1
+  entry is now itself just a pointer, not the full text)* — 3 conditions: (1) **Scope** — Operator-rub required only for the
   **interior-evidence class** (findings whose evidence is the Operator's interior/behavior; exterior claims
   go to the fleet); (2) **Graduation gate** — an interior finding is **debt (willed-not-earned) until
   rubbed**: no kb-promotion, no citing-as-settled, no load-bearing reuse; (3) **Debt-flatness** —

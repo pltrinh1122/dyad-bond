@@ -8,20 +8,21 @@ invariant-eval.py: section presence + the pointer-collapse round-trip. It does N
 (whether the rule is correctly stated, whether a citation actually traces to what it claims to —
 the exact defect this session's own kb graduations produced and this tool cannot see).
 
-Scope is deliberately gated on the file's own `kb-with-caveat` self-declaration in its frontmatter
-comment, not a blanket shape imposed on every kb/*.md file — kb/dfd.md and kb/founding-evidence.md
-predate the convention / have different provenance and are correctly exempt, not violations.
+Scope is gated on `locus: phenotype` in the file's frontmatter, not the `kb-with-caveat` string —
+corrected 2026-07-02 after `kb/dfd.md` (phenotype, but doesn't say "kb-with-caveat") passed the
+shape when forced through anyway, showing the tag-string was the wrong key. `locus: instance` files
+(`kb/founding-evidence.md`) stay correctly exempt — different category, not a violation.
 
 Usage: python3 bin/discipline-lint.py [file ...]
-       (no args -> lints kb/*.md, filtered to files whose frontmatter declares kb-with-caveat)
+       (no args -> lints kb/*.md, filtered to files whose frontmatter declares locus: phenotype)
 Exit:  0 all-pass (or nothing in scope) · 1 violations · 2 file/load error (fail-closed).
 """
 import glob
 import re
 import sys
 
-KB_WITH_CAVEAT_RE = re.compile(r"kb-with-caveat", re.IGNORECASE)
 FRONTMATTER_RE = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
+LOCUS_PHENOTYPE_RE = re.compile(r"^locus:\s*phenotype\b", re.MULTILINE)
 LOCUS_RE = re.compile(r"^locus:\s*\S+", re.MULTILINE)
 TITLE_RE = re.compile(r"^# .+", re.MULTILINE)
 SOURCE_CITATION_RE = re.compile(r"`(dialectic/[\w.\-]+\.md)[^`]*`")
@@ -39,7 +40,7 @@ def in_scope(path):
     except OSError:
         return False
     fm = FRONTMATTER_RE.match(text)
-    return bool(fm and KB_WITH_CAVEAT_RE.search(fm.group(1)))
+    return bool(fm and LOCUS_PHENOTYPE_RE.search(fm.group(1)))
 
 
 def lint(path):

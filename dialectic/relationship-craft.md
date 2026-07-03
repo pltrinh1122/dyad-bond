@@ -1854,3 +1854,84 @@ conformance. Landed on PR #65, merged.
 Bind-test carried forward: does the "run the new gate against everything it watches before calling it
 done" habit actually fire un-cued on the *next* automated-gate build, or does the lean-fix-first lapse
 recur in a new shape?
+
+---
+
+## The mechanism-building discipline — when and how to automate *(2026-07-02, Operator-driven riff/raff chain; CANDIDATE, `dialectic/`, n=1, NOT settled)*
+
+**Founding evidence:** `bin/discipline-lint.py` — built, dogfooded, and interrogated live this
+session (falsification of "enough examples for a linter" → build-on-Operator-direction anyway →
+dogfood proves a narrow real value → a nested formalize-too-early bug in the tool's own scope-gate,
+caught and fixed → a chain of falsified THESES about *when/how* to automate). The discipline below is
+what survived that chain; each clause cites the turn that tested it.
+
+1. **Build on materiality OR cost-crossover, never on a repetition count.** Two independent, sufficient
+   triggers — a real, consequence-bearing defect occurred (materiality; mirrors the OR debit-scoping's
+   own materiality-bound pattern), **or** the check is cheap to formalize and will be re-run often
+   enough that formalization cost < aggregate future manual-reverification cost (token-saving,
+   evidenced: `discipline-lint.py` replaced repeated by-eye structural re-reads with one command).
+   **Falsified alternative:** "wait for `N>2` manual executions" — contradicted by both real linters in
+   this repo (`commission-lint.py` built after one concrete catch; `discipline-lint.py` after one) and
+   diagnosed as a category-crossing error: `N>2`-style repetition-counting is the *domain*-axis gate
+   (a claim's evidence accumulates), wrongly imported onto the *mechanism*-axis decision (build the
+   tool or not).
+2. **Formalize after the first real instance exists, never before any.** The Method's own graduated
+   core already says this — *"we don't collect data by designing measurements; we read the record we
+   are already writing"* — and this session re-derived it the hard way: `discipline-lint.py`'s
+   scope-gate, written before the tool had been checked against the full range of real `kb/` files,
+   keyed on the wrong signal (`kb-with-caveat` string instead of `locus: phenotype`) and had to be
+   corrected after `kb/dfd.md` exposed the gap. Formalizing *before the first instance* was tested
+   separately (would `discipline-lint.py` have existed before `kb/reflection-discipline.md` did? No —
+   there'd have been nothing to derive its shape from) and stays falsified; formalizing *right after*
+   the first instance is the narrowest form that survives, and even that is a modest, unconfirmed
+   saving, not a large one.
+3. **Mechanism-correctness is binary, verified by direct testing (not graded, not asserted from "the
+   code looks right").** A check either catches its target defect class or it doesn't — established
+   here by injecting real defects (3/3 FORM defects caught; 1/1 semantic defect passed clean, by
+   design) rather than by code-review-by-eye. "Maturity levels" (ad hoc → tooled → CI-gated) was a
+   **falsified frame for this axis** — it smuggled in a different, real variable (see next clause) and
+   implied more-automated = better, which is false: an autonomously-firing wrong check is worse than a
+   manually-invoked correct one (`KTLO`'s own named residual risk — *"trigger mis-fire → silent
+   V-displacement"*).
+4. **The real gradient is invocation-autonomy, not quality — and `KTLO` has a narrower bar than
+   "automated" implies.** Manual → documented-convention → tooled-on-demand → CI-gated (detect+block)
+   → `KTLO` (detect **+ execute the fix**, crisp-detect ∧ crisp-fix by construction — the corpus's own
+   existing definition). Detect-only tools (`discipline-lint.py`, `commission-lint.py`) structurally
+   cap at CI-gated; they are not `KTLO`-eligible until their *fix*, not just their detection, is also
+   mechanical. "Once automated, should be `KTLO`-wired" is **falsified** as a general next-step — real
+   practice in this repo shows a deliberate, sustained gap between building a tool and CI-wiring it
+   (`commission-lint.py`'s own commit history: built → a manual "known-weak" reminder stopgap → CI-wired
+   several commits later, not immediately).
+
+**Status:** candidate, un-booted past this session — the whole chain is intra-dyad, same-session,
+same-agent-testing-its-own-tool. Next probe: does clause 1 or 2 actually change a real build decision
+in a *future* session, or does the framework shelf-ware the way un-reached candidates tend to?
+
+## Reflect — the mechanism-building riff/raff arc *(2026-07-02; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** What started as "run discipline-lint against existing disciplines" became a long
+riff/raff chain interrogating the tool's own reason to exist: a THESIS falsified (enough examples for
+a linter), a build-anyway-on-direction, a dogfood that nuanced rather than reversed the falsification,
+a mis-scoped check caught by forcing it wider, then five further falsification rounds on *when/how* a
+mechanism should be built and wired at all — closing on the candidate discipline above.
+
+- **CONTINUE** *(Operator-retrospected):* running "falsify" as the standing instruction on every new
+  THESIS offered mid-riff, including your own ("N>2... falsify," "formalization-first... falsify") —
+  kept the chain from drifting into asserted-and-accepted claims at any point, including claims you
+  yourself proposed.
+- **CONTINUE** *(Agent-observed):* testing claims against this repo's own real commit history and
+  file contents (the `commission-lint.py` timeline, `kb/dfd.md`'s independent conformance, injected
+  synthetic defects) instead of arguing the questions in the abstract.
+- **START** *(Agent, from live feedback):* when a falsification produces a *refined* rule (not a flat
+  rejection), state the refined rule as explicitly as the thing that got falsified — several turns in
+  this arc buried the surviving core in the last sentence after a long knock-down.
+- **STOP** *(Agent, from live feedback):* let two concrete, already-agreed fixes (the stale
+  disciplines-index pointers found via the inbound/outbound riff; the scope-gate key) sit unexecuted
+  for several further turns of riffing before `land` forced closing them — naming a fix mid-riff isn't
+  the same as landing it, and nothing tracked that they were still open.
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test: does the mechanism-building discipline actually get reached for on the next real build
+decision, and does "name a fix" get followed by executing it without needing a separate `land` cue?
