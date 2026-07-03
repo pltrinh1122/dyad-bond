@@ -1875,16 +1875,20 @@ what survived that chain; each clause cites the turn that tested it.
    diagnosed as a category-crossing error: `N>2`-style repetition-counting is the *domain*-axis gate
    (a claim's evidence accumulates), wrongly imported onto the *mechanism*-axis decision (build the
    tool or not).
-2. **Formalize after the first real instance exists, never before any.** The Method's own graduated
-   core already says this — *"we don't collect data by designing measurements; we read the record we
-   are already writing"* — and this session re-derived it the hard way: `discipline-lint.py`'s
-   scope-gate, written before the tool had been checked against the full range of real `kb/` files,
-   keyed on the wrong signal (`kb-with-caveat` string instead of `locus: phenotype`) and had to be
-   corrected after `kb/dfd.md` exposed the gap. Formalizing *before the first instance* was tested
-   separately (would `discipline-lint.py` have existed before `kb/reflection-discipline.md` did? No —
-   there'd have been nothing to derive its shape from) and stays falsified; formalizing *right after*
-   the first instance is the narrowest form that survives, and even that is a modest, unconfirmed
-   saving, not a large one.
+2. **Formalize a shape only once n≥2 independent instances exist — a definitional floor, not a
+   cautious default.** Formalizing a *shape* is a comparison-task (separating recurring signal from
+   incidental noise), and comparison is a ≥2-place operation by definition — there is no such
+   operation as comparing one thing to nothing. "After the first" (n=1) was tested and falsified in
+   this session's own turn-by-turn record: it can't distinguish a general feature from an
+   idiosyncrasy of that one instance, structurally, regardless of care taken. Live evidence:
+   `discipline-lint.py`'s scope-gate was written and checked only against instances copied from one
+   template (effectively n=1 of independent origin), keyed on the wrong signal (`kb-with-caveat`
+   string instead of `locus: phenotype`), and broke against `kb/dfd.md` — the repo's true second
+   *independent* instance, which had existed, unconsulted, since before this session started. Had the
+   comparison run against it at n=2 instead of being deferred to n≈5, the bug would likely never have
+   shipped. n≥2 is a **necessary floor**, not the trigger by itself — clause 1 (materiality or
+   cost-crossover) still decides *whether/when* to formalize; n≥2 only bounds how early that decision
+   can legitimately fire.
 3. **Mechanism-correctness is binary, verified by direct testing (not graded, not asserted from "the
    code looks right").** A check either catches its target defect class or it doesn't — established
    here by injecting real defects (3/3 FORM defects caught; 1/1 semantic defect passed clean, by
