@@ -57,6 +57,26 @@
 > 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
 > fresh set, not a reopening.)*
 
+## Stand-Down 2026-07-03 (cont.) — `reflect`/`stand-down` collapsed to `d-reflect`
+
+**RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode.
+
+**Landed, disposed live via `d-land: d-reflect name for the reflect-discipline`** (second live use of
+`d-land`, first with the trailing-colon-explanation format — both worked as designed). One token,
+`d-reflect`, replacing separate `reflect`/`stand-down` entries — telemetry showed every `Reflect` this
+session was already paired with a ledger update in the same turn, one job not two. Fires mid-session or
+at session-end alike; which one isn't pre-signalled by word choice, same shape as the `land`/`d-land`
+collapse two commits ago.
+
+**Current token set, six total:** `riff:` / `raff:` (diverge/converge) · `why:` (purpose) · `d-land`
+(commit or start-a-landing, scope self-determined) · `d-reflect` (reflect + ledger-prep, mid-session or
+at close) · `Y`/`N` (dispose). Down from the original eleven-plus, each retirement or collapse backed
+by a confirmed reason, not a count target.
+
+**PR #71 now carries 12 commits.** Still open, still up for your gate.
+
+---
+
 ## Stand-Down 2026-07-03 (cont.) — `land`/`d-land` collapsed to one token
 
 **RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode.
