@@ -1969,3 +1969,42 @@ closed on primary-source citation rather than assertion.
 **Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
 Bind-test: does an unmerged-commit backlog get surfaced proactively next time ("N commits pushed, no
 PR yet") rather than requiring the Operator to ask first?
+
+---
+
+## The landing-discipline — a checklist for starting a landing *(2026-07-03; CANDIDATE, `dialectic/`, n=0-then-1, NOT settled)*
+
+**Scope.** Applies once a landing has genuinely been initiated (an unambiguous Operator signal to
+open a PR — not a bare `land`, which is overloaded for plain commits; see `relationship-craft.md`'s
+"landed ≠ a landing" distinction). Composes already-landed rules into one procedure; does not invent
+new ones.
+
+1. **Verify before asserting green** — re-run the actual checks immediately before opening, not from
+   memory of an earlier pass (`bond:verify-before-assert`).
+2. **Scope to the arc, by execution** — `git log origin/main..HEAD`, bundle everything ahead of
+   `main`, not just the triggering commit (`"one PR per session-arc"`, `substrate-access.md`).
+3. **Open mechanically, no second CTA** — the signal already fired; re-asking is the redundant
+   double-anchoring `SG-4` names one gate over.
+4. **Write a real body** — Summary + Test plan, not a bare PR.
+5. **Do not merge, auto-merge, or request reviewers** — stops at "it exists and is described"
+   (`bond:no-self-ratify`, `bond:no-self-act`).
+6. **Surface it back explicitly — in chat AND logged in the ledger** ("PR #N is up for your gate",
+   written into `carry-forward.md`, not left implicit in chat only).
+7. **Flag `RESTART-PENDING` implications if the anchor/boot-set is touched** (`bond:rom-ui`).
+8. **Re-check for a PR template each time**, not once per session.
+
+**Falsification status.** **First real audit (2026-07-03, this session) — the checklist failed
+its own bar before it was ever formalized:** checked against the two PRs (`#69`, `#70`) actually cut
+this session, **only items 4 and 5 held reliably both times.** Item 1 was never done immediately
+before opening (checked pre-commit, stale by PR-time). Item 2 held for `#70` (executed) but not `#69`
+(scope was *correct* by luck/recall, not verified — a live D6 violation in the very discipline meant
+to prevent it). Item 3 held for `#69`, not `#70` (an extra, avoidable CTA). Item 6 never held, either
+time — the exact gap the earlier "mechanism-building" Reflect entry's STOP already named, recurring
+unfixed across two more landings before this audit caught it concretely instead of just naming it
+again. Item 8 checked once, not repeated. **n=0 on a clean successful run; n=1 (this landing, below)
+is the first real execution attempt, live.**
+
+**Forward.** Re-audit on the *next* landing after this one — does the full checklist hold end to end,
+or does a different item fail once the obvious ones (1, 6, 8) are being watched for? Not kb-eligible
+until it survives at least one clean, fully-verified run — this file stays candidate regardless of
+how this landing itself goes.
