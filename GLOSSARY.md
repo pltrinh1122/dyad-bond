@@ -83,11 +83,14 @@ Reflect is F2-keystone-gated.
   Three modes, Operator-signalled transitions only; the Agent never crosses on its own.
   - **diverge** (default, resting state) — generate/explore/surface/**falsify**, no closing. No token
     needed to stay here — it's where every turn starts.
-  - **converge** — close toward a shared position/disposition, two distinct flavors, decomposed
-    2026-07-03 (were presented as interchangeable, weren't): **`raff:`** = plain consolidation
-    ("settle on a position now"); **`rub`** = adversarial testing ("attack this until it survives or
-    breaks, then converge") — matches `rub`'s established sense elsewhere (`Operator-rub`,
-    `rub-forward`), not a new coinage.
+  - **converge** — close toward a shared position/disposition. **`raff:`**, one token — the earlier
+    2026-07-03 split (`raff:` = plain consolidation vs. `rub` = adversarial testing) was a mistaken
+    reconstruction, corrected same-day: `rub` **as a personal mode-trigger** was the Operator's signal
+    for *"this is a claim, test it adversarially"* — now redundant, since WHAT-detection +
+    default-falsify already do that automatically for any declarative claim, no token needed.
+    **`rub` the corpus concept is untouched** — `Operator-rub-invariant`, "debt until rubbed,"
+    `rub-forward` cards describe an evidentiary *event* (a finding attacked, survived or not), a noun,
+    not a chat command; nothing about default-falsify changes that usage.
   - **act** — mutate substrate or go outward. `land` = commit a distillation to durable substrate
     (layer 1/2, un-gated) — its own single sense now, not overloaded. **`d-land`** = start a landing
     (open a PR, layer 3, gated by `bond:no-self-act`) — invokes `relationship-craft.md §The
