@@ -306,6 +306,10 @@ The gates **nest**: an action token also lifts the convergence gate (you cannot 
 
 ## Token categories — WHAT / WHY / HOW *(CANDIDATE · Operator-led design pass, 2026-07-03; `dialectic/`, NOT settled — n=1 session, unaudited past this conversation)*
 
+> **Operational reference lives in `GLOSSARY.md §Dyad-UI cluster`** (boot-loaded, self-sufficient for
+> turn-to-turn recognition). This section is the design-reasoning — the constraints, the rejected
+> alternatives, why each choice won — not needed to *use* the tokens, only to audit or extend them.
+
 Every Operator turn resolves along three independent axes. Only two carry tokens; the third is
 detected, not signalled.
 

@@ -78,12 +78,24 @@ Reflect is F2-keystone-gated.
 - **GF-UI / GFD** — goal-framing. **VF-UI / VFD** — validation-framing (`AGREE: Y|N`, low-load, dissent-enabling).
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
-- **Token categories (WHAT/WHY/HOW)** — WHAT (claim/directive/question) is Agent-detected, no token;
-  `why:` discloses purpose, reorients without asserting or executing; HOW (`riff:`/`raff:`) is
-  Agent-detected by default, tokens only override genuine ambiguity. Declarative claims default to
-  falsification (G0-inherited, not discretionary). Discipline-triggers use a `d-` prefix
-  (e.g. `d-land`). CANDIDATE, `dialectic/`, full definitions + design constraints in
-  `dialectic/dyad-ui.md §Token categories`.
+- **Token categories (WHAT/WHY/HOW)** — self-sufficient here; `dialectic/dyad-ui.md §Token categories`
+  is design-reasoning only (the five constraints, rejected alternatives), not needed for turn-to-turn use.
+  - **WHAT** — claim / directive / question, Agent-detected from grammar (declarative / imperative /
+    interrogative), no token. **Elliptical utterances that defeat grammar** (e.g. `"merged PR"`) fall
+    back to **grounding by execution** (check the real state), never a guessed reading.
+  - **WHY** — `why:`, one token. Discloses Operator purpose; reorients the response without asserting a
+    claim to test or a directive to execute.
+  - **HOW** — Agent-detected by default (does the content read as exploratory or as ready-to-resolve);
+    `riff:` (diverge — generate options, no closing) / `raff:` (converge — close toward a disposition)
+    **override only when content alone is genuinely ambiguous**, not a mandatory prefix.
+  - **Default-falsify** — a detected declarative **claim proposed to enter the shared model** is tested
+    by default (G0's falsification law, *"nothing exempt"* — not a discretionary `falsify` trigger).
+    **Does not apply to status reports** (a fact being stated, not a claim being proposed) — those
+    default to grounding-by-execution instead, same as the WHAT fallback above.
+  - **Discipline-triggers** — `d-<word>` (e.g. `d-land`), standalone action words, optional trailing
+    colon + explanation. Distinct symbol family from WHY/HOW (no leading-colon variant — tested and
+    dropped, added nothing over the `d-` prefix alone).
+  - **Status:** CANDIDATE, `dialectic/`, n=1 (one session's design pass, unaudited past it).
 
 ## craft-* family *(bond-authored — the dyad's three levels; LANDED as bond's two roots; proposed to the DIP)*
 The level-vocabulary every dyad fills; only the fills differ. **Landed in bond's anchor** as the two roots
