@@ -78,6 +78,80 @@ Reflect is F2-keystone-gated.
 - **GF-UI / GFD** — goal-framing. **VF-UI / VFD** — validation-framing (`AGREE: Y|N`, low-load, dissent-enabling).
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
+- **Mode-gate (diverge/converge/act)** — self-sufficient here; `dialectic/dyad-ui.md §The mode-gate` is
+  design-reasoning only (the causal test behind `no-self-converge`), not needed for turn-to-turn use.
+  Three modes, Operator-signalled transitions only; the Agent never crosses on its own.
+  - **diverge** (default, resting state) — generate/explore/surface/**falsify**, no closing. No token
+    needed to stay here — it's where every turn starts.
+  - **converge** — close toward a shared position/disposition. **`raff:`**, one token — the earlier
+    2026-07-03 split (`raff:` = plain consolidation vs. `rub` = adversarial testing) was a mistaken
+    reconstruction, corrected same-day: `rub` **as a personal mode-trigger** was the Operator's signal
+    for *"this is a claim, test it adversarially"* — now redundant, since WHAT-detection +
+    default-falsify already do that automatically for any declarative claim, no token needed.
+    **`rub` the corpus concept is untouched** — `Operator-rub-invariant`, "debt until rubbed,"
+    `rub-forward` cards describe an evidentiary *event* (a finding attacked, survived or not), a noun,
+    not a chat command; nothing about default-falsify changes that usage.
+  - **act — one invocation, `d-land`; scope is Agent-determined by checking state, not by which word
+    was typed** (corrected same-day — the earlier `land`/`d-land` split assumed the Operator needed to
+    pre-select weight; the actual discriminator, is-there-already-an-open-PR-for-this-arc, is
+    mechanically checkable, not a judgment call the Operator should have to make). On `d-land`: commit
+    always; then check `git log origin/main..HEAD` + open-PR state — an existing open PR for this arc →
+    commit+push, done (the common case, ~20+ times a session); no open PR and the arc reads complete →
+    run the full `relationship-craft.md §The landing-discipline` checklist, open one. Bare `land` is
+    retired as a separate token.
+  - **`d-reflect`** — one token, replacing the separate `reflect`/`stand-down` entries (collapsed
+    2026-07-03: checked telemetry, every `Reflect` this session was already paired with a
+    `carry-forward.md` update in the same turn — one job, not two). Invokes
+    `kb/reflection-discipline.md`'s CSS+OR form (Continue/Start/Stop, provenance-tagged) *and* prepares
+    the ledger for the next session's resume — the Operator restarts via `/exit` or a fresh chat
+    thread, never `--resume`, so this is what makes that resume coherent. Fires mid-session or at
+    actual session-end alike — whether the Operator keeps chatting or exits right after isn't something
+    the Agent does differently, so it isn't pre-signalled by word choice (same shape as the
+    `land`/`d-land` collapse). Bare `reflect` and `stand-down` retired as separate tokens.
+  - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
+    converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
+    stays inside diverge, never gated.
+  - **`clip`/`lean` retired 2026-07-03 — functionally obsolete, not just unused, both for reasons
+    Operator-confirmed rather than reconstructed from the historical record alone.**
+    - `clip`'s original job (2026-06-13 fiat: *"the typed... stand-down trigger... runs: (1) the
+      mechanical durability..."*) was a manual WIP-durability trigger — superseded by the **Durability
+      discipline** (auto-save, Stop-hook-enforced, un-gated, since 2026-06-27; *"commit+push WIP at
+      every natural pause... honoring its flag every turn IS the mechanism"*), running autonomously the
+      whole time `clip` sat unused. Its later drift into "segment-close, no disposition forced" happened
+      *after* the original job was already gone. WIP tracking is expected autonomous going forward.
+    - `lean` — the historical record only shows it as a noun (*"each `clip` emits the lean resume-
+      pointer"*), which is what the earlier version of this entry recorded. Operator's actual usage was
+      different: a **generic "execute this"** trigger, unspecified as to which discipline. Superseded by
+      the `d-` prefix, which names *which* discipline to invoke (`d-land`, and whatever follows) — a
+      strictly less ambiguous replacement for a generic go-ahead.
+    - If a real need for a lighter, non-`stand-down` segment-close resurfaces, name it fresh against an
+      actual live case — not either of these, re-derived from obsolete or mischaracterized history.
+  - `Y` / `N` — dispose. Binary ratification; never inferred, never proceeded-on-silence.
+  - **HITL scope (Operator disposition, 2026-07-03):** once disposed, commit/verification mechanics
+    (the landing-discipline's own checklist steps) run **Agent-autonomous, no further check-ins** —
+    Operator HITL is reserved for **intent clarity** (WHAT/WHY disambiguation) and **disposition**
+    itself (the `Y`/`land`/`d-land` act), not for each mechanical step in between.
+  - **`bond:no-self-converge`** — the Agent may not enact convergence (close, dispose, emit a `[CTA]`)
+    until `raff`/`rub`. **`bond:no-self-act`** — the Agent may not start a landing (open a PR) until
+    `land`. Structural twins of `no-self-ratify` (disposer ≠ proposer).
+- **Token categories (WHAT/WHY/HOW)** — self-sufficient here; `dialectic/dyad-ui.md §Token categories`
+  is design-reasoning only (the five constraints, rejected alternatives), not needed for turn-to-turn use.
+  - **WHAT** — claim / directive / question, Agent-detected from grammar (declarative / imperative /
+    interrogative), no token. **Elliptical utterances that defeat grammar** (e.g. `"merged PR"`) fall
+    back to **grounding by execution** (check the real state), never a guessed reading.
+  - **WHY** — `why:`, one token. Discloses Operator purpose; reorients the response without asserting a
+    claim to test or a directive to execute.
+  - **HOW** — Agent-detected by default (does the content read as exploratory or as ready-to-resolve);
+    `riff:` (diverge — generate options, no closing) / `raff:` (converge — close toward a disposition)
+    **override only when content alone is genuinely ambiguous**, not a mandatory prefix.
+  - **Default-falsify** — a detected declarative **claim proposed to enter the shared model** is tested
+    by default (G0's falsification law, *"nothing exempt"* — not a discretionary `falsify` trigger).
+    **Does not apply to status reports** (a fact being stated, not a claim being proposed) — those
+    default to grounding-by-execution instead, same as the WHAT fallback above.
+  - **Discipline-triggers** — `d-<word>` (e.g. `d-land`), standalone action words, optional trailing
+    colon + explanation. Distinct symbol family from WHY/HOW (no leading-colon variant — tested and
+    dropped, added nothing over the `d-` prefix alone).
+  - **Status:** CANDIDATE, `dialectic/`, n=1 (one session's design pass, unaudited past it).
 
 ## craft-* family *(bond-authored — the dyad's three levels; LANDED as bond's two roots; proposed to the DIP)*
 The level-vocabulary every dyad fills; only the fills differ. **Landed in bond's anchor** as the two roots

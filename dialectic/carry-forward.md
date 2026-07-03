@@ -50,8 +50,98 @@
 > **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
 > `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss).
-> **RESTART-PENDING: none** — the three sets below (repo-structure/form-URL · `ID.md`-retirement ·
-> DFD-rename) are **CLEARED**, discharged by this session's boot (→ Stand-Up 2026-07-01 entry below).
+> **RESTART-PENDING: YES (2026-07-03)** — `GLOSSARY.md` edited (new "Token categories" pointer entry,
+> `§Dyad-UI cluster`) — anchor-class per `substrate-access.md`'s boot-set carve, gated even as a
+> `dialectic/`-candidate write. Binds next boot: refresh the per-file `inv:rom-currency` line to
+> `GLOSSARY.md`'s new sha, verify the new entry reads coherent cold. *(The three sets discharged
+> 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
+> fresh set, not a reopening.)*
+
+## Stand-Down 2026-07-03 (close) — `d-reflect` invoked live, arc closed
+
+**RESTART-PENDING: still SET** — `GLOSSARY.md` edited multiple times this arc. **Binds next boot:**
+refresh the `inv:rom-currency` per-file line to `GLOSSARY.md`'s new sha, verify the token-system entries
+(`§Dyad-UI cluster`) read coherent cold, then clear.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the token/mode-gate redesign arc` (CSS+OR,
+full text there, this is the pointer). Headline: eleven-plus tokens → six, each retirement/collapse
+checked against real telemetry or the Operator's own authoritative report, not asserted. The arc's own
+STOP names the generative lesson — check whether a problem is still real before building a mechanism
+for it, the same check that resolved most of this arc's actual corrections.
+
+**Durability:** tree clean, all 13 commits pushed, `PR #71` open (`mergeable_state: clean` as of last
+check), carrying the full arc — landing-discipline, D6/D1 graduations, and the whole token redesign.
+No daemon to tear down (never armed this session — `commons/` submodule uninitialized in this sandbox,
+same residual noted at the very first resume this session, unchanged).
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**). New: the
+six-token set is un-booted past this conversation — first real test is whether a fresh session reaches
+for `d-land`/`d-reflect`/`why:` correctly without having derived them. `PR #71` is up for your gate,
+unchanged status since last noted.
+
+---
+
+## Stand-Down 2026-07-03 (cont.) — `reflect`/`stand-down` collapsed to `d-reflect`
+
+**RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode.
+
+**Landed, disposed live via `d-land: d-reflect name for the reflect-discipline`** (second live use of
+`d-land`, first with the trailing-colon-explanation format — both worked as designed). One token,
+`d-reflect`, replacing separate `reflect`/`stand-down` entries — telemetry showed every `Reflect` this
+session was already paired with a ledger update in the same turn, one job not two. Fires mid-session or
+at session-end alike; which one isn't pre-signalled by word choice, same shape as the `land`/`d-land`
+collapse two commits ago.
+
+**Current token set, six total:** `riff:` / `raff:` (diverge/converge) · `why:` (purpose) · `d-land`
+(commit or start-a-landing, scope self-determined) · `d-reflect` (reflect + ledger-prep, mid-session or
+at close) · `Y`/`N` (dispose). Down from the original eleven-plus, each retirement or collapse backed
+by a confirmed reason, not a count target.
+
+**PR #71 now carries 12 commits.** Still open, still up for your gate.
+
+---
+
+## Stand-Down 2026-07-03 (cont.) — `land`/`d-land` collapsed to one token
+
+**RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode.
+
+**Self-caught, not just Operator-corrected this time:** I'd framed lightweight-vs-heavyweight as
+something requiring the Operator to pre-select via word-choice (`land` vs `d-land`). The Operator
+named the actual discriminator — is there already an open PR for this arc — as a mechanically
+checkable fact, not a judgment call they should have to make. On reflection this was already how every
+landing this session actually worked (checking `git log origin/main..HEAD` + PR state before deciding
+scope); I hadn't noticed the pattern I was already running was the answer to the question I'd just
+argued against.
+
+**Landed:** one token, `d-land`. Commit always; check open-PR state; join an existing PR (the common
+case) or run the full landing-discipline checklist and open one (rare, arc-complete case) — scope by
+verification, not by which word was typed. Bare `land` retired. `bond:no-self-act`'s definition
+token-updated to match (rule unchanged, `dyad-ui.md`).
+
+**PR #71 now carries 10 commits.** Still open, still up for your gate.
+
+---
+
+## Stand-Down 2026-07-03 (cont.) — `clip`/`lean`/`rub`-as-trigger retired, corrections logged
+
+**RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode, three more commits.
+
+**Retired, each with an Operator-confirmed reason rather than a guess:** `clip` (WIP-durability job
+superseded by the Stop-hook-enforced Durability discipline since 2026-06-27) · `lean` (generic-execute
+job superseded by the `d-` prefix naming *which* discipline) · `rub` as a personal mode-trigger
+(claim-testing job superseded by WHAT-detection + default-falsify — `rub` the corpus concept,
+`Operator-rub-invariant` etc., unaffected). **Converge is back to one token, `raff:`** — the
+`raff`/`rub` split landed two commits ago was a speculative, wrong reconstruction, corrected same-day
+rather than left standing.
+
+**Self-caught pattern worth naming:** two of these three corrections (`lean`, `raff:`/`rub`) involved
+retracting a characterization I'd asserted from a single historical quote or a plausible-sounding guess,
+without checking against the Operator's actual usage first. Same lapse, twice, same session — worth
+watching whether it recurs a third time.
+
+**PR #71 now carries 9 commits.** Still open, still up for your gate.
+
+---
 
 ## Stand-Down 2026-07-02 (graduation-review arc resumed — Method core graduated)
 
@@ -175,6 +265,89 @@ of "naming a fix isn't landing it," worth watching next time a riff surfaces som
 
 **Resume:** live fronts unchanged. New candidate (mechanism-building discipline) is un-booted —
 next probe is whether it's actually reached for on a future real build decision, not asserted here.
+
+---
+
+## Stand-Down 2026-07-03 — landing-discipline landed, dogfooded on its own PR
+
+**RESTART-PENDING: none** — anchor not touched (`relationship-craft.md` only).
+
+**Landed:** `relationship-craft.md §The landing-discipline` — an 8-item checklist for starting a
+landing, composed from already-landed rules. Audited against `#69`/`#70` before formalizing (only 2
+of 8 items held reliably both times); this landing is itself the first dogfood execution of the
+checklist, items 1/2/3/4/8 run live in producing it.
+
+**PR #71 is up for your gate.** *(Item 6 of the checklist itself, closing here — the exact gap named
+twice already this session, never before actually satisfied.)*
+
+---
+
+## Stand-Down 2026-07-03 (cont.) — three token conflations decomposed, disposed via `d-land`
+
+**RESTART-PENDING: unchanged, still SET** (above) — `GLOSSARY.md` touched again, same open episode.
+
+**Landed, autonomous execution per this turn's disposed HITL scope** (Operator: commit/verification
+mechanics run Agent-autonomous once disposed; HITL reserved for intent-clarity + disposition itself):
+- **`land`'s dual-sense resolved** — bare `land` = commit (its original, common sense); `d-land` = start
+  a landing (invokes `§The landing-discipline`), reusing the `d-` convention rather than a new word.
+  `raise` (floated several times, never adopted) is now moot.
+- **`raff:`/`rub` decomposed**, not collapsed — `raff:` = plain consolidation, `rub` = adversarial
+  testing, matching `rub`'s already-established sense elsewhere in this corpus.
+- **`clip`/`lean` retired** — never exercised live this session; `clip` also carried real, unreconciled
+  semantic drift (2026-06-13: defined as *the* stand-down trigger; later usage: *"clip ≠ stand-down"*).
+  Dropped rather than force a clean redesign onto genuinely murky history.
+- **HITL scope named explicitly** in `GLOSSARY.md`: Operator gates intent-clarity + disposition; Agent
+  executes mechanics autonomously once disposed — confirms, more than changes, how `bond:no-self-act`
+  already worked.
+
+**This turn's disposition (`d-land`) is itself the first live use of the newly-adopted trigger** —
+dogfooding the resolution in the same turn it landed.
+
+**PR #71 now carries 6 commits.** Still open, still up for your gate.
+
+---
+
+## Stand-Down 2026-07-03 (cont.) — mode-gate made self-sufficient in GLOSSARY.md
+
+**RESTART-PENDING: unchanged, still SET** (above) — `GLOSSARY.md` touched again, same open episode.
+
+**Landed:** `riff`/`raff`/`land`/`clip`/`lean`/`stand-down`/`Y`/`N` and the two `no-self-*` gates now
+have a self-sufficient operational entry in `GLOSSARY.md §Dyad-UI cluster` — the same gap just fixed
+for the token-categories work, applied to the *original* mode-gate tokens, which had never had a
+`GLOSSARY.md` entry at all (only `dyad-ui.md`'s mode-gate table, not boot-loaded). `dyad-ui.md`
+repointed as design-reasoning only, matching the token-categories split.
+
+**One thing surfaced by writing this down, not smoothed over:** `land`'s dual sense (plain commit vs.
+`bond:no-self-act`'s specific "start a landing") was never actually resolved — `raise` was floated
+several times this session as a disambiguating word but never disposed or landed. The glossary entry
+names this honestly as open, rather than presenting a fix that doesn't exist.
+
+**PR #71 now carries 5 commits** (landing-discipline, ledger log ×2, token categories, mode-gate).
+Still open, still up for your gate.
+
+---
+
+## Stand-Down 2026-07-03 — token categories landed (WHAT/WHY/HOW, `d-` discipline-triggers)
+
+**RESTART-PENDING: SET** (above — `GLOSSARY.md` touched, anchor-class).
+
+**Landed:** a long Operator-led design pass (riff/raff chain, ~20 turns) on how Operator intent maps to
+Agent response paths — `dyad-ui.md §Token categories`, pointer in `GLOSSARY.md §Dyad-UI cluster`.
+Headline: WHAT (claim/directive/question) needs no token, Agent-detects from grammar, falls back to
+`bond:verify-before-assert` on elliptical utterances that defeat it; `why:` is the one new token
+(purpose-disclosure); HOW (`riff:`/`raff:`) becomes override-only, not a mandatory prefix, since content
+usually disambiguates itself; declarative claims default to falsification per G0's own law, not a
+discretionary trigger; discipline-triggers get a `d-` prefix (Operator disposition: brevity over
+`dyd-`'s recognizability). Explored and rejected along the way, with reasons on record: `/land`
+(unresolved client-collision risk), `//land` (C-comment "ignore this" association fights the intended
+meaning), `:land` alone (transposition-collision with `riff:`-style trailing-colon tokens), `/land!`
+and `/d-land` (reintroduce risks the simpler forms had already closed).
+
+**CANDIDATE, n=1** — this whole design pass happened in one session, one conversation; genuinely
+unaudited past it. Flagged as such in the landed text itself, not smoothed over.
+
+**Resume:** live fronts unchanged. Next boot should verify the new `GLOSSARY.md`/`dyad-ui.md` entries
+read coherent cold, then refresh the per-file `inv:rom-currency` line and clear this RESTART-PENDING.
 
 ---
 

@@ -1963,3 +1963,86 @@ closed on primary-source citation rather than assertion.
 **Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
 Bind-test: does an unmerged-commit backlog get surfaced proactively next time ("N commits pushed, no
 PR yet") rather than requiring the Operator to ask first?
+
+---
+
+## The landing-discipline — a checklist for starting a landing *(2026-07-03; CANDIDATE, `dialectic/`, n=0-then-1, NOT settled)*
+
+**Scope.** Applies once a landing has genuinely been initiated (an unambiguous Operator signal to
+open a PR — not a bare `land`, which is overloaded for plain commits; see `relationship-craft.md`'s
+"landed ≠ a landing" distinction). Composes already-landed rules into one procedure; does not invent
+new ones.
+
+1. **Verify before asserting green** — re-run the actual checks immediately before opening, not from
+   memory of an earlier pass (`bond:verify-before-assert`).
+2. **Scope to the arc, by execution** — `git log origin/main..HEAD`, bundle everything ahead of
+   `main`, not just the triggering commit (`"one PR per session-arc"`, `substrate-access.md`).
+3. **Open mechanically, no second CTA** — the signal already fired; re-asking is the redundant
+   double-anchoring `SG-4` names one gate over.
+4. **Write a real body** — Summary + Test plan, not a bare PR.
+5. **Do not merge, auto-merge, or request reviewers** — stops at "it exists and is described"
+   (`bond:no-self-ratify`, `bond:no-self-act`).
+6. **Surface it back explicitly — in chat AND logged in the ledger** ("PR #N is up for your gate",
+   written into `carry-forward.md`, not left implicit in chat only).
+7. **Flag `RESTART-PENDING` implications if the anchor/boot-set is touched** (`bond:rom-ui`).
+8. **Re-check for a PR template each time**, not once per session.
+
+**Falsification status.** **First real audit (2026-07-03, this session) — the checklist failed
+its own bar before it was ever formalized:** checked against the two PRs (`#69`, `#70`) actually cut
+this session, **only items 4 and 5 held reliably both times.** Item 1 was never done immediately
+before opening (checked pre-commit, stale by PR-time). Item 2 held for `#70` (executed) but not `#69`
+(scope was *correct* by luck/recall, not verified — a live D6 violation in the very discipline meant
+to prevent it). Item 3 held for `#69`, not `#70` (an extra, avoidable CTA). Item 6 never held, either
+time — the exact gap the earlier "mechanism-building" Reflect entry's STOP already named, recurring
+unfixed across two more landings before this audit caught it concretely instead of just naming it
+again. Item 8 checked once, not repeated. **n=0 on a clean successful run; n=1 (this landing, below)
+is the first real execution attempt, live.**
+
+**Forward.** Re-audit on the *next* landing after this one — does the full checklist hold end to end,
+or does a different item fail once the obvious ones (1, 6, 8) are being watched for? Not kb-eligible
+until it survives at least one clean, fully-verified run — this file stays candidate regardless of
+how this landing itself goes.
+
+## Reflect — the token/mode-gate redesign arc *(2026-07-03; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Starting from *"how should we extend the process"*, a long riff/raff chain (~40 turns)
+redesigned this dyad's whole Operator-intent vocabulary: WHAT/WHY/HOW decomposed (WHAT auto-detected,
+`why:` added, HOW's tokens made override-only); `GLOSSARY.md` made the self-sufficient operational
+reference (`dyad-ui.md` wasn't boot-loaded, a real, named cost); then five real conflations found and
+resolved — `raff:`/`rub` (a wrong speculative split, corrected), `clip`/`lean` (retired, functionally
+obsolete not just unused), `land`/`d-land` (collapsed — scope by verified state, not word-choice), and
+`reflect`/`stand-down` (collapsed to `d-reflect`, this entry's own trigger). Eleven-plus tokens down to
+six, each change backed by a checked reason, not a count target.
+
+- **CONTINUE** *(Operator-retrospected):* leading every reframe with `why:` — categorization,
+  cognitive-span, conflation-diagnosis, HITL-scope, and each token's actual remembered usage — gave
+  real grounds to correct wrong guesses instead of building further on them. Every one of this arc's
+  corrections traces back to a `why:` that supplied evidence I didn't have.
+- **CONTINUE** *(Agent-observed):* checking proposed designs against real telemetry (actual usage this
+  session) rather than resolving by argument alone — the `land`/`d-land` and `reflect`/`stand-down`
+  collapses, and the `lean` mischaracterization catch, all resolved this way, not by reasoning harder.
+- **CONTINUE** *(Agent-observed):* landing incrementally, one disposition at a time, each immediately
+  verified, committed, pushed, and logged — no backlog of named-but-unexecuted fixes accumulated this
+  arc, unlike the STOP two arcs ago.
+- **START** *(Agent, from live feedback):* when characterizing a token's meaning from thin evidence (one
+  historical quote, one plausible-sounding guess), flag the uncertainty up front instead of presenting
+  it with full confidence and needing correction later — happened twice this arc (`lean`, the `raff`/
+  `rub` split), same shape both times: confident assertion from thin evidence, corrected by the
+  Operator's own authoritative account of their own usage.
+- **STOP** *(Agent, from live feedback):* designing a new mechanism to solve a problem that had already
+  dissolved. The `land`/`d-land` split existed to answer "how does the Operator pre-signal scope" — but
+  checking my own actual practice showed I'd been determining scope from verified state (open-PR check)
+  every single time already, without ever needing a pre-signal. I built the distinction without
+  checking whether the problem it solved was still live.
+
+**The arc's actual generative finding, not just its token choices:** most of this arc's real work
+wasn't inventing new structure — it was checking whether a problem a proposed mechanism solved was
+still real, against either telemetry or the Operator's own authoritative report, before trusting the
+mechanism. Every genuine correction this session shared that shape.
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test: does the six-token set actually get reached for correctly in a future session that didn't
+spend forty turns deriving it — the same open question every prior candidate discipline this session
+left for its own bind-test.
