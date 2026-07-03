@@ -57,6 +57,27 @@
 > 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
 > fresh set, not a reopening.)*
 
+## Stand-Down 2026-07-03 (cont.) — `clip`/`lean`/`rub`-as-trigger retired, corrections logged
+
+**RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode, three more commits.
+
+**Retired, each with an Operator-confirmed reason rather than a guess:** `clip` (WIP-durability job
+superseded by the Stop-hook-enforced Durability discipline since 2026-06-27) · `lean` (generic-execute
+job superseded by the `d-` prefix naming *which* discipline) · `rub` as a personal mode-trigger
+(claim-testing job superseded by WHAT-detection + default-falsify — `rub` the corpus concept,
+`Operator-rub-invariant` etc., unaffected). **Converge is back to one token, `raff:`** — the
+`raff`/`rub` split landed two commits ago was a speculative, wrong reconstruction, corrected same-day
+rather than left standing.
+
+**Self-caught pattern worth naming:** two of these three corrections (`lean`, `raff:`/`rub`) involved
+retracting a characterization I'd asserted from a single historical quote or a plausible-sounding guess,
+without checking against the Operator's actual usage first. Same lapse, twice, same session — worth
+watching whether it recurs a third time.
+
+**PR #71 now carries 9 commits.** Still open, still up for your gate.
+
+---
+
 ## Stand-Down 2026-07-02 (graduation-review arc resumed — Method core graduated)
 
 **RESTART-PENDING: none** — anchor (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`) not touched this session.
