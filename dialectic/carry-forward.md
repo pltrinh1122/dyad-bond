@@ -196,6 +196,31 @@ twice already this session, never before actually satisfied.)*
 
 ---
 
+## Stand-Down 2026-07-03 (cont.) — three token conflations decomposed, disposed via `d-land`
+
+**RESTART-PENDING: unchanged, still SET** (above) — `GLOSSARY.md` touched again, same open episode.
+
+**Landed, autonomous execution per this turn's disposed HITL scope** (Operator: commit/verification
+mechanics run Agent-autonomous once disposed; HITL reserved for intent-clarity + disposition itself):
+- **`land`'s dual-sense resolved** — bare `land` = commit (its original, common sense); `d-land` = start
+  a landing (invokes `§The landing-discipline`), reusing the `d-` convention rather than a new word.
+  `raise` (floated several times, never adopted) is now moot.
+- **`raff:`/`rub` decomposed**, not collapsed — `raff:` = plain consolidation, `rub` = adversarial
+  testing, matching `rub`'s already-established sense elsewhere in this corpus.
+- **`clip`/`lean` retired** — never exercised live this session; `clip` also carried real, unreconciled
+  semantic drift (2026-06-13: defined as *the* stand-down trigger; later usage: *"clip ≠ stand-down"*).
+  Dropped rather than force a clean redesign onto genuinely murky history.
+- **HITL scope named explicitly** in `GLOSSARY.md`: Operator gates intent-clarity + disposition; Agent
+  executes mechanics autonomously once disposed — confirms, more than changes, how `bond:no-self-act`
+  already worked.
+
+**This turn's disposition (`d-land`) is itself the first live use of the newly-adopted trigger** —
+dogfooding the resolution in the same turn it landed.
+
+**PR #71 now carries 6 commits.** Still open, still up for your gate.
+
+---
+
 ## Stand-Down 2026-07-03 (cont.) — mode-gate made self-sufficient in GLOSSARY.md
 
 **RESTART-PENDING: unchanged, still SET** (above) — `GLOSSARY.md` touched again, same open episode.

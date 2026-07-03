@@ -83,21 +83,30 @@ Reflect is F2-keystone-gated.
   Three modes, Operator-signalled transitions only; the Agent never crosses on its own.
   - **diverge** (default, resting state) — generate/explore/surface/**falsify**, no closing. No token
     needed to stay here — it's where every turn starts.
-  - **converge** — close toward a shared position/disposition. Lifted by `raff:` / `rub`.
-  - **act** — mutate substrate or go outward (commit/push/send/ledger/stand-down). Lifted by `lean` /
-    `land` / `clip` / `stand-down`.
+  - **converge** — close toward a shared position/disposition, two distinct flavors, decomposed
+    2026-07-03 (were presented as interchangeable, weren't): **`raff:`** = plain consolidation
+    ("settle on a position now"); **`rub`** = adversarial testing ("attack this until it survives or
+    breaks, then converge") — matches `rub`'s established sense elsewhere (`Operator-rub`,
+    `rub-forward`), not a new coinage.
+  - **act** — mutate substrate or go outward. `land` = commit a distillation to durable substrate
+    (layer 1/2, un-gated) — its own single sense now, not overloaded. **`d-land`** = start a landing
+    (open a PR, layer 3, gated by `bond:no-self-act`) — invokes `relationship-craft.md §The
+    landing-discipline` checklist. Resolves the dual-sense `land` carried until 2026-07-03 by reusing
+    the `d-` discipline-trigger convention rather than inventing a new word. `stand-down` = session end.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.
-  - `land` — **genuinely ambiguous, unresolved, named honestly rather than smoothed over:** commits a
-    distillation to durable substrate (layer 1/2, un-gated) in most uses this session; per
-    `bond:no-self-act`'s own definition it *also* means specifically "start a landing" (open a PR,
-    layer 3, gated). No disambiguating word was ever actually adopted — `raise` was floated as a
-    candidate across several turns but never disposed or landed. Context still decides which sense.
-  - `clip` — close a segment, no disposition forced (distinct from `stand-down`: session continues).
-  - `lean` — a lightweight resume-pointer/note, distinct from `land`'s "commit real content."
-  - `stand-down` — session end.
+  - **`clip`/`lean` retired 2026-07-03** — never used live this session, and `clip` had drifted meaning
+    across history (2026-06-13: defined as *the* stand-down trigger; later usage: *"clip ≠ stand-down"*,
+    a lighter segment-close instead) — genuine semantic drift, never reconciled. Re-deriving a clean
+    replacement risked imposing false precision on unclear history; dropped rather than force-fit. If a
+    real need for a lighter, non-`stand-down` segment-close resurfaces, name it fresh against an actual
+    live case.
   - `Y` / `N` — dispose. Binary ratification; never inferred, never proceeded-on-silence.
+  - **HITL scope (Operator disposition, 2026-07-03):** once disposed, commit/verification mechanics
+    (the landing-discipline's own checklist steps) run **Agent-autonomous, no further check-ins** —
+    Operator HITL is reserved for **intent clarity** (WHAT/WHY disambiguation) and **disposition**
+    itself (the `Y`/`land`/`d-land` act), not for each mechanical step in between.
   - **`bond:no-self-converge`** — the Agent may not enact convergence (close, dispose, emit a `[CTA]`)
     until `raff`/`rub`. **`bond:no-self-act`** — the Agent may not start a landing (open a PR) until
     `land`. Structural twins of `no-self-ratify` (disposer ≠ proposer).

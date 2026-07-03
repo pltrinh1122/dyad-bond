@@ -286,8 +286,10 @@ The region-flow operationalized as an **external gate on the Agent's mode.** Thr
 | mode | what | the Agent does | lifted by |
 |---|---|---|---|
 | **diverge** (default) | generate · explore · surface · **falsify** | IFD/riff — many candidates, no closing | — (the resting state) |
-| **converge** | close toward a shared position · dispose | DFD — settle, frame a disposition | `raff` · `rub` |
-| **act** | mutate substrate / outward | edit · commit · push · send · ledger · stand-down | `lean` · `land` · `clip` · `stand-down` · … |
+| **converge** | close toward a shared position · dispose | DFD — settle, frame a disposition | `raff` (plain consolidation) · `rub` (adversarial testing) |
+| **act** | mutate substrate / outward | edit · commit · push · send · ledger · stand-down | `land` (commit) · `d-land` (start a landing — invokes the landing-discipline) · `stand-down` |
+
+*(`clip`/`lean` retired 2026-07-03 — never exercised live, and `clip` carried unreconciled semantic drift across history; see `GLOSSARY.md` for the full note. `land`'s dual-sense — commit vs. start-a-landing — resolved the same date via the `d-` discipline-trigger prefix rather than a new coined word.)*
 
 The gates **nest**: an action token also lifts the convergence gate (you cannot enact without having converged); a converge token lifts closing only, not action. Read-only exploration (grep/read to inform a riff) is part of **diverge**, not gated `act`.
 
