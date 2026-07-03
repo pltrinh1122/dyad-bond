@@ -47,16 +47,52 @@
 > → "Disposition Framing Discipline"). **Boot-VERIFIED 2026-07-01** (this session's cold ROM-boot; all three
 > read coherent — no over-cut surfaced). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior
 > baseline: `DYAD.md@e0c9280`, PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
-> `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
-> single-sha line above is the human gloss).
-> **RESTART-PENDING: YES, awaiting next-boot verification (2026-07-03, refreshed)** — `PR #71` merged
-> (`813f02f`, on `main`). `PR #72` open (`mergeable_state: clean`, verified via API), carrying the
-> `d-reflect` presentation fix — not yet merged. Per `bond:rom-ui`, the flag clears only after an
-> actual cold boot confirms the entries read coherent — not at merge time. Binds next boot: refresh the
-> per-file `inv:rom-currency` line to `GLOSSARY.md`'s latest merged sha, verify `§Dyad-UI cluster`'s
-> token-system entries read coherent cold, *then* clear. *(The three sets discharged 2026-07-01 stay
-> cleared; this is a fresh set.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-03):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
+> `DYAD.md@9519e01` · `GLOSSARY.md@72c35a3` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
+> the per-file compare (the single-sha line above is the human gloss). *(`GLOSSARY.md` newly added this
+> refresh — `bin/standup.sh`'s `ANCHOR_FILES` array doesn't yet include it, so the mechanized check still
+> only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`; flagging the script/ledger gap, not unilaterally
+> widening the script.)*
+> **RESTART-PENDING: CLEARED 2026-07-03** — `PR #72` confirmed **merged** (`98ea2fb`, verified via
+> `mcp__github__pull_request_read` before logging, per `bond:verify-before-assert` — the ledger had still
+> read "open" at boot). Cold-boot bind discharged: `GLOSSARY.md §Dyad-UI cluster`'s token-system entries
+> read coherent (no over-cut, no dangling cross-reference); `bin/invariant-eval.py` exits 0. Full detail →
+> the Stand-Up entry immediately below.
+
+## Stand-Up 2026-07-03 (resume — `PR #72` confirmed merged, `RESTART-PENDING` cleared)
+
+**Resumed cold** on `claude/resume-pr-72-merge-wzwh9c` (identical to `main` at boot — no divergent
+unmerged commits to carry forward, nothing to rebase). Ran the resume protocol: anchor, ledger, ROM-UI,
+validator.
+
+**Verified via API before logging** (`bond:verify-before-assert` — the same discipline `PR #72` itself
+was about, now applied to `#72` in turn): `mcp__github__pull_request_read` on `#72` →
+`state: closed`, `merged: true`, `merged_at: 2026-07-03T23:47:24Z`, merge commit `98ea2fb`. The ledger
+had still read "open, not yet merged" at boot — stale, corrected here rather than left standing.
+
+**Cold-boot verification** (discharging the bind named in the prior `RESTART-PENDING` entry):
+- `bin/standup.sh` → ROM-UI ✓ MATCH (`DYAD.md`/`CLAUDE.md`/`GEMINI.md` unchanged since 2026-07-01); tree
+  clean, 0 unpushed; substrate residual unchanged (IM daemon unarmable — `commons/` submodule
+  uninitialized, no `/mnt/shared_data/dzw` — same as every prior session).
+- `python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml` → exit 0,
+  14/14 `[PASS]`, one pre-existing `DUTY-DETECTOR-MISMATCH bond:anti-cave` advisory (unchanged, not a new
+  finding).
+- `GLOSSARY.md §Dyad-UI cluster` read cold: the six-token set (`riff:`/`raff:` · `why:` · `d-land` ·
+  `d-reflect` · `Y`/`N`) and the retired-token notes (`clip`/`lean`/bare-`land`/bare-`reflect`/
+  `stand-down`) are self-sufficient and internally consistent — no dangling cross-reference, no over-cut.
+
+**RESTART-PENDING: CLEARED** (above, refreshed) — per-file `inv:rom-currency` line now also carries
+`GLOSSARY.md@72c35a3`. **Noted, not fixed:** `bin/standup.sh`'s `ANCHOR_FILES` array doesn't include
+`GLOSSARY.md`, so the mechanized check still only compares `{DYAD.md, CLAUDE.md, GEMINI.md}` — this
+refresh's `GLOSSARY.md` entry is ledger-only until the script is extended. Flagging per
+`bond:no-self-ratify` rather than unilaterally widening the script's scope.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**). No open PR right
+now; NBA is the `deferrals.md` `## todo` backlog (single-home playbook Founding-gate PR · X-tier steward
+heads-up · cross-dyad custody deprecation · apex-telos-singularity empirical work · intent-clarity-arc
+anchor-candidates) — Operator selection owed, none picked unilaterally.
+
+---
 
 ## Stand-Down 2026-07-03 (cont.) — confirmed #71, fixed `d-reflect`'s presentation, `#72` open
 
