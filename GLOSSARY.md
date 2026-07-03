@@ -96,12 +96,16 @@ Reflect is F2-keystone-gated.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.
-  - **`clip`/`lean` retired 2026-07-03** — never used live this session, and `clip` had drifted meaning
-    across history (2026-06-13: defined as *the* stand-down trigger; later usage: *"clip ≠ stand-down"*,
-    a lighter segment-close instead) — genuine semantic drift, never reconciled. Re-deriving a clean
-    replacement risked imposing false precision on unclear history; dropped rather than force-fit. If a
-    real need for a lighter, non-`stand-down` segment-close resurfaces, name it fresh against an actual
-    live case.
+  - **`clip`/`lean` retired 2026-07-03 — functionally obsolete, not just unused.** `clip`'s original job
+    (2026-06-13 fiat: *"the typed... stand-down trigger... runs: (1) the mechanical durability..."*) was
+    a manual WIP-durability trigger — superseded by the **Durability discipline** (auto-save,
+    Stop-hook-enforced, un-gated, since 2026-06-27; *"commit+push WIP at every natural pause... honoring
+    its flag every turn IS the mechanism"*), which has been running autonomously the whole time `clip`
+    sat unused. Its later drift into "segment-close, no disposition forced, `≠ stand-down`" happened
+    *after* the original job was already gone — likely why it drifted, nothing left for it to do.
+    Operator-confirmed: WIP tracking is expected autonomous going forward, no manual trigger needed. If
+    a real need for a lighter, non-`stand-down` segment-close resurfaces, name it fresh against an
+    actual live case — not this one, re-derived from obsolete history.
   - `Y` / `N` — dispose. Binary ratification; never inferred, never proceeded-on-silence.
   - **HITL scope (Operator disposition, 2026-07-03):** once disposed, commit/verification mechanics
     (the landing-discipline's own checklist steps) run **Agent-autonomous, no further check-ins** —
