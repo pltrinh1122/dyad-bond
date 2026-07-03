@@ -50,12 +50,29 @@
 > **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
 > `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss).
-> **RESTART-PENDING: YES (2026-07-03)** — `GLOSSARY.md` edited (new "Token categories" pointer entry,
-> `§Dyad-UI cluster`) — anchor-class per `substrate-access.md`'s boot-set carve, gated even as a
-> `dialectic/`-candidate write. Binds next boot: refresh the per-file `inv:rom-currency` line to
-> `GLOSSARY.md`'s new sha, verify the new entry reads coherent cold. *(The three sets discharged
-> 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
-> fresh set, not a reopening.)*
+> **RESTART-PENDING: YES, awaiting next-boot verification (2026-07-03, refreshed)** — `PR #71` merged
+> (`813f02f`, on `main`). `PR #72` open (`mergeable_state: clean`, verified via API), carrying the
+> `d-reflect` presentation fix — not yet merged. Per `bond:rom-ui`, the flag clears only after an
+> actual cold boot confirms the entries read coherent — not at merge time. Binds next boot: refresh the
+> per-file `inv:rom-currency` line to `GLOSSARY.md`'s latest merged sha, verify `§Dyad-UI cluster`'s
+> token-system entries read coherent cold, *then* clear. *(The three sets discharged 2026-07-01 stay
+> cleared; this is a fresh set.)*
+
+## Stand-Down 2026-07-03 (cont.) — confirmed #71, fixed `d-reflect`'s presentation, `#72` open
+
+**RESTART-PENDING: unchanged, still SET** (above, refreshed) — `PR #72` open, not yet merged.
+
+**Reflect landed** → `relationship-craft.md §Reflect — confirming #71, catching the presentation
+drift` (CSS+OR, full text pasted in chat this time, per the fix itself). Headline: `PR #71`'s merge
+verified via API before logging; caught that the most recent `d-reflect` had silently reverted to a
+condensed chat headline instead of full text — fixed, `d-reflect`'s definition now says so explicitly.
+
+**Durability:** tree clean, both commits pushed, `PR #72` verified open + clean via API. No daemon
+armed (same residual as every prior stand-down this session).
+
+**Resume:** live fronts unchanged. `PR #72` up for your gate.
+
+---
 
 ## Stand-Down 2026-07-03 (close) — `d-reflect` invoked live, arc closed
 
