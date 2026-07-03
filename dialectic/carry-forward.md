@@ -50,12 +50,12 @@
 > **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
 > `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss).
-> **RESTART-PENDING: YES (2026-07-03)** — `GLOSSARY.md` edited (new "Token categories" pointer entry,
-> `§Dyad-UI cluster`) — anchor-class per `substrate-access.md`'s boot-set carve, gated even as a
-> `dialectic/`-candidate write. Binds next boot: refresh the per-file `inv:rom-currency` line to
-> `GLOSSARY.md`'s new sha, verify the new entry reads coherent cold. *(The three sets discharged
-> 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
-> fresh set, not a reopening.)*
+> **RESTART-PENDING: YES, MERGED, awaiting next-boot verification (2026-07-03)** — `PR #71` merged
+> (`813f02f`), confirmed via the API, not assumed. `GLOSSARY.md`'s token-system entries are now on
+> `main`. Per `bond:rom-ui`, the flag clears only after an actual cold boot confirms the new entries
+> read coherent — not at merge time. Binds next boot: refresh the per-file `inv:rom-currency` line to
+> `GLOSSARY.md`@`813f02f` (or later), verify `§Dyad-UI cluster`'s token-system entries read coherent
+> cold, *then* clear. *(The three sets discharged 2026-07-01 stay cleared; this is a fresh set.)*
 
 ## Stand-Down 2026-07-03 (close) — `d-reflect` invoked live, arc closed
 
