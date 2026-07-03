@@ -277,6 +277,10 @@ vocabulary? (the markers' "track over sessions, never legislate" question, here 
 
 ## The mode-gate — diverge → converge → act, externally signalled *(CANDIDATE · Operator `raff`+`land` 2026-06-24; dog-fooded this session; `dialectic/`, NOT settled)*
 
+> **Operational reference lives in `GLOSSARY.md §Dyad-UI cluster`** (boot-loaded, self-sufficient for
+> turn-to-turn recognition). This section is the design-reasoning — the causal test behind
+> `bond:no-self-converge`, the divergence-quality discriminator — not needed to *use* the tokens.
+
 The region-flow operationalized as an **external gate on the Agent's mode.** Three modes, two transitions; each transition is **Operator-signalled** — the Agent does not cross on its own.
 
 | mode | what | the Agent does | lifted by |

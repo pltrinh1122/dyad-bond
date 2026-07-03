@@ -78,6 +78,29 @@ Reflect is F2-keystone-gated.
 - **GF-UI / GFD** — goal-framing. **VF-UI / VFD** — validation-framing (`AGREE: Y|N`, low-load, dissent-enabling).
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
+- **Mode-gate (diverge/converge/act)** — self-sufficient here; `dialectic/dyad-ui.md §The mode-gate` is
+  design-reasoning only (the causal test behind `no-self-converge`), not needed for turn-to-turn use.
+  Three modes, Operator-signalled transitions only; the Agent never crosses on its own.
+  - **diverge** (default, resting state) — generate/explore/surface/**falsify**, no closing. No token
+    needed to stay here — it's where every turn starts.
+  - **converge** — close toward a shared position/disposition. Lifted by `raff:` / `rub`.
+  - **act** — mutate substrate or go outward (commit/push/send/ledger/stand-down). Lifted by `lean` /
+    `land` / `clip` / `stand-down`.
+  - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
+    converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
+    stays inside diverge, never gated.
+  - `land` — **genuinely ambiguous, unresolved, named honestly rather than smoothed over:** commits a
+    distillation to durable substrate (layer 1/2, un-gated) in most uses this session; per
+    `bond:no-self-act`'s own definition it *also* means specifically "start a landing" (open a PR,
+    layer 3, gated). No disambiguating word was ever actually adopted — `raise` was floated as a
+    candidate across several turns but never disposed or landed. Context still decides which sense.
+  - `clip` — close a segment, no disposition forced (distinct from `stand-down`: session continues).
+  - `lean` — a lightweight resume-pointer/note, distinct from `land`'s "commit real content."
+  - `stand-down` — session end.
+  - `Y` / `N` — dispose. Binary ratification; never inferred, never proceeded-on-silence.
+  - **`bond:no-self-converge`** — the Agent may not enact convergence (close, dispose, emit a `[CTA]`)
+    until `raff`/`rub`. **`bond:no-self-act`** — the Agent may not start a landing (open a PR) until
+    `land`. Structural twins of `no-self-ratify` (disposer ≠ proposer).
 - **Token categories (WHAT/WHY/HOW)** — self-sufficient here; `dialectic/dyad-ui.md §Token categories`
   is design-reasoning only (the five constraints, rejected alternatives), not needed for turn-to-turn use.
   - **WHAT** — claim / directive / question, Agent-detected from grammar (declarative / imperative /

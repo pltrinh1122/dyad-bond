@@ -196,6 +196,26 @@ twice already this session, never before actually satisfied.)*
 
 ---
 
+## Stand-Down 2026-07-03 (cont.) — mode-gate made self-sufficient in GLOSSARY.md
+
+**RESTART-PENDING: unchanged, still SET** (above) — `GLOSSARY.md` touched again, same open episode.
+
+**Landed:** `riff`/`raff`/`land`/`clip`/`lean`/`stand-down`/`Y`/`N` and the two `no-self-*` gates now
+have a self-sufficient operational entry in `GLOSSARY.md §Dyad-UI cluster` — the same gap just fixed
+for the token-categories work, applied to the *original* mode-gate tokens, which had never had a
+`GLOSSARY.md` entry at all (only `dyad-ui.md`'s mode-gate table, not boot-loaded). `dyad-ui.md`
+repointed as design-reasoning only, matching the token-categories split.
+
+**One thing surfaced by writing this down, not smoothed over:** `land`'s dual sense (plain commit vs.
+`bond:no-self-act`'s specific "start a landing") was never actually resolved — `raise` was floated
+several times this session as a disambiguating word but never disposed or landed. The glossary entry
+names this honestly as open, rather than presenting a fix that doesn't exist.
+
+**PR #71 now carries 5 commits** (landing-discipline, ledger log ×2, token categories, mode-gate).
+Still open, still up for your gate.
+
+---
+
 ## Stand-Down 2026-07-03 — token categories landed (WHAT/WHY/HOW, `d-` discipline-triggers)
 
 **RESTART-PENDING: SET** (above — `GLOSSARY.md` touched, anchor-class).
