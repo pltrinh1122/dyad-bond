@@ -57,6 +57,30 @@
 > 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
 > fresh set, not a reopening.)*
 
+## Stand-Down 2026-07-03 (close) — `d-reflect` invoked live, arc closed
+
+**RESTART-PENDING: still SET** — `GLOSSARY.md` edited multiple times this arc. **Binds next boot:**
+refresh the `inv:rom-currency` per-file line to `GLOSSARY.md`'s new sha, verify the token-system entries
+(`§Dyad-UI cluster`) read coherent cold, then clear.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the token/mode-gate redesign arc` (CSS+OR,
+full text there, this is the pointer). Headline: eleven-plus tokens → six, each retirement/collapse
+checked against real telemetry or the Operator's own authoritative report, not asserted. The arc's own
+STOP names the generative lesson — check whether a problem is still real before building a mechanism
+for it, the same check that resolved most of this arc's actual corrections.
+
+**Durability:** tree clean, all 13 commits pushed, `PR #71` open (`mergeable_state: clean` as of last
+check), carrying the full arc — landing-discipline, D6/D1 graduations, and the whole token redesign.
+No daemon to tear down (never armed this session — `commons/` submodule uninitialized in this sandbox,
+same residual noted at the very first resume this session, unchanged).
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**). New: the
+six-token set is un-booted past this conversation — first real test is whether a fresh session reaches
+for `d-land`/`d-reflect`/`why:` correctly without having derived them. `PR #71` is up for your gate,
+unchanged status since last noted.
+
+---
+
 ## Stand-Down 2026-07-03 (cont.) — `reflect`/`stand-down` collapsed to `d-reflect`
 
 **RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode.
