@@ -91,11 +91,14 @@ Reflect is F2-keystone-gated.
     **`rub` the corpus concept is untouched** — `Operator-rub-invariant`, "debt until rubbed,"
     `rub-forward` cards describe an evidentiary *event* (a finding attacked, survived or not), a noun,
     not a chat command; nothing about default-falsify changes that usage.
-  - **act** — mutate substrate or go outward. `land` = commit a distillation to durable substrate
-    (layer 1/2, un-gated) — its own single sense now, not overloaded. **`d-land`** = start a landing
-    (open a PR, layer 3, gated by `bond:no-self-act`) — invokes `relationship-craft.md §The
-    landing-discipline` checklist. Resolves the dual-sense `land` carried until 2026-07-03 by reusing
-    the `d-` discipline-trigger convention rather than inventing a new word. `stand-down` = session end.
+  - **act — one invocation, `d-land`; scope is Agent-determined by checking state, not by which word
+    was typed** (corrected same-day — the earlier `land`/`d-land` split assumed the Operator needed to
+    pre-select weight; the actual discriminator, is-there-already-an-open-PR-for-this-arc, is
+    mechanically checkable, not a judgment call the Operator should have to make). On `d-land`: commit
+    always; then check `git log origin/main..HEAD` + open-PR state — an existing open PR for this arc →
+    commit+push, done (the common case, ~20+ times a session); no open PR and the arc reads complete →
+    run the full `relationship-craft.md §The landing-discipline` checklist, open one. Bare `land` is
+    retired as a separate token. `stand-down` = session end.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.

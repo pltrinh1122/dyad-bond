@@ -57,6 +57,27 @@
 > 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
 > fresh set, not a reopening.)*
 
+## Stand-Down 2026-07-03 (cont.) — `land`/`d-land` collapsed to one token
+
+**RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode.
+
+**Self-caught, not just Operator-corrected this time:** I'd framed lightweight-vs-heavyweight as
+something requiring the Operator to pre-select via word-choice (`land` vs `d-land`). The Operator
+named the actual discriminator — is there already an open PR for this arc — as a mechanically
+checkable fact, not a judgment call they should have to make. On reflection this was already how every
+landing this session actually worked (checking `git log origin/main..HEAD` + PR state before deciding
+scope); I hadn't noticed the pattern I was already running was the answer to the question I'd just
+argued against.
+
+**Landed:** one token, `d-land`. Commit always; check open-PR state; join an existing PR (the common
+case) or run the full landing-discipline checklist and open one (rare, arc-complete case) — scope by
+verification, not by which word was typed. Bare `land` retired. `bond:no-self-act`'s definition
+token-updated to match (rule unchanged, `dyad-ui.md`).
+
+**PR #71 now carries 10 commits.** Still open, still up for your gate.
+
+---
+
 ## Stand-Down 2026-07-03 (cont.) — `clip`/`lean`/`rub`-as-trigger retired, corrections logged
 
 **RESTART-PENDING: unchanged, still SET** (above) — same open `GLOSSARY.md` episode, three more commits.
