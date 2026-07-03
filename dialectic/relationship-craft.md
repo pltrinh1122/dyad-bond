@@ -1932,3 +1932,40 @@ mechanism should be built and wired at all — closing on the candidate discipli
 **Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
 Bind-test: does the mechanism-building discipline actually get reached for on the next real build
 decision, and does "name a fix" get followed by executing it without needing a separate `land` cue?
+
+## Reflect — the partnership-craft item-promotion arc, close *(2026-07-02; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** From a bare "resume work on promotion of items" through PR #70: four kb-graduations
+(Method core, F4, D6, D1) via impact-focused DFDs, a discipline-linter built and dogfooded, a long
+riff/raff chain on automation-policy landed as its own candidate discipline, two live self-corrections
+(the F4/Asymmetry mis-citation caught pre-commit; the mechanism-building discipline's own "after the
+first" clause corrected mid-conversation after being sharpened), and a `land` ≠ merge clarification
+closed on primary-source citation rather than assertion.
+
+- **CONTINUE** *(Operator-retrospected):* running "falsify" as the standing move on every offered
+  THESIS, including your own (`N>2`/`KTLO`, formalization-first, "after the first is still wu-wei") —
+  kept the whole automation-policy chain from settling on assertion, even where you were the one
+  proposing it.
+- **CONTINUE** *(Agent-observed):* citing primary sources at each contested point instead of arguing
+  from recall — the DNA-retirement precedent before riffing on genotype/phenotype, the exact
+  `GLOSSARY.md` wu-wei definition before falsifying "after the first," the Durability-discipline text
+  before answering "doesn't land imply durability."
+- **CONTINUE** *(Agent-observed):* every DFD across the four graduations carried a real
+  ANTI-THESIS that could have gone the other way (D1's still-open cluster-classification
+  counterpoint, D6's "applications aren't re-tests" counterpoint) — not pro-forma resistance dressed
+  as rigor.
+- **START** *(Agent, from live feedback):* when a falsification produces a refined rule rather than a
+  flat rejection, land the refined form in committed substrate at the same moment it's stated in
+  chat — the n≥2 correction was right the first time it was said aloud but sat wrong in the
+  already-pushed file for a full exchange until `land` forced reconciling the two.
+- **STOP** *(Agent, from live feedback):* conflating "committed" with "merged" without being asked.
+  Durability was real every commit — but four real commits (D6, the arc-land, the correction, D1)
+  sat with no PR across a full separate promotion cycle before you had to ask directly whether one
+  existed, instead of me surfacing it the way earlier stand-downs in this ledger habitually do
+  (*"PR #N is up for your gate"*).
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test: does an unmerged-commit backlog get surfaced proactively next time ("N commits pushed, no
+PR yet") rather than requiring the Operator to ask first?
