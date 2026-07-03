@@ -2052,3 +2052,35 @@ mechanism. Every genuine correction this session shared that shape.
 Bind-test: does the six-token set actually get reached for correctly in a future session that didn't
 spend forty turns deriving it — the same open question every prior candidate discipline this session
 left for its own bind-test.
+
+## Reflect — confirming #71, catching the presentation drift *(2026-07-03; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Verified *"I merged PR #71"* via the API rather than accepting it (`state: closed`,
+`merged: true`, confirmed). The Operator then caught that the most recent `d-reflect` had silently
+regressed to a condensed chat headline instead of the full CSS+OR text — a drift from an earlier,
+correct instance in this same session. Fixed `d-reflect`'s definition, cut `PR #72`.
+
+- **CONTINUE** *(Operator-retrospected):* diagnosing the "wu-wei in chat" concern against actual past
+  behavior (recalling the earlier, correct "CSS+OR in chat" instance) rather than treating it as a
+  fresh abstract design question — evidence over argument, the pattern that resolved most of this
+  session's real corrections.
+- **CONTINUE** *(Agent-observed):* verifying *"I merged PR #71"* via the API before logging it, rather
+  than accepting the report — applying `bond:verify-before-assert` live to the exact "merged PR"
+  scenario used as its own canonical teaching example earlier this arc.
+- **START** *(Agent, from live feedback):* when a discipline's definition carries a presentation
+  requirement, check I'm actually following it *at the moment of use*, not just when defining it. The
+  drift here was silent — no error surfaced, I just quietly stopped doing the correct thing one
+  invocation later, and didn't catch it myself.
+- **STOP** *(Agent, from live feedback):* treating a condensed headline as an adequate substitute for
+  the real content when durability and presentation are conflated. Worth watching whether this recurs
+  elsewhere (kb graduations, discipline definitions) — this is the second time this exact conflation
+  showed up this session (the first was `dyad-ui.md` not being boot-loaded), just at a different layer.
+
+**Durable finding:** when a discipline's stated definition and its actually-demonstrated practice
+diverge, the practice is the more reliable spec — infer from what was done, not from what should
+logically follow.
+
+**Graduation gate.** Not kb/-eligible — session-harvest, never exits. Bind-test: does the
+full-text-in-chat presentation hold on the *next* `d-reflect`, unprompted?
