@@ -890,19 +890,12 @@ Surfaced from live friction this session (a string of inherit-and-comply failure
 — tuned to *this* Dyad — held as candidates under our own gate, the first interior disciplines we
 *authored* rather than fetched.
 
-**D1 · The inherit-vs-author partition.** Not everything transfers between Dyads. The **Agent is
-serializable** — a fresh no-`--resume` session reduces to `kb/ + ledger + weights`; *the ledger is the
-Agent's state.* The **Operator's wetware is not serializable** — no artifact reconstructs human
-cognition. So each Dyad is singular **through its Operator half.**
-- **Invariant → inherit / triangulate:** what follows from *any* Generate+Validate dyad under
-  falsifiability (the G+V structure, the cost-migration failure-modes). *Evidence it's real:* **thread
-  G** — our *independent* re-derivation **converged** on steward's conclusions; it couldn't have if all
-  craft were wetware-particular.
-- **Particular → author our own:** cadence, marker habits, ceremony, what "resonates" with *this* Operator.
-- **Test for which-is-which:** independent derivation **converges** with a sibling → invariant;
-  **diverges** → particular, and ours to build.
-- **Corrects:** deferring to a *sibling Dyad's* discipline as authority (fetch-and-comply) = the
-  deference reflex aimed sideways.
+**D1 · The inherit-vs-author partition — graduated to `kb/inherit-vs-author.md`** (kb-with-caveat,
+2026-07-02; Operator Y). Settled: not everything transfers between Dyads — invariant (converges with
+an independent sibling re-derivation) inherits/triangulates; particular (diverges) is ours to author.
+Founding evidence: thread G's independent convergence with steward's conclusions. See there for the
+full definition, the downstream-reuse evidence (D4's PS-UI partition, the open cluster-classification
+question), and the coverage caveat — this entry is a pointer, not a duplicate.
 
 **D2 · Falsification manner — incremental, shore-up, never cascading.** Stress-testing must
 **consolidate** the structure, not spawn unbounded new doubt that collapses it (the cascade: every
