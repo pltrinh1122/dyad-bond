@@ -178,6 +178,20 @@ next probe is whether it's actually reached for on a future real build decision,
 
 ---
 
+## Stand-Down 2026-07-03 — landing-discipline landed, dogfooded on its own PR
+
+**RESTART-PENDING: none** — anchor not touched (`relationship-craft.md` only).
+
+**Landed:** `relationship-craft.md §The landing-discipline` — an 8-item checklist for starting a
+landing, composed from already-landed rules. Audited against `#69`/`#70` before formalizing (only 2
+of 8 items held reliably both times); this landing is itself the first dogfood execution of the
+checklist, items 1/2/3/4/8 run live in producing it.
+
+**PR #71 is up for your gate.** *(Item 6 of the checklist itself, closing here — the exact gap named
+twice already this session, never before actually satisfied.)*
+
+---
+
 ## Stand-Up 2026-07-01 (resume — three RESTART-PENDING cleared + validator-drift caught)
 
 ## Stand-Down 2026-07-01 (close of the dyad-system / commission-mechanization arc — PR #65 merged)
