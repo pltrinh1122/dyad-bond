@@ -78,6 +78,12 @@ Reflect is F2-keystone-gated.
 - **GF-UI / GFD** — goal-framing. **VF-UI / VFD** — validation-framing (`AGREE: Y|N`, low-load, dissent-enabling).
 - **NBA → DFD** — prioritization over a DAG (math computes the ready-set; DFD disposes).
 - **UI↔Work pairing** — every Work-act has a UI surface (flow = work; surface = ours).
+- **Token categories (WHAT/WHY/HOW)** — WHAT (claim/directive/question) is Agent-detected, no token;
+  `why:` discloses purpose, reorients without asserting or executing; HOW (`riff:`/`raff:`) is
+  Agent-detected by default, tokens only override genuine ambiguity. Declarative claims default to
+  falsification (G0-inherited, not discretionary). Discipline-triggers use a `d-` prefix
+  (e.g. `d-land`). CANDIDATE, `dialectic/`, full definitions + design constraints in
+  `dialectic/dyad-ui.md §Token categories`.
 
 ## craft-* family *(bond-authored — the dyad's three levels; LANDED as bond's two roots; proposed to the DIP)*
 The level-vocabulary every dyad fills; only the fills differ. **Landed in bond's anchor** as the two roots

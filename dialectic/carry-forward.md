@@ -50,8 +50,12 @@
 > **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
 > `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss).
-> **RESTART-PENDING: none** — the three sets below (repo-structure/form-URL · `ID.md`-retirement ·
-> DFD-rename) are **CLEARED**, discharged by this session's boot (→ Stand-Up 2026-07-01 entry below).
+> **RESTART-PENDING: YES (2026-07-03)** — `GLOSSARY.md` edited (new "Token categories" pointer entry,
+> `§Dyad-UI cluster`) — anchor-class per `substrate-access.md`'s boot-set carve, gated even as a
+> `dialectic/`-candidate write. Binds next boot: refresh the per-file `inv:rom-currency` line to
+> `GLOSSARY.md`'s new sha, verify the new entry reads coherent cold. *(The three sets discharged
+> 2026-07-01 — repo-structure/form-URL · `ID.md`-retirement · DFD-rename — stay cleared; this is a
+> fresh set, not a reopening.)*
 
 ## Stand-Down 2026-07-02 (graduation-review arc resumed — Method core graduated)
 
@@ -189,6 +193,30 @@ checklist, items 1/2/3/4/8 run live in producing it.
 
 **PR #71 is up for your gate.** *(Item 6 of the checklist itself, closing here — the exact gap named
 twice already this session, never before actually satisfied.)*
+
+---
+
+## Stand-Down 2026-07-03 — token categories landed (WHAT/WHY/HOW, `d-` discipline-triggers)
+
+**RESTART-PENDING: SET** (above — `GLOSSARY.md` touched, anchor-class).
+
+**Landed:** a long Operator-led design pass (riff/raff chain, ~20 turns) on how Operator intent maps to
+Agent response paths — `dyad-ui.md §Token categories`, pointer in `GLOSSARY.md §Dyad-UI cluster`.
+Headline: WHAT (claim/directive/question) needs no token, Agent-detects from grammar, falls back to
+`bond:verify-before-assert` on elliptical utterances that defeat it; `why:` is the one new token
+(purpose-disclosure); HOW (`riff:`/`raff:`) becomes override-only, not a mandatory prefix, since content
+usually disambiguates itself; declarative claims default to falsification per G0's own law, not a
+discretionary trigger; discipline-triggers get a `d-` prefix (Operator disposition: brevity over
+`dyd-`'s recognizability). Explored and rejected along the way, with reasons on record: `/land`
+(unresolved client-collision risk), `//land` (C-comment "ignore this" association fights the intended
+meaning), `:land` alone (transposition-collision with `riff:`-style trailing-colon tokens), `/land!`
+and `/d-land` (reintroduce risks the simpler forms had already closed).
+
+**CANDIDATE, n=1** — this whole design pass happened in one session, one conversation; genuinely
+unaudited past it. Flagged as such in the landed text itself, not smoothed over.
+
+**Resume:** live fronts unchanged. Next boot should verify the new `GLOSSARY.md`/`dyad-ui.md` entries
+read coherent cold, then refresh the per-file `inv:rom-currency` line and clear this RESTART-PENDING.
 
 ---
 

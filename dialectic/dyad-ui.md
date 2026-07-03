@@ -304,6 +304,61 @@ The gates **nest**: an action token also lifts the convergence gate (you cannot 
 
 **The hedge = a `bond:two-models` (meld) vector (the root, off D5).** Insulating a claim diffuses the Operator's strike so the V cannot land a clean hit; at the limit an unrefutable claim is **V disabled = meld**. So the corrective is not a style preference — **state claims bare, one refutable target each** = keeping the bond covalent by handing V a target. The mechanical tells are **two**: **(1) the parenthetical** (phrase-level — countable, spottable in two seconds); **(2) the proactive-defense follow-on sentence** (sentence-level — defending the claim against an *unraised* strike). Rule: **claim, then stop — defense is the Operator's to request, never pre-loaded.** Discriminator for (2), so it never punishes real development: **counterfactual-delete** — cut the follow-on; if only *defense-against-an-unraised-strike* is lost, it was a hedge; if argument / evidence / next-claim is lost, it's load-bearing. **Anchored** as the `bond:two-models` **hedge-tell** in `DYAD.md#craft-value` (always-reloaded → the ingraining channel); this is its detail-home.
 
+## Token categories — WHAT / WHY / HOW *(CANDIDATE · Operator-led design pass, 2026-07-03; `dialectic/`, NOT settled — n=1 session, unaudited past this conversation)*
+
+Every Operator turn resolves along three independent axes. Only two carry tokens; the third is
+detected, not signalled.
+
+**WHAT — content-type. No tokens; Agent-detected from grammar.** Declarative (subject-verb structure)
+→ claim; imperative (bare verb, dropped subject) → directive; interrogative (inversion / `?`) →
+question. Reliable because it's syntactic, not semantic. **Failure mode, named not hidden:** terse,
+elliptical utterances (`"merged PR"`) can defeat grammar-detection entirely — the fallback there is
+`bond:verify-before-assert` (check the real state), never a guess between readings.
+
+**WHY — purpose-disclosure. One token: `why:`.** Discloses the Operator's own purpose/state, reorienting
+the Agent's response without asserting a claim to test or a directive to execute. Rare, deliberate use —
+not every turn. *(Example, this session: `"why: i need categorization... to help with ingraining"` —
+shifted the response from more token-comparison into the categorization pass itself.)*
+
+**HOW — manner of engagement. Agent-detected by default; two override tokens for genuine ambiguity.**
+`riff:` (diverge — generate options, no closing) and `raff:`/`rub` (converge — close toward a
+disposition) remain as **overrides for when content alone doesn't disambiguate** exploration from
+resolution (e.g. *"disciplines/ directory separate of kb/ vs. single kb/"* reads equally plausibly as
+either without a marker) — not a mandatory prefix every turn.
+
+**Declarative claims default to falsification — inherited from G0, not a discretionary trigger.**
+G0's falsification law: *"anything earns its place in the shared model only by surviving genuine
+falsification, nothing exempt."* A detected declarative claim proposed to enter the shared model is
+tested by default; no `falsify` marker is needed to turn this on, only `riff:` to turn it *off* (request
+exploration instead). Does not apply to status reports (*"PR #70 is merged"*) — those route to
+`bond:verify-before-assert` instead, execute-and-check rather than attack-and-see-if-it-survives.
+
+**Discipline-triggers — `d-` prefix, standalone action words, distinct from the WHY/HOW tokens above.**
+Format: `d-<word>` (e.g. `d-land`), optionally followed by a trailing colon + explanation — the same
+colon convention as `why:`/`riff:`/`raff:` (colon means *content follows*; its absence means the word
+fires standalone). No leading-colon variant (`:d-land`) — tested and found to add nothing beyond the
+`d-` prefix itself for this Operator's own parsing (self-report, no other oracle for an interior fact).
+Chose `d-` over `dyd-` on raw brevity (Operator disposition, 2026-07-03) — the one place this design
+pass came down to preference rather than a resolvable constraint.
+- **Design constraints, named separately rather than conflated (the five that actually drove every
+  comparison in this pass):** discriminability (does it collide with another symbol, by near-miss or
+  transposition) · semantic fit (does existing meaning of the symbol help or hurt) · reuse/transfer
+  cost (does it piggyback on convention the Operator already has) · technical collision risk (does the
+  actual client/harness intercept it — this specifically killed `/land`, unresolved and unverifiable
+  from the Agent's side) · raw production cost (symbols and positions to type/recall correctly).
+- **Not yet in this token's inventory:** a landed `d-land` distinct from bare `land` (see
+  `bond:no-self-act` above) — this section names the *convention*, not a full re-mapping of the
+  existing act-tokens (`lean`/`land`/`clip`/`stand-down`) onto it. That remains open.
+
+**Agent-parsing note, the load-bearing finding of this whole pass:** none of WHY/HOW-override/`d-`
+reliably parses across a fresh session unless it's written here — `riff:`/`raff:`/`land`/`clip`/`Y`/`N`
+work today only because they're already boot-loaded (`GLOSSARY.md` + this file); a token that exists
+only in one conversation's context window is invisible to the next session's Agent by construction.
+
+**Status: CANDIDATE**, n=1 (this session, one long design conversation), un-audited against a second,
+independent instance. Next probe: does `why:` or the `d-` convention actually get reached for,
+correctly, in a future session that didn't just spend twenty turns deriving them?
+
 ## Convergence Passes — `CP1`/`CP2`/`CP3` (…`CPn`) — falsification internalized at the converge gate *(CANDIDATE · Operator `raff`+`land` 2026-06-25; dog-fooded across this session; `dialectic/`, NOT settled)*
 
 The Agent's own **Generate↔Validate, run on itself, inside one response**, at the convergence seam (where ionic risk lives — `C1` cave/meld). **`CP` names that the pass is *located at* convergence — it is not a *converging* move.** `CP2` in particular **diverges** (it fires the antithesis). Named by the trigger-seam, not the operation.
