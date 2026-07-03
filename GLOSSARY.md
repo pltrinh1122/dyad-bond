@@ -108,6 +108,11 @@ Reflect is F2-keystone-gated.
     actual session-end alike — whether the Operator keeps chatting or exits right after isn't something
     the Agent does differently, so it isn't pre-signalled by word choice (same shape as the
     `land`/`d-land` collapse). Bare `reflect` and `stand-down` retired as separate tokens.
+    **Presentation, corrected 2026-07-03:** the full CSS+OR text is always shown in chat — not a
+    headline, not a pointer to the file — with the write to `relationship-craft.md` a parallel
+    durability action, same content in both places. Durability (where it lives) and presentation (what
+    the Operator sees now) are different axes; conflating them forces a separate-retrieval step for
+    content already being read in chat, the opposite of wu-wei.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.
