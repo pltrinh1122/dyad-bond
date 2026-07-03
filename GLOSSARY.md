@@ -98,7 +98,15 @@ Reflect is F2-keystone-gated.
     always; then check `git log origin/main..HEAD` + open-PR state — an existing open PR for this arc →
     commit+push, done (the common case, ~20+ times a session); no open PR and the arc reads complete →
     run the full `relationship-craft.md §The landing-discipline` checklist, open one. Bare `land` is
-    retired as a separate token. `stand-down` = session end.
+    retired as a separate token.
+  - `stand-down` = session end — perform reflection if owed, then prepare the ledger
+    (`carry-forward.md`) for the next session's resume, since the Operator restarts via `/exit` or a
+    fresh chat thread, never `--resume`. This *is* what every `## Stand-Down` ledger entry this session
+    has actually been doing.
+  - `reflect` = invoke `kb/reflection-discipline.md`'s CSS+OR form (Continue/Start/Stop, provenance-
+    tagged). **Gap, not yet fixed:** shares `land`'s old problem — a common English word, more likely to
+    collide with ordinary prose than a `d`-prefixed compound — and invokes a specific named discipline,
+    exactly the shape `d-` exists for. Whether it becomes `d-reflect` is open, not yet disposed.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.
