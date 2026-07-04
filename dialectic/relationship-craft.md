@@ -2343,6 +2343,17 @@ session. The prior turn's claim was false.
   config file, a settings block), either read the file directly to confirm the absence is load-bearing,
   or just try the narrower/alternate path before asserting it will fail too — a two-second test beats a
   guess stated as fact to the Operator.
+- **STOP** *(Agent, from live feedback — Operator-caught, added on correction):* this entry, the SH
+  format's second live use, applied CSS but never checked the Operator-provenance dimension at all — not
+  even an explicit "none found." Same silent-omission shape the prior reflect's "No STOP this cycle —
+  none found, not omitted for lack of looking" line was written specifically to avoid, relapsed one
+  category over. **No SH (Should Have / Should Hold) this cycle** — checked now: the arc's only Operator
+  input, "cut new PR," was a routine correct directive, not a falsifiable claim (no Should-Have) and not
+  thick enough on its own to extend the Should-Hold pattern already logged in the prior reflect (a single
+  terse directive isn't the same shape as resolving a genuine ambiguity).
+- **START** *(Agent, from live feedback):* every `d-reflect` runs the OR/SH check alongside CSS and
+  states the result either way — never omits the category because no CONTINUE/START/STOP-shaped
+  candidate surfaced first.
 
 **Novel yield, flagged not landed:** `dialectic/substrate-access.md`'s own account of `bin/git.sh`'s
 access model ("the harness grants the narrow permission `Bash(bin/git.sh:*)` — never broad git") may

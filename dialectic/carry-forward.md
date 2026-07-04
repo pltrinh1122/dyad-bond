@@ -58,6 +58,32 @@
 > `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
 > clears on this confirmation, not at commit time — condition met.
 
+## 2026-07-04 (cont.) — Operator caught two gaps: SH omitted from a reflect, `substrate-access.md` relapsed
+
+**RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md`,
+`dialectic/substrate-access.md` only).
+
+**Arc, both Operator-caught.** (1) The Operator asked why `DYAD.md` had no grounding for `bin/git.sh`
+over raw `git push`, given it took three denied attempts to find the working path. Traced it past
+`DYAD.md` (correctly empty — this is operational detail, not core content) to `CLAUDE.md`'s one-line
+summary, which turned out to be **stale**: `dialectic/substrate-access.md` had already resolved this
+exact trap on 2026-06-01 (*"file-absence ≠ capability-absence... the grant is already LIVE... no
+settings.local.json entry ever needed"*) but its own `## Status & next` section was never swept to match
+— so the file contradicted itself, and the stale half is what `CLAUDE.md` echoes. (2) Separately, the
+Operator caught that the `d-reflect` right after landing SH (Should Have/Should Hold) never checked for
+an Operator-provenance entry at all — not even an explicit "none found," the exact silent-omission shape
+that reflect's own STOP-cycle convention exists to prevent.
+
+**Landed:** corrected `substrate-access.md`'s `## Status & next` in place (struck-through, not deleted —
+the relapse stays visible) with a `✅ RESOLVED` banner matching the file's own established convention.
+Corrected the flagged reflect in place (`relationship-craft.md`), adding the missing SH accounting
+("none found" — the arc's only Operator input was a routine directive, not evidence clearing either
+Should-Have's or Should-Hold's bar) plus a STOP naming the omission itself and a START making the OR/SH
+check mandatory on every future `d-reflect`, stated either way.
+
+**Flagged, not landed:** `CLAUDE.md`'s own one-liner may need the same correction — touches the
+boot-set, landing-class, held for your disposition rather than self-edited.
+
 ## 2026-07-04 (cont.) — OR consolidates to SH (Should Have / Should Hold), `d-land` → PR #80
 
 **RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md` and
