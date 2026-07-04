@@ -251,6 +251,37 @@ re-authored for us. **Policy: `ALLOWED_OPS=(push)`, `PROTECTED_BRANCHES=(main)`,
 main, fail-closed.** Dry-run verified 2026-05-31 (4 paths): push→`push origin main`; force-on-main
 REFUSED; non-allowlisted op REFUSED; no-op REFUSED.
 
+## Portable choke-point enforcement — `.githooks/pre-push` *(Operator `d-land` 2026-07-04)*
+
+**The gap this closes.** `bin/git.sh` declares the policy but is a **choke-point, not a gate** — its
+integrity depends on the harness *denying raw `git push`* so the wrapper can't be bypassed. That deny is
+the `.claude/settings.json` `deny` block (10 rules) — **Claude-ONLY**. On `agy`/Gemini there is no such
+deny (Operator-reviewed 2026-07-04: no equivalent found), so the choke-point would **fail OPEN, and
+SILENTLY** — a live violation of `bond:substrate-agnostic` clause-2 (fail loud, never counterfeit-green).
+The *policy* half was always portable (the bash block); the *enforcement* half was not. This section is the
+enforcement half, made substrate-agnostic.
+
+**The resolution — enforcement moved out of per-harness config, into git.** `.githooks/pre-push` fires on
+**every `git push`, any substrate, raw or wrapped**. It REFUSES history-rewriting of a protected branch —
+a non-fast-forward (force) push or a deletion of `main` — mirroring `bin/git.sh`'s `FORCE_FLAGS` +
+`PROTECTED_BRANCHES`. It is **narrower than the wrapper on purpose**: it guards the *irreversible* class
+(rewrite/delete `main`'s history = losing the memory), **not** "must route through `bin/git.sh`" or "never
+push `main`" (those stay the PR discipline + the Claude classifier). Feature-branch pushes, force-with-lease
+to a feature branch, and fast-forwards all PASS — so it adds no friction to the real workflow.
+
+**Two honest edges, both fail-LOUD (clause-2 satisfied, not evaded):**
+1. `git push --no-verify` bypasses the hook — but that is a **deliberate, visible** act, the opposite of
+   the silent config-absence it replaces.
+2. The hook only fires if `core.hooksPath` points at `.githooks` — **not automatic on clone.** So
+   `bin/standup.sh` checks it every stand-up (`d-start`, both substrates) and **surfaces LOUD if unset**
+   (`Push-guard: ⚠ … UNGUARDED here`) with the one-line install. A substrate where the guard isn't active
+   *announces* it rather than running ungated in silence.
+
+**Install (substrate-agnostic, one-time per clone):** `git config core.hooksPath .githooks`. Verified
+2026-07-04 (5 offline cases: delete-main REFUSED · force-main REFUSED · ff-main PASS · force-feature PASS ·
+new-branch PASS). **Covalent gate unchanged:** the hook's policy (`PROTECTED_RE`) is Operator-governed by
+ratified edits, same as the wrapper's block — widening stays the Operator's act.
+
 ## Deferred — `gh` (our gate: don't over-build before friction bites)
 
 The [ALIGN] named *git **and** gh*. But no recurring **gh-mutation** friction has bitten yet (this

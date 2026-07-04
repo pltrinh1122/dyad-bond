@@ -97,6 +97,18 @@ else
   add "Substrate: ⚠ ephemeral/partial ($missjoin) → IM daemon NOT armable here; DM-watch is dark this session."
 fi
 
+# ── Portable push-guard (substrate-agnostic choke-point enforcement — .githooks/pre-push) ──────
+# The Claude-only `.claude/settings.json` deny-rules can't reach `agy`, so choke-point integrity moved
+# INTO git via a committed pre-push hook. It only fires if `core.hooksPath` points at it — which is NOT
+# automatic on clone. Surface LOUD if unset (bond:substrate-agnostic clause-2: fail loud, not silent).
+hp="$(git config --get core.hooksPath 2>/dev/null || true)"
+if [[ "$hp" == ".githooks" && -x .githooks/pre-push ]]; then
+  add "Push-guard: ✓ portable pre-push hook active (core.hooksPath=.githooks) — force/delete of main refused at the git layer, any substrate."
+else
+  add "Push-guard: ⚠ portable pre-push hook NOT active on this substrate — force/delete of main's history is UNGUARDED here (silent fail-open otherwise)."
+  add "        → install (substrate-agnostic, one-time per clone): git config core.hooksPath .githooks"
+fi
+
 # ── Scratch tier RETIRED 2026-06-27 (Operator fold+land) — durability-of-record is now the Agent-owned
 #    WIP auto-save (commit+push at natural pauses), Stop-hook-enforced. → dialectic/substrate-access.md §Scratch RETIRED.
 

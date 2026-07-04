@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+# .githooks/pre-push — dyad-bond portable choke-point enforcement (SUBSTRATE-AGNOSTIC)
+#
+# WHY (2026-07-04, Operator d-land — the common-friction resolution across `agy`/`claude`):
+#   `bin/git.sh` declares the push policy (ALLOWED_OPS / PROTECTED_BRANCHES / FORCE_FLAGS) but is a
+#   CHOKE-POINT, not a gate — its integrity depends on the harness DENYING raw `git push` so it can't be
+#   bypassed. That deny lives in `.claude/settings.json` (Claude-ONLY). On `agy`/Gemini there is no such
+#   deny, so the choke-point would fail OPEN, and SILENTLY — a live violation of `bond:substrate-agnostic`
+#   clause-2 (fail loud, never counterfeit-green). This hook moves the load-bearing guard OUT of per-harness
+#   config and INTO git itself: it fires on EVERY `git push` on ANY substrate, raw or wrapped.
+#
+# WHAT IT GUARDS (the memory-durability core, mirroring bin/git.sh): it REFUSES history-rewriting —
+#   a non-fast-forward (force) push, or a deletion — of a PROTECTED branch (main). Normal feature-branch
+#   pushes (incl. force-with-lease to a feature branch), and fast-forwards, PASS untouched. It does NOT
+#   enforce "must go through bin/git.sh" or "never push main at all" (that stays the PR discipline +,
+#   on Claude, the classifier) — it enforces the actually-irreversible class, portably.
+#
+# CAVEAT (honest, not hidden): `git push --no-verify` bypasses this hook. That is a DELIBERATE, VISIBLE
+#   act (fail-loud, not silent) — the opposite of the silent config-absence this replaces. Acceptable.
+#
+# INSTALL (substrate-agnostic, one-time per clone — NOT automatic on clone):
+#   git config core.hooksPath .githooks
+#   `bin/standup.sh` checks this every stand-up (d-start) and SURFACES LOUD if unset — so a substrate
+#   where the guard isn't active announces it, rather than running ungated in silence.
+
+set -euo pipefail
+
+PROTECTED_RE='^refs/heads/(main)$'          # keep in sync with bin/git.sh PROTECTED_BRANCHES
+Z40=0000000000000000000000000000000000000000
+
+# pre-push stdin: <local_ref> SP <local_sha> SP <remote_ref> SP <remote_sha>  (one line per ref)
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [[ "$remote_ref" =~ $PROTECTED_RE ]] || continue          # only guard protected branches
+
+  # Deletion of a protected branch (local side is all-zeros).
+  if [[ "$local_sha" == "$Z40" ]]; then
+    printf 'pre-push: REFUSED — deletion of protected branch %s (dyad-bond memory-durability guard).\n' \
+      "$remote_ref" >&2
+    exit 1
+  fi
+
+  # Non-fast-forward (force) to a protected branch: remote tip is not an ancestor of what we push.
+  if [[ "$remote_sha" != "$Z40" ]]; then
+    if ! git merge-base --is-ancestor "$remote_sha" "$local_sha" 2>/dev/null; then
+      printf 'pre-push: REFUSED — non-fast-forward (force) push to protected branch %s.\n' \
+        "$remote_ref" >&2
+      printf '          main history is append-only here; land via PR, never rewrite. (--no-verify bypasses, visibly.)\n' >&2
+      exit 1
+    fi
+  fi
+done
+
+exit 0
