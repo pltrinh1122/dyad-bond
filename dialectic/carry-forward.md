@@ -58,6 +58,31 @@
 > `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
 > clears on this confirmation, not at commit time — condition met.
 
+## 2026-07-04 (close) — `d-reflect` invoked, hook-install arc closed
+
+**RESTART-PENDING: none** (anchor untouched this session — only `bin/`, `dialectic/`, `commissions/`).
+
+**Reflect landed** → `relationship-craft.md §Reflect — the hook-install arc: S2 held under pressure,
+reference-claims going stale between decisions` (full text authored there, per the presentation
+discipline — pointer only here). Headline: `bond:no-self-act`/S2 held twice under real pressure (a
+`d-land` framing, then a "no other way to execute it" argument) — first live data for that gate's own
+named oracle. Separately, named **reference-drift** as a candidate failure mode distinct from
+`ingraining.md`'s thesis: a design doc's factual claim not getting re-verified when a *later* decision
+changes the fact underneath it (three independent instances this session, all Operator-caught, none
+self-caught). Cross-linked from `ingraining.md §Status & next` as a sibling, not a duplicate.
+
+**Mechanical (`bin/standdown.sh`):** ROM stays `none`; scratch tank clean (0 unreviewed); durability
+below.
+
+**Open-items:** nothing closes/opens in `deferrals.md` beyond the stand-down-automation item already
+updated earlier this session (install-gate cleared).
+
+**Durability:** this entry + the reflect + the ingraining.md cross-link queued for commit+push at this
+close.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**, now joined by
+**reference-drift-watch** as a related, distinct thread). NBA unchanged (`deferrals.md` `## todo`).
+
 ## 2026-07-04 (cont.) — SessionStart hooks installed (Operator's act), matcher gap found + landed (`PR #76`)
 
 **Arc:** Operator's own riff on SessionStart hooks surfaced that `bin/standup.sh --hook` +

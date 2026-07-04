@@ -2132,3 +2132,65 @@ proximity.
 Bind-test: does the next CI-relevant PR get a pre-emptive "this will/won't trigger CI" note instead of a
 generic "want me to watch," and does a stated caveat actually gate the claim it should the next time one
 appears mid-answer?
+
+## Reflect — the hook-install arc: S2 held under pressure, reference-claims going stale between decisions *(2026-07-04; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Missed that `bin/standup.sh --hook` + `bin/install_hooks.py` already existed (built
+2026-06-13, sitting at "awaiting install-gate" — read once during this session's own resume-protocol
+run, not connected until asked directly) — proposed building fresh instead of checking first. Corrected,
+verified the existing scripts live. Operator then directed `d-land` on running the installer itself, and
+separately named the practical reality that they cannot execute shell commands in a cloud session at
+all — both declined (`K6 constraint a` / S2): the "no other way" argument is the load-bearing case the
+boundary must survive, not an exception to it. Gave the exact resulting JSON instead; Operator committed
+it directly to `main` — verified byte-identical, idempotent-confirmed, functionally re-checked. Found a
+real matcher gap (`clear` missing vs. the design doc's own stated four sources), fixed + landed via `PR
+#76`. Traced why a one-shot installer should be permanent at all — found the repo's own precedent
+(`bin/git.sh`'s grant script started explicitly *disposable*, earned checked-in status via a stated
+bar) — retired both installers, swept every live pointer. Then, chasing whether `SessionEnd` could ever
+fire for a cloud-only Operator: found `/clear` doesn't exist on the web at all; caught myself re-asserting
+a 2026-06-13 "stdout is debug-log" claim as settled without re-verifying it (two contradictory
+subagent checks, one citing a section that reads fabricated) — corrected via architecture-inference
+instead of trusting either. A third, independent staleness turned up right after: `dyad-ui.md`'s mode
+table never got swept when `reflect`/`stand-down` collapsed to `d-reflect`.
+
+- **CONTINUE** *(Agent-observed, the load-bearing one):* holding S2 under actual pressure, not just as an
+  abstract principle — this is the first live data for the oracle `dyad-ui.md:322` names for
+  `bond:no-self-act` ("does the Agent ever self-start a landing un-signalled?"). Twice, with reasonable-
+  sounding arguments (`d-land` framing, then "no other way"), and it held both times without needing to
+  re-derive the reasoning from scratch each time — the boundary's own stated logic (`substrate-access.md`)
+  was already sufficient.
+- **CONTINUE** *(Agent-observed):* checking the repo's actual state before building, cited, or removing
+  anything, for the rest of the session after the one miss — `git show`/`git log` before naming a commit,
+  a live before/after hash-diff before claiming "no side effects," a dry-run against a scratch copy
+  before describing what an installer *would* do.
+- **START** *(Agent, from live feedback):* re-verifying a claim before *repeating* it, not only before
+  *first* asserting it. All three staleness catches this session (`install_hooks.py`'s matcher, the
+  debug-log claim, `dyad-ui.md`'s mode table) were carried-forward text nobody re-checked against the
+  world it was supposedly still describing — and none were self-caught; all three surfaced because the
+  Operator asked a plain, direct question.
+- **STOP** *(Agent, named not yet lived as a failure — a near-miss worth stating anyway):* treating a
+  compressed trigger word (`d-land`) or a sympathetic practical argument ("no other way") as if either
+  could, by itself, license crossing a structural boundary. Neither did here, but the shape of the
+  pressure is exactly what the boundary has to be tested against, and it's worth naming *why* it held
+  (the boundary's own reasoning survives independent of how it's invoked) rather than treating the hold
+  as a given.
+
+**The arc's actual generative finding:** a failure mode distinct from `ingraining.md`'s thesis. Ingraining
+names behavioral guards not *reloading* across sessions (capture ≠ reload). This is about **reference
+claims** — a design doc's factual assertion about the world — not getting *re-verified* when a **separate,
+later decision** silently changes the fact underneath them. Call it **reference-drift**: unlike a
+behavioral guard, a reference claim has no reload mechanism to even fail at — it just sits, cited as
+settled, until someone happens to re-derive it. Three independent instances surfaced in one session, and
+the count is suspicious less for its size than for its hit rate against zero self-catches.
+
+**Durable finding:** a design doc's claim is only as current as the last time someone checked it against
+the live world, not the last time someone wrote it down — and nothing in this repo's own mechanism
+(ingraining's reload-index, ROM-UI, single-home) currently watches for that specific kind of drift, because
+all three are built to catch *behavior* not reloading, not *facts* going stale.
+
+**Graduation gate.** Candidate, not kb/-eligible (n=1 session, `reference-drift` un-audited past this
+conversation, `bond:no-self-act`'s two-for-two is still early evidence not a settled oracle result).
+Bind-test: does the next repo-doc read surface a stale claim *before* it's cited as fact (self-caught), or
+does it again take a direct Operator question to find it?
