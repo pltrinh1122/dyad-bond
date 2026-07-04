@@ -2078,3 +2078,57 @@ logically follow.
 
 **Graduation gate.** Not kb/-eligible — session-harvest, never exits. Bind-test: does the
 full-text-in-chat presentation hold on the *next* `d-reflect`, unprompted?
+
+## Reflect — the reach-error, the `loaded:` front-matter arc, and the `dyad-ui.md` coherence pass *(2026-07-04; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest. Ledger holds the stand-down pointer.*
+
+**The arc.** Resumed from a completed `PR #72` merge (verified via API, the ledger corrected from a
+stale "open"). Explaining Dyad-UI's role produced a live reach-error — `dyad-ui.md` (rich, on-demand
+design-reasoning) asserted as "the signal/surface" despite its own caveat naming `GLOSSARY.md` as
+operative. Operator-corrected, root-caused (detail-richness stood in for operative-status), and turned
+into a formal proposal: a `loaded:` front-matter key. Riffed to find the applicable existing discipline
+(`the mechanism-building discipline`), ran a live `CP` pass on the Operator's own claim ("document-
+formalization should be lighter than mechanism-formalization"), validated N empirically (zero
+front-matter precedents, two independent phenomenon instances) before conceding the n≥2 floor, then
+landed the schema on 4 files including `DYAD.md`'s first-ever front-matter block (`PR #73`). A follow-on
+ask — does `dyad-ui.md` itself serve its role, or need decomposition — surfaced the exact coherence gap
+the new `loaded:` key was built to catch (the `GLOSSARY.md`-redirect convention applied inconsistently
+across the file's own sections), fixed with a light retrofit rather than a bigger file-split (`PR #74`).
+
+- **CONTINUE** *(Agent-observed):* verifying via execution before asserting, repeatedly — `PR #72`'s
+  merge state via API, the front-matter N-count via an actual repo-wide scan (not recalled/assumed),
+  `PR #73`'s merge via `git log origin/main` before restarting the branch. Every claim this session that
+  mattered got checked, not recalled.
+- **CONTINUE** *(Agent-observed):* running a genuine `CP` pass (thesis/antithesis/adjudicate) on the
+  Operator's own proposed claim rather than agreeing — found a real antithesis (the mechanism-building
+  discipline's founding case is itself a document-shape error, undercutting a clean "documents are
+  lighter" reading) and reached a two-axis synthesis instead of a flat yes/no.
+- **CONTINUE** *(Operator-retrospected):* directing "validate... to determine N" instead of accepting my
+  speculative "maybe there are latent instances" framing — forced the empirical scan that actually
+  grounded the concession, rather than letting the discipline's own n≥2 gate be satisfied by argument
+  alone.
+- **START** *(Agent, from live feedback):* before offering "want me to watch for CI/review activity,"
+  check whether the changed files actually match any CI workflow's trigger paths — both `PR #73` and
+  `PR #74` predictably had zero check runs (neither touched `invariant-lint`/`commission-lint`'s watched
+  paths), knowable in advance, but I only confirmed it after being told to watch rather than naming it
+  in the offer itself.
+- **STOP** *(Agent, from live feedback):* the founding reach-error itself — asserting `dyad-ui.md` as
+  "the signal/surface" despite having *just quoted*, one section earlier in the same answer, the file's
+  own caveat pointing elsewhere. The caveat was in hand and didn't gate the claim it should have gated.
+
+**The arc's actual generative finding:** the `loaded:` proposal ended up self-referential in a way worth
+naming — it was gated by the very discipline (mechanism-building's n≥2 floor) that its own subject
+matter is about, and *passed* that gate on real evidence rather than being waved through because the
+motivating story was compelling. The `dyad-ui.md` coherence pass then immediately validated the tag's
+reason to exist: the inconsistency it targets is real and present in the file that started this whole
+chain.
+
+**Durable finding:** a caveat stated once, earlier in the same response, does not automatically gate a
+claim made later in that response — propagation has to be checked explicitly, not assumed from
+proximity.
+
+**Graduation gate.** Not kb/-eligible — session-harvest record by design (D3-form), never exits.
+Bind-test: does the next CI-relevant PR get a pre-emptive "this will/won't trigger CI" note instead of a
+generic "want me to watch," and does a stated caveat actually gate the claim it should the next time one
+appears mid-answer?
