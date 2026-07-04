@@ -48,15 +48,36 @@
 > change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
 > over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
 > PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
-> `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
-> the per-file compare (the single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES`
-> array still doesn't include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md,
-> GEMINI.md}`; flagging the script/ledger gap, not unilaterally widening the script.)*
-> **RESTART-PENDING: CLEARED 2026-07-04** — the bind set the same day (`DYAD.md`'s first front-matter block)
-> is discharged: this session cold-booted (fresh `claude`, no `--resume`), read `DYAD.md` via the
-> `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
-> clears on this confirmation, not at commit time — condition met.
+> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` edited below, refresh owed next cold boot):**
+> `CLAUDE.md@437405a` (now stale, see RESTART-PENDING) · `GEMINI.md@437405a` · `DYAD.md@a47a65d` ·
+> `GLOSSARY.md@a47a65d`. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
+> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
+> include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
+> flagging the script/ledger gap, not unilaterally widening the script.)*
+> **RESTART-PENDING: SET 2026-07-04** — `CLAUDE.md` edited (its `Substrate-access` line carried a stale,
+> now-corrected precondition; see the same-day ledger entry below). **Binds next boot:** confirm
+> `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
+> line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
+> superseded by this new bind — not the same edit.)*
+
+## 2026-07-04 (cont.) — `CLAUDE.md`'s stale precondition corrected, anchor touched (`land the fix`)
+
+**RESTART-PENDING: SET** (above, refreshed) — `CLAUDE.md` edited for the first time this arc.
+
+**Arc:** the prior entry (below) flagged but held `CLAUDE.md`'s stale `Substrate-access` line — it
+restated `substrate-access.md`'s now-corrected precondition inline, which is exactly the "fat shim
+becomes a second content-home = drift" failure this file's own header already warns against. Operator
+disposed `land the fix`. Landed: the line no longer restates the grant mechanics at all — just points to
+`dialectic/substrate-access.md` and names, briefly, why not to restate them here again (the 2026-06-01
+fix that drifted stale and cost three denied push attempts before this session's fix). Checked
+`GEMINI.md` for the same duplication — its overlay section is empty by design (no Gemini session has run
+yet), nothing to fix there.
+
+**Durability:** anchor edit is write-through to disk, read-only for this session (`bond:rom-ui`
+mechanics) — takes effect next boot. `invariant-eval.py` re-verified green before commit.
+
+**Resume:** cold-boot bind above — next session confirms `CLAUDE.md` still parses/boots coherently with
+the corrected line, refreshes its sha in the per-file `inv:rom-currency` line, then clears.
 
 ## 2026-07-04 (cont.) — Operator caught two gaps: SH omitted from a reflect, `substrate-access.md` relapsed
 
