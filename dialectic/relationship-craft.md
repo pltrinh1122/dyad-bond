@@ -972,6 +972,36 @@ separate on evidentiary grounds:
 Still CANDIDATE — one hard-checkable instance is the first data point, not a survived falsification
 (cf. `bond:kb-graduation` — same bar as anything else here, no exemption for a fresh direction).
 
+**OR consolidates to SH (Should Have / Should Hold) — converged 2026-07-04, CANDIDATE, zero instances
+of the new grammar.** Riffed off the CONTINUE/START/STOP-mirroring above: rather than tag each CSS type
+with an Operator-provenance slot (`CONTINUE(OR)`/`START(OR)`/`STOP(OR)`), OR takes its own single format,
+not mirrored on CSS's three buckets. Two temporal shapes:
+- **Should Have** — a single past instance, hit-or-miss: *"Should have [verified X] — didn't; [claim]
+  independently found false via [mechanical check]."* Absorbs the debit direction above (`:935-967`)
+  unchanged in substance, restated in this grammar.
+- **Should Hold** — a standing, ongoing pattern rather than one moment: *"Should hold: [verify before
+  asserting merge state]"* — evidenced by verbatim quotes of instances where the Operator's conduct has
+  been meeting the bar. Absorbs the credit direction (the graduated `CONTINUE (Operator-retrospected)`
+  use) — a recurring pattern restated as a standing bar rather than one-off praise.
+
+**Every SH entry carries two requirements, both new this session:** (1) a **verbatim quote** from chat
+history as evidence — the Agent's own paraphrase of what the Operator said or meant does not qualify,
+converting the entry's grounding into an artifact-under-cost (`kb/evidentiary-discipline.md`'s bar)
+rather than the Agent's retelling; (2) for the Should-Have/debit direction specifically, the existing
+materiality + independent-mechanical-verification bar (`:945-956`) is unchanged — the verbatim quote
+establishes *what was said*, the mechanical check establishes *whether it was true*.
+
+**Open, not resolved this session:** the forward-commitment case (a not-yet-evidenced standing pattern
+the Operator is committing to) doesn't cleanly sort into either shape — sits between a Should-Have
+(single moment) and a Should-Hold (already-recurring). Left CANDIDATE-within-CANDIDATE rather than
+silently picked; the first real instance decides which shape it needs, or whether it needs a third.
+
+**Status:** structure only, no instances of the SH grammar itself — same posture OR's original
+credit/debit split held at its own birth (`:904-919`). Does not graduate until it survives a real
+application (`bond:kb-graduation`). Replaces, not extends, the CSS-mirrored `CONTINUE(OR)`/`START(OR)`/
+`STOP(OR)` structure sketched earlier in this section — the base Agent-authored CSS (this file's own
+`CONTINUE`/`START`/`STOP`, `kb/reflection-discipline.md:25-27`) is untouched.
+
 **D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
 output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
 layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
