@@ -374,6 +374,13 @@ pass came down to preference rather than a resolvable constraint.
 - **Not yet in this token's inventory:** a landed `d-land` distinct from bare `land` (see
   `bond:no-self-act` above) — this section names the *convention*, not a full re-mapping of the
   existing act-tokens (`lean`/`land`/`clip`/`stand-down`) onto it. That remains open.
+- **`d-start` — added 2026-07-04, the session-open trigger (`d-reflect`'s counterpart), payload
+  `{goal/scope}`.** Its design driver is *portability*, not brevity: it **retires** the Claude-only
+  `SessionStart` hook (→ `standdown-automation.md`) so one trigger fires across substrates — `agy`/Gemini
+  exposes no startup-hook analog as of this date (Operator-checked). This is the first `d-` token whose
+  rationale is cross-substrate uniformity rather than per-session ergonomics: it *reintroduces* the
+  per-session trigger the hook removed, deliberately, because the hook only removed it on one substrate.
+  `bin/standup.sh --hook` is kept dormant for re-wiring if a substrate later offers the analog.
 
 **Agent-parsing note, the load-bearing finding of this whole pass:** none of WHY/HOW-override/`d-`
 reliably parses across a fresh session unless it's written here — `riff:`/`raff:`/`land`/`clip`/`Y`/`N`

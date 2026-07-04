@@ -7,6 +7,16 @@
 > and *this file is the memory.*
 
 ## How to resume (fresh session)
+
+> **Trigger: `d-start: {goal/scope}`** *(the session-open token — `d-reflect`'s counterpart; full
+> definition → `GLOSSARY.md §Dyad-UI cluster`)*. The Operator types it to fire this protocol; the
+> `{goal/scope}` payload seeds the session's goal-frame (GF-UI). It **replaces the retired Claude-Code
+> `SessionStart` hook** (retired 2026-07-04 for cross-substrate portability — a `.claude/settings.json`
+> hook is Claude-only; the token fires anywhere the Operator can type). `d-start` reaches for
+> `bin/standup.sh` (the mechanical spine behind steps 4 / durability / substrate below), exactly as
+> `d-reflect` reaches for `bin/standdown.sh`. **Forward:** when a substrate exposes a startup-hook analog,
+> wire this discipline to it (`standup.sh --hook` is kept dormant, not deleted).
+
 1. Load the anchor — the harness shim (`CLAUDE.md` or `GEMINI.md`) boots **`DYAD.md`** (the
    load-bearing content). Operate as **Covalent**.
 2. Read this ledger.
@@ -59,6 +69,40 @@
 > `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
 > line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
 > superseded by this new bind — not the same edit.)*
+
+## 2026-07-04 (cont.) — `d-start` token landed, `SessionStart` hook retired for portability (`d-land`)
+
+**RESTART-PENDING: none new** (anchor `DYAD.md`/shims untouched). **Owed:** `GLOSSARY.md` was edited this
+arc → its per-file `inv:rom-currency` sha (`@a47a65d`) is now stale, refresh owed next cold boot (the
+mechanized `standup.sh` check doesn't compare `GLOSSARY.md`, so no false MISMATCH fires from it — ledger
+bookkeeping only). The pre-existing `CLAUDE.md` RESTART-PENDING above is a concurrent session's, unchanged.
+
+**Arc (Operator `why:` = portability across `agy`/`claude`, then `d-land`).** The resume protocol was fired
+by a Claude-Code `SessionStart` hook (`.claude/settings.json` → `bin/standup.sh --hook`) — Claude-only, no
+equivalent on `agy`/Gemini. Operator proposed a **`d-start: {goal/scope}`** token to trigger the discipline
+instead: portable to any substrate the Operator can type into, at the cost of a per-session trigger. Both
+design forks disposed: **(Q1)** retire the hook (pure token, drift-proof — a token in the reloaded grammar
+can't go stale the way this repo's hooks/settings repeatedly have); **(Q2)** Operator confirmed `agy` has no
+startup-hook analog today — *"when it does, we'll wire the discipline to the hook."*
+
+**Landed (docs, Agent — the token + discipline):** `GLOSSARY.md §Dyad-UI cluster` (new `d-start` entry,
+`d-start:standup.sh :: d-reflect:standdown.sh`); `carry-forward.md §How to resume` (trigger preamble);
+`dyad-ui.md` discipline-trigger inventory (design rationale = portability, first `d-` token so motivated);
+`standdown-automation.md` (SUPERSEDED banner — finding preserved, portability trade recorded, not deleted);
+`bin/standup.sh` header (`--hook` marked DORMANT, kept for re-wiring). The `{goal/scope}` payload is a genuine
+new capability (goal-frame seed at open), not just a portability swap — the hook-fired stand-up had no such
+channel.
+
+**Held at S2 (Operator's act, NOT self-executed):** *retiring the hook = editing the live
+`.claude/settings.json`* — the exact K6/S2 boundary held twice earlier this arc (`d-land` authorizes the
+landing, it does not dissolve S2). The precise edit is handed to the Operator in chat; until applied, the
+hook still fires on Claude (harmless — it runs the same `standup.sh`, now redundant with `d-start`).
+
+**Out of scope, flagged:** the `SessionEnd → standdown.sh --log` hook — symmetric retirement is a separate
+question, not touched here.
+
+**Durability:** this entry + all doc edits queued for commit+push at this pause. **`d-land`:** verify green,
+scope, open/join a PR.
 
 ## Stand-Down 2026-07-04 (process inbox → covalent-theory verdict-response — PRs #67, #77 merged)
 
