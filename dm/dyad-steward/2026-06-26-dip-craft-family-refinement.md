@@ -3,7 +3,7 @@ doc: "DIP refinement — the craft-* family + assertion-timing"
 kind: form-contribution            # a proposal to the form's DIP (AGENT.md); Founding-gated
 audience: "Founding Operator (disposes the form/DIP) · dyad-steward (intake/coordination)"
 authored_by: "dyad-bond (Covalent)"
-status: "candidate — LANDED in bond's anchor as the worked exemplar (2026-06-26: §craft-telos + §craft-value/craft-invariant; node bond:Telos→bond:craft-telos); proven in bond's n=1 (E0); proposed to the form, not pushed (bond:prove-before-propose)"
+status: "LANDED ON THE FORM (2026-07-01, form PR #75 `steward/dip-operate-model`@03fba9b, merged ce2bf9a) — falsified via dyad-steward DM, verified against the-dyad-practice git history 2026-07-04. Prior: LANDED in bond's anchor as the worked exemplar (2026-06-26: §craft-telos + §craft-value/craft-invariant; node bond:Telos→bond:craft-telos); proven in bond's n=1 (E0); proposed to the form (bond:prove-before-propose). **Confound (not a clean 1:1 adoption):** PR #75 wraps the craft-* rename inside a broader FO-authored 'three-layer operate-model' (Contract/Operating-policy/Craft) bond did not propose, and renumbers dimensions (craft_value/craft_invariant now #6, not #5 — a new Operating-policy dimension was inserted at #5). **Naming divergence:** the form spells the family `craft_telos`/`craft_value`/`craft_invariant` (underscore); bond's own usage here and in DYAD.md is hyphenated (`craft-telos`/…) — unreconciled, flagged not fixed."
 governed_by: [bond:form-grounding, bond:prove-before-propose, bond:channel-gates]
 pairs_with: "dm/dyad-steward/2026-06-26-dna-manifest-dip-seed.md (bond's covalent-genes = its FILL of this family; this spec is the STRUCTURE)"
 updated: 2026-06-26
