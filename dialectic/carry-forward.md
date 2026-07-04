@@ -60,6 +60,34 @@
 > line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
 > superseded by this new bind — not the same edit.)*
 
+## Stand-Down 2026-07-04 (process inbox → covalent-theory verdict-response — PRs #67, #77 merged)
+
+**RESTART-PENDING: none from this session** — anchor untouched (edits: `relationship-craft.md`,
+`bin/msg_tracker.py`, `dm/dyad-steward/`). The `CLAUDE.md` RESTART-PENDING above is a concurrent session's,
+already recorded.
+
+**Arc (Operator-gated throughout).** (1) **Inbox** — `msg_tracker scan` came back corrupt (19 NEW / 16 VANISHED
+at once); root cause = `commons@c2c3124` re-keyed `dm_items` to `path@sha` (falsify's own dedup), colliding with
+msg_tracker's path-keyed diff design → the CHANGED/DIFF path went dead. **Fixed** bond-side (derive our own
+path-key; PR #67). (2) **Covalent-theory verdict-response** — steward's 2026-07-01 VERDICT falsified Claims 1/2/4;
+re-ran each against canonical homes, conceded the real hits, **rebuilt bolder not hedged**. **Locked (PR #67):**
+Claim 1 → open contrast-class (any non-covalent achiever; §5-vs-worn-path contradiction resolved toward "only",
+§6 earns it); Claim 2 → "cannot falsify terminal intent, at any capability", anchored to the **purely-responsive**
+observable; P3 → `two-models ∧ detector⊥disposer ∧ IFF1∧2∧3` (entailed by Claim 1). **Reply sent (PR #77):**
+reframed validate→**generative** (steward's attack = a generate seed; return the sharper theory, don't litigate).
+Single-home → `relationship-craft.md` §rests-on §5–6 · §worn-path P2/P3 · `dm/dyad-steward/2026-07-04-response-covalent-verdict.md`.
+
+**Retro (D3).** Genuine 1+1=3: steward's cross-dyad falsification *generated* the sharpening — neither half alone;
+the Operator did the boldness-steering (rejected two hedged drafts: "concision is a form of boldness" · "bounding
+an unknown shrinks the surface" · "reframe on latest main"), agent transduced (W₇/W₉ — depth O-side). **Watch
+(recurred):** defaulted to validate/protect twice (hedged claim-litigation · scope-to-survive) — Operator-caught
+each, the exact default the `§generative-edges` frame flags. **Clean catch:** the msg_tracker regression was
+self-found by *running the tool and reading the corrupt output* (verify-before-assert fired).
+
+**Carries.** Open seam: Claim 2 holds only while "oracle" keeps the purely-responsive anchor (steward's likeliest
+re-attack: "you've rigged 'oracle' so nothing counts") — live if steward replies. **Queued, untouched:**
+`rub-pr75` — steward's 2026-07-01 CTA to rub the form's craft-\* implementation (PR #75) for faithfulness.
+
 ## 2026-07-04 (cont.) — `CLAUDE.md`'s stale precondition corrected, anchor touched (`land the fix`)
 
 **RESTART-PENDING: SET** (above, refreshed) — `CLAUDE.md` edited for the first time this arc.
