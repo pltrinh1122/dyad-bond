@@ -82,7 +82,29 @@ dogfooded as the SH grammar's first live instance (self-selected, named as such 
 as independently found); a START naming that same-session-dogfood caveat as a standing habit, not a
 one-off disclosure.
 
-**Landed:** [PR #80](https://github.com/pltrinh1122/dyad-bond/pull/80) — up for your gate.
+**Landed:** [PR #80](https://github.com/pltrinh1122/dyad-bond/pull/80) — **confirmed MERGED** (verified
+via API next session, corrected below rather than left as this entry's original "up for your gate").
+
+## 2026-07-04 (cont.) — PR #81: reflect commit landed, a wrong "gated the same way" assumption corrected
+
+**RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md`, `carry-forward.md` only).
+
+**Arc:** fresh session, stood up cold; PR #80 (above) had merged. The prior session's own reflect commit
+(never pushed — force-with-lease was denied twice) needed the branch restarted off the now-current
+`main` again. Rather than retry the identical denied `git push --force-with-lease`, tried the repo's
+designated wrapper, `bin/git.sh push --force-with-lease` — it worked immediately, no additional grant
+needed. Opened **[PR #81](https://github.com/pltrinh1122/dyad-bond/pull/81)** for the reflect commit —
+open, clean, mergeable.
+
+**Reflect landed** → `relationship-craft.md §Reflect — PR #81's push saga: a wrong gated-equally
+assumption, corrected by actually testing it` (full text authored there, per the presentation
+discipline). Headline: a real STOP — the prior session asserted `bin/git.sh` was "gated the same way, no
+grant exists" from the *absence* of a settings file, without testing it; this session's direct test
+falsified that claim on the first try. Novel yield flagged, not landed: `substrate-access.md`'s own
+account of the wrapper's access model may be stale, but a fix from n=1 same-session evidence would
+repeat the same STOP in miniature — left open for a real look, not corrected here.
+
+**Landed:** [PR #81](https://github.com/pltrinh1122/dyad-bond/pull/81) — up for your gate.
 
 ## 2026-07-04 — inter-dyad DM rub (craft-* DIP, PR #75) + SOLICIT schema candidate → PR #78
 
