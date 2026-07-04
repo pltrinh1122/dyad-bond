@@ -163,6 +163,28 @@ verified; re-stating an old claim isn't the same as re-checking it.
 
 **Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
 
+## 2026-07-04 (cont.) — `dyad-ui.md` mode-table staleness fixed (third instance this session)
+
+**Arc:** Operator asked whether a separate stand-down discipline still exists or `d-reflect` is the
+single trigger now. Answer: `reflect`/`stand-down` collapsed to one token, `d-reflect`, 2026-07-03
+(`carry-forward.md:392-406`) — `bin/standdown.sh` survives underneath as the mechanical instrument
+`d-reflect` reaches for at session-close, but bare `stand-down` isn't a live Operator-facing trigger.
+While answering, caught `dyad-ui.md:302`'s mode table still listing bare `stand-down` in its "lifted by"
+column, with the retirement footnote directly below it silent on the collapse — table never got swept
+when the token merged.
+
+**Landed:** `dyad-ui.md`'s act-mode row + footnote corrected (`d-land` · `d-reflect`, collapse noted,
+pointer to the full account). No behavior change — labeling only. Verified green (`standup.sh`,
+`invariant-eval.py` exit 0).
+
+**Novel yield:** third instance this session of the same shape (matcher-gap, debug-log claim, now this)
+— a design doc correctly captures a decision once, then a *later* decision changes the underlying fact
+and the earlier doc's table/claim doesn't get swept. Capture-once isn't reload-forever; each of these
+was caught by the Operator asking a plain question, not by any mechanism surfacing the drift un-cued.
+Worth a standing pattern-name if a fourth instance turns up.
+
+**Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
+
 ## 2026-07-04 (stand-up) — resume protocol run cold, RESTART-PENDING cleared
 
 **RESTART-PENDING: was SET, now CLEARED** (above) — this stand-up is the confirming cold boot the bind
