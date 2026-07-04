@@ -1,5 +1,6 @@
 ---
 locus: mixed   # g0 seed vocab (inherited) + bond-authored covalence vocab + the craft-* family (proposed to the form). Sections are locus-labeled inline. Key → MAP.md.
+loaded: resume-protocol   # DYAD.md §Frame pointer; read early by convention, not harness-injected. Key → dialectic/loaded-status-frontmatter.md.
 ---
 
 # dyad-bond — GLOSSARY.md *(vocabulary meaning-root — CANDIDATE)*

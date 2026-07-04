@@ -53,11 +53,42 @@
 > refresh — `bin/standup.sh`'s `ANCHOR_FILES` array doesn't yet include it, so the mechanized check still
 > only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`; flagging the script/ledger gap, not unilaterally
 > widening the script.)*
-> **RESTART-PENDING: CLEARED 2026-07-03** — `PR #72` confirmed **merged** (`98ea2fb`, verified via
-> `mcp__github__pull_request_read` before logging, per `bond:verify-before-assert` — the ledger had still
-> read "open" at boot). Cold-boot bind discharged: `GLOSSARY.md §Dyad-UI cluster`'s token-system entries
-> read coherent (no over-cut, no dangling cross-reference); `bin/invariant-eval.py` exits 0. Full detail →
-> the Stand-Up entry immediately below.
+> **RESTART-PENDING: YES, set 2026-07-04** — `DYAD.md` edited this session: its **first-ever front-matter
+> block** added (`loaded: boot`), alongside `GLOSSARY.md`/`generation-distillations.md`/`dyad-ui.md`
+> picking up the new `loaded:` key (`dialectic/loaded-status-frontmatter.md`, Operator `Y`). Per
+> `bond:rom-ui` the flag clears only after a cold boot confirms the anchor's new front-matter reads
+> coherent (does a fresh session choke on/misparse the leading YAML block?), not at commit time. Binds
+> next boot: re-run `bin/standup.sh` (will MISMATCH on `DYAD.md`'s new sha until the per-file line below
+> is refreshed to it), confirm `DYAD.md` still parses/boots as the anchor with the block prepended, then
+> refresh the per-file line + clear.
+
+## 2026-07-04 (cont.) — `loaded:` front-matter landed on 4 files (Operator `Y`), anchor touched first time
+
+**RESTART-PENDING: SET** (above, refreshed) — `DYAD.md` edited: first front-matter block ever added to
+the anchor.
+
+**Arc:** validated N before building anything (`bond:verify-before-assert` applied to the mechanism-
+building discipline's own n≥2 floor) — zero prior front-matter instances of a loaded-status key
+(scanned every YAML block in the repo), two independent instances of the underlying phenomenon (the
+2026-07-03 token/mode-gate arc's "`dyad-ui.md` wasn't boot-loaded, a real, named cost" + this session's
+own reach-error). Conceded n≥2 satisfied for the *shape*, explicitly not for a linter (separate,
+deferred). Drafted the schema (`boot`/`resume-protocol`/`active-fetch`/`on-demand`) with 4 worked
+examples; corrected `GLOSSARY.md`'s guessed tag from `boot` to `resume-protocol` on evidence (this
+session's own read-order) rather than the file's own aspirational "boot-loaded" claim.
+
+**Landed (Operator `Y` on the worked-examples table):** `DYAD.md@boot` · `GLOSSARY.md@resume-protocol` ·
+`dialectic/generation-distillations.md@active-fetch` · `dialectic/dyad-ui.md@on-demand`. `dialectic/
+loaded-status-frontmatter.md` updated to record the disposition. No linter written, no CI touched —
+mechanization stays a separate, later, undisposed question.
+
+**Durability:** committed, not yet pushed as of this entry (next action). No PR — this is a draft/pin +
+now a landing-class anchor write, not a landing (opening a PR needs a separate `d-land`).
+
+**Resume:** cold-boot bind above (does `DYAD.md` still parse/boot correctly with the new leading
+YAML block; refresh the per-file `inv:rom-currency` line to the new `DYAD.md` sha; then clear
+`RESTART-PENDING`). NBA otherwise unchanged (`deferrals.md` `## todo`).
+
+---
 
 ## 2026-07-04 — reach-error caught, `loaded-status-frontmatter` candidate drafted (`raff:`, not landed)
 

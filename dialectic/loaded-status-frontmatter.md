@@ -112,6 +112,9 @@ several times this corpus — Q1 above is itself evidence this could go either w
 ## Status
 
 **CANDIDATE · `dialectic/` · NOT settled · n=2 (validated)** — shape conceded formalizable, schema
-drafted with 4 worked examples, mechanization explicitly deferred. **No file has actually been re-tagged
-yet** (including this one) — the table above is the show; applying it is a separate act pending
+drafted with 4 worked examples. **Operator `Y` 2026-07-04: all 4 worked examples applied** —
+`DYAD.md@boot` (the anchor's first-ever front-matter block — a new precedent, not just a new key),
+`GLOSSARY.md@resume-protocol`, `dialectic/generation-distillations.md@active-fetch`,
+`dialectic/dyad-ui.md@on-demand`. Mechanization (a linter/CI) remains explicitly deferred — a separate,
+later, still-ungated decision (Open question 2, unchanged). Wider rollout past these 4 is a separate
 disposition. Spawn: `loaded-status-frontmatter`.

@@ -1,5 +1,6 @@
 ---
 locus: instance   # live generation substrate; session-scoped active context for reduced drift in G
+loaded: active-fetch   # consulted only when generating, not a resume pre-load. Key → dialectic/loaded-status-frontmatter.md.
 ---
 
 # generation-distillations — A's distilled generative signal, per cycle
