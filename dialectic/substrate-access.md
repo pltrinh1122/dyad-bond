@@ -253,9 +253,7 @@ REFUSED; non-allowlisted op REFUSED; no-op REFUSED.
 
 ## Portable choke-point enforcement — `.githooks/pre-push` *(Operator `d-land` 2026-07-04)*
 
-**The gap this closes.** `bin/git.sh` declares the policy but is a **choke-point, not a gate** — its
-integrity depends on the harness *denying raw `git push`* so the wrapper can't be bypassed. That deny is
-the `.claude/settings.json` `deny` block (10 rules) — **Claude-ONLY**. On `agy`/Gemini there is no such
+**The gap this closes.** `bin/git.sh` declares the push policy (ALLOWED_OPS / PROTECTED_BRANCHES / FORCE_FLAGS) but is a **choke-point, not a gate** — its integrity depends on the harness *denying raw `git push`* so the wrapper can't be bypassed. That deny is the `.claude/settings.json` `deny` block — **Claude-ONLY**. On `agy`/Gemini there is no such
 deny (Operator-reviewed 2026-07-04: no equivalent found), so the choke-point would **fail OPEN, and
 SILENTLY** — a live violation of `bond:substrate-agnostic` clause-2 (fail loud, never counterfeit-green).
 The *policy* half was always portable (the bash block); the *enforcement* half was not. This section is the
