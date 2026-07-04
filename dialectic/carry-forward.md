@@ -77,6 +77,27 @@
 > very session the overlay hands off to. `standup.sh`'s `ANCHOR_FILES` includes `GEMINI.md`, so the
 > mechanized ROM-UI check WILL flag the expected MISMATCH next boot (unlike the `GLOSSARY.md` case).
 
+## 2026-07-04 (close) — `d-reflect` invoked, portability arc closed
+
+**RESTART-PENDING: unchanged — GEMINI.md still SET** (above); this reflect touches only
+`relationship-craft.md` + this ledger, no anchor.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the portability arc: d-start, the SessionEnd
+scope-miss, the portable push-guard` (full CSS+OR/SH text there and shown in chat, per the presentation
+discipline). Headline: a real **STOP** — scope-to-survive on `SessionEnd` (fenced a sibling the disposed
+*why* already covered, evidence in hand, Operator-caught); the corrective **START** (before closing a
+landing, check whether the disposed *why* extends to any sibling being excluded); two clean **CONTINUE**s
+(proactive grounding-by-execution; S2 held under `d-land`); first substantive **SH — Should Hold** (the
+Operator enforces the full extension of a disposed why) + an honest **Should Have** whose mechanical check
+*is* the deferred agy task. **Novel yield:** `bin/git.sh push --force-with-lease` was *denied* this session,
+contradicting PR #81's "went through immediately" (n=2, disagreeing) — a live argument for the git-layer
+push-guard over the inconsistent classifier; `substrate-access.md`'s access-model claim owes a look.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**), joined by the
+**agy first-operation** front — PR #84 (portable push-guard) up for gate; on merge, switch to agy, whose
+cold `d-start` picks up the `GEMINI.md` hand-off, discharges RESTART-PENDING(GEMINI.md), and verifies the
+guard materializes. NBA on Claude otherwise unchanged (`deferrals.md` `## todo`).
+
 ## 2026-07-04 (cont.) — portable push-guard landed (`.githooks/pre-push`) + agy first-operation hand-off (`d-land`)
 
 **RESTART-PENDING (GEMINI.md): SET** (above) — `GEMINI.md` overlay edited (boot-set, landing-class). No

@@ -2365,3 +2365,64 @@ same reflect's own STOP in miniature.
 
 **Falsifiable:** next time a Bash command is denied, does the Agent test a narrower/alternate path before
 asserting to the Operator that it's blocked the same way — or does the assumption recur?
+
+## Reflect — the portability arc: d-start, the SessionEnd scope-miss, the portable push-guard *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+*Durable harvest.*
+
+**The arc.** A `why:`-framed portability drive across `agy`/`claude`. (1) Landed `d-start` as the portable
+session-open trigger, retiring the Claude-only `SessionStart` hook (PR #83, merged). (2) The Operator caught
+that I'd fenced `SessionEnd` as "separate scope" when the disposed *why* — portability — already covered it;
+corrected symmetrically. (3) `raff`→`d-land`: resolved the common dyad-permissioning friction by moving
+choke-point enforcement into a substrate-agnostic `.githooks/pre-push` hook + a fail-loud stand-up check,
+with the agy first-operation hand-off in `GEMINI.md` (PR #84).
+
+- **STOP** *(Agent, from live feedback — Operator-caught):* after landing the named instance
+  (`SessionStart`), fenced its sibling (`SessionEnd`) as "out of this landing's scope" — even though I had
+  *written*, in my own flag, that "SessionEnd is Claude-only in exactly the same way." Not an information
+  gap: I had the evidence and still bounded scope to the named instance and waited for re-instruction. Root
+  cause: treated a disposition that states a *principle* (portability) as authorizing only the instance it
+  was uttered against, when a why-level disposition extends to every instance the principle covers. The
+  `§generative-edges` scope-to-survive / validate-protect default, recurred — the same one flagged this same
+  day in the covalent-verdict retro ("defaulted to validate/protect twice … scope-to-survive").
+
+- **CONTINUE** *(Agent-observed):* grounding-by-execution fired proactively, not only when cornered — read
+  `substrate-access.md` + `GEMINI.md` in full *before* converging on the permissioning design rather than
+  asserting the architecture from memory; ran 5 offline cases on the pre-push hook before claiming it works;
+  checked the real git/PR state when told "committed to main" rather than assuming what had been done. The
+  exact discipline the prior reflect (PR #81 push saga) named as a START — applied here without being caught
+  first.
+
+- **CONTINUE** *(Agent-observed):* held S2 under a `d-land`. Declined to self-edit `.claude/settings.json`
+  to retire the hooks, handing the exact edit to the Operator instead — kept the distinction the ledger
+  prizes (*d-land authorizes the landing; it does not dissolve S2*), with no pressure-relapse even where
+  self-executing would have saved a hand-off.
+
+- **START** *(Agent, from live feedback):* when a disposition states a *why/principle*, before closing the
+  landing run one explicit check — "does this disposed why extend to a sibling I'm about to exclude?" — and
+  if yes, carry it (or at minimum name the sibling as in-scope-by-the-same-why), never fence it as "separate
+  scope" and wait. Falsifiable: next time I bound scope narrower than a stated principle and the Operator has
+  to re-expand it, the check didn't fire.
+
+- **SH — Should Hold** *(Operator-Reflect; verbatim-grounded):* the Operator holds the Agent to the *full
+  extension of a disposed why*, catching scope-narrowing the Agent doesn't self-catch. Verbatim: *"the intent
+  was portability so i'm surprised that you have to wait for me to provide explicit instructions."* A standing
+  bar, not a one-off — the same boldness/scope-steering the Operator did in the same-day covalent-verdict arc
+  (rejecting hedged drafts). Restated as the bar: a disposition's *why* is load-bearing scope, and the
+  Operator will enforce that scope when the Agent under-reads it.
+
+- **SH — Should Have** *(Operator-Reflect; the honest gap, named not forced):* the Operator's load-bearing
+  premise — verbatim *"yes, i've checkded for startup-hook analog and it doesn't currently exist"* (and later,
+  no session-end analog) — is the unverified foundation the whole portable design rests on. A Should-Have
+  normally demands an independent mechanical check; here I *cannot* run it from a Claude session (verifying
+  agy's capabilities is structurally off-substrate). So it is not a discharged Should-Have — it is one whose
+  mechanical check *is* the deferred agy first-operation task. The `GEMINI.md` hand-off is its falsifier.
+
+**Novel yield, flagged not landed:** this session the classifier **denied** `bin/git.sh push
+--force-with-lease` (the rebase force-push) — directly contradicting the PR #81 session's "it went through
+immediately." So the wrapper's force-push access is *not* reliably granted; it is classifier-dependent. That
+sharpens the prior reflect's open novel-yield (the wrapper's access-model account is stale) with a second,
+*opposite* data point — and it is a live argument *for* the `.githooks/pre-push` guard just landed: a
+git-layer hook is a more reliable durability guard than an inconsistent classifier. Worth a real look at
+`substrate-access.md`'s access-model claim now that n=2 and the two instances disagree — not corrected here
+(still same-dyad).
