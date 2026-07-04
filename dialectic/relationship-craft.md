@@ -2003,6 +2003,17 @@ or does a different item fail once the obvious ones (1, 6, 8) are being watched 
 until it survives at least one clean, fully-verified run — this file stays candidate regardless of
 how this landing itself goes.
 
+**Re-audit result (2026-07-04, PR #78 — the DM-rub/SOLICIT-schema landing):** first clean end-to-end
+run. Item 1 (`invariant-eval.py`) re-run immediately pre-open, not from memory. Item 2 scoped by
+execution (`git log origin/main..HEAD`, both session commits bundled). Item 3 opened mechanically off
+the `d-land` signal, no second CTA. Item 4 carried a real Summary+Test-plan body. Item 5 held (no
+merge/reviewers). Item 6 — the item that had failed *both* prior times — held: surfaced in chat and
+logged in `carry-forward.md` before the turn closed. Item 7 correctly assessed N/A (no anchor touch).
+Item 8 re-checked fresh (`find .github -iname "*template*"`), not assumed from the last check. **n=1
+clean run now on record** — still short of kb-eligible (one run, one session, no cross-check that
+this wasn't just a lighter arc than `#69`/`#70`), but the checklist's own named falsifier is now
+partially answered: the obvious items (1, 6, 8) held *and* nothing else broke in their place this time.
+
 ## Reflect — the token/mode-gate redesign arc *(2026-07-03; D3 reflection, CSS+OR form, single-home)*
 
 *Durable harvest. Ledger holds the stand-down pointer.*
@@ -2194,3 +2205,46 @@ all three are built to catch *behavior* not reloading, not *facts* going stale.
 conversation, `bond:no-self-act`'s two-for-two is still early evidence not a settled oracle result).
 Bind-test: does the next repo-doc read surface a stale claim *before* it's cited as fact (self-caught), or
 does it again take a direct Operator question to find it?
+
+## Reflect — the inter-dyad DM-rub arc: claim-vs-message conflated, then a clean landing-checklist run *(2026-07-04; D3 reflection, CSS+OR form, single-home)*
+
+*Durable harvest.*
+
+**The arc.** Stood up; the Operator relayed dyad-steward's cross-dyad DM in paraphrase (bond's own
+`craft-*` DIP proposal, implemented + merged as form PR #75). Verified the underlying claim directly
+against `the-dyad-practice`'s git history (`bond:verify-before-assert`), updated the source proposal's
+status, then — prompted by the Operator's separate "ensure it won't be re-processed" ask — located
+`falsify.py`'s actual read-state mechanism and, for the first time this session, found and read
+steward's **actual committed DM file**. Formalized the still-informal DM-rub pattern as a candidate
+`SOLICIT` schema (`cross-dyad-craft.md`) — a rediscovery of bond's own retired 2026-06-11 proposal —
+dogfooded by retrofitting the verdict DM into it. Landed the whole arc as PR #78, running the
+landing-discipline checklist (`§The landing-discipline` above) end to end for the first time since its
+2026-07-03 audit.
+
+- **CONTINUE** *(Agent-observed):* verified the cross-dyad claim (PR #75's faithfulness) by reading the
+  actual merged diff directly, not by trusting either the Operator's paraphrase or steward's own
+  assertion of faithfulness — the first time `bond:verify-before-assert` fired against an **external
+  sibling's claim**, not an intra-dyad one.
+- **CONTINUE** *(Agent-observed):* on the exploratory "should we formalize a discipline" question,
+  dispatched a research agent rather than answering from priors, then gave a scoped recommendation plus
+  the one real tradeoff (n=1, `bond:valid-vs-reachable`) and stopped for `Y` — didn't build ahead of
+  disposition.
+- **CONTINUE** *(Agent-observed):* the landing-discipline checklist — whose own audit two sessions ago
+  found item 6 failing *both* times it was tried — ran clean end to end this time (detail logged in
+  `§The landing-discipline`'s re-audit note, same file). First clean run since the checklist named its
+  own falsifier.
+- **STOP** *(Agent, from live feedback):* conflated **verifying the claim** (PR #75's content, checked
+  directly against git history) with **verifying the message** (steward's actual DM artifact, not yet
+  located). Updated the proposal's status and began forming a verdict from the Operator's paraphrase plus
+  my own git-read, before finding steward's actual committed DM file. It happened to name the same three
+  attack points I'd independently derived — that's luck, not a controlled read; had they differed, I'd
+  have answered a solicitation I never actually read. Root cause: no standing habit of treating "the
+  Operator described a DM" as "go find and read the actual sender-hosted file" before acting on it.
+- **START** *(Agent, from live feedback):* when a chat message reports the content of an inter-dyad DM
+  (or any external artifact with its own committed home), locate and read the actual file before forming
+  or sending a verdict — verifying the referenced claim is not a substitute for verifying the message
+  that carries it.
+
+**Falsifiable:** next time an Operator message paraphrases an external artifact with its own
+source-of-record, does the Agent locate and read that record before acting — self-caught, or does it
+again take a direct prompt to surface?
