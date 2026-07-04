@@ -25,7 +25,22 @@ The stand-down/stand-up routine splits cleanly:
 |---|---|---|---|
 | **SessionStart** | startup / resume / clear / compact | **YES** — `additionalContext` | **stand-up:** run the mechanical checks, inject the result so resume loads with no trigger |
 | **Stop** | every turn-end | yes, but fires *every* turn | ✗ — cannot mean "stand-down"; would nag each response |
-| **SessionEnd** | clear / logout / exit | **NO** — teardown-only, agent already gone; stdout is debug-log | mechanical *logging* only (`--log`) |
+| **SessionEnd** | clear / resume / logout / prompt_input_exit / bypass_permissions_disabled / other | **NO** — teardown-only, agent already gone; stdout fate is **substrate-dependent**, see below | mechanical *logging* only (`--log`) |
+
+**Substrate-dependent, corrected 2026-07-04** *(Operator-caught: the claim below had drifted from
+"unverified" to "asserted" without re-checking)*: whether `SessionEnd`'s stdout is ever observable
+depends on which Claude Code you're running, and its *main* trigger doesn't even exist in one of them —
+- **Claude Code on the web (cloud):** `/clear` — a primary trigger — **isn't available at all** (the
+  product substitutes "start a new session from the sidebar," which is a fresh `startup`, not a `clear`).
+  No terminal exists to print to either way. **Effectively unreachable AND unobservable for cloud-only
+  Operators** (this dyad's actual substrate) — not "harmless-if-it-fires," genuinely inert here.
+- **Local CLI:** `claude` runs attached to a real terminal, so a hook subprocess plausibly inherits that
+  terminal's stdout (architecture-inference, not a confirmed doc fact — two independent doc lookups on
+  this exact question gave contradictory answers, one of which cited a specific hooks.md section that
+  looks fabricated; don't trust either as settled). Plausibly a genuine, visible debug signal there.
+- **Either way, zero write-risk** (verified live, `bin/standdown.sh --log` hashed before/after — no file
+  touched): the mechanism can't be *harmful* even where it's dead, just misleadingly-documented as useful
+  when it may not be, for this dyad's own substrate.
 
 So the **stand-down judgment write cannot be hook-fired into the agent** (SessionEnd is too late; Stop is
 every-turn). The faithful architecture therefore **inverts the naive "automate the whole stand-down":**

@@ -126,8 +126,42 @@ the git-push grant it was written for — any Operator-gated one-shot installer 
 disposable-until-proven-and-portable, not permanent-by-mirroring-a-precedent. Worth naming as a standing
 check for the *next* such script, not just this pair.
 
-**Resume:** live fronts unchanged. Residual open item unchanged: live matcher still needs the Operator's
-one-line hand-edit for `clear` (`.claude/settings.json`).
+**Resume:** live fronts unchanged. Residual item CLOSED mid-arc: the Operator applied the `clear`-matcher
+hand-edit directly on this branch (`dd2ad7a` "Includes clear condition as well") while this commit was in
+flight — merged in clean, no conflict. Live matcher now reads `startup|resume|clear|compact`, confirmed.
+
+## 2026-07-04 (cont.) — SessionEnd observability corrected: substrate-dependent, not universal
+
+**Arc:** having established `clear` is unreachable in cloud sessions, Operator asked whether `SessionEnd`
+would ever fire for them at all given no cloud "quit/exit" UI exists. Checked: `/clear` (a primary
+trigger) genuinely doesn't exist on the web (`claude-code-on-the-web.md` §Manage context — "start a new
+session from the sidebar instead"); the rest of the trigger set is undocumented for cloud specifically.
+Verified `bin/standdown.sh --log` has zero side effects either way (hashed `carry-forward.md` before/after
+— unchanged) — so the mechanism can't be harmful even where it's dead.
+
+**Caught mid-arc:** asserted "stdout is debug-log" as settled fact (inherited from this file's own
+2026-06-13 table) without re-verifying it. Operator asked directly. Two independent doc-lookups on the
+same question returned **contradictory** answers — one honest ("not documented"), one a specific-sounding
+quote citing a `hooks.md` section that reads as fabricated. Neither trusted as settled.
+
+**Corrected via architecture-inference instead of a shaky citation:** local CLI's `claude` is
+terminal-attached, so a hook subprocess plausibly inherits that terminal's stdout — genuinely observable
+there, unconfirmed but architecturally plausible. Cloud sessions have no terminal at all — structurally
+unobservable regardless of what local CLI does. **So `SessionEnd` is substrate-dependent: plausibly live
+signal for a local-CLI dyad, effectively inert (unreachable trigger + unobservable output) for this
+dyad's actual cloud-only substrate** — not the universal "harmless-if-it-fires" framing asserted earlier.
+
+**Landed:** `standdown-automation.md`'s hook-contract table + a new note below it, correcting the trigger
+list and replacing the flat "stdout is debug-log" claim with the substrate-dependent finding, explicitly
+flagging the contradictory doc-lookups rather than picking one to sound confident. Verified green
+(`standup.sh`, `invariant-eval.py` exit 0).
+
+**Novel yield:** a second, sharper instance of the same ingraining-watch failure mode as the resume-
+protocol miss earlier this session — a claim written once (2026-06-13, "stdout is debug-log") got carried
+forward and re-asserted three sessions later as if verified, when it was always inference. Capture ≠
+verified; re-stating an old claim isn't the same as re-checking it.
+
+**Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
 
 ## 2026-07-04 (stand-up) — resume protocol run cold, RESTART-PENDING cleared
 
