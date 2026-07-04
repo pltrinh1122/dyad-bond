@@ -47,16 +47,112 @@
 > → "Disposition Framing Discipline"). **Boot-VERIFIED 2026-07-01** (this session's cold ROM-boot; all three
 > read coherent — no over-cut surfaced). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior
 > baseline: `DYAD.md@e0c9280`, PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-01):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
-> `DYAD.md@9519e01` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
-> single-sha line above is the human gloss).
-> **RESTART-PENDING: YES, awaiting next-boot verification (2026-07-03, refreshed)** — `PR #71` merged
-> (`813f02f`, on `main`). `PR #72` open (`mergeable_state: clean`, verified via API), carrying the
-> `d-reflect` presentation fix — not yet merged. Per `bond:rom-ui`, the flag clears only after an
-> actual cold boot confirms the entries read coherent — not at merge time. Binds next boot: refresh the
-> per-file `inv:rom-currency` line to `GLOSSARY.md`'s latest merged sha, verify `§Dyad-UI cluster`'s
-> token-system entries read coherent cold, *then* clear. *(The three sets discharged 2026-07-01 stay
-> cleared; this is a fresh set.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-03):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
+> `DYAD.md@9519e01` · `GLOSSARY.md@72c35a3` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
+> the per-file compare (the single-sha line above is the human gloss). *(`GLOSSARY.md` newly added this
+> refresh — `bin/standup.sh`'s `ANCHOR_FILES` array doesn't yet include it, so the mechanized check still
+> only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`; flagging the script/ledger gap, not unilaterally
+> widening the script.)*
+> **RESTART-PENDING: YES, set 2026-07-04** — `DYAD.md` edited this session: its **first-ever front-matter
+> block** added (`loaded: boot`), alongside `GLOSSARY.md`/`generation-distillations.md`/`dyad-ui.md`
+> picking up the new `loaded:` key (`dialectic/loaded-status-frontmatter.md`, Operator `Y`). Per
+> `bond:rom-ui` the flag clears only after a cold boot confirms the anchor's new front-matter reads
+> coherent (does a fresh session choke on/misparse the leading YAML block?), not at commit time. Binds
+> next boot: re-run `bin/standup.sh` (will MISMATCH on `DYAD.md`'s new sha until the per-file line below
+> is refreshed to it), confirm `DYAD.md` still parses/boots as the anchor with the block prepended, then
+> refresh the per-file line + clear.
+
+## 2026-07-04 (cont.) — `loaded:` front-matter landed on 4 files (Operator `Y`), anchor touched first time
+
+**RESTART-PENDING: SET** (above, refreshed) — `DYAD.md` edited: first front-matter block ever added to
+the anchor.
+
+**Arc:** validated N before building anything (`bond:verify-before-assert` applied to the mechanism-
+building discipline's own n≥2 floor) — zero prior front-matter instances of a loaded-status key
+(scanned every YAML block in the repo), two independent instances of the underlying phenomenon (the
+2026-07-03 token/mode-gate arc's "`dyad-ui.md` wasn't boot-loaded, a real, named cost" + this session's
+own reach-error). Conceded n≥2 satisfied for the *shape*, explicitly not for a linter (separate,
+deferred). Drafted the schema (`boot`/`resume-protocol`/`active-fetch`/`on-demand`) with 4 worked
+examples; corrected `GLOSSARY.md`'s guessed tag from `boot` to `resume-protocol` on evidence (this
+session's own read-order) rather than the file's own aspirational "boot-loaded" claim.
+
+**Landed (Operator `Y` on the worked-examples table):** `DYAD.md@boot` · `GLOSSARY.md@resume-protocol` ·
+`dialectic/generation-distillations.md@active-fetch` · `dialectic/dyad-ui.md@on-demand`. `dialectic/
+loaded-status-frontmatter.md` updated to record the disposition. No linter written, no CI touched —
+mechanization stays a separate, later, undisposed question.
+
+**Durability:** committed + pushed. **`d-land` fired next turn** — ran the landing-discipline checklist
+live: re-verified green (`invariant-eval.py` exit 0, `standup.sh` durability ✓) immediately before
+opening, not from memory; scoped by `git log origin/main..HEAD` (4 commits, this whole arc); no PR
+template in the repo; opened **`PR #73`** — "Confirm PR #72 merge; draft + land `loaded:` front-matter
+(anchor touched)" — mechanically, no second CTA; not merged, no reviewers requested.
+
+**`PR #73` is up for your gate.** Carries: the PR #72 merge-confirmation, the `loaded-status-frontmatter`
+draft + validation, and the 4-file landing including the anchor's first-ever front-matter block.
+
+**Resume:** cold-boot bind above (does `DYAD.md` still parse/boot correctly with the new leading
+YAML block; refresh the per-file `inv:rom-currency` line to the new `DYAD.md` sha; then clear
+`RESTART-PENDING`). NBA otherwise unchanged (`deferrals.md` `## todo`).
+
+---
+
+## 2026-07-04 — reach-error caught, `loaded-status-frontmatter` candidate drafted (`raff:`, not landed)
+
+**RESTART-PENDING: none** — anchor not touched.
+
+**Self-caught, Operator-pressed to root cause:** explaining Dyad-UI's role, read `dyad-ui.md` (rich,
+unloaded design-reasoning) in full and asserted it as "the signal/surface" — even though the file's own
+body twice names `GLOSSARY.md` as the actual boot-loaded operational reference. The caveat was already
+quoted in the same answer, one section up, and still didn't gate the top-line claim. **Named cause:**
+detail-richness stood in for operative-status — the file read most thoroughly felt authoritative,
+independent of whether it's actually live at boot. Same shape as this corpus's already-logged pattern
+(asserting from what's freshest-in-hand instead of checking real state first).
+
+**Drafted (converged, `raff:` — NOT landed, no PR):** `dialectic/loaded-status-frontmatter.md` — a
+candidate `loaded:` front-matter key (parallel to `locus:`, `MAP.md`'s scheme) naming where a file
+actually enters context (`boot` / `resume-protocol` / `active-fetch` / `on-demand`), targeting this exact
+reach-error class. Status: CANDIDATE, `dialectic/`, n=0 — un-mechanized, tradeoff and open questions
+named in the file itself (including whether `GLOSSARY.md` is genuinely `boot` or just asserted so).
+
+**Resume:** NBA unchanged (`deferrals.md` `## todo`) + this new candidate awaiting Operator disposition
+(`d-land` opens it; nothing committed toward that yet beyond the draft itself).
+
+---
+
+## Stand-Up 2026-07-03 (resume — `PR #72` confirmed merged, `RESTART-PENDING` cleared)
+
+**Resumed cold** on `claude/resume-pr-72-merge-wzwh9c` (identical to `main` at boot — no divergent
+unmerged commits to carry forward, nothing to rebase). Ran the resume protocol: anchor, ledger, ROM-UI,
+validator.
+
+**Verified via API before logging** (`bond:verify-before-assert` — the same discipline `PR #72` itself
+was about, now applied to `#72` in turn): `mcp__github__pull_request_read` on `#72` →
+`state: closed`, `merged: true`, `merged_at: 2026-07-03T23:47:24Z`, merge commit `98ea2fb`. The ledger
+had still read "open, not yet merged" at boot — stale, corrected here rather than left standing.
+
+**Cold-boot verification** (discharging the bind named in the prior `RESTART-PENDING` entry):
+- `bin/standup.sh` → ROM-UI ✓ MATCH (`DYAD.md`/`CLAUDE.md`/`GEMINI.md` unchanged since 2026-07-01); tree
+  clean, 0 unpushed; substrate residual unchanged (IM daemon unarmable — `commons/` submodule
+  uninitialized, no `/mnt/shared_data/dzw` — same as every prior session).
+- `python3 bin/invariant-eval.py dialectic/invariant-schema.yaml dialectic/invariants-bond.yaml` → exit 0,
+  14/14 `[PASS]`, one pre-existing `DUTY-DETECTOR-MISMATCH bond:anti-cave` advisory (unchanged, not a new
+  finding).
+- `GLOSSARY.md §Dyad-UI cluster` read cold: the six-token set (`riff:`/`raff:` · `why:` · `d-land` ·
+  `d-reflect` · `Y`/`N`) and the retired-token notes (`clip`/`lean`/bare-`land`/bare-`reflect`/
+  `stand-down`) are self-sufficient and internally consistent — no dangling cross-reference, no over-cut.
+
+**RESTART-PENDING: CLEARED** (above, refreshed) — per-file `inv:rom-currency` line now also carries
+`GLOSSARY.md@72c35a3`. **Noted, not fixed:** `bin/standup.sh`'s `ANCHOR_FILES` array doesn't include
+`GLOSSARY.md`, so the mechanized check still only compares `{DYAD.md, CLAUDE.md, GEMINI.md}` — this
+refresh's `GLOSSARY.md` entry is ledger-only until the script is extended. Flagging per
+`bond:no-self-ratify` rather than unilaterally widening the script's scope.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**). No open PR right
+now; NBA is the `deferrals.md` `## todo` backlog (single-home playbook Founding-gate PR · X-tier steward
+heads-up · cross-dyad custody deprecation · apex-telos-singularity empirical work · intent-clarity-arc
+anchor-candidates) — Operator selection owed, none picked unilaterally.
+
+---
 
 ## Stand-Down 2026-07-03 (cont.) — confirmed #71, fixed `d-reflect`'s presentation, `#72` open
 

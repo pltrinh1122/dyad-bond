@@ -1,5 +1,6 @@
 ---
 locus: phenotype   # the medium bond owns — inherited from steward, re-confirmed under our NON-NEGOTIABLE; library-eligible craft. Key → MAP.md.
+loaded: on-demand   # design-reasoning; not boot-loaded despite earlier assumption — this session's own reach-error target. Key → dialectic/loaded-status-frontmatter.md.
 ---
 
 # Dyad UI — the framing/signaling layer — LIVE CYCLE (under falsification)

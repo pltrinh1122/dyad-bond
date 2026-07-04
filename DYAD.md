@@ -1,3 +1,7 @@
+---
+loaded: boot   # shim-instructed immediate read, every session. Key → dialectic/loaded-status-frontmatter.md.
+---
+
 # dyad-bond — DYAD.md *(two-layer anchor: prose core over an externalized frame)*
 
 > **Universal instruction layer for `dyad-bond`.** Loaded at session start via the `CLAUDE.md` /
