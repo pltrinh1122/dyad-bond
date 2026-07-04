@@ -58,9 +58,10 @@
 > change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
 > over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
 > PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` edited below, refresh owed next cold boot):**
-> `CLAUDE.md@437405a` (now stale, see RESTART-PENDING) · `GEMINI.md@437405a` · `DYAD.md@a47a65d` ·
-> `GLOSSARY.md@a47a65d`. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
+> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` + `GEMINI.md` edited below, refresh owed next cold boot):**
+> `CLAUDE.md@437405a` (stale, see RESTART-PENDING) · `GEMINI.md@437405a` (**now stale** — agy first-operation
+> overlay added, see RESTART-PENDING) · `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d`.
+> **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
 > include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
 > flagging the script/ledger gap, not unilaterally widening the script.)*
@@ -69,8 +70,50 @@
 > `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
 > line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
 > superseded by this new bind — not the same edit.)*
+> **RESTART-PENDING (GEMINI.md): SET 2026-07-04** — `GEMINI.md` overlay gained the agy first-operation
+> task hand-off (portable push-guard verification). **Binds next boot:** confirm `GEMINI.md` still boots
+> `DYAD.md` coherently with the added overlay block, refresh its sha in the per-file line above, then clear.
+> **Elegant discharge:** the cold boot that clears this *is the agy first-operation session itself* — the
+> very session the overlay hands off to. `standup.sh`'s `ANCHOR_FILES` includes `GEMINI.md`, so the
+> mechanized ROM-UI check WILL flag the expected MISMATCH next boot (unlike the `GLOSSARY.md` case).
 
-## 2026-07-04 (cont.) — `d-start` token landed, `SessionStart` hook retired for portability (`d-land`)
+## 2026-07-04 (cont.) — portable push-guard landed (`.githooks/pre-push`) + agy first-operation hand-off (`d-land`)
+
+**RESTART-PENDING (GEMINI.md): SET** (above) — `GEMINI.md` overlay edited (boot-set, landing-class). No
+other anchor touched (`DYAD.md`/`CLAUDE.md`/`GLOSSARY.md` unchanged this arc).
+
+**Arc (Operator `raff`→`d-land`, why: portability of dyad-permissioning across `agy`/`claude`).** Reviewing
+`settings.json`, the Operator found the `allow`/`deny` permission block has no `agy` equivalent. Grounded
+the real shape: dyad-permissioning is two layers — the **wrapper policy** (`bin/git.sh`'s bash block,
+already portable) and the **harness deny-rules** that make the choke-point unbypassable (Claude-ONLY,
+`.claude/settings.json`). On `agy` the enforcement is absent *and its absence is silent* — a `bond:substrate-
+agnostic` clause-2 violation (fail loud, not counterfeit-green). Resolved the **common** friction by moving
+enforcement out of per-harness config and INTO git.
+
+**Landed:**
+- **`.githooks/pre-push`** — substrate-agnostic hook, fires on every `git push` any harness; REFUSES
+  force/delete of `main` (mirrors `bin/git.sh` `FORCE_FLAGS`+`PROTECTED_BRANCHES`), PASSES feature-branch
+  force + ff. Verified 5 offline cases (delete/force REFUSED, ff/feature/new-branch PASS).
+- **`bin/standup.sh`** — new `Push-guard` check: `core.hooksPath==.githooks`? Surfaces **LOUD if unset**
+  (the guard isn't auto-installed on clone; silent-absence would re-open the clause-2 hole). Runs both
+  substrates via `d-start`.
+- **`substrate-access.md §Portable choke-point enforcement`** — single-home for the gap + resolution +
+  the two fail-loud edges (`--no-verify` is deliberate/visible; unset `core.hooksPath` is announced).
+- **`GEMINI.md` overlay** — the agy first-operation hand-off (framed as a *task*, not a pre-filled
+  substrate-fact, to respect the overlay's wu-wei guard): verify the guard materializes on agy, then record
+  agy's *observed* grant-path + fail-loud-or-open. This is the "verify the materialization" step (prev raff).
+
+**Install this clone:** `git config core.hooksPath .githooks` done + verified (`Push-guard: ✓`).
+
+**Anti-cave flag (judgment call, surfaced not buried):** the hook guards force/delete of `main` — the
+*irreversible* class — NOT "must route through `bin/git.sh`" or "never push `main`." Enforcing the latter
+portably is harder (per-harness) and left to the PR discipline + classifier; the hook takes the memory-
+durability core that's cleanly detectable at the git layer. Under-claim, deliberately.
+
+**NBA (for the agy session):** the `GEMINI.md` hand-off IS the next action on that substrate. On Claude,
+live fronts unchanged.
+
+**Durability:** this arc lands via branch→PR→Operator-merge (never direct `main`).
 
 **RESTART-PENDING: none new** (anchor `DYAD.md`/shims untouched). **Owed:** `GLOSSARY.md` was edited this
 arc → its per-file `inv:rom-currency` sha (`@a47a65d`) is now stale, refresh owed next cold boot (the
