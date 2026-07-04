@@ -42,12 +42,17 @@ cross-dyad or cross-human attack has ever tested this form. Per `theory-pipeline
 `graduation_rule`, an "outside" claim without an L2b (cross-human) rub caps at `survives`, not
 `settled`. This file graduates as **kb-with-caveat**, not full-settled — cite accordingly.
 
-**Known open gap in the form's own structure (not new, structural):** the OR (Operator-Reflect) tag —
-`CONTINUE (Operator-retrospected)` — could in principle flag Operator drift/incoherence, not just
-credit. Audited across all 4 CSS instances + the 2 earlier `Reflect-harvest` precursors: OR has only
-ever been used in the credit direction. **This gap did NOT graduate with the rest of the form** — it
-stays in `dialectic/relationship-craft.md §D3` as `CANDIDATE`, since it has zero survived instances of
-its own. See there.
+**Known open gap in the form's own structure (evolved, not new):** OR (Operator-Reflect provenance) no
+longer mirrors CONTINUE/START/STOP as a per-type tag — as of 2026-07-04 it consolidated into its own
+format, **SH (Should Have / Should Hold)**: a single-past-instance counterfactual (Should Have) and a
+standing-pattern counterfactual (Should Hold), each verbatim-quote-grounded, replacing the
+`CONTINUE(OR)`/`START(OR)`/`STOP(OR)` structure this file originally described. Absorbs both directions
+already named in `relationship-craft.md §D3` (credit → Should Hold; debit → Should Have, one real debit
+instance survived) but **the SH grammar itself has zero instances** — structure only, same posture the
+credit/debit split held at its own birth. **This gap did NOT graduate with the rest of the form** — it
+stays in `dialectic/relationship-craft.md §D3` as `CANDIDATE`. See there for the full definition, the
+evidentiary requirements (verbatim quote + independent mechanical check for Should-Have), and the still-
+open forward-commitment shape.
 
 ## Forward
 
