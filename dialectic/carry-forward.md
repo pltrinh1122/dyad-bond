@@ -75,13 +75,19 @@ found and fixed a real instance of the exact inconsistency it targets, in the sa
 original error (`PR #74`). START named: check a PR's changed-file paths against CI trigger paths before
 offering to "watch for CI," not after.
 
-**Durability:** both PRs merged (`#73`, `#74`); this reflect's own writes (`relationship-craft.md`,
-`carry-forward.md`) are next to commit+push.
+**Durability:** both prior PRs merged (`#73`, `#74`). This reflect's own writes committed + pushed;
+Operator then said "keep branch" (had assumed `#73`'s post-merge deletion stuck — it hadn't, since this
+branch was reused per the merged-PR restart protocol and got silently recreated on the next push;
+confirmed via git's own `[new branch]` push output, not asserted). **`d-land` fired on "cut PR"** —
+verified green, scoped (1 commit, no divergence from `main`, which had just caught up to `#74`'s merge),
+no template, opened **`PR #75`** mechanically.
+
+**`PR #75` is up for your gate.**
 
 **Resume:** the carried-forward `RESTART-PENDING` bind is still open — a fresh session's cold boot needs
 to confirm `DYAD.md`'s new leading front-matter block reads coherent, then refresh the per-file
 `inv:rom-currency` line (`DYAD.md`'s current sha) and clear. NBA otherwise unchanged (`deferrals.md`
-`## todo`) — no open PR right now.
+`## todo`).
 
 ---
 
