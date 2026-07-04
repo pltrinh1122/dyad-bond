@@ -45,6 +45,12 @@ A **marker invokes** the region whose discipline governs the exchange: `[CTA]`�
 
 ## RESOLVED-CORE — `show` / `flow` (pinned)
 
+> **Operational reference lives in `GLOSSARY.md §Dyad-UI cluster`** (boot-loaded — well, `resume-
+> protocol`-loaded, per `dialectic/loaded-status-frontmatter.md`'s correction). This section is the
+> design-reasoning behind the show/flow split — not needed to *use* `DF-UI`/`DFD`, only to audit or
+> extend them. *(Retrofitted 2026-07-04 for consistency with the mode-gate/token-categories sections
+> below, which already carried this note — see that arc's own coherence finding.)*
+
 The decision-framing region resolved to a **two-name** ontology, our **nouns-vs-verbs** discipline
 turned into a mnemonic:
 
@@ -71,6 +77,11 @@ turned into a mnemonic:
   `../kb/dfd.md`, on the *show* surface.
 
 ## Markers — NOT a ratifiable taxonomy; a *living habit-set* (descriptive, 2026-05-30)
+
+> **Operational reference lives in `GLOSSARY.md §Dyad-UI cluster`** — the closed, self-sufficient
+> descriptive summary. This section is the design-reasoning + the session-specific evidence table
+> behind *why* markers were closed as a habit-set rather than a taxonomy — not needed to recognize a
+> marker in use. *(Retrofitted 2026-07-04, same consistency pass as `§RESOLVED-CORE` above.)*
 
 **M was never a ratifiable artifact** (Operator `N`, 2026-05-30). A marker vocabulary **ingrains
 through repetition** in the Operator's *wet-substrate* — it cannot be *prescribed into being*. Two
@@ -395,6 +406,11 @@ The Agent's own **Generate↔Validate, run on itself, inside one response**, at 
 
 ## Forward
 
-- Queue for this session's **Stand Down**: one-line anchor §Vocabulary promotion of `Dyad UI`,
-  `DF-UI (show)`, `DFD (flow)` once the surrounding ontology is seen whole.
+*(Refreshed 2026-07-04 — the queue item below had sat unresolved-looking since 2026-05-29 despite the
+work itself being long done; stale debris, not a live TODO.)*
+
+- **Done, not queued:** the anchor §Vocabulary promotion happened — `DYAD.md §Frame` points to
+  `GLOSSARY.md`, which now carries the whole Dyad-UI cluster (`Dyad UI`, `DF-UI (show)`, `DFD (flow)`,
+  the mode-gate, token categories) as the boot/resume-loaded operational reference. This file is the
+  design-reasoning behind it, not the reference itself (see the per-section redirect notes above).
 - Cross-link: `DFD (flow)` ↔ `kb/dfd.md`; markers ↔ the boundary rituals in `session-ritual.md`.

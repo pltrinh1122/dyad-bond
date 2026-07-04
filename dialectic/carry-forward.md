@@ -62,7 +62,38 @@
 > is refreshed to it), confirm `DYAD.md` still parses/boots as the anchor with the block prepended, then
 > refresh the per-file line + clear.
 
-## 2026-07-04 (cont.) — `loaded:` front-matter landed on 4 files (Operator `Y`), anchor touched first time
+## 2026-07-04 (cont.) — `dyad-ui.md` coherence retrofit, `d-land` on a fresh branch (`PR #73` merged)
+
+**RESTART-PENDING: unchanged, still SET** (below) — carried from the anchor's first front-matter block;
+this arc doesn't touch `DYAD.md`.
+
+**Arc:** Operator asked whether `dyad-ui.md` serves its intended role or would benefit from decomposition.
+Assessed: not badly-written, but chronologically accreted — the `GLOSSARY.md`-redirect note (added
+2026-07-03 to the mode-gate/token-categories sections) was never retrofitted onto the two older sections
+(`RESOLVED-CORE`, `Markers`) even though the same logic applies; the `## Forward` section had sat stale
+since 2026-05-29, describing a promotion that was long since done. Recommended the light fix
+(consistency retrofit) over full decomposition — no second file-boundary shape at n=1, per the
+mechanism-building discipline's own n≥2 floor.
+
+**Landed (`d-land`):** added the redirect note to `RESOLVED-CORE` + `Markers`; rewrote `## Forward` to
+state the anchor-promotion is done, not queued. Branch restarted fresh off `main` first (`PR #73` had
+merged — confirmed via `git log origin/main` showing the merge commit, then `git checkout -B` onto it),
+per the merged-PR protocol; no stacking on already-merged history.
+
+**Durability:** committed + pushed. Landing-discipline run live: re-verified green immediately before
+opening (`invariant-eval.py` exit 0, same pre-existing advisory); scoped by `git log origin/main..HEAD`
+(this one file); no PR template in the repo; opened mechanically, no second CTA; not merged, no
+reviewers requested.
+
+**`PR #74` is up for your gate.**
+
+**Resume:** the carried-forward `RESTART-PENDING` bind is unchanged (see below) — still awaiting an
+actual fresh-session cold boot to verify `DYAD.md`'s new front-matter block, not resolved by this arc.
+NBA otherwise unchanged (`deferrals.md` `## todo`).
+
+---
+
+## 2026-07-04 — `loaded:` front-matter landed on 4 files (Operator `Y`), anchor touched first time
 
 **RESTART-PENDING: SET** (above, refreshed) — `DYAD.md` edited: first front-matter block ever added to
 the anchor.
