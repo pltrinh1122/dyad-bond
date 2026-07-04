@@ -58,6 +58,44 @@
 > `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
 > clears on this confirmation, not at commit time — condition met.
 
+## 2026-07-04 (cont.) — SessionStart hooks installed (Operator's act), matcher gap found + landed (`PR #76`)
+
+**Arc:** Operator's own riff on SessionStart hooks surfaced that `bin/standup.sh --hook` +
+`bin/install_hooks.py` already existed (built 2026-06-13, `standdown-automation.md`), sitting at
+"done, awaiting install-gate" — a fact this session had already read once during the stand-up above and
+failed to connect until asked directly. Corrected rather than re-built from scratch.
+
+**S2 held, twice.** Operator asked the Agent to run `bin/install_hooks.py` directly ("d-land" cited as
+authorization) and separately to self-grant it as a practical necessity ("I can't execute commands in a
+cloud session"). Both declined: K6 constraint (a) / S2 reserves *executing the install against the live
+settings file* for the Operator, specifically because "no other way" is the load-bearing case the
+boundary must survive, not an exception to it. Gave the exact resulting JSON instead, for the Operator to
+paste on GitHub directly — genuinely their hands on the act, not a proxy.
+
+**Landed (Operator, direct commit to `main`, `5e51677` "Update settings.json"):** `SessionStart` (matcher
+`startup|resume|compact`) → `bin/standup.sh --hook`; `SessionEnd` → `bin/standdown.sh --log`. Verified:
+byte-identical to the proposed content, valid JSON, `bin/install_hooks.py` confirms idempotent (already
+wired), both hook commands re-verified to run clean.
+
+**Reconciled:** `main` (`5e51677`) and this branch (`98e0a94`) had diverged (different files, no
+conflict) — merged (`106ba98`), pushed.
+
+**Gap found + fixed:** the installed matcher (`startup|resume|compact`) omits `clear`, though
+`standdown-automation.md`'s own table lists all four sources. Whether `/clear` actually reloads the
+anchor from disk (confirmed for `/compact`, unconfirmed for `/clear` per Claude Code docs) is open, but
+the check is cheap + idempotent + non-judgmental — asymmetry favors covering it. Fixed
+`bin/install_hooks.py`'s `HOOKS` dict (code change, no S2 issue — inert until run); verified green
+(`py_compile`, `invariant-eval.py` exit 0); **opened `PR #76`** — "Add clear to the SessionStart hook
+matcher (all four sources)."
+
+**`PR #76` is up for your gate.** Merging it does **not** update the live matcher (`bin/install_hooks.py`
+only adds missing hook entries, keyed on the `command` string — it won't touch an already-present
+entry's `matcher` field). To actually widen the live hook, change one line in `.claude/settings.json`
+by hand: `"matcher": "startup|resume|compact"` → `"matcher": "startup|resume|clear|compact"` — your act,
+same reason as the install itself.
+
+**Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
+
 ## 2026-07-04 (stand-up) — resume protocol run cold, RESTART-PENDING cleared
 
 **RESTART-PENDING: was SET, now CLEARED** (above) — this stand-up is the confirming cold boot the bind
