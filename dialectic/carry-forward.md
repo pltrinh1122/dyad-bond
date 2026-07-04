@@ -58,9 +58,7 @@
 > change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
 > over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
 > PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` + `GEMINI.md` edited below, refresh owed next cold boot):**
-> `CLAUDE.md@437405a` (stale, see RESTART-PENDING) · `GEMINI.md@437405a` (**now stale** — agy first-operation
-> overlay added, see RESTART-PENDING) · `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d`.
+> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` edited below, refresh owed next cold boot):** `CLAUDE.md@8f2473c` (stale, see RESTART-PENDING) · `GEMINI.md@9164a0d` · `DYAD.md@a47a65d` · `GLOSSARY.md@a2d5c58`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
 > include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
@@ -70,12 +68,7 @@
 > `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
 > line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
 > superseded by this new bind — not the same edit.)*
-> **RESTART-PENDING (GEMINI.md): SET 2026-07-04** — `GEMINI.md` overlay gained the agy first-operation
-> task hand-off (portable push-guard verification). **Binds next boot:** confirm `GEMINI.md` still boots
-> `DYAD.md` coherently with the added overlay block, refresh its sha in the per-file line above, then clear.
-> **Elegant discharge:** the cold boot that clears this *is the agy first-operation session itself* — the
-> very session the overlay hands off to. `standup.sh`'s `ANCHOR_FILES` includes `GEMINI.md`, so the
-> mechanized ROM-UI check WILL flag the expected MISMATCH next boot (unlike the `GLOSSARY.md` case).
+> **RESTART-PENDING (GEMINI.md): CLEARED 2026-07-04** — The agy first-operation session cold-booted successfully. `GEMINI.md` booted `DYAD.md` coherently with the overlay. The portable push-guard was verified to materialize on agy.
 
 ## 2026-07-04 (close) — `d-reflect` invoked, portability arc closed
 
