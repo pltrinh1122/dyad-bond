@@ -13,4 +13,4 @@ content-home = drift — cf. the sibling whose `GEMINI.md` grew into a 5 K paral
 
 - **Substrate-access (agy vs Claude):**
   - **Permission-grant path (`bin/git.sh`):** None required. The `agy` harness does not require a `settings.json` allowlist for command execution; `bin/git.sh` runs un-prompted.
-  - **Raw-git enforcement:** Fails **open**. The `agy` harness does not deny raw `git push`. The portable push-guard (`.githooks/pre-push`) is load-bearing here to protect `main` at the git layer.
+  - **Raw-git enforcement:** Fails **open**. The `agy` harness does not mechanically deny raw `git push` or `gh` commands out-of-the-box. **Therefore, as a hard rule (enforced via this file's inclusion in `<user_rules>`): you are strictly forbidden from executing raw `git push` or raw `gh` publishing commands. You MUST use `bin/git.sh` and `bin/gh.sh` per the discipline.** → `dialectic/substrate-access.md` for the actual mechanics. The portable push-guard (`.githooks/pre-push`) remains load-bearing here to protect `main` at the git layer.
