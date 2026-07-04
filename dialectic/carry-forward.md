@@ -70,7 +70,16 @@ Named + drafted the **`SOLICIT`** candidate schema (`cross-dyad-craft.md`) — a
 format, rediscovered from bond's own retired 2026-06-11 proposal, reusing `falsification/CONTRACT.md`'s
 verdict vocabulary; retrofitted today's verdict DM into it as the n=1 exemplar. Local read-state
 (`.falsify-seen.json`) set for the processed DM — noted honestly that it won't survive this ephemeral
-container; the durable signal is the committed verdict-DM.
+container; the durable signal is the committed verdict-DM. Landed as **[PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78)**
+(open, awaiting Operator gate).
+
+**Reflect landed** → `relationship-craft.md §Reflect — the inter-dyad DM-rub arc: claim-vs-message
+conflated, then a clean landing-checklist run` (full text authored there, per the presentation
+discipline). Headline: real STOP — conflated verifying PR #75's *content* with verifying steward's
+actual DM *artifact*, acting on the Operator's paraphrase + my own git-read before locating the real
+file; landed on the same three attack points by luck, not by having read them. Separately, the
+landing-discipline checklist (`§The landing-discipline`, audited 2026-07-03) ran clean end-to-end for
+the first time — its own re-audit note updated in the same file.
 
 **Landed:** [PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78) — up for your gate.
 
