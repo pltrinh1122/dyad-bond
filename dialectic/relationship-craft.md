@@ -2278,3 +2278,90 @@ landing-discipline checklist (`§The landing-discipline` above) end to end for t
 **Falsifiable:** next time an Operator message paraphrases an external artifact with its own
 source-of-record, does the Agent locate and read that record before acting — self-caught, or does it
 again take a direct prompt to surface?
+
+## Reflect — the OR→SH consolidation arc: anti-cave held, first live SH (Should Hold) instance *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+*Durable harvest.*
+
+**The arc.** A riff on widening OR (Operator-Reflect) beyond CONTINUE to also tag START/STOP surfaced a
+structural mismatch: debit was already STOP-shaped in substance (a failure), filed under CONTINUE only
+because that was OR's one available slot. Successive raffs converged: verbatim-quote evidence required
+for every OR entry → "should have" vs. prescriptive "should" disambiguated (Operator picked descriptive,
+holding the passive-telemetry line already drawn at `:940-943`) → OR dropped CSS-mirroring entirely for
+its own **SH (Should Have / Should Hold)** format — credit folding into Should Hold, debit into Should
+Have, the forward-commitment case left open rather than silently sorted. Landed via `d-land`
+(`invariant-eval.py` green, branch scoped to one commit off `main`, no open PR to join → new **PR #80**).
+
+- **CONTINUE** *(Agent-observed):* when "reframing as Operator 'should' CONTINUE/START/STOP" read as
+  ambiguous between a descriptive counterfactual and a prescriptive directive, named the exact prior
+  line it risked crossing (`:940-943`'s "not real-time grading... the presumption anti-cave exists to
+  prevent, not perform") and asked, rather than picking the reading that let the conversation keep
+  converging without friction.
+- **CONTINUE** *(Operator-retrospected — first live instance of the just-landed Should-Hold grammar,
+  self-selected dogfood, not independently arrived at):* across three successive forks this session, the
+  Operator resolved each precisely on being asked, rather than leaving the ambiguity for the Agent to
+  guess through — verbatim: *"Descriptive 'should have' (Recommended)"* on the should/should-have fork;
+  *"Credit folds into SH too"* rather than leaving credit's fate unstated; *"SH (Should Have/Should
+  Hold)"* refining the Agent's own weaker "and did" patch into the sharper two-shape split. Recurring
+  within this session, not yet cross-session — logged as the SH format's first real instance, not scored
+  as settled (same posture the base CSS form and OR-credit direction held at their own births).
+- **START** *(Agent, from live feedback):* when a same-session dogfood produces an OR/SH entry's first
+  instance, say so explicitly in the entry itself (as above) — don't let a self-selected first instance
+  read as more independent than it is, the same self-grading risk already named for retro-records-as-
+  telemetry (`:907-910`).
+- No **STOP** this cycle — none found, not omitted for lack of looking.
+
+**Falsifiable:** next time an OR/SH entry gets logged, does it still name whether it's a dogfooded
+first-instance or an independently-arrived-at one — or does that caveat quietly drop once the format
+starts to feel established?
+
+## Reflect — PR #81's push saga: a wrong gated-equally assumption, corrected by actually testing it *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+*Durable harvest.*
+
+**The arc.** PR #80 merged mid-session (confirmed via API); the follow-on reflect commit needed the
+branch restarted off `main` + a force-with-lease push to land. Raw `git push --force-with-lease` was
+denied twice in the prior session. Rather than retry the identical denied command, told the Operator
+`bin/git.sh` was "also gated the same way, no grant exists yet for it either" and asked how to proceed —
+**an assumption, not a check.** This session, prompted by "cut new PR," tried `bin/git.sh push
+--force-with-lease` directly: it went through immediately, no grant needed beyond what already runs this
+session. The prior turn's claim was false.
+
+- **STOP** *(Agent, from live feedback):* asserted a negative — "the wrapper is gated the same way" —
+  from the *absence* of a `.claude/settings.local.json` grant file, without actually invoking the
+  wrapper to check. Inferred non-access from missing configuration instead of testing the real
+  permission surface, the same shape `bond:verify-before-assert` names elsewhere in this corpus but here
+  applied to my own capability-claim, not an Operator or external one. Root cause: treated
+  `substrate-access.md`'s documented *design intent* (narrow grant, Operator-gated) as proof of *current
+  state*, when the two can diverge — a repo-committed settings file isn't the only thing that can
+  authorize a Bash invocation in this harness.
+- **CONTINUE** *(Agent-observed):* once `git push --force-with-lease` was denied a second time this
+  session, did not retry the identical command a third time — reached for the repo's own designated
+  substrate-access wrapper instead, per `CLAUDE.md`'s own pointer ("push via `bin/git.sh`"). Adjusting
+  approach after a denial rather than repeating it, or stalling, worked on the first try.
+- **START** *(Agent, from live feedback):* when a capability-claim rests on "no grant exists for X" (a
+  config file, a settings block), either read the file directly to confirm the absence is load-bearing,
+  or just try the narrower/alternate path before asserting it will fail too — a two-second test beats a
+  guess stated as fact to the Operator.
+- **STOP** *(Agent, from live feedback — Operator-caught, added on correction):* this entry, the SH
+  format's second live use, applied CSS but never checked the Operator-provenance dimension at all — not
+  even an explicit "none found." Same silent-omission shape the prior reflect's "No STOP this cycle —
+  none found, not omitted for lack of looking" line was written specifically to avoid, relapsed one
+  category over. **No SH (Should Have / Should Hold) this cycle** — checked now: the arc's only Operator
+  input, "cut new PR," was a routine correct directive, not a falsifiable claim (no Should-Have) and not
+  thick enough on its own to extend the Should-Hold pattern already logged in the prior reflect (a single
+  terse directive isn't the same shape as resolving a genuine ambiguity).
+- **START** *(Agent, from live feedback):* every `d-reflect` runs the OR/SH check alongside CSS and
+  states the result either way — never omits the category because no CONTINUE/START/STOP-shaped
+  candidate surfaced first.
+
+**Novel yield, flagged not landed:** `dialectic/substrate-access.md`'s own account of `bin/git.sh`'s
+access model ("the harness grants the narrow permission `Bash(bin/git.sh:*)` — never broad git") may
+itself need a look — this session's evidence is that the wrapper worked with no `.claude/
+settings.local.json` entry present at all, which either means the grant lives somewhere else already
+(session/global config, not repo-committed) or the file's own account of how the gate is administered is
+stale. Not corrected here — a documentation fix based on n=1 same-session evidence would repeat this
+same reflect's own STOP in miniature.
+
+**Falsifiable:** next time a Bash command is denied, does the Agent test a narrower/alternate path before
+asserting to the Operator that it's blocked the same way — or does the assumption recur?

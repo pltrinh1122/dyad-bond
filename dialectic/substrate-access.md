@@ -286,9 +286,22 @@ The local-vs-checked-in choice was **dissolved, not picked** — our own **earn-
 
 ## Status & next
 
-- **PENDING the Operator's permission grant — LOCAL first** — add `Bash(bin/git.sh:*)` to
+> ## ✅ RESOLVED, re-confirmed 2026-07-04 — the "PENDING grant" framing below is stale
+> This section's own "PENDING... until granted, push stays a manual `git push`" is the exact trap named
+> above as Trap #1 (`file-absence ≠ capability-absence`) and in the `✅ RESOLVED — push-posture` banner
+> near the top of this file (2026-06-01) — it just never got swept from *this* section when that earlier
+> correction landed, so it relapsed: a fresh dyad-bond session (2026-07-04) read this stale bullet
+> (via `CLAUDE.md`'s one-line summary of it), inferred `bin/git.sh` was gated the same as raw `git push`
+> from the absent settings file, and took two denied raw-push attempts before trying the wrapper directly
+> — which ran un-prompted, no grant needed, exactly as the 2026-06-01 banner already established.
+> **Nothing is pending.** `/tmp/grant_gitsh.py` was never run and is moot. `CLAUDE.md`'s own summary
+> line may need the same correction — flagged, not fixed here (touches the boot-set, landing-class).
+
+- ~~**PENDING the Operator's permission grant — LOCAL first** — add `Bash(bin/git.sh:*)` to
   `.claude/settings.local.json` (the covalent gate; the Agent must not self-grant). Disposable script
-  ready + verified at `/tmp/grant_gitsh.py`. Until granted, push stays a manual `! git push`.
+  ready + verified at `/tmp/grant_gitsh.py`. Until granted, push stays a manual `! git push`.~~
+  *(superseded by the banner above — kept struck-through, not deleted, so the relapse is visible, not
+  silently erased.)*
 - Cross-link: `dyad-healer@bin/git.sh` + `ledger.md:311` (invariant source) · `dyad-steward`
   reflection 2026-05-29 (/tmp grounding) · `relationship-craft.md` §D4 scope-guard 2 (mechanical =
   lightest anchor — the wrapper makes push genuinely mechanical).

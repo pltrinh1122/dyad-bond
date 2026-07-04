@@ -48,15 +48,110 @@
 > change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
 > over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
 > PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
-> `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
-> the per-file compare (the single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES`
-> array still doesn't include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md,
-> GEMINI.md}`; flagging the script/ledger gap, not unilaterally widening the script.)*
-> **RESTART-PENDING: CLEARED 2026-07-04** — the bind set the same day (`DYAD.md`'s first front-matter block)
-> is discharged: this session cold-booted (fresh `claude`, no `--resume`), read `DYAD.md` via the
-> `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
-> clears on this confirmation, not at commit time — condition met.
+> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` edited below, refresh owed next cold boot):**
+> `CLAUDE.md@437405a` (now stale, see RESTART-PENDING) · `GEMINI.md@437405a` · `DYAD.md@a47a65d` ·
+> `GLOSSARY.md@a47a65d`. **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
+> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
+> include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
+> flagging the script/ledger gap, not unilaterally widening the script.)*
+> **RESTART-PENDING: SET 2026-07-04** — `CLAUDE.md` edited (its `Substrate-access` line carried a stale,
+> now-corrected precondition; see the same-day ledger entry below). **Binds next boot:** confirm
+> `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
+> line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
+> superseded by this new bind — not the same edit.)*
+
+## 2026-07-04 (cont.) — `CLAUDE.md`'s stale precondition corrected, anchor touched (`land the fix`)
+
+**RESTART-PENDING: SET** (above, refreshed) — `CLAUDE.md` edited for the first time this arc.
+
+**Arc:** the prior entry (below) flagged but held `CLAUDE.md`'s stale `Substrate-access` line — it
+restated `substrate-access.md`'s now-corrected precondition inline, which is exactly the "fat shim
+becomes a second content-home = drift" failure this file's own header already warns against. Operator
+disposed `land the fix`. Landed: the line no longer restates the grant mechanics at all — just points to
+`dialectic/substrate-access.md` and names, briefly, why not to restate them here again (the 2026-06-01
+fix that drifted stale and cost three denied push attempts before this session's fix). Checked
+`GEMINI.md` for the same duplication — its overlay section is empty by design (no Gemini session has run
+yet), nothing to fix there.
+
+**Durability:** anchor edit is write-through to disk, read-only for this session (`bond:rom-ui`
+mechanics) — takes effect next boot. `invariant-eval.py` re-verified green before commit.
+
+**Resume:** cold-boot bind above — next session confirms `CLAUDE.md` still parses/boots coherently with
+the corrected line, refreshes its sha in the per-file `inv:rom-currency` line, then clears.
+
+## 2026-07-04 (cont.) — Operator caught two gaps: SH omitted from a reflect, `substrate-access.md` relapsed
+
+**RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md`,
+`dialectic/substrate-access.md` only).
+
+**Arc, both Operator-caught.** (1) The Operator asked why `DYAD.md` had no grounding for `bin/git.sh`
+over raw `git push`, given it took three denied attempts to find the working path. Traced it past
+`DYAD.md` (correctly empty — this is operational detail, not core content) to `CLAUDE.md`'s one-line
+summary, which turned out to be **stale**: `dialectic/substrate-access.md` had already resolved this
+exact trap on 2026-06-01 (*"file-absence ≠ capability-absence... the grant is already LIVE... no
+settings.local.json entry ever needed"*) but its own `## Status & next` section was never swept to match
+— so the file contradicted itself, and the stale half is what `CLAUDE.md` echoes. (2) Separately, the
+Operator caught that the `d-reflect` right after landing SH (Should Have/Should Hold) never checked for
+an Operator-provenance entry at all — not even an explicit "none found," the exact silent-omission shape
+that reflect's own STOP-cycle convention exists to prevent.
+
+**Landed:** corrected `substrate-access.md`'s `## Status & next` in place (struck-through, not deleted —
+the relapse stays visible) with a `✅ RESOLVED` banner matching the file's own established convention.
+Corrected the flagged reflect in place (`relationship-craft.md`), adding the missing SH accounting
+("none found" — the arc's only Operator input was a routine directive, not evidence clearing either
+Should-Have's or Should-Hold's bar) plus a STOP naming the omission itself and a START making the OR/SH
+check mandatory on every future `d-reflect`, stated either way.
+
+**Flagged, not landed:** `CLAUDE.md`'s own one-liner may need the same correction — touches the
+boot-set, landing-class, held for your disposition rather than self-edited.
+
+## 2026-07-04 (cont.) — OR consolidates to SH (Should Have / Should Hold), `d-land` → PR #80
+
+**RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md` and
+`kb/reflection-discipline.md` only).
+
+**Arc:** a riff on widening OR (Operator-Reflect) beyond CONTINUE to also tag START/STOP surfaced that
+debit was already STOP-shaped in substance, filed under CONTINUE only because that was OR's one
+available slot. Converged over several raffs to a verbatim-quote evidentiary requirement for every OR
+entry, disambiguated "should have" (descriptive) from prescriptive "should" — Operator held the
+passive-telemetry line already drawn in `relationship-craft.md §D3` (`:940-943`) rather than letting the
+Agent's convenient reading through — then dropped CSS-mirroring for OR entirely in favor of its own
+single format: **SH (Should Have / Should Hold)**, credit folding into Should Hold, debit into Should
+Have, the forward-commitment case explicitly left open. Landed (`d-land`): `invariant-eval.py` green
+(14/14, same pre-existing `bond:anti-cave` advisory), branch scoped to one commit off `main`, no open PR
+to join → opened **[PR #80](https://github.com/pltrinh1122/dyad-bond/pull/80)**.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the OR→SH consolidation arc: anti-cave held,
+first live SH (Should Hold) instance` (full text authored there, per the presentation discipline —
+pointer only here). Headline: a real CONTINUE for holding the anti-cave line under a converging-fast
+raff sequence rather than nodding a prescriptive reframe through; the session's own resolution pattern
+dogfooded as the SH grammar's first live instance (self-selected, named as such rather than passed off
+as independently found); a START naming that same-session-dogfood caveat as a standing habit, not a
+one-off disclosure.
+
+**Landed:** [PR #80](https://github.com/pltrinh1122/dyad-bond/pull/80) — **confirmed MERGED** (verified
+via API next session, corrected below rather than left as this entry's original "up for your gate").
+
+## 2026-07-04 (cont.) — PR #81: reflect commit landed, a wrong "gated the same way" assumption corrected
+
+**RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md`, `carry-forward.md` only).
+
+**Arc:** fresh session, stood up cold; PR #80 (above) had merged. The prior session's own reflect commit
+(never pushed — force-with-lease was denied twice) needed the branch restarted off the now-current
+`main` again. Rather than retry the identical denied `git push --force-with-lease`, tried the repo's
+designated wrapper, `bin/git.sh push --force-with-lease` — it worked immediately, no additional grant
+needed. Opened **[PR #81](https://github.com/pltrinh1122/dyad-bond/pull/81)** for the reflect commit —
+open, clean, mergeable.
+
+**Reflect landed** → `relationship-craft.md §Reflect — PR #81's push saga: a wrong gated-equally
+assumption, corrected by actually testing it` (full text authored there, per the presentation
+discipline). Headline: a real STOP — the prior session asserted `bin/git.sh` was "gated the same way, no
+grant exists" from the *absence* of a settings file, without testing it; this session's direct test
+falsified that claim on the first try. Novel yield flagged, not landed: `substrate-access.md`'s own
+account of the wrapper's access model may be stale, but a fix from n=1 same-session evidence would
+repeat the same STOP in miniature — left open for a real look, not corrected here.
+
+**Landed:** [PR #81](https://github.com/pltrinh1122/dyad-bond/pull/81) — up for your gate.
 
 ## 2026-07-04 — inter-dyad DM rub (craft-* DIP, PR #75) + SOLICIT schema candidate → PR #78
 
@@ -85,9 +180,11 @@ the first time — its own re-audit note updated in the same file.
 `claude/dyad-bond-standup-ilmluj` *after* #78 had already merged — a merged PR can't track new commits.
 Restarted the branch from `origin/main` (`git checkout -B … origin/main`), cherry-picked the one
 unmerged commit, force-with-leased the branch, opened **[PR #79](https://github.com/pltrinh1122/dyad-bond/pull/79)**
-for it — open, awaiting Operator gate.
+for it.
 
-**Landed:** [PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78) — up for your gate.
+**Landed:** [PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78) and [PR #79](https://github.com/pltrinh1122/dyad-bond/pull/79)
+— **both confirmed MERGED** (verified via `mcp__github__pull_request_read`, not assumed from the stale
+"up for your gate" note this entry originally carried).
 
 ## 2026-07-04 (close) — `d-reflect` invoked, hook-install arc closed
 

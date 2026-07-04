@@ -14,5 +14,7 @@ content-home = drift).
 - **ROM mechanics** — this shim + `DYAD.md` are injected once at session boot (system-reminder);
   **no mid-session reload.** An anchor edit is write-through to disk, read-only for the session.
   ROM-baseline tracks **`DYAD.md`'s** commit hash (the content file). → `dialectic/rom-ui.md`.
-- **Substrate-access** — push via `bin/git.sh` once the Operator grants `Bash(bin/git.sh:*)` in
-  `.claude/settings.local.json` (never an Agent self-grant). → `dialectic/substrate-access.md`.
+- **Substrate-access** — push via `bin/git.sh`, never raw `git push` or a self-granted permission.
+  → `dialectic/substrate-access.md` for the actual grant/gating mechanics — **do not restate them here**;
+  a prior inline precondition drifted stale (2026-06-01 fix never echoed forward) and cost three denied
+  push attempts before the real state was checked directly (2026-07-04).
