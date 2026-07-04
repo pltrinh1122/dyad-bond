@@ -59,6 +59,29 @@
 > read coherent (no over-cut, no dangling cross-reference); `bin/invariant-eval.py` exits 0. Full detail →
 > the Stand-Up entry immediately below.
 
+## 2026-07-04 — reach-error caught, `loaded-status-frontmatter` candidate drafted (`raff:`, not landed)
+
+**RESTART-PENDING: none** — anchor not touched.
+
+**Self-caught, Operator-pressed to root cause:** explaining Dyad-UI's role, read `dyad-ui.md` (rich,
+unloaded design-reasoning) in full and asserted it as "the signal/surface" — even though the file's own
+body twice names `GLOSSARY.md` as the actual boot-loaded operational reference. The caveat was already
+quoted in the same answer, one section up, and still didn't gate the top-line claim. **Named cause:**
+detail-richness stood in for operative-status — the file read most thoroughly felt authoritative,
+independent of whether it's actually live at boot. Same shape as this corpus's already-logged pattern
+(asserting from what's freshest-in-hand instead of checking real state first).
+
+**Drafted (converged, `raff:` — NOT landed, no PR):** `dialectic/loaded-status-frontmatter.md` — a
+candidate `loaded:` front-matter key (parallel to `locus:`, `MAP.md`'s scheme) naming where a file
+actually enters context (`boot` / `resume-protocol` / `active-fetch` / `on-demand`), targeting this exact
+reach-error class. Status: CANDIDATE, `dialectic/`, n=0 — un-mechanized, tradeoff and open questions
+named in the file itself (including whether `GLOSSARY.md` is genuinely `boot` or just asserted so).
+
+**Resume:** NBA unchanged (`deferrals.md` `## todo`) + this new candidate awaiting Operator disposition
+(`d-land` opens it; nothing committed toward that yet beyond the draft itself).
+
+---
+
 ## Stand-Up 2026-07-03 (resume — `PR #72` confirmed merged, `RESTART-PENDING` cleared)
 
 **Resumed cold** on `claude/resume-pr-72-merge-wzwh9c` (identical to `main` at boot — no divergent
