@@ -40,27 +40,57 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@9519e01` — folds in, since the
-> last-recorded `e0c9280`: the **repo-structure / outward-by-consumer** reframe (dip-craft → steward-tended,
-> form-URL fold to `The-Dyad-Practice-Commons`), the **`ID.md` retirement** (identity re-homed as a computed
-> view in `§Frame`, IDENTITY CAVEAT caveat-altitude corrected), and the **DFD expansion rename** ("Decision-framing"
-> → "Disposition Framing Discipline"). **Boot-VERIFIED 2026-07-01** (this session's cold ROM-boot; all three
-> read coherent — no over-cut surfaced). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior
-> baseline: `DYAD.md@e0c9280`, PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-03):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
-> `DYAD.md@9519e01` · `GLOSSARY.md@72c35a3` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
-> the per-file compare (the single-sha line above is the human gloss). *(`GLOSSARY.md` newly added this
-> refresh — `bin/standup.sh`'s `ANCHOR_FILES` array doesn't yet include it, so the mechanized check still
-> only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`; flagging the script/ledger gap, not unilaterally
-> widening the script.)*
-> **RESTART-PENDING: YES, set 2026-07-04** — `DYAD.md` edited this session: its **first-ever front-matter
-> block** added (`loaded: boot`), alongside `GLOSSARY.md`/`generation-distillations.md`/`dyad-ui.md`
-> picking up the new `loaded:` key (`dialectic/loaded-status-frontmatter.md`, Operator `Y`). Per
-> `bond:rom-ui` the flag clears only after a cold boot confirms the anchor's new front-matter reads
-> coherent (does a fresh session choke on/misparse the leading YAML block?), not at commit time. Binds
-> next boot: re-run `bin/standup.sh` (will MISMATCH on `DYAD.md`'s new sha until the per-file line below
-> is refreshed to it), confirm `DYAD.md` still parses/boots as the anchor with the block prepended, then
-> refresh the per-file line + clear.
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — folds in, since the
+> last-recorded `9519e01`: the **`loaded:` front-matter landing** (PR #73) — `DYAD.md`'s first-ever
+> front-matter block (`loaded: boot`) + `GLOSSARY.md` picking up `loaded: resume-protocol`. **Boot-VERIFIED
+> 2026-07-04** (this session's cold ROM-boot, no `--resume`: `bin/standup.sh` flagged the expected MISMATCH,
+> `git diff 9519e01..a47a65d -- DYAD.md GLOSSARY.md` confirmed the delta is exactly the already-logged PR #73
+> change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
+> over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
+> PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
+> `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
+> the per-file compare (the single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES`
+> array still doesn't include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md,
+> GEMINI.md}`; flagging the script/ledger gap, not unilaterally widening the script.)*
+> **RESTART-PENDING: CLEARED 2026-07-04** — the bind set the same day (`DYAD.md`'s first front-matter block)
+> is discharged: this session cold-booted (fresh `claude`, no `--resume`), read `DYAD.md` via the
+> `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
+> clears on this confirmation, not at commit time — condition met.
+
+## 2026-07-04 (stand-up) — resume protocol run cold, RESTART-PENDING cleared
+
+**RESTART-PENDING: was SET, now CLEARED** (above) — this stand-up is the confirming cold boot the bind
+was waiting on.
+
+**Trigger:** a fresh session opened, answered a conceptual question on `DYAD.md`'s discipline model without
+running the resume protocol first (no ledger read, no ROM-UI check, no NBA) — Operator caught it and asked
+directly whether the resume/stand-up discipline had fired. It hadn't. Ran it for real on Operator `Y`.
+
+**Ran:** anchor (already loaded via the shim) → this ledger → Bond-disciplines index → `bin/standup.sh` →
+`theory-pipeline.yaml` (skimmed, no dashboard render — nothing pulled it) → `deferrals.md` `## todo`.
+
+- **ROM-UI:** `bin/standup.sh` flagged the expected MISMATCH (`DYAD.md@a47a65d≠9519e01`). Diffed it directly:
+  the delta is exactly PR #73's already-logged `loaded:` front-matter landing, nothing new. Baseline +
+  per-file lines refreshed above; RESTART-PENDING cleared per its own stated condition (cold boot confirms
+  coherent parse — confirmed, this session).
+- **Durability:** `bin/standup.sh` reported 0 unpushed commits going in. This entry + the baseline refresh
+  are queued for commit+push at this natural pause (5b).
+- **Substrate:** `bin/standup.sh` reports this environment is ephemeral/partial — no `/mnt/shared_data/dzw`
+  mount, no `gh`, no `commons/scripts/falsify.py`. **IM daemon NOT armable here** — DM-watch is dark this
+  session, logged rather than faked. *(Open question, not resolved here: whether this is a standing
+  property of this substrate class or a one-off — watch next session.)*
+- **NBA:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**); backlog =
+  `deferrals.md` `## todo` (single-home playbook Founding-gate PR · X-tier steward heads-up · cross-dyad
+  custody deprecation).
+
+**Novel yield:** the trigger itself is a fresh, un-cued Ingraining-watch datapoint — a behavioral guard
+(the resume protocol) failed to fire at its own seam (session start / first substantive answer) with
+nothing external invoking it, which is the exact failure mode `ingraining.md` names. Caught by the
+Operator, not self-caught.
+
+**Resume:** live fronts unchanged. RESTART-PENDING now clear — next boot should show `bin/standup.sh`
+ROM-UI as MATCH.
 
 ## 2026-07-04 (close) — `d-reflect` invoked, session arc closed
 
