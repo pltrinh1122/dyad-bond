@@ -58,6 +58,32 @@
 > `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
 > clears on this confirmation, not at commit time — condition met.
 
+## 2026-07-04 (cont.) — OR consolidates to SH (Should Have / Should Hold), `d-land` → PR #80
+
+**RESTART-PENDING: none** (anchor untouched — `dialectic/relationship-craft.md` and
+`kb/reflection-discipline.md` only).
+
+**Arc:** a riff on widening OR (Operator-Reflect) beyond CONTINUE to also tag START/STOP surfaced that
+debit was already STOP-shaped in substance, filed under CONTINUE only because that was OR's one
+available slot. Converged over several raffs to a verbatim-quote evidentiary requirement for every OR
+entry, disambiguated "should have" (descriptive) from prescriptive "should" — Operator held the
+passive-telemetry line already drawn in `relationship-craft.md §D3` (`:940-943`) rather than letting the
+Agent's convenient reading through — then dropped CSS-mirroring for OR entirely in favor of its own
+single format: **SH (Should Have / Should Hold)**, credit folding into Should Hold, debit into Should
+Have, the forward-commitment case explicitly left open. Landed (`d-land`): `invariant-eval.py` green
+(14/14, same pre-existing `bond:anti-cave` advisory), branch scoped to one commit off `main`, no open PR
+to join → opened **[PR #80](https://github.com/pltrinh1122/dyad-bond/pull/80)**.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the OR→SH consolidation arc: anti-cave held,
+first live SH (Should Hold) instance` (full text authored there, per the presentation discipline —
+pointer only here). Headline: a real CONTINUE for holding the anti-cave line under a converging-fast
+raff sequence rather than nodding a prescriptive reframe through; the session's own resolution pattern
+dogfooded as the SH grammar's first live instance (self-selected, named as such rather than passed off
+as independently found); a START naming that same-session-dogfood caveat as a standing habit, not a
+one-off disclosure.
+
+**Landed:** [PR #80](https://github.com/pltrinh1122/dyad-bond/pull/80) — up for your gate.
+
 ## 2026-07-04 — inter-dyad DM rub (craft-* DIP, PR #75) + SOLICIT schema candidate → PR #78
 
 **RESTART-PENDING: none** (anchor untouched — `dm/`, `dialectic/cross-dyad-craft.md` only).
@@ -85,9 +111,11 @@ the first time — its own re-audit note updated in the same file.
 `claude/dyad-bond-standup-ilmluj` *after* #78 had already merged — a merged PR can't track new commits.
 Restarted the branch from `origin/main` (`git checkout -B … origin/main`), cherry-picked the one
 unmerged commit, force-with-leased the branch, opened **[PR #79](https://github.com/pltrinh1122/dyad-bond/pull/79)**
-for it — open, awaiting Operator gate.
+for it.
 
-**Landed:** [PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78) — up for your gate.
+**Landed:** [PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78) and [PR #79](https://github.com/pltrinh1122/dyad-bond/pull/79)
+— **both confirmed MERGED** (verified via `mcp__github__pull_request_read`, not assumed from the stale
+"up for your gate" note this entry originally carried).
 
 ## 2026-07-04 (close) — `d-reflect` invoked, hook-install arc closed
 

@@ -2278,3 +2278,39 @@ landing-discipline checklist (`§The landing-discipline` above) end to end for t
 **Falsifiable:** next time an Operator message paraphrases an external artifact with its own
 source-of-record, does the Agent locate and read that record before acting — self-caught, or does it
 again take a direct prompt to surface?
+
+## Reflect — the OR→SH consolidation arc: anti-cave held, first live SH (Should Hold) instance *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+*Durable harvest.*
+
+**The arc.** A riff on widening OR (Operator-Reflect) beyond CONTINUE to also tag START/STOP surfaced a
+structural mismatch: debit was already STOP-shaped in substance (a failure), filed under CONTINUE only
+because that was OR's one available slot. Successive raffs converged: verbatim-quote evidence required
+for every OR entry → "should have" vs. prescriptive "should" disambiguated (Operator picked descriptive,
+holding the passive-telemetry line already drawn at `:940-943`) → OR dropped CSS-mirroring entirely for
+its own **SH (Should Have / Should Hold)** format — credit folding into Should Hold, debit into Should
+Have, the forward-commitment case left open rather than silently sorted. Landed via `d-land`
+(`invariant-eval.py` green, branch scoped to one commit off `main`, no open PR to join → new **PR #80**).
+
+- **CONTINUE** *(Agent-observed):* when "reframing as Operator 'should' CONTINUE/START/STOP" read as
+  ambiguous between a descriptive counterfactual and a prescriptive directive, named the exact prior
+  line it risked crossing (`:940-943`'s "not real-time grading... the presumption anti-cave exists to
+  prevent, not perform") and asked, rather than picking the reading that let the conversation keep
+  converging without friction.
+- **CONTINUE** *(Operator-retrospected — first live instance of the just-landed Should-Hold grammar,
+  self-selected dogfood, not independently arrived at):* across three successive forks this session, the
+  Operator resolved each precisely on being asked, rather than leaving the ambiguity for the Agent to
+  guess through — verbatim: *"Descriptive 'should have' (Recommended)"* on the should/should-have fork;
+  *"Credit folds into SH too"* rather than leaving credit's fate unstated; *"SH (Should Have/Should
+  Hold)"* refining the Agent's own weaker "and did" patch into the sharper two-shape split. Recurring
+  within this session, not yet cross-session — logged as the SH format's first real instance, not scored
+  as settled (same posture the base CSS form and OR-credit direction held at their own births).
+- **START** *(Agent, from live feedback):* when a same-session dogfood produces an OR/SH entry's first
+  instance, say so explicitly in the entry itself (as above) — don't let a self-selected first instance
+  read as more independent than it is, the same self-grading risk already named for retro-records-as-
+  telemetry (`:907-910`).
+- No **STOP** this cycle — none found, not omitted for lack of looking.
+
+**Falsifiable:** next time an OR/SH entry gets logged, does it still name whether it's a dogfooded
+first-instance or an independently-arrived-at one — or does that caveat quietly drop once the format
+starts to feel established?
