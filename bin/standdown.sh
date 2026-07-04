@@ -11,8 +11,9 @@
 #   Therefore: the AGENT runs this at stand-down and reads the template below; a SessionEnd hook may run
 #   it `--log` only for the mechanical durability line (debug log). This is K6 constraint (b) made hard.
 #
-# COVALENT GATE (K6 constraint a / S2): wiring the SessionEnd hook is the Operator's act
-#   (`bin/install_hooks.py`) — never an Agent self-grant.
+# COVALENT GATE (K6 constraint a / S2): wiring the SessionEnd hook was the Operator's act, never an
+#   Agent self-grant — DONE 2026-07-04 (.claude/settings.json, main@5e51677); the one-shot installer
+#   that did it was retired after (→ dialectic/standdown-automation.md).
 #
 # Usage:  bin/standdown.sh          # mechanical checks + the stand-down template (agent runs at close)
 #         bin/standdown.sh --log    # mechanical line only (SessionEnd hook body; output is debug-log)

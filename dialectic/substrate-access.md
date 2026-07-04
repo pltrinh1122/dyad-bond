@@ -144,9 +144,15 @@ your reason. **(2) What's your allow-rule?** → `Bash(bin/git.sh:*)` for bond/h
 `Bash(git push origin:*)` (no wrapper) — mis-copying ours mis-grants you.
 
 **Bundle ownership (cherry-pick, not donation):** bond owns *this understanding + the annotated example*
-(`bin/git.sh` + `bin/grant_push.py`). The example is **subordinate** to the understanding — annotated,
+(`bin/git.sh`, still live). The example is **subordinate** to the understanding — annotated,
 particularity-flagged — so it grounds without inviting cargo-cult. Not lifted to commons by us; if it ever
 travels, it travels as the bundle via the proper hat.
+
+*(`bin/grant_push.py`, the one-shot grant script, was **retired 2026-07-04** once the grant it wrote —
+`Bash(bin/git.sh:*)` in `.claude/settings.json` — was made and verified: a permanently-committed generator
+whose output can drift from the live file it once wrote is a `bond:single-home` risk, and the disposable-
+first staging above was never actually earned into permanence for it. The grant itself is unaffected;
+this file + git history (`main`@`d6fd181`, the grant commit) carry the record.)*
 
 ## Permissioning protocol — fine-tuned to intent *(Operator [ALIGN], s5 2026-06-01; CANDIDATE, dogfooded on PR #3)*
 

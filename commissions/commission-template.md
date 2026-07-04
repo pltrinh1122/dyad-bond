@@ -22,9 +22,9 @@
 > `Commission-type` line, live for two turns before anyone reread it). **This reminder is a known-weak
 > mechanism** (`dialectic/ingraining.md`: capture ≠ behavior) — it depends on this file actually being
 > reread at authoring time, not on anyone recalling it from a past session. The reliable fix is a
-> `PostToolUse` hook on `Write|Edit` matching `commissions/*.md`; that requires Operator install
-> (`bin/install_hooks.py`'s own boundary — an Agent wiring its own automated behavior is the thing
-> S2 guards), so it isn't wired yet. Treat this line as the fallback, not the fix.
+> `PostToolUse` hook on `Write|Edit` matching `commissions/*.md`; that requires Operator install (wiring
+> automated self-behavior is the Operator's act, never an Agent self-grant — `substrate-access.md` §S2),
+> so it isn't wired yet. Treat this line as the fallback, not the fix.
 >
 > Two artifacts come out of this template: **Part A (the spec, lives in `commissions/`)** and
 > **Part B (the solicitation DM, lives in `dm/<builder>/`, pinned to the spec's exact commit+blob)**.

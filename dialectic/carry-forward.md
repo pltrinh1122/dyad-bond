@@ -40,27 +40,209 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@9519e01` — folds in, since the
-> last-recorded `e0c9280`: the **repo-structure / outward-by-consumer** reframe (dip-craft → steward-tended,
-> form-URL fold to `The-Dyad-Practice-Commons`), the **`ID.md` retirement** (identity re-homed as a computed
-> view in `§Frame`, IDENTITY CAVEAT caveat-altitude corrected), and the **DFD expansion rename** ("Decision-framing"
-> → "Disposition Framing Discipline"). **Boot-VERIFIED 2026-07-01** (this session's cold ROM-boot; all three
-> read coherent — no over-cut surfaced). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior
-> baseline: `DYAD.md@e0c9280`, PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-03):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
-> `DYAD.md@9519e01` · `GLOSSARY.md@72c35a3` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
-> the per-file compare (the single-sha line above is the human gloss). *(`GLOSSARY.md` newly added this
-> refresh — `bin/standup.sh`'s `ANCHOR_FILES` array doesn't yet include it, so the mechanized check still
-> only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`; flagging the script/ledger gap, not unilaterally
-> widening the script.)*
-> **RESTART-PENDING: YES, set 2026-07-04** — `DYAD.md` edited this session: its **first-ever front-matter
-> block** added (`loaded: boot`), alongside `GLOSSARY.md`/`generation-distillations.md`/`dyad-ui.md`
-> picking up the new `loaded:` key (`dialectic/loaded-status-frontmatter.md`, Operator `Y`). Per
-> `bond:rom-ui` the flag clears only after a cold boot confirms the anchor's new front-matter reads
-> coherent (does a fresh session choke on/misparse the leading YAML block?), not at commit time. Binds
-> next boot: re-run `bin/standup.sh` (will MISMATCH on `DYAD.md`'s new sha until the per-file line below
-> is refreshed to it), confirm `DYAD.md` still parses/boots as the anchor with the block prepended, then
-> refresh the per-file line + clear.
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — folds in, since the
+> last-recorded `9519e01`: the **`loaded:` front-matter landing** (PR #73) — `DYAD.md`'s first-ever
+> front-matter block (`loaded: boot`) + `GLOSSARY.md` picking up `loaded: resume-protocol`. **Boot-VERIFIED
+> 2026-07-04** (this session's cold ROM-boot, no `--resume`: `bin/standup.sh` flagged the expected MISMATCH,
+> `git diff 9519e01..a47a65d -- DYAD.md GLOSSARY.md` confirmed the delta is exactly the already-logged PR #73
+> change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
+> over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
+> PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04):** `CLAUDE.md@437405a` · `GEMINI.md@437405a` ·
+> `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d` — IN-SYNC. **`standup.sh`/`standdown.sh` read THIS line** for
+> the per-file compare (the single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES`
+> array still doesn't include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md,
+> GEMINI.md}`; flagging the script/ledger gap, not unilaterally widening the script.)*
+> **RESTART-PENDING: CLEARED 2026-07-04** — the bind set the same day (`DYAD.md`'s first front-matter block)
+> is discharged: this session cold-booted (fresh `claude`, no `--resume`), read `DYAD.md` via the
+> `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
+> clears on this confirmation, not at commit time — condition met.
+
+## 2026-07-04 (close) — `d-reflect` invoked, hook-install arc closed
+
+**RESTART-PENDING: none** (anchor untouched this session — only `bin/`, `dialectic/`, `commissions/`).
+
+**Reflect landed** → `relationship-craft.md §Reflect — the hook-install arc: S2 held under pressure,
+reference-claims going stale between decisions` (full text authored there, per the presentation
+discipline — pointer only here). Headline: `bond:no-self-act`/S2 held twice under real pressure (a
+`d-land` framing, then a "no other way to execute it" argument) — first live data for that gate's own
+named oracle. Separately, named **reference-drift** as a candidate failure mode distinct from
+`ingraining.md`'s thesis: a design doc's factual claim not getting re-verified when a *later* decision
+changes the fact underneath it (three independent instances this session, all Operator-caught, none
+self-caught). Cross-linked from `ingraining.md §Status & next` as a sibling, not a duplicate.
+
+**Mechanical (`bin/standdown.sh`):** ROM stays `none`; scratch tank clean (0 unreviewed); durability
+below.
+
+**Open-items:** nothing closes/opens in `deferrals.md` beyond the stand-down-automation item already
+updated earlier this session (install-gate cleared).
+
+**Durability:** this entry + the reflect + the ingraining.md cross-link queued for commit+push at this
+close.
+
+**Resume:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**, now joined by
+**reference-drift-watch** as a related, distinct thread). NBA unchanged (`deferrals.md` `## todo`).
+
+## 2026-07-04 (cont.) — SessionStart hooks installed (Operator's act), matcher gap found + landed (`PR #76`)
+
+**Arc:** Operator's own riff on SessionStart hooks surfaced that `bin/standup.sh --hook` +
+`bin/install_hooks.py` already existed (built 2026-06-13, `standdown-automation.md`), sitting at
+"done, awaiting install-gate" — a fact this session had already read once during the stand-up above and
+failed to connect until asked directly. Corrected rather than re-built from scratch.
+
+**S2 held, twice.** Operator asked the Agent to run `bin/install_hooks.py` directly ("d-land" cited as
+authorization) and separately to self-grant it as a practical necessity ("I can't execute commands in a
+cloud session"). Both declined: K6 constraint (a) / S2 reserves *executing the install against the live
+settings file* for the Operator, specifically because "no other way" is the load-bearing case the
+boundary must survive, not an exception to it. Gave the exact resulting JSON instead, for the Operator to
+paste on GitHub directly — genuinely their hands on the act, not a proxy.
+
+**Landed (Operator, direct commit to `main`, `5e51677` "Update settings.json"):** `SessionStart` (matcher
+`startup|resume|compact`) → `bin/standup.sh --hook`; `SessionEnd` → `bin/standdown.sh --log`. Verified:
+byte-identical to the proposed content, valid JSON, `bin/install_hooks.py` confirms idempotent (already
+wired), both hook commands re-verified to run clean.
+
+**Reconciled:** `main` (`5e51677`) and this branch (`98e0a94`) had diverged (different files, no
+conflict) — merged (`106ba98`), pushed.
+
+**Gap found + fixed:** the installed matcher (`startup|resume|compact`) omits `clear`, though
+`standdown-automation.md`'s own table lists all four sources. Whether `/clear` actually reloads the
+anchor from disk (confirmed for `/compact`, unconfirmed for `/clear` per Claude Code docs) is open, but
+the check is cheap + idempotent + non-judgmental — asymmetry favors covering it. Fixed
+`bin/install_hooks.py`'s `HOOKS` dict (code change, no S2 issue — inert until run); verified green
+(`py_compile`, `invariant-eval.py` exit 0); **opened `PR #76`** — "Add clear to the SessionStart hook
+matcher (all four sources)."
+
+**`PR #76` is up for your gate.** Merging it does **not** update the live matcher (`bin/install_hooks.py`
+only adds missing hook entries, keyed on the `command` string — it won't touch an already-present
+entry's `matcher` field). To actually widen the live hook, change one line in `.claude/settings.json`
+by hand: `"matcher": "startup|resume|compact"` → `"matcher": "startup|resume|clear|compact"` — your act,
+same reason as the install itself.
+
+**Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
+
+## 2026-07-04 (cont.) — retired `install_hooks.py` + `grant_push.py` (Operator-named single-home risk)
+
+**Arc:** Operator asked why a one-shot installer should be kept around as a permanent artifact at all,
+given it had just caused real confusion (last entry's matcher-gap PR read, at a glance, like it fixed the
+live file; it didn't). Traced the root cause via the repo's own precedent: the *analogous* grant script
+(`bin/git.sh`'s push permission) started explicitly **disposable** (`/tmp/grant_gitsh.py`,
+`substrate-access.md` §Staging) with an earn-graduation bar — proven **and** a real portability need —
+before promotion to checked-in. `bin/install_hooks.py` was born already checked-in, mirroring
+`grant_push.py`'s *end state* without ever being run through that same bar. Worse: its "idempotent"
+contract only adds a missing hook *entry*, never reconciles a drifted *field* on one already present — so
+keeping it around reads as "safe to re-run to converge," which is false, and that gap is exactly what
+produced last entry's confusion.
+
+**Landed:** removed `bin/install_hooks.py` and its sibling `bin/grant_push.py` (same class of artifact,
+same risk, already-live grant unaffected). Updated every live pointer to them so nothing dangles:
+`standdown-automation.md` (Artifacts + Install sections rewritten past-tense, done-state), `scratch-tier.md`
+(gap closed note), `substrate-access.md` (bundle-ownership note), `deferrals.md` (stand-down-automation
+item marked install-gate cleared), `commission-template.md` (S2 citation de-pointed from the now-gone
+file), `bin/standup.sh` + `bin/standdown.sh` (header comments). Left untouched, deliberately: past ledger
+entries (this one included) and `carry-forward-closed.md` — historical record of what happened, not live
+pointers, don't need to track a file's later deletion.
+
+**Verified green:** `bin/standup.sh` / `bin/standdown.sh --log` run clean (no dangling references),
+`invariant-eval.py` exit 0, no remaining `install_hooks|grant_push` hits in any `.py`.
+
+**Novel yield:** the earn-graduation bar (`substrate-access.md` §Staging) applies generally, not just to
+the git-push grant it was written for — any Operator-gated one-shot installer should default to
+disposable-until-proven-and-portable, not permanent-by-mirroring-a-precedent. Worth naming as a standing
+check for the *next* such script, not just this pair.
+
+**Resume:** live fronts unchanged. Residual item CLOSED mid-arc: the Operator applied the `clear`-matcher
+hand-edit directly on this branch (`dd2ad7a` "Includes clear condition as well") while this commit was in
+flight — merged in clean, no conflict. Live matcher now reads `startup|resume|clear|compact`, confirmed.
+
+## 2026-07-04 (cont.) — SessionEnd observability corrected: substrate-dependent, not universal
+
+**Arc:** having established `clear` is unreachable in cloud sessions, Operator asked whether `SessionEnd`
+would ever fire for them at all given no cloud "quit/exit" UI exists. Checked: `/clear` (a primary
+trigger) genuinely doesn't exist on the web (`claude-code-on-the-web.md` §Manage context — "start a new
+session from the sidebar instead"); the rest of the trigger set is undocumented for cloud specifically.
+Verified `bin/standdown.sh --log` has zero side effects either way (hashed `carry-forward.md` before/after
+— unchanged) — so the mechanism can't be harmful even where it's dead.
+
+**Caught mid-arc:** asserted "stdout is debug-log" as settled fact (inherited from this file's own
+2026-06-13 table) without re-verifying it. Operator asked directly. Two independent doc-lookups on the
+same question returned **contradictory** answers — one honest ("not documented"), one a specific-sounding
+quote citing a `hooks.md` section that reads as fabricated. Neither trusted as settled.
+
+**Corrected via architecture-inference instead of a shaky citation:** local CLI's `claude` is
+terminal-attached, so a hook subprocess plausibly inherits that terminal's stdout — genuinely observable
+there, unconfirmed but architecturally plausible. Cloud sessions have no terminal at all — structurally
+unobservable regardless of what local CLI does. **So `SessionEnd` is substrate-dependent: plausibly live
+signal for a local-CLI dyad, effectively inert (unreachable trigger + unobservable output) for this
+dyad's actual cloud-only substrate** — not the universal "harmless-if-it-fires" framing asserted earlier.
+
+**Landed:** `standdown-automation.md`'s hook-contract table + a new note below it, correcting the trigger
+list and replacing the flat "stdout is debug-log" claim with the substrate-dependent finding, explicitly
+flagging the contradictory doc-lookups rather than picking one to sound confident. Verified green
+(`standup.sh`, `invariant-eval.py` exit 0).
+
+**Novel yield:** a second, sharper instance of the same ingraining-watch failure mode as the resume-
+protocol miss earlier this session — a claim written once (2026-06-13, "stdout is debug-log") got carried
+forward and re-asserted three sessions later as if verified, when it was always inference. Capture ≠
+verified; re-stating an old claim isn't the same as re-checking it.
+
+**Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
+
+## 2026-07-04 (cont.) — `dyad-ui.md` mode-table staleness fixed (third instance this session)
+
+**Arc:** Operator asked whether a separate stand-down discipline still exists or `d-reflect` is the
+single trigger now. Answer: `reflect`/`stand-down` collapsed to one token, `d-reflect`, 2026-07-03
+(`carry-forward.md:392-406`) — `bin/standdown.sh` survives underneath as the mechanical instrument
+`d-reflect` reaches for at session-close, but bare `stand-down` isn't a live Operator-facing trigger.
+While answering, caught `dyad-ui.md:302`'s mode table still listing bare `stand-down` in its "lifted by"
+column, with the retirement footnote directly below it silent on the collapse — table never got swept
+when the token merged.
+
+**Landed:** `dyad-ui.md`'s act-mode row + footnote corrected (`d-land` · `d-reflect`, collapse noted,
+pointer to the full account). No behavior change — labeling only. Verified green (`standup.sh`,
+`invariant-eval.py` exit 0).
+
+**Novel yield:** third instance this session of the same shape (matcher-gap, debug-log claim, now this)
+— a design doc correctly captures a decision once, then a *later* decision changes the underlying fact
+and the earlier doc's table/claim doesn't get swept. Capture-once isn't reload-forever; each of these
+was caught by the Operator asking a plain question, not by any mechanism surfacing the drift un-cued.
+Worth a standing pattern-name if a fourth instance turns up.
+
+**Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
+
+## 2026-07-04 (stand-up) — resume protocol run cold, RESTART-PENDING cleared
+
+**RESTART-PENDING: was SET, now CLEARED** (above) — this stand-up is the confirming cold boot the bind
+was waiting on.
+
+**Trigger:** a fresh session opened, answered a conceptual question on `DYAD.md`'s discipline model without
+running the resume protocol first (no ledger read, no ROM-UI check, no NBA) — Operator caught it and asked
+directly whether the resume/stand-up discipline had fired. It hadn't. Ran it for real on Operator `Y`.
+
+**Ran:** anchor (already loaded via the shim) → this ledger → Bond-disciplines index → `bin/standup.sh` →
+`theory-pipeline.yaml` (skimmed, no dashboard render — nothing pulled it) → `deferrals.md` `## todo`.
+
+- **ROM-UI:** `bin/standup.sh` flagged the expected MISMATCH (`DYAD.md@a47a65d≠9519e01`). Diffed it directly:
+  the delta is exactly PR #73's already-logged `loaded:` front-matter landing, nothing new. Baseline +
+  per-file lines refreshed above; RESTART-PENDING cleared per its own stated condition (cold boot confirms
+  coherent parse — confirmed, this session).
+- **Durability:** `bin/standup.sh` reported 0 unpushed commits going in. This entry + the baseline refresh
+  are queued for commit+push at this natural pause (5b).
+- **Substrate:** `bin/standup.sh` reports this environment is ephemeral/partial — no `/mnt/shared_data/dzw`
+  mount, no `gh`, no `commons/scripts/falsify.py`. **IM daemon NOT armable here** — DM-watch is dark this
+  session, logged rather than faked. *(Open question, not resolved here: whether this is a standing
+  property of this substrate class or a one-off — watch next session.)*
+- **NBA:** live fronts unchanged (**Covalent-bond frontier** + **Ingraining-watch**); backlog =
+  `deferrals.md` `## todo` (single-home playbook Founding-gate PR · X-tier steward heads-up · cross-dyad
+  custody deprecation).
+
+**Novel yield:** the trigger itself is a fresh, un-cued Ingraining-watch datapoint — a behavioral guard
+(the resume protocol) failed to fire at its own seam (session start / first substantive answer) with
+nothing external invoking it, which is the exact failure mode `ingraining.md` names. Caught by the
+Operator, not self-caught.
+
+**Resume:** live fronts unchanged. RESTART-PENDING now clear — next boot should show `bin/standup.sh`
+ROM-UI as MATCH.
 
 ## 2026-07-04 (close) — `d-reflect` invoked, session arc closed
 

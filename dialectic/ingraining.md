@@ -129,4 +129,8 @@ closes the leak; #3 remains the frontier.
   belongs in the **anchor** (`CLAUDE.md`) — higher salience but high-stakes (anchor promotion defers until
   settled). Hold.
 - Cross-link: `relationship-craft.md` §D1–D5 (the disciplines this reloads) · `dyad-steward@ingraining.md`
-  (invariant source) · `dyad-healer@kb/practice-reflection.md` (capture-before-`/exit`).
+  (invariant source) · `dyad-healer@kb/practice-reflection.md` (capture-before-`/exit`) ·
+  `relationship-craft.md §Reflect — the hook-install arc` (2026-07-04) — **a sibling, distinct failure
+  mode**: this file is about *behavioral guards* not reloading; that entry names **reference-drift** — a
+  *reference claim* not getting re-verified when a later decision changes the fact underneath it. Related,
+  not the same gap; don't conflate when citing either.
