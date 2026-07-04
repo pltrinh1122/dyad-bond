@@ -7,6 +7,21 @@
 > = drift + forgettable. The disk-ledger is the dyad's cross-`/exit` memory, so a reliable, low-friction
 > close/open IS substrate-durability work.
 
+> **SUPERSEDED 2026-07-04 — BOTH hooks de-hooked for portability (Operator `d-land`, why: portability).**
+> The `SessionStart` **and** `SessionEnd` hooks documented below are **RETIRED**; the session-lifecycle
+> triggers are now the portable tokens **`d-start: {goal/scope}`** (open) and **`d-reflect`** (close)
+> (→ `GLOSSARY.md §Dyad-UI cluster`, `carry-forward.md §How to resume`). WHY: a `.claude/settings.json`
+> hook is **Claude-Code-only** — `agy`/Gemini exposes no startup- *or* session-end-hook analog
+> (Operator-checked, 2026-07-04) — so the hooks automated the ritual on *one* substrate and left it
+> hand-run on the other. The tokens fire on every substrate the Operator can type into: uniform discipline
+> beats per-substrate wiring. **The finding below is not wrong** — the ritual genuinely *is* hook-automatable
+> where a hook exists; this is a deliberate portability trade that *re-accepts* the per-session trigger the
+> header set out to remove. **Symmetry:** the portable stand-DOWN trigger `d-reflect` *already existed and
+> already fired `bin/standdown.sh`* — the SessionEnd hook was only a Claude-only, cloud-inert `--log` echo
+> on top, so retiring it loses nothing portable. **`bin/standup.sh --hook` and `bin/standdown.sh --log` are
+> kept dormant, not deleted:** when a substrate exposes the corresponding hook analog, wire *these
+> disciplines* to it.
+
 ## The two halves — and why only one is hook-automatable
 
 The stand-down/stand-up routine splits cleanly:

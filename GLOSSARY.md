@@ -114,6 +114,16 @@ Reflect is F2-keystone-gated.
     durability action, same content in both places. Durability (where it lives) and presentation (what
     the Operator sees now) are different axes; conflating them forces a separate-retrieval step for
     content already being read in chat, the opposite of wu-wei.
+  - **`d-start: {goal/scope}`** — the session-OPEN discipline trigger, counterpart to `d-reflect`'s
+    close. Fires the resume protocol (`carry-forward.md §How to resume`): runs `bin/standup.sh` (the
+    mechanical spine — ROM-UI diff, durability, substrate probe), then the ledger read + Bond-discipline
+    reload + NBA. The `{goal/scope}` payload seeds the session's goal-frame (GF-UI) — a channel the old
+    hook-fired stand-up had no way to carry. **Replaces the retired Claude-Code `SessionStart` hook**
+    (retired 2026-07-04 for portability — a `.claude/settings.json` hook is Claude-only; `agy`/Gemini
+    exposes no startup-hook analog as of this date, so the token is the one trigger that fires on every
+    substrate the Operator can type into). **Forward:** when a substrate *does* expose a startup-hook
+    analog, wire *this discipline* to it — `bin/standup.sh --hook` is kept dormant, not deleted.
+    Symmetry: `d-start : standup.sh :: d-reflect : standdown.sh`.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.

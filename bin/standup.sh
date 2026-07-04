@@ -5,8 +5,12 @@
 #   DETERMINISTIC checks a fresh Covalent otherwise hand-runs every session — the ROM-UI diff (anchor
 #   hash vs the recorded baseline), the memory-durability check (uncommitted/unpushed = ungrounded
 #   memory), and the substrate probe (is the IM daemon even armable here?). Mechanizing them removes a
-#   per-session trigger AND removes hand-error. Wired as a Claude Code **SessionStart** hook, `--hook`
-#   mode emits the result as `additionalContext` so it loads at boot WITHOUT a `read: carry-forward`.
+#   per-session trigger AND removes hand-error. The `--hook` mode emits the result as `additionalContext`
+#   for a Claude Code **SessionStart** hook so it loads at boot WITHOUT a `read: carry-forward`.
+#   NOTE (2026-07-04): that hook was RETIRED for portability — the resume trigger is now the `d-start`
+#   token (fires across substrates; a settings.json hook is Claude-only, `agy`/Gemini has no analog). This
+#   script is unchanged; `--hook` mode is kept DORMANT for re-wiring if a substrate later exposes a
+#   startup-hook analog. Runs by hand / via `d-start` regardless. → dialectic/standdown-automation.md.
 #
 # WHAT IT IS NOT: it does not JUDGE. It SURFACES — the mismatch, the dirty tree, the dark inbox — and
 #   hands the disposition to the agent (refresh the baseline? set RESTART-PENDING?). auto-trigger ≠

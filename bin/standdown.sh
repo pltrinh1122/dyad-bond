@@ -15,6 +15,12 @@
 #   Agent self-grant — DONE 2026-07-04 (.claude/settings.json, main@5e51677); the one-shot installer
 #   that did it was retired after (→ dialectic/standdown-automation.md).
 #
+# NOTE (2026-07-04): the SessionEnd hook was RETIRED for portability, symmetric with SessionStart — a
+#   settings.json hook is Claude-only (`agy`/Gemini has no analog). The portable stand-down trigger is
+#   already the **`d-reflect`** token (fires this script on every substrate); the SessionEnd hook was only
+#   a Claude-only, cloud-inert `--log` echo on top. `--log` mode is kept DORMANT for re-wiring if a
+#   substrate later exposes a session-end hook analog. → dialectic/standdown-automation.md.
+#
 # Usage:  bin/standdown.sh          # mechanical checks + the stand-down template (agent runs at close)
 #         bin/standdown.sh --log    # mechanical line only (SessionEnd hook body; output is debug-log)
 
