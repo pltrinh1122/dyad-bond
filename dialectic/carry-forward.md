@@ -62,6 +62,35 @@
 > is refreshed to it), confirm `DYAD.md` still parses/boots as the anchor with the block prepended, then
 > refresh the per-file line + clear.
 
+## 2026-07-04 (close) — `d-reflect` invoked, session arc closed
+
+**RESTART-PENDING: unchanged, still SET** (below) — carried from the anchor's first front-matter block;
+this `d-reflect` doesn't touch `DYAD.md`.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the reach-error, the loaded: front-matter arc, and
+the dyad-ui.md coherence pass` (CSS+OR, full text shown in chat, per the presentation discipline).
+Headline: a live reach-error (asserting `dyad-ui.md` as "the surface" despite quoting its own caveat one
+section earlier) became a validated, landed `loaded:` front-matter key (`PR #73`), which then immediately
+found and fixed a real instance of the exact inconsistency it targets, in the same file that caused the
+original error (`PR #74`). START named: check a PR's changed-file paths against CI trigger paths before
+offering to "watch for CI," not after.
+
+**Durability:** both prior PRs merged (`#73`, `#74`). This reflect's own writes committed + pushed;
+Operator then said "keep branch" (had assumed `#73`'s post-merge deletion stuck — it hadn't, since this
+branch was reused per the merged-PR restart protocol and got silently recreated on the next push;
+confirmed via git's own `[new branch]` push output, not asserted). **`d-land` fired on "cut PR"** —
+verified green, scoped (1 commit, no divergence from `main`, which had just caught up to `#74`'s merge),
+no template, opened **`PR #75`** mechanically.
+
+**`PR #75` is up for your gate.**
+
+**Resume:** the carried-forward `RESTART-PENDING` bind is still open — a fresh session's cold boot needs
+to confirm `DYAD.md`'s new leading front-matter block reads coherent, then refresh the per-file
+`inv:rom-currency` line (`DYAD.md`'s current sha) and clear. NBA otherwise unchanged (`deferrals.md`
+`## todo`).
+
+---
+
 ## 2026-07-04 (cont.) — `dyad-ui.md` coherence retrofit, `d-land` on a fresh branch (`PR #73` merged)
 
 **RESTART-PENDING: unchanged, still SET** (below) — carried from the anchor's first front-matter block;
