@@ -12,8 +12,10 @@
 #   hands the disposition to the agent (refresh the baseline? set RESTART-PENDING?). auto-trigger ≠
 #   auto-judgment (K6 constraint b). The agent still reads the ledger; this primes the seams.
 #
-# COVALENT GATE (K6 constraint a / S2): installing it as a hook is the Operator's act
-#   (`bin/install_hooks.py`) — never an Agent self-grant. The script is inert until wired.
+# COVALENT GATE (K6 constraint a / S2): wiring it as a hook was the Operator's act, never an Agent
+#   self-grant — DONE 2026-07-04 (.claude/settings.json, main@5e51677); the one-shot installer that did
+#   it was retired after, to avoid a permanently-committed generator drifting from the live file it wrote
+#   (→ dialectic/standdown-automation.md). This script itself is unaffected — still runnable by hand.
 #
 # Usage:  bin/standup.sh           # human-readable resume report (stdout)
 #         bin/standup.sh --hook    # emit SessionStart additionalContext JSON (hook body)

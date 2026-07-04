@@ -195,9 +195,10 @@
   work-item-status seam → stand-down must reconcile BOTH memory files (carry-forward + deferrals), not just
   carry-forward. (Resume caught it un-cued = an ingraining-watch hit.)*
 
-- **✅ stand-down automation** *(2026-06-13; rehomed from the Intent-clarity arc 2026-06-26)* — `bin/standup.sh` +
-  `bin/standdown.sh` built; SessionStart-hook design settled. Single-home → `dialectic/standdown-automation.md`.
-  Remaining = the Operator install-gate (`python3 bin/install_hooks.py`) — an Operator act, not a work-item.
+- **✅ stand-down automation** *(2026-06-13; rehomed from the Intent-clarity arc 2026-06-26; install-gate
+  CLEARED 2026-07-04)* — `bin/standup.sh` + `bin/standdown.sh` built; hooks installed (`main`@`5e51677`),
+  live + dog-fooded. Single-home → `dialectic/standdown-automation.md`. Residual, not a work-item: the
+  live matcher doesn't yet cover `clear` (one-line Operator hand-edit, same file).
 
 - **✅ message-tracker (`bin/msg_tracker.py`, 2026-06-18 s-local3)** — a per-dyad *thread-state* ledger over
   the DM channels: tracks per message {sent/received · read/unread · responded-to · supersedes/reply-to} and

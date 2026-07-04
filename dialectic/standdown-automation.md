@@ -73,26 +73,40 @@ overload the marker. The ROM-UI **SessionStart** check stays the stateless boot-
 - **`bin/standdown.sh`** — mechanical stand-down (anchor-moved? RESTART-PENDING recommendation;
   durability) + the **judgment template** (queue-worthy filter · bloat-guard · 5-step checklist). `--log`
   = mechanical line only (SessionEnd body).
-- **`bin/install_hooks.py`** — the Operator-gated installer (mirrors `bin/grant_push.py`): idempotent,
-  atomic, refuses bad JSON, non-destructive. Wires both hooks into a settings file.
+- **`bin/install_hooks.py`** — **RETIRED 2026-07-04**, its one job done. Was the Operator-gated installer
+  (mirrored `bin/grant_push.py`): idempotent (add-only, never reconciles a drifted field on an already-
+  present entry — this was a real gap, see below), atomic, refuses bad JSON, non-destructive.
 
-## Install — the Operator's gated act *(K6 constraint a / S2)*
+## Install — DONE 2026-07-04 (was: the Operator's gated act, K6 constraint a / S2)
 
 Wiring a hook is installing **automated self-behavior**; that is exactly the boundary S2 guards
-(`substrate-access.md`), so it is the **Operator's act, never an Agent self-grant.** The Agent built and
-staged the inert scripts; **executing the installer IS the grant:**
+(`substrate-access.md`), so it was the **Operator's act, never an Agent self-grant** — held even under
+direct Operator instruction to run it on their behalf ("no other way to execute it" is the load-bearing
+case the boundary must survive, not an exception). The Operator committed the resulting `.claude/settings.json`
+directly to `main` (`5e51677`) via GitHub's own editor — verified byte-identical to the proposed content.
 
-```
-python3 bin/install_hooks.py          # writes .claude/settings.json (checked-in tier)
-# or --path .claude/settings.local.json for the local tier
-```
+This adds `SessionStart → bin/standup.sh --hook` and `SessionEnd → bin/standdown.sh --log`. **Live, dog-
+fooded, confirmed working** — the mechanical checks now surface as `additionalContext` at boot without a
+`read: carry-forward` trigger.
 
-This adds `SessionStart → bin/standup.sh --hook` and `SessionEnd → bin/standdown.sh --log`. Until then the
-scripts are runnable by hand (`bin/standup.sh`, `bin/standdown.sh`) but fire nothing automatically.
+**Retired the installer script itself** (`bin/install_hooks.py` + its sibling `bin/grant_push.py`) once
+installed + verified: a permanently-committed generator whose output can silently drift from the live,
+already-committed `settings.json` it once wrote is a `bond:single-home` violation waiting to happen — and
+it did (the matcher-gap confusion, `PR #76`). The generator's `HOOKS`/`ALLOW`/`DENY` dicts and the live
+file are two homes for one fact; keeping the generator only pays for itself if it earns re-graduation the
+same way `bin/grant_push.py`'s own ancestor (`/tmp/grant_gitsh.py`) was staged to (`substrate-access.md`
+§Staging) — proven **and** a real portability need (fresh clone / new dyad). Neither obtained here. The
+permanent record of the exact wiring lives in this file + the ledger (`carry-forward.md`) + git history
+(`PR #76`, `5e51677`), not in a standing script.
+
+**If this ever needs re-installing** (a fresh clone, a wiped `settings.json`): hand-author the JSON block
+above, or reconstruct the installer from this doc + `PR #76`'s diff — don't resurrect the old script
+un-audited; re-earn the graduation bar if it's kept this time.
 
 ## Open / not-yet-proven
-- **Not yet dog-fooded as a live hook** — verified by hand-run + temp-settings install; the SessionStart
-  `additionalContext` injection is unverified end-to-end until the Operator installs and a fresh session
+- **Known gap, unresolved:** the installed matcher is `startup|resume|clear|compact` in intent but the
+  *live* file still reads `startup|resume|compact` — `clear` needs a direct one-line hand-edit to
+  `.claude/settings.json` (the Operator's act; not retroactively fixed by the now-retired installer).
   boots. First post-install stand-up: confirm the injected context actually appeared.
 - **Durable-home vs ephemeral** — `standup.sh` correctly reports the IM daemon dark on an ephemeral
   remote clone; on the `/mnt/shared_data/dzw` home it should report armable. Re-confirm there.

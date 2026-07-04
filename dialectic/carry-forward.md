@@ -96,6 +96,39 @@ same reason as the install itself.
 
 **Resume:** live fronts unchanged. NBA otherwise unchanged (`deferrals.md` `## todo`).
 
+## 2026-07-04 (cont.) — retired `install_hooks.py` + `grant_push.py` (Operator-named single-home risk)
+
+**Arc:** Operator asked why a one-shot installer should be kept around as a permanent artifact at all,
+given it had just caused real confusion (last entry's matcher-gap PR read, at a glance, like it fixed the
+live file; it didn't). Traced the root cause via the repo's own precedent: the *analogous* grant script
+(`bin/git.sh`'s push permission) started explicitly **disposable** (`/tmp/grant_gitsh.py`,
+`substrate-access.md` §Staging) with an earn-graduation bar — proven **and** a real portability need —
+before promotion to checked-in. `bin/install_hooks.py` was born already checked-in, mirroring
+`grant_push.py`'s *end state* without ever being run through that same bar. Worse: its "idempotent"
+contract only adds a missing hook *entry*, never reconciles a drifted *field* on one already present — so
+keeping it around reads as "safe to re-run to converge," which is false, and that gap is exactly what
+produced last entry's confusion.
+
+**Landed:** removed `bin/install_hooks.py` and its sibling `bin/grant_push.py` (same class of artifact,
+same risk, already-live grant unaffected). Updated every live pointer to them so nothing dangles:
+`standdown-automation.md` (Artifacts + Install sections rewritten past-tense, done-state), `scratch-tier.md`
+(gap closed note), `substrate-access.md` (bundle-ownership note), `deferrals.md` (stand-down-automation
+item marked install-gate cleared), `commission-template.md` (S2 citation de-pointed from the now-gone
+file), `bin/standup.sh` + `bin/standdown.sh` (header comments). Left untouched, deliberately: past ledger
+entries (this one included) and `carry-forward-closed.md` — historical record of what happened, not live
+pointers, don't need to track a file's later deletion.
+
+**Verified green:** `bin/standup.sh` / `bin/standdown.sh --log` run clean (no dangling references),
+`invariant-eval.py` exit 0, no remaining `install_hooks|grant_push` hits in any `.py`.
+
+**Novel yield:** the earn-graduation bar (`substrate-access.md` §Staging) applies generally, not just to
+the git-push grant it was written for — any Operator-gated one-shot installer should default to
+disposable-until-proven-and-portable, not permanent-by-mirroring-a-precedent. Worth naming as a standing
+check for the *next* such script, not just this pair.
+
+**Resume:** live fronts unchanged. Residual open item unchanged: live matcher still needs the Operator's
+one-line hand-edit for `clear` (`.claude/settings.json`).
+
 ## 2026-07-04 (stand-up) — resume protocol run cold, RESTART-PENDING cleared
 
 **RESTART-PENDING: was SET, now CLEARED** (above) — this stand-up is the confirming cold boot the bind

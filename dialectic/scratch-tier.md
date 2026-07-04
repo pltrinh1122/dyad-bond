@@ -92,10 +92,11 @@ breach). Clear-on-promotion (`--done` after a land) is hygiene, not a correctnes
 - **`bin/standup.sh`** surfaces the unreviewed-note count at resume; **`bin/standdown.sh`** surfaces it at
   close (the cheapest triage moment — context still live). Both **fail closed** (a read error reports
   "check by hand," never "clean").
-- **GAP (disclosed):** the standup surfacing is only automatic *if* the `SessionStart` hook is installed —
-  and it is **NOT** (`install_hooks.py` is staged, Operator-gated, S2). Until then the **prose** carries it:
-  the `§How to resume` step list (carry-forward.md) includes a scratch-triage step, and stand-down prompts
-  it. Don't rely on the hook firing.
+- **GAP CLOSED 2026-07-04:** the `SessionStart` hook is now installed (`.claude/settings.json`,
+  `main`@`5e51677`) — standup surfacing fires automatically on `startup`/`resume`/`compact`. **Residual
+  gap:** the live matcher doesn't yet cover `clear` (→ `standdown-automation.md` §Open), so a `/clear`
+  mid-session still needs the prose fallback below. The `§How to resume` step list (carry-forward.md)
+  includes a scratch-triage step, and stand-down prompts it either way — belt + suspenders.
 
 ## `bin/scratch.sh`
 
