@@ -81,8 +81,14 @@ session's own read-order) rather than the file's own aspirational "boot-loaded" 
 loaded-status-frontmatter.md` updated to record the disposition. No linter written, no CI touched —
 mechanization stays a separate, later, undisposed question.
 
-**Durability:** committed, not yet pushed as of this entry (next action). No PR — this is a draft/pin +
-now a landing-class anchor write, not a landing (opening a PR needs a separate `d-land`).
+**Durability:** committed + pushed. **`d-land` fired next turn** — ran the landing-discipline checklist
+live: re-verified green (`invariant-eval.py` exit 0, `standup.sh` durability ✓) immediately before
+opening, not from memory; scoped by `git log origin/main..HEAD` (4 commits, this whole arc); no PR
+template in the repo; opened **`PR #73`** — "Confirm PR #72 merge; draft + land `loaded:` front-matter
+(anchor touched)" — mechanically, no second CTA; not merged, no reviewers requested.
+
+**`PR #73` is up for your gate.** Carries: the PR #72 merge-confirmation, the `loaded-status-frontmatter`
+draft + validation, and the 4-file landing including the anchor's first-ever front-matter block.
 
 **Resume:** cold-boot bind above (does `DYAD.md` still parse/boot correctly with the new leading
 YAML block; refresh the per-file `inv:rom-currency` line to the new `DYAD.md` sha; then clear
