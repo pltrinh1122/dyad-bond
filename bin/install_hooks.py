@@ -2,8 +2,11 @@
 """Install dyad-bond's stand-up / stand-down hooks in a Claude Code settings file.
 
 Wires two hooks (Item-K6):
-  - SessionStart (startup/resume/compact) -> `bin/standup.sh --hook`  (mechanical resume checks,
-    injected as additionalContext so the resume routine loads without a per-session trigger).
+  - SessionStart (startup/resume/clear/compact) -> `bin/standup.sh --hook`  (mechanical resume checks,
+    injected as additionalContext so the resume routine loads without a per-session trigger). All four
+    sources per dialectic/standdown-automation.md's own table — `clear` was a gap vs that table until
+    2026-07-04 (Operator-caught: does /clear re-load the anchor the way /compact is documented to?
+    Unconfirmed either way, but the check is cheap + idempotent + non-judgmental, so include it).
   - SessionEnd                            -> `bin/standdown.sh --log`  (mechanical durability line;
     SessionEnd is teardown-only, so this is logging — the JUDGMENT write stays the agent's act).
 
@@ -28,7 +31,7 @@ import tempfile
 DIR = "$CLAUDE_PROJECT_DIR"
 HOOKS = {
     "SessionStart": [{
-        "matcher": "startup|resume|compact",
+        "matcher": "startup|resume|clear|compact",
         "hooks": [{"type": "command", "command": f"{DIR}/bin/standup.sh --hook"}],
     }],
     "SessionEnd": [{
