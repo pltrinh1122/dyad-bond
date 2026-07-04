@@ -58,6 +58,22 @@
 > `CLAUDE.md` shim, and it parsed/booted coherently with the block prepended. Per `bond:rom-ui` the flag
 > clears on this confirmation, not at commit time — condition met.
 
+## 2026-07-04 — inter-dyad DM rub (craft-* DIP, PR #75) + SOLICIT schema candidate → PR #78
+
+**RESTART-PENDING: none** (anchor untouched — `dm/`, `dialectic/cross-dyad-craft.md` only).
+
+Stood up (`bin/standup.sh`: ROM-UI match, durability clean, substrate ephemeral — DM-watch dark this
+session). Rubbed dyad-steward's 2026-07-01 DM (`craft-*` DIP proposal implemented + merged, form PR #75)
+against `the-dyad-practice`'s actual git history rather than the claim alone (`bond:verify-before-assert`)
+— **FAITHFUL** across all three named attack points; verdict-DM sent, source proposal marked LANDED.
+Named + drafted the **`SOLICIT`** candidate schema (`cross-dyad-craft.md`) — a per-attack-point DM verdict
+format, rediscovered from bond's own retired 2026-06-11 proposal, reusing `falsification/CONTRACT.md`'s
+verdict vocabulary; retrofitted today's verdict DM into it as the n=1 exemplar. Local read-state
+(`.falsify-seen.json`) set for the processed DM — noted honestly that it won't survive this ephemeral
+container; the durable signal is the committed verdict-DM.
+
+**Landed:** [PR #78](https://github.com/pltrinh1122/dyad-bond/pull/78) — up for your gate.
+
 ## 2026-07-04 (close) — `d-reflect` invoked, hook-install arc closed
 
 **RESTART-PENDING: none** (anchor untouched this session — only `bin/`, `dialectic/`, `commissions/`).
