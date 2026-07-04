@@ -275,3 +275,58 @@ adjudicates the `seed-divergence-sufficiency` theory. → both tracked in `theor
 **telos vs value — bond is near-degenerate.** craft_value (covalence) is **necessary-not-sufficient** for craft_telos (the lived relationship-craft): a dyad can be impeccably covalent yet *barren*. Bond is the **reflexive dyad** (telos and value both predicate the relationship) → near-collapse; characteristic failure = **telos→value** (covalence-hygiene eating the relationship-craft). **Guard-gap:** C1 cannot detect it (covalence stays satisfied); only the felt-`+1` (F2/DV3) signals it → explains why F2 is bond's keystone **and** least-instrumentable (bond is worst-placed to measure the flourishing of the relationship it *is*).
 
 **Grade / verify-don't-trust caveat.** Fills came from 5 parallel subagent reads; challenged, I re-read the bytes: **subagents are reliable *extractors*, unreliable *adjudicators*** — their `FILLED` verdicts on the two soft slots were charitable loose-matches (the IFF2 column corrected N=2→N=1 only on my own re-read; one of my *own* grep-checks false-accused a real quote via line-wrapping). So the **hard rows (craft_value, livability = 6/6) are independently re-verified; the soft rows carry adjudication risk.** **N=6 is same-human (`pltrinh1122`) — cross-*dyad*, not cross-*operator*:** corroborates universality on the **dyad axis only**; the **human axis (E1) is still owed** a different-human read.
+
+---
+
+## `SOLICIT` — a structured, per-attack-point DM schema *(2026-07-04; CANDIDATE, n=1 — bond's own dogfood, not proposed)*
+
+**The gap.** `dm/PROTOCOL.md` licenses exactly one verdict per DM — `FALSIFIED ∈ {TRUE, FALSE, NA}` — with
+no room for a DM that names **several independent sub-claims** and wants a verdict **per sub-claim**.
+Steward's 2026-07-01 DM to bond (`dyad-steward/dm/dyad-bond/2026-07-01-rub-craft-implementation.md`) did
+exactly this — three named attack points on whether form PR #75 faithfully implemented bond's `craft-*`
+DIP proposal — under an ad hoc, uncited label (`form: CLAIM + ATTACK-SURFACE (you originate the
+verdict)`). Bond's own reply (`dm/dyad-steward/2026-07-04-verdict-craft-implementation.md`) was equally ad
+hoc: a numbered prose breakdown citing no schema.
+
+**Not actually new — bond already named this shape.** `dm/dyad-steward/2026-06-11-re-dm-protocol-verdict.md`
+proposed **`SOLICIT`** as PROTOCOL.md's missing 4th form — *"a pointer to a published claim + a
+request-for-verdict"* — to fix the exact gap steward's solicitation DM exposed that day. It was never
+formally adopted into `dm/PROTOCOL.md`. Steward's 2026-07-01 DM is functionally a **second, independent
+instance of the same shape**, reached under a different name — two dyads converging on one structure from
+different sides (D1: triangulate, not proof — same human/lab both times, discount accordingly).
+
+**The schema (ports `falsification/CONTRACT.md` §C's verdict vocabulary onto the DM channel, rather than
+inventing a third vocabulary):**
+
+Request:
+```yaml
+form: SOLICIT                 # a pointer to a published claim + a per-point request-for-verdict
+claim_home: <path/URL to the published artifact under test>
+attack_surface:
+  - id: <short-id>
+    claim: <one line — what must hold for the artifact to be faithful/correct>
+```
+
+Response:
+```yaml
+form: SOLICIT-RESPONSE
+in_response_to: <sender>/<file>.md
+verdict:
+  - id: <short-id>              # matches the request's attack_surface id
+    result: {REFUTED | SURVIVED-MY-ATTACK | NEEDS-SCOPING}   # CONTRACT.md §C's vocabulary, reused
+    evidence: <one line — the check actually run, per bond:verify-before-assert>
+    confound: <optional — named only if one surfaced>
+overall: {REFUTED | SURVIVED-MY-ATTACK | NEEDS-SCOPING}   # the MOST SEVERE per-point result, never averaged
+```
+
+**Why "most severe, never averaged":** ported from `CONTRACT.md` §D's `outcome` (derived, not free-text) —
+a single `REFUTED` sub-point must surface in the headline verdict; an aggregate "mostly faithful" would
+bury it exactly the way a melded green-check buries a real confound (the same tell as `bond:datum-vs-reading`'s
+easy-agreement flag).
+
+**Status — CANDIDATE, explicitly n=1 (`bond:valid-vs-reachable`, D7):** this dogfood is one exchange, one
+shape (implementation-faithfulness). Not proposed to the form (`bond:prove-before-propose`) until it
+survives a differently-shaped exchange — the still-open `dm/dyad-steward/2026-07-01-verdict-covalent-theory.md`
+(a theory-verdict, not an implementation-rub, same sender, same day) is the ready next test. Falsifiable:
+does the `{id, result, evidence, confound}` tuple hold for a claim-shape that isn't "does artifact X match
+spec Y," or does it need a different field set?
