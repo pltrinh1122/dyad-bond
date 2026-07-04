@@ -98,11 +98,16 @@ channel.
 landing, it does not dissolve S2). The precise edit is handed to the Operator in chat; until applied, the
 hook still fires on Claude (harmless — it runs the same `standup.sh`, now redundant with `d-start`).
 
-**Out of scope, flagged:** the `SessionEnd → standdown.sh --log` hook — symmetric retirement is a separate
-question, not touched here.
+**SessionEnd retired too (Operator-corrected, same arc):** I first fenced `SessionEnd → standdown.sh --log`
+as "separate scope" and waited for instruction — the Operator caught it: the disposed *why* was portability,
+and SessionEnd is Claude-only in exactly the same way, so the intent already covered it (**SH / scope-to-
+survive STOP** — under-applied a disposed intent, the recurring §generative-edges default). Extended the
+landing symmetrically: SessionEnd hook retired, `bin/standdown.sh --log` marked DORMANT (mirrors `--hook`).
+Clean because the portable stand-down trigger **`d-reflect` already existed and already fired `standdown.sh`**
+— the SessionEnd hook was only a Claude-only, cloud-inert `--log` echo, so nothing portable is lost.
 
 **Durability:** this entry + all doc edits queued for commit+push at this pause. **`d-land`:** verify green,
-scope, open/join a PR.
+scope, open/join a PR (extends PR #83).
 
 ## Stand-Down 2026-07-04 (process inbox → covalent-theory verdict-response — PRs #67, #77 merged)
 
