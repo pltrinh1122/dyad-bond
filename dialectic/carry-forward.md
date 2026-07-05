@@ -64,6 +64,31 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## 2026-07-05 (close) — `d-reflect`: post-#85 cleanup + branch triage (light)
+
+**#85 MERGED** (`da458038`, Operator) — the discipline-permissioning arc is now canonical in `main`.
+**Auto-delete-on-merge ENABLED** (Operator) → future PR branches self-clean at the git-host layer;
+dissolves the wrapper-vs-raw branch-delete fork (a **platform-layer** resolution — 2nd instance after
+`.githooks`; see the reflect).
+**Reflect** → `relationship-craft.md §Reflect — post-#85 cleanup: the platform-layer resolution + read-only
+branch triage` (STOP = binary-command-fork framing; fix = ask *which layer owns this*).
+
+**Deferrals opened:**
+- **3 stale branches reviewed → safe to delete** (all superseded, predate auto-delete → Operator UI-delete):
+  `…partnership-craft-item-promotion-yaaewy` (stale ledger note) · `…insights-lessons-storage-gx4sh3` (early
+  D7 datum, `B1` matured 373 commits past) · `…exciting-fermat-tswcia` (commission v0.4 → `main` at v0.6).
+- **`git.sh` branch-nav — course-corrected 2026-07-05 (`land: recommendation`).** The universal `git.sh`
+  local-nav widen was proposed **and reverted** (Operator-caught: the recurring *mechanism-widen*). Corrected
+  three-way model (→ `substrate-access.md §Discipline-based permissioning`, Tier-2): reads = raw/auto-approved ·
+  history+remote writes = `bin/git.sh` · **local-nav (`checkout`/`branch`/`reset`/`fetch`) = raw and it
+  PROMPTS** (acceptable guard; some are destructive). Landed via PR: reflection `b767369` + the doc clarification.
+- **`d-land` SPINE — queued fix-on-bite (Operator `todo` 2026-07-05: "d-land requires permission").** `d-land`
+  is a discipline with **no spine**, so its local-nav (sync/re-branch/`reset`) prompts. Fix = a `d-land` spine
+  script encapsulating the landing mechanics (sync→re-branch→commit→push), granted as one unit like
+  `standup.sh`/`standdown.sh` — discipline-scoped, NOT a universal grant. (Same as the deferred d-land verify-spine.)
+- **Local branch state:** still on merged `portable-push-guard`; this reflect's commits ride it for
+  durability, pending the sync/re-branch fix — else next `d-start` resyncs to `main`.
+
 ## 2026-07-04 (close) — `d-reflect`: discipline-permissioning arc reflected + ROM refreshed
 
 **Reflect landed** → `relationship-craft.md §Reflect — discipline-based permissioning: the mechanism-clerking
