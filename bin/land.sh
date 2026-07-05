@@ -63,8 +63,11 @@ default_sha="$(git rev-parse "origin/$DEFAULT_BRANCH")"
 if [[ "$head_sha" != "$default_sha" ]] \
    && git merge-base --is-ancestor "$branch" "origin/$DEFAULT_BRANCH" 2>/dev/null; then
   echo "land.sh: '$branch' is already an ancestor of origin/$DEFAULT_BRANCH — treating as a landed arc." >&2
-  echo "land.sh: → git checkout -B $branch origin/$DEFAULT_BRANCH" >&2
-  git checkout -B "$branch" "origin/$DEFAULT_BRANCH"
+  echo "land.sh: → git checkout -B $branch origin/$DEFAULT_BRANCH --no-track" >&2
+  # --no-track: without it, `checkout -B <branch> origin/<default>` sets this branch's upstream to
+  # origin/<default> (misleading `git status`/bare `git push` — pushed via bin/git.sh below anyway,
+  # which always names the branch explicitly, but the local tracking metadata must not lie).
+  git checkout -B "$branch" "origin/$DEFAULT_BRANCH" --no-track
   echo "land.sh: restarted '$branch' fresh off origin/$DEFAULT_BRANCH — nothing to commit/push this run." >&2
   exit 0
 fi
