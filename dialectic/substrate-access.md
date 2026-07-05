@@ -13,13 +13,13 @@
 > - **Posture = branch + PR; the Operator gates the *merge*, not the push.** Push of a **feature
 >   branch** = the Agent's act (Generate, through the `bin/git.sh` choke-point); **merge → `main`** =
 >   the Operator's act (Validate). We **do not push `main`; we PR it.** (Item-H, ledger.)
-> - **The grant is already LIVE — in session *runtime*, not in any settings file.**
->   `~/.claude/settings.json` sets `defaultMode: auto` + `skipAutoPermissionPrompt`, so
->   `bin/git.sh push` of a feature branch runs **un-prompted** — **verified empirically** (s4:
->   dry-run → real push; s5: `gh pr merge` of PR #2 ran un-blocked). **`.claude/settings.local.json`
->   has *no* `git.sh` entry and never needed one** → the "PENDING grant", "LOCAL first", and
->   `/tmp/grant_gitsh.py` actions below are **MOOT (nothing to grant).** **Distilled (verify-before-assert,
->   `relationship-craft.md` D6):** *file-absence ≠ capability-absence — verify capability by EXECUTION.*
+> - **The grant is already LIVE — in session *runtime*, not in any global file.**
+>   As of 2026-07-04, we have **DELETED** the global config files (`~/.claude/settings.json` and
+>   `~/.gemini/antigravity-cli/settings.json`) to enforce `bond:substrate-agnostic`. Instead, the local
+>   `.claude/settings.json` and `.gemini/antigravity-cli/settings.json` files within this repository set
+>   `defaultMode: auto` / `always-proceed` respectively, so `bin/git.sh push` of a feature branch runs
+>   **un-prompted**. This ensures that unconfigured repos fail loud (by safely defaulting to interactive
+>   prompts) rather than relying on global permission pollution.
 > - **The classifier carve-out is real and correct:** a raw `git push origin main` (or `bin/git.sh push`
 >   *of main*) is **DENIED** — default-branch mutation needs per-op authorization. `gh pr merge` is **not**
 >   carved out (s5 telemetry) → the PR path is the sanctioned route to `main`.
