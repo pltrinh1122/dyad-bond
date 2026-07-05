@@ -50,14 +50,8 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — folds in, since the
-> last-recorded `9519e01`: the **`loaded:` front-matter landing** (PR #73) — `DYAD.md`'s first-ever
-> front-matter block (`loaded: boot`) + `GLOSSARY.md` picking up `loaded: resume-protocol`. **Boot-VERIFIED
-> 2026-07-04** (this session's cold ROM-boot, no `--resume`: `bin/standup.sh` flagged the expected MISMATCH,
-> `git diff 9519e01..a47a65d -- DYAD.md GLOSSARY.md` confirmed the delta is exactly the already-logged PR #73
-> change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
-> over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
-> PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
+> **ROM-baseline (anchor commit the running baseline reflects):** `RESTART-PENDING`. The boot-set was touched this session: `GEMINI.md` (shim restriction added) and `GLOSSARY.md` (`d-land` DAG update). The Operator must reload the boot-set on the next session.
+> *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
 > **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` edited below, refresh owed next cold boot):** `CLAUDE.md@8f2473c` (stale, see RESTART-PENDING) · `GEMINI.md@9164a0d` · `DYAD.md@a47a65d` · `GLOSSARY.md@a2d5c58`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
