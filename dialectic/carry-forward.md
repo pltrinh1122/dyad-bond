@@ -50,19 +50,32 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `RESTART-PENDING`. The boot-set was touched this session: `GEMINI.md` (shim restriction added) and `GLOSSARY.md` (`d-land` DAG update). The Operator must reload the boot-set on the next session.
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — unchanged; **booted coherent this session** from `CLAUDE.md@8f2473c`. Boot-set files `GEMINI.md@178324c` + `GLOSSARY.md@1ce9828` moved in prior #85 commits; deltas **verified-by-diff = the logged changes, nothing else** (GEMINI: agy mutation-hard-rule injection; GLOSSARY: `d-land` DAG update).
 > *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` edited below, refresh owed next cold boot):** `CLAUDE.md@8f2473c` (stale, see RESTART-PENDING) · `GEMINI.md@9164a0d` · `DYAD.md@a47a65d` · `GLOSSARY.md@a2d5c58`.
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04 `d-reflect`):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@1ce9828`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
 > include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
 > flagging the script/ledger gap, not unilaterally widening the script.)*
-> **RESTART-PENDING: SET 2026-07-04** — `CLAUDE.md` edited (its `Substrate-access` line carried a stale,
-> now-corrected precondition; see the same-day ledger entry below). **Binds next boot:** confirm
-> `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
-> line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
-> superseded by this new bind — not the same edit.)*
-> **RESTART-PENDING (GEMINI.md): CLEARED 2026-07-04** — The agy first-operation session cold-booted successfully. `GEMINI.md` booted `DYAD.md` coherently with the overlay. The portable push-guard was verified to materialize on agy.
+> **RESTART-PENDING (CLAUDE.md): CLEARED 2026-07-04 `d-reflect`** — booted from `CLAUDE.md@8f2473c` this
+> session; parses/boots coherently with the corrected `Substrate-access` line; sha refreshed above.
+> **RESTART-PENDING (GEMINI.md@178324c): SET** — the agy mutation-hard-rule delta has NOT been agy-cold-
+> booted (the prior CLEARED note was for `9164a0d`, now superseded). **Binds next agy boot:** confirm
+> `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
+> Claude; agy runtime verification owed.)
+
+## 2026-07-04 (close) — `d-reflect`: discipline-permissioning arc reflected + ROM refreshed
+
+**Reflect landed** → `relationship-craft.md §Reflect — discipline-based permissioning: the mechanism-clerking
+STOP → the two-tier synthesis` (CSS+OR/SH; headline **STOP = mechanism-clerking**, Operator-caught; **SH =
+use `bin/git.sh`, not raw git**).
+**ROM refreshed** (`d-reflect`): per-file boot-set line updated to current shas (`GEMINI.md@178324c`,
+`GLOSSARY.md@1ce9828`) — stops the recurring false-MISMATCH; `RESTART-PENDING(CLAUDE.md)` **CLEARED** (booted
+coherent this session); `RESTART-PENDING(GEMINI.md@178324c)` **SET** for the agy cold-boot of the mutation-
+hard-rule delta.
+**Resume:** PR #85 up for the Operator's merge (the arc + this reflect ride it). NBA = `deferrals.md §todo`
++ the fix-on-bite queue (`d-land` verify-spine on first rig-bite · retire `bin/scratch.sh` · `GLOSSARY.md`→
+`standup.sh ANCHOR_FILES`).
 
 ## 2026-07-04 (cont.) — discipline-based permissioning landed onto #85 (`d-land`)
 
