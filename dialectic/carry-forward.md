@@ -50,32 +50,60 @@
    scoped → re-arm every stand-up. *(Hook-based auto-arm is the Operator's gated act — settings self-mod.)*
 7. Take the **NBA** at the bottom.
 
-> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — folds in, since the
-> last-recorded `9519e01`: the **`loaded:` front-matter landing** (PR #73) — `DYAD.md`'s first-ever
-> front-matter block (`loaded: boot`) + `GLOSSARY.md` picking up `loaded: resume-protocol`. **Boot-VERIFIED
-> 2026-07-04** (this session's cold ROM-boot, no `--resume`: `bin/standup.sh` flagged the expected MISMATCH,
-> `git diff 9519e01..a47a65d -- DYAD.md GLOSSARY.md` confirmed the delta is exactly the already-logged PR #73
-> change and nothing else, `DYAD.md` parsed/booted clean with the block prepended — no misparse, no
-> over-cut). Update this line whenever `DYAD.md` (or a shim) changes. *(Prior baseline: `DYAD.md@e0c9280`,
-> PR #53, 2026-06-27. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (stale — `CLAUDE.md` + `GEMINI.md` edited below, refresh owed next cold boot):**
-> `CLAUDE.md@437405a` (stale, see RESTART-PENDING) · `GEMINI.md@437405a` (**now stale** — agy first-operation
-> overlay added, see RESTART-PENDING) · `DYAD.md@a47a65d` · `GLOSSARY.md@a47a65d`.
+> **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — unchanged; **booted coherent this session** from `CLAUDE.md@8f2473c`. Boot-set files `GEMINI.md@178324c` + `GLOSSARY.md@1ce9828` moved in prior #85 commits; deltas **verified-by-diff = the logged changes, nothing else** (GEMINI: agy mutation-hard-rule injection; GLOSSARY: `d-land` DAG update).
+> *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04 `d-reflect`):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@1ce9828`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
 > include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
 > flagging the script/ledger gap, not unilaterally widening the script.)*
-> **RESTART-PENDING: SET 2026-07-04** — `CLAUDE.md` edited (its `Substrate-access` line carried a stale,
-> now-corrected precondition; see the same-day ledger entry below). **Binds next boot:** confirm
-> `CLAUDE.md` still parses/boots coherently with the corrected line, refresh its sha in the per-file
-> line above, then clear. *(Prior CLEARED note, 2026-07-04 cold-boot of the `loaded:` front-matter change,
-> superseded by this new bind — not the same edit.)*
-> **RESTART-PENDING (GEMINI.md): SET 2026-07-04** — `GEMINI.md` overlay gained the agy first-operation
-> task hand-off (portable push-guard verification). **Binds next boot:** confirm `GEMINI.md` still boots
-> `DYAD.md` coherently with the added overlay block, refresh its sha in the per-file line above, then clear.
-> **Elegant discharge:** the cold boot that clears this *is the agy first-operation session itself* — the
-> very session the overlay hands off to. `standup.sh`'s `ANCHOR_FILES` includes `GEMINI.md`, so the
-> mechanized ROM-UI check WILL flag the expected MISMATCH next boot (unlike the `GLOSSARY.md` case).
+> **RESTART-PENDING (CLAUDE.md): CLEARED 2026-07-04 `d-reflect`** — booted from `CLAUDE.md@8f2473c` this
+> session; parses/boots coherently with the corrected `Substrate-access` line; sha refreshed above.
+> **RESTART-PENDING (GEMINI.md@178324c): SET** — the agy mutation-hard-rule delta has NOT been agy-cold-
+> booted (the prior CLEARED note was for `9164a0d`, now superseded). **Binds next agy boot:** confirm
+> `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
+> Claude; agy runtime verification owed.)
+
+## 2026-07-04 (close) — `d-reflect`: discipline-permissioning arc reflected + ROM refreshed
+
+**Reflect landed** → `relationship-craft.md §Reflect — discipline-based permissioning: the mechanism-clerking
+STOP → the two-tier synthesis` (CSS+OR/SH; headline **STOP = mechanism-clerking**, Operator-caught; **SH =
+use `bin/git.sh`, not raw git**).
+**ROM refreshed** (`d-reflect`): per-file boot-set line updated to current shas (`GEMINI.md@178324c`,
+`GLOSSARY.md@1ce9828`) — stops the recurring false-MISMATCH; `RESTART-PENDING(CLAUDE.md)` **CLEARED** (booted
+coherent this session); `RESTART-PENDING(GEMINI.md@178324c)` **SET** for the agy cold-boot of the mutation-
+hard-rule delta.
+**Resume:** PR #85 up for the Operator's merge (the arc + this reflect ride it). NBA = `deferrals.md §todo`
++ the fix-on-bite queue (`d-land` verify-spine on first rig-bite · retire `bin/scratch.sh` · `GLOSSARY.md`→
+`standup.sh ANCHOR_FILES`).
+
+## 2026-07-04 (cont.) — discipline-based permissioning landed onto #85 (`d-land`)
+
+**RESTART-PENDING: unchanged** — this arc touched no boot-set (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`/
+`GLOSSARY.md` clean); the pre-existing boot-set RESTART-PENDING that #85 already carries is untouched.
+
+**Arc (Operator `d-start`: "resolve dyad-permissioning" → riffs → D-P-A-R `d-land` "as recommended").**
+Opened on unnecessary permission prompts (`standup.sh` pipe broke an exact-match grant; a `$()`-loop tripped
+the command-substitution heuristic). The Operator lifted it from mechanism-grants → **intent** → **discipline-
+based permissioning** (the crisp, verifiable form): each `d-*` discipline = a committed spine script granted
+as one stable `Bash(bin/<spine>.sh:*)`; capability flexes via the reviewed script (expand/contract), not new
+grants; a prompt *during* a discipline is the growth signal; interstitial reads run raw, mutations via the
+narrow wrappers, the merge-gate is never scripted. Single-home → `substrate-access.md §Discipline-based
+permissioning`.
+
+**Landed (commit `c9b1296`, on `claude/portable-push-guard` = PR #85):**
+- `settings.json`: `standup.sh` + `standdown.sh` spine grants; dropped redundant (gitignored)
+  `settings.local.json`. Reverted the interstitial `rev-list`/`pr view` wrapper grants — reads run raw.
+- `git.sh`: expanded the mutation op-set with `commit`/`add` (Operator: use `bin/git.sh`, not raw git).
+- `standdown.sh`: dropped the retired `bin/scratch.sh` checklist item (a d-reflect spine → dead tool).
+- `substrate-access.md`: the two-tier model + flex mechanism (CANDIDATE, not settled).
+
+**Inventory yield (DISCOVER):** `d-start`/`d-reflect` are ~fully spine-covered; **`d-land` has no full
+spine** — its check-rig set (`invariant-eval.py`, `discipline-lint.py`, …) is the largest uncovered surface,
+deferred to fix-on-bite (no d-land rig bit this session). Drift still open: `bin/scratch.sh` present despite
+RETIRED; `standup.sh` `ANCHOR_FILES` omits `GLOSSARY.md`.
+
+**Gate:** PR #85 is up for the Operator's merge — **not merged** (`bond:no-self-ratify`). Durability: pushed.
 
 ## 2026-07-04 (close) — `d-reflect` invoked, portability arc closed
 
@@ -1505,6 +1533,13 @@ Experiment Discipline + G/V-independence`** 2026-06-26. Remedy for constraints 7
 *(Four closed/done items drained to `dialectic/carry-forward-closed.md` §Drained-Open-items, 2026-06-25 —
 archived there under their original letters `A · C · G · H` (now archive locators, not live IDs); `kb/dfd.md`,
 `substrate-access.md` hold the live homes.)*
+
+## 2026-07-04 (cont.) — d-land D-P-E-R upgrade and global settings deletion
+
+**Arc (Operator `d-land` then `riff:`):** Following up on the portability work, we escalated from merely cleaning `~/.claude/settings.json` and `~/.gemini/antigravity-cli/settings.json` to **deleting them outright**. This strictly enforces `bond:substrate-agnostic` by forcing any repository without a properly single-homed configuration to fail-loud via safe interactive prompts, preventing any silent cross-repo pollution.
+During `d-land`, the Agent detected documentation drift in `substrate-access.md` but halted with an unnecessary disposition request rather than autonomously resolving the mechanical dependency.
+**Operator disposition:** updated `d-land` in `GLOSSARY.md` and the `relationship-craft.md` checklist to mandate **building and reviewing an execution DAG** before execution. This explicitly elevates all `d-` triggers (`d-land`, `d-start`, `d-reflect`) into full **DISCOVER-PLAN-EXECUTE-REFLECT** autonomy loops.
+**Durability:** documentation and checklist updates committed and pushed to PR #85. **Reflect landed** → `relationship-craft.md §Reflect — the substrate-agnostic fail-loud arc` (CSS+OR/SH form).
 
 ## NBA — rendered on demand (no stored block)
 > NBA is a **view, not a section**: the recommendation render over the work-item store `{in-progress ∪ todo}` (→ `dialectic/memory-axes.md`). The prior stored block (with the s5/s6/s7 stand-down summaries) was stripped to the archive — pull the NBA on demand.

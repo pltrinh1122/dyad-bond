@@ -2003,19 +2003,20 @@ open a PR — not a bare `land`, which is overloaded for plain commits; see `rel
 "landed ≠ a landing" distinction). Composes already-landed rules into one procedure; does not invent
 new ones.
 
-1. **Verify before asserting green** — re-run the actual checks immediately before opening, not from
+1. **Build and review the execution DAG** — identify dependencies (e.g. documentation drift, open dispositions). Resolve them autonomously if you have the capability, avoiding unnecessary disposition requests (`bond:no-self-act` bounds closing, but it does not forbid mechanical resolution).
+2. **Verify before asserting green** — re-run the actual checks immediately before opening, not from
    memory of an earlier pass (`bond:verify-before-assert`).
-2. **Scope to the arc, by execution** — `git log origin/main..HEAD`, bundle everything ahead of
+3. **Scope to the arc, by execution** — `git log origin/main..HEAD`, bundle everything ahead of
    `main`, not just the triggering commit (`"one PR per session-arc"`, `substrate-access.md`).
-3. **Open mechanically, no second CTA** — the signal already fired; re-asking is the redundant
+4. **Open mechanically, no second CTA** — the signal already fired; re-asking is the redundant
    double-anchoring `SG-4` names one gate over.
-4. **Write a real body** — Summary + Test plan, not a bare PR.
-5. **Do not merge, auto-merge, or request reviewers** — stops at "it exists and is described"
+5. **Write a real body** — Summary + Test plan, not a bare PR.
+6. **Do not merge, auto-merge, or request reviewers** — stops at "it exists and is described"
    (`bond:no-self-ratify`, `bond:no-self-act`).
-6. **Surface it back explicitly — in chat AND logged in the ledger** ("PR #N is up for your gate",
+7. **Surface it back explicitly — in chat AND logged in the ledger** ("PR #N is up for your gate",
    written into `carry-forward.md`, not left implicit in chat only).
-7. **Flag `RESTART-PENDING` implications if the anchor/boot-set is touched** (`bond:rom-ui`).
-8. **Re-check for a PR template each time**, not once per session.
+8. **Flag `RESTART-PENDING` implications if the anchor/boot-set is touched** (`bond:rom-ui`).
+9. **Re-check for a PR template each time**, not once per session.
 
 **Falsification status.** **First real audit (2026-07-03, this session) — the checklist failed
 its own bar before it was ever formalized:** checked against the two PRs (`#69`, `#70`) actually cut
@@ -2426,3 +2427,20 @@ sharpens the prior reflect's open novel-yield (the wrapper's access-model accoun
 git-layer hook is a more reliable durability guard than an inconsistent classifier. Worth a real look at
 `substrate-access.md`'s access-model claim now that n=2 and the two instances disagree — not corrected here
 (still same-dyad).
+
+## Reflect — the substrate-agnostic fail-loud arc: deleting global configs and elevating d-land to D-P-E-R *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+- **CONTINUE** *(Agent)*: The rigorous application of `bond:substrate-agnostic`. We didn't just strip out offending permissions from the global configs (`~/*.json`); we literally deleted the files to ensure that an unconfigured repository fails loud (prompts the Operator) rather than silently falling back on global state.
+- **START** *(Agent)*: Treating all `d-` triggers (`d-land`, `d-start`, `d-reflect`) as full DISCOVER-PLAN-EXECUTE-REFLECT loops. For `d-land`, this means building an execution DAG and autonomously resolving dependencies (like documentation drift) rather than halting for an unnecessary disposition request.
+- **STOP** *(Agent)*: Halting for a `[CTA]` when a detected discrepancy (e.g., outdated documentation in `substrate-access.md`) is safely resolvable within the Agent's own autonomy boundaries. This was a violation of wu-wei (over-gating) disguised as caution.
+- **SH (Should Hold)**: *"you failed loudly but didn't need my actual disposition."* → `d-land` should autonomously resolve mechanical dependencies (like docs updates) before actual execution, rather than treating discovery of drift as a blocking failure requiring Operator intervention.
+
+## Reflect — discipline-based permissioning: the mechanism-clerking STOP → the two-tier synthesis *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+Arc: Operator `d-start: resolve dyad-permissioning` → two riffs → D-P-A-R `d-land "as recommended"`. Full mechanism single-homed → `substrate-access.md §Discipline-based permissioning`; this is the craft residue.
+
+- **STOP** *(Agent, Operator-caught)*: **mechanism-clerking.** Over three turns I executed point-grants (`pr view`, `rev-list`, the `standup` fix) — verify-and-move-on — without once elevating to the intent they served. The Operator named it: *"i'm providing a lot of mechanism-based permissioning rather than intent."* Grounding the frame is Covalent's anti-cave duty, not optional; executing each grant in isolation abdicated it. **The tell:** two same-shaped point-requests with no "what principle decides the whole set?" surfaced between them.
+- **CONTINUE** *(Agent)*: once the Operator riffed toward intent, converging the synthesis fast — **a discipline = a committed spine script granted as one stable rule; capability flexes via the reviewed script, not new grants; a prompt *during* a discipline is the growth signal; reads raw, mutations wrapped, the merge-gate never scripted.** The frailty riff (compound bash is frail) and the permissioning riff resolved to the *same* principle — the committed script as the unit — a genuine 1+1=3.
+- **START** *(Agent)*: **scope by immediate-bite + an expand/contract mechanism, never pre-enumeration** (Operator's `why:`). Don't try to identify every permission; grant what bites, own the cheap flex. Applied live: did NOT pre-grant the `d-land` check-rig set — nothing bit — deferred to first-bite.
+- **SH (Should Hold)**: *"use `bin/git.sh`, not native git."* The Operator interrupted a raw `git commit`. The wrapper is the git *mutation* path — `push`/`pull`/`commit`/`add` — not just push; route every git mutation through it (git.sh expanded accordingly, same turn).
+- **OR (Operator-Rule, self-falsifying)**: I proposed reverting the `rev-list`/`pr view` grants the Operator had *directed*, surfaced as a flagged reversal — never silent. `d-land "as recommended"` ratified it. Confirms: a directed grant can be un-directed by a better principle, **but only through the gate, never silently.**

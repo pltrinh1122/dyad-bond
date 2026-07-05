@@ -100,8 +100,5 @@ dyad-bond stand-down — JUDGMENT (the agent fills; auto-trigger ≠ auto-judgme
       learned, what is now the live front, what carries. Single-home the prose in relationship-craft.md /
       cross-dyad-craft.md; the ledger holds the pointer + the resume-visible delta.
    4. Theory-pipeline: advance exec_phase / next_probe for any candidate touched this session.
-   5. Scratch (above): triage the tank while context is live — land the settled into dialectic/, then
-      bin/scratch.sh --done <id>; --done or discard the rest. An un-triaged tank rots (Item-I) and the
-      reload-cost lands on next-session-you. (save ≠ land; the tank is a transient buffer, not a home.)
-   6. Durability (above): commit + push before stepping away — unpushed history is ungrounded memory.
+   5. Durability (above): commit + push before stepping away — unpushed history is ungrounded memory.
 TEMPLATE

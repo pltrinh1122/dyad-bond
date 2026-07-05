@@ -37,12 +37,6 @@
 
 
 
-- **Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(spawned by the nomenclature
-  migration, 2026-06-26)* — `X1/X2/X3` (cross-dyad candidates, `cross-dyad-craft.md`) are now
-  `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Wearing the
-  **Steward-Operator hat**, notify siblings that may cite "bond's X#"; keep the `X#` as a *published display
-  alias* so existing cross-dyad references still resolve. → `dialectic/nomenclature-migration-plan.md`.
-
 - **Cross-dyad custody deprecation** *(relocated from the carry-forward Open-items, 2026-06-25 Phase 2
   fold; chase via the Steward-Operator hat)* — The 7 Dyad-UI cluster assets were received from
   `dyad-steward@31d53c0` (receipt `03550dc`, shed `f5480eb`). The Bond Operator will, wearing the **Steward
@@ -88,6 +82,8 @@
 
 
 ## done
+
+- **✅ Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(2026-07-04; Notified via dyad-steward issue #29)* — `X1/X2/X3` (cross-dyad candidates) are now `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Notified sibling dyad that we are keeping `X#` as published display aliases so existing cross-dyad references resolve.
 
 - **✅ Anchor-src probes — md→yaml→rendered lifecycle (ARCHIVED N/A)** *(2026-06-29; Operator Y)* —
   Context shift: the invariant lifecycle is **prompt → yaml → md**, not md → yaml → rendered. YAML is the

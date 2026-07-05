@@ -28,6 +28,7 @@ ALLOWED_OPS=(                                   # first TWO tokens of an allowed
   "pr comment"
   "pr create"
   "issue comment"
+  "issue create"
 )
 # ──────────────────────────────────────────────────────────────────────────────────────────
 

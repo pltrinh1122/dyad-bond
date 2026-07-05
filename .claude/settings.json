@@ -1,19 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(bin/git.sh:*)"
+      "Bash(bin/git.sh:*)",
+      "Bash(bin/gh.sh:*)",
+      "Bash(bin/standup.sh:*)",
+      "Bash(bin/standdown.sh:*)"
     ],
     "deny": [
-      "Bash(git push --force*)",
-      "Bash(git push * --force*)",
-      "Bash(git push -f*)",
-      "Bash(git push * -f*)",
-      "Bash(git push --delete*)",
-      "Bash(git push * --delete*)",
-      "Bash(git push * -d*)",
-      "Bash(git push +*)",
-      "Bash(git push * +*)",
-      "Bash(git push * :*)"
+      "Bash(git push*)"
     ]
-  }
+  },
+  "defaultMode": "auto",
+  "skipAutoPermissionPrompt": true
 }

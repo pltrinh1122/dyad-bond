@@ -96,7 +96,9 @@ Reflect is F2-keystone-gated.
     was typed** (corrected same-day — the earlier `land`/`d-land` split assumed the Operator needed to
     pre-select weight; the actual discriminator, is-there-already-an-open-PR-for-this-arc, is
     mechanically checkable, not a judgment call the Operator should have to make). On `d-land`: commit
-    always; then check `git log origin/main..HEAD` + open-PR state — an existing open PR for this arc →
+    always; then **build and review an execution DAG** of any remaining dependencies or open dispositions
+    (e.g., documentation drift) and resolve them autonomously before proceeding, avoiding unnecessary 
+    Operator CTAs; then check `git log origin/main..HEAD` + open-PR state — an existing open PR for this arc →
     commit+push, done (the common case, ~20+ times a session); no open PR and the arc reads complete →
     run the full `relationship-craft.md §The landing-discipline` checklist, open one. Bare `land` is
     retired as a separate token.
