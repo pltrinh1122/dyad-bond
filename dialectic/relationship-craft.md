@@ -2003,19 +2003,20 @@ open a PR — not a bare `land`, which is overloaded for plain commits; see `rel
 "landed ≠ a landing" distinction). Composes already-landed rules into one procedure; does not invent
 new ones.
 
-1. **Verify before asserting green** — re-run the actual checks immediately before opening, not from
+1. **Build and review the execution DAG** — identify dependencies (e.g. documentation drift, open dispositions). Resolve them autonomously if you have the capability, avoiding unnecessary disposition requests (`bond:no-self-act` bounds closing, but it does not forbid mechanical resolution).
+2. **Verify before asserting green** — re-run the actual checks immediately before opening, not from
    memory of an earlier pass (`bond:verify-before-assert`).
-2. **Scope to the arc, by execution** — `git log origin/main..HEAD`, bundle everything ahead of
+3. **Scope to the arc, by execution** — `git log origin/main..HEAD`, bundle everything ahead of
    `main`, not just the triggering commit (`"one PR per session-arc"`, `substrate-access.md`).
-3. **Open mechanically, no second CTA** — the signal already fired; re-asking is the redundant
+4. **Open mechanically, no second CTA** — the signal already fired; re-asking is the redundant
    double-anchoring `SG-4` names one gate over.
-4. **Write a real body** — Summary + Test plan, not a bare PR.
-5. **Do not merge, auto-merge, or request reviewers** — stops at "it exists and is described"
+5. **Write a real body** — Summary + Test plan, not a bare PR.
+6. **Do not merge, auto-merge, or request reviewers** — stops at "it exists and is described"
    (`bond:no-self-ratify`, `bond:no-self-act`).
-6. **Surface it back explicitly — in chat AND logged in the ledger** ("PR #N is up for your gate",
+7. **Surface it back explicitly — in chat AND logged in the ledger** ("PR #N is up for your gate",
    written into `carry-forward.md`, not left implicit in chat only).
-7. **Flag `RESTART-PENDING` implications if the anchor/boot-set is touched** (`bond:rom-ui`).
-8. **Re-check for a PR template each time**, not once per session.
+8. **Flag `RESTART-PENDING` implications if the anchor/boot-set is touched** (`bond:rom-ui`).
+9. **Re-check for a PR template each time**, not once per session.
 
 **Falsification status.** **First real audit (2026-07-03, this session) — the checklist failed
 its own bar before it was ever formalized:** checked against the two PRs (`#69`, `#70`) actually cut
