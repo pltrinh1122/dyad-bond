@@ -2427,3 +2427,10 @@ sharpens the prior reflect's open novel-yield (the wrapper's access-model accoun
 git-layer hook is a more reliable durability guard than an inconsistent classifier. Worth a real look at
 `substrate-access.md`'s access-model claim now that n=2 and the two instances disagree — not corrected here
 (still same-dyad).
+
+## Reflect — the substrate-agnostic fail-loud arc: deleting global configs and elevating d-land to D-P-E-R *(2026-07-04; D3 reflection, CSS+OR/SH form, single-home)*
+
+- **CONTINUE** *(Agent)*: The rigorous application of `bond:substrate-agnostic`. We didn't just strip out offending permissions from the global configs (`~/*.json`); we literally deleted the files to ensure that an unconfigured repository fails loud (prompts the Operator) rather than silently falling back on global state.
+- **START** *(Agent)*: Treating all `d-` triggers (`d-land`, `d-start`, `d-reflect`) as full DISCOVER-PLAN-EXECUTE-REFLECT loops. For `d-land`, this means building an execution DAG and autonomously resolving dependencies (like documentation drift) rather than halting for an unnecessary disposition request.
+- **STOP** *(Agent)*: Halting for a `[CTA]` when a detected discrepancy (e.g., outdated documentation in `substrate-access.md`) is safely resolvable within the Agent's own autonomy boundaries. This was a violation of wu-wei (over-gating) disguised as caution.
+- **SH (Should Hold)**: *"you failed loudly but didn't need my actual disposition."* → `d-land` should autonomously resolve mechanical dependencies (like docs updates) before actual execution, rather than treating discovery of drift as a blocking failure requiring Operator intervention.

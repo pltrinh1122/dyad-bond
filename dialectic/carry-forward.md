@@ -1499,6 +1499,13 @@ Experiment Discipline + G/V-independence`** 2026-06-26. Remedy for constraints 7
 archived there under their original letters `A · C · G · H` (now archive locators, not live IDs); `kb/dfd.md`,
 `substrate-access.md` hold the live homes.)*
 
+## 2026-07-04 (cont.) — d-land D-P-E-R upgrade and global settings deletion
+
+**Arc (Operator `d-land` then `riff:`):** Following up on the portability work, we escalated from merely cleaning `~/.claude/settings.json` and `~/.gemini/antigravity-cli/settings.json` to **deleting them outright**. This strictly enforces `bond:substrate-agnostic` by forcing any repository without a properly single-homed configuration to fail-loud via safe interactive prompts, preventing any silent cross-repo pollution.
+During `d-land`, the Agent detected documentation drift in `substrate-access.md` but halted with an unnecessary disposition request rather than autonomously resolving the mechanical dependency.
+**Operator disposition:** updated `d-land` in `GLOSSARY.md` and the `relationship-craft.md` checklist to mandate **building and reviewing an execution DAG** before execution. This explicitly elevates all `d-` triggers (`d-land`, `d-start`, `d-reflect`) into full **DISCOVER-PLAN-EXECUTE-REFLECT** autonomy loops.
+**Durability:** documentation and checklist updates committed and pushed to PR #85. **Reflect landed** → `relationship-craft.md §Reflect — the substrate-agnostic fail-loud arc` (CSS+OR/SH form).
+
 ## NBA — rendered on demand (no stored block)
 > NBA is a **view, not a section**: the recommendation render over the work-item store `{in-progress ∪ todo}` (→ `dialectic/memory-axes.md`). The prior stored block (with the s5/s6/s7 stand-down summaries) was stripped to the archive — pull the NBA on demand.
 
