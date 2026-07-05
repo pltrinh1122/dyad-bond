@@ -341,7 +341,7 @@ Same shape as `git.sh`, for **outward publishing under the shared `pltrinh1122` 
 comments, DMs, FR responses) — now a recurring friction (the messaging/reviews **standing disposition**).
 - **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed): `pr review` ·
   `pr comment` · `pr create` · `issue comment`. Widening stays the Operator's act.
-- **Grant = `Bash(bin/gh.sh:*)` in `settings.local.json` — Operator-performed.** The classifier
+- **Grant = `Bash(bin/gh.sh:*)` in `settings.json` — Operator-performed (graduated from local).** The classifier
   **hard-denied** the Agent self-granting it (Self-Modification) AND blocked a self-built wrapper as a
   bypass — *the covalent gate as a HARD oracle, dogfooded live* (→ `spaor.md` §transition-guards: hard
   guard = oracle-backed; only the Operator's key opens it). First use: bond's review on Commons PR #44.
