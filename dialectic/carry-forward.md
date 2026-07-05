@@ -64,6 +64,34 @@
 > superseded by this new bind — not the same edit.)*
 > **RESTART-PENDING (GEMINI.md): CLEARED 2026-07-04** — The agy first-operation session cold-booted successfully. `GEMINI.md` booted `DYAD.md` coherently with the overlay. The portable push-guard was verified to materialize on agy.
 
+## 2026-07-04 (cont.) — discipline-based permissioning landed onto #85 (`d-land`)
+
+**RESTART-PENDING: unchanged** — this arc touched no boot-set (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`/
+`GLOSSARY.md` clean); the pre-existing boot-set RESTART-PENDING that #85 already carries is untouched.
+
+**Arc (Operator `d-start`: "resolve dyad-permissioning" → riffs → D-P-A-R `d-land` "as recommended").**
+Opened on unnecessary permission prompts (`standup.sh` pipe broke an exact-match grant; a `$()`-loop tripped
+the command-substitution heuristic). The Operator lifted it from mechanism-grants → **intent** → **discipline-
+based permissioning** (the crisp, verifiable form): each `d-*` discipline = a committed spine script granted
+as one stable `Bash(bin/<spine>.sh:*)`; capability flexes via the reviewed script (expand/contract), not new
+grants; a prompt *during* a discipline is the growth signal; interstitial reads run raw, mutations via the
+narrow wrappers, the merge-gate is never scripted. Single-home → `substrate-access.md §Discipline-based
+permissioning`.
+
+**Landed (commit `c9b1296`, on `claude/portable-push-guard` = PR #85):**
+- `settings.json`: `standup.sh` + `standdown.sh` spine grants; dropped redundant (gitignored)
+  `settings.local.json`. Reverted the interstitial `rev-list`/`pr view` wrapper grants — reads run raw.
+- `git.sh`: expanded the mutation op-set with `commit`/`add` (Operator: use `bin/git.sh`, not raw git).
+- `standdown.sh`: dropped the retired `bin/scratch.sh` checklist item (a d-reflect spine → dead tool).
+- `substrate-access.md`: the two-tier model + flex mechanism (CANDIDATE, not settled).
+
+**Inventory yield (DISCOVER):** `d-start`/`d-reflect` are ~fully spine-covered; **`d-land` has no full
+spine** — its check-rig set (`invariant-eval.py`, `discipline-lint.py`, …) is the largest uncovered surface,
+deferred to fix-on-bite (no d-land rig bit this session). Drift still open: `bin/scratch.sh` present despite
+RETIRED; `standup.sh` `ANCHOR_FILES` omits `GLOSSARY.md`.
+
+**Gate:** PR #85 is up for the Operator's merge — **not merged** (`bond:no-self-ratify`). Durability: pushed.
+
 ## 2026-07-04 (close) — `d-reflect` invoked, portability arc closed
 
 **RESTART-PENDING: unchanged — GEMINI.md still SET** (above); this reflect touches only
