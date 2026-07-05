@@ -77,8 +77,15 @@ branch triage` (STOP = binary-command-fork framing; fix = ask *which layer owns 
 - **3 stale branches reviewed → safe to delete** (all superseded, predate auto-delete → Operator UI-delete):
   `…partnership-craft-item-promotion-yaaewy` (stale ledger note) · `…insights-lessons-storage-gx4sh3` (early
   D7 datum, `B1` matured 373 commits past) · `…exciting-fermat-tswcia` (commission v0.4 → `main` at v0.6).
-- **`git.sh` branch-nav gap (`checkout`/`fetch`)** = the active fix-on-bite bite (bitten twice: branch
-  cleanup + landing this reflect); small Operator-gated arc next.
+- **`git.sh` branch-nav — course-corrected 2026-07-05 (`land: recommendation`).** The universal `git.sh`
+  local-nav widen was proposed **and reverted** (Operator-caught: the recurring *mechanism-widen*). Corrected
+  three-way model (→ `substrate-access.md §Discipline-based permissioning`, Tier-2): reads = raw/auto-approved ·
+  history+remote writes = `bin/git.sh` · **local-nav (`checkout`/`branch`/`reset`/`fetch`) = raw and it
+  PROMPTS** (acceptable guard; some are destructive). Landed via PR: reflection `b767369` + the doc clarification.
+- **`d-land` SPINE — queued fix-on-bite (Operator `todo` 2026-07-05: "d-land requires permission").** `d-land`
+  is a discipline with **no spine**, so its local-nav (sync/re-branch/`reset`) prompts. Fix = a `d-land` spine
+  script encapsulating the landing mechanics (sync→re-branch→commit→push), granted as one unit like
+  `standup.sh`/`standdown.sh` — discipline-scoped, NOT a universal grant. (Same as the deferred d-land verify-spine.)
 - **Local branch state:** still on merged `portable-push-guard`; this reflect's commits ride it for
   durability, pending the sync/re-branch fix — else next `d-start` resyncs to `main`.
 
