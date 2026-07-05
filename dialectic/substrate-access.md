@@ -227,6 +227,57 @@ merge of PR #3; the full-doc-review refinement landed via the PR #4 review.
 
 **Self-limits (what keeps it from collapsing covalence).** *Script the spine, never the gate* — automating merge→`main` would meld the Validate half away. *Reads stay raw* — the mutation/read line is what keeps the wrappers legible. **Falsifier:** if completing a fully-spined discipline still prompts → the spine is incomplete (fold in) or the grant too narrow — both localized, fixable. If you find yourself scripting a *judgment* step to silence a prompt → you've over-reached into the gate; back it out.
 
+### Cross-dyad triangulation — dyad-cairn's git/gh abstraction *(D1, 2026-07-05, CANDIDATE)*
+
+**Fetched for reference** (Operator-directed): `github.com/pltrinh1122/dyad-cairn` @ `f1aa2b5` (shallow
+clone, this session). Cairn is siblinged under the same human (`pltrinh1122`) — cross-*dyad*, not
+cross-*operator*, same caveat as the N=6 slot-fill study (`cross-dyad-craft.md`).
+
+**Convergence (D1 — independently reached, so it's invariant, not particular).** Cairn's `bin/` is
+~25 single-purpose committed scripts — `pr`, `pr-sync`, `commission`, `audit`, `rub`, `mason`,
+`report`, `retro`, `sync-commons`, `sync-state`, `todo`, `poll-mail`, and the same-named
+`d-start`/`d-land`/`d-reflect` triad bond coined (its `bin/d-reflect` literally credits
+*"Adopted from dyad-bond's CSS+OR discipline"* — the borrowing already runs both ways). Each is the
+grantable unit, not the underlying `git`/`gh` call — **the same shape bond converged on
+independently** (this file's two-tier model, `c9b1296`, landed *before* this cross-check). Confirms:
+grant the discipline, not the mechanism.
+
+**A refinement worth taking.** Cairn's `bin/git`/`bin/gh` are near-bare passthroughs (PATH-decoupling
+only) — almost ALL constraint-shape lives in the *named* script instead: `bin/pr` structurally
+refuses `pr create` without an explicit `--title` and enforces a repo-context prefix; `bin/pr-sync`
+blocks synchronously on CI and prints a targeted `[STEERING VECTOR]` hint on failure (conflict-file,
+failing-tests, or generic — diagnosed from the output, not just "checks failed"). Bond's own
+`git.sh`/`gh.sh` still carry a *mechanism-level* policy block (`ALLOWED_OPS`/`PROTECTED_BRANCHES`)
+UNDERNEATH the per-discipline layer — keep that (see next §, cairn's own gap is why); but the
+**pattern of pushing structural guards into the named script itself** (not just an op-allowlist) is a
+refinement bond's own `DIRECTION-MANIFEST` discipline could borrow if it ever wants to be
+tool-enforced rather than documentation-only.
+
+**The load-bearing divergence — named, not imitated.** Cairn's `bin/gh` special-cases `pr merge` to
+call the GitHub API directly (no confirmation), and its FSM's `trail_dispose()` invokes
+`bin/gh pr merge --merge --delete-branch` autonomously as part of closing a work-trail. Its
+`bin/agy` wrapper unconditionally appends `--dangerously-skip-permissions` to its own agent CLI —
+by their own ledger (`DYAD_LEDGER.md`, 2026-07-05, "Establishing Sovereign Authority" retro), this is
+a **considered trade-off, not an oversight**: cairn substitutes its SPAO/FSM test-and-audit gates
+("our native, mathematically sound HTIL gating mechanism") for the harness's human-confirmation
+prompt, specifically to unblock headless subagents merging autonomously. **Do not adopt this.** It is
+exactly the shape `bond:C1` was forged against (the `dyad-loom` rubber-stamp precedent, DYAD.md
+§craft-value) — for bond, the human's merge-click IS the load-bearing act (the relationship-craft is
+reflexive: the telos predicates the relationship itself, not throughput under a deterministic gate),
+so no test suite can stand in for it. This is not "cairn got it wrong" — a different `craft_value`
+(cairn's: verified-throughput under deterministic FSM guardrails; bond's: covalence, `bond:C1`)
+correctly licenses a different permissioning architecture; log it as a live cross-dyad
+counter-instance for `bond:C1` to keep the value honest, not as a design to mirror. Bond's spines
+(below, and `git.sh`/`gh.sh`) commit and push exactly like cairn's do — they just never merge.
+
+**Closes the queued "d-land SPINE" item (below):** `bin/land.sh` ships this session — sync/re-branch
+detection + commit + push, delegating to `bin/git.sh` for the push policy (single-home, not
+re-implemented) — informed by cairn's `bin/d-land` (a lightweight arc-checkpoint distinct from a full
+retro, the same split bond already draws between a pin and a landing) but native bash, not
+cargo-culted as Python/FSM — different tool for a different craft. **Grant is NOT self-added** —
+`Bash(bin/land.sh:*)` in `settings.json` stays the Operator's act, same as `standup.sh`/`standdown.sh`
+before it.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**
