@@ -21,7 +21,7 @@
 #         bin/git.sh pull                        # ff-only refresh of current branch + submodules
 #
 # ── DECLARED ACCESS POLICY (Operator-governed; edit THIS block to widen/narrow) ───────────
-ALLOWED_OPS=(push pull)                         # ops the Agent may invoke; all else refused
+ALLOWED_OPS=(push pull commit add)              # ops the Agent may invoke; all else refused
 PROTECTED_BRANCHES=(main)                       # branches on which rewriting flags are refused
 FORCE_FLAGS=(--force -f --force-with-lease)     # flags treated as history-rewriting
 # ──────────────────────────────────────────────────────────────────────────────────────────
@@ -91,6 +91,11 @@ case "$op" in
     fi
     printf 'git.sh: PARTIAL — %s advanced %s→%s but submodules NOT synced:\n%s\n  → clean the submodule work tree, then: git submodule update --init  (do NOT re-pull; super already moved)\n' "$branch" "${before:0:7}" "${after:0:7}" "$subs_out" >&2
     exit 2
+    ;;
+  add|commit)
+    # local mutation (staging / commit) — no main-irreversibility here (that is guarded at push).
+    # Passthrough so the wrapper is the single git path for mutations (Operator: use bin/git.sh, not raw git).
+    run "$op" "$@"
     ;;
   *)
     die "no handler for op '$op' (unreachable; ALLOWED_OPS gate)"

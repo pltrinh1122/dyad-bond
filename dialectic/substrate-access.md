@@ -206,6 +206,22 @@ So the full-doc-review posture and the graduation discipline are **one coupled m
 **Status:** candidate in `dialectic/`, **NOT settled** — first Operator-half falsification was the dogfooded
 merge of PR #3; the full-doc-review refinement landed via the PR #4 review.
 
+## Discipline-based permissioning — the two-tier model + the flex mechanism *(CANDIDATE · Operator `d-land` 2026-07-04)*
+
+**The problem it solves.** Point-grants accrete by *mechanism* with no principle deciding the set (this arc: `pr view`, `rev-list` added one-at-a-time on friction, each justified by a fuzzy "route through the wrapper for agy" that didn't survive inspection — they're reads, which already run raw un-prompted). Intent-based permissioning is the right frame but "intent" is not a *verifiable* predicate. **A discipline is intent with a closed step-list** — so binding the grant to the discipline keeps the *why* and gives a bounded, eyeball-checkable *extent*.
+
+**Two tiers, by whether the op lives inside a named discipline:**
+- **Tier-1 · disciplines.** Each `d-*` discipline = a **committed spine script**, granted as **one stable** `Bash(bin/<spine>.sh:*)`. `d-start`→`standup.sh`, `d-reflect`→`standdown.sh` (both self-contained reads → fully covered). `d-land` has **no full spine** — it interleaves mechanical ops with irreducible judgment (DAG-resolution, PR body) and **the covalent gate** (merge, which must NEVER be scripted). Its grantable slice is a *verify-spine* (the read-only check-rigs); its commit/push/PR-create ride the narrow wrappers; its merge stays the Operator's.
+- **Tier-2 · interstitial default** (anything outside a discipline — ad-hoc exploration): **reads run raw, un-prompted, both substrates**; **mutations via the narrow wrappers** — `git.sh` carries the git *mutation* op-set (`push`/`pull`/`commit`/`add`; use `bin/git.sh`, never raw git, for these), `gh.sh` the outward-publish set; **compound bash prompts** (the friction-gradient, which doubles as the nudge to make a recurring op a committed script). Wrappers stay **narrow-mutation-only** — reads are never routed through them (they buy nothing on Claude and dilute the choke-point's legibility; agy's hard-rule already scopes to *mutations*).
+
+**The flex mechanism (expand/contract — we do NOT pre-enumerate).** The grant is fixed; **capability flexes through the spine script**, gated by the Operator's review of the script edit (the wrapper/spine policy is the Operator's act, never an Agent self-grant):
+- **Expand:** a discipline grows an op → add it *inside the spine script*. **No new grant.** Visible in the diff, bounded (runs in a reviewed script, not ad-hoc bash).
+- **Contract:** remove the op from the spine.
+- **New discipline** → new spine + one grant. *The only grant-adding event.*
+- **The growth signal:** a prompt *during* a discipline names the exact op that outgrew its spine → **fold it in, or confirm it's interstitial** (Tier-2). The bite maps where a discipline needs to grow — `gh.sh`-pattern, fix-on-bite, not pre-emptive coverage.
+
+**Self-limits (what keeps it from collapsing covalence).** *Script the spine, never the gate* — automating merge→`main` would meld the Validate half away. *Reads stay raw* — the mutation/read line is what keeps the wrappers legible. **Falsifier:** if completing a fully-spined discipline still prompts → the spine is incomplete (fold in) or the grant too narrow — both localized, fixable. If you find yourself scripting a *judgment* step to silence a prompt → you've over-reached into the gate; back it out.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**
