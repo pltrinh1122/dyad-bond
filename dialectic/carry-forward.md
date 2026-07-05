@@ -64,6 +64,24 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## 2026-07-05 (close) — `d-reflect`: post-#85 cleanup + branch triage (light)
+
+**#85 MERGED** (`da458038`, Operator) — the discipline-permissioning arc is now canonical in `main`.
+**Auto-delete-on-merge ENABLED** (Operator) → future PR branches self-clean at the git-host layer;
+dissolves the wrapper-vs-raw branch-delete fork (a **platform-layer** resolution — 2nd instance after
+`.githooks`; see the reflect).
+**Reflect** → `relationship-craft.md §Reflect — post-#85 cleanup: the platform-layer resolution + read-only
+branch triage` (STOP = binary-command-fork framing; fix = ask *which layer owns this*).
+
+**Deferrals opened:**
+- **3 stale branches reviewed → safe to delete** (all superseded, predate auto-delete → Operator UI-delete):
+  `…partnership-craft-item-promotion-yaaewy` (stale ledger note) · `…insights-lessons-storage-gx4sh3` (early
+  D7 datum, `B1` matured 373 commits past) · `…exciting-fermat-tswcia` (commission v0.4 → `main` at v0.6).
+- **`git.sh` branch-nav gap (`checkout`/`fetch`)** = the active fix-on-bite bite (bitten twice: branch
+  cleanup + landing this reflect); small Operator-gated arc next.
+- **Local branch state:** still on merged `portable-push-guard`; this reflect's commits ride it for
+  durability, pending the sync/re-branch fix — else next `d-start` resyncs to `main`.
+
 ## 2026-07-04 (close) — `d-reflect`: discipline-permissioning arc reflected + ROM refreshed
 
 **Reflect landed** → `relationship-craft.md §Reflect — discipline-based permissioning: the mechanism-clerking
