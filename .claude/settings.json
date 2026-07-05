@@ -7,5 +7,7 @@
     "deny": [
       "Bash(git push*)"
     ]
-  }
+  },
+  "defaultMode": "auto",
+  "skipAutoPermissionPrompt": true
 }
