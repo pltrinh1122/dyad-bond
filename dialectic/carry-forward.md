@@ -64,6 +64,30 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## Stand-Down 2026-07-06 (e) — `d-reflect`: gate #17 CAS-conformance arc closed
+
+**RESTART-PENDING: none** — no anchor/shim edits this session. ROM boot-set unchanged
+(`DYAD.md@a47a65d`, mechanical-confirmed by `standdown.sh`). Session edits: the **external**
+`commission-dyad-system` `REQUIREMENTS.md` (via PR #8, merged); the memory system; `relationship-craft.md`
++ this ledger. *(The pre-existing `RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot is untouched.)*
+
+**Reflect landed** → `relationship-craft.md §Reflect — CAS-conformance of the Request: the
+too-literal-conformance STOP` (CSS+SH). Headline **STOP = verified the transformation, not the content** —
+a false "binary" (3-element set) and an annex-shaped skeleton rode through a clean *delta* audit because
+they were in the **carried** content, not the diff; **F-4/no-drift checks the changed, not the preserved.**
+**SH** (verbatim): *"'binary' appears to be inaccurate"* · *"why not adopt headings that support 'component'
+organizations?"* — a conform/fix task carries a whole-artifact truth-reading obligation. Cross-arc link
+noted: same root as (d)'s STOP — a claim riding without falsification (watch for n=3).
+
+**Resume delta:** gate **#17 CLOSED** (`dyad-leo-fleet#17`); `REQUIREMENTS.md` is CAS-conformant +
+component-topology on `commission-dyad-system` **main @ `e3448b3`**. **Nothing bond-outstanding on the arc.**
+Successor **#11 → cairn**: re-mirror `SPECIFICATION.md` against `e3448b3` (new §3/§4 component structure,
+moved anchors) + fix SPEC's own `title`≠`H1`; unblocks the held **PR #5**. New memory: `published-artifact-minimalism`.
+Queued-by-name (not fired): **(1)** the cross-repo push used `git.sh` by **abs-path against the commission
+repo** (feature-branch only, policy applied) — the Operator flagged whether that cross-repo path should get
+its **own declared choke-point** (their act); **(2)** the `git.sh` local branch-nav gap persists (this
+reflection again lands on `claude/git-sh-branch-nav`).
+
 ## Stand-Down 2026-07-06 (d) — `d-reflect`: dyad-rt adopt arc closed
 
 **RESTART-PENDING: none** — no anchor/shim edits this session (edits: `.githooks/pre-push`, `bin/claude`,

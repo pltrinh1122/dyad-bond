@@ -29,7 +29,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 LEDGER="dialectic/carry-forward.md"
-ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md)
+ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md GLOSSARY.md)
 
 lines=()
 add() { lines+=("$1"); }
@@ -65,7 +65,7 @@ else
     add "          then notify the Operator + refresh the per-file boot-set line in $LEDGER."
   else
     base="${want[DYAD.md]:-$legacy}"
-    add "ROM-UI: ✓ MATCH (boot-set {DYAD.md, CLAUDE.md, GEMINI.md} each at its recorded per-file sha; DYAD.md@${base:0:7})."
+    add "ROM-UI: ✓ MATCH (boot-set {DYAD.md, CLAUDE.md, GEMINI.md, GLOSSARY.md} each at its recorded per-file sha; DYAD.md@${base:0:7})."
   fi
 fi
 
