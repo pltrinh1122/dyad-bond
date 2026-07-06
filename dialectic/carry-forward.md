@@ -52,17 +52,21 @@
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — unchanged; **booted coherent this session** from `CLAUDE.md@8f2473c`. Boot-set files `GEMINI.md@178324c` + `GLOSSARY.md@1ce9828` moved in prior #85 commits; deltas **verified-by-diff = the logged changes, nothing else** (GEMINI: agy mutation-hard-rule injection; GLOSSARY: `d-land` DAG update).
 > *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04 `d-reflect`):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@1ce9828`.
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-06 `d-land`, GLOSSARY):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@2eb9986`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
-> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
-> include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
-> flagging the script/ledger gap, not unilaterally widening the script.)*
+> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` now includes
+> `GLOSSARY.md` — the script/ledger gap was closed in the 2026-07-06 fix-on-bite drain (PR #88, merged),
+> so the mechanized check compares all four boot-set files.)*
 > **RESTART-PENDING (CLAUDE.md): CLEARED 2026-07-04 `d-reflect`** — booted from `CLAUDE.md@8f2473c` this
 > session; parses/boots coherently with the corrected `Substrate-access` line; sha refreshed above.
 > **RESTART-PENDING (GEMINI.md@178324c): SET** — the agy mutation-hard-rule delta has NOT been agy-cold-
 > booted (the prior CLEARED note was for `9164a0d`, now superseded). **Binds next agy boot:** confirm
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
+> **RESTART-PENDING (GLOSSARY.md@2eb9986): SET 2026-07-06 `d-land`** — the `§act` d-land entry gained the
+> `bin/land.sh` spine line + the symmetry line extended to `:: d-land : land.sh` (this session, rides the
+> land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
+> `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
 
 ## Stand-Down 2026-07-06 (e) — `d-reflect`: gate #17 CAS-conformance arc closed
 
