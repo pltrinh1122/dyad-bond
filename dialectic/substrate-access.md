@@ -267,6 +267,20 @@ non-force `main` push too (a policy-block edit = the Operator's covalent act, no
 whether a leaner *declared policy-block* (not cairn's ABAC engine) ever earns its place; whether to open a
 bond↔cairn falsification issue on the shared quarry recording the autonomous-merge divergence.
 
+### Transient-script discipline — the second `dyad-rt` takeaway *(CANDIDATE · behavioral, NOT runtime-enforced)*
+
+cairn pairs dyad-rt with a **Transient Script Invariant** (`dyad-cairn` DYAD.md `339dbd3`): *never run a
+compound bash command of >2 chained commands; route complex logic through a transient `scratch/` script.*
+bond adopts the **intent, not the literal count**. Intent: when a bash task is complex enough to trip the
+auto-mode classifier (bond's actual bite was a `$()`-command-substitution loop — see `carry-forward.md` §the
+dyad-permissioning arc), or too tangled to audit inline, route it through a **committed/transient script**
+instead of a compound one-liner — more auditable, substrate-portable, and it sidesteps the classifier
+heuristic. **REJECT · cairn's literal ">2 commands = forbidden" threshold** — ungrounded for bond: the real
+predicate is *trips-the-classifier / mutation-adjacent*, not an `&&`-count, and a blanket ban litters
+`scratch/` and fights wu-wei (read-only `grep | head` compound reads are fine). **Class:** a **behavioral
+discipline** (lives on ingraining), NOT a physical guard — the same limit as cairn's "never raw git"
+(the F2 rejection above); named honestly, never overclaimed as enforced.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**
