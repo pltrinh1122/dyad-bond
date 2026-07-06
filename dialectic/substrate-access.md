@@ -227,6 +227,46 @@ merge of PR #3; the full-doc-review refinement landed via the PR #4 review.
 
 **Self-limits (what keeps it from collapsing covalence).** *Script the spine, never the gate* — automating merge→`main` would meld the Validate half away. *Reads stay raw* — the mutation/read line is what keeps the wrappers legible. **Falsifier:** if completing a fully-spined discipline still prompts → the spine is incomplete (fold in) or the grant too narrow — both localized, fixable. If you find yourself scripting a *judgment* step to silence a prompt → you've over-reached into the gate; back it out.
 
+## Dyad-runtime permissioning — the `dyad-rt` adopt *(CANDIDATE · n=1 · Operator-ratified 2026-07-06, cross-dyad)*
+
+**Provenance (external input, falsified before adopt — `bond:no-self-ratify`).** cairn's **`dyad-rt`**: a
+Dyad-owned permission *runtime* — physical `./bin/git|gh` wrappers → a `sandbox_enforcer.py` ABAC policy
+engine (scope + branch + quarry-`README.md` ownership) → the native agent run with
+`--dangerously-skip-permissions` so the runtime is the *sole* gate. Reviewed at `dyad-cairn@405ede6`; not
+rubber-stamped. cairn is the Mason/Architect — its NON-NEGOTIABLE set differs from bond's, so the review
+extracted the transferable invariant and left cairn's frame at the boundary (`bond:two-models`, no meld).
+
+**The invariant bond adopts — *the Dyad runtime, not the native substrate, owns permissioning*.** A
+permission that only exists in `.claude/settings.json` / the Claude classifier is **substrate-captive**: no
+`agy`/Gemini analog, so it silently fails-open off-Claude (the retired SessionStart hook, the whole
+portable-push-guard arc are this bug). Adopting dyad-rt's principle: load-bearing permissions live in a
+**portable Dyad runtime** — committed scripts + git-layer hooks that behave identically on every substrate —
+never delegated to the native agent's permission system. This *completes* the two-tier model's direction
+(the wrappers were already Dyad-owned; the grants behind them were not).
+
+**What survived falsification / what bond REJECTS** (the abstraction is separable from cairn's policy):
+- **REJECT · scripted autonomous-merge.** dyad-rt's `./bin/gh pr merge` scripts the merge, and cairn's frame
+  authorizes autonomous Green-PR merge on CI-pass. bond's `bond:C1`/`bond:no-self-ratify` forbid it —
+  *script the spine, never the gate*. The merge stays the Operator's, server-side. (This is the `dyad-loom`
+  ionic breach that forged the discipline; importing dyad-rt's policy would re-import it.)
+- **REJECT · `--dangerously-skip-permissions` as the sole gate.** dyad-rt's enforcer fires only on ops routed
+  through `./bin/*`; a forgotten wrapper or a raw `git`/`rm` bypasses it with the native net off. bond KEEPS
+  the native gate as a **backstop** and pushes enforcement to the **git layer** (`.githooks`), which fires
+  even on raw `git push` — a *physical* guarantee, not an LLM-behavioral "remember the wrapper."
+- **REJECT · the ABAC enforcer code itself.** It `return True`s inside the dyad's own repo and (at push, with
+  nothing staged) skips the ownership check — it only bites *external multi-party quarries*, cairn's topology.
+  On bond's single-repo life it is a near-no-op. bond takes the *pattern*, not the file.
+- **ADOPT · git-layer enforcement of no-direct-push-`main`.** The concrete landing: `.githooks/pre-push` now
+  refuses *any* direct push to `main` (was: only force/delete), moving that permission off the native
+  substrate into git itself. → `.githooks/pre-push` header (`WIDENED 2026-07-06`).
+
+**Status — CANDIDATE, n=1** (one cross-dyad adopt; one concrete git-layer instance). NOT kb-graduated — the
+open falsifier is *does the git-layer guarantee actually hold on a live `agy` push?* (re-test on the next
+substrate-permission bite). **Queued-by-name, not fired:** tighten `bin/git.sh`'s `push` case to refuse a
+non-force `main` push too (a policy-block edit = the Operator's covalent act, not folded here unilaterally);
+whether a leaner *declared policy-block* (not cairn's ABAC engine) ever earns its place; whether to open a
+bond↔cairn falsification issue on the shared quarry recording the autonomous-merge divergence.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**
