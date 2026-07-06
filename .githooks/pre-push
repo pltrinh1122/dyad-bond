@@ -9,11 +9,20 @@
 #   clause-2 (fail loud, never counterfeit-green). This hook moves the load-bearing guard OUT of per-harness
 #   config and INTO git itself: it fires on EVERY `git push` on ANY substrate, raw or wrapped.
 #
-# WHAT IT GUARDS (the memory-durability core, mirroring bin/git.sh): it REFUSES history-rewriting —
-#   a non-fast-forward (force) push, or a deletion — of a PROTECTED branch (main). Normal feature-branch
-#   pushes (incl. force-with-lease to a feature branch), and fast-forwards, PASS untouched. It does NOT
-#   enforce "must go through bin/git.sh" or "never push main at all" (that stays the PR discipline +,
-#   on Claude, the classifier) — it enforces the actually-irreversible class, portably.
+# WHAT IT GUARDS: it REFUSES *any direct push to a PROTECTED branch* (main) — force, non-fast-forward,
+#   plain fast-forward, or deletion alike. `main` lands ONLY via branch→PR→Operator-merge (server-side);
+#   the Agent never legitimately pushes main from a local clone, on ANY substrate. Normal feature-branch
+#   pushes (incl. force-with-lease to a feature branch) PASS untouched. It does NOT enforce "must go
+#   through bin/git.sh" — that stays the PR discipline + (on Claude) the classifier.
+#
+# WIDENED 2026-07-06 (dyad-rt principle adopt, Operator-ratified): previously this guarded only the
+#   irreversible class (force/delete of main) and DELEGATED "never push main at all" to the native
+#   substrate (Claude classifier / settings.json — absent on agy, so it failed OPEN there). Adopting
+#   cairn's `dyad-rt` invariant — *the Dyad runtime, not the native substrate, owns permissioning* — that
+#   whole guarantee now lives HERE, portably (fires on agy + raw `git push` too). REJECTED from dyad-rt:
+#   its `--dangerously-skip-permissions` (the native gate stays as a backstop) + its scripted autonomous
+#   merge (bond:no-self-ratify — the merge gate is NEVER scripted). → dialectic/substrate-access.md
+#   §Dyad-runtime permissioning.
 #
 # CAVEAT (honest, not hidden): `git push --no-verify` bypasses this hook. That is a DELIBERATE, VISIBLE
 #   act (fail-loud, not silent) — the opposite of the silent config-absence this replaces. Acceptable.
@@ -39,15 +48,20 @@ while read -r local_ref local_sha remote_ref remote_sha; do
     exit 1
   fi
 
-  # Non-fast-forward (force) to a protected branch: remote tip is not an ancestor of what we push.
-  if [[ "$remote_sha" != "$Z40" ]]; then
-    if ! git merge-base --is-ancestor "$remote_sha" "$local_sha" 2>/dev/null; then
-      printf 'pre-push: REFUSED — non-fast-forward (force) push to protected branch %s.\n' \
-        "$remote_ref" >&2
-      printf '          main history is append-only here; land via PR, never rewrite. (--no-verify bypasses, visibly.)\n' >&2
-      exit 1
-    fi
+  # ANY direct push to a protected branch is refused (dyad-rt adopt) — not only force/delete. `main`
+  # lands via branch→PR→Operator-merge (server-side); a local push to main is never legitimate here.
+  # Force / non-fast-forward are a strict subset, folded into the message below (their old dedicated
+  # branch is subsumed). This is the load-bearing move: the no-direct-push-main permission now lives in
+  # git, portable across substrates, instead of being delegated to the (Claude-only) native gate.
+  if git merge-base --is-ancestor "$remote_sha" "$local_sha" 2>/dev/null; then
+    kind='(fast-forward)'
+  else
+    kind='(NON-fast-forward / force)'
   fi
+  printf 'pre-push: REFUSED — direct push to protected branch %s %s.\n' "$remote_ref" "$kind" >&2
+  printf '          %s lands via PR, never a local push; the Operator merges server-side. (--no-verify bypasses, visibly.)\n' \
+    "${remote_ref#refs/heads/}" >&2
+  exit 1
 done
 
 exit 0
