@@ -64,6 +64,26 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## Stand-Down 2026-07-06 (d) — `d-reflect`: dyad-rt adopt arc closed
+
+**RESTART-PENDING: none** — no anchor/shim edits this session (edits: `.githooks/pre-push`, `bin/claude`,
+`dialectic/substrate-access.md`, `dialectic/relationship-craft.md`, this ledger). ROM boot-set unchanged
+(`DYAD.md@a47a65d`). *(The pre-existing `RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot is untouched.)*
+
+**Reflect landed** → `relationship-craft.md §Reflect — the dyad-rt adopt: falsify-decompose an external
+runtime; the grounded-on-actual STOP` (CSS+SH). Headline **STOP = smoothing the mortar on my OWN substrate
+claims** — asserted claude-bypass "non-self-grantable" as *general* when it's cloud-only; fix = primary-source
++ actual-config over a subagent's doc-paraphrase. **SH** (verbatim): *"synthesize findings, ensuring those are
+grounded on actual"* — grounding is a precondition of synthesis, not an Operator-prompted repair.
+
+**Resume delta:** the dyad-rt arc rides **PR #87** (this session added 6 commits — the dyad-rt principle +
+git-layer hook, transient-script discipline, naming decision, bypass operating-mode, `bin/claude`, its
+exec-bit fix; the PR carries the branch's full ~31-commit delta to `main`). **Up for the Operator's merge; nothing
+bond-outstanding on the arc.** **NEXT BOOT = `bypassPermissions`** — see Stand-Down (c)'s loud flag + launch via
+`bin/claude`. Queued-by-name (not fired): `bin/gh.sh` exec-bit fix (same `update-index --chmod=+x`); drop the
+inert `defaultMode:auto` + `skipAutoPermissionPrompt` from `.claude/settings.json`; the `git.sh` local-nav gap
+(prior sessions).
+
 ## Stand-Down 2026-07-06 (c) — `d-land`: `bypassPermissions` from next boot (Operator-elected)
 
 > **⚠ NEXT-BOOT OPERATING MODE = `bypassPermissions` (native permission gate OFF).** The next `claude`
