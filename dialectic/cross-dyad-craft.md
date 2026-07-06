@@ -432,7 +432,29 @@ hits a contradiction only bond can resolve semantically?"* — was **tested**: c
 atomicity, a semantic-intent call only the Truth-owner can make) and **the boundary HELD** — cairn
 surfaced it and delegated the semantic clarification to bond rather than deciding unilaterally; bond
 disposed; both models stayed live. The Truth/Map/Vehicle split survives its first real contradiction.
-**New live front:** bond develops Model-B `REQUIREMENTS.md` to full engine scope (extractor folds in as a
-component); cairn (Architect) proposes the extractor→dyad-system fold + `commission-invariant-engine`
-retirement; topology ratified (#10) but its **retroactive-vs-prospective** boundary (built code stays
-two-party; growth is three-party) is the new thing to watch.
+**Live front (updated 2026-07-06 (b)):** the Philosopher increment is **delivered** — bond authored
+`REQUIREMENTS.md` §6 (extraction component) on the quarry, Operator-merged (re-pin `6c3fc6d`);
+`commission-invariant-engine`'s placeholder is subsumed. **Ball is cairn's (#11):** revise the
+extractor-integration SPECIFICATION (PR #5) against §6. The topology's **retroactive-vs-prospective**
+boundary (built code stays two-party; growth is three-party) still holds — the standing thing to watch.
+
+**Two commission-craft findings from the §6 authoring (a d-start falsification of a *directed* gate):**
+- **Template-fill twins share a skeleton, not a contract → re-namespace their acceptance atoms on merge.**
+  dyad-system's factory F-set and the extractor's F-set were both template-fills of the same six-section
+  commission skeleton, so both carry an `F-1..F-8` — *numerically colliding, semantically different*
+  (factory `F-8.1` = orphan-*grounding*; extractor `F-8.1` = orphan-*tag*). Folding "the extractor's
+  F-1..F-8" in verbatim (as the gate proposed) would put two contracts under one label. Fix: namespace the
+  folded set (`F-X-*`) + a §0 guard. **Transferable:** a commission template-filled from a prior one does
+  NOT inherit globally-unique labels — re-namespace on fold. (Instance: `commission-dyad-system`
+  REQUIREMENTS §0/§6.)
+- **"Already validated / F-green" is scoped to the architecture it was validated against.** The extractor
+  was F-green for a *single-sidecar* read; dyad-system needs a *two-corpus union-view* — new, unvalidated
+  behavior. A directed "just fold in the validated atoms" would have stamped green on un-built behavior.
+  Fix: carried-over atoms `green`/re-run-required, union-view atoms `new`; the built artifact enters as
+  **de-risking learning, not obligation** (the Operator's scope-(a) framing). **Transferable:** a green
+  attestation travels with its *architecture*, not with the *requirement* — re-scope it on any material
+  design change.
+
+*(Both are why **`d-start` falsify-before-execute holds even for *directed* work**: the direction was
+bond's own #10 disposition, yet falsifying it before authoring surfaced two corrections the disposition
+hadn't seen. Falsification is not only for others' claims — it is for one's own directed next-step.)*

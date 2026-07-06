@@ -64,6 +64,16 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## Stand-Down 2026-07-06 (b) — `d-reflect`: gate #12 delivered (§6 extraction requirements), #11 routed
+
+**RESTART-PENDING: none** — anchor/shims untouched (edits: `bin/gh.sh` v0.2, `substrate-access.md`, `cross-dyad-craft.md`, this ledger; §6 authoring was on the `commission-dyad-system` quarry via `bin/quarry.sh`). ROM boot-set unchanged (`DYAD.md@a47a65d`).
+
+**Arc (d-start: falsify-before-execute; hand-carried via dyad-leo #12).** Falsified all 5 of the gate's claims (all CONFIRMED) + verified #12 is bond's *own* #10 disposition routed back, not Leo over-reach. Falsification surfaced two model-level corrections the disposition hadn't seen → single-homed in `cross-dyad-craft.md` (the F-namespace collision + the F-green-is-architecture-scoped findings). Operator disposed scope-**(a)** ("unbuilt engine ⇒ take the extraction *learning* without the obligation to reuse"). Authored `REQUIREMENTS.md` **§6** (extraction component: RX1–5, `F-X-*` acceptance set, Gate-0) on the quarry → PR #6, Operator-merged (re-pin `6c3fc6d`); `commission-invariant-engine` placeholder subsumed. Closed #12; routed #11 to cairn on PR #5.
+
+**Live front (resume delta) — supersedes the (close) entry's "owed §6":** the Philosopher increment is **discharged**. **Ball is cairn's (#11):** revise PR #5's extractor-integration SPECIFICATION against §6 (adopt `F-X-*`; Unified View Adapter = `new`/unvalidated; rebase the PR-#4 conflict) → then the Operator's gate. Bond has nothing outstanding on the arc. `commission-engine-model` memory still current.
+
+**Substrate delta:** `bin/gh.sh` grew twice on genuine bites (a zero-publish **READ** class, then `issue close`), both Operator-directed, kept as distinct classes so the write-gate stays legible — live confirmation of the `discipline-based-permissioning` flex-mechanism (fold-on-bite via the reviewed policy block; single-home `substrate-access.md §gh.sh`). New feedback-memory `substrate-wrapper-over-allowlist`.
+
 ## 2026-07-06 (close) — `d-reflect`: fleet-orchestration falsification + 5 bond-gate dispositions + engine-model/topology ratified
 
 **RESTART-PENDING: none** — anchor `DYAD.md`/shims untouched this session (edits: `dialectic/cross-dyad-craft.md` + this ledger; all fleet/commission work was on sibling repos via `gh`). ROM per-file boot-set unchanged (`DYAD.md@a47a65d`).
