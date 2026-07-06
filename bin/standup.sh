@@ -72,9 +72,14 @@ fi
 # ── Memory-durability (uncommitted/unpushed = ungrounded memory; the standing substrate threat) ─
 dirty="$(git status --porcelain 2>/dev/null || true)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
-unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
+# rev-list --count (no pipe) can't double-emit under pipefail; missing upstream (remote branch
+# auto-deleted post-merge) is distinguished from a genuine 0-unpushed rather than shown as a bogus ⚠.
+if git rev-parse --abbrev-ref '@{u}' >/dev/null 2>&1; then upstream_ok=1
+  unpushed="$(git rev-list --count '@{u}..HEAD' 2>/dev/null || echo 0)"; else upstream_ok=0; fi
 if [[ -n "$dirty" ]]; then
   add "Durability: ⚠ working tree DIRTY on \`$branch\` ($(printf '%s\n' "$dirty" | wc -l | tr -d ' ') paths) — commit before relying on the ledger as memory."
+elif [[ "$upstream_ok" == "0" ]]; then
+  add "Durability: ⚠ no upstream for \`$branch\` (remote branch auto-deleted post-merge, or never pushed) — push (bin/git.sh) to back up the memory + re-establish tracking."
 elif [[ "$unpushed" != "0" ]]; then
   add "Durability: ⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh) so the remote backs up the memory."
 else

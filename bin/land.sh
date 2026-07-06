@@ -75,10 +75,15 @@ fi
 lines=(); add() { lines+=("$1"); }
 
 # 1. Durability (uncommitted / unpushed = ungrounded memory) — agent commits/pushes via git.sh.
+# rev-list --count is a single command (no pipe) so `|| echo` can't double-emit under pipefail; and a
+# missing upstream (remote branch auto-deleted post-merge) is distinguished from a genuine 0-unpushed.
 dirty="$(git status --porcelain 2>/dev/null || true)"
-unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
+if git rev-parse --abbrev-ref '@{u}' >/dev/null 2>&1; then upstream_ok=1
+  unpushed="$(git rev-list --count '@{u}..HEAD' 2>/dev/null || echo 0)"; else upstream_ok=0; fi
 if [[ -n "$dirty" ]]; then
   add "Durability: ⚠ DIRTY on \`$branch\` ($(printf '%s\n' "$dirty" | wc -l | tr -d ' ') paths) — commit via bin/git.sh before landing (a landing off an uncommitted tree drops work)."
+elif [[ "$upstream_ok" == "0" ]]; then
+  add "Durability: ⚠ no upstream for \`$branch\` (remote branch auto-deleted post-merge, or never pushed) — push via bin/git.sh to back it up + re-establish tracking."
 elif [[ "$unpushed" != "0" ]]; then
   add "Durability: ⚠ $unpushed unpushed commit(s) on \`$branch\` — push via bin/git.sh."
 else

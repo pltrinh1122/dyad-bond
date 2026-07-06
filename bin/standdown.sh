@@ -64,10 +64,14 @@ fi
 
 dirty="$(git status --porcelain 2>/dev/null || true)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
-unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
+# rev-list --count (no pipe) can't double-emit under pipefail; missing upstream (remote branch
+# auto-deleted post-merge) is distinguished from a genuine 0-unpushed rather than shown as a bogus ⚠.
+if git rev-parse --abbrev-ref '@{u}' >/dev/null 2>&1; then upstream_ok=1
+  unpushed="$(git rev-list --count '@{u}..HEAD' 2>/dev/null || echo 0)"; else upstream_ok=0; fi
 dur_line="clean + in sync on \`$branch\`."
 [[ -n "$dirty" ]] && dur_line="⚠ DIRTY on \`$branch\` — commit + push so the memory is grounded."
-[[ -z "$dirty" && "$unpushed" != "0" ]] && dur_line="⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh)."
+[[ -z "$dirty" && "$upstream_ok" == "0" ]] && dur_line="⚠ no upstream on \`$branch\` (auto-deleted post-merge, or never pushed) — push (bin/git.sh) to back up + re-establish tracking."
+[[ -z "$dirty" && "$upstream_ok" == "1" && "$unpushed" != "0" ]] && dur_line="⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh)."
 
 # Scratch tier RETIRED 2026-06-27 (Operator fold+land) — durability-of-record is the Agent-owned WIP
 # auto-save (commit+push at natural pauses), Stop-hook-enforced. → dialectic/substrate-access.md §Scratch RETIRED.
