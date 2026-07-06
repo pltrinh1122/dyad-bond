@@ -36,6 +36,7 @@ ALLOWED_PUBLISH_OPS=(                           # first TWO tokens of an allowed
   "pr create"
   "issue comment"
   "issue create"
+  "issue close"
 )
 # READ — zero-publish introspection; the gh counterpart to git content-reads (log/diff/show),
 #   which the classifier already auto-approves. gh reads are NOT auto-approved (they prompt),

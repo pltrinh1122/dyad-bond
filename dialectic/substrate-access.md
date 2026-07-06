@@ -362,7 +362,7 @@ Same shape as `git.sh`, for **outward publishing under the shared `pltrinh1122` 
 comments, DMs, FR responses) — now a recurring friction (the messaging/reviews **standing disposition**).
 - **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed), **two classes
   since v0.2** (the wrapper is the authoritative op-list; this only points): a **PUBLISH** set (`pr
-  review` · `pr comment` · `pr create` · `issue comment` · `issue create`) and a separate **zero-publish
+  review` · `pr comment` · `pr create` · `issue comment` · `issue create` · `issue close`) and a separate **zero-publish
   READ** class (`pr view` · `pr diff` · `pr list` · `pr checks` · `issue view` · `issue list`). The reads
   were folded in on first bite (**2026-07-06, Operator-directed**) when a raw `gh issue view` *prompted*
   mid-falsification — the gh counterpart to git content-reads (`log`/`diff`/`show`), which the classifier
