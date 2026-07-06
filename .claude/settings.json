@@ -5,7 +5,8 @@
       "Bash(bin/gh.sh:*)",
       "Bash(bin/quarry.sh:*)",
       "Bash(bin/standup.sh:*)",
-      "Bash(bin/standdown.sh:*)"
+      "Bash(bin/standdown.sh:*)",
+      "Bash(bin/land.sh:*)"
     ],
     "deny": [
       "Bash(git push*)"
