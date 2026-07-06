@@ -281,6 +281,37 @@ predicate is *trips-the-classifier / mutation-adjacent*, not an `&&`-count, and 
 discipline** (lives on ingraining), NOT a physical guard — the same limit as cairn's "never raw git"
 (the F2 rejection above); named honestly, never overclaimed as enforced.
 
+### Wrapper naming: `.sh` vs extensionless-shadow — CONSIDERED & DECLINED *(with re-open trigger)*
+
+cairn migrated `bin/git.sh` → **`bin/git`** (extensionless — `dyad-cairn@83dea2b` "enforce extensionless
+binaries"). **Why (grounded in cairn's own retros, not inferred):** an extensionless wrapper named `git`
+resolves *as* `git` when `./bin` is on PATH, so a **bare** `git …` (agent- or tool-issued) transparently
+routes through it — the wrapper flips from opt-in (must type `git.sh`) to an **un-bypassable interceptor**.
+Driven by their "Substrate Leak" (agy's OS-level HITL prompt froze their *headless autonomous* DAG →
+`--dangerously-skip-permissions` + "Dyad wrapper = Sovereign Authority"), under the doctrine *translate every
+soft prompt-rule into a hard computational wrapper* — which is our own dyad-rt principle + the F2 point
+(physical > behavioral). **cairn then walked back the hard part** (`dd1484f` "Excise sandbox wardens"): their
+`bin/git` main-block *"violated our right to Substrate Execution directly on ledgers/retros,"* so the current
+enforcer `return True`s for internal writes. Lesson: **a hard wrapper that doesn't match the dyad's
+legitimate-op set gets torn out.**
+
+**DECLINED for bond, on three grounds** (the naming is cairn-topology-specific, net-negative under the Claude
+harness): (1) bond's `git.sh` is **fail-closed** (dies on any op ∉ ALLOWED_OPS); renaming + PATH-shadowing
+would send every `git status`/`rev-parse`/`diff` — *including the harness's own git calls* — into a REFUSE,
+so shadowing first needs a **posture inversion** to a transparent default-allow proxy. (2) **Blast radius:**
+cairn shadows under headless agy; bond runs under a harness that leans on raw git constantly (cairn even
+strips `./bin` from PATH in `bin/agy` to avoid recursion — the mechanism is delicate). (3) **Already
+captured:** `.githooks/pre-push` gives the "can't bypass via bare `git`" guarantee *for the irreversible
+class* (a git hook fires on raw `git push` by definition), with none of the rewrite or blast-radius;
+extending physical interception to `commit`/`add` buys little (a raw feature-branch commit is harmless).
+cairn's main-block *regret is inverted* for bond — bond never legitimately writes `main` directly, so we
+*want* it blocked, and the hook does exactly that.
+
+**RE-OPEN TRIGGER:** if bond ever runs **headless on agy** (where the harness-blast-radius concern
+dissolves and transparent interception of *all* ops becomes worth the passthrough rewrite), revisit —
+spec the transparent-proxy + harness-safety check first. Until then: `.sh` naming stays; physical
+enforcement lives at the **git layer**, not in a PATH-shadow.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**
