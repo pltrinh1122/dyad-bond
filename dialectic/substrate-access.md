@@ -312,6 +312,29 @@ dissolves and transparent interception of *all* ops becomes worth the passthroug
 spec the transparent-proxy + harness-safety check first. Until then: `.sh` naming stays; physical
 enforcement lives at the **git layer**, not in a PATH-shadow.
 
+### Operating mode: `bypassPermissions` from next boot *(Operator-elected 2026-07-06, `d-land`)*
+
+**Reconciles with the F2 REJECT above — not a reversal.** The arc rejected `--dangerously-skip-permissions`
+as a *sole* gate with **no** backstop. bond now elects it *because* the backstop exists: `.githooks/pre-push`
+fires **regardless of permission mode**, so **main-history protection survives bypass** (force/delete/direct
+push to `main` still refused; `--no-verify` the visible escape). This is the synthesis made real — *gate-off
+earns its way in as the git-layer covers the irreversible class.*
+
+**Enabled by the Operator's launch flag, NOT a checked-in default** — `claude --dangerously-skip-permissions`
+(≡ `--permission-mode bypassPermissions`). Bypass **cannot be Agent-self-granted** via config: `.claude/` is a
+protected path, and the substrate itself refuses it (cloud ignores a checked-in bypass default; local requires
+the launch flag) — a structural `bond:no-self-ratify`. So the enable is the Operator's act each boot; bond
+records the decision, never bakes in god-mode.
+
+**Safety envelope (grounded on primary-source docs).** Bypass turns off the native classifier for the
+*non-git* destructive class — `rm -rf <subdir>`, `git reset --hard`, `git clean -fd` — which **no git-hook can
+guard** (they don't cross a git pre-push/pre-commit boundary). Docs bless bypass *"only in isolated
+containers/VMs where Claude Code cannot damage your host."* bond's basis = **the run host is
+isolated/disposable** (Operator-asserted); if that stops holding, revert to native-gate-as-backstop.
+Circuit-breakers persist even in bypass: `rm -rf /`·`~`, explicit `ask` rules, MCP `requiresUserInteraction`.
+Live-proof of F2: the non-git class is exactly what only the native gate or an isolated env can cover — the
+git layer cannot.
+
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
 Every sibling Dyad independently converged on a git substrate-access wrapper → **convergence = invariant**

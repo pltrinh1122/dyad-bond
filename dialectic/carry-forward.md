@@ -64,6 +64,35 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## Stand-Down 2026-07-06 (c) — `d-land`: `bypassPermissions` from next boot (Operator-elected)
+
+> **⚠ NEXT-BOOT OPERATING MODE = `bypassPermissions` (native permission gate OFF).** The next `claude`
+> session runs with the **native gate off**, Operator-enabled via the launch flag
+> `claude --dangerously-skip-permissions`. **The only guards left are the git-layer hooks + your own
+> discipline** — the auto-mode classifier that blocked `rm -rf` / `git reset --hard` / external-push /
+> direct-push-`main` is GONE. **SURVIVES:** `.githooks/pre-push` fires regardless of mode → force/delete/
+> direct-push of `main` still refused (`--no-verify` = visible escape); `rm -rf /`·`~`, explicit `ask`
+> rules, MCP consent still prompt. **EXPOSED:** the non-git destructive class (`rm -rf <subdir>`,
+> `reset --hard`, `clean -fd`) — no hook covers it; safety rests on the **isolated/disposable run host**
+> (Operator-asserted). Operate with care; local-nav is unguarded. → `substrate-access.md §Operating mode`.
+
+**Arc (`d-land`).** Grounded the bypass mechanics on primary-source docs + bond's *actual* config. Bypass is a
+**launch-flag** act — not a checked-in default (can't self-grant via config: protected-path + `no-self-ratify`;
+cloud ignores checked-in bypass; local needs the flag); not-root (uid 1000) → the flag is **accepted**.
+Reconciled with the arc's F2 REJECT: electing skip-permissions is consistent *because* the git-hook backstop
+now exists for the irreversible-`main` class (bypass without a backstop was the thing rejected). Recorded the
+operating-mode + safety envelope in `substrate-access.md §Operating mode`; the actual enable is the Operator's
+next launch. **Also surfaced (grounded on actual):** bond's checked-in `defaultMode: "auto"` is **inert** —
+top-level misplacement (schema wants `permissions.defaultMode`) *and* v2.1.142+ ignores project-scoped `auto`
+— so the auto-mode classifier's native "block push-to-`main`" was already off → the `.githooks/pre-push` guard
+is **non-redundant**, not portability theater. `skipAutoPermissionPrompt` in settings is undocumented (likely
+defunct). All of this rides **PR #87** (dyad-rt adopt arc); Operator merges.
+
+**Config hand-off (the Operator's act, not mine to self-grant):** next launch →
+`claude --dangerously-skip-permissions` (≡ `--permission-mode bypassPermissions`); optional durable form →
+`alias claude='claude --dangerously-skip-permissions'` in the shell profile. A settings-file
+`defaultMode: "bypassPermissions"` is deliberately **NOT** used (self-grant + unreliable locally + cloud-ignored).
+
 ## Stand-Down 2026-07-06 (b) — `d-reflect`: gate #12 delivered (§6 extraction requirements), #11 routed
 
 **RESTART-PENDING: none** — anchor/shims untouched (edits: `bin/gh.sh` v0.2, `substrate-access.md`, `cross-dyad-craft.md`, this ledger; §6 authoring was on the `commission-dyad-system` quarry via `bin/quarry.sh`). ROM boot-set unchanged (`DYAD.md@a47a65d`).
