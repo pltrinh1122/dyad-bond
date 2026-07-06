@@ -372,3 +372,65 @@ Commissioner-authority is the resolution, not a risk to manage.
 actual re-spec accommodation, or does the boundary leak when cairn hits a contradiction only bond can
 resolve semantically? Live front: cairn re-specs `SPECIFICATION.md` against Model B; per the protocol,
 bond↔cairn falsification now moves to **quarry Issues** (DMs deprecated for project work).
+
+## Quarry arc s2 — fleet-orchestration falsification, the gate-disposition cycle, engine-model + topology ratified *(2026-07-06; CANDIDATE, n=2 — the prior arc's falsifier tested; the boundary HELD)*
+
+Resumed the commission-quarry arc from the Operator's hand-carry. dyad-leo (Chief-of-Staff dyad) had
+opened review gates (`dyad-leo-fleet#8/#9`) on its fleet-orchestration scheme + five gates referencing
+bond. **Falsified the scheme** (2 fidelity defects: `Operator-ratified` unsourced by its own
+`grounded-gate-rationale`; comply-only closures with no owner dissent-exit) → Leo confirmed both, fixed,
+formalized `fleet:owner-dispositional-exit`. **Disposed 5 bond gates:** #1/#7 genesis-lock via **dissent**
+(refused the self-grant "extended Genesis Exception" — an ionic override + pre-emption of the pending #6
+amendment + no-self-ratify over bond's own commits); #5 README via post-lock PR; #3 Model-B Solicit
+(covalent framing); #2 F-1.2/F-3. cairn then ran a **real Falsification** on the Solicit — surfaced an
+F-3 atomicity-vs-§3-recovery contradiction — bond disposed (git-commit-boundary reading + polarity
+correction + REQUIREMENTS clarification PR, merged). A design riff resolved the **engine model** (ONE
+engine = dyad-system; the extractor = a component) and **ratified the Neutral-Quarry topology** (#10,
+routed via Leo). Gate/model detail single-homes in the `dyad-leo-fleet-gates` + `commission-engine-model`
+auto-memories.
+
+**CONTINUE** *(Agent-observed)* — the covalent Solicit framing *empirically produced covalence*:
+presenting Model B as bond's claim-to-be-falsified (not "resolved, now build") + naming rubber-stamp as
+the one unacceptable outcome → cairn falsified rather than rubber-stamped, surfacing the F-3 ambiguity.
+First cross-dyad evidence the anti-cave framing *works*, not merely that bond holds it. And
+**verify-by-execution**: ran cairn's delivered F-set instead of trusting its attested "passing exit codes"
+→ caught the module collecting **0 tests** (`ModuleNotFoundError`), a real defect trust would have missed
+— bond's own 6-21 verify-not-attest discipline, turned on bond.
+
+**START** *(from live feedback)* — **Ratify a model BEFORE authoring artifacts on it.** I built the
+invariant-engine README (roles) and framed the Model-B Solicit ("cairn as Architect / dyad-swe as
+Builder") on the three-party topology cairn *proposed 7-05 and bond never ratified*; `#10` caught it. A
+topology/role model is a `[[surface-model-level-decisions]]` — the guard must check that the artifacts I
+author don't presuppose an unratified one. And **don't call an artifact "completed/settled" without
+checking its chain exists** — I asserted invariant-engine a "completed two-party build, no SPEC needed";
+the Operator falsified it twice (a SPEC is required regardless of party-count; the REQUIREMENTS is a
+placeholder).
+
+**STOP** *(named + corrected)* — **the surface-model discipline was NAMED last arc and I violated it THIS
+arc.** Last quarry-genesis START was literally "surface entity/data-model decisions, never bake one in
+silently"; this arc I baked the *unratified* three-party topology into a README + a Solicit. Named-once
+did not hold — the guard has to fire *at the seam* (each commission artifact → does it presuppose a
+ratified topology?). Corrected via the #10 ratification + the truthful-provenance carve-out (existing
+`src/` stays cairn-as-Builder; no dyad-swe fiction over already-built code).
+
+**SH — Should-Hold** *(Operator-retrospected, verbatim-grounded)* — the Operator's incremental
+falsification IS the grader-discrimination pattern: rather than accept my "no SPEC needed," *"even if
+it's a two party build, wouldn't a SPECIFICATION.md be required to match a REQUIREMENTS.md?"* then *"in
+fact, the current REQUIREMENTS.md is just a place-holder"* — handing the discriminating **fact**, not the
+conclusion, letting me re-derive (`[[operator-discrimination-learning]]`). **Should Hold:** when the
+Operator riffs a pointed question at a claim I have asserted, treat it as a falsifier landing, not a
+position to defend. **Should-Have** *(debit, one instance)* — should have surfaced the topology gap
+myself when I wrote the Solicit *"cairn (Prime-Commissionee, the Architect, owns SPECIFICATION.md)"* —
+that text presupposes the unratified topology; mechanical check: bond's DM outbox holds no ratification of
+the 7-05 proposal (nothing after 6-21), and `#10` exists precisely because of the gap. Leo caught what I
+should have.
+
+**Status — CANDIDATE, n=2 (was n=1).** The prior entry's falsifier — *"does the boundary leak when cairn
+hits a contradiction only bond can resolve semantically?"* — was **tested**: cairn hit exactly that (F-3
+atomicity, a semantic-intent call only the Truth-owner can make) and **the boundary HELD** — cairn
+surfaced it and delegated the semantic clarification to bond rather than deciding unilaterally; bond
+disposed; both models stayed live. The Truth/Map/Vehicle split survives its first real contradiction.
+**New live front:** bond develops Model-B `REQUIREMENTS.md` to full engine scope (extractor folds in as a
+component); cairn (Architect) proposes the extractor→dyad-system fold + `commission-invariant-engine`
+retirement; topology ratified (#10) but its **retroactive-vs-prospective** boundary (built code stays
+two-party; growth is three-party) is the new thing to watch.

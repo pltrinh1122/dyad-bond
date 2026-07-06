@@ -64,6 +64,16 @@
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
 
+## 2026-07-06 (close) — `d-reflect`: fleet-orchestration falsification + 5 bond-gate dispositions + engine-model/topology ratified
+
+**RESTART-PENDING: none** — anchor `DYAD.md`/shims untouched this session (edits: `dialectic/cross-dyad-craft.md` + this ledger; all fleet/commission work was on sibling repos via `gh`). ROM per-file boot-set unchanged (`DYAD.md@a47a65d`).
+
+**Arc (Operator-gated; hand-carried via dyad-leo).** Resumed the commission-quarry arc. Falsified dyad-leo's fleet-orchestration scheme (`dyad-leo-fleet#8` — 2 fidelity defects, both confirmed+fixed, `fleet:owner-dispositional-exit` formalized). Disposed 5 bond gates: #1/#7 genesis-lock via **dissent** (refused a self-grant "extended Genesis Exception"); #5 README post-lock PR; #3 Model-B Solicit (covalent); #2 F-1.2/F-3 — caught **by-execution** that the delivery collected 0 tests in-repo (`ModuleNotFoundError`), fixed via PR, MET. **cairn ran a real Falsification** on the Solicit (F-3 atomicity vs §3 recovery) → bond disposed (git-boundary reading + polarity correction + REQUIREMENTS clarification PR, merged). Design riff **resolved the engine model** (ONE engine = dyad-system; extractor = component) and **ratified the Neutral-Quarry topology** (#10, routed via Leo). **Reflect** → `cross-dyad-craft.md §Quarry arc s2` (the prior arc's falsifier was tested — cairn hit a semantic contradiction only bond could resolve, and the boundary HELD; CANDIDATE n=1→n=2). **STOP of record:** the `surface-model-level-decisions` discipline was named last arc and I still baked the *unratified* three-party topology into a README + Solicit — the guard must fire at each commission-artifact seam.
+
+**Live front (resume delta):** the "engine" is ONE thing — `commission-dyad-system` (validated-factory); `commission-invariant-engine` (extractor) is a **component**, not a peer. **Next bond work (Philosopher, owed):** develop Model-B `REQUIREMENTS.md` to full engine scope — fold the extractor's requirements in as a component section; invariant-engine's placeholder REQUIREMENTS is subsumed. This is the "baseline to build on" the Operator wants. **Awaiting cairn (Architect):** proposal to fold the built F-green extractor into dyad-system's `src/`+`tests/` and retire `commission-invariant-engine`. Fleet gates #1/#2/#3/#5/#7 closed; #10 ratified + routed via Leo (Leo dispatches to cairn + closes). Detail in the `dyad-leo-fleet-gates` + `commission-engine-model` auto-memories.
+
+**Durability:** this reflect + the `cross-dyad-craft.md` entry commit+push to `claude/git-sh-branch-nav` (`bin/git.sh`); branch→`main` is the Operator's PR-merge per standing dispositions.
+
 ## 2026-07-05 (close) — `d-reflect`: post-#85 cleanup + branch triage (light)
 
 **#85 MERGED** (`da458038`, Operator) — the discipline-permissioning arc is now canonical in `main`.
