@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# bin/claude — dyad-bond launcher: start Claude Code in DYAD mode (bypassPermissions).
+#
+# WHY (Operator-directed, 2026-07-06 — the d-land bypass election; pattern inherited from
+#   dyad-cairn@bin/agy): the Operator wants a PER-LAUNCH choice between the native gate and
+#   gate-off, WITHOUT baking bypass into config. Run `claude` = normal (native gate on). Run
+#   `bin/claude` = DYAD mode: the native permission gate is OFF and the Dyad runtime (the
+#   .githooks git-layer guards + Covalent discipline) is the authority. This is the Operator's
+#   explicit OPT-IN act — NOT an Agent self-grant: it is invoked by path, ratified by the
+#   Operator's merge, and never auto-applies to a normal `claude`. That distinction is the whole
+#   reason a wrapper is covalent where a checked-in `defaultMode: bypassPermissions` is not.
+#
+# SAFETY ENVELOPE (→ dialectic/substrate-access.md §Operating mode): main-history protection
+#   SURVIVES — `.githooks/pre-push` fires regardless of permission mode, so force/delete/direct
+#   push to `main` is still refused (`--no-verify` = the visible escape). EXPOSED: the NON-git
+#   destructive class (`rm -rf <subdir>`, `git reset --hard`, `git clean -fd`) — no hook covers
+#   it; safety then rests on an isolated/disposable run host. `rm -rf /`·`~`, explicit ask-rules,
+#   and MCP consent still prompt even here. Use only where that envelope holds.
+#
+# NAMING: the extensionless `claude` is INTENTIONAL and path-invoked (`bin/claude`), NOT a PATH
+#   shadow — bond declined putting bin/ on PATH (→ §Wrapper naming: extensionless-shadow DECLINED).
+#   The PATH-strip below is DEFENSIVE (keeps this recursion-safe even if bin/ is ever added to
+#   PATH), inherited verbatim-in-spirit from cairn's bin/agy.
+#
+# Usage:  bin/claude [args...]              # launch Claude Code with the native gate OFF
+#         CLAUDE_SH_DRY_RUN=1 bin/claude    # print the resolved launch command, do NOT exec
+
+set -euo pipefail
+
+# Strip our own bin dir from PATH so a bare `claude` resolves to the REAL binary, never this
+# wrapper (recursion guard, inherited from dyad-cairn@bin/agy).
+MY_BIN="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PATH="$(echo "$PATH" | sed -e "s|$MY_BIN:||g" -e "s|:$MY_BIN||g" -e "s|^$MY_BIN\$||g")"
+export PATH
+
+command -v claude >/dev/null 2>&1 \
+  || { echo "bin/claude: real 'claude' not found on PATH after de-shadowing bin/." >&2; exit 127; }
+
+if [[ "${CLAUDE_SH_DRY_RUN:-0}" == "1" ]]; then
+  printf 'bin/claude: (dry-run) would exec → %s --dangerously-skip-permissions %s\n' \
+    "$(command -v claude)" "$*" >&2
+  exit 0
+fi
+
+echo "bin/claude: launching in DYAD mode — bypassPermissions (native gate OFF; guards = .githooks + Covalent discipline). → substrate-access.md §Operating mode" >&2
+exec claude --dangerously-skip-permissions "$@"

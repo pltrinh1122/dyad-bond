@@ -324,7 +324,10 @@ earns its way in as the git-layer covers the irreversible class.*
 (≡ `--permission-mode bypassPermissions`). Bypass **cannot be Agent-self-granted** via config: `.claude/` is a
 protected path, and the substrate itself refuses it (cloud ignores a checked-in bypass default; local requires
 the launch flag) — a structural `bond:no-self-ratify`. So the enable is the Operator's act each boot; bond
-records the decision, never bakes in god-mode.
+records the decision, never bakes in god-mode. **Launcher — `bin/claude`** (Operator-directed, inherited
+from cairn's `bin/agy`): `claude` = normal (native gate on); `bin/claude` = DYAD mode (execs
+`claude --dangerously-skip-permissions`). The wrapper is covalent exactly where a checked-in default is not —
+it never auto-applies, is invoked by the Operator's *choice*, and rides the Operator's merge.
 
 **Safety envelope (grounded on primary-source docs).** Bypass turns off the native classifier for the
 *non-git* destructive class — `rm -rf <subdir>`, `git reset --hard`, `git clean -fd` — which **no git-hook can

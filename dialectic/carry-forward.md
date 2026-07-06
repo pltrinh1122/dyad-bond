@@ -88,10 +88,11 @@ top-level misplacement (schema wants `permissions.defaultMode`) *and* v2.1.142+ 
 is **non-redundant**, not portability theater. `skipAutoPermissionPrompt` in settings is undocumented (likely
 defunct). All of this rides **PR #87** (dyad-rt adopt arc); Operator merges.
 
-**Config hand-off (the Operator's act, not mine to self-grant):** next launch →
-`claude --dangerously-skip-permissions` (≡ `--permission-mode bypassPermissions`); optional durable form →
-`alias claude='claude --dangerously-skip-permissions'` in the shell profile. A settings-file
-`defaultMode: "bypassPermissions"` is deliberately **NOT** used (self-grant + unreliable locally + cloud-ignored).
+**Config hand-off (the Operator's act, not mine to self-grant):** use **`bin/claude`** — the opt-in launcher
+(Operator-directed, inherited from cairn's `bin/agy`, landed on PR #87): `claude` = normal (native gate on),
+`bin/claude` = DYAD mode (execs `claude --dangerously-skip-permissions`; recursion-safe PATH-strip;
+`CLAUDE_SH_DRY_RUN=1` to preview). A settings-file `defaultMode: "bypassPermissions"` is deliberately **NOT**
+used (self-grant + unreliable locally + cloud-ignored).
 
 ## Stand-Down 2026-07-06 (b) — `d-reflect`: gate #12 delivered (§6 extraction requirements), #11 routed
 
