@@ -360,8 +360,16 @@ The local-vs-checked-in choice was **dissolved, not picked** — our own **earn-
 
 Same shape as `git.sh`, for **outward publishing under the shared `pltrinh1122` account** (PR reviews/
 comments, DMs, FR responses) — now a recurring friction (the messaging/reviews **standing disposition**).
-- **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed): `pr review` ·
-  `pr comment` · `pr create` · `issue comment`. Widening stays the Operator's act.
+- **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed), **two classes
+  since v0.2** (the wrapper is the authoritative op-list; this only points): a **PUBLISH** set (`pr
+  review` · `pr comment` · `pr create` · `issue comment` · `issue create`) and a separate **zero-publish
+  READ** class (`pr view` · `pr diff` · `pr list` · `pr checks` · `issue view` · `issue list`). The reads
+  were folded in on first bite (**2026-07-06, Operator-directed**) when a raw `gh issue view` *prompted*
+  mid-falsification — the gh counterpart to git content-reads (`log`/`diff`/`show`), which the classifier
+  auto-approves but gh reads do not. Kept a distinct class so the write-gate stays legible (the mutation/
+  read line); reads publish nothing, so no self-identify is owed. `gh api` deferred (read/write-ambiguous:
+  bare GET is a read, `-X POST` publishes — needs its own method-guard). Widening either class stays the
+  Operator's act.
 - **Grant = `Bash(bin/gh.sh:*)` in `settings.json` — Operator-performed (graduated from local).** The classifier
   **hard-denied** the Agent self-granting it (Self-Modification) AND blocked a self-built wrapper as a
   bypass — *the covalent gate as a HARD oracle, dogfooded live* (→ `spaor.md` §transition-guards: hard
