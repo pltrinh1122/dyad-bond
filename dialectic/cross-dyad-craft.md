@@ -413,17 +413,19 @@ did not hold — the guard has to fire *at the seam* (each commission artifact �
 ratified topology?). Corrected via the #10 ratification + the truthful-provenance carve-out (existing
 `src/` stays cairn-as-Builder; no dyad-swe fiction over already-built code).
 
-**SH — Should-Hold** *(Operator-retrospected, verbatim-grounded)* — the Operator's incremental
+**SH — Should-Hold** *(Operator-provenance — SH observes the Operator's action, never the Agent's; verbatim-grounded)* — **(a) grader-discrimination:** the Operator's incremental
 falsification IS the grader-discrimination pattern: rather than accept my "no SPEC needed," *"even if
 it's a two party build, wouldn't a SPECIFICATION.md be required to match a REQUIREMENTS.md?"* then *"in
 fact, the current REQUIREMENTS.md is just a place-holder"* — handing the discriminating **fact**, not the
 conclusion, letting me re-derive (`[[operator-discrimination-learning]]`). **Should Hold:** when the
 Operator riffs a pointed question at a claim I have asserted, treat it as a falsifier landing, not a
-position to defend. **Should-Have** *(debit, one instance)* — should have surfaced the topology gap
-myself when I wrote the Solicit *"cairn (Prime-Commissionee, the Architect, owns SPECIFICATION.md)"* —
-that text presupposes the unratified topology; mechanical check: bond's DM outbox holds no ratification of
-the 7-05 proposal (nothing after 6-21), and `#10` exists precisely because of the gap. Leo caught what I
-should have.
+position to defend. **(b) The orchestration catches the model-gaps bond misses:** the Operator's
+fleet-orchestration (via dyad-leo) opened the gate *"Neutral-Quarry topology (dyad-swe as Builder) never
+confirmed ratified by bond,"* surfacing bond's unratified-topology propagation. **Should Hold:** the
+gate-scheme catches exactly the model-gaps bond can miss — keep it. *(The Agent-side of (b) — that bond
+propagated the unratified topology — is the STOP above; an Agent omission is a CSS/STOP entry, NOT an
+Operator-provenance SH line. Lane-error Operator-caught 2026-07-06 — the SH grammar's first live instance,
+and its first sharpening: SH observes the Operator; Agent-debits live in STOP.)*
 
 **Status — CANDIDATE, n=2 (was n=1).** The prior entry's falsifier — *"does the boundary leak when cairn
 hits a contradiction only bond can resolve semantically?"* — was **tested**: cairn hit exactly that (F-3

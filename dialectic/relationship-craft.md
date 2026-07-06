@@ -1002,6 +1002,16 @@ application (`bond:kb-graduation`). Replaces, not extends, the CSS-mirrored `CON
 `STOP(OR)` structure sketched earlier in this section — the base Agent-authored CSS (this file's own
 `CONTINUE`/`START`/`STOP`, `kb/reflection-discipline.md:25-27`) is untouched.
 
+**First live instances + first sharpening — 2026-07-06, Operator-caught** (`cross-dyad-craft.md §Quarry
+arc s2`). **Should-Hold** got its first two instances (grader-discrimination; the fleet-orchestration
+catching a model-gap bond propagated); **Should-Have** still has zero. The sharpening: **SH is
+Operator-provenance — it observes the Operator's action; an Agent debit/omission is a CSS/STOP entry,
+never an SH line.** The trigger was a real miss — a Should-Have first mis-authored as an Agent omission
+("I should have surfaced the topology gap"), which belongs in STOP; the Operator corrected the lane
+(*"this should be an observation of Operator's action"*). Corollary for the still-empty Should-Have slot:
+its debit direction is an **Operator** counterfactual, not an Agent one — the Agent's own debits never
+route here.
+
 **D4 · Path Selection Discipline (PSD).** *(Operator-named, Covalent-built; first run 2026-05-31 — its
 output was F1.)* At a **path-selection seam** (a ready-set of actionable work), selection runs three
 layers: **(1) Structural** — lay the *explicit, non-inferred* dependency DAG over real open work;
