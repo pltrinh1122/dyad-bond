@@ -72,20 +72,17 @@ fi
 # ── Memory-durability (uncommitted/unpushed = ungrounded memory; the standing substrate threat) ─
 dirty="$(git status --porcelain 2>/dev/null || true)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
-# Check the REMOTE-TRACKING ref origin/<branch>, NOT @{u}: bin/git.sh pushes without -u so @{u} is
-# never set even when the branch IS backed up (it would cry wolf on every push); `push` DOES update
-# origin/<branch>. rev-list --count (no pipe) can't double-emit under pipefail.
-remote_ref="origin/$branch"
-if git rev-parse --verify --quiet "$remote_ref" >/dev/null 2>&1; then pushed_ref=1
-  unpushed="$(git rev-list --count "$remote_ref..HEAD" 2>/dev/null || echo 0)"; else pushed_ref=0; fi
+# "unbacked" = commits reachable from HEAD but not from ANY remote ref (refs/remotes/*) — the true
+# off-disk-durability test. Robust to the three traps found building land.sh: git.sh pushes without -u
+# (@{u} unreliable); auto-delete-on-merge leaves a STALE origin/<branch>; a fresh re-branch sits on
+# origin/main (backed up there). Single command → no pipefail double-emit.
+unbacked="$(git rev-list --count HEAD --not --remotes 2>/dev/null || echo '?')"
 if [[ -n "$dirty" ]]; then
   add "Durability: ⚠ working tree DIRTY on \`$branch\` ($(printf '%s\n' "$dirty" | wc -l | tr -d ' ') paths) — commit before relying on the ledger as memory."
-elif [[ "$pushed_ref" == "0" ]]; then
-  add "Durability: ⚠ not backed up — no \`$remote_ref\` (never pushed, or remote branch auto-deleted post-merge) — push (bin/git.sh) to back up the memory."
-elif [[ "$unpushed" != "0" ]]; then
-  add "Durability: ⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh) so the remote backs up the memory."
+elif [[ "$unbacked" != "0" ]]; then
+  add "Durability: ⚠ $unbacked commit(s) not backed up on any remote on \`$branch\` — push (bin/git.sh) so the remote backs up the memory."
 else
-  add "Durability: ✓ clean + in sync on \`$branch\`."
+  add "Durability: ✓ clean + backed up on \`$branch\`."
 fi
 
 # ── Substrate probe (is this the durable home, or an ephemeral clone? is the IM daemon armable?) ─

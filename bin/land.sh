@@ -74,23 +74,20 @@ fi
 # ─────────────────────────────────────────────────────────────────────────────────────────────
 lines=(); add() { lines+=("$1"); }
 
-# 1. Durability (uncommitted / unpushed = ungrounded memory) — agent commits/pushes via git.sh.
-# Check the REMOTE-TRACKING ref origin/<branch>, NOT @{u}: bin/git.sh pushes without -u, so @{u} is
-# never set even when the branch IS backed up — @{u} would cry wolf on every push. `push` DOES update
-# origin/<branch>, so HEAD==origin/<branch> is the true "backed up" test. rev-list --count is a single
-# command (no pipe) → `|| echo` can't double-emit under pipefail.
+# 1. Durability (uncommitted / un-backed = ungrounded memory) — agent commits/pushes via git.sh.
+# "unbacked" = commits reachable from HEAD but not from ANY remote ref (refs/remotes/*) — the true
+# off-disk-durability test. Robust to all three traps hit building this: bin/git.sh pushes without -u
+# (so @{u} is unreliable); auto-delete-on-merge leaves a STALE origin/<branch> ref; and a fresh
+# re-branch sits on origin/main (backed up there, not on a branch of its own name). A single command
+# → no pipefail double-emit.
 dirty="$(git status --porcelain 2>/dev/null || true)"
-remote_ref="origin/$branch"
-if git rev-parse --verify --quiet "$remote_ref" >/dev/null 2>&1; then pushed_ref=1
-  unpushed="$(git rev-list --count "$remote_ref..HEAD" 2>/dev/null || echo 0)"; else pushed_ref=0; fi
+unbacked="$(git rev-list --count HEAD --not --remotes 2>/dev/null || echo '?')"
 if [[ -n "$dirty" ]]; then
   add "Durability: ⚠ DIRTY on \`$branch\` ($(printf '%s\n' "$dirty" | wc -l | tr -d ' ') paths) — commit via bin/git.sh before landing (a landing off an uncommitted tree drops work)."
-elif [[ "$pushed_ref" == "0" ]]; then
-  add "Durability: ⚠ not backed up — no \`$remote_ref\` (never pushed, or remote branch auto-deleted post-merge) — push via bin/git.sh."
-elif [[ "$unpushed" != "0" ]]; then
-  add "Durability: ⚠ $unpushed unpushed commit(s) on \`$branch\` — push via bin/git.sh."
+elif [[ "$unbacked" != "0" ]]; then
+  add "Durability: ⚠ $unbacked commit(s) not backed up on any remote — push via bin/git.sh."
 else
-  add "Durability: ✓ clean + pushed on \`$branch\`."
+  add "Durability: ✓ clean + backed up on \`$branch\`."
 fi
 
 # 2. Green-gate (verify before asserting green — item 2). invariant-eval always; linters if touched.
