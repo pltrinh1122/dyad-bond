@@ -72,9 +72,16 @@ fi
 # ── Memory-durability (uncommitted/unpushed = ungrounded memory; the standing substrate threat) ─
 dirty="$(git status --porcelain 2>/dev/null || true)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
-unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
+# Check the REMOTE-TRACKING ref origin/<branch>, NOT @{u}: bin/git.sh pushes without -u so @{u} is
+# never set even when the branch IS backed up (it would cry wolf on every push); `push` DOES update
+# origin/<branch>. rev-list --count (no pipe) can't double-emit under pipefail.
+remote_ref="origin/$branch"
+if git rev-parse --verify --quiet "$remote_ref" >/dev/null 2>&1; then pushed_ref=1
+  unpushed="$(git rev-list --count "$remote_ref..HEAD" 2>/dev/null || echo 0)"; else pushed_ref=0; fi
 if [[ -n "$dirty" ]]; then
   add "Durability: ⚠ working tree DIRTY on \`$branch\` ($(printf '%s\n' "$dirty" | wc -l | tr -d ' ') paths) — commit before relying on the ledger as memory."
+elif [[ "$pushed_ref" == "0" ]]; then
+  add "Durability: ⚠ not backed up — no \`$remote_ref\` (never pushed, or remote branch auto-deleted post-merge) — push (bin/git.sh) to back up the memory."
 elif [[ "$unpushed" != "0" ]]; then
   add "Durability: ⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh) so the remote backs up the memory."
 else

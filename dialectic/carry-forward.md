@@ -52,17 +52,46 @@
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — unchanged; **booted coherent this session** from `CLAUDE.md@8f2473c`. Boot-set files `GEMINI.md@178324c` + `GLOSSARY.md@1ce9828` moved in prior #85 commits; deltas **verified-by-diff = the logged changes, nothing else** (GEMINI: agy mutation-hard-rule injection; GLOSSARY: `d-land` DAG update).
 > *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04 `d-reflect`):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@1ce9828`.
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-06 `d-land`, GLOSSARY):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@2eb9986`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
-> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
-> include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
-> flagging the script/ledger gap, not unilaterally widening the script.)*
+> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` now includes
+> `GLOSSARY.md` — the script/ledger gap was closed in the 2026-07-06 fix-on-bite drain (PR #88, merged),
+> so the mechanized check compares all four boot-set files.)*
 > **RESTART-PENDING (CLAUDE.md): CLEARED 2026-07-04 `d-reflect`** — booted from `CLAUDE.md@8f2473c` this
 > session; parses/boots coherently with the corrected `Substrate-access` line; sha refreshed above.
 > **RESTART-PENDING (GEMINI.md@178324c): SET** — the agy mutation-hard-rule delta has NOT been agy-cold-
 > booted (the prior CLEARED note was for `9164a0d`, now superseded). **Binds next agy boot:** confirm
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
+> **RESTART-PENDING (GLOSSARY.md@2eb9986): SET 2026-07-06 `d-land`** — the `§act` d-land entry gained the
+> `bin/land.sh` spine line + the symmetry line extended to `:: d-land : land.sh` (this session, rides the
+> land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
+> `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
+
+## Stand-Down 2026-07-06 (f) — `d-start: clear racked todos` → `tackle the parked next`: drain + the d-land spine
+
+**RESTART-PENDING: GLOSSARY.md@2eb9986 SET** (see the ROM block above) — the `§act` entry gained the
+`bin/land.sh` spine line + the symmetry line; boot-set sha refreshed so no false-MISMATCH. All other edits
+are non-boot-set (`bin/*.sh`, `.claude/settings.json`, `substrate-access.md`, `deferrals.md`, this ledger).
+
+**Two arcs, Operator-gated:**
+1. **Fix-on-bite drain** (`d-start`) → **PR #88, MERGED.** `gh.sh` exec-bit · `standup.sh` ANCHOR_FILES
+   `+= GLOSSARY.md` · dropped inert `settings.json` keys · re-labeled the git.sh local-nav "gap" as a
+   false-open (design-resolved, `substrate-access.md §Tier-2`). Also recovered a stranded gate-#17 reflect
+   (`255bd05`) that PR #87's merge left off `main`. Branch reset to fresh `main` post-merge (strand closed).
+2. **The d-land spine** (`tackle the parked next`) → **PR #89, up for your gate.** `bin/land.sh` — the
+   missing third spine (`d-land:land.sh`); mechanizes the landing-discipline's checkable half + `--sync`
+   owns the post-merge sync/re-branch local-nav that prompted every session. Stops before judgment + gate.
+   **Dogfooded on its own landing → found + fixed two durability bugs** in all three spines (pipefail
+   double-emit; `@{u}` vs `origin/<branch>` — git.sh pushes without `-u`). Single-home
+   `substrate-access.md §Discipline-based permissioning`.
+
+**Resume delta:** PR #89 up for the Operator's merge; on merge, next boot verifies GLOSSARY boots coherent
++ clears RESTART-PENDING(GLOSSARY). `bin/land.sh` is now the d-land spine — **use it at the next landing**
+(`land.sh` for the checks, `land.sh --sync` for post-merge re-branch). New candidate (n=0-then-1): the spine
+itself, falsifier = a real `d-land` that still prompts on local-nav ⇒ fold the op in. **d-land verify-spine
+is now DONE** — remove it from the fix-on-bite queue. Still parked: cross-repo push choke-point (Operator's
+act); the substantive `## todo` fronts.
 
 ## Stand-Down 2026-07-06 (e) — `d-reflect`: gate #17 CAS-conformance arc closed
 
