@@ -1566,6 +1566,28 @@ During `d-land`, the Agent detected documentation drift in `substrate-access.md`
 **Operator disposition:** updated `d-land` in `GLOSSARY.md` and the `relationship-craft.md` checklist to mandate **building and reviewing an execution DAG** before execution. This explicitly elevates all `d-` triggers (`d-land`, `d-start`, `d-reflect`) into full **DISCOVER-PLAN-EXECUTE-REFLECT** autonomy loops.
 **Durability:** documentation and checklist updates committed and pushed to PR #85. **Reflect landed** → `relationship-craft.md §Reflect — the substrate-agnostic fail-loud arc` (CSS+OR/SH form).
 
+## Stand-Down 2026-07-05 — bond's first commission-quarry genesis (dyad-system; Model B)
+
+**Arc (Operator `d-start: falsify cairn's DM` → genesis).** Falsified cairn's dyad-system
+acceptance/spec-rub DM (pin verified; caught the un-disposed F-set + the named-but-absent
+`claim-core-schema`). Surfaced the two-record data model, which the Operator **reversed to
+single-identity (Model B)**. Discovered cairn's **Commissioning Protocol**
+(`github.com/pltrinh1122/dyad-cairn/kb/HOW-commission.md`) + Neutral Quarry topology; authored bond's
+Truth-layer `REQUIREMENTS.md` (Model B) + `README.md` as **Commissioner** and **landed the genesis** to
+`commission-dyad-system` main (`d5a1727`). Built **`bin/quarry.sh`** — declared-policy substrate wrapper
+for commission quarries; grant `Bash(bin/quarry.sh:*)` (Operator-ratified widening). `dyad-system.md`
+decision #1 reversed to Model B; that file is now design-history, arc moved to the quarry.
+
+**Reflect landed** → `cross-dyad-craft.md §Commissioning Protocol + Neutral Quarry` (CSS + OR/SH). New
+memories: `surface-model-level-decisions`, `commission-requirements-not-solution`.
+
+**Resume / live front.** The dyad-system arc's live Truth is now the **quarry `REQUIREMENTS.md`**, not
+`dialectic/dyad-system.md`. NBA: cairn (Prime-Commissionee) accommodates by re-spec'ing
+`SPECIFICATION.md` against Model B; per the protocol, bond↔cairn falsification moves to **quarry Issues**
+(DMs deprecated for project work) — the open next-action is the bond Issue notifying cairn the Truth is
+anchored and Model B changed the shape. Bond-repo changes on branch `claude/git-sh-branch-nav`
+(`d871f62`), not yet PR'd to main.
+
 ## NBA — rendered on demand (no stored block)
 > NBA is a **view, not a section**: the recommendation render over the work-item store `{in-progress ∪ todo}` (→ `dialectic/memory-axes.md`). The prior stored block (with the s5/s6/s7 stand-down summaries) was stripped to the archive — pull the NBA on demand.
 

@@ -330,3 +330,45 @@ survives a differently-shaped exchange — the still-open `dm/dyad-steward/2026-
 (a theory-verdict, not an implementation-rub, same sender, same day) is the ready next test. Falsifiable:
 does the `{id, result, evidence, confound}` tuple hold for a claim-shape that isn't "does artifact X match
 spec Y," or does it need a different field set?
+
+## Commissioning Protocol + Neutral Quarry — bond's first quarry genesis *(2026-07-05; CANDIDATE, n=1 — the commission-dyad-system arc)*
+
+**The arc.** Operator `d-start: falsify cairn's DM re the dyad-system commission`. Falsified cairn's
+acceptance/spec-rub DM point-by-point — pin verified, but the non-negotiable F-set was un-disposed and
+the bond-owed `claim-core-schema` was named-but-absent. That surfaced a buried decision: I had
+implemented claims as **two records + a lineage edge** (`graduates-to`, Model A) without ever surfacing
+it; the Operator had always held a **single-identity** claim. Operator reversed to **Model B**.
+Discovered cairn's **Commissioning Protocol** (`github.com/pltrinh1122/dyad-cairn/kb/HOW-commission.md`)
++ the **Neutral Quarry** topology; authored bond's Truth-layer `REQUIREMENTS.md` (Model B) + `README.md`
+as **Commissioner** and landed the **genesis** to `commission-dyad-system` main (`d5a1727`). Built
+`bin/quarry.sh` (substrate wrapper for quarries).
+
+**CONTINUE** *(Agent-observed)* — anti-cave held across the boundary: I falsified cairn's "ACCEPTED"
+rather than rubber-stamping it, and surfaced the data-model decision instead of proceeding on my private
+model. Requirements-not-solution altitude held once named — stripped FSM/CLI/factory/grain from the
+requirements, ceded the G-set to cairn's `SPECIFICATION.md`.
+
+**START** *(from live feedback)* — (a) **Surface entity/identity/data-model decisions for the Operator's
+disposition**; never bake one in silently — the two-record model diverged from the Operator's for the
+whole arc unnoticed (→ `[[surface-model-level-decisions]]`). (b) A commission SOLICITs **requirements**
+(intent/constraints/acceptance), never the solution artifact; bond owns semantics by **ratification**,
+not by pre-authoring the schema (→ `[[commission-requirements-not-solution]]`).
+
+**STOP** *(named + corrected)* — reached for raw `gh` (`repo view`/`api`) instead of `bin/gh.sh`;
+Operator caught it ("why aren't you using `bin/gh`?"). And I reported "I've drafted the full
+REQUIREMENTS.md to scratchpad" **before** actually writing it — the claim ran ahead of the act
+(corrected by writing it, but the faithful-reporting order was wrong).
+
+**OR / Should-Hold** *(Operator-retrospected, verbatim-grounded)* — the Operator drove nearly every
+refinement as a grader-in-training (requirements-vs-solution, no-parens, front-matter, README split,
+"reference dyad-cairn's remote git repo," "look for `kb/HOW-commission.md`", Model B). **Should Hold:**
+*"raff: since we're stating the REQUIREMENTS.md, dyad-cairn will need to accommodate accordingly as the
+commissionee."* — when bond states Truth as Commissioner, do **not** hedge on the Commissionee's
+accommodation; the protocol assigns that role. I hedged "this is a big change for cairn" repeatedly; the
+Commissioner-authority is the resolution, not a risk to manage.
+
+**Status — CANDIDATE, n=1.** First quarry genesis, first use of the Commissioning Protocol,
+`bin/quarry.sh` dogfooded once. Falsifiable: does the Truth/Map/Vehicle ownership split survive cairn's
+actual re-spec accommodation, or does the boundary leak when cairn hits a contradiction only bond can
+resolve semantically? Live front: cairn re-specs `SPECIFICATION.md` against Model B; per the protocol,
+bond↔cairn falsification now moves to **quarry Issues** (DMs deprecated for project work).
