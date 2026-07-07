@@ -108,7 +108,8 @@
   before the judgment (execution-DAG, PR body) + the gate (merge stays the Operator's). Granted as one unit
   `Bash(bin/land.sh:*)`; exec bit set in-index. Single-home → `substrate-access.md §Discipline-based
   permissioning` (Tier-1). **Falsifier:** if a real `d-land` still prompts on local-nav → the spine is
-  incomplete (fold it in), per the flex mechanism. n=0 clean-run (dogfooded on its own landing below).
+  incomplete (fold it in), per the flex mechanism. **n=2** — `--sync` validated live (un-prompted) on the
+  PR #89 and #90 merges; falsifier did not fire. → `carry-forward.md` Stand-Down (f) + `relationship-craft.md`.
 
 - **✅ Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(2026-07-04; Notified via dyad-steward issue #29)* — `X1/X2/X3` (cross-dyad candidates) are now `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Notified sibling dyad that we are keeping `X#` as published display aliases so existing cross-dyad references resolve.
 
