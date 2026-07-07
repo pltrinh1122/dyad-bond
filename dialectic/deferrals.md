@@ -24,15 +24,13 @@
 
 ## todo
 
-- **`single-home` playbook — PROPOSED to the form library (Founding-gate routing owed)** *(2026-06-28)* —
-  staged at `the-dyad-practice:library/single-home/` (PLAYBOOK + `ledger/3ab18bb7-n1.md`, n=1 multi-cycle)
-  on branch `claude/repo-structure-dyad-craft-g07g0i`. **Next:** the PR **is** the Founding-gate dispose
-  (CONTRIBUTING §2) — open it wearing the Founding hat (SG-4: the PR is the CTA surface, no conversational
-  double-anchor). **Held back, un-booted (n=0):** the `locus:` tag axis + the reach-rule are named in the
-  playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
+- **`single-home` playbook — specialization residual (n=0, held back)** *(2026-06-28; the PLAYBOOK
+  contribution itself DONE, see `## done`)* — the `locus:` tag axis + the reach-rule are named in the
+  now-merged playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
   (`prove-before-propose`) — then they earn a ledger entry. **Breadth falsifier:** a non-inheriting second
-  dyad's testimonial (same-lineage convergence ≠ clean independence). Home is the form's library; this is a
-  pointer only (`bond:single-home`).
+  dyad's testimonial (same-lineage convergence ≠ clean independence). **Trigger = first real reuse; not
+  agent-forceable** (nothing to do until a reuse occurs). Home is the form's library; pointer only
+  (`bond:single-home`).
 
 
 
@@ -82,6 +80,17 @@
 
 
 ## done
+
+- **✅ single-home playbook — Founding-gate contribution LANDED (stale-todo reconciled)** *(2026-07-06
+  `d-start` NBA; the contribution itself merged 2026-07-01)* — the `## todo` framed this as "PR owed — open
+  it wearing the Founding hat." **False-open, caught at pickup:** the PR was opened AND merged — **PR #73**
+  (`The-Dyad-Practice-Commons/the-dyad-practice`, merged 2026-07-01, merge `565790a`), artifact live on the
+  form's `main`: `library/single-home/PLAYBOOK.md` + `ledger/3ab18bb7-n1.md`. The todo (written 2026-06-28 at
+  the "staged, PR owed" instant) was never flipped → sat ~8 days as a phantom "open the PR" action; a
+  `d-start: Y` to open it would have created a duplicate/empty PR (branch has zero diff vs `main`).
+  **Re-derive-scope-at-pickup earned its keep again** (same lesson as the git.sh false-open, Stand-Down f).
+  The genuinely-open residual (the held-back `locus:` specialization + breadth falsifier) re-filed as its own
+  `## todo` above. → `carry-forward.md` this-session note.
 
 - **✅ Fix-on-bite backlog drain** *(2026-07-06; `d-start: clear out racked todos`)* — three recurring
   queued-by-name items (re-accreting across stand-downs = the drain-latency failure mode this store names)
