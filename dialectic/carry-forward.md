@@ -79,19 +79,29 @@ are non-boot-set (`bin/*.sh`, `.claude/settings.json`, `substrate-access.md`, `d
    `+= GLOSSARY.md` · dropped inert `settings.json` keys · re-labeled the git.sh local-nav "gap" as a
    false-open (design-resolved, `substrate-access.md §Tier-2`). Also recovered a stranded gate-#17 reflect
    (`255bd05`) that PR #87's merge left off `main`. Branch reset to fresh `main` post-merge (strand closed).
-2. **The d-land spine** (`tackle the parked next`) → **PR #89, up for your gate.** `bin/land.sh` — the
-   missing third spine (`d-land:land.sh`); mechanizes the landing-discipline's checkable half + `--sync`
-   owns the post-merge sync/re-branch local-nav that prompted every session. Stops before judgment + gate.
-   **Dogfooded on its own landing → found + fixed two durability bugs** in all three spines (pipefail
-   double-emit; `@{u}` vs `origin/<branch>` — git.sh pushes without `-u`). Single-home
-   `substrate-access.md §Discipline-based permissioning`.
+2. **The d-land spine** (`tackle the parked next`) → **PR #89, MERGED.** `bin/land.sh` — the missing third
+   spine (`d-land:land.sh`); mechanizes the landing-discipline's checkable half + `--sync` owns the
+   post-merge sync/re-branch local-nav that prompted every session. Stops before judgment + gate.
+   **Dogfooded on its own landing → found + fixed three durability bugs** across all three spines.
+3. **Durability primitive convergence** → **PR #90, MERGED.** The check across all three spines is now
+   `git rev-list --count HEAD --not --remotes` (backed-up-on-any-remote) — third + convergent iteration,
+   each surfaced by dogfooding a distinct real scenario (pipefail double-emit · `@{u}` unreliable, git.sh
+   omits `-u` · stale `origin/<branch>` after auto-delete-on-merge). Verified live on `main`.
 
-**Resume delta:** PR #89 up for the Operator's merge; on merge, next boot verifies GLOSSARY boots coherent
-+ clears RESTART-PENDING(GLOSSARY). `bin/land.sh` is now the d-land spine — **use it at the next landing**
-(`land.sh` for the checks, `land.sh --sync` for post-merge re-branch). New candidate (n=0-then-1): the spine
-itself, falsifier = a real `d-land` that still prompts on local-nav ⇒ fold the op in. **d-land verify-spine
-is now DONE** — remove it from the fix-on-bite queue. Still parked: cross-repo push choke-point (Operator's
-act); the substantive `## todo` fronts.
+**Reflect landed** → `relationship-craft.md §Reflect — the d-land spine arc: dogfood-falsifies-own-claim,
+and local-patch-over-reason-the-invariant` (full CSS+SH shown in chat). **Headline STOP = local-patch-to-green
+over reason-the-invariant** (self-found via dogfooding, not Operator-caught — the first zero-STOP-catch arc in
+the recent run). START = enumerate a check's state-space + reach for the canonical primitive first. SH = **none
+found** (Operator provenance was directives + merge confirmations only; recorded explicitly per the
+mandatory-OR-check convention).
+
+**Resume delta:** all three PRs (#88/#89/#90) MERGED; branch reconciled to `main@8ddb97e` via `land.sh --sync`
+(n=2, un-prompted). **`bin/land.sh` is now the d-land spine — use it at the next landing** (`land.sh` for the
+checks, `land.sh --sync` for post-merge re-branch). **RESTART-PENDING(GLOSSARY.md@2eb9986) stays SET** for the
+next cold boot to verify + clear (can't clear mid-session). Theory-pipeline: the spine candidate advanced
+**n=0→n=2** — `--sync` validated live on the #89 and #90 merges, un-prompted; falsifier ("a real `d-land`
+still prompts on local-nav") did not fire. **d-land verify-spine is DONE** (off the fix-on-bite queue). Still
+parked: cross-repo push choke-point (Operator's act); the substantive `## todo` fronts.
 
 ## Stand-Down 2026-07-06 (e) — `d-reflect`: gate #17 CAS-conformance arc closed
 
