@@ -1,5 +1,13 @@
 # COMMISSION SPEC — dyad-system: claim/invariant validated-factory engine *(bond-hosted, builder-agnostic; v0.1 — template-fill on the invariant-extraction pilot)*
 
+> **⚠ SUPERSEDED — design-history only (stamped 2026-07-06 `d-start`). DO NOT pin or dispatch.**
+> This draft is **pre-reversal**: it pins the `graduates-to` / two-record / new-id-with-`graduated_from`-
+> lineage model as *"not negotiable"* — which the Operator **REVERSED to Model B (single-identity,
+> relocate-in-place, same id) on 2026-07-05** (`dialectic/dyad-system.md` §Design-decision 1). The arc has
+> since moved to the **Neutral Quarry** repo `pltrinh1122/commission-dyad-system`; bond's live authoritative
+> requirements are its `REQUIREMENTS.md` (Model B, R3), running the three-party pipeline (bond=REQ ·
+> cairn=Architect/SPEC · dyad-swe=Builder). Kept here as pre-reversal draft-history, **not a live spec.**
+
 > **Status: DRAFT (2026-07-01) — not yet solicited.** Commission-type: **Conformance** (a full,
 > crisp, binary F-atom contract — the schema-syntax/CLI-surface/module-layout items left open are
 > negotiable *within* that fixed contract, not an undefined solution; per
