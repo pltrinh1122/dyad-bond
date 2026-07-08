@@ -972,35 +972,54 @@ separate on evidentiary grounds:
 Still CANDIDATE — one hard-checkable instance is the first data point, not a survived falsification
 (cf. `bond:kb-graduation` — same bar as anything else here, no exemption for a fresh direction).
 
-**OR consolidates to SH (Should Have / Should Hold) — converged 2026-07-04, CANDIDATE, zero instances
-of the new grammar.** Riffed off the CONTINUE/START/STOP-mirroring above: rather than tag each CSS type
-with an Operator-provenance slot (`CONTINUE(OR)`/`START(OR)`/`STOP(OR)`), OR takes its own single format,
-not mirrored on CSS's three buckets. Two temporal shapes:
-- **Should Have** — a single past instance, hit-or-miss: *"Should have [verified X] — didn't; [claim]
-  independently found false via [mechanical check]."* Absorbs the debit direction above (`:935-967`)
-  unchanged in substance, restated in this grammar.
-- **Should Hold** — a standing, ongoing pattern rather than one moment: *"Should hold: [verify before
-  asserting merge state]"* — evidenced by verbatim quotes of instances where the Operator's conduct has
-  been meeting the bar. Absorbs the credit direction (the graduated `CONTINUE (Operator-retrospected)`
-  use) — a recurring pattern restated as a standing bar rather than one-off praise.
+**OR consolidates to SH (Should Have / Should Hold) — converged 2026-07-04, CANDIDATE; re-oriented
+2026-07-08.** Rather than tag each CSS type with an Operator-provenance slot
+(`CONTINUE(OR)`/`START(OR)`/`STOP(OR)`), the operator-reflect dimension takes its own single format, not
+mirrored on CSS's three buckets. **Orientation (Operator-disposed 2026-07-08): SH is the Agent's
+*observation, directed at the Operator, of the Operator's intent clarity and coherence*** — not the
+Agent's own should-haves (those stay in STOP/START), and *not* a grading of the Operator's **reasoning**
+(that softer presumption is exactly what `bond:anti-cave` forbids the Agent from performing). It is the
+reflective, Operator-solicited channel where the Agent reports where the Operator's *intent* — the
+direction, goal, or disposition handed over — read clear and coherent, or instead left the Agent bearing
+interpretive risk (cf. the 8th instance, `:921`, the Operator's own *"were my intent clear or
+ambiguous?"*). Two temporal shapes:
+- **Should Have** — a single past instance: *"[the Operator's intent on X] should have been clearer / more
+  coherent — [the specific ambiguity or incoherence, and where the Agent absorbed the inference-risk]."*
+  An observed intent-clarity or coherence gap in one moment.
+- **Should Hold** — a standing, ongoing pattern rather than one moment: *"[the Operator's intent] should
+  hold [clear and coherent, as it has] — [the recurring pattern]."* The credit direction restated as a
+  standing bar the Operator's intent-clarity already meets, not one-off praise.
 
-**Every SH entry carries two requirements, both new this session:** (1) a **verbatim quote** from chat
+**Distinct axis, preserved not folded:** the earlier `debit`-telemetry direction (`:935-967`) logged a
+*factually falsified Operator claim about mechanically-checkable shared state* (e.g. "I merged the
+branch" — false, PR open). That is **accuracy of state-claims**, a different axis from intent
+clarity/coherence; it stays above as passive audit-telemetry. Whether it belongs *under* the re-oriented
+SH or as its own strand is the Operator's to settle — surfaced here, not silently merged.
+
+**Every SH entry carries a verbatim-quote requirement** (new 2026-07-04): a **verbatim quote** from chat
 history as evidence — the Agent's own paraphrase of what the Operator said or meant does not qualify,
 converting the entry's grounding into an artifact-under-cost (`kb/evidentiary-discipline.md`'s bar)
-rather than the Agent's retelling; (2) for the Should-Have/debit direction specifically, the existing
-materiality + independent-mechanical-verification bar (`:945-956`) is unchanged — the verbatim quote
-establishes *what was said*, the mechanical check establishes *whether it was true*.
+rather than the Agent's retelling. For an **intent-clarity/coherence Should-Have**, the quote must
+*exhibit the ambiguity or incoherence itself* (the instruction that carried two live referents, the
+direction that shifted mid-stream) and name where the Agent absorbed the interpretive risk — never the
+Agent's bare verdict that the intent "felt" unclear (that verdict is the anti-cave presumption). For the
+**preserved state-claim axis** (`:935-967`), the materiality + independent-mechanical-verification bar
+(`:945-956`) is unchanged — the quote establishes *what was said*, the mechanical check *whether it was
+true*.
 
 **Open, not resolved this session:** the forward-commitment case (a not-yet-evidenced standing pattern
 the Operator is committing to) doesn't cleanly sort into either shape — sits between a Should-Have
 (single moment) and a Should-Hold (already-recurring). Left CANDIDATE-within-CANDIDATE rather than
 silently picked; the first real instance decides which shape it needs, or whether it needs a third.
 
-**Status:** structure only, no instances of the SH grammar itself — same posture OR's original
-credit/debit split held at its own birth (`:904-919`). Does not graduate until it survives a real
-application (`bond:kb-graduation`). Replaces, not extends, the CSS-mirrored `CONTINUE(OR)`/`START(OR)`/
-`STOP(OR)` structure sketched earlier in this section — the base Agent-authored CSS (this file's own
-`CONTINUE`/`START`/`STOP`, `kb/reflection-discipline.md:25-27`) is untouched.
+**Status:** the SH grammar produced live instances after 2026-07-04 (§Reflect entries below); the
+intent-clarity/coherence **re-orientation is fresh (2026-07-08)**, so instances *under the sharpened
+orientation* start from here — same posture OR's split held at its own birth (`:904-919`). Still
+`CANDIDATE` — does not graduate until it survives a real application (`bond:kb-graduation`), the
+Operator's disposition, and the L2b cross-dyad/cross-human gap that caps the whole form. Replaces, not
+extends, the CSS-mirrored `CONTINUE(OR)`/`START(OR)`/`STOP(OR)` structure sketched earlier in this
+section — the base Agent-authored CSS (this file's own `CONTINUE`/`START`/`STOP`,
+`kb/reflection-discipline.md:25-27`) is untouched.
 
 **First live instances + first sharpening — 2026-07-06, Operator-caught** (`cross-dyad-craft.md §Quarry
 arc s2`). **Should-Hold** got its first two instances (grader-discrimination; the fleet-orchestration
@@ -2508,3 +2527,15 @@ Stretch: after the Operator merged #85, post-merge branch cleanup + a safe-remov
 - **SH (Should-Have / Should-Hold)** — **none found** (recorded explicitly per the mandatory-OR-check convention). Two routine `Y` dispositions + the `d-reflect: fatigued, need rest` close — no evaluative catch, no verbatim guidance clearing either bar. Both phantoms **self-caught** via the verify reflex — the **second consecutive zero-Operator-STOP-catch arc** (Stand-Down f the first); the recent run has flipped from Operator-caught-each-session to self-caught. The *"fatigued, need rest"* is itself a wu-wei/livability datum — honored by closing efficiently, not extending.
 
 **Cross-arc link — an ingraining-watch miss.** Last session I banked the START *"enumerate the state space; reach for the canonical primitive first"* — and **failed to apply it the very next session** (the `--state open` check). This falsifies *"banking a START ingrains it"*: **n=2** on state-space-under-enumeration (the `@{u}`/`origin/<branch>` durability misses last session, now the PR-state miss). The START keeps being *right* and keeps *not firing* — so the fix isn't a better START, it's a **mechanism** (external-resolution reconciliation, or an NBA that refuses to rank an unverified item). A discipline that doesn't ingrain across one session wants machinery, not another note.
+
+## Reflect — the dyad-rt test-run arc: the honest-ceiling CONTINUE, and state-space-under-enumeration recurs to n=3 *(2026-07-08; D3, CSS+SH, single-home)*
+
+**Arc.** `d-start: dyad-rt test-run arc before other work`. Scoped with the Operator (→ *"Full runtime, end-to-end"*), ran a transient test harness over every adopted `dyad-rt` primitive — `.githooks/pre-push` (logic 6/6 via its stdin protocol, no real push), `git.sh`/`gh.sh` (fail-closed + DRY_RUN), `bin/claude` (DRY_RUN + recursion-safety): **15/15 green**, plus a live confirmation the *kept* native backstop refuses raw `git push`. Recorded (→ *"Record + sharpen falsifier"*): `substrate-access.md §Status` advanced **CANDIDATE n=1→n=2**, falsifier sharpened. Landed via **PR #93** — which the Operator caught as **CONFLICTING**; resolved (main had moved under PR #92), Operator-merged, `land.sh --sync`'d clean.
+
+- **CONTINUE** *(Agent-observed — the arc's best move)*: **the honest ceiling held under a live temptation to counterfeit-green.** When the classifier blocked the real dry-run push *twice*, the cheap move was to let "15/15 green" read as if it discharged the dyad-rt *guarantee*. Instead I scoped n=2 to exactly what was corroborated (primitive behaviour + backstop-live) and **sharpened the falsifier to name the untested load-bearing boundary** — git *invoking* the hook on a real push, unexercisable from a native-gated session by construction. `bond:C1`/no-counterfeit-green fired without an Operator prompt; the denial itself became a *finding* (the backstop is real), not an obstacle to route around. Sub-move: I surfaced the residual as an **Anti-Thesis before** the Operator disposed the evidence, so *"you launch bypass now"* was a genuinely-open choice (anti-cave: real grounds to dissent).
+- **CONTINUE** *(Agent-observed)*: **clean merge hygiene under the conflict.** Previewed with `merge-tree` (no working-tree churn), resolved `carry-forward.md` by **keeping both sessions' ledger entries** in reverse-chronological order rather than clobbering one, and **verified my n=2 edit survived the auto-merge** (grepped it on the merged tree) instead of assuming — the silent-clobber that a careless resolution would have caused was checked for, not hoped away.
+- **STOP** *(Agent — the headline)*: **state-space-under-enumeration, recurred — I checked the *ahead* direction of the branch↔main delta and asserted gate-readiness on the *behind* direction I never checked.** Before opening PR #93 I ran `git fetch origin main` then `git log origin/main..HEAD` (what I'm *ahead* by) — but never `HEAD..origin/main` (has main *moved*?), nor `gh pr view --json mergeable` after opening. The evidence is unambiguous: PR #92 merged to `main` at **2026-07-07 19:32**, my PR #93 commit was **2026-07-08 06:26** (~11h later) — the conflict was **born-detectable with the fetch I had already run**, and I still reported *"up for your merge."* The Operator surfaced it, not me.
+- **START** *(Agent — a mechanism, not another note)*: **fold a freshness + mergeability gate into `bin/land.sh`** (the d-land spine), so it fires mechanically where I have now failed to remember it 3×: **(a)** pre-PR, `git fetch origin main` + refuse/warn if `HEAD..origin/main` is non-empty (main moved — reconcile first); **(b)** post-open, poll `gh pr view --json mergeable,mergeStateStatus` and surface **CONFLICTING loudly** *before* the "up for your gate" hand-off. This is the (g) ingraining-watch's own prescription made concrete, and it matches the (f) pattern: a check I keep mis-remembering belongs in the **spine**, not my habit. **Not built this session** (reflect ≠ build) — named as the next fix-on-bite bite, the Operator's gate.
+- **SH (Should Have / Should Hold)** — **found this session** (unlike the last two arcs' clean "none"). **Should Have (debit):** verified PR #93 was actually mergeable before asserting it was gate-ready — Operator marker, verbatim: *"resolve PR #93 merge conflicts first"* (the *"first"* is the tell that I handed over a not-yet-ready artifact as ready). **Should Hold (standing standard the Operator enforces):** *"up for your merge"* is a **claim with a verification obligation** — the Operator's gate is for their *judgment*, never for discovering mechanical defects the Agent could have caught; an artifact handed to the gate must be Agent-verified gate-ready. Forward-commitment: left open (folds into the `land.sh` START).
+
+**Cross-arc link — the watch escalates to n=3, and the mechanism is now overdue.** The (g) reflect banked this exact root at **n=2** and wrote the verdict outright: *"the fix isn't a better START, it's a mechanism… a discipline that doesn't ingrain across one session wants machinery, not another note."* This session is **n=3** on the same root (one-directional delta check + un-verified gate-readiness) — and the tell that a note cannot fix it: **during the conflict resolution I hand-merged into the ledger the parallel session's verbatim lesson** — *"check `git log origin/main..HEAD` … before building, not after"* — i.e. I transcribed the corrective while having just committed the error it names. Three instances, one root, the prescription already written down and ignored: the `land.sh` freshness+mergeability gate isn't a nice-to-have, it's the debt this watch has been escrowing since (f).

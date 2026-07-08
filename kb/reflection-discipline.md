@@ -2,7 +2,7 @@
 locus: phenotype   # settled craft — kb-with-caveat (survives, not settled — see Coverage below). Key → MAP.md.
 ---
 
-# Reflection Discipline (D3) — the CSS+OR retro form
+# Reflection Discipline (D3) — the CSS+SH retro form
 
 *Settled knowledge, kb-with-caveat. Authored `dialectic/relationship-craft.md §Bond disciplines` (D3),
 2026-05-31 — this file holds the graduated form; the dialectic entry collapses to a pointer here.*
@@ -14,15 +14,16 @@ Keep the inherited **function** (close a learning loop durably; survive session-
 substance: it drops the ratify-loop, keeps the CSS content. The real knob is *ratify+persist —
 yes/no*, never *how much substance*.
 
-## The form — CSS+OR (Continue / Start / Stop, + the Operator-Reflect provenance tag)
+## The form — CSS+SH (Continue / Start / Stop, + the Should-Have / Should-Hold operator-reflect tags)
 
-Each entry tags lines by provenance — whose conduct/observation it credits. **OR (Operator-Reflect)**
-is not a fourth entry-type alongside CONTINUE/START/STOP — it's the provenance tag a CONTINUE carries
-when the credit goes to the *Operator's* own conduct, not the Agent's. Named in the header, not just
-the bullet below, because it was already-graduated content that kept getting skipped/mislabeled when
-it wasn't visible at a glance (renamed 2026-07-01, Operator Y, after a live miss — see
-`relationship-craft.md`'s dyad-system retro):
-- **CONTINUE** *(Operator-retrospected — the OR tag — or Agent-observed)* — a pattern worth keeping
+Each entry tags lines by provenance — whose conduct/observation it credits. The operator-reflect
+dimension is **SH (Should Have / Should Hold)** — not a fourth entry-type alongside CONTINUE/START/STOP,
+but the Agent's *observation, directed at the Operator, of the Operator's intent clarity and coherence*
+(re-oriented 2026-07-08; observation of the communication interface, **not** a grading of the Operator's
+reasoning — the `bond:anti-cave` line). The Agent's own should-haves stay in STOP/START. It **consolidated 2026-07-04 from the earlier per-CONTINUE `OR` (Operator-Reflect) tag** (the
+`+OR` was itself named in the header 2026-07-01, Operator Y, after a live miss, then superseded by SH —
+see the *Known open gap* below and `relationship-craft.md §D3`). The base CSS buckets are unchanged:
+- **CONTINUE** *(Agent-observed; Operator-retrospected credit now folds into SH → Should Hold)* — a pattern worth keeping
 - **START** *(Agent, from live feedback)* — a commitment going forward
 - **STOP** *(Agent, from live feedback)* — a failure to name and correct
 
@@ -42,17 +43,18 @@ cross-dyad or cross-human attack has ever tested this form. Per `theory-pipeline
 `graduation_rule`, an "outside" claim without an L2b (cross-human) rub caps at `survives`, not
 `settled`. This file graduates as **kb-with-caveat**, not full-settled — cite accordingly.
 
-**Known open gap in the form's own structure (evolved, not new):** OR (Operator-Reflect provenance) no
-longer mirrors CONTINUE/START/STOP as a per-type tag — as of 2026-07-04 it consolidated into its own
-format, **SH (Should Have / Should Hold)**: a single-past-instance counterfactual (Should Have) and a
-standing-pattern counterfactual (Should Hold), each verbatim-quote-grounded, replacing the
-`CONTINUE(OR)`/`START(OR)`/`STOP(OR)` structure this file originally described. Absorbs both directions
-already named in `relationship-craft.md §D3` (credit → Should Hold; debit → Should Have, one real debit
-instance survived) but **the SH grammar itself has zero instances** — structure only, same posture the
-credit/debit split held at its own birth. **This gap did NOT graduate with the rest of the form** — it
-stays in `dialectic/relationship-craft.md §D3` as `CANDIDATE`. See there for the full definition, the
-evidentiary requirements (verbatim quote + independent mechanical check for Should-Have), and the still-
-open forward-commitment shape.
+**Known open gap in the form's own structure (the CANDIDATE half of the `CSS+SH` name):** the
+operator-reflect provenance dimension — **SH (Should Have / Should Hold)**, the Agent's observation of
+the Operator's intent clarity and coherence — is a single-past-instance counterfactual (Should Have) and
+a standing-pattern counterfactual (Should Hold), each verbatim-quote-grounded. It consolidated
+2026-07-04 from the earlier per-type
+`CONTINUE(OR)`/`START(OR)`/`STOP(OR)` sketch (credit → Should Hold; debit → Should Have). SH has since
+produced live instances (`relationship-craft.md §D3` retros), but has **not been dispositioned as
+graduated** — it stays `CANDIDATE` there, and the L2b cross-dyad/cross-human gap that caps the whole
+form at *survives* (below) applies to it too. The base CSS buckets carry the file's earned status; SH
+rides in the title as the named-but-not-yet-settled component, exactly as `+OR` did before it. See
+`dialectic/relationship-craft.md §D3` for the full definition, the evidentiary requirements (verbatim
+quote + independent mechanical check for Should-Have), and the still-open forward-commitment shape.
 
 ## Forward
 

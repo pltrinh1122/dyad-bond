@@ -108,13 +108,13 @@ Reflect is F2-keystone-gated.
   - **`d-reflect`** — one token, replacing the separate `reflect`/`stand-down` entries (collapsed
     2026-07-03: checked telemetry, every `Reflect` this session was already paired with a
     `carry-forward.md` update in the same turn — one job, not two). Invokes
-    `kb/reflection-discipline.md`'s CSS+OR form (Continue/Start/Stop, provenance-tagged) *and* prepares
+    `kb/reflection-discipline.md`'s CSS+SH form (Continue/Start/Stop + Should-Have/Should-Hold) *and* prepares
     the ledger for the next session's resume — the Operator restarts via `/exit` or a fresh chat
     thread, never `--resume`, so this is what makes that resume coherent. Fires mid-session or at
     actual session-end alike — whether the Operator keeps chatting or exits right after isn't something
     the Agent does differently, so it isn't pre-signalled by word choice (same shape as the
     `land`/`d-land` collapse). Bare `reflect` and `stand-down` retired as separate tokens.
-    **Presentation, corrected 2026-07-03:** the full CSS+OR text is always shown in chat — not a
+    **Presentation, corrected 2026-07-03:** the full CSS+SH text is always shown in chat — not a
     headline, not a pointer to the file — with the write to `relationship-craft.md` a parallel
     durability action, same content in both places. Durability (where it lives) and presentation (what
     the Operator sees now) are different axes; conflating them forces a separate-retrieval step for
