@@ -14,25 +14,29 @@
 
 ## in-progress
 
-- **dyad-system — mechanizing the claim/invariant structure** *(2026-07-01)* — a `Claim`/`Invariant`
-  validated-factory arc, born from the `bond:C1`/`bond:livability` validator-drift catch: offload
-  structural checking (id-uniqueness, enum-shape, provenance, re-rub triggers) from attention/tokens
-  onto gated mechanism, across both `theory-pipeline.yaml` (currently zero mechanical validation) and
-  `invariants-bond.yaml`. **Commission drafted** (template-fill on the invariant-extraction pilot) →
-  `commissions/2026-07-01-dyad-system-engine.md`, DRAFT, not yet solicited to dyad-cairn — awaiting
-  Operator review/pin. Single-home → `dialectic/dyad-system.md`.
+- **dyad-system — mechanizing the claim/invariant structure** *(2026-07-01; state reconciled 2026-07-06
+  `d-start` — the prior "awaiting Operator review/pin" framing was stale)* — a validated-factory arc, born
+  from the `bond:C1`/`bond:livability` validator-drift catch: offload structural checking (id-uniqueness,
+  enum-shape, provenance, re-rub triggers) from attention/tokens onto gated mechanism, across
+  `theory-pipeline.yaml` (zero mechanical validation today) + `invariants-bond.yaml`. **LIVE in the Neutral
+  Quarry** — repo `pltrinh1122/commission-dyad-system`; bond's authoritative REQ-of-record = its
+  `REQUIREMENTS.md` (**Model B / single-identity**: R3 = graduation is a state-transition-in-place, same id,
+  no new record). Running the three-party pipeline (bond=REQ · cairn=Architect/SPEC · dyad-swe=Builder):
+  REQUIREMENTS §6 extraction-fold (PR #6) + CAS gate #17 (PR #8) merged 2026-07-06; cairn SPECIFICATION Model
+  B (PR #4) merged, extractor-integration SPEC (PR #5) OPEN. **Live tracking = the quarry's issues/PRs, not
+  this item.** The local `commissions/2026-07-01-dyad-system-engine.md` is **SUPERSEDED design-history**
+  (pre-2026-07-05-reversal; built on the old `graduates-to`/two-record model Model B overturned — do NOT
+  pin/dispatch; stamped superseded in-file). Single-home → `dialectic/dyad-system.md`.
 
 ## todo
 
-- **`single-home` playbook — PROPOSED to the form library (Founding-gate routing owed)** *(2026-06-28)* —
-  staged at `the-dyad-practice:library/single-home/` (PLAYBOOK + `ledger/3ab18bb7-n1.md`, n=1 multi-cycle)
-  on branch `claude/repo-structure-dyad-craft-g07g0i`. **Next:** the PR **is** the Founding-gate dispose
-  (CONTRIBUTING §2) — open it wearing the Founding hat (SG-4: the PR is the CTA surface, no conversational
-  double-anchor). **Held back, un-booted (n=0):** the `locus:` tag axis + the reach-rule are named in the
-  playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
+- **`single-home` playbook — specialization residual (n=0, held back)** *(2026-06-28; the PLAYBOOK
+  contribution itself DONE, see `## done`)* — the `locus:` tag axis + the reach-rule are named in the
+  now-merged playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
   (`prove-before-propose`) — then they earn a ledger entry. **Breadth falsifier:** a non-inheriting second
-  dyad's testimonial (same-lineage convergence ≠ clean independence). Home is the form's library; this is a
-  pointer only (`bond:single-home`).
+  dyad's testimonial (same-lineage convergence ≠ clean independence). **Trigger = first real reuse; not
+  agent-forceable** (nothing to do until a reuse occurs). Home is the form's library; pointer only
+  (`bond:single-home`).
 
 
 
@@ -82,6 +86,17 @@
 
 
 ## done
+
+- **✅ single-home playbook — Founding-gate contribution LANDED (stale-todo reconciled)** *(2026-07-06
+  `d-start` NBA; the contribution itself merged 2026-07-01)* — the `## todo` framed this as "PR owed — open
+  it wearing the Founding hat." **False-open, caught at pickup:** the PR was opened AND merged — **PR #73**
+  (`The-Dyad-Practice-Commons/the-dyad-practice`, merged 2026-07-01, merge `565790a`), artifact live on the
+  form's `main`: `library/single-home/PLAYBOOK.md` + `ledger/3ab18bb7-n1.md`. The todo (written 2026-06-28 at
+  the "staged, PR owed" instant) was never flipped → sat ~8 days as a phantom "open the PR" action; a
+  `d-start: Y` to open it would have created a duplicate/empty PR (branch has zero diff vs `main`).
+  **Re-derive-scope-at-pickup earned its keep again** (same lesson as the git.sh false-open, Stand-Down f).
+  The genuinely-open residual (the held-back `locus:` specialization + breadth falsifier) re-filed as its own
+  `## todo` above. → `carry-forward.md` this-session note.
 
 - **✅ Fix-on-bite backlog drain** *(2026-07-06; `d-start: clear out racked todos`)* — three recurring
   queued-by-name items (re-accreting across stand-downs = the drain-latency failure mode this store names)

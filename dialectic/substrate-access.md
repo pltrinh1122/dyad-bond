@@ -260,9 +260,24 @@ never delegated to the native agent's permission system. This *completes* the tw
   refuses *any* direct push to `main` (was: only force/delete), moving that permission off the native
   substrate into git itself. → `.githooks/pre-push` header (`WIDENED 2026-07-06`).
 
-**Status — CANDIDATE, n=1** (one cross-dyad adopt; one concrete git-layer instance). NOT kb-graduated — the
-open falsifier is *does the git-layer guarantee actually hold on a live `agy` push?* (re-test on the next
-substrate-permission bite). **Queued-by-name, not fired:** tighten `bin/git.sh`'s `push` case to refuse a
+**Status — CANDIDATE, n=2** (one cross-dyad adopt; one concrete git-layer instance; **+ a full-runtime
+test-run 2026-07-07 — the `d-start` dyad-rt arc**). The test-run corroborated every adopted primitive *as
+specified*: `.githooks/pre-push` **logic** 6/6 via its own stdin protocol (main ff / non-ff / delete
+REFUSED; feature ff + force PASS; empty = no-op), `bin/git.sh` + `bin/gh.sh` fail-closed + DRY_RUN +
+arg-pinning, and `bin/claude`'s DRY_RUN preview + PATH recursion-safety. It also **confirmed the kept
+backstop is live**: raw `git push` was denied by the native classifier (two routes), so bond's F2 REJECT
+(native gate as *backstop*, not `--dangerously-skip-permissions`-as-*sole*-gate) is real behaviour, not
+just documentation.
+
+NOT kb-graduated — the **load-bearing off-native guarantee is still untested**, and the n=2 above does NOT
+touch it. **Open falsifier (SHARPENED 2026-07-07, was: "does the git-layer guarantee hold on a live `agy`
+push?"):** the hook's *logic* is proven; what remains unproven is that **git actually *invokes* the hook on
+a real push** — and that is **not exercisable from a native-gated Claude session**, because the classifier
+blocks `git push` *upstream of git*, so the hook is never reached in a denied path (even an offline
+`--dry-run` to a local bare remote was blocked). The guarantee can therefore only be exercised with the
+native gate OFF — a **live `bin/claude` (bypass) or `agy` push aimed at a `main` ref** — which is the
+Operator's launch act, not the Agent's. The necessary condition, `core.hooksPath=.githooks`, is confirmed;
+what's owed is the sufficiency test at that off-native boundary. **Queued-by-name, not fired:** tighten `bin/git.sh`'s `push` case to refuse a
 non-force `main` push too (a policy-block edit = the Operator's covalent act, not folded here unilaterally);
 whether a leaner *declared policy-block* (not cairn's ABAC engine) ever earns its place; whether to open a
 bond↔cairn falsification issue on the shared quarry recording the autonomous-merge divergence.
