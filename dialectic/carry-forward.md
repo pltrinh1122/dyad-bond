@@ -93,8 +93,11 @@ in-flight duplicate effort *before* building, not after — this session did the
 twice over (once here, once already merged) because the brief looked self-contained and the ledger
 wasn't re-checked against fresh `origin/main` before diving in.
 
-**Landed:** merge commit `e8f622d` on `claude/dyad-cairn-discipline-perms-h1z5lx`, pushed. No PR open
-(none existed; this branch is now at parity with `main` plus the one surviving fix).
+**`d-land`ed → PR #92 is up for the Operator's gate.** `bin/land.sh` green-gate passed
+(`invariant-eval.py`), no boot-set file touched (no RESTART-PENDING), no PR template found under
+`.github`. Opened via the GitHub MCP tool (this substrate has no `gh` CLI — `bin/gh.sh`'s `pr create`
+op is unusable here; same discipline, substrate-specific mechanism, same as `d-start`/`d-reflect`
+already differing Claude-vs-agy). Not merged, no reviewers requested — the Operator's gate.
 
 ## Stand-Down 2026-07-06 (f) — `d-start: clear racked todos` → `tackle the parked next`: drain + the d-land spine
 
