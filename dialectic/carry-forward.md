@@ -68,6 +68,34 @@
 > land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
 > `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
 
+## 2026-07-08 — `d-start`: parallel-session reconcile against `main`
+
+**Arc.** A separate `d-start` this session began the same brief independently given elsewhere
+(fetch dyad-cairn, triangulate its git/gh abstraction, close the `d-land` SPINE) on
+`claude/dyad-cairn-discipline-perms-h1z5lx` — unaware a parallel effort had already landed a
+materially more complete version of the same work on `main` (PR #89 `bin/land.sh` + the
+`dyad-rt`/ABAC triangulation in `substrate-access.md`, both merged before this session fetched). The
+Operator flagged the duplication; reconciled via `git merge origin/main` (not a reset/force-push — no
+open PR existed for this branch, but the merge preserves the record over rewriting it) with `bin/land.sh`
+and `substrate-access.md` conflicts resolved **entirely to `main`'s side** — verified byte-identical
+post-merge, nothing of this branch's version survives (it was superseded, not complementary).
+
+**One finding survived, not duplicated elsewhere:** `.githooks/pre-push` was still committed `100644`
+(non-executable) on `main` — the identical `core.fileMode=false`-hides-the-`chmod` bug the parallel
+effort found and fixed for `bin/claude` (`bdbfe58`), just never propagated to this file. Silent-clean
+failure mode (`bond:substrate-agnostic` clause-2): the push-guard looked installed
+(`core.hooksPath=.githooks`) but never actually fired on a fresh clone. Fixed via
+`git update-index --chmod=+x` (mode-only, no content change — merged cleanly, auto-resolved). Verified
+post-merge: `standup.sh`'s Push-guard line now reads ✓ instead of the prior ⚠.
+
+**Lesson for next `d-start`:** check `git log origin/main..HEAD` / recent `main` history for an
+in-flight duplicate effort *before* building, not after — this session did the triangulation work
+twice over (once here, once already merged) because the brief looked self-contained and the ledger
+wasn't re-checked against fresh `origin/main` before diving in.
+
+**Landed:** merge commit `e8f622d` on `claude/dyad-cairn-discipline-perms-h1z5lx`, pushed. No PR open
+(none existed; this branch is now at parity with `main` plus the one surviving fix).
+
 ## Stand-Down 2026-07-06 (f) — `d-start: clear racked todos` → `tackle the parked next`: drain + the d-land spine
 
 **RESTART-PENDING: GLOSSARY.md@2eb9986 SET** (see the ROM block above) — the `§act` entry gained the
