@@ -68,6 +68,43 @@
 > land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
 > `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
 
+## Stand-Down 2026-07-08 — `d-reflect`: the dyad-rt test-run arc closed (n=2 landed; state-space-watch → n=3)
+
+**RESTART-PENDING: none new** — no boot-set (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`/`GLOSSARY.md`) edited this
+session (`standdown.sh`-confirmed, `DYAD.md@a47a65d`). Session edits are all non-boot-set: `substrate-access.md`
+(now on `main` via PR #93), `relationship-craft.md`, `deferrals.md`, this ledger. *(The pre-existing
+`RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot + `RESTART-PENDING(GLOSSARY.md@2eb9986)` next-boot-verify
+stay SET per the ROM block above — untouched.)*
+
+**Arc.** `d-start: dyad-rt test-run arc before other work` → Operator-scoped *"full runtime, end-to-end"* →
+a transient test harness over every adopted `dyad-rt` primitive: **15/15 green** (`.githooks/pre-push` logic
+6/6 via stdin protocol; `git.sh`/`gh.sh` fail-closed + DRY_RUN; `bin/claude` DRY_RUN + recursion-safety) +
+a live confirmation the *kept* native backstop refuses raw `git push`. Recorded (Operator: *"record + sharpen
+falsifier"*): `substrate-access.md §Status` **CANDIDATE n=1→n=2**, falsifier sharpened to the one untested
+boundary (git *invoking* the hook on a real off-native push — the Operator's `bin/claude`/`agy` launch).
+Landed **PR #93** (+ the carried (g) reconciliations + main's pre-push exec-bit fix); Operator-merged;
+`land.sh --sync`'d to `main@6c4e795`, clean slate.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the dyad-rt test-run arc: the honest-ceiling CONTINUE,
+and state-space-under-enumeration recurs to n=3` (full CSS+SH; shown in chat). **Headline CONTINUE = the
+honest ceiling held** — when the classifier blocked the real dry-run push twice, I scoped n=2 to what was
+corroborated and named the untested guarantee rather than let "15/15" counterfeit-green it (no Operator
+prompt). **Headline STOP = state-space-under-enumeration, recurred** — opened PR #93 checking only
+`origin/main..HEAD` (ahead), never `HEAD..origin/main` (main had moved 11h earlier under PR #92) nor
+`gh pr view --json mergeable`; reported *"up for your merge"* on a born-conflicting PR. **Operator-caught**
+(*"resolve PR #93 merge conflicts first"*). **SH found:** Should-Have = verify mergeable before asserting
+gate-ready; Should-Hold = *"up for your merge"* carries a verification obligation, the gate is for judgment
+not defect-discovery. **START = a mechanism, not a note** (the (g) watch's own verdict): fold a freshness +
+mergeability gate into `bin/land.sh` — filed `deferrals.md §todo`.
+
+**Resume delta:** dyad-rt is **CANDIDATE n=2** on `main`; its sole open falsifier is the off-native
+git-invocation test — **the Operator's `bin/claude`(bypass)/`agy` launch**, not Agent-reachable. Branch
+`claude/git-sh-branch-nav` synced clean at `main@6c4e795`; **this reflect's own edits (relationship-craft /
+deferrals / this ledger) ride a new PR → Operator-merge** (branch→PR, never direct `main`). **New tracked
+debt = the `land.sh` freshness+mergeability gate** (`deferrals.md §todo`), now **n=3 escrowed** — the next
+`d-land` should build it. Substantive fronts untouched (the deferred relationship-craft telos; the parked
+cross-dyad/apex work). IM daemon left un-armed by the session's tight scope.
+
 ## 2026-07-08 — `d-start`: parallel-session reconcile against `main`
 
 **Arc.** A separate `d-start` this session began the same brief independently given elsewhere

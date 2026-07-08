@@ -30,6 +30,17 @@
 
 ## todo
 
+- **`bin/land.sh` — freshness + mergeability gate (the n=3 state-space debt)** *(2026-07-08; `d-reflect` —
+  the dyad-rt test-run arc STOP; → `relationship-craft.md §Reflect — the dyad-rt test-run arc`)* — the
+  d-land spine checks the *ahead* delta but never the *behind* one, so a moved `main` isn't caught until the
+  Operator sees a CONFLICTING PR (happened on **PR #93**). Fold two mechanical checks into `bin/land.sh`:
+  **(a)** pre-PR — `git fetch origin main` + refuse/warn if `HEAD..origin/main` is non-empty (reconcile
+  first); **(b)** post-open — poll `gh pr view --json mergeable,mergeStateStatus`, surface CONFLICTING loudly
+  *before* the "up for your gate" hand-off. **This is the escrowed mechanism the ingraining-watch has demanded
+  since (f):** state-space-under-enumeration is **n=3** (durability-primitive misses → NBA `--state open`
+  miss → this PR-freshness miss), and the (g) reflect already ruled *"machinery, not another note."* Fix-on-
+  bite: build on the next `d-land`. Grant for `Bash(bin/land.sh:*)` may still be pending (see the (g)-arc note).
+
 - **`single-home` playbook — specialization residual (n=0, held back)** *(2026-06-28; the PLAYBOOK
   contribution itself DONE, see `## done`)* — the `locus:` tag axis + the reach-rule are named in the
   now-merged playbook as bond's *specialization* but kept OUT of the ledger until they survive a reuse/boot
