@@ -83,6 +83,34 @@
 
 ## done
 
+- **✅ Fix-on-bite backlog drain** *(2026-07-06; `d-start: clear out racked todos`)* — three recurring
+  queued-by-name items (re-accreting across stand-downs = the drain-latency failure mode this store names)
+  cleared on `claude/git-sh-branch-nav`, riding the Operator's merge-gate:
+  - **`bin/gh.sh` exec bit** — was `100644`; set `100755` via `git update-index --chmod=+x` (same class as
+    `bdbfe58`'s `bin/claude` fix — `core.fileMode=false` hides a plain `chmod`).
+  - **`bin/standup.sh` ANCHOR_FILES += `GLOSSARY.md`** — the mechanized ROM check omitted a boot-set file
+    (all 4 shas currently match the ledger's per-file line, so it MATCHes; no false MISMATCH). The success
+    line now names the 4-file set.
+  - **`.claude/settings.json` inert-key removal** — dropped `defaultMode:"auto"` (top-level misplacement +
+    ignored for project scope v2.1.142+) and `skipAutoPermissionPrompt` (undocumented/defunct), both proven
+    dead in Stand-Down 2026-07-06 (c). No enforcement change → no self-grant; still rides branch→PR→merge.
+  - **git.sh "local branch-nav gap" — RE-LABELED (false-open), not a fix.** The three-way model is
+    design-*resolved* (`substrate-access.md §Tier-2`: local-nav = raw and it PROMPTS, an accepted guard).
+    The recurring "gap persists" note is a false-open; the genuine residual is the **d-land spine** (below),
+    now built.
+
+- **✅ d-land spine — `bin/land.sh` built** *(2026-07-06; the residual behind the git.sh false-open above;
+  parked since 2026-07-05 "d-land requires permission")* — the missing third spine; closes
+  `d-start:standup.sh :: d-reflect:standdown.sh :: d-land:land.sh`. Mechanizes the landing-discipline's
+  checkable half (green-gate rigs · arc-scope by execution · open-PR-state route · RESTART-PENDING detect ·
+  PR-template check) and encapsulates the **post-merge sync/re-branch local-nav** that prompted every
+  session (`land.sh --sync` — the strand-remover, safe-reset only when 0-ahead, refuses on `main`). Stops
+  before the judgment (execution-DAG, PR body) + the gate (merge stays the Operator's). Granted as one unit
+  `Bash(bin/land.sh:*)`; exec bit set in-index. Single-home → `substrate-access.md §Discipline-based
+  permissioning` (Tier-1). **Falsifier:** if a real `d-land` still prompts on local-nav → the spine is
+  incomplete (fold it in), per the flex mechanism. **n=2** — `--sync` validated live (un-prompted) on the
+  PR #89 and #90 merges; falsifier did not fire. → `carry-forward.md` Stand-Down (f) + `relationship-craft.md`.
+
 - **✅ Steward-hat heads-up: X-tier invariants renamed under slug-canonical** *(2026-07-04; Notified via dyad-steward issue #29)* — `X1/X2/X3` (cross-dyad candidates) are now `bond:oracle-coverage` / `bond:independence-two-factor` / `bond:green-check-tell`. Notified sibling dyad that we are keeping `X#` as published display aliases so existing cross-dyad references resolve.
 
 - **✅ Anchor-src probes — md→yaml→rendered lifecycle (ARCHIVED N/A)** *(2026-06-29; Operator Y)* —

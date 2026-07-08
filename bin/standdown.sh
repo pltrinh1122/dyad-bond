@@ -64,10 +64,14 @@ fi
 
 dirty="$(git status --porcelain 2>/dev/null || true)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
-unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
-dur_line="clean + in sync on \`$branch\`."
+# "unbacked" = commits reachable from HEAD but not from ANY remote ref (refs/remotes/*) — the true
+# off-disk-durability test. Robust to the three traps found building land.sh: git.sh pushes without -u
+# (@{u} unreliable); auto-delete-on-merge leaves a STALE origin/<branch>; a fresh re-branch sits on
+# origin/main (backed up there). Single command → no pipefail double-emit.
+unbacked="$(git rev-list --count HEAD --not --remotes 2>/dev/null || echo '?')"
+dur_line="clean + backed up on \`$branch\`."
 [[ -n "$dirty" ]] && dur_line="⚠ DIRTY on \`$branch\` — commit + push so the memory is grounded."
-[[ -z "$dirty" && "$unpushed" != "0" ]] && dur_line="⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh)."
+[[ -z "$dirty" && "$unbacked" != "0" ]] && dur_line="⚠ $unbacked commit(s) not backed up on any remote on \`$branch\` — push (bin/git.sh)."
 
 # Scratch tier RETIRED 2026-06-27 (Operator fold+land) — durability-of-record is the Agent-owned WIP
 # auto-save (commit+push at natural pauses), Stop-hook-enforced. → dialectic/substrate-access.md §Scratch RETIRED.

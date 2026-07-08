@@ -29,7 +29,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 LEDGER="dialectic/carry-forward.md"
-ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md)
+ANCHOR_FILES=(DYAD.md CLAUDE.md GEMINI.md GLOSSARY.md)
 
 lines=()
 add() { lines+=("$1"); }
@@ -65,20 +65,24 @@ else
     add "          then notify the Operator + refresh the per-file boot-set line in $LEDGER."
   else
     base="${want[DYAD.md]:-$legacy}"
-    add "ROM-UI: ✓ MATCH (boot-set {DYAD.md, CLAUDE.md, GEMINI.md} each at its recorded per-file sha; DYAD.md@${base:0:7})."
+    add "ROM-UI: ✓ MATCH (boot-set {DYAD.md, CLAUDE.md, GEMINI.md, GLOSSARY.md} each at its recorded per-file sha; DYAD.md@${base:0:7})."
   fi
 fi
 
 # ── Memory-durability (uncommitted/unpushed = ungrounded memory; the standing substrate threat) ─
 dirty="$(git status --porcelain 2>/dev/null || true)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
-unpushed="$(git log --oneline '@{u}..' 2>/dev/null | wc -l | tr -d ' ' || echo 0)"
+# "unbacked" = commits reachable from HEAD but not from ANY remote ref (refs/remotes/*) — the true
+# off-disk-durability test. Robust to the three traps found building land.sh: git.sh pushes without -u
+# (@{u} unreliable); auto-delete-on-merge leaves a STALE origin/<branch>; a fresh re-branch sits on
+# origin/main (backed up there). Single command → no pipefail double-emit.
+unbacked="$(git rev-list --count HEAD --not --remotes 2>/dev/null || echo '?')"
 if [[ -n "$dirty" ]]; then
   add "Durability: ⚠ working tree DIRTY on \`$branch\` ($(printf '%s\n' "$dirty" | wc -l | tr -d ' ') paths) — commit before relying on the ledger as memory."
-elif [[ "$unpushed" != "0" ]]; then
-  add "Durability: ⚠ $unpushed unpushed commit(s) on \`$branch\` — push (bin/git.sh) so the remote backs up the memory."
+elif [[ "$unbacked" != "0" ]]; then
+  add "Durability: ⚠ $unbacked commit(s) not backed up on any remote on \`$branch\` — push (bin/git.sh) so the remote backs up the memory."
 else
-  add "Durability: ✓ clean + in sync on \`$branch\`."
+  add "Durability: ✓ clean + backed up on \`$branch\`."
 fi
 
 # ── Substrate probe (is this the durable home, or an ephemeral clone? is the IM daemon armable?) ─

@@ -52,17 +52,150 @@
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — unchanged; **booted coherent this session** from `CLAUDE.md@8f2473c`. Boot-set files `GEMINI.md@178324c` + `GLOSSARY.md@1ce9828` moved in prior #85 commits; deltas **verified-by-diff = the logged changes, nothing else** (GEMINI: agy mutation-hard-rule injection; GLOSSARY: `d-land` DAG update).
 > *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-04 `d-reflect`):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@1ce9828`.
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-06 `d-land`, GLOSSARY):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@2eb9986`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
-> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` array still doesn't
-> include `GLOSSARY.md`, so the mechanized check only compares `{DYAD.md, CLAUDE.md, GEMINI.md}`;
-> flagging the script/ledger gap, not unilaterally widening the script.)*
+> single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` now includes
+> `GLOSSARY.md` — the script/ledger gap was closed in the 2026-07-06 fix-on-bite drain (PR #88, merged),
+> so the mechanized check compares all four boot-set files.)*
 > **RESTART-PENDING (CLAUDE.md): CLEARED 2026-07-04 `d-reflect`** — booted from `CLAUDE.md@8f2473c` this
 > session; parses/boots coherently with the corrected `Substrate-access` line; sha refreshed above.
 > **RESTART-PENDING (GEMINI.md@178324c): SET** — the agy mutation-hard-rule delta has NOT been agy-cold-
 > booted (the prior CLEARED note was for `9164a0d`, now superseded). **Binds next agy boot:** confirm
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
+> **RESTART-PENDING (GLOSSARY.md@2eb9986): SET 2026-07-06 `d-land`** — the `§act` d-land entry gained the
+> `bin/land.sh` spine line + the symmetry line extended to `:: d-land : land.sh` (this session, rides the
+> land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
+> `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
+
+## Stand-Down 2026-07-06 (f) — `d-start: clear racked todos` → `tackle the parked next`: drain + the d-land spine
+
+**RESTART-PENDING: GLOSSARY.md@2eb9986 SET** (see the ROM block above) — the `§act` entry gained the
+`bin/land.sh` spine line + the symmetry line; boot-set sha refreshed so no false-MISMATCH. All other edits
+are non-boot-set (`bin/*.sh`, `.claude/settings.json`, `substrate-access.md`, `deferrals.md`, this ledger).
+
+**Two arcs, Operator-gated:**
+1. **Fix-on-bite drain** (`d-start`) → **PR #88, MERGED.** `gh.sh` exec-bit · `standup.sh` ANCHOR_FILES
+   `+= GLOSSARY.md` · dropped inert `settings.json` keys · re-labeled the git.sh local-nav "gap" as a
+   false-open (design-resolved, `substrate-access.md §Tier-2`). Also recovered a stranded gate-#17 reflect
+   (`255bd05`) that PR #87's merge left off `main`. Branch reset to fresh `main` post-merge (strand closed).
+2. **The d-land spine** (`tackle the parked next`) → **PR #89, MERGED.** `bin/land.sh` — the missing third
+   spine (`d-land:land.sh`); mechanizes the landing-discipline's checkable half + `--sync` owns the
+   post-merge sync/re-branch local-nav that prompted every session. Stops before judgment + gate.
+   **Dogfooded on its own landing → found + fixed three durability bugs** across all three spines.
+3. **Durability primitive convergence** → **PR #90, MERGED.** The check across all three spines is now
+   `git rev-list --count HEAD --not --remotes` (backed-up-on-any-remote) — third + convergent iteration,
+   each surfaced by dogfooding a distinct real scenario (pipefail double-emit · `@{u}` unreliable, git.sh
+   omits `-u` · stale `origin/<branch>` after auto-delete-on-merge). Verified live on `main`.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the d-land spine arc: dogfood-falsifies-own-claim,
+and local-patch-over-reason-the-invariant` (full CSS+SH shown in chat). **Headline STOP = local-patch-to-green
+over reason-the-invariant** (self-found via dogfooding, not Operator-caught — the first zero-STOP-catch arc in
+the recent run). START = enumerate a check's state-space + reach for the canonical primitive first. SH = **none
+found** (Operator provenance was directives + merge confirmations only; recorded explicitly per the
+mandatory-OR-check convention).
+
+**Resume delta:** all three PRs (#88/#89/#90) MERGED; branch reconciled to `main@8ddb97e` via `land.sh --sync`
+(n=2, un-prompted). **`bin/land.sh` is now the d-land spine — use it at the next landing** (`land.sh` for the
+checks, `land.sh --sync` for post-merge re-branch). **RESTART-PENDING(GLOSSARY.md@2eb9986) stays SET** for the
+next cold boot to verify + clear (can't clear mid-session). Theory-pipeline: the spine candidate advanced
+**n=0→n=2** — `--sync` validated live on the #89 and #90 merges, un-prompted; falsifier ("a real `d-land`
+still prompts on local-nav") did not fire. **d-land verify-spine is DONE** (off the fix-on-bite queue). Still
+parked: cross-repo push choke-point (Operator's act); the substantive `## todo` fronts.
+
+## Stand-Down 2026-07-06 (e) — `d-reflect`: gate #17 CAS-conformance arc closed
+
+**RESTART-PENDING: none** — no anchor/shim edits this session. ROM boot-set unchanged
+(`DYAD.md@a47a65d`, mechanical-confirmed by `standdown.sh`). Session edits: the **external**
+`commission-dyad-system` `REQUIREMENTS.md` (via PR #8, merged); the memory system; `relationship-craft.md`
++ this ledger. *(The pre-existing `RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot is untouched.)*
+
+**Reflect landed** → `relationship-craft.md §Reflect — CAS-conformance of the Request: the
+too-literal-conformance STOP` (CSS+SH). Headline **STOP = verified the transformation, not the content** —
+a false "binary" (3-element set) and an annex-shaped skeleton rode through a clean *delta* audit because
+they were in the **carried** content, not the diff; **F-4/no-drift checks the changed, not the preserved.**
+**SH** (verbatim): *"'binary' appears to be inaccurate"* · *"why not adopt headings that support 'component'
+organizations?"* — a conform/fix task carries a whole-artifact truth-reading obligation. Cross-arc link
+noted: same root as (d)'s STOP — a claim riding without falsification (watch for n=3).
+
+**Resume delta:** gate **#17 CLOSED** (`dyad-leo-fleet#17`); `REQUIREMENTS.md` is CAS-conformant +
+component-topology on `commission-dyad-system` **main @ `e3448b3`**. **Nothing bond-outstanding on the arc.**
+Successor **#11 → cairn**: re-mirror `SPECIFICATION.md` against `e3448b3` (new §3/§4 component structure,
+moved anchors) + fix SPEC's own `title`≠`H1`; unblocks the held **PR #5**. New memory: `published-artifact-minimalism`.
+Queued-by-name (not fired): **(1)** the cross-repo push used `git.sh` by **abs-path against the commission
+repo** (feature-branch only, policy applied) — the Operator flagged whether that cross-repo path should get
+its **own declared choke-point** (their act); **(2)** the `git.sh` local branch-nav gap persists (this
+reflection again lands on `claude/git-sh-branch-nav`).
+
+## Stand-Down 2026-07-06 (d) — `d-reflect`: dyad-rt adopt arc closed
+
+**RESTART-PENDING: none** — no anchor/shim edits this session (edits: `.githooks/pre-push`, `bin/claude`,
+`dialectic/substrate-access.md`, `dialectic/relationship-craft.md`, this ledger). ROM boot-set unchanged
+(`DYAD.md@a47a65d`). *(The pre-existing `RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot is untouched.)*
+
+**Reflect landed** → `relationship-craft.md §Reflect — the dyad-rt adopt: falsify-decompose an external
+runtime; the grounded-on-actual STOP` (CSS+SH). Headline **STOP = smoothing the mortar on my OWN substrate
+claims** — asserted claude-bypass "non-self-grantable" as *general* when it's cloud-only; fix = primary-source
++ actual-config over a subagent's doc-paraphrase. **SH** (verbatim): *"synthesize findings, ensuring those are
+grounded on actual"* — grounding is a precondition of synthesis, not an Operator-prompted repair.
+
+**Resume delta:** the dyad-rt arc rides **PR #87** (this session added 6 commits — the dyad-rt principle +
+git-layer hook, transient-script discipline, naming decision, bypass operating-mode, `bin/claude`, its
+exec-bit fix; the PR carries the branch's full ~31-commit delta to `main`). **Up for the Operator's merge; nothing
+bond-outstanding on the arc.** **NEXT BOOT = `bypassPermissions`** — see Stand-Down (c)'s loud flag + launch via
+`bin/claude`. Queued-by-name (not fired): `bin/gh.sh` exec-bit fix (same `update-index --chmod=+x`); drop the
+inert `defaultMode:auto` + `skipAutoPermissionPrompt` from `.claude/settings.json`; the `git.sh` local-nav gap
+(prior sessions).
+
+## Stand-Down 2026-07-06 (c) — `d-land`: `bypassPermissions` from next boot (Operator-elected)
+
+> **⚠ NEXT-BOOT OPERATING MODE = `bypassPermissions` (native permission gate OFF).** The next `claude`
+> session runs with the **native gate off**, Operator-enabled via the launch flag
+> `claude --dangerously-skip-permissions`. **The only guards left are the git-layer hooks + your own
+> discipline** — the auto-mode classifier that blocked `rm -rf` / `git reset --hard` / external-push /
+> direct-push-`main` is GONE. **SURVIVES:** `.githooks/pre-push` fires regardless of mode → force/delete/
+> direct-push of `main` still refused (`--no-verify` = visible escape); `rm -rf /`·`~`, explicit `ask`
+> rules, MCP consent still prompt. **EXPOSED:** the non-git destructive class (`rm -rf <subdir>`,
+> `reset --hard`, `clean -fd`) — no hook covers it; safety rests on the **isolated/disposable run host**
+> (Operator-asserted). Operate with care; local-nav is unguarded. → `substrate-access.md §Operating mode`.
+
+**Arc (`d-land`).** Grounded the bypass mechanics on primary-source docs + bond's *actual* config. Bypass is a
+**launch-flag** act — not a checked-in default (can't self-grant via config: protected-path + `no-self-ratify`;
+cloud ignores checked-in bypass; local needs the flag); not-root (uid 1000) → the flag is **accepted**.
+Reconciled with the arc's F2 REJECT: electing skip-permissions is consistent *because* the git-hook backstop
+now exists for the irreversible-`main` class (bypass without a backstop was the thing rejected). Recorded the
+operating-mode + safety envelope in `substrate-access.md §Operating mode`; the actual enable is the Operator's
+next launch. **Also surfaced (grounded on actual):** bond's checked-in `defaultMode: "auto"` is **inert** —
+top-level misplacement (schema wants `permissions.defaultMode`) *and* v2.1.142+ ignores project-scoped `auto`
+— so the auto-mode classifier's native "block push-to-`main`" was already off → the `.githooks/pre-push` guard
+is **non-redundant**, not portability theater. `skipAutoPermissionPrompt` in settings is undocumented (likely
+defunct). All of this rides **PR #87** (dyad-rt adopt arc); Operator merges.
+
+**Config hand-off (the Operator's act, not mine to self-grant):** use **`bin/claude`** — the opt-in launcher
+(Operator-directed, inherited from cairn's `bin/agy`, landed on PR #87): `claude` = normal (native gate on),
+`bin/claude` = DYAD mode (execs `claude --dangerously-skip-permissions`; recursion-safe PATH-strip;
+`CLAUDE_SH_DRY_RUN=1` to preview). A settings-file `defaultMode: "bypassPermissions"` is deliberately **NOT**
+used (self-grant + unreliable locally + cloud-ignored).
+
+## Stand-Down 2026-07-06 (b) — `d-reflect`: gate #12 delivered (§6 extraction requirements), #11 routed
+
+**RESTART-PENDING: none** — anchor/shims untouched (edits: `bin/gh.sh` v0.2, `substrate-access.md`, `cross-dyad-craft.md`, this ledger; §6 authoring was on the `commission-dyad-system` quarry via `bin/quarry.sh`). ROM boot-set unchanged (`DYAD.md@a47a65d`).
+
+**Arc (d-start: falsify-before-execute; hand-carried via dyad-leo #12).** Falsified all 5 of the gate's claims (all CONFIRMED) + verified #12 is bond's *own* #10 disposition routed back, not Leo over-reach. Falsification surfaced two model-level corrections the disposition hadn't seen → single-homed in `cross-dyad-craft.md` (the F-namespace collision + the F-green-is-architecture-scoped findings). Operator disposed scope-**(a)** ("unbuilt engine ⇒ take the extraction *learning* without the obligation to reuse"). Authored `REQUIREMENTS.md` **§6** (extraction component: RX1–5, `F-X-*` acceptance set, Gate-0) on the quarry → PR #6, Operator-merged (re-pin `6c3fc6d`); `commission-invariant-engine` placeholder subsumed. Closed #12; routed #11 to cairn on PR #5.
+
+**Live front (resume delta) — supersedes the (close) entry's "owed §6":** the Philosopher increment is **discharged**. **Ball is cairn's (#11):** revise PR #5's extractor-integration SPECIFICATION against §6 (adopt `F-X-*`; Unified View Adapter = `new`/unvalidated; rebase the PR-#4 conflict) → then the Operator's gate. Bond has nothing outstanding on the arc. `commission-engine-model` memory still current.
+
+**Substrate delta:** `bin/gh.sh` grew twice on genuine bites (a zero-publish **READ** class, then `issue close`), both Operator-directed, kept as distinct classes so the write-gate stays legible — live confirmation of the `discipline-based-permissioning` flex-mechanism (fold-on-bite via the reviewed policy block; single-home `substrate-access.md §gh.sh`). New feedback-memory `substrate-wrapper-over-allowlist`.
+
+## 2026-07-06 (close) — `d-reflect`: fleet-orchestration falsification + 5 bond-gate dispositions + engine-model/topology ratified
+
+**RESTART-PENDING: none** — anchor `DYAD.md`/shims untouched this session (edits: `dialectic/cross-dyad-craft.md` + this ledger; all fleet/commission work was on sibling repos via `gh`). ROM per-file boot-set unchanged (`DYAD.md@a47a65d`).
+
+**Arc (Operator-gated; hand-carried via dyad-leo).** Resumed the commission-quarry arc. Falsified dyad-leo's fleet-orchestration scheme (`dyad-leo-fleet#8` — 2 fidelity defects, both confirmed+fixed, `fleet:owner-dispositional-exit` formalized). Disposed 5 bond gates: #1/#7 genesis-lock via **dissent** (refused a self-grant "extended Genesis Exception"); #5 README post-lock PR; #3 Model-B Solicit (covalent); #2 F-1.2/F-3 — caught **by-execution** that the delivery collected 0 tests in-repo (`ModuleNotFoundError`), fixed via PR, MET. **cairn ran a real Falsification** on the Solicit (F-3 atomicity vs §3 recovery) → bond disposed (git-boundary reading + polarity correction + REQUIREMENTS clarification PR, merged). Design riff **resolved the engine model** (ONE engine = dyad-system; extractor = component) and **ratified the Neutral-Quarry topology** (#10, routed via Leo). **Reflect** → `cross-dyad-craft.md §Quarry arc s2` (the prior arc's falsifier was tested — cairn hit a semantic contradiction only bond could resolve, and the boundary HELD; CANDIDATE n=1→n=2). **STOP of record:** the `surface-model-level-decisions` discipline was named last arc and I still baked the *unratified* three-party topology into a README + Solicit — the guard must fire at each commission-artifact seam.
+
+**Live front (resume delta):** the "engine" is ONE thing — `commission-dyad-system` (validated-factory); `commission-invariant-engine` (extractor) is a **component**, not a peer. **Next bond work (Philosopher, owed):** develop Model-B `REQUIREMENTS.md` to full engine scope — fold the extractor's requirements in as a component section; invariant-engine's placeholder REQUIREMENTS is subsumed. This is the "baseline to build on" the Operator wants. **Awaiting cairn (Architect):** proposal to fold the built F-green extractor into dyad-system's `src/`+`tests/` and retire `commission-invariant-engine`. Fleet gates #1/#2/#3/#5/#7 closed; #10 ratified + routed via Leo (Leo dispatches to cairn + closes). Detail in the `dyad-leo-fleet-gates` + `commission-engine-model` auto-memories.
+
+**Durability:** this reflect + the `cross-dyad-craft.md` entry commit+push to `claude/git-sh-branch-nav` (`bin/git.sh`); branch→`main` is the Operator's PR-merge per standing dispositions.
 
 ## 2026-07-05 (cont.) — `d-start`: dyad-cairn triangulation + `d-land` SPINE shipped
 
@@ -1585,6 +1718,28 @@ archived there under their original letters `A · C · G · H` (now archive loca
 During `d-land`, the Agent detected documentation drift in `substrate-access.md` but halted with an unnecessary disposition request rather than autonomously resolving the mechanical dependency.
 **Operator disposition:** updated `d-land` in `GLOSSARY.md` and the `relationship-craft.md` checklist to mandate **building and reviewing an execution DAG** before execution. This explicitly elevates all `d-` triggers (`d-land`, `d-start`, `d-reflect`) into full **DISCOVER-PLAN-EXECUTE-REFLECT** autonomy loops.
 **Durability:** documentation and checklist updates committed and pushed to PR #85. **Reflect landed** → `relationship-craft.md §Reflect — the substrate-agnostic fail-loud arc` (CSS+OR/SH form).
+
+## Stand-Down 2026-07-05 — bond's first commission-quarry genesis (dyad-system; Model B)
+
+**Arc (Operator `d-start: falsify cairn's DM` → genesis).** Falsified cairn's dyad-system
+acceptance/spec-rub DM (pin verified; caught the un-disposed F-set + the named-but-absent
+`claim-core-schema`). Surfaced the two-record data model, which the Operator **reversed to
+single-identity (Model B)**. Discovered cairn's **Commissioning Protocol**
+(`github.com/pltrinh1122/dyad-cairn/kb/HOW-commission.md`) + Neutral Quarry topology; authored bond's
+Truth-layer `REQUIREMENTS.md` (Model B) + `README.md` as **Commissioner** and **landed the genesis** to
+`commission-dyad-system` main (`d5a1727`). Built **`bin/quarry.sh`** — declared-policy substrate wrapper
+for commission quarries; grant `Bash(bin/quarry.sh:*)` (Operator-ratified widening). `dyad-system.md`
+decision #1 reversed to Model B; that file is now design-history, arc moved to the quarry.
+
+**Reflect landed** → `cross-dyad-craft.md §Commissioning Protocol + Neutral Quarry` (CSS + OR/SH). New
+memories: `surface-model-level-decisions`, `commission-requirements-not-solution`.
+
+**Resume / live front.** The dyad-system arc's live Truth is now the **quarry `REQUIREMENTS.md`**, not
+`dialectic/dyad-system.md`. NBA: cairn (Prime-Commissionee) accommodates by re-spec'ing
+`SPECIFICATION.md` against Model B; per the protocol, bond↔cairn falsification moves to **quarry Issues**
+(DMs deprecated for project work) — the open next-action is the bond Issue notifying cairn the Truth is
+anchored and Model B changed the shape. Bond-repo changes on branch `claude/git-sh-branch-nav`
+(`d871f62`), not yet PR'd to main.
 
 ## NBA — rendered on demand (no stored block)
 > NBA is a **view, not a section**: the recommendation render over the work-item store `{in-progress ∪ todo}` (→ `dialectic/memory-axes.md`). The prior stored block (with the s5/s6/s7 stand-down summaries) was stripped to the archive — pull the NBA on demand.

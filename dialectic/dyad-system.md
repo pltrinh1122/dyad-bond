@@ -1,7 +1,11 @@
 # dyad-system — mechanizing the claim/invariant structure *(new arc, 2026-07-01)*
 
-> **Status: IN-PROGRESS, design stage — no code yet.** Single-home for this arc (→ `deferrals.md`
-> `## in-progress` points here). Born from the `bond:C1`/`bond:livability` validator-drift catch at
+> **Status: COMMISSIONED — live Truth now in the quarry.** The arc has moved into a *Neutral Quarry*
+> commission repo (`commission-dyad-system`, per dyad-cairn's Commissioning Protocol). Bond's live,
+> authoritative requirements are `REQUIREMENTS.md` in that quarry; this file is now the **design-ground
+> record**, not the live spec. **Data model REVERSED to single-identity (Model B), Operator disposition
+> 2026-07-05** — see Design-decision 1 below. Single-home for the *design history* of this arc.
+> Born from the `bond:C1`/`bond:livability` validator-drift catch at
 > resume (`carry-forward.md`, Stand-Up 2026-07-01) — a schema/corpus divergence that sat unnoticed
 > because nothing gates `theory-pipeline.yaml` at all, and nothing caught `invariants-bond.yaml`'s
 > drift until the validator happened to be run by hand.
@@ -28,14 +32,26 @@ un-unified:
 
 ## Design decisions reached (2026-07-01 session, dialectically — not yet built)
 
-1. **Claim → Invariant is a `graduates-to` (produces) relationship, NOT `is-a` (inheritance).**
-   A candidate is a live, mutable, open inquiry (`coverage`, `grade`, `prediction_pair`,
-   `disposition_history` — fields that change on every attack). A ratified invariant is frozen and
-   DAG-anchored (`root`, `grounded_in`, `prescription`, `math` — fields that only make sense once
-   nothing is being investigated anymore). Graduating produces a *new* record, in a *different*
-   file, under a *different* id-namespace, usually compressed (`statement` → `one_liner`) — not a
-   mutated subtype continuing to exist. Modeling it as inheritance would force one validator to
-   reason about a record simultaneously "still open" and "now frozen" — more mechanism, not less.
+1. **Claim identity is SINGLE and CONTINUOUS — one entity that persists through its lifecycle states
+   (candidate → invariant).** *(Model B. REVERSED 2026-07-05 by Operator disposition — supersedes the
+   earlier `graduates-to` lean recorded below.)*
+   **The reversal:** the earlier design leaned `graduates-to` — graduation mints a *new* invariant
+   record under a *different* id, linked by a lineage edge, with `is-a` rejected. The Operator disposed
+   the opposite and it is now Truth: a claim is ONE entity with ONE stable id for its whole life;
+   **graduation is a state transition in place**, and the claim **relocates** between the two
+   state-partition files (`theory-pipeline.yaml` candidates → `invariants-bond.yaml` invariants),
+   carrying its id and its now-frozen candidate-phase history. Removal is by explicit **retirement**
+   (no-longer-relevant-to-the-dyad), never by graduation.
+   **Why the reversal:** the Operator has always held single-identity as the claim's mental model; the
+   two-record scheme was an un-surfaced *implementation* choice, and carrying two divergent models of
+   the same entity is anti-wu-wei — align on one. The prior rationale (a validator reasoning over a
+   "still-open OR now-frozen" record) is answered by state-conditional validation
+   (`required_iff`/`forbidden_iff`), a pattern `invariant-schema.yaml` already uses.
+   **The earlier `graduates-to` reasoning, kept as design history:** a candidate was framed as a live,
+   mutable inquiry (`coverage`/`grade`/`prediction_pair`/`disposition_history`) and an invariant as
+   frozen/DAG-anchored (`root`/`grounded_in`/`prescription`/`math`), the two treated as *different
+   records* rather than *phases of one claim*. Under Model B these are lifecycle **phases** of the one
+   entity, not separate records (reframes decision 2's partition accordingly).
 
 2. **Shared `claim-core` = a base CONTRACT both schemas independently satisfy, not literal
    subclassing.** What's actually shareable/offloadable: `id` pattern + **global** uniqueness

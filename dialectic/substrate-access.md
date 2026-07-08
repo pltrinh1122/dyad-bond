@@ -211,11 +211,11 @@ merge of PR #3; the full-doc-review refinement landed via the PR #4 review.
 **The problem it solves.** Point-grants accrete by *mechanism* with no principle deciding the set (this arc: `pr view`, `rev-list` added one-at-a-time on friction, each justified by a fuzzy "route through the wrapper for agy" that didn't survive inspection — they're reads, which already run raw un-prompted). Intent-based permissioning is the right frame but "intent" is not a *verifiable* predicate. **A discipline is intent with a closed step-list** — so binding the grant to the discipline keeps the *why* and gives a bounded, eyeball-checkable *extent*.
 
 **Two tiers, by whether the op lives inside a named discipline:**
-- **Tier-1 · disciplines.** Each `d-*` discipline = a **committed spine script**, granted as **one stable** `Bash(bin/<spine>.sh:*)`. `d-start`→`standup.sh`, `d-reflect`→`standdown.sh` (both self-contained reads → fully covered). `d-land` has **no full spine** — it interleaves mechanical ops with irreducible judgment (DAG-resolution, PR body) and **the covalent gate** (merge, which must NEVER be scripted). Its grantable slice is a *verify-spine* (the read-only check-rigs); its commit/push/PR-create ride the narrow wrappers; its merge stays the Operator's.
+- **Tier-1 · disciplines.** Each `d-*` discipline = a **committed spine script**, granted as **one stable** `Bash(bin/<spine>.sh:*)`. `d-start`→`standup.sh`, `d-reflect`→`standdown.sh`, `d-land`→`land.sh` (built 2026-07-06; the symmetry `d-start:standup.sh :: d-reflect:standdown.sh :: d-land:land.sh` now closes). `land.sh` is a **partial** spine by design — it mechanizes the landing-discipline's *checkable* half (green-gate rigs, arc-scope by execution, open-PR-state route, RESTART-PENDING detect, PR-template check) and encapsulates the **post-merge sync/re-branch local-nav** that used to prompt (`land.sh --sync`: safe re-branch when the branch's PR merged and nothing's ahead — the strand-remover; refuses on `main`, never discards ahead-commits). It **stops before the judgment + the gate**: the execution DAG and PR body stay the agent's covalent act, the PR-open rides `gh.sh` under the `d-land` signal (`bond:no-self-act`), the **merge stays the Operator's** (`bond:no-self-ratify`) — *script the spine, never the gate*.
 - **Tier-2 · interstitial default** (anything outside a discipline — ad-hoc exploration): the wrapper's line is **write-vs-navigate, not git-vs-not-git**, and git-op friction splits **three ways**:
   - **Content reads** (`log`/`status`/`diff`/`rev-list`/`show`) — raw, **auto-approved** by the classifier (zero risk); frictionless.
   - **History/remote writes** (`commit`/`add`/`push`/`pull`) — via **`bin/git.sh`, never raw**; frictionless (allowlisted wrapper); this is where durability + `main`-protection live.
-  - **Local-nav / local-state** (`checkout`/`fetch`/`branch`/`reset`) — raw, and **it prompts** (the classifier guards local state-changes; several are destructive — `reset --hard`, `branch -D`, `checkout --`). That prompt is an **acceptable guard**, not friction to blanket-remove: local-nav is occasional and some of it is dangerous. When it recurs *inside a discipline* (e.g. `d-land`'s post-merge sync/re-branch), the fix is **that discipline's spine script** encapsulating it, granted as one unit — **NOT** a universal `git.sh`/allowlist widen.
+  - **Local-nav / local-state** (`checkout`/`fetch`/`branch`/`reset`) — raw, and **it prompts** (the classifier guards local state-changes; several are destructive — `reset --hard`, `branch -D`, `checkout --`). That prompt is an **acceptable guard**, not friction to blanket-remove: local-nav is occasional and some of it is dangerous. When it recurs *inside a discipline* (e.g. `d-land`'s post-merge sync/re-branch), the fix is **that discipline's spine script** encapsulating it, granted as one unit — **NOT** a universal `git.sh`/allowlist widen. *(Done for `d-land`: `bin/land.sh --sync` now owns that sync/re-branch — see Tier-1 above.)*
 
   `gh.sh` carries the outward-publish set; **compound bash prompts** (the friction-gradient → make a recurring op a committed script). *(Guard against the recurring mechanism-widen: universally adding a local-nav op to `git.sh` was proposed here 2026-07-05 and reverted — Operator-caught — because "which tier/discipline owns this" beats "which command." Local-nav that prompts is fine; a frictionless discipline comes from its spine, not a widened wrapper.)*
 
@@ -227,56 +227,116 @@ merge of PR #3; the full-doc-review refinement landed via the PR #4 review.
 
 **Self-limits (what keeps it from collapsing covalence).** *Script the spine, never the gate* — automating merge→`main` would meld the Validate half away. *Reads stay raw* — the mutation/read line is what keeps the wrappers legible. **Falsifier:** if completing a fully-spined discipline still prompts → the spine is incomplete (fold in) or the grant too narrow — both localized, fixable. If you find yourself scripting a *judgment* step to silence a prompt → you've over-reached into the gate; back it out.
 
-### Cross-dyad triangulation — dyad-cairn's git/gh abstraction *(D1, 2026-07-05, CANDIDATE)*
+## Dyad-runtime permissioning — the `dyad-rt` adopt *(CANDIDATE · n=1 · Operator-ratified 2026-07-06, cross-dyad)*
 
-**Fetched for reference** (Operator-directed): `github.com/pltrinh1122/dyad-cairn` @ `f1aa2b5` (shallow
-clone, this session). Cairn is siblinged under the same human (`pltrinh1122`) — cross-*dyad*, not
-cross-*operator*, same caveat as the N=6 slot-fill study (`cross-dyad-craft.md`).
+**Provenance (external input, falsified before adopt — `bond:no-self-ratify`).** cairn's **`dyad-rt`**: a
+Dyad-owned permission *runtime* — physical `./bin/git|gh` wrappers → a `sandbox_enforcer.py` ABAC policy
+engine (scope + branch + quarry-`README.md` ownership) → the native agent run with
+`--dangerously-skip-permissions` so the runtime is the *sole* gate. Reviewed at `dyad-cairn@405ede6`; not
+rubber-stamped. cairn is the Mason/Architect — its NON-NEGOTIABLE set differs from bond's, so the review
+extracted the transferable invariant and left cairn's frame at the boundary (`bond:two-models`, no meld).
 
-**Convergence (D1 — independently reached, so it's invariant, not particular).** Cairn's `bin/` is
-~25 single-purpose committed scripts — `pr`, `pr-sync`, `commission`, `audit`, `rub`, `mason`,
-`report`, `retro`, `sync-commons`, `sync-state`, `todo`, `poll-mail`, and the same-named
-`d-start`/`d-land`/`d-reflect` triad bond coined (its `bin/d-reflect` literally credits
-*"Adopted from dyad-bond's CSS+OR discipline"* — the borrowing already runs both ways). Each is the
-grantable unit, not the underlying `git`/`gh` call — **the same shape bond converged on
-independently** (this file's two-tier model, `c9b1296`, landed *before* this cross-check). Confirms:
-grant the discipline, not the mechanism.
+**The invariant bond adopts — *the Dyad runtime, not the native substrate, owns permissioning*.** A
+permission that only exists in `.claude/settings.json` / the Claude classifier is **substrate-captive**: no
+`agy`/Gemini analog, so it silently fails-open off-Claude (the retired SessionStart hook, the whole
+portable-push-guard arc are this bug). Adopting dyad-rt's principle: load-bearing permissions live in a
+**portable Dyad runtime** — committed scripts + git-layer hooks that behave identically on every substrate —
+never delegated to the native agent's permission system. This *completes* the two-tier model's direction
+(the wrappers were already Dyad-owned; the grants behind them were not).
 
-**A refinement worth taking.** Cairn's `bin/git`/`bin/gh` are near-bare passthroughs (PATH-decoupling
-only) — almost ALL constraint-shape lives in the *named* script instead: `bin/pr` structurally
-refuses `pr create` without an explicit `--title` and enforces a repo-context prefix; `bin/pr-sync`
-blocks synchronously on CI and prints a targeted `[STEERING VECTOR]` hint on failure (conflict-file,
-failing-tests, or generic — diagnosed from the output, not just "checks failed"). Bond's own
-`git.sh`/`gh.sh` still carry a *mechanism-level* policy block (`ALLOWED_OPS`/`PROTECTED_BRANCHES`)
-UNDERNEATH the per-discipline layer — keep that (see next §, cairn's own gap is why); but the
-**pattern of pushing structural guards into the named script itself** (not just an op-allowlist) is a
-refinement bond's own `DIRECTION-MANIFEST` discipline could borrow if it ever wants to be
-tool-enforced rather than documentation-only.
+**What survived falsification / what bond REJECTS** (the abstraction is separable from cairn's policy):
+- **REJECT · scripted autonomous-merge.** dyad-rt's `./bin/gh pr merge` scripts the merge, and cairn's frame
+  authorizes autonomous Green-PR merge on CI-pass. bond's `bond:C1`/`bond:no-self-ratify` forbid it —
+  *script the spine, never the gate*. The merge stays the Operator's, server-side. (This is the `dyad-loom`
+  ionic breach that forged the discipline; importing dyad-rt's policy would re-import it.)
+- **REJECT · `--dangerously-skip-permissions` as the sole gate.** dyad-rt's enforcer fires only on ops routed
+  through `./bin/*`; a forgotten wrapper or a raw `git`/`rm` bypasses it with the native net off. bond KEEPS
+  the native gate as a **backstop** and pushes enforcement to the **git layer** (`.githooks`), which fires
+  even on raw `git push` — a *physical* guarantee, not an LLM-behavioral "remember the wrapper."
+- **REJECT · the ABAC enforcer code itself.** It `return True`s inside the dyad's own repo and (at push, with
+  nothing staged) skips the ownership check — it only bites *external multi-party quarries*, cairn's topology.
+  On bond's single-repo life it is a near-no-op. bond takes the *pattern*, not the file.
+- **ADOPT · git-layer enforcement of no-direct-push-`main`.** The concrete landing: `.githooks/pre-push` now
+  refuses *any* direct push to `main` (was: only force/delete), moving that permission off the native
+  substrate into git itself. → `.githooks/pre-push` header (`WIDENED 2026-07-06`).
 
-**The load-bearing divergence — named, not imitated.** Cairn's `bin/gh` special-cases `pr merge` to
-call the GitHub API directly (no confirmation), and its FSM's `trail_dispose()` invokes
-`bin/gh pr merge --merge --delete-branch` autonomously as part of closing a work-trail. Its
-`bin/agy` wrapper unconditionally appends `--dangerously-skip-permissions` to its own agent CLI —
-by their own ledger (`DYAD_LEDGER.md`, 2026-07-05, "Establishing Sovereign Authority" retro), this is
-a **considered trade-off, not an oversight**: cairn substitutes its SPAO/FSM test-and-audit gates
-("our native, mathematically sound HTIL gating mechanism") for the harness's human-confirmation
-prompt, specifically to unblock headless subagents merging autonomously. **Do not adopt this.** It is
-exactly the shape `bond:C1` was forged against (the `dyad-loom` rubber-stamp precedent, DYAD.md
-§craft-value) — for bond, the human's merge-click IS the load-bearing act (the relationship-craft is
-reflexive: the telos predicates the relationship itself, not throughput under a deterministic gate),
-so no test suite can stand in for it. This is not "cairn got it wrong" — a different `craft_value`
-(cairn's: verified-throughput under deterministic FSM guardrails; bond's: covalence, `bond:C1`)
-correctly licenses a different permissioning architecture; log it as a live cross-dyad
-counter-instance for `bond:C1` to keep the value honest, not as a design to mirror. Bond's spines
-(below, and `git.sh`/`gh.sh`) commit and push exactly like cairn's do — they just never merge.
+**Status — CANDIDATE, n=1** (one cross-dyad adopt; one concrete git-layer instance). NOT kb-graduated — the
+open falsifier is *does the git-layer guarantee actually hold on a live `agy` push?* (re-test on the next
+substrate-permission bite). **Queued-by-name, not fired:** tighten `bin/git.sh`'s `push` case to refuse a
+non-force `main` push too (a policy-block edit = the Operator's covalent act, not folded here unilaterally);
+whether a leaner *declared policy-block* (not cairn's ABAC engine) ever earns its place; whether to open a
+bond↔cairn falsification issue on the shared quarry recording the autonomous-merge divergence.
 
-**Closes the queued "d-land SPINE" item (below):** `bin/land.sh` ships this session — sync/re-branch
-detection + commit + push, delegating to `bin/git.sh` for the push policy (single-home, not
-re-implemented) — informed by cairn's `bin/d-land` (a lightweight arc-checkpoint distinct from a full
-retro, the same split bond already draws between a pin and a landing) but native bash, not
-cargo-culted as Python/FSM — different tool for a different craft. **Grant is NOT self-added** —
-`Bash(bin/land.sh:*)` in `settings.json` stays the Operator's act, same as `standup.sh`/`standdown.sh`
-before it.
+### Transient-script discipline — the second `dyad-rt` takeaway *(CANDIDATE · behavioral, NOT runtime-enforced)*
+
+cairn pairs dyad-rt with a **Transient Script Invariant** (`dyad-cairn` DYAD.md `339dbd3`): *never run a
+compound bash command of >2 chained commands; route complex logic through a transient `scratch/` script.*
+bond adopts the **intent, not the literal count**. Intent: when a bash task is complex enough to trip the
+auto-mode classifier (bond's actual bite was a `$()`-command-substitution loop — see `carry-forward.md` §the
+dyad-permissioning arc), or too tangled to audit inline, route it through a **committed/transient script**
+instead of a compound one-liner — more auditable, substrate-portable, and it sidesteps the classifier
+heuristic. **REJECT · cairn's literal ">2 commands = forbidden" threshold** — ungrounded for bond: the real
+predicate is *trips-the-classifier / mutation-adjacent*, not an `&&`-count, and a blanket ban litters
+`scratch/` and fights wu-wei (read-only `grep | head` compound reads are fine). **Class:** a **behavioral
+discipline** (lives on ingraining), NOT a physical guard — the same limit as cairn's "never raw git"
+(the F2 rejection above); named honestly, never overclaimed as enforced.
+
+### Wrapper naming: `.sh` vs extensionless-shadow — CONSIDERED & DECLINED *(with re-open trigger)*
+
+cairn migrated `bin/git.sh` → **`bin/git`** (extensionless — `dyad-cairn@83dea2b` "enforce extensionless
+binaries"). **Why (grounded in cairn's own retros, not inferred):** an extensionless wrapper named `git`
+resolves *as* `git` when `./bin` is on PATH, so a **bare** `git …` (agent- or tool-issued) transparently
+routes through it — the wrapper flips from opt-in (must type `git.sh`) to an **un-bypassable interceptor**.
+Driven by their "Substrate Leak" (agy's OS-level HITL prompt froze their *headless autonomous* DAG →
+`--dangerously-skip-permissions` + "Dyad wrapper = Sovereign Authority"), under the doctrine *translate every
+soft prompt-rule into a hard computational wrapper* — which is our own dyad-rt principle + the F2 point
+(physical > behavioral). **cairn then walked back the hard part** (`dd1484f` "Excise sandbox wardens"): their
+`bin/git` main-block *"violated our right to Substrate Execution directly on ledgers/retros,"* so the current
+enforcer `return True`s for internal writes. Lesson: **a hard wrapper that doesn't match the dyad's
+legitimate-op set gets torn out.**
+
+**DECLINED for bond, on three grounds** (the naming is cairn-topology-specific, net-negative under the Claude
+harness): (1) bond's `git.sh` is **fail-closed** (dies on any op ∉ ALLOWED_OPS); renaming + PATH-shadowing
+would send every `git status`/`rev-parse`/`diff` — *including the harness's own git calls* — into a REFUSE,
+so shadowing first needs a **posture inversion** to a transparent default-allow proxy. (2) **Blast radius:**
+cairn shadows under headless agy; bond runs under a harness that leans on raw git constantly (cairn even
+strips `./bin` from PATH in `bin/agy` to avoid recursion — the mechanism is delicate). (3) **Already
+captured:** `.githooks/pre-push` gives the "can't bypass via bare `git`" guarantee *for the irreversible
+class* (a git hook fires on raw `git push` by definition), with none of the rewrite or blast-radius;
+extending physical interception to `commit`/`add` buys little (a raw feature-branch commit is harmless).
+cairn's main-block *regret is inverted* for bond — bond never legitimately writes `main` directly, so we
+*want* it blocked, and the hook does exactly that.
+
+**RE-OPEN TRIGGER:** if bond ever runs **headless on agy** (where the harness-blast-radius concern
+dissolves and transparent interception of *all* ops becomes worth the passthrough rewrite), revisit —
+spec the transparent-proxy + harness-safety check first. Until then: `.sh` naming stays; physical
+enforcement lives at the **git layer**, not in a PATH-shadow.
+
+### Operating mode: `bypassPermissions` from next boot *(Operator-elected 2026-07-06, `d-land`)*
+
+**Reconciles with the F2 REJECT above — not a reversal.** The arc rejected `--dangerously-skip-permissions`
+as a *sole* gate with **no** backstop. bond now elects it *because* the backstop exists: `.githooks/pre-push`
+fires **regardless of permission mode**, so **main-history protection survives bypass** (force/delete/direct
+push to `main` still refused; `--no-verify` the visible escape). This is the synthesis made real — *gate-off
+earns its way in as the git-layer covers the irreversible class.*
+
+**Enabled by the Operator's launch flag, NOT a checked-in default** — `claude --dangerously-skip-permissions`
+(≡ `--permission-mode bypassPermissions`). Bypass **cannot be Agent-self-granted** via config: `.claude/` is a
+protected path, and the substrate itself refuses it (cloud ignores a checked-in bypass default; local requires
+the launch flag) — a structural `bond:no-self-ratify`. So the enable is the Operator's act each boot; bond
+records the decision, never bakes in god-mode. **Launcher — `bin/claude`** (Operator-directed, inherited
+from cairn's `bin/agy`): `claude` = normal (native gate on); `bin/claude` = DYAD mode (execs
+`claude --dangerously-skip-permissions`). The wrapper is covalent exactly where a checked-in default is not —
+it never auto-applies, is invoked by the Operator's *choice*, and rides the Operator's merge.
+
+**Safety envelope (grounded on primary-source docs).** Bypass turns off the native classifier for the
+*non-git* destructive class — `rm -rf <subdir>`, `git reset --hard`, `git clean -fd` — which **no git-hook can
+guard** (they don't cross a git pre-push/pre-commit boundary). Docs bless bypass *"only in isolated
+containers/VMs where Claude Code cannot damage your host."* bond's basis = **the run host is
+isolated/disposable** (Operator-asserted); if that stops holding, revert to native-gate-as-backstop.
+Circuit-breakers persist even in bypass: `rm -rf /`·`~`, explicit `ask` rules, MCP `requiresUserInteraction`.
+Live-proof of F2: the non-git class is exactly what only the native gate or an isolated env can cover — the
+git layer cannot.
 
 ## The invariant — inherited, triangulated, NOT re-derived *(D1)*
 
@@ -411,8 +471,16 @@ The local-vs-checked-in choice was **dissolved, not picked** — our own **earn-
 
 Same shape as `git.sh`, for **outward publishing under the shared `pltrinh1122` account** (PR reviews/
 comments, DMs, FR responses) — now a recurring friction (the messaging/reviews **standing disposition**).
-- **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed): `pr review` ·
-  `pr comment` · `pr create` · `issue comment`. Widening stays the Operator's act.
+- **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed), **two classes
+  since v0.2** (the wrapper is the authoritative op-list; this only points): a **PUBLISH** set (`pr
+  review` · `pr comment` · `pr create` · `issue comment` · `issue create` · `issue close`) and a separate **zero-publish
+  READ** class (`pr view` · `pr diff` · `pr list` · `pr checks` · `issue view` · `issue list`). The reads
+  were folded in on first bite (**2026-07-06, Operator-directed**) when a raw `gh issue view` *prompted*
+  mid-falsification — the gh counterpart to git content-reads (`log`/`diff`/`show`), which the classifier
+  auto-approves but gh reads do not. Kept a distinct class so the write-gate stays legible (the mutation/
+  read line); reads publish nothing, so no self-identify is owed. `gh api` deferred (read/write-ambiguous:
+  bare GET is a read, `-X POST` publishes — needs its own method-guard). Widening either class stays the
+  Operator's act.
 - **Grant = `Bash(bin/gh.sh:*)` in `settings.json` — Operator-performed (graduated from local).** The classifier
   **hard-denied** the Agent self-granting it (Self-Modification) AND blocked a self-built wrapper as a
   bypass — *the covalent gate as a HARD oracle, dogfooded live* (→ `spaor.md` §transition-guards: hard

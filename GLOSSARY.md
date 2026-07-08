@@ -101,7 +101,10 @@ Reflect is F2-keystone-gated.
     Operator CTAs; then check `git log origin/main..HEAD` + open-PR state — an existing open PR for this arc →
     commit+push, done (the common case, ~20+ times a session); no open PR and the arc reads complete →
     run the full `relationship-craft.md §The landing-discipline` checklist, open one. Bare `land` is
-    retired as a separate token.
+    retired as a separate token. **Spine (2026-07-06): `bin/land.sh`** mechanizes the checkable half
+    (green-gate rigs · arc-scope by execution · open-PR-state route · RESTART-PENDING detect · PR-template
+    check) and `bin/land.sh --sync` encapsulates the post-merge sync/re-branch that used to prompt; the
+    execution-DAG + PR body stay the agent's judgment, the merge stays the Operator's (`bond:no-self-ratify`).
   - **`d-reflect`** — one token, replacing the separate `reflect`/`stand-down` entries (collapsed
     2026-07-03: checked telemetry, every `Reflect` this session was already paired with a
     `carry-forward.md` update in the same turn — one job, not two). Invokes
@@ -125,7 +128,7 @@ Reflect is F2-keystone-gated.
     exposes no startup-hook analog as of this date, so the token is the one trigger that fires on every
     substrate the Operator can type into). **Forward:** when a substrate *does* expose a startup-hook
     analog, wire *this discipline* to it — `bin/standup.sh --hook` is kept dormant, not deleted.
-    Symmetry: `d-start : standup.sh :: d-reflect : standdown.sh`.
+    Symmetry: `d-start : standup.sh :: d-reflect : standdown.sh :: d-land : land.sh`.
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.
