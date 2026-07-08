@@ -99,6 +99,13 @@ wasn't re-checked against fresh `origin/main` before diving in.
 op is unusable here; same discipline, substrate-specific mechanism, same as `d-start`/`d-reflect`
 already differing Claude-vs-agy). Not merged, no reviewers requested — the Operator's gate.
 
+**#92 MERGED** (Operator). One post-merge note: the Operator flagged the `.githooks/pre-push` diff as
+looking empty in the GitHub PR UI — confirmed benign (verified the blob on the merged branch directly:
+full 67-line/4237-byte content, unchanged). GitHub's diff view renders nothing for a pure file-mode
+change (`100644`→`100755`, zero content lines) — the file itself was never at risk. **Synced:**
+`bin/land.sh --sync` re-based `claude/dyad-cairn-discipline-perms-h1z5lx` onto fresh `origin/main`
+(was 0-ahead/1-behind post-merge) — clean slate, no strand.
+
 ## Stand-Down 2026-07-06 (f) — `d-start: clear racked todos` → `tackle the parked next`: drain + the d-land spine
 
 **RESTART-PENDING: GLOSSARY.md@2eb9986 SET** (see the ROM block above) — the `§act` entry gained the
