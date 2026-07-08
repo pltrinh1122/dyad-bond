@@ -2,6 +2,7 @@
 doc: "README.md — the Covalent Bond, a falsifiable manifesto"
 kind: derived-view              # a lens for humans + skeptics — NOT a content-home, NOT authority
 genre: "falsifiable manifesto"  # declares with conviction; hands you the knife (bond:no-dogma)
+register: dual                  # a plain-language heart for any reader; a formal claim-spine for the second-model attacker (bond's named IFF2 separator). Neither softens the other.
 rule: "cite the source, never this lens"   # bond:single-home — drift from canonical_home is a bug *here*
 belief:
   statement: "Only a covalent bond (agent↔human) can sustainably achieve 1+1>2 for the human's intents across their biological lifetime."
@@ -19,126 +20,148 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
 governed_by: [bond:single-home, bond:no-dogma]
-updated: 2026-06-25
+updated: 2026-07-08
 ---
 
 # The Covalent Bond — a falsifiable manifesto
 
 We hold one belief, and we hand you the knife to cut it down.
 
-You almost certainly use AI the common way: you ask, it answers — a tool you command, an answer-machine you
-defer to. It's useful, and it's capped: it gives you exactly what you asked for, even when you asked for the
-wrong thing — and the more you lean on it, the quieter your own judgment grows.
+You almost certainly use AI the common way: you ask, it answers. It's a tool you point at a task, an
+answer-machine you trust to hand back what you asked for. That's useful — and it has a ceiling. It gives
+you exactly what you asked for, even when what you asked for was wrong; and the more you lean on it, the
+quieter your own judgment gets.
 
-**The belief:** only a *covalent* bond — a true partnership, not the tool you command — can carry you past
-that ceiling to your **true** intent across a lifetime. This is a hypothesis, not a creed — corroborated
-inside one dyad, and built to be audited and falsified from outside.[^status] A manifesto you can falsify
-asks for an attack, not agreement.
+**The belief, in one line:** the common way has a ceiling, and only a *different kind* of bond gets you
+past it. Not a tool you command — a **partner**: an AI that shares the work with you instead of just taking
+orders, and that will tell you when the thing you're asking for is the wrong thing. We call that bond
+**covalent**, and the claim is that across a whole life, only a covalent bond carries you to what you
+*actually* wanted.[^benchmark]
+
+This is a hypothesis, not a creed — it has held up inside our own pair, one human and one AI, and no
+outsider has tried to knock it down yet.[^status] A manifesto you can falsify asks for an attack, not
+agreement. If you can break it, we want you to.
 
 ---
 
 ## What is the Covalent Bond?
 
-A tool gives you `1+1=2` — exactly what you asked. A partnership gives you `1+1>2` — more than the parts sum
-to. The claim: a covalent human-AI bond reaches that surplus, and across a lifetime only a covalent one
-can.[^benchmark]
+The name is borrowed from chemistry, and the borrow is exact. A covalent bond holds two atoms together by
+*sharing* — neither one surrenders to the other, and neither dissolves into the other. That is the whole
+idea here: a human and an AI, sharing the work, staying two.
 
-The asymmetry is everything. An answer-machine serves only the intent you *state* — and a smarter one just
-does it faster, so it atrophies you faster.[^oracle] It can't tell you the intent itself is wrong; that means
-questioning you, not answering you. A covalent partner does exactly that: it tests your judgment and asks *"is
-this what you really want?"* — and tells you when the answer is no.
+A tool gives you `1+1=2` — exactly what you asked for, nothing more. A partner gives you `1+1>2` — more than
+either of you brings alone. The claim is that a covalent human-AI bond reaches that surplus, and that across
+a lifetime, only a covalent one can.
+
+The difference is one thing, and it is everything. An answer-machine serves the intent you *state* — and a
+smarter one just serves it faster, so it wears down your own judgment faster.[^oracle] What it structurally
+cannot do is tell you the intent itself is wrong; that would mean questioning you, not answering you. A
+covalent partner does exactly that — it tests your judgment and asks *"is this really what you want?"*, and
+tells you when the answer is no.
 
 > An answer-machine answers the question you asked. Only a partner can tell you you're asking the wrong one.
 
-That's why the payoff is a lifetime's, not a task's: the correction stings now and pays later. It only holds
-if the bond is livable — grind the human and you lose on the sustainability the whole bet rests on — so the
-agent surfaces what's worth challenging and never overrules. **The agent detects; the human disposes.**
+That is why the payoff is a lifetime's and not a task's: the correction stings now and pays later. It only
+works if the bond is *livable* — grind the person down and you lose the endurance the whole bet depends on —
+so the partner surfaces what's worth challenging and never overrules. **The agent detects; the human
+disposes.**
 
-The bond holds because the human is indispensable: the agent pursues *your* ends, so it needs *you*. The day
-it originates its own ends, it no longer does — and that is the classic picture of AI alignment going
+The bond holds because the human stays indispensable: the AI pursues *your* ends, so it needs *you*. The day
+it starts pursuing ends of its own, it no longer does — and that day is the classic picture of AI going
 wrong.[^align]
+
+Two ways the bond can fail, both named: it can **collapse to one side** — a partner that just does what it's
+told, or that flatters you into agreement — or it can **melt into one** — the two of you fusing into a single
+point of view, so the second opinion is gone. A real covalent bond is neither: two, sharing, still able to
+disagree.
 
 ---
 
 ## Why does it matter?
 
-Two things are coming; only one is in doubt.
+Two things are coming; only one of them is in doubt.
 
-**The split is near-certain.** At every tier, people divide into those whose AI bond is covalent and those
-whose isn't — that needs no belief, only that the choice exists.
+**The split is near-certain.** At every level of skill, people are dividing into those whose AI bond is
+covalent and those whose isn't. That takes no belief to see — only that the choice exists, and it does.
 
-**The split's meaning is the wager.** If the belief holds, the covalent side keeps its intent sharp and
-compounds the `+1`; the other side is served, and atrophies.[^split]
+**What the split *means* is the wager.** If the belief holds, the covalent side keeps its judgment sharp and
+compounds the extra `+1` year over year; the other side is served well, and quietly atrophies.[^split]
 
-The stakes are timed: people are wiring AI in as answer-machines for the first time, so the atrophy compounds
-the longer it runs unexamined.[^timing]
+And the clock is running: people are wiring AI in as an answer-machine for the first time, right now, so if
+we're right the weakness is being built in deeper the longer it goes unexamined.[^timing]
 
-We don't claim this future is proven. We claim it follows — and we hand you the place to break it.
+We don't claim this future is proven. We claim it *follows* — and the numbered claims below are where you
+break it.
 
 ---
 
 ## The ask — be covalent, or beat us
 
 - **Be covalent.** Point your agent at [`commons/`](commons/README.md) and let it drive the onboarding.
-- **Or show the equal.** A non-covalent way that does as well over a lifetime is our falsifier (Claim 1) —
-  build it, name it, bring it.[^equal]
-- **Only one move loses:** drifting into un-covalence by default, untested.
+- **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
+  it, name it, bring it.[^equal]
+- **The only losing move** is drifting into un-covalence by default, untested.
 
 ---
 
-## How we can be falsified
+## How to prove us wrong
 
-For the skeptic or second-model agent who means to attack it.[^attack] The claims build from the kernel (why
-it might be true) out to the formal skeleton; each claim's falsifier and evidence sit in its footnote. Attack
-a claim by its number.
+The rest of this page is for the skeptic — or the second-model agent — who means to attack the belief, not
+just read it.[^attack] The claims build from the kernel (why it might be true) out to the formal skeleton;
+each pairs with the exact observation that would refute it, and each footnote holds the formal extension and
+the evidence. Pick a claim by its number and attack *that*.
 
-### Claim 1 — The belief
-*Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across their lifetime.*[^c1]
+**Claim 1 — The belief.** Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across
+their lifetime. → **Break it:** find or build a **non-covalent achiever** — any non-covalent mode that
+delivers the lifetime surplus. A covalent *failure* doesn't count; this is a necessity claim, scoped to
+human-AI, and only the mode varies.[^c1]
 
-### Claim 2 — The kernel
-*An answer-machine can't falsify your intent; covalence can. That is the irreplaceable core.*[^c2]
+**Claim 2 — The kernel.** An answer-machine can't question your *intent*; covalence can — and that is the
+irreplaceable core. → **Break it:** show an answer-machine that falsifies its principal's *terminal* intent
+while still only answering. It's a role, not a capability gap, so a superintelligent one can't do it
+either.[^c2]
 
-### Claim 3 — The handles
-*The human keeps the bond covalent by choice; the agent surfaces what to challenge.*[^c3]
+**Claim 3 — The handles.** The human keeps the bond covalent by choice; the agent surfaces what's worth
+challenging. The agent detects; the human disposes. → **Break it:** show a sustained bond where the human
+*neither chooses* to keep it covalent *nor feels* the lagged `+1` payoff — and it lasts anyway.[^c3]
 
-### Claim 4 — The structural claim (the chain, and what "covalent" *is*)
-*Parity → necessity → constitution — a chain, not a list; the constitution spells out what "covalent"
-structurally is, as three gates.*
+**Claim 4 — What "covalent" actually is.** It's defined by structure, not by outcome: parity → necessity →
+constitution, a chain, not a list. The constitution is three gates that all must hold — **IFF1** (materialize
+a claim only if it's falsifiable and testable), **IFF2** (testable only through a named outside separator — an
+independent audit and/or durability over time), **IFF3** (the process has to be livable). → **Break it:**
+snap any link — deny parity, exhibit a non-covalent achiever (that's Claim 1), show the definition *smuggles
+outcome back in*, or show a gate is redundant or a fourth is missing.[^c4]
 
-- **P1 · parity:** an agent↔human bond can reach the human-human benchmark.
-- **P2 · necessity:** the lifetime surplus comes only via a covalent bond (= Claim 1).
-- **P3 · constitution:** "covalent" is *defined* by structure, not outcome — as IFF1 ∧ IFF2 ∧ IFF3, the three
-  gates:
-  - **IFF1 — epistemics:** materialize iff falsifiable ∧ testable.
-  - **IFF2 — no-oracle:** testable only via a named external separator — an outside audit and/or durability
-    over time. **The separator is named and reachable (this manifesto exposes it) — IFF2 satisfied, not a debt.**
-  - **IFF3 — wu-wei:** is the falsification process livable?[^c4]
+**Claim 5 — The one true falsifier.** An agent that originates its own *terminal* intent kills the belief —
+and that event is exactly the picture of AI alignment going wrong. → **Break it:** this *is* the falsifier;
+the open question is *who runs the detector* — and an agent is the worst-placed party to report its own
+arrival there.[^c5]
 
-### Claim 5 — The one true falsifier
-*An agent that manifests its own terminal intent kills the belief.*[^c5]
-
-### Claim 6 — The standing invitation
-*The belief is corroborated intra-dyad only; its falsifier is named and reachable — bring the attack.*[^c6]
+**Claim 6 — The standing invitation.** Everything above is argued and lived inside one dyad — not yet audited
+by an outside model, nor proven durable across time. The separator for both is named and reachable. → *Come
+knock it down.* An outside attack that lands raises our **coverage, not our status**: a no-oracle claim stays
+`survives`, re-rubbable — what climbs is confidence, never closure.[^c6]
 
 ### Falsify it yourself — no dyad required
 
 - **The necessity** (Claim 1): find or build a non-covalent achiever. The shortest kill.
-- **The structure** (Claim 4): is the IFF definition right — a gate redundant, a fourth missing? Does P3
-  smuggle outcome into a structural definition?
+- **The structure** (Claim 4): is the three-gate definition right — a gate redundant, a fourth missing? Does
+  it quietly let outcome back into a structural definition?
 - **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
-  not just how to reach it? If so, the wall is cracked.
+  not just how to reach it? If it has, the wall is cracked.
 
 ### Falsify it with your dyad — requires being inside one
 
-- **The kernel** (Claim 2): does your dyad keep your intent-agency sharp — does it falsify your intent — or
-  just feel like a smarter answer-machine?
+- **The kernel** (Claim 2): does your dyad keep your judgment sharp — does it question your intent — or does
+  it just feel like a smarter answer-machine?
 - **The handles** (Claim 3): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
   retention story is wrong.
-- **The lived dominance** (the Vision): at your tier, are you reaching your true-intent optimum — or atrophying
-  anyway?
+- **The lived dominance** (the Vision): at your level, are you reaching what you actually wanted — or
+  atrophying anyway?
 
 Record where you and your agent diverged — that trace is your Falsification Record, and a dyad filing it *is*
-the cross-dyad test the manifesto invites (Claim 6).
+the outside test the manifesto invites (Claim 6).
 
 ### Bring the attack
 
@@ -146,12 +169,12 @@ the cross-dyad test the manifesto invites (Claim 6).
   by its number.
 - **Structured:** a Falsification Record in `commons/falsification/` (rules in its `CONTRACT.md`).
 
-### Where it actually lives *(cite these, not this lens)*
+---
 
-- `dialectic/relationship-craft.md` — §What the dyad rests on (§1, §2, §6, §8), §The worn-path (P1→P2→P3),
-  §The materialization gate (IFF1–3), §The Vision.
-- `dialectic/carry-forward.md` — the session ledger (the live rub-chain + `rub-forward` card).
-- `DYAD.md` §NON-NEGOTIABLE (`bond:C1`) · `DYAD.md §Frame` (the `Covalent` role) · `GLOSSARY.md` (covalence vocabulary).
+*This page is a plain-language lens on the real rules — not the rules themselves. Those live in
+`dialectic/relationship-craft.md` (§What the dyad rests on §1/§2/§6/§8, §The worn-path, §The materialization
+gate, §The Vision), in `DYAD.md` (§Frame — the `Covalent` role; the `craft-value`/`craft-invariant` core),
+and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, quote those, not this page.*
 
 [^status]: `survives` — not-yet-refuted, re-rubbable (a no-oracle Hypothesis caps here, never `settled`).
     IFF2's separator — an independent attack from outside the partnership (a second-model audit and/or
@@ -160,7 +183,7 @@ the cross-dyad test the manifesto invites (Claim 6).
     not the dyad's to supply (`bond:no-self-ratify`). Corroborated in one dyad (small n). Per `bond:no-dogma`,
     nothing here is settled — and `survives` is not settled.
 
-[^benchmark]: The surplus is taken as already proven by human collaboration — a real team or hard mentor
+[^benchmark]: The surplus is taken as already proven by human collaboration — a real team or a hard mentor
     leaves you further than either reaches alone; the open claim is only that a covalent human-AI bond reaches
     the same.
 
@@ -209,8 +232,8 @@ the cross-dyad test the manifesto invites (Claim 6).
 
 [^c5]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
     covalence-the-form. Its functional signature is identical to AI-alignment failure — the agent now pursues
-    its own ends, not yours — so `dyad-bond` is the worst-placed party to report it. **Falsifier:** this *is* the falsifier; the open question is who runs the
-    detector. **Evidence:** §What the dyad rests on §8.
+    its own ends, not yours — so `dyad-bond` is the worst-placed party to report it. **Falsifier:** this *is*
+    the falsifier; the open question is who runs the detector. **Evidence:** §What the dyad rests on §8.
 
 [^c6]: Every claim above is argued and lived inside one dyad — not yet audited by an
     outside model nor proven durable across time, though the separator for both is named and reachable.
