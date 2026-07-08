@@ -30,6 +30,17 @@
 
 ## todo
 
+- **SH ↔ state-claim axis — fold or keep separate? (Operator's to settle)** *(2026-07-08; `d-reflect` —
+  the CSS+SH/idempotence/SH-re-orientation arc STOP; → `relationship-craft.md §Reflect — the CSS+SH /
+  idempotence / SH-re-orientation arc` + `§D3 :935-967`)* — SH is now *the Agent's observation of the
+  Operator's intent clarity and coherence*. The **prior `debit` telemetry** (a factually-falsified Operator
+  claim about mechanically-checkable shared state — "I merged the branch", false) is a **distinct axis
+  (accuracy of state-claims)**; `§D3` currently keeps it *preserved-not-folded* as a **default the Operator
+  has not disposed** (the arc's baked-a-resolution STOP). **Disposition owed:** does the state-claim axis
+  (i) fold under the re-oriented SH, (ii) stay a separate named strand, or (iii) retire (it was n=1
+  CANDIDATE, never graduated)? Until settled, `§D3` carries a chosen default it shouldn't. Not
+  agent-forceable — surface at the next SH-touching seam.
+
 - **`bin/land.sh` — freshness + mergeability gate (the n=3 state-space debt)** *(2026-07-08; `d-reflect` —
   the dyad-rt test-run arc STOP; → `relationship-craft.md §Reflect — the dyad-rt test-run arc`)* — the
   d-land spine checks the *ahead* delta but never the *behind* one, so a moved `main` isn't caught until the

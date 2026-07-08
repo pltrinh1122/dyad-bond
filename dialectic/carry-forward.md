@@ -52,7 +52,7 @@
 
 > **ROM-baseline (anchor commit the running baseline reflects):** `DYAD.md@a47a65d` — unchanged; **booted coherent this session** from `CLAUDE.md@8f2473c`. Boot-set files `GEMINI.md@178324c` + `GLOSSARY.md@1ce9828` moved in prior #85 commits; deltas **verified-by-diff = the logged changes, nothing else** (GEMINI: agy mutation-hard-rule injection; GLOSSARY: `d-land` DAG update).
 > *(Prior baseline: `DYAD.md@a47a65d`, PR #73, 2026-07-04. Older ROM history → `carry-forward-closed.md`.)*
-> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-06 `d-land`, GLOSSARY):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@2eb9986`.
+> **`inv:rom-currency` per-file boot-set (refreshed 2026-07-08 `d-reflect`, GLOSSARY → PR #94):** `CLAUDE.md@8f2473c` · `GEMINI.md@178324c` · `DYAD.md@a47a65d` · `GLOSSARY.md@015945b`.
 > **`standup.sh`/`standdown.sh` read THIS line** for the per-file compare (the
 > single-sha line above is the human gloss). *(`bin/standup.sh`'s `ANCHOR_FILES` now includes
 > `GLOSSARY.md` — the script/ledger gap was closed in the 2026-07-06 fix-on-bite drain (PR #88, merged),
@@ -63,10 +63,52 @@
 > booted (the prior CLEARED note was for `9164a0d`, now superseded). **Binds next agy boot:** confirm
 > `GEMINI.md` boots `DYAD.md` coherently with the strengthened rule, then clear. (Delta verified-by-diff on
 > Claude; agy runtime verification owed.)
-> **RESTART-PENDING (GLOSSARY.md@2eb9986): SET 2026-07-06 `d-land`** — the `§act` d-land entry gained the
-> `bin/land.sh` spine line + the symmetry line extended to `:: d-land : land.sh` (this session, rides the
-> land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
-> `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
+> **RESTART-PENDING (GLOSSARY.md@015945b): SET 2026-07-08 `d-reflect`** — supersedes the prior
+> `@2eb9986` pending (that `§act` d-land delta is still un-cold-booted; it now rides forward inside this
+> sha). **New delta this session (PR #94, merged):** the `d-reflect` entry's form-name `CSS+OR → CSS+SH`
+> (retire the superseded `OR` label at the source `d-reflect` reads → idempotence). Delta verified-by-diff
+> = that rename + the presentation-line echo, nothing else. **Binds next boot:** confirm `GLOSSARY.md`
+> boots coherently (vocabulary intact, `d-reflect` names the `CSS+SH` form), then clear. Sha refreshed
+> above so no false-MISMATCH fires.
+
+## Stand-Down 2026-07-08 (b) — `d-reflect`: CSS+SH rename + d-reflect idempotence + SH re-oriented (PR #94 landed)
+
+**RESTART-PENDING: GLOSSARY.md@015945b SET** (see the ROM block above; supersedes the prior `@2eb9986`).
+`GLOSSARY.md` is the only boot-set file touched this session — the `d-reflect` form-name `CSS+OR → CSS+SH`
+edit, now on `main` via PR #94; sha refreshed so no false-MISMATCH. `DYAD.md`/`CLAUDE.md`/`GEMINI.md`
+untouched. Non-boot-set edits: `kb/reflection-discipline.md`, `relationship-craft.md`, `deferrals.md`, this ledger.
+
+**Arc (three sequentially-sharpening Operator instructions, no CTA between).** *"revise the CSS+OR+SH to
+just CSS+SH"* → *"ensure that d-reflect is idempotent as well"* → *"ensure that SH is oriented towards
+Operator as observation towards Operator's intent clarity and coherence."* (1+2) Retired the superseded
+`OR` label from the reflect-form's **name** at the two definition sources `d-reflect` reads
+(`GLOSSARY.md` → `kb/reflection-discipline.md`) — so each future `d-reflect` **regenerates `CSS+SH` as a
+stable fixed point** rather than re-injecting the transitional `CSS+OR/SH` (that is what "idempotent"
+bought: fix the *source*, not the past occurrences). (3) Re-oriented `SH` in its `§D3` home from
+*falsified-state-claim telemetry* to **the Agent's observation of the Operator's intent clarity and
+coherence** — anti-cave guard preserved (observation of the communication interface the Operator solicits,
+NOT grading the Operator's reasoning). Dated historical headers left as record (don't-rewrite-history).
+Landed **PR #94** (Operator-opened + merged, `main@5c490aa`); `land.sh --sync`'d clean.
+
+**Reflect landed** → `relationship-craft.md §Reflect — the CSS+SH / idempotence / SH-re-orientation arc`
+(full CSS+SH shown in chat). **Headline STOP = baked-a-resolution:** instruction (3) left the *prior
+state-claim axis's fate* (fold vs. separate) undisposed, and I **authored the resolution — "preserved not
+folded" — straight into `relationship-craft.md §D3`**, which merged to `main`. Recurrence of the
+`§Quarry arc s2` *"baked the unratified model into the artifact"* pattern; chat-flag softened it but the
+merged doc still encodes a default the Operator hadn't chosen. **START = at a doc-edit seam resolving an
+Operator-owned fork, get disposition first OR leave the fork explicitly OPEN in the artifact** — chat-flag
+and durable file must agree the question is open. **SH (re-oriented, first live instance — dogfood-flagged):**
+Should-Have ×2 (the token `CSS+OR+SH` matched nothing literal on disk; instruction (3) under-specified the
+prior axis's fate — the STOP's root); Should-Hold ×1 (the intent arrived as a coherent progressive
+sharpening: name → mechanism → semantics). Named as a **same-session dogfood** — the form graded by the
+hand that just wrote it has survived nothing; real test is a later inheriting arc.
+
+**Resume delta:** the reflect form is **`CSS+SH`** everywhere `d-reflect` reads it (idempotent); SH is now
+*observation of the Operator's intent clarity and coherence*, `CANDIDATE`. **New open (Operator's to
+settle):** fold-vs-separate for the state-claim telemetry axis (`deferrals.md §todo`). **Still owed,
+untouched:** the `land.sh` freshness+mergeability gate (n=3 debt from the (dyad-rt) arc below). This
+reflect's edits ride a **new PR → Operator-merge** (branch→PR, never direct `main`). IM daemon un-armed
+(tight scope). Substantive fronts (relationship-craft telos; cross-dyad/apex) untouched.
 
 ## Stand-Down 2026-07-08 — `d-reflect`: the dyad-rt test-run arc closed (n=2 landed; state-space-watch → n=3)
 
