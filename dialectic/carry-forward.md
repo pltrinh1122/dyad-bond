@@ -68,6 +68,37 @@
 > land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
 > `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
 
+## 2026-07-08 — `d-start`: parallel-session reconcile against `main`
+
+**Arc.** A separate `d-start` this session began the same brief independently given elsewhere
+(fetch dyad-cairn, triangulate its git/gh abstraction, close the `d-land` SPINE) on
+`claude/dyad-cairn-discipline-perms-h1z5lx` — unaware a parallel effort had already landed a
+materially more complete version of the same work on `main` (PR #89 `bin/land.sh` + the
+`dyad-rt`/ABAC triangulation in `substrate-access.md`, both merged before this session fetched). The
+Operator flagged the duplication; reconciled via `git merge origin/main` (not a reset/force-push — no
+open PR existed for this branch, but the merge preserves the record over rewriting it) with `bin/land.sh`
+and `substrate-access.md` conflicts resolved **entirely to `main`'s side** — verified byte-identical
+post-merge, nothing of this branch's version survives (it was superseded, not complementary).
+
+**One finding survived, not duplicated elsewhere:** `.githooks/pre-push` was still committed `100644`
+(non-executable) on `main` — the identical `core.fileMode=false`-hides-the-`chmod` bug the parallel
+effort found and fixed for `bin/claude` (`bdbfe58`), just never propagated to this file. Silent-clean
+failure mode (`bond:substrate-agnostic` clause-2): the push-guard looked installed
+(`core.hooksPath=.githooks`) but never actually fired on a fresh clone. Fixed via
+`git update-index --chmod=+x` (mode-only, no content change — merged cleanly, auto-resolved). Verified
+post-merge: `standup.sh`'s Push-guard line now reads ✓ instead of the prior ⚠.
+
+**Lesson for next `d-start`:** check `git log origin/main..HEAD` / recent `main` history for an
+in-flight duplicate effort *before* building, not after — this session did the triangulation work
+twice over (once here, once already merged) because the brief looked self-contained and the ledger
+wasn't re-checked against fresh `origin/main` before diving in.
+
+**`d-land`ed → PR #92 is up for the Operator's gate.** `bin/land.sh` green-gate passed
+(`invariant-eval.py`), no boot-set file touched (no RESTART-PENDING), no PR template found under
+`.github`. Opened via the GitHub MCP tool (this substrate has no `gh` CLI — `bin/gh.sh`'s `pr create`
+op is unusable here; same discipline, substrate-specific mechanism, same as `d-start`/`d-reflect`
+already differing Claude-vs-agy). Not merged, no reviewers requested — the Operator's gate.
+
 ## Stand-Down 2026-07-06 (g) — `d-start` NBA: two phantom recommendations reconciled (ledger honesty restored)
 
 **RESTART-PENDING: none new** — no anchor/shim edits this session (ROM boot-set unchanged, `standdown.sh`-confirmed). Session edits are all non-boot-set: `deferrals.md`, `commissions/2026-07-01-dyad-system-engine.md`, `relationship-craft.md`, this ledger. *(The pre-existing `RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot + `RESTART-PENDING(GLOSSARY.md@2eb9986)` next-boot-verify both stay SET, untouched — see the ROM block above.)*
@@ -209,6 +240,27 @@ used (self-grant + unreliable locally + cloud-ignored).
 
 **Durability:** this reflect + the `cross-dyad-craft.md` entry commit+push to `claude/git-sh-branch-nav` (`bin/git.sh`); branch→`main` is the Operator's PR-merge per standing dispositions.
 
+## 2026-07-05 (cont.) — `d-start`: dyad-cairn triangulation + `d-land` SPINE shipped
+
+**Arc (Operator `d-start`: "leverage dyad-cairn's git/gh abstraction... fetch its remote git repo for
+reference").** Cloned `github.com/pltrinh1122/dyad-cairn` @ `f1aa2b5` (Operator-added this session) to
+D1-triangulate its own discipline-based permissioning against ours. **Convergence:** cairn independently
+runs ~25 named per-discipline scripts as the grantable unit (`bin/pr`, `bin/commission`, `bin/audit`,
+`bin/retro`, the same `d-start`/`d-land`/`d-reflect` triad — its `d-reflect` credits bond's CSS+OR
+discipline by name) — confirms bond's own two-tier model, landed independently on `c9b1296` before this
+check. **Divergence flagged, NOT adopted:** cairn's `bin/gh` + FSM `trail_dispose()` auto-execute
+`gh pr merge` with no human confirmation, and `bin/agy` unconditionally strips the harness's permission
+gate (`--dangerously-skip-permissions`) — a considered trade-off on cairn's own ledger (its SPAO/FSM
+gates stand in for HITL), not an oversight, but the exact shape `bond:C1` guards against (merge stays
+the Operator's, full stop — different `craft_value`s correctly license different permissioning here).
+Full triangulation → `substrate-access.md §Cross-dyad triangulation — dyad-cairn's git/gh abstraction`.
+
+**Closes the `d-land` SPINE queued fix-on-bite (bullet below, superseded):** shipped `bin/land.sh` —
+sync/re-branch detection (ancestor-of-`origin/main` check) + commit + push, delegating to `bin/git.sh`
+for push policy (single-home). **Grant NOT self-added** — `Bash(bin/land.sh:*)` in `settings.json` is
+the Operator's act, same as `standup.sh`/`standdown.sh`. Until granted, `bin/land.sh` still runs, just
+with the same local-nav prompts as before on `fetch`/`checkout -B` (no regression, no gain yet).
+
 ## 2026-07-05 (close) — `d-reflect`: post-#85 cleanup + branch triage (light)
 
 **#85 MERGED** (`da458038`, Operator) — the discipline-permissioning arc is now canonical in `main`.
@@ -227,10 +279,9 @@ branch triage` (STOP = binary-command-fork framing; fix = ask *which layer owns 
   three-way model (→ `substrate-access.md §Discipline-based permissioning`, Tier-2): reads = raw/auto-approved ·
   history+remote writes = `bin/git.sh` · **local-nav (`checkout`/`branch`/`reset`/`fetch`) = raw and it
   PROMPTS** (acceptable guard; some are destructive). Landed via PR: reflection `b767369` + the doc clarification.
-- **`d-land` SPINE — queued fix-on-bite (Operator `todo` 2026-07-05: "d-land requires permission").** `d-land`
-  is a discipline with **no spine**, so its local-nav (sync/re-branch/`reset`) prompts. Fix = a `d-land` spine
-  script encapsulating the landing mechanics (sync→re-branch→commit→push), granted as one unit like
-  `standup.sh`/`standdown.sh` — discipline-scoped, NOT a universal grant. (Same as the deferred d-land verify-spine.)
+- **`d-land` SPINE — queued fix-on-bite → SHIPPED, grant pending** (see `2026-07-05 (cont.)` entry
+  above): `bin/land.sh` built this session, informed by dyad-cairn's per-discipline scripts (D1
+  triangulation). Grant (`Bash(bin/land.sh:*)`) is the Operator's act, not yet made.
 - **Local branch state:** still on merged `portable-push-guard`; this reflect's commits ride it for
   durability, pending the sync/re-branch fix — else next `d-start` resyncs to `main`.
 
