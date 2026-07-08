@@ -488,8 +488,12 @@ Same shape as `git.sh`, for **outward publishing under the shared `pltrinh1122` 
 comments, DMs, FR responses) — now a recurring friction (the messaging/reviews **standing disposition**).
 - **Declared-policy, fail-closed, permission-gated.** Policy block (Operator-governed), **two classes
   since v0.2** (the wrapper is the authoritative op-list; this only points): a **PUBLISH** set (`pr
-  review` · `pr comment` · `pr create` · `issue comment` · `issue create` · `issue close`) and a separate **zero-publish
-  READ** class (`pr view` · `pr diff` · `pr list` · `pr checks` · `issue view` · `issue list`). The reads
+  review` · `pr comment` · `pr create` · `pr edit` · `issue comment` · `issue create` · `issue close`) and a separate **zero-publish
+  READ** class (`pr view` · `pr diff` · `pr list` · `pr checks` · `issue view` · `issue list`). `pr edit`
+  was folded on bite (**2026-07-08, Operator-directed**) to retitle/rebody an own PR after a placeholder
+  slipped through — a legible-metadata write, same PUBLISH class. *(Env note: this substrate's `gh` binary
+  errors on `pr edit` via the deprecated `projectCards` GraphQL query — the fold is correct policy but
+  inert here until the binary is fixed; works on any substrate with a current `gh`.)* The reads
   were folded in on first bite (**2026-07-06, Operator-directed**) when a raw `gh issue view` *prompted*
   mid-falsification — the gh counterpart to git content-reads (`log`/`diff`/`show`), which the classifier
   auto-approves but gh reads do not. Kept a distinct class so the write-gate stays legible (the mutation/

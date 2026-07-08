@@ -30,6 +30,28 @@
 
 ## todo
 
+- **`gh pr edit` broken in this substrate — `projectCards` GraphQL deprecation (exit 1)** *(2026-07-08;
+  `d-reflect` — the PR #95 retitle bite; → `substrate-access.md §gh.sh` env-note)* — the installed `gh`
+  binary errors on `pr edit` (`repository.pullRequest.projectCards` — Projects-classic sunset), so the
+  Operator-authorized `pr edit` fold is **correct policy but inert here** (verified: wrapper routes it →
+  publish cleanly under `GH_SH_DRY_RUN`; the *binary* fails). **Options to resolve:** (a) upgrade `gh` to a
+  version past the projectCards fix; (b) add a `gh api -X PATCH /repos/{o}/{r}/pulls/{n}` path — but that
+  reopens the deferred **`gh api` method-guard** (bare GET = read, `-X POST/PATCH` = publish), its own
+  policy design; (c) accept it and hand PR-metadata edits to the Operator (current fallback). **Not
+  agent-forceable on (a); (b) is a real design bite** — fix when it next recurs, or when `gh api` is folded
+  for another reason. Meanwhile PR retitles route to the Operator.
+
+- **SH ↔ state-claim axis — fold or keep separate? (Operator's to settle)** *(2026-07-08; `d-reflect` —
+  the CSS+SH/idempotence/SH-re-orientation arc STOP; → `relationship-craft.md §Reflect — the CSS+SH /
+  idempotence / SH-re-orientation arc` + `§D3 :935-967`)* — SH is now *the Agent's observation of the
+  Operator's intent clarity and coherence*. The **prior `debit` telemetry** (a factually-falsified Operator
+  claim about mechanically-checkable shared state — "I merged the branch", false) is a **distinct axis
+  (accuracy of state-claims)**; `§D3` currently keeps it *preserved-not-folded* as a **default the Operator
+  has not disposed** (the arc's baked-a-resolution STOP). **Disposition owed:** does the state-claim axis
+  (i) fold under the re-oriented SH, (ii) stay a separate named strand, or (iii) retire (it was n=1
+  CANDIDATE, never graduated)? Until settled, `§D3` carries a chosen default it shouldn't. Not
+  agent-forceable — surface at the next SH-touching seam.
+
 - **`bin/land.sh` — freshness + mergeability gate (the n=3 state-space debt)** *(2026-07-08; `d-reflect` —
   the dyad-rt test-run arc STOP; → `relationship-craft.md §Reflect — the dyad-rt test-run arc`)* — the
   d-land spine checks the *ahead* delta but never the *behind* one, so a moved `main` isn't caught until the
