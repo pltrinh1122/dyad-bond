@@ -68,6 +68,19 @@
 > land.sh PR). Delta verified-by-diff = those two additions, nothing else. **Binds next boot:** confirm
 > `GLOSSARY.md` boots coherently (vocabulary intact), then clear. Sha refreshed above so no false-MISMATCH fires.
 
+## Stand-Down 2026-07-08 — `d-reflect`: dyad-cairn triangulation duplicate-effort arc closed
+
+**Reflect landed** → `relationship-craft.md §Reflect — the dyad-cairn triangulation duplicate-effort:
+the check-before-build STOP` (CSS+OR/SH; headline **STOP = built ~170 lines before checking
+`origin/main` already carried the same brief**, findable in `relationship-craft.md`'s own tail —
+the exact ingraining-watch gap the resume protocol doesn't load; **SH = check `origin/main` /
+`relationship-craft.md`'s tail at `d-start`, not just `carry-forward.md`'s NBA**, before building
+anything a brief implies might already be in-flight elsewhere).
+
+**RESTART-PENDING: none** — no boot-set file touched this arc.
+**Durability:** clean + backed up on `claude/dyad-cairn-discipline-perms-h1z5lx` (`bin/standdown.sh`
+confirmed). **PR #92 MERGED, synced** (see the entry below) — nothing further to land this arc.
+
 ## 2026-07-08 — `d-start`: parallel-session reconcile against `main`
 
 **Arc.** A separate `d-start` this session began the same brief independently given elsewhere
