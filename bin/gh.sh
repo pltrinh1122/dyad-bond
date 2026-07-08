@@ -34,6 +34,7 @@ ALLOWED_PUBLISH_OPS=(                           # first TWO tokens of an allowed
   "pr review"
   "pr comment"
   "pr create"
+  "pr edit"                                     # folded 2026-07-08 (Operator Y) — retitle/rebody an own PR
   "issue comment"
   "issue create"
   "issue close"
