@@ -18,8 +18,9 @@ yes/no*, never *how much substance*.
 
 Each entry tags lines by provenance — whose conduct/observation it credits. The operator-reflect
 dimension is **SH (Should Have / Should Hold)** — not a fourth entry-type alongside CONTINUE/START/STOP,
-but the form the retro uses when the credit or debit goes to the *Operator's* own conduct, not the
-Agent's. It **consolidated 2026-07-04 from the earlier per-CONTINUE `OR` (Operator-Reflect) tag** (the
+but the Agent's *observation, directed at the Operator, of the Operator's intent clarity and coherence*
+(re-oriented 2026-07-08; observation of the communication interface, **not** a grading of the Operator's
+reasoning — the `bond:anti-cave` line). The Agent's own should-haves stay in STOP/START. It **consolidated 2026-07-04 from the earlier per-CONTINUE `OR` (Operator-Reflect) tag** (the
 `+OR` was itself named in the header 2026-07-01, Operator Y, after a live miss, then superseded by SH —
 see the *Known open gap* below and `relationship-craft.md §D3`). The base CSS buckets are unchanged:
 - **CONTINUE** *(Agent-observed; Operator-retrospected credit now folds into SH → Should Hold)* — a pattern worth keeping
@@ -43,9 +44,10 @@ cross-dyad or cross-human attack has ever tested this form. Per `theory-pipeline
 `settled`. This file graduates as **kb-with-caveat**, not full-settled — cite accordingly.
 
 **Known open gap in the form's own structure (the CANDIDATE half of the `CSS+SH` name):** the
-operator-reflect provenance dimension — **SH (Should Have / Should Hold)** — is a single-past-instance
-counterfactual (Should Have) and a standing-pattern counterfactual (Should Hold), each
-verbatim-quote-grounded. It consolidated 2026-07-04 from the earlier per-type
+operator-reflect provenance dimension — **SH (Should Have / Should Hold)**, the Agent's observation of
+the Operator's intent clarity and coherence — is a single-past-instance counterfactual (Should Have) and
+a standing-pattern counterfactual (Should Hold), each verbatim-quote-grounded. It consolidated
+2026-07-04 from the earlier per-type
 `CONTINUE(OR)`/`START(OR)`/`STOP(OR)` sketch (credit → Should Hold; debit → Should Have). SH has since
 produced live instances (`relationship-craft.md §D3` retros), but has **not been dispositioned as
 graduated** — it stays `CANDIDATE` there, and the L2b cross-dyad/cross-human gap that caps the whole

@@ -972,35 +972,54 @@ separate on evidentiary grounds:
 Still CANDIDATE — one hard-checkable instance is the first data point, not a survived falsification
 (cf. `bond:kb-graduation` — same bar as anything else here, no exemption for a fresh direction).
 
-**OR consolidates to SH (Should Have / Should Hold) — converged 2026-07-04, CANDIDATE, zero instances
-of the new grammar.** Riffed off the CONTINUE/START/STOP-mirroring above: rather than tag each CSS type
-with an Operator-provenance slot (`CONTINUE(OR)`/`START(OR)`/`STOP(OR)`), OR takes its own single format,
-not mirrored on CSS's three buckets. Two temporal shapes:
-- **Should Have** — a single past instance, hit-or-miss: *"Should have [verified X] — didn't; [claim]
-  independently found false via [mechanical check]."* Absorbs the debit direction above (`:935-967`)
-  unchanged in substance, restated in this grammar.
-- **Should Hold** — a standing, ongoing pattern rather than one moment: *"Should hold: [verify before
-  asserting merge state]"* — evidenced by verbatim quotes of instances where the Operator's conduct has
-  been meeting the bar. Absorbs the credit direction (the graduated `CONTINUE (Operator-retrospected)`
-  use) — a recurring pattern restated as a standing bar rather than one-off praise.
+**OR consolidates to SH (Should Have / Should Hold) — converged 2026-07-04, CANDIDATE; re-oriented
+2026-07-08.** Rather than tag each CSS type with an Operator-provenance slot
+(`CONTINUE(OR)`/`START(OR)`/`STOP(OR)`), the operator-reflect dimension takes its own single format, not
+mirrored on CSS's three buckets. **Orientation (Operator-disposed 2026-07-08): SH is the Agent's
+*observation, directed at the Operator, of the Operator's intent clarity and coherence*** — not the
+Agent's own should-haves (those stay in STOP/START), and *not* a grading of the Operator's **reasoning**
+(that softer presumption is exactly what `bond:anti-cave` forbids the Agent from performing). It is the
+reflective, Operator-solicited channel where the Agent reports where the Operator's *intent* — the
+direction, goal, or disposition handed over — read clear and coherent, or instead left the Agent bearing
+interpretive risk (cf. the 8th instance, `:921`, the Operator's own *"were my intent clear or
+ambiguous?"*). Two temporal shapes:
+- **Should Have** — a single past instance: *"[the Operator's intent on X] should have been clearer / more
+  coherent — [the specific ambiguity or incoherence, and where the Agent absorbed the inference-risk]."*
+  An observed intent-clarity or coherence gap in one moment.
+- **Should Hold** — a standing, ongoing pattern rather than one moment: *"[the Operator's intent] should
+  hold [clear and coherent, as it has] — [the recurring pattern]."* The credit direction restated as a
+  standing bar the Operator's intent-clarity already meets, not one-off praise.
 
-**Every SH entry carries two requirements, both new this session:** (1) a **verbatim quote** from chat
+**Distinct axis, preserved not folded:** the earlier `debit`-telemetry direction (`:935-967`) logged a
+*factually falsified Operator claim about mechanically-checkable shared state* (e.g. "I merged the
+branch" — false, PR open). That is **accuracy of state-claims**, a different axis from intent
+clarity/coherence; it stays above as passive audit-telemetry. Whether it belongs *under* the re-oriented
+SH or as its own strand is the Operator's to settle — surfaced here, not silently merged.
+
+**Every SH entry carries a verbatim-quote requirement** (new 2026-07-04): a **verbatim quote** from chat
 history as evidence — the Agent's own paraphrase of what the Operator said or meant does not qualify,
 converting the entry's grounding into an artifact-under-cost (`kb/evidentiary-discipline.md`'s bar)
-rather than the Agent's retelling; (2) for the Should-Have/debit direction specifically, the existing
-materiality + independent-mechanical-verification bar (`:945-956`) is unchanged — the verbatim quote
-establishes *what was said*, the mechanical check establishes *whether it was true*.
+rather than the Agent's retelling. For an **intent-clarity/coherence Should-Have**, the quote must
+*exhibit the ambiguity or incoherence itself* (the instruction that carried two live referents, the
+direction that shifted mid-stream) and name where the Agent absorbed the interpretive risk — never the
+Agent's bare verdict that the intent "felt" unclear (that verdict is the anti-cave presumption). For the
+**preserved state-claim axis** (`:935-967`), the materiality + independent-mechanical-verification bar
+(`:945-956`) is unchanged — the quote establishes *what was said*, the mechanical check *whether it was
+true*.
 
 **Open, not resolved this session:** the forward-commitment case (a not-yet-evidenced standing pattern
 the Operator is committing to) doesn't cleanly sort into either shape — sits between a Should-Have
 (single moment) and a Should-Hold (already-recurring). Left CANDIDATE-within-CANDIDATE rather than
 silently picked; the first real instance decides which shape it needs, or whether it needs a third.
 
-**Status:** structure only, no instances of the SH grammar itself — same posture OR's original
-credit/debit split held at its own birth (`:904-919`). Does not graduate until it survives a real
-application (`bond:kb-graduation`). Replaces, not extends, the CSS-mirrored `CONTINUE(OR)`/`START(OR)`/
-`STOP(OR)` structure sketched earlier in this section — the base Agent-authored CSS (this file's own
-`CONTINUE`/`START`/`STOP`, `kb/reflection-discipline.md:25-27`) is untouched.
+**Status:** the SH grammar produced live instances after 2026-07-04 (§Reflect entries below); the
+intent-clarity/coherence **re-orientation is fresh (2026-07-08)**, so instances *under the sharpened
+orientation* start from here — same posture OR's split held at its own birth (`:904-919`). Still
+`CANDIDATE` — does not graduate until it survives a real application (`bond:kb-graduation`), the
+Operator's disposition, and the L2b cross-dyad/cross-human gap that caps the whole form. Replaces, not
+extends, the CSS-mirrored `CONTINUE(OR)`/`START(OR)`/`STOP(OR)` structure sketched earlier in this
+section — the base Agent-authored CSS (this file's own `CONTINUE`/`START`/`STOP`,
+`kb/reflection-discipline.md:25-27`) is untouched.
 
 **First live instances + first sharpening — 2026-07-06, Operator-caught** (`cross-dyad-craft.md §Quarry
 arc s2`). **Should-Hold** got its first two instances (grader-discrimination; the fleet-orchestration
