@@ -72,8 +72,8 @@ it starts pursuing ends of its own, it stops needing you — and that day is the
 wrong.[^align]
 
 Two ways the bond can fail, and bond names both. **Ionic** — it collapses into transfer: one side dominates,
-or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the second, independent model is
-lost; two minds collapse to one. That is not the same as *agreeing*: you can only converge two views that
+or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the second, independent
+model[^model] is lost; two minds collapse to one. That is not the same as *agreeing*: you can only converge two views that
 start apart, so real alignment is proof there are still two. Meld is one view deleted — like closing an eye:
 the picture still looks whole, but the depth the second, offset perspective gave it is gone, and `1+1` has
 slid to `1`. A covalent bond is neither collapse: two minds, sharing, still able to disagree.
@@ -194,6 +194,13 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
 
 [^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 5) — which is
     why an agent is the worst-placed narrator of its own arrival there.
+
+[^model]: **Model** here means a *mental model* — a way of seeing a problem (not a fashion model, and not the
+    machine itself). Each side holds one: **you**, your own judgment and your read on what actually matters;
+    **the AI**, its own take, formed by the large language model (LLM) it runs on. The whole bet is keeping
+    those two distinct — meld is losing one of them. *(New to the terms? An **LLM** is the technology most
+    modern AIs are built on; an **agent** is an AI let off the leash to act on its own, not just answer a
+    question.)*
 
 [^split]: Not an equality claim: covalence won't lift you between tiers, and AI will widen the gaps between
     them — it's about whether, at your tier, you become who you meant to be.
