@@ -100,7 +100,7 @@ break it.
 
 ## The ask — be covalent, or beat us
 
-- **Be covalent.** Point your agent at [`commons/`](commons/README.md) and let it drive the onboarding.
+- **Be covalent.** Point your agent at the [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice) and let it drive the onboarding.
 - **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
   it, name it, bring it.[^equal]
 - **The only losing move** is drifting into un-covalence by default, untested.
