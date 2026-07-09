@@ -39,8 +39,8 @@ orders, and that will tell you when the thing you're asking for is the wrong thi
 *actually* wanted.[^benchmark]
 
 This is a hypothesis, not a creed — it has held up inside our own pair, one human and one AI, and no
-outsider has tried to knock it down yet.[^status] A manifesto you can falsify asks for an attack, not
-agreement. If you can break it, we want you to.
+outsider has tried to knock it down yet.[^status] A manifesto you can **falsify** — that you can
+test and try to prove wrong — asks for an attack, not agreement. If you can break it, we want you to.
 
 ---
 
