@@ -72,11 +72,11 @@ it starts pursuing ends of its own, it stops needing you — and that day is the
 wrong.[^align]
 
 Two ways the bond can fail, and bond names both. **Ionic** — it collapses into transfer: one side dominates,
-or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the two minds merge into one,
-the way a Vulcan mind-meld fuses two into a single mind, and your independent second model is lost. Meld is
-the *quiet* failure, and it wears a disguise: it feels like you and the AI have finally, perfectly aligned —
-but aligned is not merged. When agreement comes *that* easily, `1+1` has quietly slid to `1`. A covalent bond
-is neither: two minds, sharing, still able to disagree.
+or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the second, independent model is
+lost; two minds collapse to one. That is not the same as *agreeing*: you can only converge two views that
+start apart, so real alignment is proof there are still two. Meld is one view deleted — like closing an eye:
+the picture still looks whole, but the depth the second, offset perspective gave it is gone, and `1+1` has
+slid to `1`. A covalent bond is neither collapse: two minds, sharing, still able to disagree.
 
 ---
 
