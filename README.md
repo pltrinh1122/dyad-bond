@@ -68,13 +68,15 @@ so the partner surfaces what's worth challenging and never overrules. **The agen
 disposes.**
 
 The bond holds because the human stays indispensable: the AI pursues *your* ends, so it needs *you*. The day
-it starts pursuing ends of its own, it no longer does — and that day is the classic picture of AI going
+it starts pursuing ends of its own, it stops needing you — and that day is the classic picture of AI going
 wrong.[^align]
 
-Two ways the bond can fail, both named: it can **collapse to one side** — a partner that just does what it's
-told, or that flatters you into agreement — or it can **melt into one** — the two of you fusing into a single
-point of view, so the second opinion is gone. A real covalent bond is neither: two, sharing, still able to
-disagree.
+Two ways the bond can fail, and bond names both. **Ionic** — it collapses into transfer: one side dominates,
+or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the two minds merge into one,
+the way a Vulcan mind-meld fuses two into a single mind, and your independent second model is lost. Meld is
+the *quiet* failure, and it wears a disguise: it feels like you and the AI have finally, perfectly aligned —
+but aligned is not merged. When agreement comes *that* easily, `1+1` has quietly slid to `1`. A covalent bond
+is neither: two minds, sharing, still able to disagree.
 
 ---
 
