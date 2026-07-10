@@ -116,8 +116,8 @@ the evidence. Pick a claim by its number and attack *that*.
 
 **Claim 1 — The belief.** Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across
 their lifetime. → **Break it:** find or build a **non-covalent achiever** — any non-covalent mode that
-delivers the lifetime surplus. A covalent *failure* doesn't count; this is a necessity claim, scoped to
-human-AI, and only the mode varies.[^c1]
+delivers the lifetime surplus *(structure, not outcome — see Claim 4)*. A covalent *failure* doesn't count;
+this is a necessity claim, scoped to human-AI, and only the mode varies.[^c1]
 
 **Claim 2 — The kernel.** An answer-machine can't question your *intent*; covalence can — and that is the
 irreplaceable core. → **Break it:** show an answer-machine that falsifies its principal's *terminal* intent
