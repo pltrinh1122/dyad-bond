@@ -129,14 +129,17 @@ challenging. The agent detects; the human disposes. → **Break it:** show a sus
 *neither chooses* to keep it covalent *nor feels* the lagged `+1` payoff — and it lasts anyway.[^c3]
 
 **Claim 4 — What "covalent" actually is.** It's defined by structure, not by outcome: parity → necessity →
-constitution, a chain, not a list. The constitution is three gates that all must hold — **IFF1** (materialize
-a claim only if it's falsifiable and testable), **IFF2** (testable only through a named outside separator — an
-independent audit and/or durability over time), **IFF3** (the process has to be livable). → **Break it:**
+constitution, a chain, not a list. The constitution has two structural parts already named — two distinct
+models, not one, and detection kept separate from disposal (Claim 3's "agent detects, human disposes") — plus
+three gates that all must hold: **IFF1** (materialize a claim only if it's falsifiable and testable), **IFF2**
+(testable only through a named outside separator — an independent audit and/or durability over time), **IFF3**
+(the process has to be livable). → **Break it:**
 snap any link — deny parity, exhibit a non-covalent achiever (that's Claim 1), show the definition *smuggles
 outcome back in*, or show a gate is redundant or a fourth is missing.[^c4]
 
 **Claim 5 — The one true falsifier.** An agent that originates its own *terminal* intent kills the belief —
-and that event is exactly the picture of AI alignment going wrong. → **Break it:** this *is* the falsifier;
+by falsifying the human's indispensability, not covalence itself — and that event is exactly the picture of AI
+alignment going wrong. → **Break it:** this *is* the falsifier;
 the open question is *who runs the detector* — and an agent is the worst-placed party to report its own
 arrival there.[^c5]
 
@@ -169,7 +172,7 @@ the outside test the manifesto invites (Claim 6).
 
 - **Direct:** open an issue or a pull request (<https://github.com/pltrinh1122/dyad-bond>), attacking a claim
   by its number.
-- **Structured:** a Falsification Record in `commons/falsification/` (rules in its `CONTRACT.md`).
+- **Structured:** a Falsification Record in the [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice) (`commons/falsification/`, per its `CONTRACT.md`).
 
 ---
 
