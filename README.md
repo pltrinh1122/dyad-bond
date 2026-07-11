@@ -116,9 +116,18 @@ break it.
 ## How to prove us wrong
 
 The rest of this page is for the skeptic — or the second-model agent — who means to attack the belief, not
-just read it.[^attack] The claims build from the kernel (why it might be true) out to the formal skeleton;
-each pairs with the exact observation that would refute it, and each footnote holds the formal extension and
-the evidence. Pick a claim by its number and attack *that*.
+just read it.[^attack] The ladder runs from the problem to the formal skeleton: Claim 0 names what the
+default costs; Claim 1 is the belief that answers it; the rest build out the mechanism, the handles, and the
+structure. Each claim pairs with the exact observation that would refute it, and each footnote holds the
+formal extension and the evidence. Pick a claim by its number and attack *that*.
+
+**Claim 0 — The indictment.** Default use — the answer-machine mode — costs its operator three things:
+intent-accountability leaks away through delegation (you stop being the one who answers for what you're
+aiming at); the intent-holding judgment you have atrophies with disuse; and the judgment you were still
+going to grow is never built, because the friction that builds it never arrives. Under default use, the
+operator stops growing the way a human being normally does. → **Break it:** show a lifelong default-use
+operator whose grip on their own intent demonstrably holds and *grows* — growth without surplus breaks this
+claim even while Claim 1 stands.[^c0]
 
 **Claim 1 — The belief.** Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across
 their lifetime. → **Break it:** find or build a **non-covalent achiever** — any non-covalent mode that
@@ -163,7 +172,7 @@ knock it down.* An outside attack that lands raises our **coverage, not our stat
   it quietly let outcome back into a structural definition?
 - **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
   not just how to reach it? If it has, the wall is cracked.
-- **The indictment** (the heart's three costs): after years of AI use — who answers for what you're aiming
+- **The indictment** (Claim 0): after years of AI use — who answers for what you're aiming
   at, you or the habit of asking? Is your grip on your own intent growing, or going quiet?
 
 ### Falsify it with your dyad — requires being inside one
@@ -218,11 +227,8 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     question.)*
 
 [^split]: Not an equality claim: covalence won't lift you between tiers, and AI will widen the gaps between
-    them — it's about whether, at your tier, you become who you meant to be. The three-cost charge (the
-    indictment) is itself attackable, separately from Claim 1: show a lifelong default-use operator whose
-    grip on their own intent demonstrably holds and *grows* — that breaks the indictment even if the surplus
-    claim stands, which is exactly why the two are kept distinct targets. Home:
-    `dialectic/relationship-craft.md §The indictment — what default use costs`.
+    them — it's about whether, at your tier, you become who you meant to be. The three-cost charge is
+    Claim 0 — attack it there, separately from Claim 1.
 
 [^timing]: The argument is structural, not dated. The alignment question is also live: the loudest AI fear —
     an agent that grows its own ends — is this belief's own deepest falsifier (Claim 5), a reframe, not an
@@ -235,10 +241,24 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     (refuted by a counterexample or a failed prediction), not a **conjecture** (which would demand a proof we
     don't claim to have).
 
+[^c0]: The three axes are distinct because (1) is *relational* — who answers — while (2)/(3) are
+    *developmental* — can you answer, can you grow to answer more. The kind-difference against every prior
+    tool (writing, calculators, GPS — the offloading objection): those accepted delegation of *execution*;
+    AI is the first that accepts delegation of *the choosing itself* — and the re-investment-directing
+    faculty is exactly the one idled, so the historical re-invest-the-freed-capacity escape has no director
+    left. Register held deliberately at "stops growing," not "cannot": the mechanism is stimulus-removal,
+    not impossibility. **Falsifier:** a lifelong default-use operator whose intent-holding capability
+    demonstrably holds and grows — deliberately weaker than Claim 1's falsifier; the two are distinct
+    targets. **Evidence:** `dialectic/relationship-craft.md` §The indictment — what default use costs.
+
 [^c1]: **Falsifier:** a non-covalent achiever — any non-covalent mode that delivers the lifetime surplus (a
     covalent *failure* doesn't refute a necessity claim). A necessity claim scoped human-AI; only the mode
-    varies — covalent / ionic-compliance / meld / oracle-tool. **Evidence:** `dialectic/relationship-craft.md`
-    §The worn-path; §What the dyad rests on §2.
+    varies — covalent / ionic-compliance / meld / oracle-tool. Mechanism, individuated honestly: the *oracle*
+    branch of the necessity runs through the growth-premise — the surplus requires wetware growth (§What the
+    dyad rests on §1) and default use severs growth (Claim 0) — while the *meld/ionic* branches are ruled out
+    by the kernel (Claim 2: no independent second model left to falsify you). Neither mechanism alone covers
+    all modes; the necessity rests on both. **Evidence:** `dialectic/relationship-craft.md`
+    §The worn-path; §What the dyad rests on §1–2; §The indictment — what default use costs.
 
 [^c2]: An answer-machine serves the intent you state — including a drifted one — and atrophies you; covalence
     falsifies the intent itself. It structurally cannot: a role, not a capability gap, so a superintelligent
