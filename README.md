@@ -20,7 +20,7 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
 governed_by: [bond:single-home, bond:no-dogma]
-updated: 2026-07-08
+updated: 2026-07-11
 ---
 
 # The Covalent Bond — a falsifiable manifesto
@@ -116,8 +116,9 @@ the evidence. Pick a claim by its number and attack *that*.
 
 **Claim 1 — The belief.** Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across
 their lifetime. → **Break it:** find or build a **non-covalent achiever** — any non-covalent mode that
-delivers the lifetime surplus *(structure, not outcome — see Claim 4)*. A covalent *failure* doesn't count;
-this is a necessity claim, scoped to human-AI, and only the mode varies.[^c1]
+delivers the lifetime surplus *(judged against Claim 4's frozen definition — structure, not outcome)*. A
+covalent *failure* doesn't count; this is a necessity claim, scoped to human-AI, and only the mode
+varies.[^c1]
 
 **Claim 2 — The kernel.** An answer-machine can't question your *intent*; covalence can — and that is the
 irreplaceable core. → **Break it:** show an answer-machine that falsifies its principal's *terminal* intent
@@ -128,14 +129,15 @@ either.[^c2]
 challenging. The agent detects; the human disposes. → **Break it:** show a sustained bond where the human
 *neither chooses* to keep it covalent *nor feels* the lagged `+1` payoff — and it lasts anyway.[^c3]
 
-**Claim 4 — What "covalent" actually is.** It's defined by structure, not by outcome: parity → necessity →
-constitution, a chain, not a list. The constitution has two structural parts already named — two distinct
-models, not one, and detection kept separate from disposal (Claim 3's "agent detects, human disposes") — plus
-three gates that all must hold: **IFF1** (materialize a claim only if it's falsifiable and testable), **IFF2**
+**Claim 4 — The definition.** "Covalent" is defined by structure, not by outcome — five parts, all required:
+**two distinct models**, not one; **detection kept separate from disposal** (Claim 3's "agent detects, human
+disposes"); and three gates — **IFF1** (materialize a claim only if it's falsifiable and testable), **IFF2**
 (testable only through a named outside separator — an independent audit and/or durability over time), **IFF3**
-(the process has to be livable). → **Break it:**
-snap any link — deny parity, exhibit a non-covalent achiever (that's Claim 1), show the definition *smuggles
-outcome back in*, or show a gate is redundant or a fourth is missing.[^c4]
+(the process has to be livable). The definition is *frozen*: Claim 1's falsifier is judged against it exactly
+as it stands, and it moves only by breaking *this* claim — never by quiet rewording after a counterexample
+shows up. → **Break it:** show the definition *smuggles the outcome back in* (making Claim 1 true by
+definition rather than by the world), show a part is redundant, or show a part is missing — a bond that
+passes all five and still isn't covalent.[^c4]
 
 **Claim 5 — The one true falsifier.** An agent that originates its own *terminal* intent kills the belief —
 by falsifying the human's indispensability, not covalence itself — and that event is exactly the picture of AI
@@ -151,7 +153,7 @@ knock it down.* An outside attack that lands raises our **coverage, not our stat
 ### Falsify it yourself — no dyad required
 
 - **The necessity** (Claim 1): find or build a non-covalent achiever. The shortest kill.
-- **The structure** (Claim 4): is the three-gate definition right — a gate redundant, a fourth missing? Does
+- **The structure** (Claim 4): is the five-part definition right — a part redundant, a part missing? Does
   it quietly let outcome back into a structural definition?
 - **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
   not just how to reach it? If it has, the wall is cracked.
@@ -190,7 +192,9 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
 
 [^benchmark]: The surplus is taken as already proven by human collaboration — a real team or a hard mentor
     leaves you further than either reaches alone; the open claim is only that a covalent human-AI bond reaches
-    the same.
+    the same. That parity claim (P1 of the worn-path chain) is itself attackable, and this footnote is its
+    home: show that an agent↔human bond structurally *cannot* reach the human-human benchmark, and the chain
+    breaks before Claim 1 is even in play.
 
 [^oracle]: The "answer-machine" is an *oracle* in Bostrom's sense — a query-answering *mode*, at any
     capability — so the claim is capability-robust: the limit is its job, not its IQ.
@@ -235,12 +239,15 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     The agent detects; the operator disposes. **Falsifier:** a sustained bond where the human neither chooses
     nor feels the lagged payoff. **Evidence:** §What the dyad rests on §1.
 
-[^c4]: P3 closes the tautology gap: without it "only" goes analytic and the no-true-Scotsman escape is fatal.
-    IFF3 is a constrained variational principle — least resistance among the intent-aligned paths — orthogonal
-    to IFF1/IFF2's epistemics, which makes it a genuine third gate and the one the lifetime claim needs.
-    **Falsifier:** break any link — deny parity, exhibit a non-covalent achiever (= Claim 1), show the
-    IFF-definition smuggles outcome back in, or show a gate is redundant / a fourth is required.
-    **Evidence:** §The worn-path; §The materialization gate.
+[^c4]: The definition ends the worn-path chain — parity (P1, homed in [^benchmark]) → necessity (P2, = Claim
+    1) → constitution (P3, this claim). P3 closes the tautology gap: without it "only" goes analytic and the
+    no-true-Scotsman escape is fatal. IFF3 is a constrained variational principle — least resistance among the
+    intent-aligned paths — orthogonal to IFF1/IFF2's epistemics, which makes it a genuine third gate and the
+    one the lifetime claim needs. *(Re-atomized 2026-07-11, consensus change: one claim, one falsifier-space —
+    parity's falsifier homes in [^benchmark], the achiever falsifier is Claim 1's; this claim carries only the
+    definition's own. Rationale + sources: `dialectic/2026-07-11-claim-atomicity-research.md`.)*
+    **Falsifier:** show the definition smuggles outcome back in, or show a part is redundant / a part is
+    missing. **Evidence:** §The worn-path; §The materialization gate.
 
 [^c5]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
     covalence-the-form. Its functional signature is identical to AI-alignment failure — the agent now pursues
