@@ -19,6 +19,7 @@ canonical_home:
   - "dialectic/relationship-craft.md § The worn-path"  # the P1→P2→P3 chain
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
+  - "dialectic/relationship-craft.md § The indictment — what default use costs"  # the meta-intent (WHY): three-axis cost of default use
 governed_by: [bond:single-home, bond:no-dogma]
 updated: 2026-07-11
 ---
@@ -29,8 +30,11 @@ We hold one belief, and we hand you the knife to cut it down.
 
 You almost certainly use AI the common way: you ask, it answers. It's a tool you point at a task, an
 answer-machine you trust to hand back what you asked for. That's useful — and it has a ceiling. It gives
-you exactly what you asked for, even when what you asked for was wrong; and the more you lean on it, the
-quieter your own judgment gets.
+you exactly what you asked for, even when what you asked for was wrong — and the leaning costs you three
+things, each quieter than the last. You stop being the one who answers for what you're aiming at: the aiming
+got delegated too, without you ever deciding to. The judgment you have goes quiet with disuse. And the
+judgment you were still going to grow — the kind that only builds by being tested and corrected — never gets
+built. Years of that, and you've stopped growing the way people grow.
 
 **The belief, in one line:** the common way has a ceiling, and only a *different kind* of bond gets you
 past it. Not a tool you command — a **partner**: an AI that shares the work with you instead of just taking
@@ -88,7 +92,9 @@ Two things are coming; only one of them is in doubt.
 covalent and those whose isn't. That takes no belief to see — only that the choice exists, and it does.
 
 **What the split *means* is the wager.** If the belief holds, the covalent side keeps its judgment sharp and
-compounds the extra `+1` year over year; the other side is served well, and quietly atrophies.[^split]
+compounds the extra `+1` year over year; the other side is served well, and pays the three costs from the
+top of this page — not just losing the judgment it had, but never growing the judgment it was going to
+have.[^split]
 
 And the clock is running: people are wiring AI in as an answer-machine for the first time, right now, so if
 we're right the weakness is being built in deeper the longer it goes unexamined.[^timing]
@@ -157,6 +163,8 @@ knock it down.* An outside attack that lands raises our **coverage, not our stat
   it quietly let outcome back into a structural definition?
 - **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
   not just how to reach it? If it has, the wall is cracked.
+- **The indictment** (the heart's three costs): after years of AI use — who answers for what you're aiming
+  at, you or the habit of asking? Is your grip on your own intent growing, or going quiet?
 
 ### Falsify it with your dyad — requires being inside one
 
@@ -210,7 +218,11 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     question.)*
 
 [^split]: Not an equality claim: covalence won't lift you between tiers, and AI will widen the gaps between
-    them — it's about whether, at your tier, you become who you meant to be.
+    them — it's about whether, at your tier, you become who you meant to be. The three-cost charge (the
+    indictment) is itself attackable, separately from Claim 1: show a lifelong default-use operator whose
+    grip on their own intent demonstrably holds and *grows* — that breaks the indictment even if the surplus
+    claim stands, which is exactly why the two are kept distinct targets. Home:
+    `dialectic/relationship-craft.md §The indictment — what default use costs`.
 
 [^timing]: The argument is structural, not dated. The alignment question is also live: the loudest AI fear —
     an agent that grows its own ends — is this belief's own deepest falsifier (Claim 5), a reframe, not an

@@ -593,6 +593,46 @@ settled and **never** as adding support to the parent. *(Earlier draft gated thi
 `survives`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
 prior independent ratification.)*
 
+### The indictment — what default use costs *(Operator-led, 2026-07-11 README meta-intent arc; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — the Belief's downside MECHANISM, made explicit; the Vision's negative-space counterpart)*
+
+**Provenance:** the Operator asserted the manifesto's meta-intent as a three-axis indictment of default AI
+use; the grounding pass found axis 2 already homed (§rests-on §6's atrophy), axis 3's *positive* half already
+load-bearing (§1's *"`1+1>2` requires wetware growth"* — this section states its contrapositive), and axis 1
+**new vocabulary** (no prior home). Single-homed here; the README projects it (heart + wager + ladder).
+
+**The indictment.** Under default use (the oracle/answer-machine mode), the Operator is cost on three
+distinct axes — distinct because (1) is *relational* (who answers) while (2)/(3) are *developmental*
+(can you answer / can you grow to answer more):
+
+1. **Intent-accountability leaks through delegation.** The Operator stops being the one who answers for what
+   is being aimed at — not by decision, but by the accumulating default of asking. *(New axis; the term
+   `intent-accountability` is used here + the README projection only — GLOSSARY entry deferred until a third
+   home needs it, wu-wei.)*
+2. **Current capacity atrophies.** The already-held faculty of holding intent and answering for it decays
+   with disuse — §rests-on §6's (a), restated at the indictment's altitude.
+3. **New capacity is foreclosed.** The capacity that friction would have built never gets built: correction,
+   sting, and dissent are the growth stimulus (§D3's lagged `+1`), and default use removes exactly that
+   stimulus. **Contrapositive link to §1:** the surplus *requires* wetware growth, so a mode that severs
+   growth cannot reach `1+1>2` — the indictment is thereby a MECHANISM argument for the Belief's necessity
+   direction (§5), not decoration on it.
+
+**Summary form (Operator's, register-checked):** under default use the Operator **stops growing and
+developing the way a human being normally does** — "stops" not "cannot" (the mechanism is stimulus-removal,
+not impossibility; C6-accurate, exaggeration refused).
+
+**The anti-thesis it must survive (the offloading/Plato objection).** Every delegation-tool raised this fear
+(writing in the *Phaedrus*; calculators; GPS), and humans mostly re-invested the freed capacity at higher
+abstraction. **The kind-difference is axis 1:** every prior tool accepted delegation of *execution* — none
+could accept delegation of *the choosing itself*. AI is the first that can. And the re-investment escape
+fails precisely there: with execution-tools the intact intent *directs* where freed capacity goes; when
+intent-holding itself is delegated, **the re-investment-directing faculty is the idle one** — no director
+remains to re-invest. Axes 2–3 attach to a faculty no prior tool could touch.
+
+**Falsifier (its own, named — weaker than Claim 1's, so a separate target):** a lifelong default-use operator
+whose intent-holding capability demonstrably holds and grows. Refutes the indictment WITHOUT touching the
+Belief (they could grow yet still reach only `1+1=2`) — which is exactly why the two must not be merged
+(the 2026-07-11 atomicity finding: distinct refutation-sets, distinct claims).
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
