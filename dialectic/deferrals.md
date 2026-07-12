@@ -55,7 +55,14 @@
   wording explicitly deferred: *"the wordings need to be polished... review all of the claims together for
   coherence."* Scope: all of C0–C7 read as one ladder; known polish spots: `[^align]`/`[^timing]` still say
   "deepest failure"/"deepest falsifier" (pre-boundary register); C6's new body is intent-ratified draft
-  wording. Sequence: C7 light pass → this coherence review → fresh grounding re-audit (first audit predates
+  wording. **C7 light-pass findings folded in (2026-07-11, walkthrough complete C0–C7):** (i) `[^c7]`'s
+  named falsifier ("an outside attack actually lands") doesn't refute C7 — a landed attack *updates*
+  coverage, as the footnote itself says; the real knife is **reachability** ("show the separator is NOT
+  actually reachable — the manifesto under-exposes for an outside audit"), which the walkthrough's
+  atomization materially strengthened us against; (ii) "argued and lived" sits oddly over C6-the-declaration
+  (a boundary is declared, not lived); (iii) status honesty VERIFIED — this arc's two audits were
+  dyad-commissioned self-checks on the agent's own substrate, NOT the IFF2 separator; `E0`/`survives` stand.
+  Sequence: ~~C7 light pass~~ DONE → this coherence review → fresh grounding re-audit (first audit predates
   C0/mode-framing/renumber/C4/C6 rebuilds) → `d-land`.
 
 - **`§rests-on §8` "the dyad's true-falsification" phrasing owes an echo of the boundary framing**
