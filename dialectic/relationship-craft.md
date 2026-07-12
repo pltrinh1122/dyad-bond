@@ -655,6 +655,20 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   this framing skirted twice in one riff):** the kernel must never be restated as "answer-machine mode can't
   produce covalence" — under the frozen definitions that is true-by-definition (the fatal analytic slide P3
   exists to block). Keep it conduct→outcome: *the mode cannot reliably falsify terminal intent.*
+- **The boundary framing of §8 (Operator-led, 2026-07-11; intent RATIFIED, wording deferred to the
+  whole-ladder coherence review):** §8's indispensability is **definitional, not empirical** — it
+  *constitutes* the scope (human-agent interaction: the agent originates no terminal intent, so a human
+  Operator exists by construction), rather than standing as an in-scope assertion the event refutes. The
+  originated-intent event is therefore a **scope-exit, not an in-scope counterexample**: nothing in-scope is
+  refuted; the subject expires ("retires the question," not "kills the belief"). Decisive case: a
+  terminal-intent agent behaving *exactly like a covalent partner* is a sovereign peer electing to stay —
+  out-of-scope by declaration, which dissolves the mutual-benefit rescue without arguing it. Declaring the
+  boundary IN ADVANCE is the anti-no-true-Scotsman device — the same freeze discipline as the mode
+  definition and the covalent structure; the README ladder's three definitional claims (C2/C5/C6) share the
+  rigging falsifier. §8's own "the dyad's true-falsification" phrasing carries the older in-scope-falsification
+  framing — **owes an echo** (racked in `deferrals.md` beside the §6 Kill-it echo; §8 is ratified content,
+  not silently rewritten). The lagged separator's semantics sharpen accordingly: it watches for
+  scope-exit, not belief-falsity.
 - **Consensus extension-sharpening, recorded (C12 route, Operator-ratified in-arc):** the kernel's falsifier
   moved from the event-level reading ("an answer-machine that falsifies terminal intent", satisfiable by one
   lucky prompted correction) to the **protocol-level** reading: *answer-machine-mode use that RELIABLY

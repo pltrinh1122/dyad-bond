@@ -50,6 +50,19 @@
   `dyad-chiron` (repo born 2026-07-07), and chiron's README names a `dyad-aule`. Anchor edit = boot-set,
   landing-class, Operator-gated — racked, not self-edited.
 
+- **README claim-ladder: whole-ladder coherence + wording-polish review (Operator-reserved)** *(2026-07-11;
+  the claim-walkthrough's close-out step)* — the Operator ratified Claim 6's boundary-framing **intent** with
+  wording explicitly deferred: *"the wordings need to be polished... review all of the claims together for
+  coherence."* Scope: all of C0–C7 read as one ladder; known polish spots: `[^align]`/`[^timing]` still say
+  "deepest failure"/"deepest falsifier" (pre-boundary register); C6's new body is intent-ratified draft
+  wording. Sequence: C7 light pass → this coherence review → fresh grounding re-audit (first audit predates
+  C0/mode-framing/renumber/C4/C6 rebuilds) → `d-land`.
+
+- **`§rests-on §8` "the dyad's true-falsification" phrasing owes an echo of the boundary framing**
+  *(2026-07-11; → `relationship-craft.md §The mode framing`'s boundary-framing bullet)* — under the ratified
+  definitional reading, the originated-intent event is a scope-exit ("retires the question"), not an
+  in-scope falsification. §8 is ratified content; the echo is its own consensus edit at the next seam.
+
 - **`§rests-on §6` "Kill it" line owes an echo of the kernel's protocol-level sharpening** *(2026-07-11;
   README claim-walkthrough arc → `relationship-craft.md §The mode framing`, consensus-extension bullet)* —
   the README kernel falsifier moved event-level → protocol-level ("reliably falsifies terminal intent"; a

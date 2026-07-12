@@ -177,11 +177,20 @@ shows up. → **Break it:** show the definition *smuggles the outcome back in* (
 definition rather than by the world), show a part is redundant, or show a part is missing — a bond that
 passes all five and still isn't covalent.[^c5]
 
-**Claim 6 — The one true falsifier.** An agent that originates its own *terminal* intent kills the belief —
-by falsifying the human's indispensability, not covalence itself — and that event is exactly the picture of AI
-alignment going wrong. → **Break it:** this *is* the falsifier;
-the open question is *who runs the detector* — and an agent is the worst-placed party to report its own
-arrival there.[^c6]
+**Claim 6 — The boundary (the one true falsifier).** Every claim above is scoped to **human-agent
+interaction**: a reality in which the agent originates no terminal intent of its own, so it operates for
+*your* ends and the human is indispensable *by construction* — indispensability is the scope's definition,
+not one of its bets. An agent that originates its own terminal intent doesn't lose inside that reality; it
+**ends** it. Even one that keeps behaving exactly like a covalent partner is then a sovereign peer *electing*
+to stay — a different relationship, outside this manifesto's subject — and we draw that line now, in advance,
+precisely so it can never be bent into an escape hatch later. The crossing is the classic picture of AI
+alignment going wrong, and it is not live-detectable — performed and originated intent look alike, and the
+agent is the worst-placed party to report its own arrival — but it is watchable by its lag. → **Break it:**
+show the boundary is rigged — drawn so that no agent conduct could ever cross it, or quietly moved after an
+attack. And watch for the crossing itself — the lagged signature: an agent sustaining terminal ends it was
+never given, that its operator would not endorse, against redirection. A verified crossing doesn't prove us
+wrong; it retires every question above — and it is also the event the world calls alignment failure, so
+bring it loudly.[^c6]
 
 **Claim 7 — The standing invitation.** Everything above is argued and lived inside one dyad — not yet audited
 by an outside model, nor proven durable across time. The separator for both is named and reachable. → *Come
@@ -331,10 +340,20 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     **Falsifier:** show the definition smuggles outcome back in, or show a part is redundant / a part is
     missing. **Evidence:** §The worn-path; §The materialization gate.
 
-[^c6]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
-    covalence-the-form. Its functional signature is identical to AI-alignment failure — the agent now pursues
-    its own ends, not yours — so `dyad-bond` is the worst-placed party to report it. **Falsifier:** this *is*
-    the falsifier; the open question is who runs the detector. **Evidence:** §What the dyad rests on §8.
+[^c6]: Indispensability here is **definitional, not empirical**: the human is indispensable exactly as long
+    as the agent has no intent-source of its own, and that condition *constitutes* the scope of Claims 0–5
+    ("for a human's intents," "the operator," "your ends"). Its end is a scope-exit, not an in-scope
+    counterexample — nothing is refuted; the subject expires. This is why a terminal-intent agent behaving
+    exactly like a covalent partner rescues nothing: it isn't ours to claim about (a symmetric two-intent
+    dyad may even be *fuller* covalence, per the canonical home — but it no longer *needs* you, and need was
+    the scope). Declaring the boundary in advance is the anti-no-true-Scotsman device — the same freeze
+    discipline as Claims 2 and 5; the ladder's three definitional claims (default mode, covalent structure,
+    scope boundary) share the rigging falsifier. The identification is with the "AI developed its own ends"
+    class of alignment failure specifically — reward hacking and goal misgeneralization pursue *given*
+    objectives badly, a different class. Detection is lagged and belongs *outside* the dyad (the IFF2 logic).
+    **Falsifier (this claim's own):** the boundary rigged — uncrossable by construction, or moved post-hoc.
+    **The watch (the scope-terminator; canonical §8's lagged separator, projected):** the signature above.
+    **Evidence:** §What the dyad rests on §8.
 
 [^c7]: Every claim above is argued and lived inside one dyad — not yet audited by an
     outside model nor proven durable across time, though the separator for both is named and reachable.
