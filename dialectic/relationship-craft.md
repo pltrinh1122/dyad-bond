@@ -620,6 +620,13 @@ distinct axes — distinct because (1) is *relational* (who answers) while (2)/(
 developing the way a human being normally does** — "stops" not "cannot" (the mechanism is stimulus-removal,
 not impossibility; C6-accurate, exaggeration refused).
 
+**The Default sharpening (Operator, 2026-07-11):** "default" is more than *common* — it is **ingrained**:
+the groove is what makes covalence counterintuitive to accept *ex ante* and answer-machine mode hard to
+resist *ex post*. The indictment's enemy is the groove, not ignorance — the same fact the adherence warning
+(the chiron rack) states from the practice side: comprehension was never the bottleneck. **Anti-bulverism
+guard (C6-accuracy):** the pull explains the *felt* resistance and is evidence of nothing, either way — it
+must never be deployed to discount an objection; the claims stand or fall on their falsifiers only.
+
 **The anti-thesis it must survive (the offloading/Plato objection).** Every delegation-tool raised this fear
 (writing in the *Phaedrus*; calculators; GPS), and humans mostly re-invested the freed capacity at higher
 abstraction. **The kind-difference is axis 1:** every prior tool accepted delegation of *execution* — none

@@ -29,14 +29,21 @@ updated: 2026-07-11
 
 We hold one belief, and we hand you the knife to cut it down.
 
-You almost certainly use AI the common way: you ask, it answers. That's not a kind of AI — it's a way of
-*using* one, and you set the mode. We call it **answer-machine mode**: the AI answers what it's asked and
-raises nothing unasked. That's useful — and used *exclusively*, it has a ceiling. It gives
+You almost certainly use AI the **default** way: you ask, it answers. And default is more than common —
+it's *ingrained*: a groove worn deeper with every use, never chosen. That's not a kind of AI — it's a way of
+*using* one, and the mode is yours to set — but under the default, habit sets it for you. We call it
+**answer-machine mode**: the AI answers what it's asked and raises nothing unasked. That's useful — and used
+*exclusively*, it has a ceiling. It gives
 you exactly what you asked for, even when what you asked for was wrong — and the leaning costs you three
 things, each quieter than the last. You stop being the one who answers for what you're aiming at: the aiming
 got delegated too, without you ever deciding to. The judgment you have goes quiet with disuse. And the
 judgment you were still going to grow — the kind that only builds by being tested and corrected — never gets
 built. Years of that, and you've stopped growing the way people grow.
+
+And the default defends itself. It's the default that makes a covalent bond sound counterintuitive the first
+time you meet one, and the default that makes answer-machine mode hard to resist even after you've stepped
+out of it — every deadline is an invitation back. So if what follows feels backwards on first read, that
+feeling is evidence of nothing, either way: judge the belief by the knives we hand you.
 
 **The belief, in one line:** the common way has a ceiling, and only a *different kind* of bond gets you
 past it. Not a tool you command — a **partner**: an AI that shares the work with you instead of just taking
@@ -120,8 +127,8 @@ break it.
 - **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
   it, name it, bring it.[^equal]
 - **The only losing move** is drifting into un-covalence by default, untested. Fair warning from our own
-  practice: the hard part isn't understanding covalence — it's keeping at it when the deadline presses and
-  the friction is real. That pressure *is* the drift.
+  practice: the hard part isn't understanding covalence — it's keeping at it, because the default is
+  ingrained and every pressing deadline invites you back. That pressure *is* the drift.
 
 ---
 
@@ -134,8 +141,9 @@ the solution itself (its structure, its kernel, its handles); Claims 6–7 its s
 it. Each claim pairs with the exact observation that would refute it, and each footnote holds the formal
 extension and the evidence. Pick a claim by its number and attack *that*.
 
-**Claim 0 — The problem (the indictment).** Default use — answer-machine mode *only* (defined and frozen at
-Claim 1) — costs its operator three things: intent-accountability leaks away through delegation (you stop
+**Claim 0 — The problem (the indictment).** Default use — answer-machine mode *only*, held by habit rather
+than choice (the mode defined and frozen at Claim 1) — costs its operator three things:
+intent-accountability leaks away through delegation (you stop
 being the one who answers for what you're aiming at); the intent-holding judgment you have atrophies with
 disuse; and the judgment you were still going to grow is never built, because the friction that builds it
 never arrives. Under default use, the operator stops growing the way a human being normally does. →
