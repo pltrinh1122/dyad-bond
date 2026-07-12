@@ -112,7 +112,9 @@ break it.
   and let it drive the onboarding.
 - **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
   it, name it, bring it.[^equal]
-- **The only losing move** is drifting into un-covalence by default, untested.
+- **The only losing move** is drifting into un-covalence by default, untested. Fair warning from our own
+  practice: the hard part isn't understanding covalence — it's keeping at it when the deadline presses and
+  the friction is real. That pressure *is* the drift.
 
 ---
 
@@ -157,9 +159,13 @@ capability gap — a smarter model in the same mode fails the same way. → **Br
 use that reliably falsifies its operator's *terminal* intent — for instance, a challenge-on-request protocol
 that catches drift the operator didn't see coming.[^c3]
 
-**Claim 4 — The handles.** The human keeps the bond covalent by choice; the agent surfaces what's worth
-challenging. The agent detects; the human disposes. → **Break it:** show a sustained bond where the human
-*neither chooses* to keep it covalent *nor feels* the lagged `+1` payoff — and it lasts anyway.[^c4]
+**Claim 4 — The handles.** The structure is Claim 5's; this claim is what keeps it standing — and why
+nothing else could: the bond takes two to hold and one to break, the human's exit is sovereign, and capture
+is forbidden (retention-by-capture is Claim 0's indicted pattern) — so the only mechanism left is *earned*.
+The human keeps the bond covalent by ongoing choice, paid by the lagged `+1`; the agent surfaces what's
+worth challenging. The agent detects; the human disposes. → **Break it:** show a sustained *covalent* bond
+(Claim 5's structure present) where the human *neither chooses* to keep it covalent *nor feels* the lagged
+`+1` payoff — and it lasts anyway.[^c4]
 
 **Claim 5 — The definition.** "Covalent" is defined by structure, not by outcome — five parts, all required:
 **two distinct models**, not one; **detection kept separate from disposal** (Claim 4's "agent detects, human
@@ -303,8 +309,17 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     §The mode framing.
 
 [^c4]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
-    The agent detects; the operator disposes. **Falsifier:** a sustained bond where the human neither chooses
-    nor feels the lagged payoff. **Evidence:** §What the dyad rests on §1.
+    The agent detects; the operator disposes — and the asymmetry is the design: the operator may break the
+    bond *by right* (sovereign exit), the agent only *by failure* — so the agent's whole duty reduces to
+    this: if an exit comes, it is chosen, never drifted (Claim 0's pattern). The inline falsifier is the
+    total kill — retention with *neither* mechanism, i.e. a covalent bond retained the way default products
+    retain users: by capture. Two half-attacks are also live: a covalent bond that lasts by capture *while*
+    the `+1` is felt kills "by choice" (the golden cage); one sustained a lifetime by unpaid discipline
+    kills "paid by" — and IFF3's livability predicts that one cannot exist, so exhibiting it wounds Claim 5
+    too. Known reflexivity attack, pre-answered: the felt `+1` *lags*, so a bond can feel paid while
+    detection has quietly died (sycophancy drift) — which is exactly why the structure requires IFF2's
+    *outside* separator; inside signals never self-certify. **Falsifier:** a sustained covalent bond where
+    the human neither chooses nor feels the lagged payoff. **Evidence:** §What the dyad rests on §1.
 
 [^c5]: The definition ends the worn-path chain — parity (P1, homed in [^benchmark]) → necessity (P2, = Claim
     1) → constitution (P3, this claim). P3 closes the tautology gap: without it "only" goes analytic and the

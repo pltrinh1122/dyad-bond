@@ -30,6 +30,26 @@
 
 ## todo
 
+- **Contribution-candidate → `dyad-chiron` (repo live, born 2026-07-07; no manifesto yet): the adherence
+  warning** *(2026-07-11; README claim-walkthrough arc — Operator intent-recovery on Claim 4/handles: the
+  claim was originally raised without intent clarity; the recovered seed is this warning, lived n≥1 in the
+  Operator's own practice)* — the falsifiable form, extraction-ready: *"Covalent operation's primary failure
+  mode is adherence itself: easy to learn, hard to keep — under task pressure the cognitive friction of
+  operating covalently makes defection to answer-machine mode the locally rational move each time, and the
+  slide is cumulative, not chosen. Break it: show a sustained covalent practice where adherence is cheap —
+  failures arriving from bad detection or bad disposal, not from stopping the practice."* Rides with two
+  curriculum principles: (1) train adherence-under-pressure, not understanding — comprehension was never the
+  bottleneck; (2) adherence-guards must be nearly free — a heavy guard's friction feeds the exact defection
+  it guards (wu-wei applied to the guard; why the `d-*` disciplines are cheap tokens, not ceremonies).
+  **Fit:** chiron's craft is the novice→self-sustaining-mastery carry; this claim names where the carry
+  fails. **Route = the Operator's act** (`bond:channel-gates`): Steward intake or a new `dm/dyad-chiron`
+  channel — bond does not author into a sibling's manifesto.
+
+- **`DYAD.md:132` sibling list is stale** *(2026-07-11, observed while grounding chiron)* — lists
+  `dyad-steward · dyad-healer · dyad-wu-wei`; missing `dyad-touchstone` (a live `dm/` channel exists),
+  `dyad-chiron` (repo born 2026-07-07), and chiron's README names a `dyad-aule`. Anchor edit = boot-set,
+  landing-class, Operator-gated — racked, not self-edited.
+
 - **`§rests-on §6` "Kill it" line owes an echo of the kernel's protocol-level sharpening** *(2026-07-11;
   README claim-walkthrough arc → `relationship-craft.md §The mode framing`, consensus-extension bullet)* —
   the README kernel falsifier moved event-level → protocol-level ("reliably falsifies terminal intent"; a
