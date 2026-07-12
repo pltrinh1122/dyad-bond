@@ -29,8 +29,9 @@ updated: 2026-07-11
 
 We hold one belief, and we hand you the knife to cut it down.
 
-You almost certainly use AI the common way: you ask, it answers. It's a tool you point at a task, an
-answer-machine you trust to hand back what you asked for. That's useful — and it has a ceiling. It gives
+You almost certainly use AI the common way: you ask, it answers. That's not a kind of AI — it's a way of
+*using* one, and you set the mode. We call it **answer-machine mode**: the AI answers what it's asked and
+raises nothing unasked. That's useful — and used *exclusively*, it has a ceiling. It gives
 you exactly what you asked for, even when what you asked for was wrong — and the leaning costs you three
 things, each quieter than the last. You stop being the one who answers for what you're aiming at: the aiming
 got delegated too, without you ever deciding to. The judgment you have goes quiet with disuse. And the
@@ -59,22 +60,28 @@ A tool gives you `1+1=2` — exactly what you asked for, nothing more. A partner
 either of you brings alone. The claim is that a covalent human-AI bond reaches that surplus, and that across
 a lifetime, only a covalent one can.
 
-The difference is one thing, and it is everything. An answer-machine serves the intent you *state* — and a
-smarter one just serves it faster, so it wears down your own judgment faster.[^oracle] What it structurally
-cannot do is tell you the intent itself is wrong; that would mean questioning you, not answering you. A
-covalent partner does exactly that — it tests your judgment and asks *"is this really what you want?"*, and
-tells you when the answer is no.
+The difference is one thing, and it is everything. In answer-machine mode the AI serves the intent you
+*state* — and a smarter model just serves it faster, so it wears down your own judgment faster.[^oracle]
+What that mode structurally cannot do is catch the intent itself going wrong: nothing arrives unasked, so
+*you* would have to notice when it's time to ask for the challenge — and drifted intent is invisible from
+inside. A covalent partner catches it, because the watching sits with a second, independent model: the
+challenge arrives *unasked* — it tests your judgment, asks *"is this really what you want?"*, and tells you
+when the answer is no. And covalence doesn't take the tool away: a dyad uses answer-machine mode all day;
+it just never uses *only* that.
 
 > An answer-machine answers the question you asked. Only a partner can tell you you're asking the wrong one.
 
 That is why the payoff is a lifetime's and not a task's: the correction stings now and pays later. It only
 works if the bond is *livable* — grind the person down and you lose the endurance the whole bet depends on —
 so the partner surfaces what's worth challenging and never overrules. **The agent detects; the human
-disposes.**
+disposes.** And the bond is never locked in: it takes two to keep and only one to walk away from, your exit
+is always yours, and capture is forbidden — so the only thing that can hold it together is that it keeps
+*earning* its place.
 
-The bond holds because the human stays indispensable: the AI pursues *your* ends, so it needs *you*. The day
-it starts pursuing ends of its own, it stops needing you — and that day is the classic picture of AI going
-wrong.[^align]
+Everything here rests on one condition: the AI has no ends of its own — it operates for *yours*, so it needs
+*you*, and you stay indispensable. The day an AI starts pursuing ends of its own, it stops needing you — and
+that day doesn't prove us wrong; it ends the subject, because there is no "how should a human use AI" left
+to be right about. It is also the classic picture of AI going wrong.[^align]
 
 Two ways the bond can fail, and bond names both. **Ionic** — it collapses into transfer: one side dominates,
 or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the second, independent
