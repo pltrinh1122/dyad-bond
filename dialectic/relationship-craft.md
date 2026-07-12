@@ -633,6 +633,38 @@ whose intent-holding capability demonstrably holds and grows. Refutes the indict
 Belief (they could grow yet still reach only `1+1=2`) — which is exactly why the two must not be merged
 (the 2026-07-11 atomicity finding: distinct refutation-sets, distinct claims).
 
+### The mode framing — answer-machine is a use-mode; the kernel's empirical content *(Operator-led riff, 2026-07-11 README claim-walkthrough arc; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — sharpens §rests-on §6's oracle definition, extensions changed only by consensus as noted)*
+
+- **Mode-not-system.** "Answer-machine" names how the Operator *uses* an AI, never a kind of AI — the
+  Operator sets the mode (the README's `[^oracle]` carried this half-latent: *"a query-answering mode, at any
+  capability"*). **Answer-machine mode ≝ purely responsive use** — answers what is asked, raises nothing
+  unasked. The line is conduct, transcript-checkable, never outcome (Conservativeness-clean by construction).
+- **Default = exclusivity; the dyad is a superset.** The indictment's target is answer-machine mode *only*.
+  A dyad keeps answer-machine use and adds the standing license for the second model to raise the unasked —
+  that license is covalence-conduct, defined structurally by the five parts, NOT a third term.
+  **"Advisory mode" considered and REJECTED (2026-07-11):** it is a composite of the covalent structure
+  (two-models + detector-side license), necessary-not-sufficient (ionic and meld both exhibit unasked-raising
+  without covalence), and a frozen definition no falsifier needs is pure attack surface.
+- **Non-covalent ≠ answer-machine-only.** The four-way mode enumeration stands (oracle-tool / ionic / meld /
+  covalent). The kernel indicts the *default* mode; the Belief's necessity covers the remaining modes via the
+  no-independent-second-model branch (README `[^c1]`'s individuation).
+- **The kernel's empirical content, exposed by the mode-split.** The live substitute-attack is *solicited*
+  challenge: stay purely responsive and ask for the challenge on schedule. The kernel's claim is that this
+  fails because **the drifted operator is the wrong party to schedule their own blind-spot checks** —
+  detection-timing stays with the driftee, and drift is invisible from inside. **Analyticity guard (the trap
+  this framing skirted twice in one riff):** the kernel must never be restated as "answer-machine mode can't
+  produce covalence" — under the frozen definitions that is true-by-definition (the fatal analytic slide P3
+  exists to block). Keep it conduct→outcome: *the mode cannot reliably falsify terminal intent.*
+- **Consensus extension-sharpening, recorded (C12 route, Operator-ratified in-arc):** the kernel's falsifier
+  moved from the event-level reading ("an answer-machine that falsifies terminal intent", satisfiable by one
+  lucky prompted correction) to the **protocol-level** reading: *answer-machine-mode use that RELIABLY
+  falsifies its operator's terminal intent — e.g. a challenge-on-request protocol that catches drift the
+  operator didn't see coming.* A single solicited "your goal is wrong" is generation-on-demand (detection
+  stayed with the asker) and does not refute. ⚠ **§rests-on §6's "Kill it" line still carries the event-level
+  form — owes an echo of this sharpening** (flagged, not silently rewritten: §6 is ratified content; the echo
+  is its own small consensus edit, racked in `deferrals.md`). The README ladder's self-test was sharpened in
+  the same commit ("has it ever — *unasked* — told you your goal was wrong").
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*

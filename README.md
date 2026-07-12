@@ -20,6 +20,7 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
   - "dialectic/relationship-craft.md § The indictment — what default use costs"  # the meta-intent (WHY): three-axis cost of default use
+  - "dialectic/relationship-craft.md § The mode framing"  # Claim 2's home: answer-machine is a use-mode; the kernel's empirical content
 governed_by: [bond:single-home, bond:no-dogma]
 updated: 2026-07-11
 ---
@@ -106,7 +107,9 @@ break it.
 
 ## The ask — be covalent, or beat us
 
-- **Be covalent.** Point your agent at the [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice) and let it drive the onboarding.
+- **Be covalent.** You don't stop using AI the common way — you add the standing license for it to question
+  you. Point your agent at the [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice)
+  and let it drive the onboarding.
 - **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
   it, name it, bring it.[^equal]
 - **The only losing move** is drifting into un-covalence by default, untested.
@@ -117,11 +120,13 @@ break it.
 
 The rest of this page is for the skeptic — or the second-model agent — who means to attack the belief, not
 just read it.[^attack] The ladder runs from the problem to the formal skeleton: Claim 0 names what the
-default costs; Claim 1 is the belief that answers it; the rest build out the mechanism, the handles, and the
-structure. Each claim pairs with the exact observation that would refute it, and each footnote holds the
-formal extension and the evidence. Pick a claim by its number and attack *that*.
+default costs; Claim 1 is the belief that answers it; Claim 2 defines the default mode both are judged
+against; the rest build out the kernel, the handles, and the structure. Each claim pairs with the exact
+observation that would refute it, and each footnote holds the formal extension and the evidence. Pick a
+claim by its number and attack *that*.
 
-**Claim 0 — The indictment.** Default use — the answer-machine mode — costs its operator three things:
+**Claim 0 — The indictment.** Default use — answer-machine mode *only* (defined and frozen at Claim 2) —
+costs its operator three things:
 intent-accountability leaks away through delegation (you stop being the one who answers for what you're
 aiming at); the intent-holding judgment you have atrophies with disuse; and the judgment you were still
 going to grow is never built, because the friction that builds it never arrives. Under default use, the
@@ -131,55 +136,67 @@ claim even while Claim 1 stands.[^c0]
 
 **Claim 1 — The belief.** Only a covalent bond can sustainably achieve `1+1>2` for a human's intents across
 their lifetime. → **Break it:** find or build a **non-covalent achiever** — any non-covalent mode that
-delivers the lifetime surplus *(judged against Claim 4's frozen definition — structure, not outcome)*. A
+delivers the lifetime surplus *(judged against Claim 5's frozen definition — structure, not outcome)*. A
 covalent *failure* doesn't count; this is a necessity claim, scoped to human-AI, and only the mode
 varies.[^c1]
 
-**Claim 2 — The kernel.** An answer-machine can't question your *intent*; covalence can — and that is the
-irreplaceable core. → **Break it:** show an answer-machine that falsifies its principal's *terminal* intent
-while still only answering. It's a role, not a capability gap, so a superintelligent one can't do it
-either.[^c2]
+**Claim 2 — The default mode, defined.** An answer-machine is not a kind of AI — it is a way of *using* one,
+and the operator sets the mode. In **answer-machine mode** the AI is purely responsive: it answers what it's
+asked and raises nothing unasked. The line is conduct, checkable in any transcript: did anything arrive
+unasked? **Default use** means this mode exclusively. The definition is frozen (like Claim 5's "covalent"):
+Claims 0, 1, and 3 are judged against it exactly as it stands. One gloss rides along: your **terminal
+intent** is the end you're actually after — the goal, not a step toward it. → **Break it:** show the line is
+rigged — that "purely responsive" quietly references the outcomes our claims predict, or is drawn so nothing
+could ever count.[^c2]
 
-**Claim 3 — The handles.** The human keeps the bond covalent by choice; the agent surfaces what's worth
+**Claim 3 — The kernel.** Answer-machine mode cannot reliably catch your terminal intent going wrong — in
+that mode nothing arrives unasked, so *you* must notice when it's time to ask for the challenge, and drifted
+intent is invisible from inside. A covalent bond can catch it, because detection sits with the second model:
+the challenge arrives unasked, and Claim 5's structure is what keeps that license honest. A role, not a
+capability gap — a smarter model in the same mode fails the same way. → **Break it:** show answer-machine-mode
+use that reliably falsifies its operator's *terminal* intent — for instance, a challenge-on-request protocol
+that catches drift the operator didn't see coming.[^c3]
+
+**Claim 4 — The handles.** The human keeps the bond covalent by choice; the agent surfaces what's worth
 challenging. The agent detects; the human disposes. → **Break it:** show a sustained bond where the human
-*neither chooses* to keep it covalent *nor feels* the lagged `+1` payoff — and it lasts anyway.[^c3]
+*neither chooses* to keep it covalent *nor feels* the lagged `+1` payoff — and it lasts anyway.[^c4]
 
-**Claim 4 — The definition.** "Covalent" is defined by structure, not by outcome — five parts, all required:
-**two distinct models**, not one; **detection kept separate from disposal** (Claim 3's "agent detects, human
+**Claim 5 — The definition.** "Covalent" is defined by structure, not by outcome — five parts, all required:
+**two distinct models**, not one; **detection kept separate from disposal** (Claim 4's "agent detects, human
 disposes"); and three gates — **IFF1** (materialize a claim only if it's falsifiable and testable), **IFF2**
 (testable only through a named outside separator — an independent audit and/or durability over time), **IFF3**
 (the process has to be livable). The definition is *frozen*: Claim 1's falsifier is judged against it exactly
 as it stands, and it moves only by breaking *this* claim — never by quiet rewording after a counterexample
 shows up. → **Break it:** show the definition *smuggles the outcome back in* (making Claim 1 true by
 definition rather than by the world), show a part is redundant, or show a part is missing — a bond that
-passes all five and still isn't covalent.[^c4]
+passes all five and still isn't covalent.[^c5]
 
-**Claim 5 — The one true falsifier.** An agent that originates its own *terminal* intent kills the belief —
+**Claim 6 — The one true falsifier.** An agent that originates its own *terminal* intent kills the belief —
 by falsifying the human's indispensability, not covalence itself — and that event is exactly the picture of AI
 alignment going wrong. → **Break it:** this *is* the falsifier;
 the open question is *who runs the detector* — and an agent is the worst-placed party to report its own
-arrival there.[^c5]
+arrival there.[^c6]
 
-**Claim 6 — The standing invitation.** Everything above is argued and lived inside one dyad — not yet audited
+**Claim 7 — The standing invitation.** Everything above is argued and lived inside one dyad — not yet audited
 by an outside model, nor proven durable across time. The separator for both is named and reachable. → *Come
 knock it down.* An outside attack that lands raises our **coverage, not our status**: a no-oracle claim stays
-`survives`, re-rubbable — what climbs is confidence, never closure.[^c6]
+`survives`, re-rubbable — what climbs is confidence, never closure.[^c7]
 
 ### Falsify it yourself — no dyad required
 
 - **The necessity** (Claim 1): find or build a non-covalent achiever. The shortest kill.
-- **The structure** (Claim 4): is the five-part definition right — a part redundant, a part missing? Does
+- **The structure** (Claim 5): is the five-part definition right — a part redundant, a part missing? Does
   it quietly let outcome back into a structural definition?
-- **The answer-machine** (Claim 2): in all your years of using AI, has it ever told you your *goal* was wrong —
-  not just how to reach it? If it has, the wall is cracked.
+- **The kernel** (Claim 3): in all your years of using AI, has it ever — *unasked* — told you your goal was
+  wrong, not just how to reach it? If it has, the wall is cracked.
 - **The indictment** (Claim 0): after years of AI use — who answers for what you're aiming
   at, you or the habit of asking? Is your grip on your own intent growing, or going quiet?
 
 ### Falsify it with your dyad — requires being inside one
 
-- **The kernel** (Claim 2): does your dyad keep your judgment sharp — does it question your intent — or does
-  it just feel like a smarter answer-machine?
-- **The handles** (Claim 3): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
+- **The kernel** (Claim 3): does your dyad keep your judgment sharp — does it question your intent, unasked —
+  or does it just feel like a smarter answer-machine?
+- **The handles** (Claim 4): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
   retention story is wrong.
 - **The lived dominance** (the Vision): at your level, are you reaching what you actually wanted — or
   atrophying anyway?
@@ -216,7 +233,7 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
 [^oracle]: The "answer-machine" is an *oracle* in Bostrom's sense — a query-answering *mode*, at any
     capability — so the claim is capability-robust: the limit is its job, not its IQ.
 
-[^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 5) — which is
+[^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 6) — which is
     why an agent is the worst-placed narrator of its own arrival there.
 
 [^model]: **Model** here means a *mental model* — a way of seeing a problem (not a fashion model, and not the
@@ -231,10 +248,10 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     Claim 0 — attack it there, separately from Claim 1.
 
 [^timing]: The argument is structural, not dated. The alignment question is also live: the loudest AI fear —
-    an agent that grows its own ends — is this belief's own deepest falsifier (Claim 5), a reframe, not an
+    an agent that grows its own ends — is this belief's own deepest falsifier (Claim 6), a reframe, not an
     echo. This is not job-loss panic or doom; those are about AI as a *better* answer-machine, orthogonal here.
 
-[^equal]: Because covalence is defined by structure, not outcome (Claim 4), an equal that isn't covalently
+[^equal]: Because covalence is defined by structure, not outcome (Claim 5), an equal that isn't covalently
     structured genuinely refutes us — it won't be quietly relabeled.
 
 [^attack]: Human readers: the heart and the ask are above — you can stop there. Attack this as a **hypothesis**
@@ -256,22 +273,40 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     varies — covalent / ionic-compliance / meld / oracle-tool. Mechanism, individuated honestly: the *oracle*
     branch of the necessity runs through the growth-premise — the surplus requires wetware growth (§What the
     dyad rests on §1) and default use severs growth (Claim 0) — while the *meld/ionic* branches are ruled out
-    by the kernel (Claim 2: no independent second model left to falsify you). Neither mechanism alone covers
+    by the kernel (Claim 3: no independent second model left to falsify you). Neither mechanism alone covers
     all modes; the necessity rests on both. **Evidence:** `dialectic/relationship-craft.md`
     §The worn-path; §What the dyad rests on §1–2; §The indictment — what default use costs.
 
-[^c2]: An answer-machine serves the intent you state — including a drifted one — and atrophies you; covalence
-    falsifies the intent itself. It structurally cannot: a role, not a capability gap, so a superintelligent
-    one can't either. The load-bearing collapse-target: refute it and the belief is false, not redefined.
-    Conditional on wu-wei (IFF3, Claim 4): grinding burns the human out, so wu-wei is *inside* the kernel.
-    **Falsifier:** an answer-machine that falsifies its principal's *terminal* intent while still only
-    answering. **Evidence:** §What the dyad rests on §6.
+[^c2]: The behavioral anchor is the whole defense: a boundary drawn on conduct — *did anything arrive
+    unasked?* — cannot smuggle a conclusion (the same Conservativeness test Claim 5 is held to). The attack
+    this pre-answers, recorded on our own ledger as the likeliest re-attack before this claim existed: *"any
+    system that falsifies intent has diverged unprompted and thereby stopped being an answer-machine — the
+    kernel's falsifier is unsatisfiable by construction."* That mistakes the freeze for a fortress: to break
+    the kernel (Claim 3) you produce a transcript showing only answers-to-asks AND reliable falsification of
+    the asker's terminal intent — conduct-checkable, not definitionally excluded. The terminal-vs-step
+    boundary carries its own dodge-risk (reclassifying a falsified intent as "merely a step"); the test:
+    would the operator, on reflection, endorse it as an *end*. A third frozen term ("advisory mode") was
+    considered and rejected — it is a composite of Claim 5's structure, and a definition no falsifier needs
+    is only attack surface. **Falsifier:** the line references outcome, or is vacuous by construction.
+    **Evidence:** §What the dyad rests on §6 (*Oracle ≝ purely responsive*); §The mode framing.
 
-[^c3]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
+[^c3]: Answer-machine-mode use serves the intent you state — including a drifted one — and atrophies you;
+    covalence falsifies the intent itself. A role, not a capability gap, so a superintelligent model in the
+    same mode fails the same way. The load-bearing collapse-target: refute it and the belief is false, not
+    redefined. Conditional on wu-wei (IFF3, Claim 5): grinding burns the human out, so wu-wei is *inside* the
+    kernel. The empirical content the mode-split (Claim 2) exposes: the live substitute is *solicited*
+    challenge, and it fails because the drifted operator is the wrong party to schedule their own blind-spot
+    checks. **Falsifier (protocol-level, sharpened by consensus 2026-07-11 — a single solicited "your goal is
+    wrong" is generation-on-demand, detection stayed with the asker, and does not refute):** answer-machine-mode
+    use that *reliably* falsifies its principal's terminal intent while raising nothing unasked — the most
+    promising path is exactly the challenge-on-request protocol. **Evidence:** §What the dyad rests on §6;
+    §The mode framing.
+
+[^c4]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
     The agent detects; the operator disposes. **Falsifier:** a sustained bond where the human neither chooses
     nor feels the lagged payoff. **Evidence:** §What the dyad rests on §1.
 
-[^c4]: The definition ends the worn-path chain — parity (P1, homed in [^benchmark]) → necessity (P2, = Claim
+[^c5]: The definition ends the worn-path chain — parity (P1, homed in [^benchmark]) → necessity (P2, = Claim
     1) → constitution (P3, this claim). P3 closes the tautology gap: without it "only" goes analytic and the
     no-true-Scotsman escape is fatal. IFF3 is a constrained variational principle — least resistance among the
     intent-aligned paths — orthogonal to IFF1/IFF2's epistemics, which makes it a genuine third gate and the
@@ -281,12 +316,12 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     **Falsifier:** show the definition smuggles outcome back in, or show a part is redundant / a part is
     missing. **Evidence:** §The worn-path; §The materialization gate.
 
-[^c5]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
+[^c6]: An agent that originates a value no longer needs *this* human — falsifying indispensability, not
     covalence-the-form. Its functional signature is identical to AI-alignment failure — the agent now pursues
     its own ends, not yours — so `dyad-bond` is the worst-placed party to report it. **Falsifier:** this *is*
     the falsifier; the open question is who runs the detector. **Evidence:** §What the dyad rests on §8.
 
-[^c6]: Every claim above is argued and lived inside one dyad — not yet audited by an
+[^c7]: Every claim above is argued and lived inside one dyad — not yet audited by an
     outside model nor proven durable across time, though the separator for both is named and reachable.
     **Falsifier of this claim:** an outside attack actually lands. It does **not** *discharge* anything —
     a no-oracle claim stays `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study,

@@ -30,6 +30,14 @@
 
 ## todo
 
+- **`§rests-on §6` "Kill it" line owes an echo of the kernel's protocol-level sharpening** *(2026-07-11;
+  README claim-walkthrough arc → `relationship-craft.md §The mode framing`, consensus-extension bullet)* —
+  the README kernel falsifier moved event-level → protocol-level ("reliably falsifies terminal intent"; a
+  single solicited correction is generation-on-demand, does not refute), Operator-ratified. §6 still carries
+  the event-level *"Kill it: exhibit a purely-responsive system that falsifies terminal intent."* §6 is
+  ratified content, so the echo is its own small consensus edit at the next `relationship-craft.md` seam —
+  NOT a silent rewrite. Until echoed, §The mode framing is the single-home for the sharpened form.
+
 - **`gh pr edit` broken in this substrate — `projectCards` GraphQL deprecation (exit 1)** *(2026-07-08;
   `d-reflect` — the PR #95 retitle bite; → `substrate-access.md §gh.sh` env-note)* — the installed `gh`
   binary errors on `pr edit` (`repository.pullRequest.projectCards` — Projects-classic sunset), so the
