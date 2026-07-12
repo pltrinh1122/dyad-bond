@@ -53,7 +53,13 @@
 - **README claim-ladder: whole-ladder coherence + wording-polish review (Operator-reserved)** *(2026-07-11;
   the claim-walkthrough's close-out step)* — the Operator ratified Claim 6's boundary-framing **intent** with
   wording explicitly deferred: *"the wordings need to be polished... review all of the claims together for
-  coherence."* Scope: all of C0–C7 read as one ladder; known polish spots: `[^align]`/`[^timing]` still say
+  coherence."* **Role-model alignment RATIFIED + executed 2026-07-11** (Operator's mental model: problem →
+  observation → belief-as-only-solution → solution structure/kernel/handle → scope → out-of-scope): ladder
+  is now **C0 problem · C1 observation/mode · C2 belief · C3 structure · C4 kernel (solution-first) · C5
+  handles · C6 scope · C7 out-of-scope · C8 invitation** — old C6 split into scope (rigging falsifier) +
+  out-of-scope (mis-specification falsifier, the signature moved into the assertion); kernel re-oriented
+  solution-first, extension unchanged. Wording polish REMAINS deferred to the Operator's whole-ladder read.
+  Scope: all of C0–C8 read as one ladder; known polish spots: `[^align]`/`[^timing]` still say
   "deepest failure"/"deepest falsifier" (pre-boundary register); C6's new body is intent-ratified draft
   wording. **C7 light-pass findings folded in (2026-07-11, walkthrough complete C0–C7):** (i) `[^c7]`'s
   named falsifier ("an outside attack actually lands") doesn't refute C7 — a landed attack *updates*
