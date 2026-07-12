@@ -40,7 +40,9 @@
   failures arriving from bad detection or bad disposal, not from stopping the practice."* Rides with two
   curriculum principles: (1) train adherence-under-pressure, not understanding — comprehension was never the
   bottleneck; (2) adherence-guards must be nearly free — a heavy guard's friction feeds the exact defection
-  it guards (wu-wei applied to the guard; why the `d-*` disciplines are cheap tokens, not ceremonies).
+  it guards (wu-wei applied to the guard; why the `d-*` disciplines are cheap tokens, not ceremonies);
+  (3) the Default sharpening (Operator, 2026-07-11): the enemy is the **ingrained groove**, not ignorance —
+  "Default" is what makes covalence counterintuitive to accept and answer-machine mode hard to resist.
   **Fit:** chiron's craft is the novice→self-sustaining-mastery carry; this claim names where the carry
   fails. **Route = the Operator's act** (`bond:channel-gates`): Steward intake or a new `dm/dyad-chiron`
   channel — bond does not author into a sibling's manifesto.
