@@ -77,6 +77,14 @@
   Sequence: ~~C7 light pass~~ DONE → this coherence review → fresh grounding re-audit (first audit predates
   C0/mode-framing/renumber/C4/C6 rebuilds) → `d-land`.
 
+- **Contribution-candidate → `dyad-cairn`: concision conditions (C20–C23) for the README-Writing
+  Discipline** *(2026-07-11; artifact = `dm/dyad-cairn/2026-07-11-concision-discipline-contribution.md`)* —
+  bond's HOW-0006 falsification run surfaced the missing conciseness condition and lived the repair
+  (residue cut → brevity pass → register split, knife-freeze fidelity mechanism throughout; commits
+  `8ca9d98`/`a157577`/`6997596`). Graded honestly in the artifact (`survives — intra-dyad`, n=1; C23 not
+  yet through bond's own gate). **Send/routing = the Operator's act** (`bond:channel-gates`); offer to
+  build the `--knife-diff` lint mode rides with it.
+
 - **`§rests-on §8` "the dyad's true-falsification" phrasing owes an echo of the boundary framing**
   *(2026-07-11; → `relationship-craft.md §The mode framing`'s boundary-framing bullet)* — under the ratified
   definitional reading, the originated-intent event is a scope-exit ("retires the question"), not an
