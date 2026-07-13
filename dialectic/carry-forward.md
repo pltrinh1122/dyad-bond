@@ -71,6 +71,38 @@
 > boots coherently (vocabulary intact, `d-reflect` names the `CSS+SH` form), then clear. Sha refreshed
 > above so no false-MISMATCH fires.
 
+## Stand-Down 2026-07-11 — `d-reflect` + `d-land`: the README-revision arc (register-split form; up for the Operator's merge)
+
+**RESTART-PENDING: none** — no boot-set (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`/`GLOSSARY.md`) touched this session
+(`standdown.sh`-confirmed, `DYAD.md@a47a65d`). All edits are non-boot-set: `README.md` (revised), new
+`FALSIFICATION.md`, `bin/readme-lint.py` (+`land.sh` gate), `dialectic/relationship-craft.md` (+`§The
+indictment`, `§The mode framing`, this arc's `§Reflect`), `dialectic/2026-07-11-claim-atomicity-research.md`,
+`dm/dyad-cairn/2026-07-11-concision-discipline-contribution.md`, `deferrals.md`, this ledger.
+*(Pre-existing `RESTART-PENDING(GEMINI.md@178324c)` agy-cold-boot + `RESTART-PENDING(GLOSSARY.md@015945b)`
+next-boot-verify stay SET per the ROM block above — untouched this arc.)*
+
+**Reflect landed** → `relationship-craft.md §Reflect — the README-revision arc: falsify-then-adopt an external
+discipline, the DFD-as-menu STOP, and a new register-split form` (full CSS+SH there). **Headline STOP =
+DFD-as-menu** (Operator-caught): presented a *converged* DFD as a prose-less option-menu, mismatching the
+disposition-medium to a wording decision. **START = match disposition-medium to decision-type** — when
+converged, lead with the ratifiable draft *in the medium the decision is about* (prose for wording); a menu
+is only for genuinely un-converged architecture forks. **Headline CONTINUE = refused to self-ratify my own
+architectural lean** (the merge-C1+C4 fork) and grounded it in the philosophy-of-science literature via the
+research harness instead — `bond:two-models` run on the Agent's instinct, not just the Operator's; the
+second grounding audit then caught an *inherited* falsifier-widening ("true intent" dropped from the formal
+spine). **Surface-don't-bake held at every ratified-claim seam** — the prior arc's baked-a-resolution STOP
+did not recur.
+
+**Resume delta.** The README revision is **complete-in-substance** on `claude/dyad-bond-readme-revision-zzqzwq`;
+the Operator's `d-land` closes the review floor → landing via **branch→PR→Operator-merge** (`bond:no-self-ratify`;
+PR opened this session, **NOT merged** — the Operator's gate). **New form to watch:** the register-split
+(`README.md` plain lens 214L/14KB + `FALSIFICATION.md` formal surface) — beyond cairn's discipline, n=1,
+pre-gate. **Live racks (all in `deferrals.md §todo`, pointers only):** whole-ladder wording-polish review
+(Operator-reserved) · **chiron** adherence-warning + **cairn** concision C20–C23 contributions (routing = the
+Operator's act) · `§6`/`§8` canonical echoes · `DYAD.md:132` sibling-list staleness (boot-set, Operator-gated).
+**dyad-chiron** cloned this session (born 2026-07-07, no manifesto — the adherence-warning's destination).
+IM daemon left un-armed (tight single-arc scope). `land.sh` freshness+mergeability gate (n=3) still owed.
+
 ## Stand-Down 2026-07-08 (b) — `d-reflect`: CSS+SH rename + d-reflect idempotence + SH re-oriented (PR #94 landed)
 
 **RESTART-PENDING: GLOSSARY.md@015945b SET** (see the ROM block above; supersedes the prior `@2eb9986`).
