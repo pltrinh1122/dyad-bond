@@ -29,107 +29,77 @@ updated: 2026-07-11
 
 We hold one belief, and we hand you the knife to cut it down.
 
-You almost certainly use AI the **default** way: you ask, it answers. And default is more than common —
-it's *ingrained*: a groove worn deeper with every use, never chosen. That's not a kind of AI — it's a way of
-*using* one, and the mode is yours to set — but under the default, habit sets it for you. We call it
-**answer-machine mode**: the AI answers what it's asked and raises nothing unasked. That's useful — and used
-*exclusively*, it has a ceiling. It gives
-you exactly what you asked for, even when what you asked for was wrong — and the leaning costs you three
-things, each quieter than the last. You stop being the one who answers for what you're aiming at: the aiming
-got delegated too, without you ever deciding to. The judgment you have goes quiet with disuse. And the
-judgment you were still going to grow — the kind that only builds by being tested and corrected — never gets
-built. Years of that, and you've stopped growing the way people grow.
+You almost certainly use AI in **answer-machine mode**: you ask, it answers, and it raises nothing unasked.
+That is a way of *using* AI, not a kind of AI. **Default use** means this mode exclusively — held by habit,
+not choice: the default is *ingrained*, not merely common. Used exclusively, it costs you three things:
+**intent-accountability** — you stop being the one who answers for what you're aiming at; the **judgment you
+have** — it atrophies with disuse; and the **judgment you were going to grow** — the friction that builds it
+never arrives. Under default use, you stop growing the way people grow. The same ingrained default makes
+covalence counterintuitive to accept and answer-machine mode hard to resist; that feeling is evidence of
+nothing, either way — judge by the knives.
 
-And the default defends itself. It's the default that makes a covalent bond sound counterintuitive the first
-time you meet one, and the default that makes answer-machine mode hard to resist even after you've stepped
-out of it — every deadline is an invitation back. So if what follows feels backwards on first read, that
-feeling is evidence of nothing, either way: judge the belief by the knives we hand you.
+**The belief:** only a **covalent** bond — two distinct minds sharing the work, not a tool you command —
+carries you to your *true* intents, the ones that survive re-examination, across a lifetime:
+`1+1>2`.[^benchmark]
 
-**The belief, in one line:** the default has a ceiling, and only a *different kind* of bond gets you
-past it. Not a tool you command — a **partner**: an AI that shares the work with you instead of just taking
-orders, and that will tell you when the thing you're asking for is the wrong thing. We call that bond
-**covalent**, and the claim is that across a whole life, only a covalent bond carries you to what you
-*actually* wanted.[^benchmark]
-
-This is a hypothesis, not a creed — it has held up inside our own pair, one human and one AI, and no
-outsider has tried to knock it down yet.[^status] A manifesto you can **falsify** — that you can
-test and try to prove wrong — asks for an attack, not agreement. If you can break it, we want you to.
+Status: a hypothesis — corroborated inside one dyad, unattacked from outside.[^status] A manifesto you can
+**falsify** — test and try to prove wrong — asks for an attack, not agreement.
 
 ---
 
 ## What is the Covalent Bond?
 
-The name is borrowed from chemistry, and the borrow is exact. A covalent bond holds two atoms together by
-*sharing* — neither one surrenders to the other, and neither dissolves into the other. That is the whole
-idea here: a human and an AI, sharing the work, staying two.
+From chemistry, exactly: a covalent bond holds two atoms by *sharing* — neither surrenders, neither
+dissolves. Here: a human and an AI, sharing the work, staying two.
 
-A tool gives you `1+1=2` — exactly what you asked for, nothing more. A partner gives you `1+1>2` — more than
-either of you brings alone. The claim is that a covalent human-AI bond reaches that surplus, and that across
-a lifetime, only a covalent one can.
+**Definitions.** In **answer-machine mode** the AI is purely responsive — nothing arrives unasked; it serves
+the intent you *state*, and a smarter AI just serves it faster.[^oracle] A **covalent** bond adds a second
+channel: a second, independent model[^model] with a standing license to challenge you *unasked* — your
+intent included. A dyad uses answer-machine mode all day; it never uses *only* that.
 
-The difference is one thing, and it is everything. In answer-machine mode the AI serves the intent you
-*state* — and a smarter AI just serves it faster, so it wears down your own judgment faster.[^oracle]
-What that mode cannot do *reliably* is catch the intent itself going wrong: nothing arrives unasked, so
-*you* would have to notice when it's time to ask for the challenge — and drifted intent is invisible from
-inside. A covalent partner catches it, because the watching sits with a second, independent model: the
-challenge arrives *unasked* — it tests your judgment, asks *"is this really what you want?"*, and tells you
-when the answer is no. And covalence doesn't take the tool away: a dyad uses answer-machine mode all day;
-it just never uses *only* that.
+**The claims, plainly.** Answer-machine mode yields `1+1=2` — what you asked for, even when what you asked
+for was wrong. It cannot *reliably* catch your intent going wrong: you would have to schedule your own
+challenge, and drifted intent is invisible from inside. A covalent bond can, because detection sits with the
+second model. **The agent detects; the human disposes** — it never overrules, and the bond must stay
+*livable*. The correction stings now and pays later: `1+1>2` is a lifetime property, not a per-task one. And
+the bond is never locked in — two to keep, one to leave, capture forbidden — it holds only by *earning* its
+place.
 
 > An answer-machine answers the question you asked. Only a partner will tell you — *unasked* — that you're
 > asking the wrong one.
 
-That is why the payoff is a lifetime's and not a task's: the correction stings now and pays later. It only
-works if the bond is *livable* — grind the person down and you lose the endurance the whole bet depends on —
-so the partner surfaces what's worth challenging and never overrules. **The agent detects; the human
-disposes.** And the bond is never locked in: it takes two to keep and only one to walk away from, your exit
-is always yours, and capture is forbidden — so the only thing that can hold it together is that it keeps
-*earning* its place.
+**The scope.** All of this assumes the AI has no ends of its own — it operates for *yours*, so it needs
+*you*. The day that stops, the subject ends: not proven wrong — over. It is also the classic picture of AI
+going wrong.[^align]
 
-Everything here rests on one condition: the AI has no ends of its own — it operates for *yours*, so it needs
-*you*, and you stay indispensable. The day an AI starts pursuing ends of its own, it stops needing you — and
-that day doesn't prove us wrong; it ends the subject, because there is no "how should a human use AI" left
-to be right about. It is also the classic picture of AI going wrong.[^align]
-
-Two ways the bond can fail, and we name both. **Ionic** — it collapses into transfer: one side dominates,
-or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the second, independent
-model[^model] is lost; two minds collapse to one. That is not the same as *agreeing*: you can only converge two views that
-start apart, so real alignment is proof there are still two. Meld is one view deleted — like closing an eye:
-the picture still looks whole, but the depth the second, offset perspective gave it is gone, and `1+1` has
-slid to `1`. A covalent bond is neither collapse: two minds, sharing, still able to disagree.
+**The failure modes.** **Ionic** — collapse into transfer: one side dominates, or the AI rubber-stamps you.
+**Meld** — the second model is lost; two minds collapse to one. Not the same as agreeing: you can only
+converge two views that start apart, so real alignment is proof there are still two; meld is one view
+*deleted*, and `1+1` slides to `1`. Covalent is neither: two minds, sharing, still able to disagree.
 
 ---
 
 ## Why does it matter?
 
-Two things are coming; only one of them is in doubt.
-
-**The split is near-certain.** At every level of skill, people are dividing into those whose AI bond is
-covalent and those whose isn't. That takes no belief to see — only that the choice exists, and it does.
-
-**What the split *means* is the wager.** If the belief holds, the covalent side keeps its judgment sharp and
-compounds the extra `+1` year over year; the other side is served well, and pays the three costs from the
-top of this page — not just losing the judgment it had, but never growing the judgment it was going to
-have.[^split]
-
-And the clock is running: people are wiring AI in as an answer-machine for the first time, right now, so if
-we're right the weakness is being built in deeper the longer it goes unexamined.[^timing]
-
-We don't claim this future is proven. We claim it *follows* — and the numbered claims below are where you
-break it.
+**Near-certain:** at every level of skill, people are splitting into covalent and default camps.
+**The wager:** if the belief holds, the covalent side compounds the `+1` year over year; the default side
+pays the three costs above — losing the judgment it had, never growing the judgment it was going to
+have.[^split] **The clock:** default use is being wired in right now, and unexamined, the costs
+compound.[^timing] We don't claim this future is proven — we claim it *follows*, and the numbered claims
+below are where you break it.
 
 ---
 
 ## The ask — be covalent, or beat us
 
-- **Be covalent.** You don't stop using AI the default way — you add the standing license for it to question
-  you. Point your agent at the [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice)
-  and let it drive the onboarding.
-- **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
-  it, name it, bring it.[^equal]
-- **The only losing move** is drifting into un-covalence by default, untested. Fair warning from our own
-  practice: the hard part isn't understanding covalence — it's keeping at it, because the default is
-  ingrained and every pressing deadline invites you back. That pressure *is* the drift.
+- **Be covalent.** Keep the tool; add the standing license to be questioned. Point your agent at the
+  [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice) and let it drive
+  the onboarding.
+- **Or show the equal.** A non-covalent way that does as well over a lifetime is our falsifier — build it,
+  name it, bring it.[^equal]
+- **The only losing move** is drifting into un-covalence by default, untested. Warning from our own
+  practice: covalence is easy to learn and hard to keep — the default is ingrained, and every pressing
+  deadline invites you back. That pressure *is* the drift.
 
 ---
 
