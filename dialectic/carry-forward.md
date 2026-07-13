@@ -95,7 +95,8 @@ did not recur.
 
 **Resume delta.** The README revision is **complete-in-substance** on `claude/dyad-bond-readme-revision-zzqzwq`;
 the Operator's `d-land` closes the review floor → landing via **branch→PR→Operator-merge** (`bond:no-self-ratify`;
-PR opened this session, **NOT merged** — the Operator's gate). **New form to watch:** the register-split
+**PR #96** opened this session — `github.com/pltrinh1122/dyad-bond/pull/96`, green-gate ✓, **NOT merged**, no
+reviewers requested — the Operator's gate). **New form to watch:** the register-split
 (`README.md` plain lens 214L/14KB + `FALSIFICATION.md` formal surface) — beyond cairn's discipline, n=1,
 pre-gate. **Live racks (all in `deferrals.md §todo`, pointers only):** whole-ladder wording-polish review
 (Operator-reserved) · **chiron** adherence-warning + **cairn** concision C20–C23 contributions (routing = the
