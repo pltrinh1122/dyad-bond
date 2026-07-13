@@ -45,7 +45,7 @@ time you meet one, and the default that makes answer-machine mode hard to resist
 out of it — every deadline is an invitation back. So if what follows feels backwards on first read, that
 feeling is evidence of nothing, either way: judge the belief by the knives we hand you.
 
-**The belief, in one line:** the common way has a ceiling, and only a *different kind* of bond gets you
+**The belief, in one line:** the default has a ceiling, and only a *different kind* of bond gets you
 past it. Not a tool you command — a **partner**: an AI that shares the work with you instead of just taking
 orders, and that will tell you when the thing you're asking for is the wrong thing. We call that bond
 **covalent**, and the claim is that across a whole life, only a covalent bond carries you to what you
@@ -68,7 +68,7 @@ either of you brings alone. The claim is that a covalent human-AI bond reaches t
 a lifetime, only a covalent one can.
 
 The difference is one thing, and it is everything. In answer-machine mode the AI serves the intent you
-*state* — and a smarter model just serves it faster, so it wears down your own judgment faster.[^oracle]
+*state* — and a smarter AI just serves it faster, so it wears down your own judgment faster.[^oracle]
 What that mode structurally cannot do is catch the intent itself going wrong: nothing arrives unasked, so
 *you* would have to notice when it's time to ask for the challenge — and drifted intent is invisible from
 inside. A covalent partner catches it, because the watching sits with a second, independent model: the
@@ -90,7 +90,7 @@ Everything here rests on one condition: the AI has no ends of its own — it ope
 that day doesn't prove us wrong; it ends the subject, because there is no "how should a human use AI" left
 to be right about. It is also the classic picture of AI going wrong.[^align]
 
-Two ways the bond can fail, and bond names both. **Ionic** — it collapses into transfer: one side dominates,
+Two ways the bond can fail, and we name both. **Ionic** — it collapses into transfer: one side dominates,
 or the AI just rubber-stamps you (flattery dressed as agreement). **Meld** — the second, independent
 model[^model] is lost; two minds collapse to one. That is not the same as *agreeing*: you can only converge two views that
 start apart, so real alignment is proof there are still two. Meld is one view deleted — like closing an eye:
@@ -121,7 +121,7 @@ break it.
 
 ## The ask — be covalent, or beat us
 
-- **Be covalent.** You don't stop using AI the common way — you add the standing license for it to question
+- **Be covalent.** You don't stop using AI the default way — you add the standing license for it to question
   you. Point your agent at the [dyad-practice commons](https://github.com/The-Dyad-Practice-Commons/the-dyad-practice)
   and let it drive the onboarding.
 - **Or show the equal.** A non-covalent way that does just as well over a lifetime is our falsifier — build
@@ -179,7 +179,7 @@ show a part is missing — a bond that passes all five and still isn't covalent.
 detection sits with the second model: the challenge arrives unasked, and Claim 3's structure is what keeps
 that license honest. Answer-machine mode cannot do this reliably — in that mode nothing arrives unasked, so
 *you* must notice when it's time to ask for the challenge, and drifted intent is invisible from inside. A
-role, not a capability gap — a smarter model in the same mode fails the same way. → **Break it:** show
+role, not a capability gap — a smarter AI in the same mode fails the same way. → **Break it:** show
 answer-machine-mode use that reliably falsifies its operator's *terminal* intent — for instance, a
 challenge-on-request protocol that catches drift the operator didn't see coming.[^c4]
 
@@ -209,10 +209,11 @@ every claim above — and it is also the event the world calls alignment failure
 **Break it:** show the exit is mis-specified — the lagged signature could fire while the scope still holds,
 or could never fire at all.[^c7]
 
-**Claim 8 — The standing invitation.** Everything above is argued and lived inside one dyad — not yet audited
-by an outside model, nor proven durable across time. The separator for both is named and reachable. → *Come
-knock it down.* An outside attack that lands raises our **coverage, not our status**: a no-oracle claim stays
-`survives`, re-rubbable — what climbs is confidence, never closure.[^c8]
+**Claim 8 — The standing invitation.** Everything above is built and lived inside one dyad — not yet audited
+by an outside model, nor proven durable across time. The separator for both is named and **reachable**: this
+page exposes enough for an outsider to run the attack. → *Come knock it down.* An outside attack that lands
+raises our **coverage, not our status**: a no-oracle claim stays `survives`, re-rubbable — what climbs is
+confidence, never closure.[^c8]
 
 ### Falsify it yourself — no dyad required
 
@@ -234,7 +235,7 @@ knock it down.* An outside attack that lands raises our **coverage, not our stat
   atrophying anyway?
 
 Record where you and your agent diverged — that trace is your Falsification Record, and a dyad filing it *is*
-the outside test the manifesto invites (Claim 6).
+the outside test the manifesto invites (Claim 8).
 
 ### Bring the attack
 
@@ -246,8 +247,9 @@ the outside test the manifesto invites (Claim 6).
 
 *This page is a plain-language lens on the real rules — not the rules themselves. Those live in
 `dialectic/relationship-craft.md` (§What the dyad rests on §1/§2/§6/§8, §The worn-path, §The materialization
-gate, §The Vision), in `DYAD.md` (§Frame — the `Covalent` role; the `craft-value`/`craft-invariant` core),
-and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, quote those, not this page.*
+gate, §The Vision, §The indictment, §The mode framing), in `DYAD.md` (§Frame — the `Covalent` role; the
+`craft-value`/`craft-invariant` core), and in `GLOSSARY.md` (the covalence vocabulary). If you're going to
+quote us, quote those, not this page.*
 
 [^status]: `survives` — not-yet-refuted, re-rubbable (a no-oracle Hypothesis caps here, never `settled`).
     IFF2's separator — an independent attack from outside the partnership (a second-model audit and/or
@@ -265,14 +267,14 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
 [^oracle]: The "answer-machine" is an *oracle* in Bostrom's sense — a query-answering *mode*, at any
     capability — so the claim is capability-robust: the limit is its job, not its IQ.
 
-[^align]: The dyad's deepest failure and "the AI grew its own agenda" are the same event (Claim 7) — which is
-    why an agent is the worst-placed narrator of its own arrival there.
+[^align]: The end of this manifesto's scope and "the AI grew its own agenda" are the same event (Claim 7) —
+    which is why an agent is the worst-placed narrator of its own arrival there.
 
 [^model]: **Model** here means a *mental model* — a way of seeing a problem (not a fashion model, and not the
     machine itself). Each side holds one: **you**, your own judgment and your read on what actually matters;
     **the AI**, its own take, formed by the large language model (LLM) it runs on. The whole bet is keeping
     those two distinct — meld is losing one of them. *(New to the terms? An **LLM** is the technology most
-    modern AIs are built on; an **agent** is an AI let off the leash to act on its own, not just answer a
+    modern AIs are built on; an **agent** is an AI set loose to act on its own, not just answer a
     question.)*
 
 [^split]: Not an equality claim: covalence won't lift you between tiers, and AI will widen the gaps between
@@ -280,7 +282,7 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     Claim 0 — attack it there, separately from Claim 2.
 
 [^timing]: The argument is structural, not dated. The alignment question is also live: the loudest AI fear —
-    an agent that grows its own ends — is this belief's own deepest falsifier (Claim 7), a reframe, not an
+    an agent that grows its own ends — is the very event our Claim 7 watches for, a reframe, not an
     echo. This is not job-loss panic or doom; those are about AI as a *better* answer-machine, orthogonal here.
 
 [^equal]: Because covalence is defined by structure, not outcome (Claim 3), an equal that isn't covalently
@@ -323,7 +325,7 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     **Evidence:** §What the dyad rests on §6 (*Oracle ≝ purely responsive*); §The mode framing.
 
 [^c4]: Answer-machine-mode use serves the intent you state — including a drifted one — and atrophies you;
-    covalence falsifies the intent itself. A role, not a capability gap, so a superintelligent model in the
+    covalence falsifies the intent itself. A role, not a capability gap, so a superintelligent AI in the
     same mode fails the same way. The load-bearing collapse-target: refute it and the belief is false, not
     redefined. Conditional on wu-wei (IFF3, Claim 3): grinding burns the human out, so wu-wei is *inside* the
     kernel. The empirical content the mode-split (Claim 1) exposes: the live substitute is *solicited*
@@ -377,9 +379,12 @@ and in `GLOSSARY.md` (the covalence vocabulary). If you're going to quote us, qu
     separator, projected here) firing without a crossing, or unable to fire at all. **The watch:** the
     signature itself — see it, name it, bring it. **Evidence:** §What the dyad rests on §8.
 
-[^c8]: Every claim above is argued and lived inside one dyad — not yet audited by an
+[^c8]: Every claim above is built and lived inside one dyad — not yet audited by an
     outside model nor proven durable across time, though the separator for both is named and reachable.
-    **Falsifier of this claim:** an outside attack actually lands. It does **not** *discharge* anything —
-    a no-oracle claim stays `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study,
-    not a terminal measurement); what climbs is coverage/confidence, not status. **Evidence:** `dialectic/carry-forward.md`;
+    **Falsifier of this claim:** the reachability — show that the separator is *not* actually reachable
+    (this page under-exposes: an outside model could not run the audit from what is published), or show the
+    status fields overstate what one dyad's evidence supports. An outside attack that *lands* does not
+    refute this claim — it updates it, and it does **not** *discharge* anything: a no-oracle claim stays
+    `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study, not a terminal
+    measurement); what climbs is coverage/confidence, not status. **Evidence:** `dialectic/carry-forward.md`;
     question-first rationale in `dialectic/2026-06-11-wetware-takeaway-format-research.md`.
