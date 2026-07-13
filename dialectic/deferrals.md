@@ -61,9 +61,13 @@
   handles · C6 scope · C7 out-of-scope · C8 invitation** — old C6 split into scope (rigging falsifier) +
   out-of-scope (mis-specification falsifier, the signature moved into the assertion); kernel re-oriented
   solution-first, extension unchanged. Wording polish REMAINS deferred to the Operator's whole-ladder read.
-  Scope: all of C0–C8 read as one ladder; known polish spots: `[^align]`/`[^timing]` still say
-  "deepest failure"/"deepest falsifier" (pre-boundary register); C6's new body is intent-ratified draft
-  wording. **C7 light-pass findings folded in (2026-07-11, walkthrough complete C0–C7):** (i) `[^c7]`'s
+  Scope: all of C0–C8 read as one ladder. **2026-07-11 HOW-0006 conformance pass applied** the racked
+  register items (`[^align]`/`[^timing]` boundary-consistent; "built and lived"; `[^c8]` reachability
+  falsifier) + nine C5/C6/C9/C13 fixes; the fresh grounding audit returned 7/9 FAITHFUL with two
+  extension-relevant findings held for the Operator: F1 restore "true (continually re-examined) intent" to
+  `belief.statement` + Claim 2 (inherited drop, predates this arc — canonical carries it, heart carries
+  "actually wanted", formal spine doesn't); F2 the heart's kernel absolutes vs the ratified protocol-level
+  form ("structurally cannot" / "Only a partner can" → "cannot reliably" / "will tell you, unasked"). **C7 light-pass findings folded in (2026-07-11, walkthrough complete C0–C7):** (i) `[^c7]`'s
   named falsifier ("an outside attack actually lands") doesn't refute C7 — a landed attack *updates*
   coverage, as the footnote itself says; the real knife is **reachability** ("show the separator is NOT
   actually reachable — the manifesto under-exposes for an outside audit"), which the walkthrough's

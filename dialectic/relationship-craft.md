@@ -597,8 +597,8 @@ prior independent ratification.)*
 
 **Provenance:** the Operator asserted the manifesto's meta-intent as a three-axis indictment of default AI
 use; the grounding pass found axis 2 already homed (§rests-on §6's atrophy), axis 3's *positive* half already
-load-bearing (§1's *"`1+1>2` requires wetware growth"* — this section states its contrapositive), and axis 1
-**new vocabulary** (no prior home). Single-homed here; the README projects it (heart + wager + ladder).
+load-bearing (§The worn-path §2's *"`1+1>2` requires wetware growth"* — this section states its
+contrapositive), and axis 1 **new vocabulary** (no prior home). Single-homed here; the README projects it (heart + wager + ladder).
 
 **The indictment.** Under default use (the oracle/answer-machine mode), the Operator is cost on three
 distinct axes — distinct because (1) is *relational* (who answers) while (2)/(3) are *developmental*
@@ -612,7 +612,7 @@ distinct axes — distinct because (1) is *relational* (who answers) while (2)/(
    with disuse — §rests-on §6's (a), restated at the indictment's altitude.
 3. **New capacity is foreclosed.** The capacity that friction would have built never gets built: correction,
    sting, and dissent are the growth stimulus (§D3's lagged `+1`), and default use removes exactly that
-   stimulus. **Contrapositive link to §1:** the surplus *requires* wetware growth, so a mode that severs
+   stimulus. **Contrapositive link to §The worn-path §2:** the surplus *requires* wetware growth, so a mode that severs
    growth cannot reach `1+1>2` — the indictment is thereby a MECHANISM argument for the Belief's necessity
    direction (§5), not decoration on it.
 
@@ -635,7 +635,7 @@ fails precisely there: with execution-tools the intact intent *directs* where fr
 intent-holding itself is delegated, **the re-investment-directing faculty is the idle one** — no director
 remains to re-invest. Axes 2–3 attach to a faculty no prior tool could touch.
 
-**Falsifier (its own, named — weaker than Claim 1's, so a separate target):** a lifelong default-use operator
+**Falsifier (its own, named — weaker than Claim 2's, the Belief's, so a separate target):** a lifelong default-use operator
 whose intent-holding capability demonstrably holds and grows. Refutes the indictment WITHOUT touching the
 Belief (they could grow yet still reach only `1+1=2`) — which is exactly why the two must not be merged
 (the 2026-07-11 atomicity finding: distinct refutation-sets, distinct claims).
@@ -654,7 +654,7 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   without covalence), and a frozen definition no falsifier needs is pure attack surface.
 - **Non-covalent ≠ answer-machine-only.** The four-way mode enumeration stands (oracle-tool / ionic / meld /
   covalent). The kernel indicts the *default* mode; the Belief's necessity covers the remaining modes via the
-  no-independent-second-model branch (README `[^c1]`'s individuation).
+  no-independent-second-model branch (README `[^c2]`'s individuation).
 - **The kernel's empirical content, exposed by the mode-split.** The live substitute-attack is *solicited*
   challenge: stay purely responsive and ask for the challenge on schedule. The kernel's claim is that this
   fails because **the drifted operator is the wrong party to schedule their own blind-spot checks** —
@@ -671,7 +671,7 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   terminal-intent agent behaving *exactly like a covalent partner* is a sovereign peer electing to stay —
   out-of-scope by declaration, which dissolves the mutual-benefit rescue without arguing it. Declaring the
   boundary IN ADVANCE is the anti-no-true-Scotsman device — the same freeze discipline as the mode
-  definition and the covalent structure; the README ladder's three definitional claims (C2/C5/C6) share the
+  definition and the covalent structure; the README ladder's three definitional claims (C1/C3/C6) share the
   rigging falsifier. §8's own "the dyad's true-falsification" phrasing carries the older in-scope-falsification
   framing — **owes an echo** (racked in `deferrals.md` beside the §6 Kill-it echo; §8 is ratified content,
   not silently rewritten). The lagged separator's semantics sharpen accordingly: it watches for

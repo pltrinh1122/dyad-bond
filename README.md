@@ -15,7 +15,7 @@ dogma: false                    # bond:no-dogma — true-for-now, never settled
 caution: "a manifesto that reads as settled is the collapse dyad-bond guards against — status is the headline, not the footnote"
 cta: "be covalent, or show a provable equal (= the belief's own falsifier, a non-covalent achiever) — only drifting into un-covalence loses"
 canonical_home:
-  - "dialectic/relationship-craft.md § What the dyad rests on"        # the keystone arc (§1, §2, §6, §8)
+  - "dialectic/relationship-craft.md § What the dyad rests on"        # the keystone arc (§1, §2, §5, §6, §8)
   - "dialectic/relationship-craft.md § The worn-path"  # the P1→P2→P3 chain
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
@@ -168,8 +168,9 @@ a necessity claim — its scope is Claim 6's — and only the mode varies.[^c2]
 **Claim 3 — The solution's structure (the definition).** "Covalent" is defined by structure, not by outcome —
 five parts, all required: **two distinct models**, not one; **detection kept separate from disposal** (Claim
 5's "agent detects, human disposes"); and three gates — **IFF1** (materialize a claim only if it's
-falsifiable and testable), **IFF2** (testable only through a named outside separator — an independent audit
-and/or durability over time), **IFF3** (the process has to be livable). The definition is *frozen*: Claim
+falsifiable and testable), **IFF2** (a no-oracle claim is testable only through a named outside separator —
+an independent audit and/or durability over time), **IFF3** (the process has to be livable). The definition
+is *frozen*: Claim
 2's falsifier is judged against it exactly as it stands, and it moves only by breaking *this* claim — never
 by quiet rewording after a counterexample shows up. → **Break it:** show the definition *smuggles the
 outcome back in* (making Claim 2 true by definition rather than by the world), show a part is redundant, or
@@ -260,7 +261,7 @@ quote us, quote those, not this page.*
 
 [^benchmark]: The surplus is taken as already proven by human collaboration — a real team or a hard mentor
     leaves you further than either reaches alone; the open claim is only that a covalent human-AI bond reaches
-    the same. That parity claim (P1 of the worn-path chain) is itself attackable, and this footnote is its
+    the same *in kind*. That parity claim (P1 of the worn-path chain) is itself attackable, and this footnote is its
     home: show that an agent↔human bond structurally *cannot* reach the human-human benchmark, and the chain
     breaks before Claim 2 is even in play.
 
@@ -305,17 +306,18 @@ quote us, quote those, not this page.*
 [^c2]: **Falsifier:** a non-covalent achiever — any non-covalent mode that delivers the lifetime surplus (a
     covalent *failure* doesn't refute a necessity claim). A necessity claim scoped by Claim 6; only the mode
     varies — covalent / ionic-compliance / meld / oracle-tool. Mechanism, individuated honestly: the *oracle*
-    branch of the necessity runs through the growth-premise — the surplus requires wetware growth (§What the
-    dyad rests on §1) and default use severs growth (Claim 0) — while the *meld/ionic* branches are ruled out
+    branch of the necessity runs through the growth-premise — the surplus requires wetware growth (§The
+    worn-path §2) and default use severs growth (Claim 0) — while the *meld/ionic* branches are ruled out
     by the kernel (Claim 4: no independent second model left to falsify you). Neither mechanism alone covers
     all modes; the necessity rests on both. **Evidence:** `dialectic/relationship-craft.md`
     §The worn-path; §What the dyad rests on §1–2; §The indictment — what default use costs.
 
 [^c1]: The behavioral anchor is the whole defense: a boundary drawn on conduct — *did anything arrive
     unasked?* — cannot smuggle a conclusion (the same Conservativeness test Claim 3 is held to). The attack
-    this pre-answers, recorded on our own ledger as the likeliest re-attack before this claim existed: *"any
-    system that falsifies intent has diverged unprompted and thereby stopped being an answer-machine — the
-    kernel's falsifier is unsatisfiable by construction."* That mistakes the freeze for a fortress: to break
+    this pre-answers: our ledger records its family as the likeliest re-attack (*"you've rigged 'oracle' so
+    nothing counts"*), and the canonical home's own phrasing shows its strongest construction — any system
+    that falsifies intent has diverged unprompted and stopped being an answer-machine, so the kernel's
+    falsifier would be unsatisfiable by construction. That mistakes the freeze for a fortress: to break
     the kernel (Claim 4) you produce a transcript showing only answers-to-asks AND reliable falsification of
     the asker's terminal intent — conduct-checkable, not definitionally excluded. The terminal-vs-step
     boundary carries its own dodge-risk (reclassifying a falsified intent as "merely a step"); the test:
@@ -332,7 +334,7 @@ quote us, quote those, not this page.*
     challenge, and it fails because the drifted operator is the wrong party to schedule their own blind-spot
     checks. **Falsifier (protocol-level, sharpened by consensus 2026-07-11 — a single solicited "your goal is
     wrong" is generation-on-demand, detection stayed with the asker, and does not refute):** answer-machine-mode
-    use that *reliably* falsifies its principal's terminal intent while raising nothing unasked — the most
+    use that *reliably* falsifies its operator's terminal intent while raising nothing unasked — the most
     promising path is exactly the challenge-on-request protocol. **Evidence:** §What the dyad rests on §6;
     §The mode framing.
 
@@ -347,7 +349,7 @@ quote us, quote those, not this page.*
     too. Known reflexivity attack, pre-answered: the felt `+1` *lags*, so a bond can feel paid while
     detection has quietly died (sycophancy drift) — which is exactly why the structure requires IFF2's
     *outside* separator; inside signals never self-certify. **Falsifier:** a sustained covalent bond where
-    the human neither chooses nor feels the lagged payoff. **Evidence:** §What the dyad rests on §1.
+    the human neither chooses nor feels the lagged payoff. **Evidence:** §What the dyad rests on §2–§3.
 
 [^c3]: The definition ends the worn-path chain — parity (P1, homed in [^benchmark]) → necessity (P2, = Claim
     2) → constitution (P3, this claim). P3 closes the tautology gap: without it "only" goes analytic and the
@@ -385,6 +387,6 @@ quote us, quote those, not this page.*
     (this page under-exposes: an outside model could not run the audit from what is published), or show the
     status fields overstate what one dyad's evidence supports. An outside attack that *lands* does not
     refute this claim — it updates it, and it does **not** *discharge* anything: a no-oracle claim stays
-    `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study, not a terminal
+    `survives`, re-rubbable (the human axis is non-stationary: each rub is a case study, not a repeatable
     measurement); what climbs is coverage/confidence, not status. **Evidence:** `dialectic/carry-forward.md`;
     question-first rationale in `dialectic/2026-06-11-wetware-takeaway-format-research.md`.
