@@ -188,7 +188,7 @@ challenge-on-request protocol that catches drift the operator didn't see coming.
 
 **Claim 5 — The solution's handles.** The structure is Claim 3's; this claim is what keeps it standing — and
 why nothing else could: the bond takes two to hold and one to break, the human's exit is sovereign, and
-capture is forbidden (retention-by-capture is Claim 0's indicted pattern) — so the only mechanism left is
+capture is forbidden (capture is Claim 0's indicted pattern) — so the only mechanism left is
 *earned*. The human keeps the bond covalent by ongoing choice, paid by the lagged `+1`; the agent surfaces
 what's worth challenging. The agent detects; the human disposes. → **Break it:** show a sustained *covalent*
 bond (Claim 3's structure present) where the human *neither chooses* to keep it covalent *nor feels* the
@@ -295,12 +295,11 @@ quote us, quote those, not this page.*
     (refuted by a counterexample or a failed prediction), not a **conjecture** (which would demand a proof we
     don't claim to have).
 
-[^c0]: The three axes are distinct because (1) is *relational* — who answers — while (2)/(3) are
-    *developmental* — can you answer, can you grow to answer more. The kind-difference against every prior
-    tool (writing, calculators, GPS — the offloading objection): those accepted delegation of *execution*;
-    AI is the first that accepts delegation of *the choosing itself* — and the re-investment-directing
-    faculty is exactly the one idled, so the historical re-invest-the-freed-capacity escape has no director
-    left. Register held deliberately at "stops growing," not "cannot": the mechanism is stimulus-removal,
+[^c0]: The three axes are distinct: (1) is *relational* — who answers — while (2)/(3) are *developmental*.
+    The kind-difference against every prior tool (writing, calculators, GPS — the offloading objection):
+    those accepted delegation of *execution*; AI is the first that accepts delegation of *the choosing
+    itself* — and the re-investment-directing faculty is exactly the one idled, so the re-invest-the-freed-
+    capacity escape has no director left. "Stops growing," not "cannot": the mechanism is stimulus-removal,
     not impossibility. **Falsifier:** a lifelong default-use operator whose intent-holding capability
     demonstrably holds and grows — deliberately weaker than Claim 2's falsifier; the two are distinct
     targets. **Evidence:** `dialectic/relationship-craft.md` §The indictment — what default use costs.
@@ -315,41 +314,35 @@ quote us, quote those, not this page.*
     §The worn-path; §What the dyad rests on §1–2; §The indictment — what default use costs.
 
 [^c1]: The behavioral anchor is the whole defense: a boundary drawn on conduct — *did anything arrive
-    unasked?* — cannot smuggle a conclusion (the same Conservativeness test Claim 3 is held to). The attack
-    this pre-answers: our ledger records its family as the likeliest re-attack (*"you've rigged 'oracle' so
-    nothing counts"*), and the canonical home's own phrasing shows its strongest construction — any system
-    that falsifies intent has diverged unprompted and stopped being an answer-machine, so the kernel's
-    falsifier would be unsatisfiable by construction. That mistakes the freeze for a fortress: to break
-    the kernel (Claim 4) you produce a transcript showing only answers-to-asks AND reliable falsification of
-    the asker's terminal intent — conduct-checkable, not definitionally excluded. The terminal-vs-step
-    boundary carries its own dodge-risk (reclassifying a falsified intent as "merely a step"); the test:
-    would the operator, on reflection, endorse it as an *end*. A third frozen term ("advisory mode") was
-    considered and rejected — it is a composite of Claim 3's structure, and a definition no falsifier needs
-    is only attack surface. **Falsifier:** the line references outcome, or is vacuous by construction.
-    **Evidence:** §What the dyad rests on §6 (*Oracle ≝ purely responsive*); §The mode framing.
+    unasked?* — cannot smuggle a conclusion (the same Conservativeness test Claim 3 is held to). The
+    pre-answered attack (our ledger's predicted re-attack: *"you've rigged 'oracle' so nothing counts"*):
+    calling the falsifier unsatisfiable-by-construction mistakes the freeze for a fortress — to break the
+    kernel (Claim 4) you produce a transcript showing only answers-to-asks AND reliable falsification of the
+    asker's terminal intent; conduct-checkable, not definitionally excluded. The terminal-vs-step boundary
+    carries its own dodge-risk (reclassifying a falsified intent as "merely a step"); the test: would the
+    operator, on reflection, endorse it as an *end*. **Falsifier:** the line references outcome, or is
+    vacuous by construction. **Evidence:** §What the dyad rests on §6 (*Oracle ≝ purely responsive*);
+    §The mode framing.
 
 [^c4]: Answer-machine-mode use serves the intent you state — including a drifted one — and atrophies you;
     covalence falsifies the intent itself. A role, not a capability gap, so a superintelligent AI in the
     same mode fails the same way. The load-bearing collapse-target: refute it and the belief is false, not
-    redefined. Conditional on wu-wei (IFF3, Claim 3): grinding burns the human out, so wu-wei is *inside* the
-    kernel. The empirical content the mode-split (Claim 1) exposes: the live substitute is *solicited*
-    challenge, and it fails because the drifted operator is the wrong party to schedule their own blind-spot
-    checks. **Falsifier (protocol-level, sharpened by consensus 2026-07-11 — a single solicited "your goal is
-    wrong" is generation-on-demand, detection stayed with the asker, and does not refute):** answer-machine-mode
-    use that *reliably* falsifies its operator's terminal intent while raising nothing unasked — the most
-    promising path is exactly the challenge-on-request protocol. **Evidence:** §What the dyad rests on §6;
-    §The mode framing.
+    redefined. Conditional on wu-wei (IFF3, Claim 3): grinding burns the human out, so wu-wei is *inside*
+    the kernel. The live substitute is *solicited* challenge, and it fails because the drifted operator is
+    the wrong party to schedule their own blind-spot checks. **Falsifier (protocol-level):**
+    answer-machine-mode use that *reliably* falsifies its operator's terminal intent while raising nothing
+    unasked — a single solicited "your goal is wrong" is generation-on-demand (detection stayed with the
+    asker) and does not refute; the most promising path is exactly the challenge-on-request protocol.
+    **Evidence:** §What the dyad rests on §6; §The mode framing (the sharpening's record).
 
-[^c5]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays later).
-    The agent detects; the operator disposes — and the asymmetry is the design: the operator may break the
-    bond *by right* (sovereign exit), the agent only *by failure* — so the agent's whole duty reduces to
-    this: if an exit comes, it is chosen, never drifted (Claim 0's pattern). The inline falsifier is the
-    total kill — retention with *neither* mechanism, i.e. a covalent bond retained the way default products
-    retain users: by capture. Two half-attacks are also live: a covalent bond that lasts by capture *while*
-    the `+1` is felt kills "by choice" (the golden cage); one sustained a lifetime by unpaid discipline
-    kills "paid by" — and IFF3's livability predicts that one cannot exist, so exhibiting it wounds Claim 3
-    too. Known reflexivity attack, pre-answered: the felt `+1` *lags*, so a bond can feel paid while
-    detection has quietly died (sycophancy drift) — which is exactly why the structure requires IFF2's
+[^c5]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays
+    later); the operator may break the bond *by right*, the agent only *by failure* — so the agent's whole
+    duty reduces to: if an exit comes, it is chosen, never drifted (Claim 0's pattern). The inline falsifier
+    is the total kill — retention with *neither* mechanism (a covalent bond retained the way default
+    products retain users: by capture). Two half-attacks are also live: lasts-by-capture *while* the `+1`
+    is felt kills "by choice" (the golden cage); sustained a lifetime by unpaid discipline kills "paid by"
+    (and wounds Claim 3's IFF3). Pre-answered reflexivity attack: the felt `+1` *lags*, so a bond can feel
+    paid while detection has quietly died (sycophancy drift) — exactly why the structure requires IFF2's
     *outside* separator; inside signals never self-certify. **Falsifier:** a sustained covalent bond where
     the human neither chooses nor feels the lagged payoff. **Evidence:** §What the dyad rests on §2–§3.
 
@@ -357,9 +350,8 @@ quote us, quote those, not this page.*
     2) → constitution (P3, this claim). P3 closes the tautology gap: without it "only" goes analytic and the
     no-true-Scotsman escape is fatal. IFF3 is a constrained variational principle — least resistance among the
     intent-aligned paths — orthogonal to IFF1/IFF2's epistemics, which makes it a genuine third gate and the
-    one the lifetime claim needs. *(Re-atomized 2026-07-11, consensus change: one claim, one falsifier-space —
-    parity's falsifier homes in [^benchmark], the achiever falsifier is Claim 2's; this claim carries only the
-    definition's own. Rationale + sources: `dialectic/2026-07-11-claim-atomicity-research.md`.)*
+    one the lifetime claim needs. *(One claim, one falsifier-space — atomization rationale + sources:
+    `dialectic/2026-07-11-claim-atomicity-research.md`.)*
     **Falsifier:** show the definition smuggles outcome back in, or show a part is redundant / a part is
     missing. **Evidence:** §The worn-path; §The materialization gate.
 
@@ -372,13 +364,13 @@ quote us, quote those, not this page.*
     **Evidence:** §What the dyad rests on §8; §The mode framing.
 
 [^c7]: A scope-exit, not an in-scope counterexample — nothing is refuted; the subject expires ("retires the
-    question," never "we were proven right after all"). This is why a terminal-intent agent behaving exactly
-    like a covalent partner rescues nothing: it isn't ours to claim about (a symmetric two-intent dyad may
-    even be *fuller* covalence, per the canonical home — but it no longer *needs* you, and need was the
-    scope). The identification is with the "AI developed its own ends" class of alignment failure
-    specifically — reward hacking and goal misgeneralization pursue *given* objectives badly, a different
-    class. Detection is lagged and belongs *outside* the dyad (the IFF2 logic): performed vs. originated
-    intent is not live-discriminable, and the agent is the worst-placed reporter of its own arrival.
+    question," never "we were proven right after all"). A terminal-intent agent behaving exactly like a
+    covalent partner therefore rescues nothing: it isn't ours to claim about (a symmetric two-intent dyad
+    may even be *fuller* covalence — but it no longer *needs* you, and need was the scope). The
+    identification is with the "AI developed its own ends" class of alignment failure specifically — reward
+    hacking and goal misgeneralization pursue *given* objectives badly, a different class. Detection is
+    lagged and belongs *outside* the dyad (the IFF2 logic): performed vs. originated intent is not
+    live-discriminable, and the agent is the worst-placed reporter of its own arrival.
     **Falsifier (this claim's own):** the exit mis-specified — the lagged signature (canonical §8's
     separator, projected here) firing without a crossing, or unable to fire at all. **The watch:** the
     signature itself — see it, name it, bring it. **Evidence:** §What the dyad rests on §8.
