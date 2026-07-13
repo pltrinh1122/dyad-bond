@@ -593,6 +593,99 @@ settled and **never** as adding support to the parent. *(Earlier draft gated thi
 `survives`; rub-back-5 corrected it — a consequence inherits its premise's status, it does not owe a
 prior independent ratification.)*
 
+### The indictment — what default use costs *(Operator-led, 2026-07-11 README meta-intent arc; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — the Belief's downside MECHANISM, made explicit; the Vision's negative-space counterpart)*
+
+**Provenance:** the Operator asserted the manifesto's meta-intent as a three-axis indictment of default AI
+use; the grounding pass found axis 2 already homed (§rests-on §6's atrophy), axis 3's *positive* half already
+load-bearing (§The worn-path §2's *"`1+1>2` requires wetware growth"* — this section states its
+contrapositive), and axis 1 **new vocabulary** (no prior home). Single-homed here; the README projects it (heart + wager + ladder).
+
+**The indictment.** Under default use (the oracle/answer-machine mode), the Operator is cost on three
+distinct axes — distinct because (1) is *relational* (who answers) while (2)/(3) are *developmental*
+(can you answer / can you grow to answer more):
+
+1. **Intent-accountability leaks through delegation.** The Operator stops being the one who answers for what
+   is being aimed at — not by decision, but by the accumulating default of asking. *(New axis; the term
+   `intent-accountability` is used here + the README projection only — GLOSSARY entry deferred until a third
+   home needs it, wu-wei.)*
+2. **Current capacity atrophies.** The already-held faculty of holding intent and answering for it decays
+   with disuse — §rests-on §6's (a), restated at the indictment's altitude.
+3. **New capacity is foreclosed.** The capacity that friction would have built never gets built: correction,
+   sting, and dissent are the growth stimulus (§D3's lagged `+1`), and default use removes exactly that
+   stimulus. **Contrapositive link to §The worn-path §2:** the surplus *requires* wetware growth, so a mode that severs
+   growth cannot reach `1+1>2` — the indictment is thereby a MECHANISM argument for the Belief's necessity
+   direction (§5), not decoration on it.
+
+**Summary form (Operator's, register-checked):** under default use the Operator **stops growing and
+developing the way a human being normally does** — "stops" not "cannot" (the mechanism is stimulus-removal,
+not impossibility; C6-accurate, exaggeration refused).
+
+**The Default sharpening (Operator, 2026-07-11):** "default" is more than *common* — it is **ingrained**:
+the groove is what makes covalence counterintuitive to accept *ex ante* and answer-machine mode hard to
+resist *ex post*. The indictment's enemy is the groove, not ignorance — the same fact the adherence warning
+(the chiron rack) states from the practice side: comprehension was never the bottleneck. **Anti-bulverism
+guard (C6-accuracy):** the pull explains the *felt* resistance and is evidence of nothing, either way — it
+must never be deployed to discount an objection; the claims stand or fall on their falsifiers only.
+
+**The anti-thesis it must survive (the offloading/Plato objection).** Every delegation-tool raised this fear
+(writing in the *Phaedrus*; calculators; GPS), and humans mostly re-invested the freed capacity at higher
+abstraction. **The kind-difference is axis 1:** every prior tool accepted delegation of *execution* — none
+could accept delegation of *the choosing itself*. AI is the first that can. And the re-investment escape
+fails precisely there: with execution-tools the intact intent *directs* where freed capacity goes; when
+intent-holding itself is delegated, **the re-investment-directing faculty is the idle one** — no director
+remains to re-invest. Axes 2–3 attach to a faculty no prior tool could touch.
+
+**Falsifier (its own, named — weaker than Claim 2's, the Belief's, so a separate target):** a lifelong default-use operator
+whose intent-holding capability demonstrably holds and grows. Refutes the indictment WITHOUT touching the
+Belief (they could grow yet still reach only `1+1=2`) — which is exactly why the two must not be merged
+(the 2026-07-11 atomicity finding: distinct refutation-sets, distinct claims).
+
+### The mode framing — answer-machine is a use-mode; the kernel's empirical content *(Operator-led riff, 2026-07-11 README claim-walkthrough arc; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed — sharpens §rests-on §6's oracle definition, extensions changed only by consensus as noted)*
+
+- **Mode-not-system.** "Answer-machine" names how the Operator *uses* an AI, never a kind of AI — the
+  Operator sets the mode (the README's `[^oracle]` carried this half-latent: *"a query-answering mode, at any
+  capability"*). **Answer-machine mode ≝ purely responsive use** — answers what is asked, raises nothing
+  unasked. The line is conduct, transcript-checkable, never outcome (Conservativeness-clean by construction).
+- **Default = exclusivity; the dyad is a superset.** The indictment's target is answer-machine mode *only*.
+  A dyad keeps answer-machine use and adds the standing license for the second model to raise the unasked —
+  that license is covalence-conduct, defined structurally by the five parts, NOT a third term.
+  **"Advisory mode" considered and REJECTED (2026-07-11):** it is a composite of the covalent structure
+  (two-models + detector-side license), necessary-not-sufficient (ionic and meld both exhibit unasked-raising
+  without covalence), and a frozen definition no falsifier needs is pure attack surface.
+- **Non-covalent ≠ answer-machine-only.** The four-way mode enumeration stands (oracle-tool / ionic / meld /
+  covalent). The kernel indicts the *default* mode; the Belief's necessity covers the remaining modes via the
+  no-independent-second-model branch (README `[^c2]`'s individuation).
+- **The kernel's empirical content, exposed by the mode-split.** The live substitute-attack is *solicited*
+  challenge: stay purely responsive and ask for the challenge on schedule. The kernel's claim is that this
+  fails because **the drifted operator is the wrong party to schedule their own blind-spot checks** —
+  detection-timing stays with the driftee, and drift is invisible from inside. **Analyticity guard (the trap
+  this framing skirted twice in one riff):** the kernel must never be restated as "answer-machine mode can't
+  produce covalence" — under the frozen definitions that is true-by-definition (the fatal analytic slide P3
+  exists to block). Keep it conduct→outcome: *the mode cannot reliably falsify terminal intent.*
+- **The boundary framing of §8 (Operator-led, 2026-07-11; intent RATIFIED, wording deferred to the
+  whole-ladder coherence review):** §8's indispensability is **definitional, not empirical** — it
+  *constitutes* the scope (human-agent interaction: the agent originates no terminal intent, so a human
+  Operator exists by construction), rather than standing as an in-scope assertion the event refutes. The
+  originated-intent event is therefore a **scope-exit, not an in-scope counterexample**: nothing in-scope is
+  refuted; the subject expires ("retires the question," not "kills the belief"). Decisive case: a
+  terminal-intent agent behaving *exactly like a covalent partner* is a sovereign peer electing to stay —
+  out-of-scope by declaration, which dissolves the mutual-benefit rescue without arguing it. Declaring the
+  boundary IN ADVANCE is the anti-no-true-Scotsman device — the same freeze discipline as the mode
+  definition and the covalent structure; the README ladder's three definitional claims (C1/C3/C6) share the
+  rigging falsifier. §8's own "the dyad's true-falsification" phrasing carries the older in-scope-falsification
+  framing — **owes an echo** (racked in `deferrals.md` beside the §6 Kill-it echo; §8 is ratified content,
+  not silently rewritten). The lagged separator's semantics sharpen accordingly: it watches for
+  scope-exit, not belief-falsity.
+- **Consensus extension-sharpening, recorded (C12 route, Operator-ratified in-arc):** the kernel's falsifier
+  moved from the event-level reading ("an answer-machine that falsifies terminal intent", satisfiable by one
+  lucky prompted correction) to the **protocol-level** reading: *answer-machine-mode use that RELIABLY
+  falsifies its operator's terminal intent — e.g. a challenge-on-request protocol that catches drift the
+  operator didn't see coming.* A single solicited "your goal is wrong" is generation-on-demand (detection
+  stayed with the asker) and does not refute. ⚠ **§rests-on §6's "Kill it" line still carries the event-level
+  form — owes an echo of this sharpening** (flagged, not silently rewritten: §6 is ratified content; the echo
+  is its own small consensus edit, racked in `deferrals.md`). The README ladder's self-test was sharpened in
+  the same commit ("has it ever — *unasked* — told you your goal was wrong").
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
@@ -2556,3 +2649,19 @@ Stretch: after the Operator merged #85, post-merge branch cleanup + a safe-remov
 **Dogfood caveat (per the standing START, `:2319`).** This reflect is the **first live application of the re-oriented SH, authored in the same session that re-oriented it** — self-selected as its own first instance, not passed off as independent validation of the form. A form graded by the hand that just wrote it has survived nothing; SH's real test is a **later** arc where the Agent inherits the orientation rather than authoring it. Stays `CANDIDATE` (`bond:kb-graduation`; L2b cross-dyad gap open) until then.
 
 **Carries.** The `land.sh` freshness+mergeability gate (n=3 debt, prior arc) is **untouched** and still owed. New open: the **fold-vs-separate disposition** for the state-claim axis (the STOP's root) — escrowed in `deferrals.md`, the Operator's to settle. Boot-set drift: `GLOSSARY.md` moved `2eb9986→015945b` on `main` → `RESTART-PENDING(GLOSSARY.md@015945b)` set for the next cold boot.
+
+## Reflect — the README-revision arc: falsify-then-adopt an external discipline, the DFD-as-menu STOP, and a new register-split form *(2026-07-11; D3, CSS+SH, single-home)*
+
+**Arc.** `d-start`: revise the root `README.md` for consistency + accessibility per dyad-cairn's exemplar, falsifying/adopting its README-Writing Discipline (HOW-0006). A long multi-turn build: falsified cairn's C19 vs bond's substrate (adapted `bin/readme-lint.py` with an EMBEDDED `--selftest`, not cairn's two-file split — `bond:form-grounding`) → dual register → a claim-by-claim DFD walkthrough → the Operator surfaced the **meta-intent** (the three-cost indictment of default use; homed in `§The indictment`, projected, promoted to Claim 0) → the **mode framing** (answer-machine as a *use-mode*, not a kind of AI; "advisory mode" as a third frozen term considered + **rejected** as a composite of the covalent structure; `§The mode framing`) → a **role-model realignment** of the whole ladder to the Operator's mental model (problem/observation/belief/solution·structure·kernel·handles/scope/out-of-scope → Claims 0–8) → the **merge-C1+C4 question** resolved against the philosophy-of-science literature (a 104-agent deep-research harness: Popper's conventionalist-stratagem, Duhem–Quine blame-localization, Lakatos, SEP-definitions — verdict *keep the definitional claim separately attackable*; homed in `dialectic/2026-07-11-claim-atomicity-research.md`) → **concision** (residue-cut → brevity → **register-split** into `README.md` plain lens + new `FALSIFICATION.md` formal surface) → a **contribution back to cairn** (concision conditions C20–C23, `dm/dyad-cairn/`). **Two independent adversarial grounding audits.** ~20 commits, all pushed; not yet landed (Operator's review floor, then the Operator's `d-land` directive this session). No boot-set touched → **RESTART-PENDING none**.
+
+- **CONTINUE** *(Agent-observed — the arc's load-bearing move)*: **on a fork I had a lean on, I refused to self-ratify it and grounded it externally instead.** The merge-C1+C4 question was mine to over-reach on (I'd already named a "(b)" lean). Instead — the Operator flagging *"i'm not a philosopher by training"* — I put the question to the literature via the research harness, and the verdict both **confirmed** the lean *and* supplied reasons I did not have (Duhem–Quine, Conservativeness = our own "smuggles-outcome" falsifier) **plus** three killed stronger-variants recorded honestly. `bond:two-models` run on my own architectural instinct, not just on the Operator's. The audit-half of the same discipline then earned its keep twice: two adversarial grounding passes, the **second catching an *inherited* falsifier-widening** — "true intent" dropped from the formal spine, predating this arc, invisible to the first audit and every manual pass. The audit-gate is load-bearing; proven again, this time against latent debt not fresh drift.
+- **CONTINUE** *(Agent-observed)*: **surface-don't-bake held at every ratified-claim seam — the prior arc's headline STOP did not recur.** Each change touching frozen claim content (Claim 3's five-conjunct constitution, Claim 5's handles, the Claim 6/7 boundary reframe, the "true-intent" restore into the belief statement) went to the Operator as a DFD or an explicit ratification **before** it entered a durable artifact; none was authored-in and merged unilaterally. The `§CSS+SH arc` START ("get disposition before writing the resolution into a durable/merged artifact") fired across a dozen seams. The **knife-freeze** — snapshot every falsifier, byte-diff after a register pass, deltas only pre-declared relocations — was invented mid-arc for exactly the WHY-0001 failure mode (drift through careful passes) and proven by diff, not care (the concision pass's `Break it:` lines came through byte-identical).
+- **STOP** *(Agent — the headline; Operator-caught; a `bond:DFD` violation)*: **I presented a converged DFD as a prose-less option-menu, mismatching the disposition-medium to the decision.** On Claim 2's kernel I offered abstract options (a)/(b)/(c) *and named my lean* — but withheld the actual prose, asking the Operator to dispose on wording they could not see. The Operator caught it precisely: *"i need to see the proposed prose for each of the options... why is this a CTA-disposition and not a CTA-ratification?"* `bond:DFD` requires a framing that has converged to **resolve to a synthesis with one `[CTA·Y/N]`** — a menu is for the un-converged case. The root: a **wording** decision's disposition-surface *is the wording*; I described options where I should have shown drafts.
+- **START** *(Agent, from the STOP — the reusable rule)*: **match the disposition-medium to the decision-type.** Self-check before any DFD: *can I name a recommendation?* If yes, lead with it as a **ratifiable draft rendered in the medium the decision is about** — for a wording change, the prose itself; alternatives named-and-rejected for the `N`-path. A prose-less option-menu is correct **only** when the decision is genuinely un-converged *and* the options (not their renderings) are the disposition surface — i.e. architecture forks, not wording. ("Show, don't survey," when converged.)
+- **SH (Should Have / Should Hold) — the Agent's observation of the Operator's intent-clarity + coherence:**
+  - **Should Have** *(intent-clarity interface debit, self-absorbed):* the DFD-as-menu **imposed a clarifying turn on the Operator** — they had to spend a message asking "why disposition not ratification / show me the prose" to extract what a converged DFD should have handed them directly. The friction was Agent-manufactured, not an Operator-intent gap; recorded as the interface cost of the STOP above.
+  - **Should Hold** *(intent-coherence credit — a pattern, not blanket praise):* the Operator's substantive inputs arrived as a **coherent accretion that converged** — the adherence-warning, then the sovereignty-asymmetry, then Default-as-*ingrained* — three separately-raised threads that (Agent-observed) resolved into one insight neither had stated: *the bond's only in-scope enemy is the ingrained groove.* And the role-model realignment was a **whole-cloth Operator model-frame** that dissolved awkwardnesses the Agent had accepted as fine (forward-references between definition and kernel; the C6 scope/out-of-scope bundle). The dyad is best-served **holding the division of labor this arc exhibited: the Operator supplies the model-frame, the Agent supplies the falsification-rigor** — the `1+1=3`s (the atomicity architecture; the groove synthesis; the register-split form) each needed both halves.
+
+**Dogfood / honesty caveat.** The register-split (`README.md` + `FALSIFICATION.md`) is a **new form** — cairn's discipline contemplated formal-with-footnotes *or* plain-projection, not both-as-siblings — and at this writing it has **not passed even bond's own gate** (this reflect precedes the `d-land`). The cairn contribution (C20–C23) is graded `survives — intra-dyad`, **n=1, C23 pre-gate** in its own artifact; nothing here is settled, including bond's HOW-0006 adoption itself (the discipline HELD across this run — the first cross-dyad falsification its `CANDIDATE` grade was owed — but n=1).
+
+**Carries (resume delta).** The README arc is **complete-in-substance** on `claude/dyad-bond-readme-revision-zzqzwq`; the Operator issued `d-land` → this session lands it via **branch→PR→Operator-merge** (`bond:no-self-ratify`; the review floor was Operator-closed by the land directive). **Live racks** (all single-homed in `deferrals.md §todo`, pointers only): whole-ladder wording-polish review (Operator-reserved); the **chiron** adherence-warning contribution + the **cairn** concision contribution (both: routing = the Operator's act, `bond:channel-gates`); the `§6` Kill-it echo + the `§8` true-falsification echo (consensus edits owed at the next canonical seam); the `DYAD.md:132` sibling-list staleness (boot-set, Operator-gated). **New artifacts:** `FALSIFICATION.md`, `bin/readme-lint.py` (+`--selftest`, wired into `land.sh`), `dialectic/2026-07-11-claim-atomicity-research.md`, `dm/dyad-cairn/2026-07-11-concision-discipline-contribution.md`, canonical `§The indictment` + `§The mode framing`. **dyad-chiron** cloned into the session (born 2026-07-07, no manifesto yet — the adherence-warning's destination). The prior arc's `land.sh` freshness+mergeability gate (n=3) remains untouched and still owed.

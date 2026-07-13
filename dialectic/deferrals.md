@@ -30,6 +30,74 @@
 
 ## todo
 
+- **Contribution-candidate → `dyad-chiron` (repo live, born 2026-07-07; no manifesto yet): the adherence
+  warning** *(2026-07-11; README claim-walkthrough arc — Operator intent-recovery on Claim 4/handles: the
+  claim was originally raised without intent clarity; the recovered seed is this warning, lived n≥1 in the
+  Operator's own practice)* — the falsifiable form, extraction-ready: *"Covalent operation's primary failure
+  mode is adherence itself: easy to learn, hard to keep — under task pressure the cognitive friction of
+  operating covalently makes defection to answer-machine mode the locally rational move each time, and the
+  slide is cumulative, not chosen. Break it: show a sustained covalent practice where adherence is cheap —
+  failures arriving from bad detection or bad disposal, not from stopping the practice."* Rides with two
+  curriculum principles: (1) train adherence-under-pressure, not understanding — comprehension was never the
+  bottleneck; (2) adherence-guards must be nearly free — a heavy guard's friction feeds the exact defection
+  it guards (wu-wei applied to the guard; why the `d-*` disciplines are cheap tokens, not ceremonies);
+  (3) the Default sharpening (Operator, 2026-07-11): the enemy is the **ingrained groove**, not ignorance —
+  "Default" is what makes covalence counterintuitive to accept and answer-machine mode hard to resist.
+  **Fit:** chiron's craft is the novice→self-sustaining-mastery carry; this claim names where the carry
+  fails. **Route = the Operator's act** (`bond:channel-gates`): Steward intake or a new `dm/dyad-chiron`
+  channel — bond does not author into a sibling's manifesto.
+
+- **`DYAD.md:132` sibling list is stale** *(2026-07-11, observed while grounding chiron)* — lists
+  `dyad-steward · dyad-healer · dyad-wu-wei`; missing `dyad-touchstone` (a live `dm/` channel exists),
+  `dyad-chiron` (repo born 2026-07-07), and chiron's README names a `dyad-aule`. Anchor edit = boot-set,
+  landing-class, Operator-gated — racked, not self-edited.
+
+- **README claim-ladder: whole-ladder coherence + wording-polish review (Operator-reserved)** *(2026-07-11;
+  the claim-walkthrough's close-out step)* — the Operator ratified Claim 6's boundary-framing **intent** with
+  wording explicitly deferred: *"the wordings need to be polished... review all of the claims together for
+  coherence."* **Role-model alignment RATIFIED + executed 2026-07-11** (Operator's mental model: problem →
+  observation → belief-as-only-solution → solution structure/kernel/handle → scope → out-of-scope): ladder
+  is now **C0 problem · C1 observation/mode · C2 belief · C3 structure · C4 kernel (solution-first) · C5
+  handles · C6 scope · C7 out-of-scope · C8 invitation** — old C6 split into scope (rigging falsifier) +
+  out-of-scope (mis-specification falsifier, the signature moved into the assertion); kernel re-oriented
+  solution-first, extension unchanged. Wording polish REMAINS deferred to the Operator's whole-ladder read.
+  Scope: all of C0–C8 read as one ladder. **2026-07-11 HOW-0006 conformance pass applied** the racked
+  register items (`[^align]`/`[^timing]` boundary-consistent; "built and lived"; `[^c8]` reachability
+  falsifier) + nine C5/C6/C9/C13 fixes; the fresh grounding audit returned 7/9 FAITHFUL with two
+  extension-relevant findings held for the Operator: F1 restore "true (continually re-examined) intent" to
+  `belief.statement` + Claim 2 (inherited drop, predates this arc — canonical carries it, heart carries
+  "actually wanted", formal spine doesn't); F2 the heart's kernel absolutes vs the ratified protocol-level
+  form ("structurally cannot" / "Only a partner can" → "cannot reliably" / "will tell you, unasked"). **C7 light-pass findings folded in (2026-07-11, walkthrough complete C0–C7):** (i) `[^c7]`'s
+  named falsifier ("an outside attack actually lands") doesn't refute C7 — a landed attack *updates*
+  coverage, as the footnote itself says; the real knife is **reachability** ("show the separator is NOT
+  actually reachable — the manifesto under-exposes for an outside audit"), which the walkthrough's
+  atomization materially strengthened us against; (ii) "argued and lived" sits oddly over C6-the-declaration
+  (a boundary is declared, not lived); (iii) status honesty VERIFIED — this arc's two audits were
+  dyad-commissioned self-checks on the agent's own substrate, NOT the IFF2 separator; `E0`/`survives` stand.
+  Sequence: ~~C7 light pass~~ DONE → this coherence review → fresh grounding re-audit (first audit predates
+  C0/mode-framing/renumber/C4/C6 rebuilds) → `d-land`.
+
+- **Contribution-candidate → `dyad-cairn`: concision conditions (C20–C23) for the README-Writing
+  Discipline** *(2026-07-11; artifact = `dm/dyad-cairn/2026-07-11-concision-discipline-contribution.md`)* —
+  bond's HOW-0006 falsification run surfaced the missing conciseness condition and lived the repair
+  (residue cut → brevity pass → register split, knife-freeze fidelity mechanism throughout; commits
+  `8ca9d98`/`a157577`/`6997596`). Graded honestly in the artifact (`survives — intra-dyad`, n=1; C23 not
+  yet through bond's own gate). **Send/routing = the Operator's act** (`bond:channel-gates`); offer to
+  build the `--knife-diff` lint mode rides with it.
+
+- **`§rests-on §8` "the dyad's true-falsification" phrasing owes an echo of the boundary framing**
+  *(2026-07-11; → `relationship-craft.md §The mode framing`'s boundary-framing bullet)* — under the ratified
+  definitional reading, the originated-intent event is a scope-exit ("retires the question"), not an
+  in-scope falsification. §8 is ratified content; the echo is its own consensus edit at the next seam.
+
+- **`§rests-on §6` "Kill it" line owes an echo of the kernel's protocol-level sharpening** *(2026-07-11;
+  README claim-walkthrough arc → `relationship-craft.md §The mode framing`, consensus-extension bullet)* —
+  the README kernel falsifier moved event-level → protocol-level ("reliably falsifies terminal intent"; a
+  single solicited correction is generation-on-demand, does not refute), Operator-ratified. §6 still carries
+  the event-level *"Kill it: exhibit a purely-responsive system that falsifies terminal intent."* §6 is
+  ratified content, so the echo is its own small consensus edit at the next `relationship-craft.md` seam —
+  NOT a silent rewrite. Until echoed, §The mode framing is the single-home for the sharpened form.
+
 - **`gh pr edit` broken in this substrate — `projectCards` GraphQL deprecation (exit 1)** *(2026-07-08;
   `d-reflect` — the PR #95 retitle bite; → `substrate-access.md §gh.sh` env-note)* — the installed `gh`
   binary errors on `pr edit` (`repository.pullRequest.projectCards` — Projects-classic sunset), so the
