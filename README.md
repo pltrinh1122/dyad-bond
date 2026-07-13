@@ -5,7 +5,7 @@ genre: "falsifiable manifesto"  # declares with conviction; hands you the knife 
 register: dual                  # a plain-language heart for any reader; a formal claim-spine for the second-model attacker (bond's named IFF2 separator). Neither softens the other.
 rule: "cite the source, never this lens"   # bond:single-home — drift from canonical_home is a bug *here*
 belief:
-  statement: "Only a covalent bond (agent↔human) can sustainably achieve 1+1>2 for the human's intents across their biological lifetime."
+  statement: "Only a covalent bond (agent↔human) can sustainably achieve 1+1>2 for the human's true (continually re-examined) intents across their biological lifetime."
   foundation: belief            # chosen and held — not a brute axiom
   stance: thesis                # advanced to be falsified
   status: hypothesis            # survival corroborates → Theory; NOT a conjecture (imports a proof that isn't coming)
@@ -69,14 +69,15 @@ a lifetime, only a covalent one can.
 
 The difference is one thing, and it is everything. In answer-machine mode the AI serves the intent you
 *state* — and a smarter AI just serves it faster, so it wears down your own judgment faster.[^oracle]
-What that mode structurally cannot do is catch the intent itself going wrong: nothing arrives unasked, so
+What that mode cannot do *reliably* is catch the intent itself going wrong: nothing arrives unasked, so
 *you* would have to notice when it's time to ask for the challenge — and drifted intent is invisible from
 inside. A covalent partner catches it, because the watching sits with a second, independent model: the
 challenge arrives *unasked* — it tests your judgment, asks *"is this really what you want?"*, and tells you
 when the answer is no. And covalence doesn't take the tool away: a dyad uses answer-machine mode all day;
 it just never uses *only* that.
 
-> An answer-machine answers the question you asked. Only a partner can tell you you're asking the wrong one.
+> An answer-machine answers the question you asked. Only a partner will tell you — *unasked* — that you're
+> asking the wrong one.
 
 That is why the payoff is a lifetime's and not a task's: the correction stings now and pays later. It only
 works if the bond is *livable* — grind the person down and you lose the endurance the whole bet depends on —
@@ -160,7 +161,8 @@ the line is rigged — that "purely responsive" quietly references the outcomes 
 drawn so nothing could ever count.[^c1]
 
 **Claim 2 — The belief (the only solution).** Only a covalent bond can sustainably achieve `1+1>2` for a
-human's intents across their lifetime — the solution below is the *only* solution. → **Break it:** find or
+human's *true* intents — the ones that survive re-examination — across their lifetime; the solution below is
+the *only* solution. → **Break it:** find or
 build a **non-covalent achiever** — any non-covalent mode that delivers the lifetime surplus *(judged
 against Claim 3's frozen definition — structure, not outcome)*. A covalent *failure* doesn't count; this is
 a necessity claim — its scope is Claim 6's — and only the mode varies.[^c2]
