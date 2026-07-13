@@ -103,6 +103,7 @@ grep -q 'invariants-bond\.yaml' <<<"$changed" && run_gate "validate-g0-genes.py"
 grep -q '^commissions/' <<<"$changed" && run_gate "commission-lint.py (touched commissions)" bash -c 'python3 bin/commission-lint.py commissions/*.md'
 grep -q '^kb/.*\.md$' <<<"$changed" && run_gate "discipline-lint.py (touched kb/)" python3 bin/discipline-lint.py
 grep -q '^README\.md$' <<<"$changed" && run_gate "readme-lint.py (README touched)" python3 bin/readme-lint.py README.md
+grep -q '^FALSIFICATION\.md$' <<<"$changed" && run_gate "readme-lint.py (FALSIFICATION touched)" python3 bin/readme-lint.py FALSIFICATION.md
 
 # 3. Scope-to-arc by execution (item 3) — bundle everything ahead of main, not just the last commit.
 mapfile -t arc < <(git log --oneline origin/main..HEAD 2>/dev/null || true)
