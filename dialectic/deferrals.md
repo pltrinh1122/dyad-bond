@@ -30,6 +30,12 @@
 
 ## todo
 
+- **REVISION ARC (post-PR-#96, from the 2026-07-13 red-team + Operator rebuttals) — the belief's live falsification-front** *(single-home: `theory-pipeline.yaml §covalent-bond-belief` open_gap_2 + the 2026-07-13 disposition_history entry; this is the resume-visible pointer)* — bond-self red-team of the landed manifesto surfaced real, actionable wounds; the Operator's rebuttals dissolved some and reframed others. **Open, Operator-gated:**
+  1. **WHICH-BAR disposition (upstream of everything):** P1's benchmark = best cross-prior human mentorship (above-cultural; AI's correlated priors are then a real shortfall — the ambitious belief) OR ordinary same-culture human covalence (culturally-bounded; AI matches but the claim is modest, and above-cultural true-intent needs a human). Not yet chosen; determines whether open_gap_2 is a shortfall or shared.
+  2. **Claim 0 reframe (drafted for review this session — see chat 2026-07-13):** retire "stops growing the way a human normally does" (whole-operator overclaim, refuted by the humanly-covalent/AI-oracle operator) → the comparative per-problem claim, **scoped** to foundational / non-substitutable / struggle-reachable NEW problems (survives the re-investment/substitution escape only when so scoped), ordering **covalent > no-AI > non-covalent**, and made explicitly downstream of Claim 4 (which-problems-to-struggle is itself an intent judgment).
+  3. **Claim 4 "reliably" + a candidate 6th part of P3 (independence, not just distinctness):** open_gap_2's correlated-priors finding — do IFF1's "two distinct models" need an independence clause the design can't guarantee?
+  Route: a dedicated revision arc, **branch→PR→Operator-merge** (`bond:no-self-ratify`); the claims are on `main`, so no silent edits. E0 stands throughout (self-attack raises no coverage; the outside IFF2 attack these sharpen is still the coverage move).
+
 - **Contribution-candidate → `dyad-chiron` (repo live, born 2026-07-07; no manifesto yet): the adherence
   warning** *(2026-07-11; README claim-walkthrough arc — Operator intent-recovery on Claim 4/handles: the
   claim was originally raised without intent clarity; the recovered seed is this warning, lived n≥1 in the
