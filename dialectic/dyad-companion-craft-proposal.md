@@ -138,4 +138,24 @@ collective). Yield: the vocabulary triple **compact / companion / company**, and
 *Follow-up (deferred at Operator's request — riffing before defining): an **§Ontology** entry for the vocabulary
 triple **compact / companion / company** (candidate; materializes-through-practice), plus a one-line `MAP.md`
 key if this graduates from CANDIDATE. The human-human vs dyad-dyad contrast (composite consent · corruptible
-interior · bind-at-Operator/perform-at-Agent · recorded-not-remembered) is the raw material for that entry.*
+interior · bind-at-Operator/perform-at-Agent · recorded-not-remembered) is the raw material for that entry.
+The **cardinality grounding** (compact = binary/dyadic, arity pinned to 2; polyadic pre-marked as the arity-n
+generalization; company = graph/hypergraph; scaling seams #1–5 pre-registered, #4 hyperedge-vs-graph decided
+off the `craft_telos` overhead metric) is settled-in-riff, not yet written here.*
+
+---
+
+## Deferred thesis (parked — not lived, not asserted)
+
+**"Future organizational hierarchy is essentially a binary tree."** *(Operator, 2026-07-14; deferred.)*
+Posited off this DIP's binary-compact grounding — it extends the substrate's binary-bond-composition ladder
+(halves → dyad → compact → company) into a claim about org structure at scale. **Held, not developed** —
+recorded so it isn't lost, and explicitly *not* asserted (no lived instance).
+
+*Productive tension to resolve when un-parked:* this DIP grounds `company` as a **graph** (peer mesh, possibly
+cyclic) and pre-marks **polyadic hyperedges** as the scaling path — a binary **tree** (acyclic, rooted,
+single-parent) is a stronger, differently-shaped claim, and *binary* is the opposite arity bet from *polyadic*.
+Two reconciliation seeds (unproven): **(a) hierarchy ≠ collaboration** — the authority tree and the compact
+graph may be orthogonal structures over the same nodes; **(b) polyadic = a fold of binary** — an n-ary compact
+may *decompose* into a binary tree of dyadic compacts (as n-ary reduction does), making "binary tree" and
+"polyadic scaling" one thing seen twice. Do not pursue until the dyadic case is lived.
