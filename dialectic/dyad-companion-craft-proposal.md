@@ -17,8 +17,11 @@ locus: phenotype   # cross-dyad craft proposal — a candidate DIP for a *potent
 > *companion* (the party); the *company* is the manifested band its craft produces, not its identity. This is
 > `dyad-cairn`'s naming pattern (the dyad is named for its role; the artifact it makes is a separate term).
 >
-> **Status:** CANDIDATE, held in `dialectic/` — nothing here is `kb/`-settled. This is a *proposal for a dyad
-> that does not yet exist*; it has **no lived breach** to forge its invariant from (see Honest gaps).
+> **Status:** CANDIDATE, held in `dialectic/`— nothing here is `kb/`-settled. **Instantiation seed (2026-07-14):**
+> the Operator is formally instantiating a **`dyad-companion`** dyad to carry this craft-\* family *and* the
+> deferred exploration below; this doc is its founding hand-off, not merely a proposal for a hypothetical.
+> It still has **no lived breach** to forge `craft_invariant` from — that materializes once the instantiated
+> dyad runs real compacts (see Honest gaps).
 
 ---
 
@@ -150,7 +153,8 @@ off the `craft_telos` overhead metric) is settled-in-riff, not yet written here.
 **"Future organizational hierarchy is essentially a binary tree."** *(Operator, 2026-07-14; deferred.)*
 Posited off this DIP's binary-compact grounding — it extends the substrate's binary-bond-composition ladder
 (halves → dyad → compact → company) into a claim about org structure at scale. **Held, not developed** —
-recorded so it isn't lost, and explicitly *not* asserted (no lived instance).
+recorded so it isn't lost, and explicitly *not* asserted (no lived instance). **Carried by the instantiated
+`dyad-companion`** (Operator, 2026-07-14): this exploration travels with the new dyad as part of its craft.
 
 *Productive tension to resolve when un-parked:* this DIP grounds `company` as a **graph** (peer mesh, possibly
 cyclic) and pre-marks **polyadic hyperedges** as the scaling path — a binary **tree** (acyclic, rooted,
