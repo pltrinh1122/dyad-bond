@@ -109,9 +109,10 @@ Optional reading — the belief stands or falls here, but you don't have to stay
 above are the whole story. Nine claims, one knife each. The full extensions, pre-answered attacks, and
 evidence live in **[FALSIFICATION.md](FALSIFICATION.md)** — attack by claim number, here or there.
 
-**Claim 0 — The problem.** Exclusive answer-machine use costs you three things: accountability for your
-intent, the judgment you have, and the judgment you'd have grown. → **Break it:** a lifelong default-use
-operator whose grip on their own intent holds and grows.
+**Claim 0 — The problem.** For a new problem you *could* have grown by solving yourself, solving it
+non-covalently through AI is worse than not using AI at all — you take the answer and forgo the growth (your
+accountability, the judgment you have, the judgment you'd have built). → **Break it:** show that forgone
+growth reliably coming back — the freed effort re-invested into equal struggle, so nothing is lost.
 
 **Claim 1 — The observation.** Answer-machine mode is a way of using AI — purely responsive,
 transcript-checkable — and the definition is frozen here. → **Break it:** show the line is rigged.

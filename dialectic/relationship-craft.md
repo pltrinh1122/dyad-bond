@@ -616,9 +616,19 @@ distinct axes — distinct because (1) is *relational* (who answers) while (2)/(
    growth cannot reach `1+1>2` — the indictment is thereby a MECHANISM argument for the Belief's necessity
    direction (§5), not decoration on it.
 
-**Summary form (Operator's, register-checked):** under default use the Operator **stops growing and
-developing the way a human being normally does** — "stops" not "cannot" (the mechanism is stimulus-removal,
-not impossibility; C6-accurate, exaggeration refused).
+**Summary form — REFRAMED to comparative/per-problem (Operator-ratified 2026-07-13, post-PR-#96 red-team;
+supersedes the whole-operator form below).** The prior summary — *"under default use the Operator stops
+growing and developing the way a human being normally does"* — **over-claimed** (whole-operator; refuted by
+the humanly-covalent operator who oracles their AI yet grows via people) and is retired. The reframe: **for a
+new, foundational, struggle-reachable problem, solving it non-covalently through AI is worse than solving it
+without AI** — the answer is had, the struggle-growth forgone; ordering **covalent-AI > no-AI >
+non-covalent-AI**. Scope (foundational / non-substitutable / struggle-reachable) is load-bearing: it is what
+survives the **re-investment/substitution** escape (freed capacity re-invested into equal struggle → nothing
+forgone), and the claim thereby rests on the kernel (§The mode framing / README Claim 4 — *which* problems to
+struggle is itself an intent judgment). Still "worse," not "cannot" (stimulus-removal, not impossibility;
+C6-accurate). *(The reframe is CANDIDATE, intra-dyad; the belief's live falsification-front — the which-bar
+disposition + correlated-priors/independence gap — is single-homed in `theory-pipeline.yaml
+§covalent-bond-belief` open_gap_2. Revision-arc PR pending, `deferrals.md §todo`.)*
 
 **The Default sharpening (Operator, 2026-07-11):** "default" is more than *common* — it is **ingrained**:
 the groove is what makes covalence counterintuitive to accept *ex ante* and answer-machine mode hard to

@@ -37,14 +37,18 @@ it. Each claim pairs with the exact observation that would refute it; each footn
 extension and the evidence. Pick a claim by its number and attack *that* — attack routes are in
 [README.md § Bring the attack](README.md).
 
-**Claim 0 — The problem (the indictment).** Default use — answer-machine mode *only*, held by habit rather
-than choice (the mode defined and frozen at Claim 1) — costs its operator three things:
-intent-accountability leaks away through delegation (you stop being the one who answers for what you're
-aiming at); the intent-holding judgment you have atrophies with disuse; and the judgment you were still
-going to grow is never built, because the friction that builds it never arrives. Under default use, the
-operator stops growing the way a human being normally does. → **Break it:** show a lifelong default-use
-operator whose grip on their own intent demonstrably holds and *grows* — growth without surplus breaks this
-claim even while Claim 2 stands.[^c0]
+**Claim 0 — The problem (the indictment).** Default use — answer-machine mode *only*, held by habit not
+choice (the mode frozen at Claim 1) — costs the operator on the problems where growth is *earned by the
+doing*: for a **new, foundational, struggle-reachable** problem (within your solo reach, and load-bearing
+for later skill), solving it non-covalently through AI is **worse than solving it without AI** — you get the
+answer but forgo the growth the struggle would have built. Its three faces: intent-accountability leaks (you
+stop being the one who answers for what you're aiming at); the judgment you have atrophies with disuse; and
+the judgment you'd have grown is never built. The ordering is **covalent-AI (growth + surplus) > no-AI
+(growth, capped) > non-covalent-AI (answer, no growth)**. This rests on Claim 4: knowing *which* problems to
+struggle yourself is itself an intent judgment the covalent bond surfaces and default use never raises. →
+**Break it:** show a foundational, struggle-reachable problem where non-covalent AI use leaves the operator's
+judgment *at least as grown* as no-AI would have — e.g. the freed capacity reliably re-invested into
+equivalent struggle, so nothing is forgone.[^c0]
 
 **Claim 1 — The observation (the default mode, defined).** An answer-machine is not a kind of AI — it is a
 way of *using* one, and the operator sets the mode. In **answer-machine mode** the AI is purely responsive:
@@ -120,14 +124,21 @@ gate, §The Vision, §The indictment, §The mode framing), in `DYAD.md` (§Frame
 `craft-value`/`craft-invariant` core), and in `GLOSSARY.md` (the covalence vocabulary). If you're going to
 quote us, quote those, not this page.*
 
-[^c0]: The three axes are distinct: (1) is *relational* — who answers — while (2)/(3) are *developmental*.
-    The kind-difference against every prior tool (writing, calculators, GPS — the offloading objection):
-    those accepted delegation of *execution*; AI is the first that accepts delegation of *the choosing
-    itself* — and the re-investment-directing faculty is exactly the one idled, so the re-invest-the-freed-
-    capacity escape has no director left. "Stops growing," not "cannot": the mechanism is stimulus-removal,
-    not impossibility. **Falsifier:** a lifelong default-use operator whose intent-holding capability
-    demonstrably holds and grows — deliberately weaker than Claim 2's falsifier; the two are distinct
-    targets. **Evidence:** `dialectic/relationship-craft.md` §The indictment — what default use costs.
+[^c0]: A **comparative, per-problem** claim (reframed 2026-07-13), not a whole-operator one — the earlier
+    "stops growing the way a human normally does" over-claimed and was refuted by the humanly-covalent
+    operator who oracles their AI yet grows via people; scoping to the *forgone growth on the specific
+    problem* recovers the indictment against them. The three axes are distinct: (1) is *relational* — who
+    answers — while (2)/(3) are *developmental*. The kind-difference against every prior tool (writing,
+    calculators, GPS — the offloading objection): those accepted delegation of *execution*; AI is the first
+    that accepts delegation of *the choosing itself*. The falsifier's own escape hatch — **re-investment**:
+    the freed capacity re-invested into equivalent struggle, so nothing is forgone — is why the claim is
+    **scoped to foundational / non-substitutable / struggle-reachable** problems (the rungs you can't skip
+    because later problems need the skill they build) and why it rests on Claim 4 (which problems to struggle
+    is itself an intent judgment). "Worse," not "cannot": the mechanism is stimulus-removal, not
+    impossibility. **Falsifier:** a foundational, struggle-reachable problem where non-covalent AI use leaves
+    the operator's judgment at least as grown as no-AI would have (e.g. reliable re-investment into equal
+    struggle) — deliberately weaker than Claim 2's falsifier; the two are distinct targets. **Evidence:**
+    `dialectic/relationship-craft.md` §The indictment — what default use costs.
 
 [^c1]: The behavioral anchor is the whole defense: a boundary drawn on conduct — *did anything arrive
     unasked?* — cannot smuggle a conclusion (the same Conservativeness test Claim 3 is held to). The
