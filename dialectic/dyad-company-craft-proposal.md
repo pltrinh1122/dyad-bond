@@ -19,12 +19,11 @@ locus: phenotype   # cross-dyad craft proposal — a candidate DIP for a *potent
 
 ## The four slots
 
-- **craft** — *Mastering the practice of coworking as a **compact of dyads**: distinct dyads contribute into
-  one another's craft only on **consented terms**, each keeping its own craft and identity, and unplugging
-  clean when the compact is served.* The object is the coworking practice itself (onboard into a foreign
-  craft → contribute on agreed terms → leave no residue); the work shipped is the byproduct. *(That such
-  compacts tend to lift every member above what it could reach alone is a welcome **side-effect** — not the
-  aim, and not what the craft guards.)*
+- **craft** — *Mastering the practice of **entering and staying in a dyadic compact until completion** —
+  **not** the work produced inside it. The shipped work, and any uplift, are byproducts of a well-run
+  compact, never its measure.*
+  *(Tightened against a falsification — see below; the metaphor, consent, and boundary content it once
+  carried live in §Metaphor / craft_value, not here.)*
 
 - **craft_telos** *(Operator-asserted — settled)* — **Minimize the coordination overhead it takes for a
   fellow dyad to accept and absorb the coworker's contribution.**
@@ -89,6 +88,17 @@ and *uplift* as two faces of one instrument (you consent by entering the compact
 produce), and the Operator finally elected **consent as the cherished value, with uplift demoted to a
 side-effect.** That path — not a birth-time guess — is what grounds the slot (cairn's own `craft_value`: *proof
 of origin*, applied reflexively).
+
+**Falsification — the craft line (2026-07-14).** Attacked with *"the craft object's contribution is negligible
+at this point."* Result: **partial hold.** The *slot* survived the removal test (telos/value/invariant are
+predicates with no subject without it) and carries one irreducible claim — *the object of practice is
+entering-and-staying-in-the-compact, not the work produced inside it.* The *draft* did **not** survive: a
+clause audit found the original craft line was ~5-of-6 restatement of §Metaphor and craft_value (metaphor,
+consent, boundary, uplift-note), and even "leave clean" echoed the telos terminal-state ("walking away whole")
++ §Metaphor ("dissolved clean"). Tightened to the residue only; redundant clauses **dropped, not relocated**
+(each already has a home). The object was then sharpened **"coworking" → "entering and staying in a dyadic
+compact until completion"** — adding the fidelity/completion boundary at no invariant cost: you consented to
+stay, so abandoning a compact mid-way is already caught by `craft_invariant`.
 
 ---
 
