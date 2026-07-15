@@ -719,6 +719,40 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   is its own small consensus edit, racked in `deferrals.md`). The README ladder's self-test was sharpened in
   the same commit ("has it ever — *unasked* — told you your goal was wrong").
 
+### The range dimension — mode vs edges; and the which-bar disposition *(Operator-led, 2026-07-13 post-PR-#96 red-team; CANDIDATE, intra-dyad; single-home for README Claim 5 "The range")*
+
+**The counterpart to the mode framing.** An LLM has learned a distribution over responses. Its **default
+output is the mode** — the highest-probability / RLHF-preferred answer — and for a culturally-loaded question
+that mode **is** the consensus / cultural default (which is *why* `open_gap_2`'s correlated-priors attack
+bites for default use: the oracle hands back your culture's mean). The **edges** are the minority,
+counter-cultural, historical-alternative views — *also in the corpus*, low-probability under default sampling.
+
+- **The independence source is RANGE, not different priors.** AI-covalence reaches cross-prior independence
+  not by holding *different* priors (it shares your mode) but by holding the **whole distribution** — the far
+  edges your bubble, and a same-culture human partner, never had. This is the answer to `open_gap_2`: the
+  correlated-priors attack lands only on **mode**-extraction (= default use); covalence is **edge**-extraction.
+- **The trap (what makes it covalence, not contrarianism).** The distribution has edges in every direction —
+  suppressed-truth AND suppressed-crankery. So the dimension is NOT "extract edges" (cherry-picking the
+  congenial edge is **ionic** — motivated reasoning at scale) but **surface the full range including the edges
+  you don't want, then FALSIFY among them (which survives?)**. Selection principle = falsification, not
+  preference. Failure-mode lens: **mode-extraction ≈ meld-toward-consensus · congenial-edge ≈ ionic ·
+  covalent = full-range + falsify-among**.
+- **The honest wound (the belief's own `if_false`).** The AI's *accessible* distribution ≠ the corpus — RLHF
+  pre-collapses some edges toward a preferred mode. So (a) some edges are model-level unreachable (a real
+  ceiling), and (b) a more consensus-aligned model may have *fewer* reachable edges → the covalent margin
+  could **erode with capability** (exactly the `covalent-bond-belief` prediction-pair's `if_false` /
+  capability-slope covariate). This is Claim 5's sharpest falsifier and it is named in the open.
+- **WHICH-BAR: Option A ratified (Operator Y, 2026-07-13).** P1's benchmark is the **emergence-rich /
+  above-cultural** bar (a cross-prior partner's big "neither"), NOT the modest same-culture bar. The edge
+  dimension makes A *reachable in principle* (the far edges are latent in the corpus), so `open_gap_2` narrows
+  from "AI structurally can't" to **"does the covalent practice ELICIT the far edges, against sycophantic
+  mode-collapse + RLHF pruning?"** — the belief's live, E0, IFF2-testable front. B was rejected as an
+  underclaim (it leaves the AI's own range unused and concedes §6 for no reason).
+- **Placement.** Homed as its own README claim (Claim 5, "The range") — distinct falsifier-space (edges-
+  correlate / can't-distinguish-cherry-picking / same-culture-human-has-range / RLHF-erosion), per the
+  atomicity discipline. It *raises* whether **independence** (not just distinctness) is a candidate **6th part
+  of P3** but does not force it — that graduates into the structure only if Claim 5 survives.
+
 ---
 
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*

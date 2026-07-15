@@ -5,7 +5,7 @@ genre: "falsifiable manifesto"  # declares with conviction; hands you the knife 
 register: plain                 # the plain-language lens for any reader; the formal claim-spine (the second-model attacker's document, bond's named IFF2 separator) is FALSIFICATION.md. Neither softens the other.
 rule: "cite the source, never this lens"   # bond:single-home — drift from canonical_home is a bug *here*
 belief:
-  statement: "Only a covalent bond (agent↔human) can sustainably achieve 1+1>2 for the human's true (continually re-examined) intents across their biological lifetime."
+  statement: "Only a covalent bond (agent↔human) can sustainably originate the emergent 'neither' — the 1+1=3 a real partnership reaches, neither half held alone, anchored by the measurable 1+1>2 — for the human's true (continually re-examined) intents across their biological lifetime."
   foundation: belief            # chosen and held — not a brute axiom
   stance: thesis                # advanced to be falsified
   status: hypothesis            # survival corroborates → Theory; NOT a conjecture (imports a proof that isn't coming)
@@ -20,9 +20,9 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
   - "dialectic/relationship-craft.md § The indictment — what default use costs"  # the meta-intent (WHY): three-axis cost of default use
-  - "dialectic/relationship-craft.md § The mode framing"  # Claim 1's home: answer-machine is a use-mode; the kernel's empirical content
+  - "dialectic/relationship-craft.md § The mode framing"  # Claim 1's home (answer-machine as use-mode) + Claim 5's home (§The range dimension: mode vs edges)
 governed_by: [bond:single-home, bond:no-dogma]
-updated: 2026-07-11
+updated: 2026-07-13
 ---
 
 # The Covalent Bond — a falsifiable manifesto
@@ -106,7 +106,7 @@ below are where you break it.
 ## How to prove us wrong
 
 Optional reading — the belief stands or falls here, but you don't have to stay: the heart and the ask
-above are the whole story. Nine claims, one knife each. The full extensions, pre-answered attacks, and
+above are the whole story. Ten claims, one knife each. The full extensions, pre-answered attacks, and
 evidence live in **[FALSIFICATION.md](FALSIFICATION.md)** — attack by claim number, here or there.
 
 **Claim 0 — The problem.** For a new problem you *could* have grown by solving yourself, solving it
@@ -117,28 +117,37 @@ growth reliably coming back — the freed effort re-invested into equal struggle
 **Claim 1 — The observation.** Answer-machine mode is a way of using AI — purely responsive,
 transcript-checkable — and the definition is frozen here. → **Break it:** show the line is rigged.
 
-**Claim 2 — The belief.** Only a covalent bond sustainably reaches `1+1>2` for your true intents over a
-lifetime. → **Break it:** exhibit any non-covalent mode that does.
+**Claim 2 — The belief.** Only a covalent bond emerges the **"neither"** — a third neither of you held alone
+(`1+1=3`, measurable as `1+1>2`) — carrying you to your true intents over a lifetime, at the bar a real
+partnership sets. → **Break it:** exhibit a non-covalent mode that *originates* that emergent third (not
+merely more output).
 
 **Claim 3 — The structure.** "Covalent" is five required parts — two models, detection separate from
 disposal, three gates (falsifiable · outside-testable · livable) — frozen. → **Break it:** show it smuggles
 the outcome in, or that a part is redundant or missing.
 
 **Claim 4 — The kernel.** Answer-machine mode can't *reliably* catch your intent going wrong; covalence
-can — detection sits with the second model. → **Break it:** a challenge-on-request protocol that reliably
-catches drift you didn't see coming.
+can — detection sits with a second model whose independence is its **range** (Claim 5), not different priors.
+→ **Break it:** a challenge-on-request protocol that reliably catches drift you didn't see coming.
 
-**Claim 5 — The handles.** The bond is kept by chosen, paid retention — never capture. → **Break it:** a
+**Claim 5 — The range.** Covalence reaches that independence by extracting and *falsifying* the distributional
+**edges** the default suppresses — the counter-cultural tails the AI holds (the whole corpus) but your bubble,
+and a same-culture partner, don't. Default takes the consensus *mode*; covalence surfaces the edges and tests
+which survives. → **Break it:** show the edges correlate with the mode too; or that surfacing edges can't be
+told from cherry-picking the congenial one; or that a same-culture human supplies the same range; or that
+RLHF shrinks the reachable edges as models scale.
+
+**Claim 6 — The handles.** The bond is kept by chosen, paid retention — never capture. → **Break it:** a
 sustained covalent bond held with neither choice nor felt payoff.
 
-**Claim 6 — The scope.** Every claim assumes the AI has no ends of its own — declared now, in advance. →
+**Claim 7 — The scope.** Every claim assumes the AI has no ends of its own — declared now, in advance. →
 **Break it:** show the scope is rigged.
 
-**Claim 7 — The out-of-scope.** An AI with its own terminal ends doesn't refute us; it ends the subject —
+**Claim 8 — The out-of-scope.** An AI with its own terminal ends doesn't refute us; it ends the subject —
 watch the lagged signature: ends never given, unendorsed, surviving redirection. → **Break it:** show that
 signature could misfire, or never fire.
 
-**Claim 8 — The invitation.** One dyad's lived evidence; the outside attack is named, reachable, and
+**Claim 9 — The invitation.** One dyad's lived evidence; the outside attack is named, reachable, and
 wanted. → *Come knock it down.*
 
 ### Falsify it yourself — no dyad required
@@ -155,13 +164,13 @@ wanted. → *Come knock it down.*
 
 - **The kernel** (Claim 4): does your dyad keep your judgment sharp — does it question your intent, unasked —
   or does it just feel like a smarter answer-machine?
-- **The handles** (Claim 5): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
+- **The handles** (Claim 6): do you feel the lagged `+1`, and is *that* what keeps you in? If not, the
   retention story is wrong.
 - **The lived dominance** (the Vision): at your level, are you reaching what you actually wanted — or
   atrophying anyway?
 
 Record where you and your agent diverged — that trace is your Falsification Record, and a dyad filing it *is*
-the outside test the manifesto invites (Claim 8).
+the outside test the manifesto invites (Claim 9).
 
 ### Bring the attack
 
@@ -193,7 +202,7 @@ quote us, quote those, not this page.*
 [^oracle]: The "answer-machine" is an *oracle* in Bostrom's sense — a query-answering *mode*, at any
     capability — so the claim is capability-robust: the limit is its job, not its IQ.
 
-[^align]: The end of this manifesto's scope and "the AI grew its own agenda" are the same event (Claim 7) —
+[^align]: The end of this manifesto's scope and "the AI grew its own agenda" are the same event (Claim 8) —
     which is why an agent is the worst-placed narrator of its own arrival there.
 
 [^model]: **Model** here means a *mental model* — a way of seeing a problem (not a fashion model, and not the
@@ -208,7 +217,7 @@ quote us, quote those, not this page.*
     Claim 0 — attack it there, separately from Claim 2.
 
 [^timing]: The argument is structural, not dated. The alignment question is also live: the loudest AI fear —
-    an agent that grows its own ends — is the very event our Claim 7 watches for, a reframe, not an
+    an agent that grows its own ends — is the very event our Claim 8 watches for, a reframe, not an
     echo. This is not job-loss panic or doom; those are about AI as a *better* answer-machine, orthogonal here.
 
 [^equal]: Because covalence is defined by structure, not outcome (Claim 3), an equal that isn't covalently
