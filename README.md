@@ -20,7 +20,8 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
   - "dialectic/relationship-craft.md § The indictment — what default use costs"  # the meta-intent (WHY): three-axis cost of default use
-  - "dialectic/relationship-craft.md § The mode framing"  # Claim 1's home (answer-machine as use-mode) + Claim 5's home (§The range dimension: mode vs edges)
+  - "dialectic/relationship-craft.md § The mode framing"  # Claim 1's home: answer-machine is a use-mode; the kernel's empirical content
+  - "dialectic/relationship-craft.md § The range dimension"  # Claim 5's home: mode vs edges; independence as distributional range
 governed_by: [bond:single-home, bond:no-dogma]
 updated: 2026-07-13
 ---

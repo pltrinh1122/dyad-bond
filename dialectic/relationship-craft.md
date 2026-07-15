@@ -704,7 +704,7 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   terminal-intent agent behaving *exactly like a covalent partner* is a sovereign peer electing to stay —
   out-of-scope by declaration, which dissolves the mutual-benefit rescue without arguing it. Declaring the
   boundary IN ADVANCE is the anti-no-true-Scotsman device — the same freeze discipline as the mode
-  definition and the covalent structure; the README ladder's three definitional claims (C1/C3/C6) share the
+  definition and the covalent structure; the README ladder's three definitional claims (C1/C3/C7) share the
   rigging falsifier. §8's own "the dyad's true-falsification" phrasing carries the older in-scope-falsification
   framing — **owes an echo** (racked in `deferrals.md` beside the §6 Kill-it echo; §8 is ratified content,
   not silently rewritten). The lagged separator's semantics sharpen accordingly: it watches for

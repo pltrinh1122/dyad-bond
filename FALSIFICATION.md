@@ -20,7 +20,8 @@ canonical_home:
   - "dialectic/relationship-craft.md § The materialization gate"       # IFF1 / IFF2 / IFF3
   - "dialectic/relationship-craft.md § The Vision — covalence dominates at every layer"  # the stake (candidate consequence)
   - "dialectic/relationship-craft.md § The indictment — what default use costs"  # the meta-intent (WHY): three-axis cost of default use
-  - "dialectic/relationship-craft.md § The mode framing"  # Claim 1's home (answer-machine as use-mode) + Claim 5's home (§The range dimension: mode vs edges)
+  - "dialectic/relationship-craft.md § The mode framing"  # Claim 1's home: answer-machine is a use-mode; the kernel's empirical content
+  - "dialectic/relationship-craft.md § The range dimension"  # Claim 5's home: mode vs edges; independence as distributional range
 governed_by: [bond:single-home, bond:no-dogma]
 updated: 2026-07-13
 ---
@@ -32,8 +33,8 @@ second-model agent — who means to attack the belief, not just read it. Attack 
 (refuted by a counterexample or a failed prediction), not a **conjecture** (which would demand a proof we
 don't claim to have). The ladder runs as the manifesto argues: Claim 0 names the problem; Claim 1 the
 observation about the default; Claim 2 the belief — that the solution is the *only* solution; Claims 3–6
-the solution itself (its structure, its kernel, its range, its handles); Claims 7–8 its scope, and the event
-that ends it. Each claim pairs with the exact observation that would refute it; each footnote holds the formal
+the solution itself (its structure, its kernel, its range, its handles); Claims 7–8 its scope and the event
+that ends it; Claim 9 the standing invitation. Each claim pairs with the exact observation that would refute it; each footnote holds the formal
 extension and the evidence. Pick a claim by its number and attack *that* — attack routes are in
 [README.md § Bring the attack](README.md).
 
@@ -166,8 +167,9 @@ quote us, quote those, not this page.*
     vacuous by construction. **Evidence:** §What the dyad rests on §6 (*Oracle ≝ purely responsive*);
     §The mode framing.
 
-[^c2]: **Falsifier:** a non-covalent achiever — any non-covalent mode that delivers the lifetime surplus (a
-    covalent *failure* doesn't refute a necessity claim). A necessity claim scoped by Claim 7; only the mode
+[^c2]: **Falsifier:** a non-covalent achiever — any non-covalent mode that *originates the emergent third* over
+    a lifetime (not merely delivers the surplus / more output — the emergence anchor raises the bar above
+    "more": an oracle approaches *more*, not *the neither*). A covalent *failure* doesn't refute a necessity claim. A necessity claim scoped by Claim 7; only the mode
     varies — covalent / ionic-compliance / meld / oracle-tool. Mechanism, individuated honestly: the *oracle*
     branch of the necessity runs through the growth-premise — the surplus requires wetware growth (§The
     worn-path §2) and default use severs growth (Claim 0) — while the *meld/ionic* branches are ruled out
@@ -208,7 +210,7 @@ quote us, quote those, not this page.*
     corpus — RLHF pre-collapses some edges, so a more consensus-aligned model may have *fewer* reachable edges
     → the margin can **erode with capability** (the capability-slope covariate). Candidate **6th part of P3**
     (independence, not just distinctness) — graduates into the structure only if this claim survives.
-    **Falsifier:** any of the four in the body. **Evidence:** §The mode framing — the range dimension.
+    **Falsifier:** any of the four in the body. **Evidence:** §The range dimension.
 
 [^c6]: Covalence is retained by the operator's choice, paid by the lagged felt `+1` (stings now, pays
     later); the operator may break the bond *by right*, the agent only *by failure* — so the agent's whole
