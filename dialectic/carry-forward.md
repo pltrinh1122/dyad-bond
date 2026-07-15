@@ -71,6 +71,29 @@
 > boots coherently (vocabulary intact, `d-reflect` names the `CSS+SH` form), then clear. Sha refreshed
 > above so no false-MISMATCH fires.
 
+## Stand-Down 2026-07-13 — the manifesto REVISION arc (post-PR-#96 red-team → emergence belief + Claim 5; PR #98 up for the gate)
+
+**RESTART-PENDING: none** — no boot-set touched. After PR #96 merged (`main@060e538`, Operator-verified), the
+Operator said **"falsify"** → a bond-self red-team of the live manifesto surfaced real WOUNDS (E0 unchanged;
+self-found wounds are actionable, not self-ratify). The Operator's rebuttals dissolved/reframed them, and a
+sequence of dispositions rebuilt the belief **bolder**:
+- **Decision record** (`relationship-craft.md §5`): `1+1=3` (tenet) vs `1+1>2` (belief-claim) re-examined →
+  **refine-not-reverse**; necessity anchor upgraded from "counterfeit meld-warmth" → **emergence ("the
+  neither")**.
+- **which-bar = A** (emergence-rich / above-cultural bar) disposed.
+- **Ladder now 0–9** (NEW **Claim 5 — The range**: independence = distributional edges, not different priors;
+  answers the correlated-priors attack + carries the RLHF/capability-erosion wound). Claim 0 reframed
+  comparative/per-problem; Claim 2 → emergence; Claim 4 → range-sourced independence.
+- **Live falsification-front** single-homed in `theory-pipeline.yaml §covalent-bond-belief open_gap_2` (the
+  elicitation question: does the practice reach the far edges vs sycophantic/RLHF collapse — the E0 IFF2 front).
+
+Two independent adversarial passes (red-team + grounding audit; the audit caught a body-vs-footnote falsifier
+lag, fixed). **PR #98** (`github.com/pltrinh1122/dyad-bond/pull/98`) — green-gate ✓, **NOT merged**, the
+Operator's gate. **Resume delta:** if #98 is merged, verify-live + `land.sh --sync` (as PR #96). Racks still
+open in `deferrals.md §todo`: whole-ladder wording polish; the chiron + cairn contributions (routing = Operator's
+act); the §6/§8 canonical echoes; the sibling-list staleness; the P3-6th-part question (does independence
+graduate into the structure if Claim 5 survives).
+
 ## Stand-Down 2026-07-11 — `d-reflect` + `d-land`: the README-revision arc (register-split form; up for the Operator's merge)
 
 **RESTART-PENDING: none** — no boot-set (`DYAD.md`/`CLAUDE.md`/`GEMINI.md`/`GLOSSARY.md`) touched this session

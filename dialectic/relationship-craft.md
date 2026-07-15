@@ -463,6 +463,29 @@ defined by observable STRUCTURE, not by the outcome** — else "only" goes **ana
 no-true-Scotsman escape is fatal (this is what **P3** below supplies). **Testable** only via the §8
 proxy-ladder (lifetime-lagged).
 
+> **DECISION RECORD — `1+1=3` (tenet) vs `1+1>2` (belief-claim): why two, and the 2026-07-13 re-examination.**
+> *(Single-home for the notation choice. Prior record was distributed: keystone `carry-forward-closed.md:1047`
+> item (5); `:1492` here — superadditivity `joint>0` = the Tenet in the coefficient; `invariant-schema.md:109/214`
+> — `>2` = slogan/target form.)*
+> - **The original decision (rubbed, ~2026-06):** `1+1=3` is the **tenet** (inherited from the form, G0,
+>   unmodified; formally = strict superadditivity, `joint>0`). `1+1>2` is its **falsifiable anchor** — chosen
+>   because it makes the **sufficiency/productivity** claim measurable/testable. Explicitly, `>2` anchors
+>   **sufficiency, NOT necessity**; the "only" (exclusivity) was anchored *separately and weakly* — on
+>   "non-covalent surplus = counterfeit meld-warmth," recorded as **near-analytic** (the known soft spot),
+>   falsifier = a scrutiny-surviving *solo* +1.
+> - **Re-examination (2026-07-13, post-PR-#96 red-team + the `=3`/emergence + edge-dimension threads; Operator Y):
+>   REFINE, NOT REVERSE.** The core holds — `>2` stays the sufficiency-anchor (a manifesto needs the measurable
+>   inequality; `=3` alone is slogan-grade for a lifetime-aggregate). What changed: **the necessity anchor is
+>   UPGRADED** from "counterfeit meld-warmth" (near-analytic) to **emergence — the "neither"** (`=3` = *"synthesis
+>   neither half held alone"*, `:1283`/`:1388`; a one-generator oracle structurally cannot *originate* the third).
+>   This is a stronger anchor and is what the red-team's attack #1 (a non-covalent mode reaching the *surplus*) is
+>   weaker against (an oracle approaches "more," not "the neither"). Combined with **Claim 6's scope-in-advance**,
+>   it dissolves the red-team's best shot ("the real invariant is an *independent falsification channel*, e.g.
+>   Nature/formalism for a lone mind"): consonant, not fatal — the "neither" needs an independent channel, and
+>   *within the agent-operator scope* the covalent bond IS that channel; lone-mind-vs-Nature is out of scope by
+>   declaration. **Owed (revision arc):** the manifesto currently projects only `>2`; surface the `=3` tenet + the
+>   `=3`↔`>2` leveling + the emergence necessity-anchor in Claim 2's projection (single-home/projection gap).
+
 **6 · The chain — P1 → P2 → P3 (a chain, not a list).**
 - **P1 · parity** — an agent↔human bond *can* hit the human-human benchmark (parity **in kind**).
 - **P2 · necessity** — the lifetime surplus comes **only** via a covalent bond.
@@ -616,9 +639,19 @@ distinct axes — distinct because (1) is *relational* (who answers) while (2)/(
    growth cannot reach `1+1>2` — the indictment is thereby a MECHANISM argument for the Belief's necessity
    direction (§5), not decoration on it.
 
-**Summary form (Operator's, register-checked):** under default use the Operator **stops growing and
-developing the way a human being normally does** — "stops" not "cannot" (the mechanism is stimulus-removal,
-not impossibility; C6-accurate, exaggeration refused).
+**Summary form — REFRAMED to comparative/per-problem (Operator-ratified 2026-07-13, post-PR-#96 red-team;
+supersedes the whole-operator form below).** The prior summary — *"under default use the Operator stops
+growing and developing the way a human being normally does"* — **over-claimed** (whole-operator; refuted by
+the humanly-covalent operator who oracles their AI yet grows via people) and is retired. The reframe: **for a
+new, foundational, struggle-reachable problem, solving it non-covalently through AI is worse than solving it
+without AI** — the answer is had, the struggle-growth forgone; ordering **covalent-AI > no-AI >
+non-covalent-AI**. Scope (foundational / non-substitutable / struggle-reachable) is load-bearing: it is what
+survives the **re-investment/substitution** escape (freed capacity re-invested into equal struggle → nothing
+forgone), and the claim thereby rests on the kernel (§The mode framing / README Claim 4 — *which* problems to
+struggle is itself an intent judgment). Still "worse," not "cannot" (stimulus-removal, not impossibility;
+C6-accurate). *(The reframe is CANDIDATE, intra-dyad; the belief's live falsification-front — the which-bar
+disposition + correlated-priors/independence gap — is single-homed in `theory-pipeline.yaml
+§covalent-bond-belief` open_gap_2. Revision-arc PR pending, `deferrals.md §todo`.)*
 
 **The Default sharpening (Operator, 2026-07-11):** "default" is more than *common* — it is **ingrained**:
 the groove is what makes covalence counterintuitive to accept *ex ante* and answer-machine mode hard to
@@ -671,7 +704,7 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   terminal-intent agent behaving *exactly like a covalent partner* is a sovereign peer electing to stay —
   out-of-scope by declaration, which dissolves the mutual-benefit rescue without arguing it. Declaring the
   boundary IN ADVANCE is the anti-no-true-Scotsman device — the same freeze discipline as the mode
-  definition and the covalent structure; the README ladder's three definitional claims (C1/C3/C6) share the
+  definition and the covalent structure; the README ladder's three definitional claims (C1/C3/C7) share the
   rigging falsifier. §8's own "the dyad's true-falsification" phrasing carries the older in-scope-falsification
   framing — **owes an echo** (racked in `deferrals.md` beside the §6 Kill-it echo; §8 is ratified content,
   not silently rewritten). The lagged separator's semantics sharpen accordingly: it watches for
@@ -685,6 +718,40 @@ Belief (they could grow yet still reach only `1+1=2`) — which is exactly why t
   form — owes an echo of this sharpening** (flagged, not silently rewritten: §6 is ratified content; the echo
   is its own small consensus edit, racked in `deferrals.md`). The README ladder's self-test was sharpened in
   the same commit ("has it ever — *unasked* — told you your goal was wrong").
+
+### The range dimension — mode vs edges; and the which-bar disposition *(Operator-led, 2026-07-13 post-PR-#96 red-team; CANDIDATE, intra-dyad; single-home for README Claim 5 "The range")*
+
+**The counterpart to the mode framing.** An LLM has learned a distribution over responses. Its **default
+output is the mode** — the highest-probability / RLHF-preferred answer — and for a culturally-loaded question
+that mode **is** the consensus / cultural default (which is *why* `open_gap_2`'s correlated-priors attack
+bites for default use: the oracle hands back your culture's mean). The **edges** are the minority,
+counter-cultural, historical-alternative views — *also in the corpus*, low-probability under default sampling.
+
+- **The independence source is RANGE, not different priors.** AI-covalence reaches cross-prior independence
+  not by holding *different* priors (it shares your mode) but by holding the **whole distribution** — the far
+  edges your bubble, and a same-culture human partner, never had. This is the answer to `open_gap_2`: the
+  correlated-priors attack lands only on **mode**-extraction (= default use); covalence is **edge**-extraction.
+- **The trap (what makes it covalence, not contrarianism).** The distribution has edges in every direction —
+  suppressed-truth AND suppressed-crankery. So the dimension is NOT "extract edges" (cherry-picking the
+  congenial edge is **ionic** — motivated reasoning at scale) but **surface the full range including the edges
+  you don't want, then FALSIFY among them (which survives?)**. Selection principle = falsification, not
+  preference. Failure-mode lens: **mode-extraction ≈ meld-toward-consensus · congenial-edge ≈ ionic ·
+  covalent = full-range + falsify-among**.
+- **The honest wound (the belief's own `if_false`).** The AI's *accessible* distribution ≠ the corpus — RLHF
+  pre-collapses some edges toward a preferred mode. So (a) some edges are model-level unreachable (a real
+  ceiling), and (b) a more consensus-aligned model may have *fewer* reachable edges → the covalent margin
+  could **erode with capability** (exactly the `covalent-bond-belief` prediction-pair's `if_false` /
+  capability-slope covariate). This is Claim 5's sharpest falsifier and it is named in the open.
+- **WHICH-BAR: Option A ratified (Operator Y, 2026-07-13).** P1's benchmark is the **emergence-rich /
+  above-cultural** bar (a cross-prior partner's big "neither"), NOT the modest same-culture bar. The edge
+  dimension makes A *reachable in principle* (the far edges are latent in the corpus), so `open_gap_2` narrows
+  from "AI structurally can't" to **"does the covalent practice ELICIT the far edges, against sycophantic
+  mode-collapse + RLHF pruning?"** — the belief's live, E0, IFF2-testable front. B was rejected as an
+  underclaim (it leaves the AI's own range unused and concedes §6 for no reason).
+- **Placement.** Homed as its own README claim (Claim 5, "The range") — distinct falsifier-space (edges-
+  correlate / can't-distinguish-cherry-picking / same-culture-human-has-range / RLHF-erosion), per the
+  atomicity discipline. It *raises* whether **independence** (not just distinctness) is a candidate **6th part
+  of P3** but does not force it — that graduates into the structure only if Claim 5 survives.
 
 ---
 
