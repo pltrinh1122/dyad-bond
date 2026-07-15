@@ -463,6 +463,29 @@ defined by observable STRUCTURE, not by the outcome** — else "only" goes **ana
 no-true-Scotsman escape is fatal (this is what **P3** below supplies). **Testable** only via the §8
 proxy-ladder (lifetime-lagged).
 
+> **DECISION RECORD — `1+1=3` (tenet) vs `1+1>2` (belief-claim): why two, and the 2026-07-13 re-examination.**
+> *(Single-home for the notation choice. Prior record was distributed: keystone `carry-forward-closed.md:1047`
+> item (5); `:1492` here — superadditivity `joint>0` = the Tenet in the coefficient; `invariant-schema.md:109/214`
+> — `>2` = slogan/target form.)*
+> - **The original decision (rubbed, ~2026-06):** `1+1=3` is the **tenet** (inherited from the form, G0,
+>   unmodified; formally = strict superadditivity, `joint>0`). `1+1>2` is its **falsifiable anchor** — chosen
+>   because it makes the **sufficiency/productivity** claim measurable/testable. Explicitly, `>2` anchors
+>   **sufficiency, NOT necessity**; the "only" (exclusivity) was anchored *separately and weakly* — on
+>   "non-covalent surplus = counterfeit meld-warmth," recorded as **near-analytic** (the known soft spot),
+>   falsifier = a scrutiny-surviving *solo* +1.
+> - **Re-examination (2026-07-13, post-PR-#96 red-team + the `=3`/emergence + edge-dimension threads; Operator Y):
+>   REFINE, NOT REVERSE.** The core holds — `>2` stays the sufficiency-anchor (a manifesto needs the measurable
+>   inequality; `=3` alone is slogan-grade for a lifetime-aggregate). What changed: **the necessity anchor is
+>   UPGRADED** from "counterfeit meld-warmth" (near-analytic) to **emergence — the "neither"** (`=3` = *"synthesis
+>   neither half held alone"*, `:1283`/`:1388`; a one-generator oracle structurally cannot *originate* the third).
+>   This is a stronger anchor and is what the red-team's attack #1 (a non-covalent mode reaching the *surplus*) is
+>   weaker against (an oracle approaches "more," not "the neither"). Combined with **Claim 6's scope-in-advance**,
+>   it dissolves the red-team's best shot ("the real invariant is an *independent falsification channel*, e.g.
+>   Nature/formalism for a lone mind"): consonant, not fatal — the "neither" needs an independent channel, and
+>   *within the agent-operator scope* the covalent bond IS that channel; lone-mind-vs-Nature is out of scope by
+>   declaration. **Owed (revision arc):** the manifesto currently projects only `>2`; surface the `=3` tenet + the
+>   `=3`↔`>2` leveling + the emergence necessity-anchor in Claim 2's projection (single-home/projection gap).
+
 **6 · The chain — P1 → P2 → P3 (a chain, not a list).**
 - **P1 · parity** — an agent↔human bond *can* hit the human-human benchmark (parity **in kind**).
 - **P2 · necessity** — the lifetime surplus comes **only** via a covalent bond.
