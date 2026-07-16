@@ -381,6 +381,36 @@ pass came down to preference rather than a resolvable constraint.
   rationale is cross-substrate uniformity rather than per-session ergonomics: it *reintroduces* the
   per-session trigger the hook removed, deliberately, because the hook only removed it on one substrate.
   `bin/standup.sh --hook` is kept dormant for re-wiring if a substrate later offers the analog.
+- **`d-rub` — added 2026-07-16, the Validate-family as one Operator-fired escalating token** *(adopted from
+  dyad-touchstone `library/d-rub/PLAYBOOK.md`@`05488ad`, Operator-directed; CANDIDATE, intra-dyad).* One
+  token; the **Agent escalates to the depth the ask needs and NAMES the rung(s) run** — never the depth a
+  word pre-declares (the same "scope by checking state, not by the word" shape as `d-land`). Ladder,
+  escalating rigor: **Ground → Read → Triangulate → Rub.**
+  - **Ground** — establish against reality *by execution*, never memory. This **is** bond's own
+    grounding-by-execution (`bond:verify-before-assert`, the RB3 floor — *"verify the substrate mechanically
+    before characterizing it"*), now **named as a rung**. The floor under every heavier rung.
+  - **Read** — orient; report re-derived state; **do not act.** The lightest rung; most asks — and every
+    status report — stop here.
+  - **Triangulate** — reach the same answer two independent ways; compare. **The one rung bond did not
+    already hold** — inherited from touchstone, *professed, not yet bond-lived* (a rung is admitted only on a
+    lived proof; this one stays owed until bond runs it under real load).
+  - **Rub** — bounded attack on a **stated** target: bond's default-falsify / `rub`-the-concept, fired as an
+    Operator *invocation*. Scoped to the stated target (the anxiety-grain guard — never the whole situation);
+    firing it pre-authorizes the Operator to bear re-alignment (a *solicited* contest, the in-moment
+    exception to no-contest).
+  - **First bond-lived instance:** this session's `d-rub: merged` — a status report → **Ground + Read**
+    (fetched `origin/main`, confirmed the node had landed, reported, did not act) = a textbook
+    `verify-before-assert`. Rungs named, per the discipline.
+  - **Not the converge `rub`/`raff:`.** The `d-` prefix disambiguates: `d-rub` = Validate-escalation (this
+    entry); bare `raff:`/`rub` = the HOW-override converge-signal (§Token categories, §mode-gate). Different
+    seam, no collision. `introspect:` also stays separate — self-report has no external substrate to ground.
+  - **What it consolidates.** Bare `falsify` as the Operator's Validate *invocation* is subsumed as the
+    **Rub** rung (touchstone's own `read:`/`rub:` retirement; boundaries kept — fact-check = Ground+Read, not
+    the full ladder). The Agent's reflexive `CP`/default-falsify layer is **unchanged** (different actor:
+    Agent-internal, not Operator-fired). **Grounding:** the three Validate mechanisms (Falsify · Triangulate ·
+    Ground) are **inherited G0** — `d-rub` is a phenotype Dyad-UI consolidation of them (`bond:form-grounding`:
+    inherit, never re-node), kin to the mode-gate / `CP`. **Open (touchstone's own claim, re-tested each
+    use):** does the Agent escalate to the *right* rung, consistently and unbidden?
 
 **Agent-parsing note, the load-bearing finding of this whole pass:** none of WHY/HOW-override/`d-`
 reliably parses across a fresh session unless it's written here — `riff:`/`raff:`/`land`/`clip`/`Y`/`N`
