@@ -453,6 +453,35 @@ candidates:
          note: "SELF-run (bond substrate, not IFF2) -> E0 UNCHANGED; self-survival raises nothing, but self-found WOUNDS are actionable (opposite of self-ratify). Surfaced open_gap_2 (correlated-priors/independence -> Claim 4's 'reliably' unearned above-cultural; candidate 6th part of P3). Belief's LITERAL horn ('only agent<->human') dissolved by the Operator's benchmark reply (human-human = the BAR, not a rival mode = P1, canon [^benchmark]) -- BUT that imports the bar's independence, sharpening open_gap_2, and forces the WHICH-BAR disposition. Claim 0's whole-operator overclaim ('stops growing the way a human normally does') conceded + reframed by Operator to a COMPARATIVE per-problem claim (non-covalent-AI on a foundational/non-substitutable/struggle-reachable NEW problem is worse than no-AI on growth; ordering covalent > no-AI > non-covalent) -- bond-falsified for the re-investment/substitution escape, so scoped to foundational-non-substitutable + shown DOWNSTREAM of Claim 4 (which-to-struggle is itself an intent judgment). Revision-arc racked in deferrals.md; reframed-Claim-0 draft owed. next_probe unchanged (IFF2 external still the coverage move); open_gap_2 is the sharpened target."}
     status: live
 
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  # G0 FORM-CONTRIBUTION CANDIDATE — a methodology invariant harvested from the covalent-bond-belief
+  # red-team #2 arc (2026-07-15). NOT a belief about covalence; a craft-invariant about how claims are
+  # crafted. Bond-local (phenotype, invariants-bond.yaml: bond:claim-falsifiability-metric); racked HERE
+  # for the prove-before-propose gate to the form's G0 (falsifiability is INHERITED G0 — bond cannot
+  # re-node it; graduation is the Founding-Operator seat, not the Bond ratifier's, per channel-gates).
+  # ──────────────────────────────────────────────────────────────────────────────────────────
+  - id: claim-falsifiability-metric
+    statement: >
+      When crafting or revising a claim, among revisions that keep it a genuine TRUTH-CANDIDATE, prefer the
+      one that most EXPOSES it to refutation. The breach is an AD-HOC defendability-move (a hedge or scope-
+      narrowing whose only motive is to escape a specific refutation). This is a BREACH-DETECTOR, not an
+      objective-function: "maximize falsifiability" would license the symmetric breach (reckless over-claiming).
+    claim_type: craft-invariant
+    provenance: {origin: Operator, born: 2026-07-15, sharpened: 2026-07-16, session: "readme-revision (post-PR-#98 red-team #2, then self-red-team)"}
+    grade: L1                       # bond-local (Operator Y); intra-dyad only
+    coverage: {weight: {status: open}, corpus: {status: open}, human: {status: open}}
+    open_gap: {type: layer-locality, text: "bond-local only (invariants-bond.yaml phenotype). G0-graduation is E0 -> needs an OUTSIDE dyad to try to BREAK it (its own metric self-applies: the test is refutation from outside, not defense from bond)."}
+    next_probe: "prove-before-propose: survive local application through the CORRECTIVE REVISION ARC (does the breach-detector actually restore the =3 belief's exposure without buying ad-hoc defendability?), THEN propose to the form's G0 via the Founding-Operator gate. Bond does NOT self-graduate."
+    exec_phase: PROBE
+    form_contribution: {target: "form G0 (operationalizes the inherited falsifiability law's crafting-direction)", gate: prove-before-propose, hat: Founding-Operator, status: racked}
+    standing_falsifier: "a case where INCREASING defendability was the correct crafting move AND is not re-describable as truth-tracking re-exposure (n=1 provenance -> RB3 over-fit watch)."
+    status: live
+    disposition_history:
+      - {at: 2026-07-15, event: "authored + bond-local ratified (Operator Y); EARNED by red-team #2 (the emergence overclaim, PR #98, optimized defendability while believing it refined -> net-negative on falsifiability)", verdict: survived,
+         note: "First phrasing: 'the SINGULAR success metric is greater/easier falsification' (objective-function reading)."}
+      - {at: 2026-07-16, event: "self-red-team of the node BEFORE proposing to G0 (Operator: 'falsify')", verdict: "survived-WOUNDED -> SHARPENED",
+         note: "A1 falsifiability-maximalism = reckless over-claiming (all-swans-white out-exposes pond-swans + is false) · A2 'exposure' is not a scalar (=3 traded targets across axes; no operationalization = the same unfalsifiability charge bond used against =3) · A3 'scope-narrowing = breach' forbids the node's OWN next_probe (the human-AI rescoping is truth-tracking re-exposure, MORE falsifiable) · A4 'singular metric' = Goodhart, violates the schema's own math-form guard (use: breach-detector, never objective-function) · A5 n=1 over-fit. RESOLUTION (additive, not softening): reframe objective-function -> BREACH-DETECTOR (flags the AD-HOC dodge), demote 'singular' -> primary-subordinate-to-truth-candidacy, add the ad-hoc qualifier (truth-tracking re-exposure is allowed), log the A5 standing falsifier. The sharpening gives CLEANER refutation targets (more exposed, not less) -> the metric applied to itself. The node had committed a mild version of its own named sin; prove-before-propose caught it locally, before G0. E0 unchanged (self-attack)."}
+
   - id: C2-complexity-gates-translation
     statement: "Complexity GATES translation (dose-response)."
     claim_type: design-model
