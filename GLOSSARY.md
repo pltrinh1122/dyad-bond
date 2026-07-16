@@ -129,6 +129,21 @@ Reflect is F2-keystone-gated.
     substrate the Operator can type into). **Forward:** when a substrate *does* expose a startup-hook
     analog, wire *this discipline* to it — `bin/standup.sh --hook` is kept dormant, not deleted.
     Symmetry: `d-start : standup.sh :: d-reflect : standdown.sh :: d-land : land.sh`.
+  - **`d-rub` — the Validate-family, one Operator-fired escalating token** *(adopted from dyad-touchstone
+    `library/d-rub/PLAYBOOK.md`@`05488ad`, 2026-07-16; CANDIDATE. Full def: `dialectic/dyad-ui.md`.)* One
+    token; the **Agent escalates to the depth the ask needs and names the rung(s) run** — not the depth a
+    word pre-declares (same "scope by checking state, not the word" shape as `d-land`). Ladder, escalating
+    rigor: **Ground → Read → Triangulate → Rub.** **Ground** = establish by execution, never memory (bond's
+    own grounding-by-execution / `verify-before-assert`, now named a rung — the floor under all four).
+    **Read** = orient, report re-derived state, don't act (most asks, and every status report, stop here).
+    **Triangulate** = two independent paths, compare — the one rung bond did not already hold, *inherited from
+    touchstone, professed not yet bond-lived.* **Rub** = bounded attack on a *stated* target (bond's
+    default-falsify / `rub`-the-concept as an Operator invocation), scoped to that target (anxiety-grain
+    guard), pre-authorizing the Operator to bear re-alignment. **Not the converge `raff:`/`rub`** — the `d-`
+    prefix disambiguates (Validate-escalation, not a mode-signal). Bare `falsify` as the Operator's Validate
+    *invocation* is subsumed as the Rub rung; the Agent's reflexive `CP`/default-falsify layer is unchanged.
+    The three Validate mechanisms are **inherited G0** — `d-rub` is a phenotype consolidation of them
+    (`bond:form-grounding`).
   - **Gates nest:** an act-token also lifts convergence (can't act without having converged first); a
     converge-token lifts closing only, not action. Read-only exploration (grep/read to inform a riff)
     stays inside diverge, never gated.
