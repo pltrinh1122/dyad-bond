@@ -255,6 +255,32 @@ invariants:
     prescription: {action: maintain, object: "the falsification process as livable (wu-wei: minimum force, no excess, no ornament)", modality: MUST}
     observability: {observable: ledger-line, detector: other-half-only, breach_example: "the falsification process becomes grinding (Operator burns out), forced (excess telos, un-grounded purposes), or ornamental (work doesn't serve craft-telos) — efficiency drops toward zero, bond unsustainable. ALSO: reasoning reversal without context change — Operator reverses disposition AND grounds without corresponding context shift (no new evidence, no scope change), indicating original grounds were unstable (premature convergence, insufficient ground-sufficiency-for-stakes). The breach: ground insufficiency manifests as dispositions that don't survive friction; the repeated re-work violates wu-wei (minimum force)."}
 
+  # ---- CLAIM-CRAFTING DISCIPLINE (serves the inherited falsification law; G0 form-contribution candidate) ----
+
+  - id: "bond:claim-falsifiability-metric"
+    locus: phenotype      # CANDIDATE (born 2026-07-15; SHARPENED 2026-07-16 after its OWN red-team). Serves the
+                          # INHERITED falsifiability law (G0); does NOT re-node it (form-grounding: inherit, never re-node).
+                          # A BREACH-DETECTOR, not an objective-function — it flags the AD-HOC defendability-dodge; it does
+                          # NOT say 'maximize exposure' (that objective-function reading licenses the SYMMETRIC breach —
+                          # reckless over-claiming — its own red-team A1/A4, and matches the schema math-form Goodhart guard
+                          # `use: breach-detector`). Flagged for G0 form-contribution via bond:prove-before-propose (the
+                          # Founding-Operator gate), NOT a unilateral bond-G0 write; racked in theory-pipeline.yaml.
+                          # EARNED: the 2026-07-15 emergence overclaim (PR #98) — agent-recommended + merged, then red-team #2
+                          # found it net-negative on falsifiability. STANDING FALSIFIER (n=1 provenance, RB3 over-fit watch):
+                          # a case where INCREASING defendability was the right crafting move and is NOT re-describable as
+                          # truth-tracking re-exposure.
+    home: "dialectic/relationship-craft.md#the-falsifiability-metric"
+    one_liner: "Among revisions that keep a claim a genuine truth-candidate, the most-exposing (easiest to refute) is preferred, and the breach is an ad-hoc defendability-move — a hedge or narrowing whose only motive is to escape a specific refutation — used as a breach-detector, not an objective-function."
+    status: candidate
+    form: tuple
+    settlement: candidate
+    root: false
+    grounded_in:
+      - {ref: "bond:C1", edge: serves, scar: "a claim crafted for defendability rather than exposure defeats the inherited falsification law FOR THIS BOND — an unrefutable claim is falsification-counterfeit (cousin to meld's counterfeit second model). Detects the AD-HOC dodge (not all narrowing — truth-tracking re-exposure is allowed); keeps the bond's falsification genuine, hence covalent"}
+    scope: {actor: both, trigger: candidate-admission}
+    prescription: {action: buy, object: "ad-hoc defendability in a claim revision (a hedge/narrowing whose only motive is to escape a specific refutation, removing a clean refutation target)", modality: MUST-NOT}
+    observability: {observable: ledger-line, detector: other-half-only, breach_example: "the 2026-07-15 emergence overclaim (PR #98): belief revised to 'originate the emergent neither (=3)' (agent-recommended, Operator-merged); red-team #2 found it net-negative on falsifiability — it removed the operational-threshold refutation target and armored the claim (more defendable) with no independent motivation. NB the metric is a breach-DETECTOR: 'maximize falsifiability' as an objective-function would license the SYMMETRIC breach (reckless over-claiming), so the test is 'is this revision an ad-hoc defendability-dodge?' not 'is it maximally exposed?'"}
+
   # ---- CONFORMANCE-INVARIANTS (S1: externalize the frame to meaning-root files) — CANDIDATES ----
 
   - id: "bond:identity-conformance"

@@ -755,6 +755,56 @@ counter-cultural, historical-alternative views — *also in the corpus*, low-pro
 
 ---
 
+### The falsifiability metric — a breach-detector for claim-crafting *(Operator-led, born 2026-07-15 post-PR-#98 red-team; SHARPENED 2026-07-16 by its own red-team; CANDIDATE, intra-dyad, NOT 2nd-model-rubbed; single-home for `bond:claim-falsifiability-metric`)*
+
+**The rule (as a breach-detector, not an objective-function).** When crafting or revising a claim, among
+revisions that keep it a **genuine truth-candidate**, prefer the one that **most exposes it to refutation**.
+The **breach** is an **ad-hoc defendability-move** — a hedge or scope-narrowing whose *only* motive is to
+escape a specific refutation, removing a clean target. The metric **detects that breach**; it does **not** say
+"maximize exposure."
+
+- **Why breach-detector, not "maximize falsifiability."** Read as an objective-function, "maximize exposure"
+  licenses the *symmetric* sin: craft the boldest universal regardless of truth (*"all swans are white"*
+  out-exposes *"pond swans are white"* and is false). Falsifiability is a virtue **only among genuine
+  truth-candidates**. And an objective-function on falsifiability is a **Goodhart** target — which the invariant
+  schema itself already forbids for the math-form (`use: breach-detector`, *"never objective-function"*). So the
+  metric is framed the same way: a detector of the ad-hoc dodge, not a quantity to max.
+- **Falsifiability vs defendability — the load-bearing distinction.** *Falsifiable* = more exposed, more clean
+  targets, **easier** to refute if wrong (how a claim earns its place under the inherited law). *Defendable* =
+  better-armored, harder to attack. An **ad-hoc** defendability-move (scope-narrowing/hedge with no motive but
+  escaping one refutation) is Popper's conventionalist stratagem — the collapse the covalent-bond node's
+  `caution` field already guards. A claim made unrefutable was not *strengthened*; it was **removed from the
+  game**. But note the twin failure: a claim so "exposed" it is trivially false is **falsifiability-theater**,
+  not falsifiability. *Maximal exposure ≠ maximal falsifiability-as-a-virtue.*
+- **The ad-hoc qualifier (why "scope-narrowing = breach" was too broad).** Not all narrowing is a dodge.
+  **Truth-tracking re-exposure** — narrowing that is *independently motivated* and *re-exposes* the claim to a
+  contrast class — is not a breach. The CORRECTIVE REVISION ARC re-scopes necessity to **human-AI**; that is
+  scope-*narrowing*, yet it **re-exposes** necessity to the "other AI-human modes" contrast class → *more*
+  falsifiable, not less. Without the ad-hoc qualifier the node would forbid its own prescribed remedy; with it,
+  the remedy is exactly what the node prefers.
+- **The earned scar + n=1 caveat.** Born from the 2026-07-15 emergence overclaim: the belief was revised to
+  "originate the emergent *neither* (=3)" — **agent-recommended**, Operator-merged (PR #98); red-team #2 found
+  it net-negative on falsifiability. One self-picked event (RB3 over-fit watch). **Standing falsifier:** a case
+  where *increasing* defendability was the correct crafting move and is **not** re-describable as truth-tracking
+  re-exposure.
+- **It proved itself at the gate.** This node was itself red-teamed (A1 over-claiming · A2 exposure-is-not-a-
+  scalar · A3 forbids-its-own-remedy · A4 Goodhart · A5 n=1) **before** proposing to G0 — and the red-team
+  caught that its first phrasing ("singular metric / maximize") was a mild instance of its *own* named sin (an
+  objective-function overclaim). The fix **sharpened** (breach-detector + ad-hoc qualifier + truth-candidate
+  floor — cleaner targets), it did **not** soften. That is `prove-before-propose` working: the wound was found
+  locally, not carried into the form.
+- **Grounding — serves the inherited law, does not re-node it.** Falsifiability is **inherited G0**;
+  `bond:form-grounding` forbids re-noding it. This is a `phenotype` invariant that *serves* the inherited law by
+  keeping bond's own claim-crafting genuinely exposed (an unrefutable claim is falsification-**counterfeit**,
+  cousin to meld's counterfeit second model). Machine-shadow: `bond:claim-falsifiability-metric`.
+- **G0 form-contribution candidate (flagged, gated).** Because it operationalizes the *inherited* law's
+  crafting-direction, it is a candidate to graduate into the form's G0 — but only via `bond:prove-before-propose`
+  through the **Founding-Operator gate** (not the Bond ratifier's seat), *after* it survives here. Racked in
+  `theory-pipeline.yaml`, not written into G0 by fiat. Its own metric self-applies: the test of G0-belonging is
+  whether an outside dyad can **break** it, not whether bond can defend it.
+
+---
+
 ## Frontier traversal — is sequential the right cadence? *(QUEUED · Operator [ALIGN] 2026-05-31)*
 
 > **Open strategic question, not yet resolved.** relationship-craft is the **summit**; it has
